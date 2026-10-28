@@ -1,7 +1,7 @@
 {
   "created": "2026-10-28T06:31:46.847831+00:00",
-  "edition": "Portable source snapshot",
-  "archiveFileCountIncludingManifest": 4430,
+  "edition": "Portable source snapshot with reproducible collision WASM tooling",
+  "archiveFileCountIncludingManifest": 4434,
   "manifestConvention": "The manifest excludes itself, Git metadata, installed dependencies, and generated output.",
   "attributionPolicy": {
     "approvedPublicFile": "README.md",
@@ -26,8 +26,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 3999,
-      "sha256": "324e9527e5674194984624c446b89978c2af6f2faba90843630c78f79682e54f"
+      "bytes": 4238,
+      "sha256": "22ca5c4cd3b85c748dc930b36592dc7ea4f99152177a1ad1e6d7fd27cd158907"
     },
     {
       "path": "animation-catalog.html",
@@ -61,8 +61,8 @@
     },
     {
       "path": "DEVELOPER-GUIDE.md",
-      "bytes": 6077,
-      "sha256": "f6d0d2b6e8eb10fbe9b04f51367dede92b88550c1960010cf763a0b6ebb4ea4f"
+      "bytes": 6511,
+      "sha256": "cdcdcad94ee337ac5b8c3f90521117b980d965b2f4f53a5bd8241e14c332bad4"
     },
     {
       "path": "docs/AGENTS-armes-original.md",
@@ -611,13 +611,13 @@
     },
     {
       "path": "package-lock.json",
-      "bytes": 24480,
-      "sha256": "d3b54e2c175fcbf4c9b65534bf09c4926094308d3a337eebca66aa854d97825f"
+      "bytes": 25227,
+      "sha256": "a8f922f7954ce05b8475995c7c062ea3e04b3e1438399c0d4c874f5c0c591958"
     },
     {
       "path": "package.json",
-      "bytes": 302,
-      "sha256": "bbbc92c96542d70c98618fb6bfb500620d713b5d55d382ba668ccf5f93105c61"
+      "bytes": 557,
+      "sha256": "755d8fe933030985ec831da8a69417f98d9fff27148e309f082bc8d01eeacb70"
     },
     {
       "path": "PROJECT.md",
@@ -15841,8 +15841,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14729,
-      "sha256": "59b4ee5d9659be0c1d61fcf88d9c2d62b53a5a94198214b056139808423ab073"
+      "bytes": 15657,
+      "sha256": "c873472e58e786f6c1fc0dd1608d242ff24072177dee506059098c6275583e20"
     },
     {
       "path": "src/actor-body-contact-qa.js",
@@ -22141,8 +22141,8 @@
     },
     {
       "path": "VALIDATION.json",
-      "bytes": 3796,
-      "sha256": "8b447b6d0c0dc0f5d3b947125034331bcfc981d883eebfebf2ef955015343f19"
+      "bytes": 4935,
+      "sha256": "545f719e027eb32260c2d851e432b311300a841d6be1ca483655b26b9601f294"
     },
     {
       "path": "vite.config.js",
@@ -22153,6 +22153,27 @@
       "path": "weapon-fitting.html",
       "bytes": 3622,
       "sha256": "9e556eb0e69144a5b75147c83b3fd0e98503d6022af1207e21df03f0f076ccf1"
+    },
+    {
+      "path": "docs/WASM-COLLISION.md",
+      "bytes": 3922,
+      "sha256": "06d87587f1a86729678882058d1cd9d1841d5be42df8f25a958ddba5ab5d5cf4"
+    },
+    {
+      "path": "tests/fixtures/native-bool-wasm-corpus.json",
+      "bytes": 120543,
+      "sha256": "eabf0f21b3135dbb8fab2b9127246831b7076989f53b8f7ab3b5bcefd3d76868"
+    },
+    {
+      "path": "tests/native-collision-bool-wasm.test.mjs",
+      "bytes": 14755,
+      "sha256": "5fe851f05ebb2833b951f45c08cdf881d4b38d7b0ea7c0fe3fe179d348938c39"
+    },
+    {
+      "path": "tools/build-native-bool-wasm.mjs",
+      "bytes": 14902,
+      "sha256": "c3a8f8855ebc3d83c9dd2b84a0d021af86e1e6e278b13e376853e4fe9558a011"
     }
-  ]
+  ],
+  "updated": "2026-10-28"
 }

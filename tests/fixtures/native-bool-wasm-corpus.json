@@ -1,0 +1,6046 @@
+{
+  "schema": "native-bool-wasm-source-corpus-v1",
+  "negativeZeroEncoding": "-0 string",
+  "map46SourceSha256": "36d26d2d4574e3522971578f1002114734b010d0bc4df8630a06cb62d90e8165",
+  "map46DistributedSha256": "3642ee6336059e213d60a8f7e5e299e7a97296d69180c96eb767e1972620bc9f",
+  "summary": {
+    "map46OriginalFaces": 1601,
+    "map46Packets": 12,
+    "nativeProofCases": 97,
+    "mathProfile": "Explicit analytical JS53/SRT baseline with float24 nearest construction and reciprocal .999755859375; native tree construction and x87 control word unobserved"
+  },
+  "cases": [
+    {
+      "id": "cross-face",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        -2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "endpoint-face",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "away",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "parallel",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "coplanar",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "zero-segment",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "zero-segment-away",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "vertex",
+      "kind": "synthetic",
+      "origin": [
+        -10,
+        1,
+        -10
+      ],
+      "direction": [
+        0,
+        -2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "edge",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        1,
+        -10
+      ],
+      "direction": [
+        0,
+        -2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "signedzero-origin",
+      "kind": "synthetic",
+      "origin": [
+        "-0",
+        "-0",
+        0
+      ],
+      "direction": [
+        0,
+        "-0",
+        "-0"
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "point-triangle",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        -2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          0,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "signedzero-point",
+      "kind": "synthetic",
+      "origin": [
+        "-0",
+        0,
+        "-0"
+      ],
+      "direction": [
+        0,
+        "-0",
+        0
+      ],
+      "packet": {
+        "origin": [
+          "-0",
+          0,
+          "-0"
+        ],
+        "edge1": [
+          "-0",
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          "-0",
+          0
+        ]
+      }
+    },
+    {
+      "id": "line-triangle",
+      "kind": "synthetic",
+      "origin": [
+        1,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        -2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          2,
+          0,
+          0
+        ],
+        "edge2": [
+          4,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "one-zero-edge",
+      "kind": "synthetic",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        -2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          0,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "id": "scale--149",
+      "kind": "magnitude",
+      "origin": [
+        0,
+        1.401298464324817e-45,
+        0
+      ],
+      "direction": [
+        0,
+        -1.401298464324817e-45,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          1.401298464324817e-45,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          1.401298464324817e-45
+        ]
+      }
+    },
+    {
+      "id": "scale--126",
+      "kind": "magnitude",
+      "origin": [
+        2.938735877055719e-39,
+        1.1754943508222875e-38,
+        2.938735877055719e-39
+      ],
+      "direction": [
+        0,
+        -1.1754943508222875e-38,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          1.1754943508222875e-38,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          1.1754943508222875e-38
+        ]
+      }
+    },
+    {
+      "id": "scale--60",
+      "kind": "magnitude",
+      "origin": [
+        2.168404344971009e-19,
+        8.673617379884035e-19,
+        2.168404344971009e-19
+      ],
+      "direction": [
+        0,
+        -8.673617379884035e-19,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          8.673617379884035e-19,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          8.673617379884035e-19
+        ]
+      }
+    },
+    {
+      "id": "scale--30",
+      "kind": "magnitude",
+      "origin": [
+        2.3283064365386963e-10,
+        9.313225746154785e-10,
+        2.3283064365386963e-10
+      ],
+      "direction": [
+        0,
+        -9.313225746154785e-10,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          9.313225746154785e-10,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          9.313225746154785e-10
+        ]
+      }
+    },
+    {
+      "id": "scale--20",
+      "kind": "magnitude",
+      "origin": [
+        2.384185791015625e-7,
+        9.5367431640625e-7,
+        2.384185791015625e-7
+      ],
+      "direction": [
+        0,
+        -9.5367431640625e-7,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          9.5367431640625e-7,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          9.5367431640625e-7
+        ]
+      }
+    },
+    {
+      "id": "scale-0",
+      "kind": "magnitude",
+      "origin": [
+        0.25,
+        1,
+        0.25
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          1,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "scale-20",
+      "kind": "magnitude",
+      "origin": [
+        262144,
+        1048576,
+        262144
+      ],
+      "direction": [
+        0,
+        -1048576,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          1048576,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          1048576
+        ]
+      }
+    },
+    {
+      "id": "scale-60",
+      "kind": "magnitude",
+      "origin": [
+        288230376151711740,
+        1152921504606847000,
+        288230376151711740
+      ],
+      "direction": [
+        0,
+        -1152921504606847000,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          1152921504606847000,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          1152921504606847000
+        ]
+      }
+    },
+    {
+      "id": "scale-100",
+      "kind": "magnitude",
+      "origin": [
+        3.1691265005705735e+29,
+        1.2676506002282294e+30,
+        3.1691265005705735e+29
+      ],
+      "direction": [
+        0,
+        -1.2676506002282294e+30,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          1.2676506002282294e+30,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          1.2676506002282294e+30
+        ]
+      }
+    },
+    {
+      "id": "scale-127",
+      "kind": "magnitude",
+      "origin": [
+        4.253529586511731e+37,
+        1.7014118346046923e+38,
+        4.253529586511731e+37
+      ],
+      "direction": [
+        0,
+        -1.7014118346046923e+38,
+        0
+      ],
+      "packet": {
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "edge1": [
+          1.7014118346046923e+38,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          1.7014118346046923e+38
+        ]
+      }
+    },
+    {
+      "id": "threshold-0",
+      "kind": "threshold",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "threshold-5e-7",
+      "kind": "threshold",
+      "origin": [
+        0,
+        5e-7,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "threshold-9.999999974752427e-7",
+      "kind": "threshold",
+      "origin": [
+        0,
+        9.999999974752427e-7,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "threshold-0.000001",
+      "kind": "threshold",
+      "origin": [
+        0,
+        0.000001,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "threshold-0.0000010000001111620804",
+      "kind": "threshold",
+      "origin": [
+        0,
+        0.0000010000001111620804,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "threshold-0.000002",
+      "kind": "threshold",
+      "origin": [
+        0,
+        0.000002,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "threshold--0.000001",
+      "kind": "threshold",
+      "origin": [
+        0,
+        -0.000001,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "id": "max-finite",
+      "kind": "magnitude",
+      "origin": [
+        3.4028234663852886e+38,
+        -3.4028234663852886e+38,
+        3.4028234663852886e+38
+      ],
+      "direction": [
+        -3.4028234663852886e+38,
+        3.4028234663852886e+38,
+        -3.4028234663852886e+38
+      ],
+      "packet": {
+        "origin": [
+          3.4028234663852886e+38,
+          3.4028234663852886e+38,
+          -3.4028234663852886e+38
+        ],
+        "edge1": [
+          3.4028234663852886e+38,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          3.4028234663852886e+38,
+          0
+        ]
+      }
+    },
+    {
+      "id": "map46-0-cross",
+      "kind": "map46",
+      "origin": [
+        7838.68017578125,
+        2761.110595703125,
+        3633.28466796875
+      ],
+      "direction": [
+        -0.000038326645153574646,
+        100,
+        "-0"
+      ],
+      "packet": {
+        "origin": [
+          6989.34716796875,
+          2811.1103515625,
+          3208.618408203125
+        ],
+        "edge1": [
+          1273.99951171875,
+          0.00048828125,
+          -0.000244140625
+        ],
+        "edge2": [
+          1273.99951171875,
+          0.00048828125,
+          1273.999267578125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 0,
+        "originalPacketIndex": 0,
+        "originalIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "map46-0-endpoint",
+      "kind": "map46",
+      "origin": [
+        7838.68017578125,
+        2761.110595703125,
+        3633.28466796875
+      ],
+      "direction": [
+        -0.000019163322576787323,
+        50,
+        "-0"
+      ],
+      "packet": {
+        "origin": [
+          6989.34716796875,
+          2811.1103515625,
+          3208.618408203125
+        ],
+        "edge1": [
+          1273.99951171875,
+          0.00048828125,
+          -0.000244140625
+        ],
+        "edge2": [
+          1273.99951171875,
+          0.00048828125,
+          1273.999267578125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 0,
+        "originalPacketIndex": 0,
+        "originalIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "map46-0-away",
+      "kind": "map46",
+      "origin": [
+        7838.68017578125,
+        2761.110595703125,
+        3633.28466796875
+      ],
+      "direction": [
+        0.000038326645153574646,
+        -100,
+        0
+      ],
+      "packet": {
+        "origin": [
+          6989.34716796875,
+          2811.1103515625,
+          3208.618408203125
+        ],
+        "edge1": [
+          1273.99951171875,
+          0.00048828125,
+          -0.000244140625
+        ],
+        "edge2": [
+          1273.99951171875,
+          0.00048828125,
+          1273.999267578125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 0,
+        "originalPacketIndex": 0,
+        "originalIndices": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "map46-145-cross",
+      "kind": "map46",
+      "origin": [
+        7414.015625,
+        4509.77685546875,
+        7080.6181640625
+      ],
+      "direction": [
+        "-0",
+        "-0",
+        -100
+      ],
+      "packet": {
+        "origin": [
+          6989.34912109375,
+          5359.10986328125,
+          7030.6181640625
+        ],
+        "edge1": [
+          0.00048828125,
+          -1273.999755859375,
+          0
+        ],
+        "edge2": [
+          1273.99951171875,
+          -1273.9990234375,
+          0
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 145,
+        "originalPacketIndex": 145,
+        "originalIndices": [
+          809,
+          790,
+          789
+        ]
+      }
+    },
+    {
+      "id": "map46-145-endpoint",
+      "kind": "map46",
+      "origin": [
+        7414.015625,
+        4509.77685546875,
+        7080.6181640625
+      ],
+      "direction": [
+        "-0",
+        "-0",
+        -50
+      ],
+      "packet": {
+        "origin": [
+          6989.34912109375,
+          5359.10986328125,
+          7030.6181640625
+        ],
+        "edge1": [
+          0.00048828125,
+          -1273.999755859375,
+          0
+        ],
+        "edge2": [
+          1273.99951171875,
+          -1273.9990234375,
+          0
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 145,
+        "originalPacketIndex": 145,
+        "originalIndices": [
+          809,
+          790,
+          789
+        ]
+      }
+    },
+    {
+      "id": "map46-145-away",
+      "kind": "map46",
+      "origin": [
+        7414.015625,
+        4509.77685546875,
+        7080.6181640625
+      ],
+      "direction": [
+        0,
+        0,
+        100
+      ],
+      "packet": {
+        "origin": [
+          6989.34912109375,
+          5359.10986328125,
+          7030.6181640625
+        ],
+        "edge1": [
+          0.00048828125,
+          -1273.999755859375,
+          0
+        ],
+        "edge2": [
+          1273.99951171875,
+          -1273.9990234375,
+          0
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 145,
+        "originalPacketIndex": 145,
+        "originalIndices": [
+          809,
+          790,
+          789
+        ]
+      }
+    },
+    {
+      "id": "map46-290-cross",
+      "kind": "map46",
+      "origin": [
+        -5325.982421875,
+        1961.7769775390625,
+        4432.6171875
+      ],
+      "direction": [
+        -0.00003832662696368061,
+        "-0",
+        100
+      ],
+      "packet": {
+        "origin": [
+          -4476.64892578125,
+          1537.1104736328125,
+          4482.61767578125
+        ],
+        "edge1": [
+          -1274,
+          0,
+          -0.00048828125
+        ],
+        "edge2": [
+          -1274,
+          1273.9993896484375,
+          -0.00048828125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 290,
+        "originalPacketIndex": 290,
+        "originalIndices": [
+          982,
+          983,
+          984
+        ]
+      }
+    },
+    {
+      "id": "map46-290-endpoint",
+      "kind": "map46",
+      "origin": [
+        -5325.982421875,
+        1961.7769775390625,
+        4432.6171875
+      ],
+      "direction": [
+        -0.000019163313481840305,
+        "-0",
+        50
+      ],
+      "packet": {
+        "origin": [
+          -4476.64892578125,
+          1537.1104736328125,
+          4482.61767578125
+        ],
+        "edge1": [
+          -1274,
+          0,
+          -0.00048828125
+        ],
+        "edge2": [
+          -1274,
+          1273.9993896484375,
+          -0.00048828125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 290,
+        "originalPacketIndex": 290,
+        "originalIndices": [
+          982,
+          983,
+          984
+        ]
+      }
+    },
+    {
+      "id": "map46-290-away",
+      "kind": "map46",
+      "origin": [
+        -5325.982421875,
+        1961.7769775390625,
+        4432.6171875
+      ],
+      "direction": [
+        0.00003832662696368061,
+        0,
+        -100
+      ],
+      "packet": {
+        "origin": [
+          -4476.64892578125,
+          1537.1104736328125,
+          4482.61767578125
+        ],
+        "edge1": [
+          -1274,
+          0,
+          -0.00048828125
+        ],
+        "edge2": [
+          -1274,
+          1273.9993896484375,
+          -0.00048828125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 290,
+        "originalPacketIndex": 290,
+        "originalIndices": [
+          982,
+          983,
+          984
+        ]
+      }
+    },
+    {
+      "id": "map46-436-cross",
+      "kind": "map46",
+      "origin": [
+        -6600.8662109375,
+        1112.4444580078125,
+        -8307.6669921875
+      ],
+      "direction": [
+        "-0",
+        "-0",
+        100
+      ],
+      "packet": {
+        "origin": [
+          -7025.53173828125,
+          263.1113586425781,
+          -8257.6669921875
+        ],
+        "edge1": [
+          -0.0009765625,
+          1273.9996337890625,
+          0
+        ],
+        "edge2": [
+          1273.998046875,
+          1273.9996337890625,
+          0
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 436,
+        "originalPacketIndex": 436,
+        "originalIndices": [
+          342,
+          344,
+          343
+        ]
+      }
+    },
+    {
+      "id": "map46-436-endpoint",
+      "kind": "map46",
+      "origin": [
+        -6600.8662109375,
+        1112.4444580078125,
+        -8307.6669921875
+      ],
+      "direction": [
+        "-0",
+        "-0",
+        50
+      ],
+      "packet": {
+        "origin": [
+          -7025.53173828125,
+          263.1113586425781,
+          -8257.6669921875
+        ],
+        "edge1": [
+          -0.0009765625,
+          1273.9996337890625,
+          0
+        ],
+        "edge2": [
+          1273.998046875,
+          1273.9996337890625,
+          0
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 436,
+        "originalPacketIndex": 436,
+        "originalIndices": [
+          342,
+          344,
+          343
+        ]
+      }
+    },
+    {
+      "id": "map46-436-away",
+      "kind": "map46",
+      "origin": [
+        -6600.8662109375,
+        1112.4444580078125,
+        -8307.6669921875
+      ],
+      "direction": [
+        0,
+        0,
+        -100
+      ],
+      "packet": {
+        "origin": [
+          -7025.53173828125,
+          263.1113586425781,
+          -8257.6669921875
+        ],
+        "edge1": [
+          -0.0009765625,
+          1273.9996337890625,
+          0
+        ],
+        "edge2": [
+          1273.998046875,
+          1273.9996337890625,
+          0
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 436,
+        "originalPacketIndex": 436,
+        "originalIndices": [
+          342,
+          344,
+          343
+        ]
+      }
+    },
+    {
+      "id": "map46-581-cross",
+      "kind": "map46",
+      "origin": [
+        4866.01611328125,
+        452.1608581542969,
+        -6558.7138671875
+      ],
+      "direction": [
+        "-0",
+        -100,
+        "-0"
+      ],
+      "packet": {
+        "origin": [
+          5715.34912109375,
+          402.1608581542969,
+          -6983.380859375
+        ],
+        "edge1": [
+          -1273.99951171875,
+          0,
+          0.0009765625
+        ],
+        "edge2": [
+          -1273.99951171875,
+          0,
+          1274
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 581,
+        "originalPacketIndex": 581,
+        "originalIndices": [
+          466,
+          513,
+          461
+        ]
+      }
+    },
+    {
+      "id": "map46-581-endpoint",
+      "kind": "map46",
+      "origin": [
+        4866.01611328125,
+        452.1608581542969,
+        -6558.7138671875
+      ],
+      "direction": [
+        "-0",
+        -50,
+        "-0"
+      ],
+      "packet": {
+        "origin": [
+          5715.34912109375,
+          402.1608581542969,
+          -6983.380859375
+        ],
+        "edge1": [
+          -1273.99951171875,
+          0,
+          0.0009765625
+        ],
+        "edge2": [
+          -1273.99951171875,
+          0,
+          1274
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 581,
+        "originalPacketIndex": 581,
+        "originalIndices": [
+          466,
+          513,
+          461
+        ]
+      }
+    },
+    {
+      "id": "map46-581-away",
+      "kind": "map46",
+      "origin": [
+        4866.01611328125,
+        452.1608581542969,
+        -6558.7138671875
+      ],
+      "direction": [
+        0,
+        100,
+        0
+      ],
+      "packet": {
+        "origin": [
+          5715.34912109375,
+          402.1608581542969,
+          -6983.380859375
+        ],
+        "edge1": [
+          -1273.99951171875,
+          0,
+          0.0009765625
+        ],
+        "edge2": [
+          -1273.99951171875,
+          0,
+          1274
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 581,
+        "originalPacketIndex": 581,
+        "originalIndices": [
+          466,
+          513,
+          461
+        ]
+      }
+    },
+    {
+      "id": "map46-727-cross",
+      "kind": "map46",
+      "origin": [
+        3188.423095703125,
+        314.0857849121094,
+        -3179.060791015625
+      ],
+      "direction": [
+        5.962988325336482e-7,
+        -100,
+        0.00013834598939865828
+      ],
+      "packet": {
+        "origin": [
+          8306.1806640625,
+          264.0999450683594,
+          7041.5546875
+        ],
+        "edge1": [
+          0,
+          -0.021209716796875,
+          -15330.9228515625
+        ],
+        "edge2": [
+          -15353.2724609375,
+          -0.02130126953125,
+          -15330.923828125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 727,
+        "originalPacketIndex": 727,
+        "originalIndices": [
+          603,
+          601,
+          600
+        ]
+      }
+    },
+    {
+      "id": "map46-727-endpoint",
+      "kind": "map46",
+      "origin": [
+        3188.423095703125,
+        314.0857849121094,
+        -3179.060791015625
+      ],
+      "direction": [
+        2.981494162668241e-7,
+        -50,
+        0.00006917299469932914
+      ],
+      "packet": {
+        "origin": [
+          8306.1806640625,
+          264.0999450683594,
+          7041.5546875
+        ],
+        "edge1": [
+          0,
+          -0.021209716796875,
+          -15330.9228515625
+        ],
+        "edge2": [
+          -15353.2724609375,
+          -0.02130126953125,
+          -15330.923828125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 727,
+        "originalPacketIndex": 727,
+        "originalIndices": [
+          603,
+          601,
+          600
+        ]
+      }
+    },
+    {
+      "id": "map46-727-away",
+      "kind": "map46",
+      "origin": [
+        3188.423095703125,
+        314.0857849121094,
+        -3179.060791015625
+      ],
+      "direction": [
+        -5.962988325336482e-7,
+        100,
+        -0.00013834598939865828
+      ],
+      "packet": {
+        "origin": [
+          8306.1806640625,
+          264.0999450683594,
+          7041.5546875
+        ],
+        "edge1": [
+          0,
+          -0.021209716796875,
+          -15330.9228515625
+        ],
+        "edge2": [
+          -15353.2724609375,
+          -0.02130126953125,
+          -15330.923828125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 0,
+        "sourceNodeIndex": 0,
+        "triangleIndex": 727,
+        "originalPacketIndex": 727,
+        "originalIndices": [
+          603,
+          601,
+          600
+        ]
+      }
+    },
+    {
+      "id": "map46-872-cross",
+      "kind": "map46",
+      "origin": [
+        8313.3486328125,
+        1961.7777099609375,
+        6605.95166015625
+      ],
+      "direction": [
+        -100,
+        "-0",
+        "-0"
+      ],
+      "packet": {
+        "origin": [
+          8263.3486328125,
+          2811.111083984375,
+          7030.6181640625
+        ],
+        "edge1": [
+          0,
+          -1274.0001220703125,
+          0
+        ],
+        "edge2": [
+          0,
+          -1274.0001220703125,
+          -1274
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 117,
+        "originalPacketIndex": 872,
+        "originalIndices": [
+          90,
+          760,
+          758
+        ]
+      }
+    },
+    {
+      "id": "map46-872-endpoint",
+      "kind": "map46",
+      "origin": [
+        8313.3486328125,
+        1961.7777099609375,
+        6605.95166015625
+      ],
+      "direction": [
+        -50,
+        "-0",
+        "-0"
+      ],
+      "packet": {
+        "origin": [
+          8263.3486328125,
+          2811.111083984375,
+          7030.6181640625
+        ],
+        "edge1": [
+          0,
+          -1274.0001220703125,
+          0
+        ],
+        "edge2": [
+          0,
+          -1274.0001220703125,
+          -1274
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 117,
+        "originalPacketIndex": 872,
+        "originalIndices": [
+          90,
+          760,
+          758
+        ]
+      }
+    },
+    {
+      "id": "map46-872-away",
+      "kind": "map46",
+      "origin": [
+        8313.3486328125,
+        1961.7777099609375,
+        6605.95166015625
+      ],
+      "direction": [
+        100,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          8263.3486328125,
+          2811.111083984375,
+          7030.6181640625
+        ],
+        "edge1": [
+          0,
+          -1274.0001220703125,
+          0
+        ],
+        "edge2": [
+          0,
+          -1274.0001220703125,
+          -1274
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 117,
+        "originalPacketIndex": 872,
+        "originalIndices": [
+          90,
+          760,
+          758
+        ]
+      }
+    },
+    {
+      "id": "map46-1018-cross",
+      "kind": "map46",
+      "origin": [
+        -5325.98291015625,
+        1112.44384765625,
+        7080.61767578125
+      ],
+      "direction": [
+        0.00003832662696368061,
+        2.937861412477538e-11,
+        -100
+      ],
+      "packet": {
+        "origin": [
+          -4476.64990234375,
+          1537.1104736328125,
+          7030.6181640625
+        ],
+        "edge1": [
+          -1274,
+          0,
+          -0.00048828125
+        ],
+        "edge2": [
+          -1273.9990234375,
+          -1273.999755859375,
+          -0.00048828125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 263,
+        "originalPacketIndex": 1018,
+        "originalIndices": [
+          203,
+          213,
+          211
+        ]
+      }
+    },
+    {
+      "id": "map46-1018-endpoint",
+      "kind": "map46",
+      "origin": [
+        -5325.98291015625,
+        1112.44384765625,
+        7080.61767578125
+      ],
+      "direction": [
+        0.000019163313481840305,
+        1.468930706238769e-11,
+        -50
+      ],
+      "packet": {
+        "origin": [
+          -4476.64990234375,
+          1537.1104736328125,
+          7030.6181640625
+        ],
+        "edge1": [
+          -1274,
+          0,
+          -0.00048828125
+        ],
+        "edge2": [
+          -1273.9990234375,
+          -1273.999755859375,
+          -0.00048828125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 263,
+        "originalPacketIndex": 1018,
+        "originalIndices": [
+          203,
+          213,
+          211
+        ]
+      }
+    },
+    {
+      "id": "map46-1018-away",
+      "kind": "map46",
+      "origin": [
+        -5325.98291015625,
+        1112.44384765625,
+        7080.61767578125
+      ],
+      "direction": [
+        -0.00003832662696368061,
+        -2.937861412477538e-11,
+        100
+      ],
+      "packet": {
+        "origin": [
+          -4476.64990234375,
+          1537.1104736328125,
+          7030.6181640625
+        ],
+        "edge1": [
+          -1274,
+          0,
+          -0.00048828125
+        ],
+        "edge2": [
+          -1273.9990234375,
+          -1273.999755859375,
+          -0.00048828125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 263,
+        "originalPacketIndex": 1018,
+        "originalIndices": [
+          203,
+          213,
+          211
+        ]
+      }
+    },
+    {
+      "id": "map46-1163-cross",
+      "kind": "map46",
+      "origin": [
+        -6600.86474609375,
+        2861.1103515625,
+        -5285.0009765625
+      ],
+      "direction": [
+        0.000019163329852744937,
+        -100,
+        "-0"
+      ],
+      "packet": {
+        "origin": [
+          -5751.5322265625,
+          2811.110595703125,
+          -5709.66845703125
+        ],
+        "edge1": [
+          -1273.9990234375,
+          -0.000244140625,
+          0.0009765625
+        ],
+        "edge2": [
+          -1273.9990234375,
+          -0.000244140625,
+          1274.0009765625
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 408,
+        "originalPacketIndex": 1163,
+        "originalIndices": [
+          345,
+          348,
+          347
+        ]
+      }
+    },
+    {
+      "id": "map46-1163-endpoint",
+      "kind": "map46",
+      "origin": [
+        -6600.86474609375,
+        2861.1103515625,
+        -5285.0009765625
+      ],
+      "direction": [
+        0.000009581664926372468,
+        -50,
+        "-0"
+      ],
+      "packet": {
+        "origin": [
+          -5751.5322265625,
+          2811.110595703125,
+          -5709.66845703125
+        ],
+        "edge1": [
+          -1273.9990234375,
+          -0.000244140625,
+          0.0009765625
+        ],
+        "edge2": [
+          -1273.9990234375,
+          -0.000244140625,
+          1274.0009765625
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 408,
+        "originalPacketIndex": 1163,
+        "originalIndices": [
+          345,
+          348,
+          347
+        ]
+      }
+    },
+    {
+      "id": "map46-1163-away",
+      "kind": "map46",
+      "origin": [
+        -6600.86474609375,
+        2861.1103515625,
+        -5285.0009765625
+      ],
+      "direction": [
+        -0.000019163329852744937,
+        100,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -5751.5322265625,
+          2811.110595703125,
+          -5709.66845703125
+        ],
+        "edge1": [
+          -1273.9990234375,
+          -0.000244140625,
+          0.0009765625
+        ],
+        "edge2": [
+          -1273.9990234375,
+          -0.000244140625,
+          1274.0009765625
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 408,
+        "originalPacketIndex": 1163,
+        "originalIndices": [
+          345,
+          348,
+          347
+        ]
+      }
+    },
+    {
+      "id": "map46-1309-cross",
+      "kind": "map46",
+      "origin": [
+        6939.34814453125,
+        2520.088623046875,
+        -7408.04638671875
+      ],
+      "direction": [
+        100,
+        "-0",
+        0.00022995976905804127
+      ],
+      "packet": {
+        "origin": [
+          6989.34716796875,
+          1670.7554931640625,
+          -6983.3798828125
+        ],
+        "edge1": [
+          0,
+          1273.9996337890625,
+          0
+        ],
+        "edge2": [
+          0.0029296875,
+          1273.9996337890625,
+          -1274
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 554,
+        "originalPacketIndex": 1309,
+        "originalIndices": [
+          445,
+          1320,
+          1321
+        ]
+      }
+    },
+    {
+      "id": "map46-1309-endpoint",
+      "kind": "map46",
+      "origin": [
+        6939.34814453125,
+        2520.088623046875,
+        -7408.04638671875
+      ],
+      "direction": [
+        50,
+        "-0",
+        0.00011497988452902064
+      ],
+      "packet": {
+        "origin": [
+          6989.34716796875,
+          1670.7554931640625,
+          -6983.3798828125
+        ],
+        "edge1": [
+          0,
+          1273.9996337890625,
+          0
+        ],
+        "edge2": [
+          0.0029296875,
+          1273.9996337890625,
+          -1274
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 554,
+        "originalPacketIndex": 1309,
+        "originalIndices": [
+          445,
+          1320,
+          1321
+        ]
+      }
+    },
+    {
+      "id": "map46-1309-away",
+      "kind": "map46",
+      "origin": [
+        6939.34814453125,
+        2520.088623046875,
+        -7408.04638671875
+      ],
+      "direction": [
+        -100,
+        0,
+        -0.00022995976905804127
+      ],
+      "packet": {
+        "origin": [
+          6989.34716796875,
+          1670.7554931640625,
+          -6983.3798828125
+        ],
+        "edge1": [
+          0,
+          1273.9996337890625,
+          0
+        ],
+        "edge2": [
+          0.0029296875,
+          1273.9996337890625,
+          -1274
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 554,
+        "originalPacketIndex": 1309,
+        "originalIndices": [
+          445,
+          1320,
+          1321
+        ]
+      }
+    },
+    {
+      "id": "map46-1454-cross",
+      "kind": "map46",
+      "origin": [
+        -7071.93994140625,
+        1112.44482421875,
+        -180.87130737304688
+      ],
+      "direction": [
+        100,
+        0.00003832663787761703,
+        -0.00003832664879155345
+      ],
+      "packet": {
+        "origin": [
+          -7021.93994140625,
+          1537.1114501953125,
+          668.4616088867188
+        ],
+        "edge1": [
+          -0.00048828125,
+          0,
+          -1273.9993896484375
+        ],
+        "edge2": [
+          0,
+          -1273.999755859375,
+          -1273.9993896484375
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 699,
+        "originalPacketIndex": 1454,
+        "originalIndices": [
+          1492,
+          1493,
+          573
+        ]
+      }
+    },
+    {
+      "id": "map46-1454-endpoint",
+      "kind": "map46",
+      "origin": [
+        -7071.93994140625,
+        1112.44482421875,
+        -180.87130737304688
+      ],
+      "direction": [
+        50,
+        0.000019163318938808516,
+        -0.000019163324395776726
+      ],
+      "packet": {
+        "origin": [
+          -7021.93994140625,
+          1537.1114501953125,
+          668.4616088867188
+        ],
+        "edge1": [
+          -0.00048828125,
+          0,
+          -1273.9993896484375
+        ],
+        "edge2": [
+          0,
+          -1273.999755859375,
+          -1273.9993896484375
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 699,
+        "originalPacketIndex": 1454,
+        "originalIndices": [
+          1492,
+          1493,
+          573
+        ]
+      }
+    },
+    {
+      "id": "map46-1454-away",
+      "kind": "map46",
+      "origin": [
+        -7071.93994140625,
+        1112.44482421875,
+        -180.87130737304688
+      ],
+      "direction": [
+        -100,
+        -0.00003832663787761703,
+        0.00003832664879155345
+      ],
+      "packet": {
+        "origin": [
+          -7021.93994140625,
+          1537.1114501953125,
+          668.4616088867188
+        ],
+        "edge1": [
+          -0.00048828125,
+          0,
+          -1273.9993896484375
+        ],
+        "edge2": [
+          0,
+          -1273.999755859375,
+          -1273.9993896484375
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 1,
+        "sourceNodeIndex": 1,
+        "triangleIndex": 699,
+        "originalPacketIndex": 1454,
+        "originalIndices": [
+          1492,
+          1493,
+          573
+        ]
+      }
+    },
+    {
+      "id": "map46-1600-cross",
+      "kind": "map46",
+      "origin": [
+        8180.12109375,
+        2031.89111328125,
+        -3157.933837890625
+      ],
+      "direction": [
+        100,
+        -0.000036807439755648375,
+        -0.00005145744216861203
+      ],
+      "packet": {
+        "origin": [
+          8230.1220703125,
+          5569.44677734375,
+          -4423.138671875
+        ],
+        "edge1": [
+          -0.001953125,
+          -5306.33349609375,
+          0.0009765625
+        ],
+        "edge2": [
+          0,
+          -5306.33349609375,
+          3795.61328125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 2,
+        "sourceNodeIndex": 2,
+        "triangleIndex": 101,
+        "originalPacketIndex": 1600,
+        "originalIndices": [
+          270,
+          108,
+          271
+        ]
+      }
+    },
+    {
+      "id": "map46-1600-endpoint",
+      "kind": "map46",
+      "origin": [
+        8180.12109375,
+        2031.89111328125,
+        -3157.933837890625
+      ],
+      "direction": [
+        50,
+        -0.000018403719877824187,
+        -0.000025728721084306017
+      ],
+      "packet": {
+        "origin": [
+          8230.1220703125,
+          5569.44677734375,
+          -4423.138671875
+        ],
+        "edge1": [
+          -0.001953125,
+          -5306.33349609375,
+          0.0009765625
+        ],
+        "edge2": [
+          0,
+          -5306.33349609375,
+          3795.61328125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 2,
+        "sourceNodeIndex": 2,
+        "triangleIndex": 101,
+        "originalPacketIndex": 1600,
+        "originalIndices": [
+          270,
+          108,
+          271
+        ]
+      }
+    },
+    {
+      "id": "map46-1600-away",
+      "kind": "map46",
+      "origin": [
+        8180.12109375,
+        2031.89111328125,
+        -3157.933837890625
+      ],
+      "direction": [
+        -100,
+        0.000036807439755648375,
+        0.00005145744216861203
+      ],
+      "packet": {
+        "origin": [
+          8230.1220703125,
+          5569.44677734375,
+          -4423.138671875
+        ],
+        "edge1": [
+          -0.001953125,
+          -5306.33349609375,
+          0.0009765625
+        ],
+        "edge2": [
+          0,
+          -5306.33349609375,
+          3795.61328125
+        ]
+      },
+      "source": {
+        "scene": "model/background/wave_d_oct.scn",
+        "sourceModelIndex": 2,
+        "sourceNodeIndex": 2,
+        "triangleIndex": 101,
+        "originalPacketIndex": 1600,
+        "originalIndices": [
+          270,
+          108,
+          271
+        ]
+      }
+    },
+    {
+      "id": "native-proof-0",
+      "kind": "native-proof",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        -2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 0,
+        "referenceHit": true
+      }
+    },
+    {
+      "id": "native-proof-1",
+      "kind": "native-proof",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 0,
+        "referenceHit": true
+      }
+    },
+    {
+      "id": "native-proof-2",
+      "kind": "native-proof",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 0,
+        "referenceHit": true
+      }
+    },
+    {
+      "id": "native-proof-3",
+      "kind": "native-proof",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        20,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 0,
+        "referenceHit": true
+      }
+    },
+    {
+      "id": "native-proof-4",
+      "kind": "native-proof",
+      "origin": [
+        0,
+        0.000001,
+        0
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 0,
+        "referenceHit": true
+      }
+    },
+    {
+      "id": "native-proof-5",
+      "kind": "native-proof",
+      "origin": [
+        0,
+        0.000002,
+        0
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 0,
+        "referenceHit": true
+      }
+    },
+    {
+      "id": "native-proof-6",
+      "kind": "native-proof",
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 1,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-7",
+      "kind": "native-proof",
+      "origin": [
+        100,
+        1,
+        0
+      ],
+      "direction": [
+        0,
+        -2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 8200,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-8",
+      "kind": "native-proof",
+      "origin": [
+        1,
+        1,
+        1
+      ],
+      "direction": [
+        0,
+        -2,
+        0
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 2,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-9",
+      "kind": "native-proof",
+      "origin": [
+        -17.85744307253256,
+        -8.273513970863927,
+        -17.80089776341192
+      ],
+      "direction": [
+        -1.91061813786974,
+        9.295269454029324,
+        -7.642965815546101
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 191.0097198486328,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-10",
+      "kind": "native-proof",
+      "origin": [
+        -4.144650748467722,
+        8.582199741334449,
+        -2.9702060839188107
+      ],
+      "direction": [
+        -5.929627608605084,
+        6.909866317051794,
+        -0.0021525232182018073
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 73.65415954589844,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-11",
+      "kind": "native-proof",
+      "origin": [
+        -19.790186403282824,
+        3.782662169183162,
+        19.830597662742278
+      ],
+      "direction": [
+        -2.67056034574874,
+        9.844475866922892,
+        0.49354815535701313
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 206.796875,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-12",
+      "kind": "native-proof",
+      "origin": [
+        -4.108983035027315,
+        -17.37780556463331,
+        -5.559687161841156
+      ],
+      "direction": [
+        9.182999171340025,
+        -1.8897072833777546,
+        -0.7142590595868921
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 301.98809814453125,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-13",
+      "kind": "native-proof",
+      "origin": [
+        -13.039241840147087,
+        -2.7783073473378685,
+        -19.43409776772386
+      ],
+      "direction": [
+        7.445177310081455,
+        -4.654833868138337,
+        3.4378567168978584
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 85.36520385742188,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-14",
+      "kind": "native-proof",
+      "origin": [
+        -17.252397293071716,
+        -15.905900056952662,
+        -17.382570574104076
+      ],
+      "direction": [
+        2.5664151018139503,
+        2.9074993171755814,
+        1.4684142073262603
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 225.89410400390625,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-15",
+      "kind": "native-proof",
+      "origin": [
+        -8.063015305398435,
+        4.891267159523235,
+        5.551926512707329
+      ],
+      "direction": [
+        -9.812088036958226,
+        -8.417724358004788,
+        2.3913274905844695
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 6.008065700531006,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-16",
+      "kind": "native-proof",
+      "origin": [
+        0.9254187291524403,
+        -5.448673969431951,
+        -7.840205789000638
+      ],
+      "direction": [
+        -7.5179003730022504,
+        -9.030494384472863,
+        -4.093596591767861
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 29.68805694580078,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-17",
+      "kind": "native-proof",
+      "origin": [
+        18.937883015573448,
+        17.56170877557534,
+        -16.61262704969787
+      ],
+      "direction": [
+        -5.749534149564727,
+        -3.5661177500767938,
+        1.7675287094390235
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 229.51708984375,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-18",
+      "kind": "native-proof",
+      "origin": [
+        14.164377612388733,
+        -15.216989588087246,
+        -12.986867519732872
+      ],
+      "direction": [
+        1.2348121111903954,
+        -2.5203407765253,
+        -0.26129124516235436
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 257.8201904296875,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-19",
+      "kind": "native-proof",
+      "origin": [
+        8.969591350471013,
+        -19.40045602834013,
+        -14.571935565884392
+      ],
+      "direction": [
+        -6.0862080311879545,
+        3.422595805521789,
+        -7.600235807576972
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 382.8604736328125,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-20",
+      "kind": "native-proof",
+      "origin": [
+        13.861527548980824,
+        6.155380690198484,
+        6.9857813784852105
+      ],
+      "direction": [
+        0.5330279508802853,
+        -5.788934995959751,
+        -7.120154951158206
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 101.81066131591797,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-21",
+      "kind": "native-proof",
+      "origin": [
+        13.343765226410717,
+        -6.807219261035243,
+        -4.310382559997233
+      ],
+      "direction": [
+        8.024778094831298,
+        -1.8402456541797552,
+        -9.485043878151266
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 87.13923645019531,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-22",
+      "kind": "native-proof",
+      "origin": [
+        -15.769204150000213,
+        -0.678933070304133,
+        6.722193696780337
+      ],
+      "direction": [
+        5.073073438975651,
+        9.394960377831186,
+        -3.3136493025773834
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 22.5987491607666,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-23",
+      "kind": "native-proof",
+      "origin": [
+        -17.805841907675113,
+        2.2333038386587347,
+        1.6513637444827012
+      ],
+      "direction": [
+        -3.0893078094774733,
+        7.858675221848639,
+        2.4387252755178483
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 65.91881561279297,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-24",
+      "kind": "native-proof",
+      "origin": [
+        15.37381478441337,
+        4.137433698479718,
+        -14.225653565252347
+      ],
+      "direction": [
+        4.818676560153275,
+        -1.162679654463588,
+        6.19867621179721
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 63.437992095947266,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-25",
+      "kind": "native-proof",
+      "origin": [
+        -11.061686277844661,
+        5.853982937298781,
+        -5.836544066711756
+      ],
+      "direction": [
+        -4.715369826087532,
+        -6.454324307720123,
+        2.301564681877954
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 18.581485748291016,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-26",
+      "kind": "native-proof",
+      "origin": [
+        4.661385016078068,
+        19.84566016967395,
+        8.363672365706655
+      ],
+      "direction": [
+        7.450614648056735,
+        -0.7998129037130024,
+        2.843182527917584
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 478.67620849609375,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-27",
+      "kind": "native-proof",
+      "origin": [
+        5.400509078436354,
+        -13.99164235722505,
+        3.1244765235854004
+      ],
+      "direction": [
+        2.1882096464751033,
+        -7.182497168488742,
+        0.7286059301558758
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 232.1037139892578,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-28",
+      "kind": "native-proof",
+      "origin": [
+        3.543059610018936,
+        -2.635052473593049,
+        10.655977021999004
+      ],
+      "direction": [
+        -1.4220522668681301,
+        -5.771084964474218,
+        8.640777232862714
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 107.74983215332031,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-29",
+      "kind": "native-proof",
+      "origin": [
+        -8.820654573957881,
+        11.390726965556013,
+        -6.777672065144284
+      ],
+      "direction": [
+        -6.63400258723448,
+        9.426314125962303,
+        2.3535298420399453
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 129.7486572265625,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-30",
+      "kind": "native-proof",
+      "origin": [
+        -6.593829505113895,
+        -15.966653661370408,
+        -10.030026359399065
+      ],
+      "direction": [
+        7.717686924184793,
+        -4.120298663196933,
+        8.270438194563127
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 254.93496704101562,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-31",
+      "kind": "native-proof",
+      "origin": [
+        -8.190916503336027,
+        7.497233284131795,
+        -3.980904491140773
+      ],
+      "direction": [
+        -5.9980837340945286,
+        5.969463519073084,
+        -1.2826345292857884
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 56.20850372314453,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-32",
+      "kind": "native-proof",
+      "origin": [
+        4.379435952148963,
+        7.529476659079194,
+        7.530413724506424
+      ],
+      "direction": [
+        -0.14024685105441925,
+        5.918039207246039,
+        3.5850351776843663
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 127.6152572631836,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-33",
+      "kind": "native-proof",
+      "origin": [
+        -9.47170493840419,
+        12.154761072954862,
+        9.380653342535517
+      ],
+      "direction": [
+        6.039827320619526,
+        9.69613314006742,
+        -9.23019301654554
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 147.73818969726562,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-34",
+      "kind": "native-proof",
+      "origin": [
+        15.368264371866474,
+        14.991412769090509,
+        1.6337981480291646
+      ],
+      "direction": [
+        -6.721786697939165,
+        -6.530692279347972,
+        0.7722204312935723
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 132.6626434326172,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-35",
+      "kind": "native-proof",
+      "origin": [
+        11.672143770560591,
+        13.284129474932456,
+        -13.14530192454702
+      ],
+      "direction": [
+        7.971020554528877,
+        -7.918399461295575,
+        -1.5610376336943332
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 130.4015350341797,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-36",
+      "kind": "native-proof",
+      "origin": [
+        -8.651733806906883,
+        6.824557759459186,
+        -0.24200351639068884
+      ],
+      "direction": [
+        -2.194054332284119,
+        6.046609230338824,
+        -9.609622887911492
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 46.5745849609375,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-37",
+      "kind": "native-proof",
+      "origin": [
+        15.163094145337851,
+        -19.740348211668433,
+        17.371609198423776
+      ],
+      "direction": [
+        -1.838528883675611,
+        -9.629384024389616,
+        -4.644040577751419
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 918.9347534179688,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-38",
+      "kind": "native-proof",
+      "origin": [
+        -13.546425286751855,
+        -0.6900598653526338,
+        -4.764178729445696
+      ],
+      "direction": [
+        -0.005817063222419705,
+        7.517144185027,
+        8.633339313175647
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 12.580910682678223,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-39",
+      "kind": "native-proof",
+      "origin": [
+        -13.355824883146541,
+        18.068684070451695,
+        -5.3548552669120575
+      ],
+      "direction": [
+        -9.640193973155162,
+        1.220628228667909,
+        -6.485494515408947
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 337.7388916015625,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-40",
+      "kind": "native-proof",
+      "origin": [
+        5.572898699276848,
+        -8.35224324416156,
+        -7.300580510786796
+      ],
+      "direction": [
+        7.594209943585394,
+        8.489548046533486,
+        9.525115693818115
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 37.65961456298828,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-41",
+      "kind": "native-proof",
+      "origin": [
+        -12.333167975928916,
+        13.676724337174193,
+        7.762999290235495
+      ],
+      "direction": [
+        -3.2389920970712165,
+        -4.306163885330614,
+        -3.2823753053895217
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 118.85633850097656,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-42",
+      "kind": "native-proof",
+      "origin": [
+        6.4270812907051145,
+        5.348125931879931,
+        16.905292773024932
+      ],
+      "direction": [
+        5.674283296309323,
+        4.709506339027703,
+        -8.260650196850401
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 299.8283386230469,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-43",
+      "kind": "native-proof",
+      "origin": [
+        -14.74829188566073,
+        -18.852803165708337,
+        -12.025705897454465
+      ],
+      "direction": [
+        -4.322652272602392,
+        9.108605708172433,
+        1.6257274900612941
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 177.39137268066406,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-44",
+      "kind": "native-proof",
+      "origin": [
+        7.90603226437473,
+        14.254985708046988,
+        -2.9319815112204424
+      ],
+      "direction": [
+        7.204274463681056,
+        0.41832390438021605,
+        3.4981041803337227
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 215.57522583007812,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-45",
+      "kind": "native-proof",
+      "origin": [
+        5.353602071338411,
+        19.179047557787257,
+        19.297060312521218
+      ],
+      "direction": [
+        6.677005177416426,
+        3.9859026050551183,
+        9.141741435671818
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 671.6634521484375,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-46",
+      "kind": "native-proof",
+      "origin": [
+        -9.906888925395222,
+        -8.825152575313595,
+        0.5030459675666421
+      ],
+      "direction": [
+        -0.2632345255599393,
+        -6.046010518698274,
+        -9.671353027684903
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 77.8833236694336,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-47",
+      "kind": "native-proof",
+      "origin": [
+        6.989469648395254,
+        17.05877178009257,
+        -10.033517244795643
+      ],
+      "direction": [
+        3.210107947931373,
+        2.471488265742323,
+        2.040860494324521
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 291.0028076171875,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-48",
+      "kind": "native-proof",
+      "origin": [
+        10.997605667319895,
+        -0.71833853446417,
+        7.2389953116515535
+      ],
+      "direction": [
+        4.517862553694121,
+        -7.288495279606703,
+        3.2666445625295424
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 166.80276489257812,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-49",
+      "kind": "native-proof",
+      "origin": [
+        -0.5226760544045028,
+        -14.73145093729669,
+        1.903536600103422
+      ],
+      "direction": [
+        -7.267530798305044,
+        -2.503361539947493,
+        1.4748400990404384
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 217.96902465820312,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-50",
+      "kind": "native-proof",
+      "origin": [
+        12.05320178869291,
+        -2.3823057239914966,
+        4.028855180386014
+      ],
+      "direction": [
+        -3.7930663869123045,
+        -9.259084675018146,
+        3.7482853412935846
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 134.9916534423828,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-51",
+      "kind": "native-proof",
+      "origin": [
+        10.71688167680163,
+        17.178701505607393,
+        4.3004417455266655
+      ],
+      "direction": [
+        -0.5796360463241221,
+        4.210012529818341,
+        6.21529868548469
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 407.8677673339844,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-52",
+      "kind": "native-proof",
+      "origin": [
+        -19.181003180563575,
+        1.0550794533849448,
+        6.601612360070067
+      ],
+      "direction": [
+        7.345652995042261,
+        -1.2547022423556093,
+        -2.5048359939381415
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 3.4083468914031982,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-53",
+      "kind": "native-proof",
+      "origin": [
+        15.657513681786043,
+        -7.577580251941809,
+        -18.405259297163973
+      ],
+      "direction": [
+        0.3404576632733196,
+        -4.041283649643892,
+        1.8623199100214887
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 160.0755615234375,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-54",
+      "kind": "native-proof",
+      "origin": [
+        -18.80050843669669,
+        -8.470401450285596,
+        6.570704626218443
+      ],
+      "direction": [
+        -4.224367817854768,
+        9.54205378490235,
+        7.020794744922014
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 131.701171875,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-55",
+      "kind": "native-proof",
+      "origin": [
+        17.64741131690532,
+        15.805322301678103,
+        -19.105468850014475
+      ],
+      "direction": [
+        -2.8399918333660823,
+        -8.719546209427097,
+        4.0149881849136
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 99.23246765136719,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-56",
+      "kind": "native-proof",
+      "origin": [
+        15.225693518076774,
+        -7.228991265728384,
+        3.529975956627112
+      ],
+      "direction": [
+        -9.264874172808565,
+        6.352471509061196,
+        8.969518976524242
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 171.1598663330078,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-57",
+      "kind": "native-proof",
+      "origin": [
+        -6.779179554997704,
+        -12.134136489125261,
+        18.65316681469524
+      ],
+      "direction": [
+        -0.2635480925463831,
+        8.392776527404703,
+        -9.458799239381976
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 16.312545776367188,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-58",
+      "kind": "native-proof",
+      "origin": [
+        18.92806155146203,
+        4.632481925297753,
+        5.299523673160653
+      ],
+      "direction": [
+        2.6637226590145673,
+        -9.246828313658435,
+        2.741303124197147
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 314.9478759765625,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-59",
+      "kind": "native-proof",
+      "origin": [
+        -7.066747185023434,
+        7.478156536415021,
+        4.418838594028365
+      ],
+      "direction": [
+        -1.228839500433871,
+        -4.426453931213395,
+        -9.001014386550139
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 9.312884330749512,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-60",
+      "kind": "native-proof",
+      "origin": [
+        -4.8047948592865275,
+        5.958599796573182,
+        -2.965002447770445
+      ],
+      "direction": [
+        1.0920757250020046,
+        -9.989802766481867,
+        -0.5266671772869458
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 0,
+        "referenceHit": true
+      }
+    },
+    {
+      "id": "native-proof-61",
+      "kind": "native-proof",
+      "origin": [
+        -5.522656969215326,
+        -9.734306430788964,
+        17.228090322306542
+      ],
+      "direction": [
+        5.8136368881322085,
+        2.681743890842389,
+        -5.284070277857557
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 124.586181640625,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-62",
+      "kind": "native-proof",
+      "origin": [
+        14.745153369177544,
+        3.6883339745696446,
+        2.1265697851523235
+      ],
+      "direction": [
+        8.659627743478516,
+        8.287241173912182,
+        7.669112941702899
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 155.9313201904297,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-63",
+      "kind": "native-proof",
+      "origin": [
+        -17.90302125310037,
+        -1.4541987535548095,
+        19.957806396103507
+      ],
+      "direction": [
+        -9.714731573572655,
+        3.1277353082497434,
+        -6.307152421167053
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 163.73028564453125,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-64",
+      "kind": "native-proof",
+      "origin": [
+        -9.300224762114194,
+        -3.901449326201444,
+        -12.328885383295649
+      ],
+      "direction": [
+        -8.198879709217184,
+        0.9444914664349682,
+        -1.2203697448310784
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 20.51262092590332,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-65",
+      "kind": "native-proof",
+      "origin": [
+        -15.540947895005806,
+        -10.60681618907267,
+        -5.468642476241779
+      ],
+      "direction": [
+        -9.876009700307165,
+        9.503124643232844,
+        -4.32501198546686
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 131.90509033203125,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-66",
+      "kind": "native-proof",
+      "origin": [
+        -0.540172276611429,
+        10.931069877266836,
+        2.8563497074344184
+      ],
+      "direction": [
+        1.3349653564368253,
+        8.536497198455788,
+        -5.749991518971827
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 122.17060852050781,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-67",
+      "kind": "native-proof",
+      "origin": [
+        17.949803096819117,
+        -6.15142810438801,
+        -2.912728800682739
+      ],
+      "direction": [
+        5.489126010292173,
+        -6.012466011203292,
+        -9.16831872285481
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 151.2688446044922,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-68",
+      "kind": "native-proof",
+      "origin": [
+        9.282511909658968,
+        5.714169955374491,
+        12.99961065837013
+      ],
+      "direction": [
+        4.716673050666278,
+        6.661545987799819,
+        3.2717686722722163
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 280.8982238769531,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-69",
+      "kind": "native-proof",
+      "origin": [
+        7.98860222544814,
+        -5.263093770262582,
+        -8.64165223110778
+      ],
+      "direction": [
+        -1.7764978952181583,
+        -8.589214329101814,
+        9.071347490471876
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 27.700170516967773,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-70",
+      "kind": "native-proof",
+      "origin": [
+        -4.632499202624153,
+        11.886676979823303,
+        -15.770953749480817
+      ],
+      "direction": [
+        6.469090492607133,
+        -9.606423099816379,
+        -2.864556057338021
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 79.69181060791016,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-71",
+      "kind": "native-proof",
+      "origin": [
+        -11.380139282006771,
+        5.660233684694404,
+        -12.126242907563029
+      ],
+      "direction": [
+        -1.0937185385192443,
+        -9.459855012117465,
+        8.33855557437331
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 4.084822177886963,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-72",
+      "kind": "native-proof",
+      "origin": [
+        -18.637173438529654,
+        4.769010297690436,
+        -4.565267088599612
+      ],
+      "direction": [
+        3.130213643630759,
+        -4.0453284400820095,
+        -9.381744361223191
+      ],
+      "packet": {
+        "origin": [
+          -10,
+          0,
+          -10
+        ],
+        "edge1": [
+          20,
+          0,
+          0
+        ],
+        "edge2": [
+          0,
+          0,
+          20
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 43.938358306884766,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-73",
+      "kind": "native-proof",
+      "origin": [
+        -8.522122838576061,
+        -2.9886632337378707,
+        -10.18261048111465
+      ],
+      "direction": [
+        4.480753493062519,
+        -13.58876834176787,
+        5.641015759562631
+      ],
+      "packet": {
+        "origin": [
+          5.408774561037735,
+          10.129566715606547,
+          -5.611803421602051
+        ],
+        "edge1": [
+          13.260342930263871,
+          6.053235428477489,
+          12.08604692230643
+        ],
+        "edge2": [
+          -12.880312446742643,
+          8.554585576403436,
+          -13.657878536457638
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 347.5625915527344,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-74",
+      "kind": "native-proof",
+      "origin": [
+        9.095330811212946,
+        12.737713720579208,
+        -13.601441505593225
+      ],
+      "direction": [
+        5.4046460702590835,
+        -0.31259006298957104,
+        -3.499750022581903
+      ],
+      "packet": {
+        "origin": [
+          -7.261845496423167,
+          -2.2966261251502402,
+          -5.087464724613477
+        ],
+        "edge1": [
+          -14.474362070628247,
+          14.891724381701835,
+          13.080531665858356
+        ],
+        "edge2": [
+          14.150640439820751,
+          12.174669290207412,
+          -13.097848307995356
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 31.297950744628906,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-75",
+      "kind": "native-proof",
+      "origin": [
+        0.05136486472296298,
+        4.935038459887334,
+        11.502978674053395
+      ],
+      "direction": [
+        -5.534736201473153,
+        0.46472436792999083,
+        11.703836849865091
+      ],
+      "packet": {
+        "origin": [
+          -8.033986119362847,
+          -11.467098203270865,
+          3.0779553513643485
+        ],
+        "edge1": [
+          3.090018946836736,
+          8.601606895319783,
+          -11.214676238527353
+        ],
+        "edge2": [
+          -8.723551910885348,
+          -9.678011079358217,
+          -3.636943566662236
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 380.9012145996094,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-76",
+      "kind": "native-proof",
+      "origin": [
+        -1.927795281995909,
+        -2.5406393100114997,
+        13.775750411709488
+      ],
+      "direction": [
+        -1.7317428475918675,
+        5.671321523561204,
+        -9.799534770796791
+      ],
+      "packet": {
+        "origin": [
+          -10.869396327418805,
+          -11.282088349589085,
+          0.0514689307563323
+        ],
+        "edge1": [
+          -7.063150526513349,
+          9.681504701184714,
+          -12.391586376240758
+        ],
+        "edge2": [
+          -5.603411015664589,
+          11.414454992404544,
+          -7.3423945727071285
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 232.9912567138672,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-77",
+      "kind": "native-proof",
+      "origin": [
+        13.942414975719881,
+        -14.555113030541008,
+        14.703761848672709
+      ],
+      "direction": [
+        -8.016902907599658,
+        2.186503613453283,
+        6.67102936152418
+      ],
+      "packet": {
+        "origin": [
+          -4.999665314982648,
+          3.9603017911848255,
+          11.769991391456543
+        ],
+        "edge1": [
+          -10.89833993361728,
+          -5.3673062054377745,
+          12.392043585470773
+        ],
+        "edge2": [
+          -2.215021975613574,
+          3.945494607206605,
+          -6.057941588808175
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 452.7635803222656,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-78",
+      "kind": "native-proof",
+      "origin": [
+        -0.08035576063486616,
+        8.043204459034758,
+        -13.607585950521043
+      ],
+      "direction": [
+        -7.714894834827769,
+        -6.133232223054817,
+        -5.433947936794288
+      ],
+      "packet": {
+        "origin": [
+          3.0613434329610847,
+          2.6414102017157575,
+          2.2163110293699972
+        ],
+        "edge1": [
+          11.351501888676722,
+          10.815931542990757,
+          7.38100505022615
+        ],
+        "edge2": [
+          -10.863970421662017,
+          -2.087174061519674,
+          11.59700812163766
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 289.4453430175781,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-79",
+      "kind": "native-proof",
+      "origin": [
+        0.37268325199665675,
+        3.907767321711173,
+        -0.009614028363353455
+      ],
+      "direction": [
+        12.30396153830404,
+        -13.634085457648865,
+        1.0915853759212908
+      ],
+      "packet": {
+        "origin": [
+          3.0670963063351024,
+          -2.262763918835663,
+          12.500391767087507
+        ],
+        "edge1": [
+          0.19846420296379996,
+          7.566751173979739,
+          -3.6448215196949256
+        ],
+        "edge2": [
+          11.716743505224574,
+          -2.954621659710293,
+          -14.198133599821453
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 9.437867164611816,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-80",
+      "kind": "native-proof",
+      "origin": [
+        -10.333440340486435,
+        -12.91019719029122,
+        -5.288179630368683
+      ],
+      "direction": [
+        -8.447712385688641,
+        -8.39719269770056,
+        -8.029913278637636
+      ],
+      "packet": {
+        "origin": [
+          -8.800022395578235,
+          4.148065893472101,
+          10.833266022415707
+        ],
+        "edge1": [
+          -1.7470891797476042,
+          3.152817109547371,
+          -1.7793219927010462
+        ],
+        "edge2": [
+          -1.8328391458679612,
+          0.12599300677013403,
+          -9.522530437448822
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 338.9339904785156,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-81",
+      "kind": "native-proof",
+      "origin": [
+        6.7655747971909115,
+        -11.457518530360787,
+        -12.809899947295186
+      ],
+      "direction": [
+        -2.777958691793769,
+        6.487112549416775,
+        -1.7847543220090092
+      ],
+      "packet": {
+        "origin": [
+          2.069698712390249,
+          5.17853216362748,
+          14.991948115826286
+        ],
+        "edge1": [
+          6.338899247668795,
+          -10.91225475138655,
+          2.7633755813408385
+        ],
+        "edge2": [
+          7.300118929370463,
+          7.46926967059613,
+          -14.516566685503383
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 559.0894165039062,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-82",
+      "kind": "native-proof",
+      "origin": [
+        -1.7812671164011746,
+        -11.362176554144272,
+        8.583804060683665
+      ],
+      "direction": [
+        9.948256702364027,
+        13.833804096091729,
+        8.459365455037801
+      ],
+      "packet": {
+        "origin": [
+          -0.1833735838196695,
+          14.234115096938076,
+          -6.34174281222476
+        ],
+        "edge1": [
+          -3.63822775905259,
+          -9.018463657157744,
+          -7.579321267991758
+        ],
+        "edge2": [
+          -8.025074286656253,
+          8.959207919985062,
+          2.866883943621435
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 716.3513793945312,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-83",
+      "kind": "native-proof",
+      "origin": [
+        5.901986651553013,
+        1.9575136818969057,
+        3.579163027920284
+      ],
+      "direction": [
+        -7.1188834717843585,
+        -14.778119249854146,
+        8.103256483601786
+      ],
+      "packet": {
+        "origin": [
+          5.049376809713678,
+          5.941477508012987,
+          13.758026608850265
+        ],
+        "edge1": [
+          5.295855654426781,
+          -10.429685037286461,
+          2.362633680638787
+        ],
+        "edge2": [
+          -11.211916203269453,
+          -0.21233376519118252,
+          14.844258899536445
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 104.33594512939453,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-84",
+      "kind": "native-proof",
+      "origin": [
+        -11.84347232021614,
+        -9.377534093027878,
+        -2.6834603525312453
+      ],
+      "direction": [
+        10.831162051039055,
+        11.011435681460526,
+        -14.265778006082229
+      ],
+      "packet": {
+        "origin": [
+          11.018737700572295,
+          9.75504246269017,
+          6.27366033770614
+        ],
+        "edge1": [
+          -10.106783929119342,
+          0.359703771332887,
+          13.259641382426022
+        ],
+        "edge2": [
+          8.476775438229637,
+          -7.197509140215235,
+          -7.891638988857347
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 644.1331176757812,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-85",
+      "kind": "native-proof",
+      "origin": [
+        10.53100864441603,
+        -3.75982147807831,
+        -0.9236675215380359
+      ],
+      "direction": [
+        3.8054925395640353,
+        0.7253020815695894,
+        8.752056633149994
+      ],
+      "packet": {
+        "origin": [
+          -13.724705461726153,
+          4.131517582963614,
+          -12.201316563926328
+        ],
+        "edge1": [
+          6.389664329946804,
+          -8.980940852249573,
+          12.017863080048716
+        ],
+        "edge2": [
+          -8.863203285308373,
+          4.973586033627981,
+          3.899471641358268
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 320.930908203125,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-86",
+      "kind": "native-proof",
+      "origin": [
+        -14.3704148437014,
+        -12.82555852858761,
+        -0.8211404496081407
+      ],
+      "direction": [
+        4.721720342788203,
+        11.957702117586496,
+        14.70054655622745
+      ],
+      "packet": {
+        "origin": [
+          9.364831419306974,
+          -12.602997374452329,
+          13.66603230895775
+        ],
+        "edge1": [
+          -14.229279137281521,
+          -7.192934519403512,
+          -4.1240819526363985
+        ],
+        "edge2": [
+          13.616306297084005,
+          7.5403846935039525,
+          -6.5360917813092385
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 212.34048461914062,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-87",
+      "kind": "native-proof",
+      "origin": [
+        -5.6482083564335674,
+        0.35120819342868437,
+        -2.113393890190732
+      ],
+      "direction": [
+        4.010926482340807,
+        -4.534223976797275,
+        3.123812644858422
+      ],
+      "packet": {
+        "origin": [
+          -12.010300270636158,
+          4.353760535163946,
+          -1.989948427899673
+        ],
+        "edge1": [
+          -7.179357478510289,
+          6.977380210611745,
+          -5.972434638939378
+        ],
+        "edge2": [
+          -14.277992131165133,
+          9.209919224898957,
+          6.651230278532047
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 56.51188278198242,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-88",
+      "kind": "native-proof",
+      "origin": [
+        10.250322040037243,
+        3.085368535044765,
+        -12.055117849259119
+      ],
+      "direction": [
+        -5.716980940517464,
+        -14.897629537449312,
+        3.662229353893654
+      ],
+      "packet": {
+        "origin": [
+          4.702182594754337,
+          -13.635318784473382,
+          11.222905714482177
+        ],
+        "edge1": [
+          -7.502594104634841,
+          12.854423914768795,
+          2.177351028936531
+        ],
+        "edge2": [
+          -8.376693654718132,
+          -11.955388261500802,
+          3.0228895940614464
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 388.13140869140625,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-89",
+      "kind": "native-proof",
+      "origin": [
+        -0.3841430981732312,
+        14.263260475969997,
+        -10.13966297046754
+      ],
+      "direction": [
+        -6.968566272980535,
+        -12.816847533916878,
+        8.700887535236717
+      ],
+      "packet": {
+        "origin": [
+          13.265074896515259,
+          -13.374805978853104,
+          12.09406656058491
+        ],
+        "edge1": [
+          -1.0976944316632355,
+          4.653336337209922,
+          -14.03327979571835
+        ],
+        "edge2": [
+          -3.361536620060704,
+          14.522733065758327,
+          6.173743086743762
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 437.8509521484375,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-90",
+      "kind": "native-proof",
+      "origin": [
+        -7.754932006375068,
+        -4.852452585070912,
+        1.6269948243537442
+      ],
+      "direction": [
+        -3.353954323314836,
+        2.279981653222322,
+        -13.525302943761693
+      ],
+      "packet": {
+        "origin": [
+          12.846692896384162,
+          -9.29688757965151,
+          8.663608986061096
+        ],
+        "edge1": [
+          -14.64927050471014,
+          6.25393121787145,
+          -4.899704109439554
+        ],
+        "edge2": [
+          -6.436082370046805,
+          -2.0320745388193124,
+          -5.306669520512562
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 43.27119064331055,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-91",
+      "kind": "native-proof",
+      "origin": [
+        -14.617872838222121,
+        -9.5359241982483,
+        -9.276387052012204
+      ],
+      "direction": [
+        14.20794656699005,
+        -14.009495255667856,
+        -10.088887272202085
+      ],
+      "packet": {
+        "origin": [
+          0.432367525549493,
+          -2.4269187822909206,
+          -5.575296349189344
+        ],
+        "edge1": [
+          5.723229158110978,
+          -8.693781481598581,
+          -0.8023935467473287
+        ],
+        "edge2": [
+          -9.94554976434766,
+          5.557530486189304,
+          14.716740864559796
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 272.6484069824219,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-92",
+      "kind": "native-proof",
+      "origin": [
+        -6.098106426578578,
+        -7.955408522048843,
+        11.406169828684813
+      ],
+      "direction": [
+        5.909330793157089,
+        4.4942667015110835,
+        -0.9314787126051467
+      ],
+      "packet": {
+        "origin": [
+          -0.4750978106564556,
+          -3.6650308386779145,
+          -7.6796745261464245
+        ],
+        "edge1": [
+          -4.612146622969597,
+          -3.6763486639525382,
+          11.923787632843673
+        ],
+        "edge2": [
+          -12.691367368685516,
+          4.282121390123216,
+          14.482381459868321
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 46.084842681884766,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-93",
+      "kind": "native-proof",
+      "origin": [
+        -5.727265106465115,
+        0.10867490477392927,
+        7.290379688051171
+      ],
+      "direction": [
+        11.011155398641385,
+        -2.2424058343507145,
+        3.826332243357463
+      ],
+      "packet": {
+        "origin": [
+          -6.05514002206743,
+          -11.78125821853712,
+          10.592496689386984
+        ],
+        "edge1": [
+          2.9333056712552867,
+          -5.476175527275977,
+          13.692405297081248
+        ],
+        "edge2": [
+          8.595519952874572,
+          2.1466656004036615,
+          -6.1278557670251015
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 91.93660736083984,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-94",
+      "kind": "native-proof",
+      "origin": [
+        -13.424107070512243,
+        -13.178394223164723,
+        -14.763277771436089
+      ],
+      "direction": [
+        -12.330069986352964,
+        -12.67541278497593,
+        0.5710087933253281
+      ],
+      "packet": {
+        "origin": [
+          -1.7258369417586206,
+          -9.742905320789971,
+          7.819429300603723
+        ],
+        "edge1": [
+          -1.0575448636507705,
+          10.471645407125816,
+          -9.693863906822443
+        ],
+        "edge2": [
+          -13.32208680954991,
+          5.331834943080953,
+          14.418052674027372
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 472.3209228515625,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-95",
+      "kind": "native-proof",
+      "origin": [
+        5.209349830835578,
+        0.9114031548488306,
+        -4.024747808168099
+      ],
+      "direction": [
+        -14.10301323453967,
+        4.223873825741524,
+        -0.6622027178645524
+      ],
+      "packet": {
+        "origin": [
+          6.1957789159474075,
+          -3.8634055032315313,
+          0.7710423599669554
+        ],
+        "edge1": [
+          7.473813621052823,
+          -12.79774686258402,
+          -6.537507215240188
+        ],
+        "edge2": [
+          9.653854098150692,
+          -6.672003131148376,
+          12.154825480561662
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 46.771446228027344,
+        "referenceHit": false
+      }
+    },
+    {
+      "id": "native-proof-96",
+      "kind": "native-proof",
+      "origin": [
+        3.6488086752632576,
+        11.142127131179823,
+        5.601441267535392
+      ],
+      "direction": [
+        -8.067665916252803,
+        -8.916433901271567,
+        -11.278753737265292
+      ],
+      "packet": {
+        "origin": [
+          -2.5882737884338134,
+          -3.966272963924979,
+          11.806467310789522
+        ],
+        "edge1": [
+          -9.142066847725683,
+          12.707376108698615,
+          4.966558633608841
+        ],
+        "edge2": [
+          13.1825170490932,
+          -12.878717717977906,
+          13.692132228183752
+        ]
+      },
+      "source": {
+        "clientSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+        "referenceDistance": 239.78591918945312,
+        "referenceHit": false
+      }
+    }
+  ]
+}

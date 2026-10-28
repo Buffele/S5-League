@@ -122,5 +122,32 @@
     "approvedPublicFile": "README.md",
     "approvedOccurrences": 1,
     "otherPathsAndFileContents": 0
+  },
+  "wasmToolingCorrection": {
+    "date": "2026-10-28",
+    "node": "22.20.0",
+    "wabt": "1.0.39",
+    "cleanInstall": "npm ci --offline --no-audit --no-fund: passed using locked cached packages",
+    "reproducibleBuild": "wasm:check and wasm:build passed; generated binary and manifest unchanged",
+    "wasmSha256": "635831bb273b88b1d08b0da66fb963ec32da6019f93c277c3c6ed6698bbb2b07",
+    "wasmBytes": 48494,
+    "portableTests": {
+      "command": "npm run test:wasm",
+      "passed": 13,
+      "failed": 0,
+      "collisionCases": 165
+    },
+    "mismatchCheck": "Changed compiler input rejected without writing binary or manifest",
+    "build": {
+      "command": "npm run build",
+      "passed": true,
+      "modules": 1178,
+      "outputFiles": 3157,
+      "existingWarningsUnchanged": true
+    },
+    "runtimeSourcesChanged": false,
+    "nativeParityCertified": false,
+    "releaseArchive": "Original snapshot archive retained; clone the repository for the tooling correction",
+    "history": "New correction commit follows the cleaned public snapshot; original development history remains excluded"
   }
 }

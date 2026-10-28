@@ -167,13 +167,15 @@ selected paths and do not establish exhaustive gameplay correctness.
 
 **The developer packet is the editable project, not just the playable build.**
 It is available as [S5-dev-packet-english.zip](https://github.com/Clarity-1/S5-League/releases/latest/download/S5-dev-packet-english.zip)
-in the release: **4,430 files**, approximately **921 MB compressed** and **1.37 GB
-unpacked**, before installing dependencies. The repository and developer ZIP contain the same portable source snapshot,
-including the introduction and screenshots.
+in the initial release: **4,430 files**, approximately **921 MB compressed** and **1.37 GB
+unpacked**, before installing dependencies. That ZIP preserves the initial source snapshot.
+The repository now also includes reproducible collision WASM tooling and portable
+regression tests; clone it to get these additions.
 
 Included are JavaScript sources, original runtime assets, technical notes, eight
 HTML entry points, locked npm dependencies, Vite configuration, and the two
-required helpers. `node_modules` is not bundled; run `npm ci` first.
+runtime/build helpers and collision WASM tooling. `node_modules` is not bundled;
+run `npm ci` first. See [collision WASM source and rebuild](docs/WASM-COLLISION.md).
 
 This is where to work on **physics, weapon timings, collisions, animations, maps,
 effects, and UI**. The compiled browser ZIP is intended for playing or static
@@ -190,8 +192,9 @@ names and the distinction between source provenance and generated output.
 | --- | ---: | --- |
 | [`src/`](src) | 1,257 | Gameplay, physics, collision, weapon data, animation, maps, rendering, and UI |
 | [`public/assets/`](public/assets) | 3,043 | Original runtime resources: models, textures, animation/data exports, audio, and interface assets |
-| [`docs/`](docs) | 107 | Technical contracts, per-weapon/import notes, historical documents, and three presentation screenshots |
-| [`tools/`](tools) | 2 | Distribution cleanup and attack-volume intersection helpers |
+| [`docs/`](docs) | 108 | Technical contracts, WASM rebuild guide, per-weapon/import notes, historical documents, and three presentation screenshots |
+| [`tools/`](tools) | 3 | Distribution cleanup, attack-volume intersection, and collision WASM generator |
+| [`tests/`](tests) | 2 | Portable WASM regression tests and their fixture |
 | Root files | 21 | Eight HTML entry points, package/config files, English guides, validation record, and manifest |
 
 Most disk space is in assets, not JavaScript. The compiled distribution contains
@@ -217,6 +220,16 @@ Open the local URL printed by Vite. To create and preview a production build:
 npm run build
 npm run preview
 ```
+
+The application is authored directly in JavaScript. To reproduce the checked-in
+collision WebAssembly module, run `npm run wasm:check`. Use `npm run wasm:build`
+to regenerate it, and `npm run test:wasm` for the portable regression tests.
+WABT is a pinned development dependency. The [WASM guide](docs/WASM-COLLISION.md)
+details the inputs, generated files, checks, and numerical limitations.
+
+The public repository started from a cleaned source snapshot; it does not contain
+the complete development commit history. Subsequent corrections are recorded as
+new commits. See [the history explanation](docs/WASM-COLLISION.md#published-git-history).
 
 Runtime assets are included as real files in `public/assets/`, without Git LFS.
 Allow roughly **1.4 GB** for the source checkout before dependencies and generated

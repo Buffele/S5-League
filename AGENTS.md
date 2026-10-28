@@ -15,6 +15,8 @@ that appear in historical documents.
 - `ARMES.md`: English entry guide to the weapon implementation and original notes.
 - `PROJECT.md`: English orientation and pointers to historical project records.
 - `tools/distribution-cleanup.mjs`: the Vite build helper.
+- `tools/build-native-bool-wasm.mjs`: reproducible collision WASM generator.
+  See `docs/WASM-COLLISION.md`; use `npm run wasm:check` and `npm run test:wasm`.
 - `tools/s5runtime-arsenal/attack-box-intersection.mjs`: attack volume helper used by
   the game. The included `tools/` directory is not the complete import pipeline.
 
@@ -31,6 +33,7 @@ Do not change generated exports blindly.
 ## Work and validation
 
 Use the Node version in `.nvmrc`: `npm ci`, `npm run dev`, and `npm run build`.
+Portable collision WASM tests and their fixture are included under `tests/`.
 The full repository tests and research corpora are not included here. Do not claim
 that the complete test suite passed, and do not invent missing source evidence.
 Choose validation that addresses the change, reproduce the relevant behavior in

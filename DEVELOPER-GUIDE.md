@@ -75,17 +75,25 @@ can be owned by different modules; avoid treating them as interchangeable values
 ## Packet scope
 
 Included: `src/`, original `public/assets/`, technical `docs/`, the eight Vite HTML
-entry points, npm/Vite configuration, project guides, and the two helpers required
-by the runtime and build. [FILE-MANIFEST.json](FILE-MANIFEST.json) records file sizes
+entry points, npm/Vite configuration, project guides, runtime/build helpers,
+collision WASM tooling, and its portable tests.
+[FILE-MANIFEST.json](FILE-MANIFEST.json) records file sizes
 and SHA256 digests.
 
 Excluded: `.git/`, installed `node_modules/`, generated `dist/`, `work/`, Blender
 authoring sources under `art/`, captures, the native reference installation,
 Android/APK outputs, and historical compiled comparison packages.
 
+The collision WASM generator and portable regression tests are included. Run
+`npm run wasm:check` to reproduce the binary without writing it,
+`npm run wasm:build` to regenerate it, and `npm run test:wasm` to run the focused suite.
+See [WASM-COLLISION.md](docs/WASM-COLLISION.md) for inputs, outputs, and limits.
+The code is authored in JavaScript; it is not transpiled from TypeScript.
+
 The complete test suite and advanced import pipelines are not included: many
 depend on research corpora and tools outside this base packet. The exported npm
-scripts therefore provide `dev`, `build`, and `preview`. The original package
+scripts provide `dev`, `build`, `preview`, `wasm:build`, `wasm:check`, and
+`test:wasm`. The original package
 configuration is retained in `docs/package-projet-original.json`.
 
 ## Documentation language and history
