@@ -1,0 +1,14 @@
+/* Responsive fitting only. Native pixels and common HP/SP HUD are preserved. */
+@media(max-width:700px){.s4-chaser-ui .ch-score-panel{width:170px;top:12px}.ch-score-name{max-width:95px;font-size:12px}.ch-native-digit{width:18px;height:24px}.s4-chaser-ui .ch-round-panel{left:auto;right:12px;transform:none;width:180px}.ch-round-clock .ch-native-digit{width:32px;height:42px}.s4-chaser-ui .ch-notice{min-width:0;width:80vw}.ch-result-card{padding:16px}.s4-chaser-ui table{font-size:11px}.s4-chaser-ui th,.s4-chaser-ui td{padding:6px}}
+@media(prefers-reduced-motion:reduce){.s4-chaser-ui *{animation:none!important;transition:none!important}}
+
+/* 320px:150+140px panels with8px outer margins leave14px between them. */
+@media(max-width:365px){.s4-chaser-ui .ch-score-panel{left:8px;width:150px;top:12px}.s4-chaser-ui .ch-round-panel{right:8px;width:140px;top:12px}.s4-chaser-ui .ch-score-name{max-width:64px}.s4-chaser-ui .ch-hunter>span{display:block;margin-right:0}.s4-chaser-ui .ch-hunter strong{display:block;max-width:124px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.s4-chaser-ui .ch-round-clock .ch-native-digit{width:32px;height:42px}}
+
+/* Native SCN owns the central announcement; this DOM keeps accessible timing. */
+.s4-chaser-ui .ch-notice.ch-native-scene-notice{left:auto;right:16px;top:180px;transform:none;min-width:0;width:220px;padding:8px}.s4-chaser-ui .ch-native-scene-notice strong{font-size:18px}.s4-chaser-ui .ch-native-scene-notice .ch-eyebrow,.s4-chaser-ui[data-phase=preparation] .ch-native-scene-notice .ch-notice-detail{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.s4-chaser-ui .ch-native-scene-notice .ch-notice-detail{font-size:11px}
+@media(max-width:700px){.s4-chaser-ui .ch-notice.ch-native-scene-notice{right:8px;top:180px;width:140px}}
+
+/* The native SCN draws the announcement. Its extra countdown uses the current
+   S5 HUD surface; stretching the fullscreen escape image made a black bar. */
+#match-ui.s4-chaser-ui .ch-notice.ch-native-scene-notice{background:var(--s5-panel,#102235e8);border:1px solid var(--s5-hairline,#adcce72b);border-radius:5px;box-shadow:0 4px 16px #0003;line-height:1.3}

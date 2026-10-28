@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Circle 2 — Azure Atrium</title>
+<style>body{margin:0;background:#cde7ee;font:14px system-ui;color:#244351}canvas{display:block}header{position:absolute;top:24px;left:28px;pointer-events:none}h1{font-size:30px;margin:4px 0}small{letter-spacing:.22em}nav{position:absolute;bottom:24px;left:28px;display:flex;gap:12px}button,a{background:#f4faf8dd;border:1px solid #abc8ca;border-radius:8px;padding:12px 18px;color:#244351;text-decoration:none;font:inherit;cursor:pointer}#stats{position:absolute;right:24px;bottom:24px;font-size:12px}</style></head>
+<body><header><small>CIRCLE 02 / RECONSTRUCTION BLENDER</small><h1>Azure Atrium</h1><div>Architecture claire · jardins suspendus · atlas partagé</div></header><nav><button id="overview">Vue d’ensemble</button><button id="eye">Au niveau du joueur</button><a href="/?scene=circle2">Jouer ↗</a></nav><div id="stats">Chargement…</div>
+<script type="module">
+import * as THREE from 'three';import {OrbitControls} from 'three/addons/controls/OrbitControls.js';import {createCircle2Atlas} from './src/circle2-atlas.js';
+const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;renderer.toneMapping=THREE.NeutralToneMapping;document.body.append(renderer.domElement);
+const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(48,innerWidth/innerHeight,.1,550);scene.add(new THREE.HemisphereLight(0xeafaff,0x657c91,1.8));
+const sun=new THREE.DirectionalLight(0xffeed7,2.3);sun.position.set(-25,45,25);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-35,right:35,top:35,bottom:-35,near:1,far:100});sun.shadow.normalBias=.04;scene.add(sun);
+const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.maxDistance=150;
+function view(eye=false){camera.position.set(...(eye?[22.5,6.3,1]:[44,34,48]));controls.target.set(...(eye?[0,3,0]:[0,2,0]));controls.update();}
+view();document.querySelector('#overview').onclick=()=>view();document.querySelector('#eye').onclick=()=>view(true);
+const gardenButton=document.createElement('button');gardenButton.textContent='Jardins & détails';gardenButton.onclick=()=>{camera.position.set(20,7,-6);controls.target.set(25,6.7,0);controls.update();};document.querySelector('nav').append(gardenButton);
+const world=await createCircle2Atlas(scene);window.circle2Preview={world,renderer,scene,camera,controls};
+const droneButton=document.createElement('button');droneButton.textContent='Sondes volantes';droneButton.onclick=()=>{const p=world.atmosphere.couriers[0].position;camera.position.set(p.x+5,p.y+3,p.z+7);controls.target.set(p.x,p.y+1,p.z);controls.update();};document.querySelector('nav').append(droneButton);
+let lastTime=performance.now();
+renderer.setAnimationLoop(()=>{const now=performance.now();world.update(Math.min((now-lastTime)/1000,.1));lastTime=now;controls.update();renderer.render(scene,camera);document.querySelector('#stats').textContent=`${renderer.info.render.calls} appels · ${renderer.info.render.triangles.toLocaleString()} triangles · ${world.triangles.length} faces de collision`;});
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+</script></body></html>

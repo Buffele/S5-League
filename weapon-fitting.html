@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S5 · Réglage des armes Meshy</title></head>
+<body>
+ <header><div><span class="eyebrow">S5 / ATELIER</span><h1>Réglage des armes</h1></div><a id="game-link" href="/">Ouvrir dans S5 ↗</a></header>
+ <div class="toolbar">
+  <label>Arme<select id="weapon"><option value="plasma">Plasma Sword</option><option value="counter">Counter Sword</option><option value="dagger">Spy Dagger</option></select></label>
+  <label>Personnage<select id="sex"><option value="male">Homme</option><option value="female">Femme</option></select></label>
+  <label>Skin du personnage<select id="character"><option value="s5runtime">Classique</option><option value="meshy">Meshy</option></select></label>
+  <label>Pose<select id="pose"></select></label>
+ </div>
+ <main>
+  <section class="comparison" aria-label="Comparaison des armes">
+   <div id="stage">
+    <div class="views"><div id="classic-view" class="viewport"><div class="badge"><b>01 / ORIGINALE</b><span>Référence</span></div></div><div id="meshy-view" class="viewport"><div class="badge"><b>02 / MESHY</b><span id="part-badge">Version à régler</span></div></div></div>
+   </div>
+   <div class="camera-tools" aria-label="Caméra"><button data-view="front">Face</button><button data-view="back">Dos</button><button data-view="left">Profil gauche</button><button data-view="right">Profil droit</button><button id="grip-view">Zoom poignée</button><button id="full-view">Vue entière</button></div>
+   <div class="timeline"><button id="play">Lire l’animation</button><input id="time" aria-label="Temps de l’animation" type="range" min="0" max="2" step="0.001" value="0.3"><output id="clock">0,300 s</output></div>
+   <p class="help">Glisse dans une vue pour tourner les deux caméras. Molette : zoom. À droite, attrape les axes colorés pour déplacer ou tourner la pièce.</p>
+  </section>
+  <aside aria-label="Réglages de la version Meshy">
+   <h2>Ajuster l’attache</h2><label>Pièce à modifier<select id="component"></select></label>
+   <div class="mode-tools"><button id="translate" aria-pressed="true">Déplacer</button><button id="rotate" aria-pressed="false">Tourner</button><label class="check"><input id="gizmo" type="checkbox" checked> Axes 3D</label></div>
+   <div id="transform-fields"></div>
+   <p class="help">Décalages en cm, rotations en degrés, dans le repère de la pièce. La rotation et la taille s’appliquent autour de son attache.</p>
+   <div class="history"><button id="undo" disabled>Annuler</button><button id="redo" disabled>Rétablir</button><button id="reset">Réinitialiser la pièce</button></div>
+   <button id="save" class="primary">Enregistrer pour S5</button>
+   <p class="help">Enregistré dans ce navigateur, pour cette arme et les deux personnages. Une partie S5 déjà ouverte récupère le réglage automatiquement. « Ouvrir dans S5 » utilise les réglages enregistrés.</p>
+   <div class="files"><button id="export">Exporter JSON</button><button id="import">Importer JSON</button><input id="file" type="file" accept=".json,application/json" hidden></div>
+   <p class="help">Exporte ton JSON pour le conserver ou me le transmettre. Les fichiers 3D d’origine restent intacts.</p>
+   <output id="save-status" aria-live="polite">Aucune modification.</output>
+  </aside>
+ </main>
+ <footer><span id="status" role="status">Chargement des deux personnages…</span><span>Prototype · réglage visuel</span></footer>
+ <script type="module" src="/src/weapon-fitting-workshop.js"></script>
+</body></html>

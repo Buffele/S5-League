@@ -1,0 +1,4897 @@
+{
+  "format": "s5-sequence-inspection-v1",
+  "source": "effects/hm_jumpattack.seq",
+  "sha256": "c426627fb1c8404629d45e0504ae999140db96370dd45b0e5df11906154735a9",
+  "byteLength": 4163,
+  "header": {
+    "versionField": 0.10000000149011612,
+    "name": {
+      "value": "",
+      "rawHex": ""
+    },
+    "byteField": 0,
+    "durationField": 3000,
+    "nodeCount": 10,
+    "byteRange": {
+      "start": 0,
+      "end": 14
+    }
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 14,
+        "end": 488,
+        "length": 474
+      },
+      "sha256": "df797bfc7c17f86238269e88b4b2d8a3c5d99777210082f34a0714d00dbb4c78",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\gazer03_1.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c67617a657230335f312e626d70",
+          "resourcePath": "effects/gazer03_1.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\gazer03.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c67617a657230332e626d70",
+          "resourcePath": "effects/gazer03.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 31,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 35,
+            "rawHex": "07000000",
+            "int32": 7,
+            "float32": 9.80908925027372e-45
+          },
+          "name": {
+            "value": "Dummy02",
+            "rawHex": "44756d6d793032"
+          },
+          "startTimeField": {
+            "offset": 47,
+            "rawHex": "90010000",
+            "int32": 400,
+            "float32": 5.605193857299268e-43
+          },
+          "endTimeField": {
+            "offset": 51,
+            "rawHex": "60090000",
+            "int32": 2400,
+            "float32": 3.363116314379561e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 63,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 67,
+              "rawHex": "02000000",
+              "int32": 2,
+              "float32": 2.802596928649634e-45
+            },
+            {
+              "offset": 71,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 75,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 79,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 83,
+              "rawHex": "00004842",
+              "int32": 1112014848,
+              "float32": 50
+            },
+            {
+              "offset": 87,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 91,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 95,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 99,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 103,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 107,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": false,
+          "field58": {
+            "offset": 112,
+            "rawHex": "0a000000",
+            "int32": 10,
+            "float32": 1.401298464324817e-44
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 117,
+            "rawHex": "32000000",
+            "int32": 50,
+            "float32": 7.006492321624085e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 122,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 126,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              true,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 134,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 144,
+            "rawHex": "d0070000",
+            "int32": 2000,
+            "float32": 2.802596928649634e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 153,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 158,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 162,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 166,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 170,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 174,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 178,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 182,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 186,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 190,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 194,
+                  "rawHex": "00004843",
+                  "int32": 1128792064,
+                  "float32": 200
+                },
+                {
+                  "offset": 198,
+                  "rawHex": "00004843",
+                  "int32": 1128792064,
+                  "float32": 200
+                },
+                {
+                  "offset": 202,
+                  "rawHex": "00004843",
+                  "int32": 1128792064,
+                  "float32": 200
+                },
+                {
+                  "offset": 206,
+                  "rawHex": "00004843",
+                  "int32": 1128792064,
+                  "float32": 200
+                },
+                {
+                  "offset": 210,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 214,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 218,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 222,
+                  "rawHex": "00004844",
+                  "int32": 1145569280,
+                  "float32": 800
+                },
+                {
+                  "offset": 226,
+                  "rawHex": "2c010000",
+                  "int32": 300,
+                  "float32": 4.203895392974451e-43
+                },
+                {
+                  "offset": 230,
+                  "rawHex": "0a000000",
+                  "int32": 10,
+                  "float32": 1.401298464324817e-44
+                },
+                {
+                  "offset": 234,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 246,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 250,
+                "rawHex": "00002042",
+                "int32": 1109393408,
+                "float32": 40
+              },
+              {
+                "offset": 254,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 258,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 262,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 266,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 270,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 274,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 278,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 282,
+                "rawHex": "00002042",
+                "int32": 1109393408,
+                "float32": 40
+              },
+              {
+                "offset": 286,
+                "rawHex": "00004842",
+                "int32": 1112014848,
+                "float32": 50
+              },
+              {
+                "offset": 290,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 294,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 298,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 302,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 306,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 2,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\gazer03_1.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c67617a657230335f312e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 372,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 376,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 380,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 384,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 388,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 392,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 396,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 400,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\gazer03.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c67617a657230332e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 456,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 460,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 464,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 468,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 472,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 476,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 480,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 484,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 1,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 488,
+        "end": 888,
+        "length": 400
+      },
+      "sha256": "27ead3f3cefe68296edd49a8b70f543a84c7049cb8a4a76a49c111bbab8a52d7",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c656e656d795f726573345f6e6f6d69706d61702e626d70",
+          "resourcePath": "effects/enemy_res4_nomipmap.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 505,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 509,
+            "rawHex": "07000000",
+            "int32": 7,
+            "float32": 9.80908925027372e-45
+          },
+          "name": {
+            "value": "Dummy02",
+            "rawHex": "44756d6d793032"
+          },
+          "startTimeField": {
+            "offset": 521,
+            "rawHex": "90010000",
+            "int32": 400,
+            "float32": 5.605193857299268e-43
+          },
+          "endTimeField": {
+            "offset": 525,
+            "rawHex": "84030000",
+            "int32": 900,
+            "float32": 1.2611686178923354e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 537,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 541,
+              "rawHex": "02000000",
+              "int32": 2,
+              "float32": 2.802596928649634e-45
+            },
+            {
+              "offset": 545,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 549,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 553,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 557,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 561,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 565,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 569,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 573,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 577,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 581,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": false,
+          "field58": {
+            "offset": 586,
+            "rawHex": "02000000",
+            "int32": 2,
+            "float32": 2.802596928649634e-45
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 591,
+            "rawHex": "32000000",
+            "int32": 50,
+            "float32": 7.006492321624085e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 596,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 600,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 608,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 618,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 627,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 632,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 636,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 640,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 644,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 648,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 652,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 656,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 660,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 664,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 668,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 672,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 676,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 680,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 684,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 688,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 692,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 696,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 700,
+                  "rawHex": "2c010000",
+                  "int32": 300,
+                  "float32": 4.203895392974451e-43
+                },
+                {
+                  "offset": 704,
+                  "rawHex": "01000000",
+                  "int32": 1,
+                  "float32": 1.401298464324817e-45
+                },
+                {
+                  "offset": 708,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 720,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 724,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 728,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 732,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 736,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 740,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 744,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 748,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 752,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 756,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 760,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 764,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 768,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 772,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 776,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 780,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c656e656d795f726573345f6e6f6d69706d61702e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 856,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 860,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 864,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 868,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 872,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 876,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 880,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 884,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 2,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 888,
+        "end": 1278,
+        "length": 390
+      },
+      "sha256": "6ee03286a04d95e58155e9cf2363d327da06c99b232738ffc52075c0779c188c",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\ringring4.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c72696e6772696e67342e626d70",
+          "resourcePath": "effects/ringring4.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 905,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 909,
+            "rawHex": "07000000",
+            "int32": 7,
+            "float32": 9.80908925027372e-45
+          },
+          "name": {
+            "value": "Dummy02",
+            "rawHex": "44756d6d793032"
+          },
+          "startTimeField": {
+            "offset": 921,
+            "rawHex": "90010000",
+            "int32": 400,
+            "float32": 5.605193857299268e-43
+          },
+          "endTimeField": {
+            "offset": 925,
+            "rawHex": "84030000",
+            "int32": 900,
+            "float32": 1.2611686178923354e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 937,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 941,
+              "rawHex": "02000000",
+              "int32": 2,
+              "float32": 2.802596928649634e-45
+            },
+            {
+              "offset": 945,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 949,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 953,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 957,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 961,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 965,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 969,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 973,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 977,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 981,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": false,
+          "field58": {
+            "offset": 986,
+            "rawHex": "02000000",
+            "int32": 2,
+            "float32": 2.802596928649634e-45
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 991,
+            "rawHex": "32000000",
+            "int32": 50,
+            "float32": 7.006492321624085e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 996,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 1000,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 1008,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 1018,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 1027,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 1032,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1036,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1040,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1044,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1048,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1052,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1056,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 1060,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1064,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1068,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1072,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1076,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1080,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1084,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1088,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1092,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1096,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1100,
+                  "rawHex": "c8000000",
+                  "int32": 200,
+                  "float32": 2.802596928649634e-43
+                },
+                {
+                  "offset": 1104,
+                  "rawHex": "02000000",
+                  "int32": 2,
+                  "float32": 2.802596928649634e-45
+                },
+                {
+                  "offset": 1108,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 1120,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1124,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 1128,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 1132,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1136,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1140,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1144,
+                "rawHex": "cdcc4c3e",
+                "int32": 1045220557,
+                "float32": 0.20000000298023224
+              },
+              {
+                "offset": 1148,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1152,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1156,
+                "rawHex": "0080a244",
+                "int32": 1151500288,
+                "float32": 1300
+              },
+              {
+                "offset": 1160,
+                "rawHex": "0080a244",
+                "int32": 1151500288,
+                "float32": 1300
+              },
+              {
+                "offset": 1164,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1168,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1172,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1176,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1180,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\ringring4.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c72696e6772696e67342e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 1246,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1250,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1254,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1258,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1262,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1266,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1270,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1274,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 3,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 1278,
+        "end": 1930,
+        "length": 652
+      },
+      "sha256": "df1471a60546e5fc4f079bd3c080eb8b76618b66f3c62da49bb7af0c2ae7aa87",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning1.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67312e626d70",
+          "resourcePath": "effects/lightning1.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning2.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67322e626d70",
+          "resourcePath": "effects/lightning2.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning3.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67332e626d70",
+          "resourcePath": "effects/lightning3.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning4.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67342e626d70",
+          "resourcePath": "effects/lightning4.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 1295,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 1299,
+            "rawHex": "07000000",
+            "int32": 7,
+            "float32": 9.80908925027372e-45
+          },
+          "name": {
+            "value": "Dummy02",
+            "rawHex": "44756d6d793032"
+          },
+          "startTimeField": {
+            "offset": 1311,
+            "rawHex": "90010000",
+            "int32": 400,
+            "float32": 5.605193857299268e-43
+          },
+          "endTimeField": {
+            "offset": 1315,
+            "rawHex": "78050000",
+            "int32": 1400,
+            "float32": 1.961817850054744e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 1327,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 1331,
+              "rawHex": "03000000",
+              "int32": 3,
+              "float32": 4.203895392974451e-45
+            },
+            {
+              "offset": 1335,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 1339,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1343,
+              "rawHex": "0000c841",
+              "int32": 1103626240,
+              "float32": 25
+            },
+            {
+              "offset": 1347,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1351,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1355,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1359,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1363,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1367,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1371,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": false,
+          "field58": {
+            "offset": 1376,
+            "rawHex": "0f000000",
+            "int32": 15,
+            "float32": 2.1019476964872256e-44
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 1381,
+            "rawHex": "32000000",
+            "int32": 50,
+            "float32": 7.006492321624085e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 1386,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 1390,
+              "rawHex": "0000c841",
+              "int32": 1103626240,
+              "float32": 25
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 1398,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 1408,
+            "rawHex": "e8030000",
+            "int32": 1000,
+            "float32": 1.401298464324817e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 1417,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 1422,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1426,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1430,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1434,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1438,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1442,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1446,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 1450,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1454,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1458,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1462,
+                  "rawHex": "00001643",
+                  "int32": 1125515264,
+                  "float32": 150
+                },
+                {
+                  "offset": 1466,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1470,
+                  "rawHex": "00001643",
+                  "int32": 1125515264,
+                  "float32": 150
+                },
+                {
+                  "offset": 1474,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1478,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1482,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1486,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1490,
+                  "rawHex": "64000000",
+                  "int32": 100,
+                  "float32": 1.401298464324817e-43
+                },
+                {
+                  "offset": 1494,
+                  "rawHex": "19000000",
+                  "int32": 25,
+                  "float32": 3.5032461608120427e-44
+                },
+                {
+                  "offset": 1498,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 1510,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1514,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 1518,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 1522,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1526,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1530,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1534,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1538,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1542,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1546,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 1550,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 1554,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1558,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1562,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1566,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1570,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 4,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning1.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67312e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 1637,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1641,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1645,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1649,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1653,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1657,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1661,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1665,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning2.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67322e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 1724,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1728,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1732,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1736,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1740,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1744,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1748,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1752,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning3.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67332e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 1811,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1815,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1819,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1823,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1827,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1831,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1835,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1839,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning4.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67342e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 1898,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1902,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1906,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1910,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1914,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1918,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1922,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1926,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 4,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 1930,
+        "end": 2316,
+        "length": 386
+      },
+      "sha256": "56d65d9107b0fa32cb569e468ca0897b9abb593de5f6b5d2ee2178eedae4e48f",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\tick3.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7469636b332e626d70",
+          "resourcePath": "effects/tick3.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 1947,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 1951,
+            "rawHex": "07000000",
+            "int32": 7,
+            "float32": 9.80908925027372e-45
+          },
+          "name": {
+            "value": "Dummy02",
+            "rawHex": "44756d6d793032"
+          },
+          "startTimeField": {
+            "offset": 1963,
+            "rawHex": "90010000",
+            "int32": 400,
+            "float32": 5.605193857299268e-43
+          },
+          "endTimeField": {
+            "offset": 1967,
+            "rawHex": "60090000",
+            "int32": 2400,
+            "float32": 3.363116314379561e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 1979,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1983,
+              "rawHex": "02000000",
+              "int32": 2,
+              "float32": 2.802596928649634e-45
+            },
+            {
+              "offset": 1987,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 1991,
+              "rawHex": "e8030000",
+              "int32": 1000,
+              "float32": 1.401298464324817e-42
+            },
+            {
+              "offset": 1995,
+              "rawHex": "00007a44",
+              "int32": 1148846080,
+              "float32": 1000
+            },
+            {
+              "offset": 1999,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2003,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2007,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2011,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2015,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2019,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2023,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": false,
+          "field58": {
+            "offset": 2028,
+            "rawHex": "1e000000",
+            "int32": 30,
+            "float32": 4.203895392974451e-44
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 2033,
+            "rawHex": "32000000",
+            "int32": 50,
+            "float32": 7.006492321624085e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 2038,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 2042,
+              "rawHex": "0000a041",
+              "int32": 1101004800,
+              "float32": 20
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 2050,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 2060,
+            "rawHex": "d0070000",
+            "int32": 2000,
+            "float32": 2.802596928649634e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 2069,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 2074,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2078,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2082,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2086,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2090,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2094,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2098,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 2102,
+                  "rawHex": "0000fa43",
+                  "int32": 1140457472,
+                  "float32": 500
+                },
+                {
+                  "offset": 2106,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2110,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2114,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2118,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2122,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2126,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2130,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2134,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2138,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2142,
+                  "rawHex": "2c010000",
+                  "int32": 300,
+                  "float32": 4.203895392974451e-43
+                },
+                {
+                  "offset": 2146,
+                  "rawHex": "32000000",
+                  "int32": 50,
+                  "float32": 7.006492321624085e-44
+                },
+                {
+                  "offset": 2150,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 2162,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2166,
+                "rawHex": "0000c841",
+                "int32": 1103626240,
+                "float32": 25
+              },
+              {
+                "offset": 2170,
+                "rawHex": "0000c841",
+                "int32": 1103626240,
+                "float32": 25
+              },
+              {
+                "offset": 2174,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2178,
+                "rawHex": "c0bf3f3f",
+                "int32": 1061142464,
+                "float32": 0.7490196228027344
+              },
+              {
+                "offset": 2182,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2186,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2190,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2194,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2198,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2202,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2206,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2210,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2214,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2218,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2222,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\tick3.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7469636b332e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 2284,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2288,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2292,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2296,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2300,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2304,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2308,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2312,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 5,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 2316,
+        "end": 2789,
+        "length": 473
+      },
+      "sha256": "b13185bbde40d1a2c1cbdcf79ca38cac13d0d8a060433b1f809de5ba99bca264",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_blue.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c6173685f626c75652e626d70",
+          "resourcePath": "effects/flash_blue.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c77617665322e626d70",
+          "resourcePath": "effects/wave2.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 2333,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 2337,
+            "rawHex": "07000000",
+            "int32": 7,
+            "float32": 9.80908925027372e-45
+          },
+          "name": {
+            "value": "Dummy02",
+            "rawHex": "44756d6d793032"
+          },
+          "startTimeField": {
+            "offset": 2349,
+            "rawHex": "58020000",
+            "int32": 600,
+            "float32": 8.407790785948902e-43
+          },
+          "endTimeField": {
+            "offset": 2353,
+            "rawHex": "4c040000",
+            "int32": 1100,
+            "float32": 1.5414283107572988e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 2365,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2369,
+              "rawHex": "02000000",
+              "int32": 2,
+              "float32": 2.802596928649634e-45
+            },
+            {
+              "offset": 2373,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 2377,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2381,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2385,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2389,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2393,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2397,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2401,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2405,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2409,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 2414,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 2419,
+            "rawHex": "19000000",
+            "int32": 25,
+            "float32": 3.5032461608120427e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 2424,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 2428,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 2436,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 2446,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 2455,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 2460,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2464,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2468,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2472,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2476,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2480,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2484,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 2488,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2492,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2496,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2500,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2504,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2508,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2512,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2516,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2520,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2524,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2528,
+                  "rawHex": "e8030000",
+                  "int32": 1000,
+                  "float32": 1.401298464324817e-42
+                },
+                {
+                  "offset": 2532,
+                  "rawHex": "02000000",
+                  "int32": 2,
+                  "float32": 2.802596928649634e-45
+                },
+                {
+                  "offset": 2536,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 2548,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2552,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 2556,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 2560,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2564,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2568,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2572,
+                "rawHex": "cdcc4c3f",
+                "int32": 1061997773,
+                "float32": 0.800000011920929
+              },
+              {
+                "offset": 2576,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2580,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2584,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 2588,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 2592,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2596,
+                "rawHex": "c0bf3f3f",
+                "int32": 1061142464,
+                "float32": 0.7490196228027344
+              },
+              {
+                "offset": 2600,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2604,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2608,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 2,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_blue.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c6173685f626c75652e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 2675,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2679,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2683,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2687,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2691,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2695,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2699,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2703,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c77617665322e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 2757,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2761,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2765,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2769,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2773,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2777,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2781,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2785,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 6,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 2789,
+        "end": 3262,
+        "length": 473
+      },
+      "sha256": "147b243901de47e419b39e7dac41e1ba188baa338d6621f0b1944342c1542b52",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_blue.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c6173685f626c75652e626d70",
+          "resourcePath": "effects/flash_blue.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c77617665322e626d70",
+          "resourcePath": "effects/wave2.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 2806,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 2810,
+            "rawHex": "07000000",
+            "int32": 7,
+            "float32": 9.80908925027372e-45
+          },
+          "name": {
+            "value": "Dummy01",
+            "rawHex": "44756d6d793031"
+          },
+          "startTimeField": {
+            "offset": 2822,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 2826,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 2838,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2842,
+              "rawHex": "02000000",
+              "int32": 2,
+              "float32": 2.802596928649634e-45
+            },
+            {
+              "offset": 2846,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 2850,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2854,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2858,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2862,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2866,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2870,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2874,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2878,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2882,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 2887,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 2892,
+            "rawHex": "19000000",
+            "int32": 25,
+            "float32": 3.5032461608120427e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 2897,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 2901,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 2909,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 2919,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 2928,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 2933,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2937,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2941,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2945,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2949,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2953,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2957,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 2961,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2965,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2969,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2973,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2977,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2981,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2985,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2989,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2993,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2997,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3001,
+                  "rawHex": "e8030000",
+                  "int32": 1000,
+                  "float32": 1.401298464324817e-42
+                },
+                {
+                  "offset": 3005,
+                  "rawHex": "02000000",
+                  "int32": 2,
+                  "float32": 2.802596928649634e-45
+                },
+                {
+                  "offset": 3009,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 3021,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3025,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 3029,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 3033,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3037,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3041,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3045,
+                "rawHex": "cdcc4c3f",
+                "int32": 1061997773,
+                "float32": 0.800000011920929
+              },
+              {
+                "offset": 3049,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3053,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3057,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 3061,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 3065,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3069,
+                "rawHex": "c0bf3f3f",
+                "int32": 1061142464,
+                "float32": 0.7490196228027344
+              },
+              {
+                "offset": 3073,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3077,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3081,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 2,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_blue.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c6173685f626c75652e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 3148,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3152,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3156,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3160,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3164,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3168,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3172,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3176,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c77617665322e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 3230,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3234,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3238,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3242,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3246,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3250,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3254,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3258,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 7,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 3262,
+        "end": 3392,
+        "length": 130
+      },
+      "sha256": "588a26c1ce113f93a553e8430016c124379b55e299f4ee7757008a1ada2dd1ff",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\eff_bat_jumpattack.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6566665f6261745f6a756d7061747461636b2e73636e",
+          "resourcePath": "effects/eff_bat_jumpattack.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 3281,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 3285,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 3290,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 3294,
+            "rawHex": "540b0000",
+            "int32": 2900,
+            "float32": 4.0637655465419695e-42
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\eff_bat_jumpattack.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6566665f6261745f6a756d7061747461636b2e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 3367,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "field88": {
+          "offset": 3371,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 3376,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 3380,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 3384,
+            "end": 3392,
+            "length": 8
+          }
+        }
+      }
+    },
+    {
+      "index": 8,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 3392,
+        "end": 4044,
+        "length": 652
+      },
+      "sha256": "1745efc25e0b84f7ba7151ea3679071b06e83db08927f1c0794602913efede6b",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning1.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67312e626d70",
+          "resourcePath": "effects/lightning1.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning2.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67322e626d70",
+          "resourcePath": "effects/lightning2.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning3.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67332e626d70",
+          "resourcePath": "effects/lightning3.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning4.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67342e626d70",
+          "resourcePath": "effects/lightning4.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 3409,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 3413,
+            "rawHex": "07000000",
+            "int32": 7,
+            "float32": 9.80908925027372e-45
+          },
+          "name": {
+            "value": "Dummy01",
+            "rawHex": "44756d6d793031"
+          },
+          "startTimeField": {
+            "offset": 3425,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 3429,
+            "rawHex": "e8030000",
+            "int32": 1000,
+            "float32": 1.401298464324817e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 3441,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 3445,
+              "rawHex": "03000000",
+              "int32": 3,
+              "float32": 4.203895392974451e-45
+            },
+            {
+              "offset": 3449,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 3453,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3457,
+              "rawHex": "0000c841",
+              "int32": 1103626240,
+              "float32": 25
+            },
+            {
+              "offset": 3461,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3465,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3469,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3473,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3477,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3481,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3485,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": false,
+          "field58": {
+            "offset": 3490,
+            "rawHex": "0a000000",
+            "int32": 10,
+            "float32": 1.401298464324817e-44
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 3495,
+            "rawHex": "32000000",
+            "int32": 50,
+            "float32": 7.006492321624085e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 3500,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 3504,
+              "rawHex": "0000c841",
+              "int32": 1103626240,
+              "float32": 25
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 3512,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 3522,
+            "rawHex": "e8030000",
+            "int32": 1000,
+            "float32": 1.401298464324817e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 3531,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 3536,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3540,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3544,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3548,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3552,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3556,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3560,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 3564,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3568,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3572,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3576,
+                  "rawHex": "00001643",
+                  "int32": 1125515264,
+                  "float32": 150
+                },
+                {
+                  "offset": 3580,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3584,
+                  "rawHex": "00001643",
+                  "int32": 1125515264,
+                  "float32": 150
+                },
+                {
+                  "offset": 3588,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3592,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3596,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3600,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3604,
+                  "rawHex": "64000000",
+                  "int32": 100,
+                  "float32": 1.401298464324817e-43
+                },
+                {
+                  "offset": 3608,
+                  "rawHex": "19000000",
+                  "int32": 25,
+                  "float32": 3.5032461608120427e-44
+                },
+                {
+                  "offset": 3612,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 3624,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3628,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3632,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3636,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3640,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3644,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3648,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3652,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3656,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3660,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3664,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3668,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3672,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3676,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3680,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3684,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 4,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning1.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67312e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 3751,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3755,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3759,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3763,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3767,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3771,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3775,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3779,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning2.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67322e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 3838,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3842,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3846,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3850,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3854,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3858,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3862,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3866,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning3.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67332e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 3925,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3929,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3933,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3937,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3941,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3945,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3949,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3953,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning4.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67342e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 4012,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 4016,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 4020,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 4024,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 4028,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 4032,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 4036,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 4040,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 9,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 4044,
+        "end": 4163,
+        "length": 119
+      },
+      "sha256": "387c32a80c73da05acb2b1fc2e851211592381f8436d9191304a878f5062b7f1",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\hm_jump.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c686d5f6a756d702e73636e",
+          "resourcePath": "effects/hm_jump.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 4063,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 4067,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 4072,
+            "rawHex": "2c010000",
+            "int32": 300,
+            "float32": 4.203895392974451e-43
+          },
+          "endTimeField": {
+            "offset": 4076,
+            "rawHex": "58020000",
+            "int32": 600,
+            "float32": 8.407790785948902e-43
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\hm_jump.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c686d5f6a756d702e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 4138,
+          "rawHex": "58020000",
+          "int32": 600,
+          "float32": 8.407790785948902e-43
+        },
+        "field88": {
+          "offset": 4142,
+          "rawHex": "90010000",
+          "int32": 400,
+          "float32": 5.605193857299268e-43
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 4147,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 4151,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 4155,
+            "end": 4163,
+            "length": 8
+          }
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "nodeIndex": 0,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\gazer03_1.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c67617a657230335f312e626d70",
+      "resourcePath": "effects/gazer03_1.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 0,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\gazer03.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c67617a657230332e626d70",
+      "resourcePath": "effects/gazer03.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 1,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c656e656d795f726573345f6e6f6d69706d61702e626d70",
+      "resourcePath": "effects/enemy_res4_nomipmap.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 2,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\ringring4.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c72696e6772696e67342e626d70",
+      "resourcePath": "effects/ringring4.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 3,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning1.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67312e626d70",
+      "resourcePath": "effects/lightning1.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 3,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning2.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67322e626d70",
+      "resourcePath": "effects/lightning2.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 3,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning3.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67332e626d70",
+      "resourcePath": "effects/lightning3.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 3,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning4.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67342e626d70",
+      "resourcePath": "effects/lightning4.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 4,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\tick3.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7469636b332e626d70",
+      "resourcePath": "effects/tick3.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 5,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_blue.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c6173685f626c75652e626d70",
+      "resourcePath": "effects/flash_blue.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 5,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c77617665322e626d70",
+      "resourcePath": "effects/wave2.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 6,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_blue.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c6173685f626c75652e626d70",
+      "resourcePath": "effects/flash_blue.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 6,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c77617665322e626d70",
+      "resourcePath": "effects/wave2.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 7,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\eff_bat_jumpattack.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6566665f6261745f6a756d7061747461636b2e73636e",
+      "resourcePath": "effects/eff_bat_jumpattack.scn",
+      "extension": "scn",
+      "kind": "model"
+    },
+    {
+      "nodeIndex": 8,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning1.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67312e626d70",
+      "resourcePath": "effects/lightning1.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 8,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning2.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67322e626d70",
+      "resourcePath": "effects/lightning2.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 8,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning3.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67332e626d70",
+      "resourcePath": "effects/lightning3.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 8,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning4.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6c696768746e696e67342e626d70",
+      "resourcePath": "effects/lightning4.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 9,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\hm_jump.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c686d5f6a756d702e73636e",
+      "resourcePath": "effects/hm_jump.scn",
+      "extension": "scn",
+      "kind": "model"
+    }
+  ],
+  "coverage": {
+    "envelopeBytesAccountedFor": 4163,
+    "reachesExactEof": true,
+    "structuredNodeCount": 10,
+    "fullyStructured": true,
+    "fieldMeaningFullyValidated": false,
+    "rendered": false,
+    "qualification": "Header, base, Particle, Particle_IF, GhostTrail, Lightning, NodeControl, NodeLoader and NodeLoader_IF are consumed sequentially along statically traced native reader branches. Unvalidated four-byte fields retain raw/int/float views. No runtime rendering has been verified."
+  },
+  "diagnostics": {
+    "scannedCActOffsets": [
+      14,
+      488,
+      888,
+      1278,
+      1930,
+      2316,
+      2789,
+      3262,
+      3392,
+      4044
+    ],
+    "parsedNodeStarts": [
+      14,
+      488,
+      888,
+      1278,
+      1930,
+      2316,
+      2789,
+      3262,
+      3392,
+      4044
+    ],
+    "markerScanMatchesParsedStarts": true,
+    "markerScanUsedForParsing": false
+  }
+}

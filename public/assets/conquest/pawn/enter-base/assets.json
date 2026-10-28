@@ -1,0 +1,84 @@
+{
+  "source": "effects/enter_base.seq",
+  "sequenceSha256": "a0600484fcb8b0f9f8aa8f02e48dc16cfe1b63dac9c9ccde3950a17827f1235a",
+  "parsedSha256": "bc4000a063c1c994e49c1b842714c0fdaee46741ca8ea41f6cf0a218b9dd2e33",
+  "nodeCount": 7,
+  "durationMs": 2500,
+  "outputs": [
+    {
+      "source": "effects/attack3_nomipmap_blue.dds",
+      "sourceSha256": "987f24b6942141de09646aed891593950d7d42b690be3849eef2a8470cfa89b5",
+      "url": "/assets/conquest/pawn/enter-base/textures/attack3_nomipmap_blue.png",
+      "sha256": "322dce464ae813beb6e6a98e4fe9679929ce524969bdea6b3dc47b4f18d1d81a",
+      "bytes": 17388,
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "effects/attack4_nomipmap.dds",
+      "sourceSha256": "299fda1e366c7c5884af8e45dd66f8bebe59d3fd14440fab1a6d21eeb17c6f52",
+      "url": "/assets/conquest/pawn/enter-base/textures/attack4_nomipmap.png",
+      "sha256": "c6723ff5604204aba59b1fbcefbd821e49be776331fe12892f95bf8ec1265b52",
+      "bytes": 33865,
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "effects/enemy_spawn6_nomipmap.dds",
+      "sourceSha256": "3418a1b36f3da0c73b71c8b31e0176546de1a999c4c13efb7eed8e6a7fb2cda4",
+      "url": "/assets/conquest/pawn/enter-base/textures/enemy_spawn6_nomipmap.png",
+      "sha256": "cb759c150ab4487b4e4f9b4fc8a5ad986d144d392ffc75792aebc05c2e515652",
+      "bytes": 8067,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/flash2.dds",
+      "sourceSha256": "1fcb656be6c673a88a30dab37329a7f1226326b753242cabe1a72813a368925e",
+      "url": "/assets/conquest/pawn/enter-base/textures/flash2.png",
+      "sha256": "0de8afb30016a281e23113462317a20993390862d3b60acdf8538a4ce7bf2fc0",
+      "bytes": 10101,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/flash_orange.dds",
+      "sourceSha256": "1f07203f5d31858e493eb9e8975d27cb546fcae81d60594df739dbc75fcd2b9c",
+      "url": "/assets/conquest/pawn/enter-base/textures/flash_orange.png",
+      "sha256": "d285dafe7f72d3144949ec0873e08657028c68e4ce59a8af1c4f2659480a2a59",
+      "bytes": 3079,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "source": "effects/kata.dds",
+      "sourceSha256": "468dc0fc413cfaaab4134fa0389de1efdbc64123427eaa20d792ade0612145fd",
+      "url": "/assets/conquest/pawn/enter-base/textures/kata.png",
+      "sha256": "8309422aafd8470d8bb4b9b24663b7dd8680eefe5d3261e8722a298160f056d0",
+      "bytes": 1208,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/ringring2b.dds",
+      "sourceSha256": "72449f1777fc865d49baa9498e7854228f2da5136a06f22585922afeab885d61",
+      "url": "/assets/conquest/pawn/enter-base/textures/ringring2b.png",
+      "sha256": "9d7a6015fef61ea946d9557e0a8ca3187f25bb1c39ce09465e2ee3f3ed67c1e4",
+      "bytes": 15008,
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "effects/steak02.dds",
+      "sourceSha256": "65848679b7d48776b7d132a4fdaa2f78ff9e9c7f12f06e01ae7ecff8e3b5ac4b",
+      "url": "/assets/conquest/pawn/enter-base/textures/steak02.png",
+      "sha256": "8fbaa610a880834f1cddbe7166441cb55f49ac0dbe49f484e54c31a195a6acc5",
+      "bytes": 22602,
+      "width": 512,
+      "height": 128
+    }
+  ],
+  "rendered": false,
+  "runtimeIntegrated": false,
+  "nativeReady": false
+}

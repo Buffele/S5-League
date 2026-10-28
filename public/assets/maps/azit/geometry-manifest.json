@@ -1,0 +1,45 @@
+{
+  "schema": "s5runtime-native-map-source-runtime-v1",
+  "key": "MAPNAME_AZIT",
+  "name": "Azit",
+  "nativeMapId": 15,
+  "scene": "source.json",
+  "contract": "runtime-contract.json",
+  "artistConfig": "artist-config.json",
+  "authorities": [
+    {
+      "kind": "source-bundle",
+      "file": "source.json",
+      "sha256": "c9a499a11b97dd270034dbda94babc79a4a17fbf83689aa341afc54bd046e0aa",
+      "source": "work/s5runtime-map-native-adaptation/source-pipeline/packages/azit/native-15/map.json"
+    }
+  ],
+  "contractSha256": "f5a31018c50619be7c3d7519a3be804bcc314d015119c292cb5b56714f85d60a",
+  "audit": "work/azit-native-adaptation/runtime-audit.json",
+  "auditSha256": "cb50cea1b14b206bc0d484dfa106a7ae6bf792ada6a48b8a679fae7e39bbdd4f",
+  "originalSidecarAuthorities": [
+    {
+      "file": "work/s5runtime-map-native-adaptation/source-pipeline/packages/azit/native-15/collisions.json",
+      "sha256": "a5369184bee5c7ccfd374bd6d0583c462d5afdf7cedb35db8e53c0c878541855",
+      "publication": "work authority retained; this manifest does not pretend a public copy exists"
+    },
+    {
+      "file": "work/s5runtime-map-native-adaptation/source-pipeline/packages/azit/native-15/collision-candidates-v2.json",
+      "sha256": "501136187a7ed848b42eb3b245f5e0764d666392e3f87ba12d91edb5a1385218",
+      "publication": "work authority retained; this manifest does not pretend a public copy exists"
+    },
+    {
+      "file": "work/s5runtime-map-native-adaptation/source-pipeline/packages/azit/native-15/markers.json",
+      "sha256": "24015007f697588c777eaa55134920d41449105d196e2c5960caeb278ea92c37",
+      "publication": "work authority retained; this manifest does not pretend a public copy exists"
+    },
+    {
+      "file": "work/s5runtime-map-native-adaptation/source-pipeline/packages/azit/native-15/bundle.json",
+      "sha256": "11e7d91a847220e32d047b83e134f930be70ed780763b418bfcd4b955b8605e7",
+      "publication": "work authority retained; this manifest does not pretend a public copy exists"
+    }
+  ],
+  "nativeReady": false,
+  "gameplayReady": false,
+  "stage": "Source-only publication. No registry/menu exposure until artist assets and actual render QA. Static exploration qualified; gameplay, jump stations and destruction not activated."
+}

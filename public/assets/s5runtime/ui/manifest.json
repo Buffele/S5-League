@@ -1,0 +1,117 @@
+[
+  {
+    "source": "xui2/layout/ingame/hud/metabolism.xui",
+    "sha256": "3172fa3f5e59e31b5540edebdc9728c1267bf0cd6d70e941eb1f30ac4c58127c",
+    "file": "metabolism.xui"
+  },
+  {
+    "source": "xui2/layout/ingame/hud/equipment.xui",
+    "sha256": "2fac5a40adc13d19f8df98a9925ac1f084cb23a4fc4a14734aecc3a5cb26e09f",
+    "file": "equipment.xui"
+  },
+  {
+    "source": "xui2/layout/ingame/hud/score.xui",
+    "sha256": "cdbec7d6b8fa07acde70cd092be46e604278c99e018123a0dfa8729ec9a711a1",
+    "file": "score.xui"
+  },
+  {
+    "source": "xui2/layout/ingame/escape/buttons.xui",
+    "sha256": "2eb5e449c48726fc7093db409021695c81bcd9e338272c2dc5d9a86cf7a75f05",
+    "file": "buttons.xui"
+  },
+  {
+    "source": "gui/new/ingame1.dds",
+    "sha256": "3e05090625c55b364fc7e58d2a074bcdeec5b70d60dc83ad48a5b82b65eff091",
+    "file": "ingame1.png"
+  },
+  {
+    "source": "gui/new/ingame2.dds",
+    "sha256": "33cfd42c24312908f04bd8f660769ed9a7e99e19524a3e78386a83f4748bb73c",
+    "file": "ingame2.png"
+  },
+  {
+    "source": "gui/2002.ttf",
+    "sha256": "9ce868ee493f0c82ad404d799e60de9588e449c9db3b188a933fd16b446e0e11",
+    "file": "2002.ttf"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/legacy/bg.dds",
+    "sha256": "0157a2d8abacf3382fcba7d1cc5eaca5cb8b867046ea92c74a3a464ef3841f1c",
+    "file": "legacy-bg.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/legacy/health.dds",
+    "sha256": "4615e85934dc85316bfd12e6262924baa36a993f26c59b43a67524e26ae08012",
+    "file": "legacy-health.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/legacy/health_bg.dds",
+    "sha256": "90dfed37fc314c6b30160f057075526b26eb62a18b446b7959f3e0d4f9f319b8",
+    "file": "legacy-health_bg.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/legacy/stamina.dds",
+    "sha256": "2b26f6e3a4421eda04ebfc3077936fd2969f7648ab5df34b1ffc66bdb6398d87",
+    "file": "legacy-stamina.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/legacy/stamina_bg.dds",
+    "sha256": "8644010755691528971ff977989e9ef4cebcd37b536d33433dd6c968394a403c",
+    "file": "legacy-stamina_bg.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/legacy/skill_bg.dds",
+    "sha256": "4b3816b50bbd184f10fcefa7bc69d238d17925b20d0a227f301c5331cd0b2634",
+    "file": "legacy-skill_bg.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/ammo_bg.dds",
+    "sha256": "a90b2d66db9a7b6874a75b0fd910c7bec1910bafe8df4bdd46a6104072a160c9",
+    "file": "ammo_bg.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/scoreboard_bg_alphablue.dds",
+    "sha256": "6fae653315037469d409a9872b9bf899c2c60cc77f92acc6ccfa4332359aac61",
+    "file": "scoreboard_bg_alphablue.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/scoreboard_bg_alphared.dds",
+    "sha256": "ab13f0e82cbda21c90da013d28eb039479f260fe04bbebba6d4fa1e6d97ccae1",
+    "file": "scoreboard_bg_alphared.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/hud/scoreboard_timebar.dds",
+    "sha256": "24e40cd869f0b27d5b52723a61e46f7748cc1da6b67cc2dc7b5b8bf31866f0b5",
+    "file": "scoreboard_timebar.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/escape/bg.dds",
+    "sha256": "9f747c8db9f2122a5175b3edf9b732fd86352a2e1901c931dda0e592cd0f34f9",
+    "file": "escape-bg.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/escape/button.dds",
+    "sha256": "06b656527779cffbc26f0db29a9a08d2c47603165568d36335000324066c9279",
+    "file": "escape-button.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/escape/button_hover_blue.dds",
+    "sha256": "96c556727bab8ba9d2bf26d61a4399384adcff30ea61839ecf357dd1239da624",
+    "file": "escape-button_hover_blue.png"
+  },
+  {
+    "source": "xui2/sprites/ingame/escape/button_hover_red.dds",
+    "sha256": "fff3a5db0a55fa534990eebd65e808266ab0e4300cb5a3d4f03a61d9202c7103",
+    "file": "escape-button_hover_red.png"
+  },
+  {
+    "source": "uieffect/win_source.dds",
+    "sha256": "bf778936bdb6260697f940487237ad5a59a9f0cd5122d23d65b0da89049d0bc5",
+    "file": "win_source.png"
+  },
+  {
+    "source": "uieffect/defeat_source.dds",
+    "sha256": "2e96495acd0371220f237edf2c1b811ad62d09ae2d335780e96df5acab40021b",
+    "file": "defeat_source.png"
+  }
+]

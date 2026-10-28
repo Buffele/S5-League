@@ -1,0 +1,760 @@
+{
+  "schema": "s5-demonic-knuckle-current-stage-v1",
+  "date": "2026-10-03",
+  "status": "staged-not-main-game-verified",
+  "assets": [
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/demonic_u.png",
+      "bytes": 64014,
+      "sha256": "7c0ef950f8dd158ebbb57537f8e899ff5230aef9e44b7a830ce96ac071325526"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/model.json",
+      "bytes": 5553955,
+      "sha256": "8178d7a958efe138786fb1f20b27f15278c50bec1e8afdfe215a83d7d3774955"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/animations/male.json",
+      "bytes": 2203583,
+      "sha256": "1e019349662b5ef3c7faae436afbea943593ac97aeabedca1ef3300a574b619d"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/animations/female.json",
+      "bytes": 2394210,
+      "sha256": "877ba26a77222cc67515397c6fbb096b416e5e5bc395f9e53fcfee926f4b3c49"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sounds/voice_man_attack_2.ogg",
+      "bytes": 9429,
+      "sha256": "1d5256ac3399b9b6b18993f6ec006b34bbfbc340a51b714429a91ae89332cae7"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sounds/voice_girl_attack_2.ogg",
+      "bytes": 9079,
+      "sha256": "79d4aca8dd65f47d80815c09ca850feb26aa70e0e1c9a3ee8316e08c0f1b67b7"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sounds/voice_man_attack_3.ogg",
+      "bytes": 15531,
+      "sha256": "074b44e4cb27d69d6688f3ea3f136cb69d6493df2476c1219403af66856306c8"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sounds/voice_girl_attack_3.ogg",
+      "bytes": 11918,
+      "sha256": "a9e104224e72f8b6306dd6ee221b3135c014706398b3b6009c51222314187b5e"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sounds/bsword_counter.ogg",
+      "bytes": 21323,
+      "sha256": "70602c2300b70aa1dff249ca3d7650c94842185786c50cacb4e6d79a9678c65c"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sounds/bsword_attack.ogg",
+      "bytes": 26474,
+      "sha256": "059f92c98d765df076b83ef7a7725caace62b9befd6718d8ad64bbfc3f6ebbaf"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sounds/bsword_power.ogg",
+      "bytes": 20146,
+      "sha256": "c28a7928c292e2ac34407243e628111f1b2414420b8f45574aabccb6ca19ead9"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sequences/demonic_claw_01.json",
+      "bytes": 9045,
+      "sha256": "95405f6e561e0a1abb2de13588ec0ba13c97919a922227db8290c302b81dbaff"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/line1.png",
+      "bytes": 1212,
+      "sha256": "45e2bdc28b37957d3599fbf3ed50089501d790707c48363b888c971a78cdc6c1"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/models/demonic_claw_01.json",
+      "bytes": 245662,
+      "sha256": "0517f0f6f4a0764a81a478675f672530272fb280a9c4aeda77492192f0968606"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/smog.png",
+      "bytes": 7967,
+      "sha256": "5862767ecd4523a324705693680f5e9fcfea68fc68b41dd497a42168067b1a7f"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sequences/demonic_claw_02.json",
+      "bytes": 9003,
+      "sha256": "585463f2af8d6c4c51ed28677615d90dd1316a3ff69ac7153ba9bedea0eb3e48"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/models/demonic_claw_02.json",
+      "bytes": 278521,
+      "sha256": "8fa11c7461e8a5c8a49e52dc0d39b2661945b3a232e9cfabcb0c4dbfffd1c70a"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sequences/demonic_kn013_eff_01.json",
+      "bytes": 27984,
+      "sha256": "fd8bf488c921c8f4877ffd93078c03c3f1e0e879f113de0711609fc81d05f2b7"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/wave1.png",
+      "bytes": 42929,
+      "sha256": "7caed1e3dc1fd8f036bd42e9559bed535c603d78869b792ca122db7ee4695f96"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/models/weapon_counter_bottom.json",
+      "bytes": 139436,
+      "sha256": "5eead36d1652061b844149b6448f54b9ef951e7c9b81516fb4192f33a733a4c1"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/fire2.png",
+      "bytes": 6925,
+      "sha256": "ad354fb10e5ba95ad9f4f43cceff56130578285ef1fc2dbb75fbebfd955a5395"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/models/skill_swordman_gager_dummy01.json",
+      "bytes": 2952,
+      "sha256": "5ff0c93fa1d4ecf4abba66496fd3b18e3524e071aa10b12274d9d16c60f995f7"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/lightning1.png",
+      "bytes": 2383,
+      "sha256": "3b011bd1e74e8cd527237f3efc608b533fbfb5463d557f19f9528c1749ceb777"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/tick.png",
+      "bytes": 1831,
+      "sha256": "b193c5abe53662185c26abee065200c4f4878846a96c75ee34f2afb9751eefca"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/blaster7.png",
+      "bytes": 13741,
+      "sha256": "c0c561cec1e1f2b821208370fd23e96cae31539b436c0ee5547187187394ec5b"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/models/demonic_kn013_eff_01.json",
+      "bytes": 316254,
+      "sha256": "4812bc18bb7061de7297f99ef28b3f1415d426e1cb6a130dcee50320f39e9744"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/blaster6.png",
+      "bytes": 15635,
+      "sha256": "f32a5a1a669bc63e72e738a1258fe673b5003809b86c9abf01d0d7179d729874"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sequences/demonic_kn014_eff_01.json",
+      "bytes": 96667,
+      "sha256": "81f28aea88b08eedefa6d3950fc5970837c360a9985156c91479b1ebd77161fe"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/eff_bat_wind2.png",
+      "bytes": 12658,
+      "sha256": "db44e41aad74a9196975dc9a28c7c701ed3299f0031eba0d91fa222cf2730d8e"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/enemy_spawn6_nomipmap.png",
+      "bytes": 8067,
+      "sha256": "cb759c150ab4487b4e4f9b4fc8a5ad986d144d392ffc75792aebc05c2e515652"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/skill_templar_scheaven8_nomipmap.png",
+      "bytes": 2084,
+      "sha256": "a8c98c8ad69af2f1dd90885cfba45532cf93df9b9273926b44564be499973ec7"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/pupple_fire01.png",
+      "bytes": 1545,
+      "sha256": "8f658500e8669379137bc8452a197f2416d3e085e683d5aee3bcb97631619062"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/flash_blue.png",
+      "bytes": 9926,
+      "sha256": "3c1c557d5cbcdfe8fff07a217bf6de47bdd7daa20a29090619672258682b6d95"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/enemy_res4_nomipmap.png",
+      "bytes": 26989,
+      "sha256": "e5024e57e1ab1467d2c787df7ab5417f1a1a68a7a751a2a94594443cd0cc026d"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/grim_energy.png",
+      "bytes": 2839,
+      "sha256": "009007d7d51b3be4782c714d7a2501788458646e0ac3f37e49ebfdb120d2e1a7"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/demonic_eff_01.png",
+      "bytes": 450143,
+      "sha256": "b8d108da0c5b9e2d32baf0df669cfea1b0ea22f0b3669fa95f2814aa0da9ecde"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/models/demonic_kn014_eff_01.json",
+      "bytes": 299322,
+      "sha256": "c010e23abae40dec42309f49e96107b127281db04b00ac65d5af8f74b06b6f9b"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/sequences/backattack_sword_s.json",
+      "bytes": 12590,
+      "sha256": "f04b20900c936b62c92ef691773fccb351bb8e780bb4c27bfa1a335869299ded"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/textures/attack4_nomipmap.png",
+      "bytes": 33865,
+      "sha256": "c6723ff5604204aba59b1fbcefbd821e49be776331fe12892f95bf8ec1265b52"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/icon.png",
+      "bytes": 13150,
+      "sha256": "caa5dc40dd906bdbf902af164118fb78a69284373a44fff43381cdb5ba0b6ddd"
+    },
+    {
+      "path": "/assets/s5runtime/demonic-knuckle/effects-runtime.json",
+      "bytes": 22263,
+      "sha256": "b220723ee6ff2d37cc7e415065698377b972c437a1fbb376b9cc936e14dfe919"
+    }
+  ],
+  "sources": [
+    {
+      "path": "xml/item.x7",
+      "checksum": "b205baac",
+      "plainLength": 1409839,
+      "storedLength": 386893,
+      "dataOffset": 57329108,
+      "archive": "package/23.xs",
+      "sha256": "83142ddfdee8b7e5c80d9cb2e20fbdbf834613113028517cd12c2c40b3c5fcdb",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "xbn/weapon.xml",
+      "checksum": "a052419b",
+      "plainLength": 498259,
+      "storedLength": 131044,
+      "dataOffset": 40030992,
+      "archive": "package/23.xs",
+      "sha256": "9de364c5095c1762676babedea658262b7a9d1899cfcb0769066273d8a508c53",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "xml/weapon_lua.x7",
+      "checksum": "7ded50f5",
+      "plainLength": 615875,
+      "storedLength": 134555,
+      "dataOffset": 48267026,
+      "archive": "package/23.xs",
+      "sha256": "0ebdc08d6d524755a5c452004b9b952176384cd9c20d2e56e0d08b5d7bbe1a86",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "xml/weapon_attach.x7",
+      "checksum": "76389134",
+      "plainLength": 7030,
+      "storedLength": 2234,
+      "dataOffset": 31609413,
+      "archive": "package/67.xs",
+      "sha256": "099e2f5fcb6acdb33583e1eab6ef0637ee81f08fb1ec9fbb020fe00889fdee54",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/weapon_init.lua",
+      "checksum": "2754469f",
+      "plainLength": 17359,
+      "storedLength": 8526,
+      "dataOffset": 94141096,
+      "archive": "package/23.xs",
+      "sha256": "c2504b64004d1d9a28f67ea92500735f674a71052ceadfef261e2dc1ae8634fc",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/actorstates_gameplay.lua",
+      "checksum": "8e15d7bf",
+      "plainLength": 373444,
+      "storedLength": 100294,
+      "dataOffset": 38577780,
+      "archive": "package/67.xs",
+      "sha256": "2a5f44262ffaeb13b5d16f8c8bbaa513c16903ad801b93c038cbfe95037ce996",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/_weapon_demonicknuckle_atk.lua",
+      "checksum": "e70d465a",
+      "plainLength": 12621,
+      "storedLength": 8034,
+      "dataOffset": 22847901,
+      "archive": "package/74.xs",
+      "sha256": "fcc13aa62fe30e484d2fcce7ea3e42b6b445d906c3bf12b662eb24fdca453c08",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/weapon_demonicknuckle_atk_2.lua",
+      "checksum": "f936d1c7",
+      "plainLength": 13466,
+      "storedLength": 6627,
+      "dataOffset": 1988754,
+      "archive": "package/71.xs",
+      "sha256": "e34b7f3562633854bc221b547ef2cbcdbf4de25190c96e4eb2cb140135a8f0c7",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/_weapon_demonicknuckle_ani.lua",
+      "checksum": "8689d741",
+      "plainLength": 21843,
+      "storedLength": 7856,
+      "dataOffset": 51763817,
+      "archive": "package/50.xs",
+      "sha256": "b793c50176ce23e94e77e32f0d000871a6386550d8d6a6e2b79fb1a7041a1467",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/attackattribindexer.lua",
+      "checksum": "f3adc6f2",
+      "plainLength": 638240,
+      "storedLength": 144403,
+      "dataOffset": 32489011,
+      "archive": "package/50.xs",
+      "sha256": "f714b31691b87c020c5618d96f51876bab361445b689709b8a20880882048c65",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/weapon/demonic_knuckle_r_01.scn",
+      "checksum": "b0411e0e",
+      "plainLength": 1238823,
+      "storedLength": 286589,
+      "dataOffset": 54537077,
+      "archive": "package/21.xs",
+      "sha256": "604863828f77250c28201c41295f7cba3829cdd3981130e3af4a541701d3f20b",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/weapon/demonic_knuckle_l_01.scn",
+      "checksum": "6aedc82e",
+      "plainLength": 256151,
+      "storedLength": 136535,
+      "dataOffset": 20959994,
+      "archive": "package/49.xs",
+      "sha256": "df4fe61daea2def32f2fe273a640213a20fa995c2214d9e47add8a66ec70d8f8",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/character/male_bip.scn",
+      "checksum": "7a744796",
+      "plainLength": 33060253,
+      "storedLength": 33061772,
+      "dataOffset": 12367745,
+      "archive": "package/60.xs",
+      "sha256": "d9953bde346c6b242e8d45d4ea885a581203c3999a78ab13d60aa7ea3997dba5",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/character/female_bip.scn",
+      "checksum": "d3a71175",
+      "plainLength": 30705783,
+      "storedLength": 30707194,
+      "dataOffset": 22125266,
+      "archive": "package/47.xs",
+      "sha256": "98caac4c4f8ee8900a9b28b050e7900fbb8c4c1b65a5f968a20110ae7653d465",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/character/bip_male/male_bip_0000.scn",
+      "checksum": "fb07f65c",
+      "plainLength": 7991633,
+      "storedLength": 5725946,
+      "dataOffset": 23563894,
+      "archive": "package/9.xs",
+      "sha256": "48588d1bf3da193db6bff0868fe625b843eb3d3e5e239b98fdda49c194bc7270",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/character/bip_female/female_bip_0000.scn",
+      "checksum": "333bfa1c",
+      "plainLength": 7816537,
+      "storedLength": 5849720,
+      "dataOffset": 9175058,
+      "archive": "package/7.xs",
+      "sha256": "ea045af8ed88b9af88e2a17934e9fa245fe8165488af2ea5af96313bd366eaa7",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/weapon/demonic_u.dds",
+      "checksum": "6881370d",
+      "plainLength": 65664,
+      "storedLength": 35802,
+      "dataOffset": 72511022,
+      "archive": "package/22.xs",
+      "sha256": "55a2a37aae3b1afdd22eac9e187aeda56463761ec4ca905178321d8f1ecba93b",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "image/weapon/icon_demonic_unique.png",
+      "checksum": "d238cc4b",
+      "plainLength": 13150,
+      "storedLength": 13155,
+      "dataOffset": 18745581,
+      "archive": "package/62.xs",
+      "sha256": "caa5dc40dd906bdbf902af164118fb78a69284373a44fff43381cdb5ba0b6ddd",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/demonic_claw_01.seq",
+      "checksum": "984afbe8",
+      "plainLength": 519,
+      "storedLength": 372,
+      "dataOffset": 78266804,
+      "archive": "package/28.xs",
+      "sha256": "30b3fed9c83ff5b7ff2500fa13380a3f2d2246124ca334cc468486ec6ff513d8",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/demonic_claw_02.seq",
+      "checksum": "2c110069",
+      "plainLength": 519,
+      "storedLength": 358,
+      "dataOffset": 6115117,
+      "archive": "package/29.xs",
+      "sha256": "c8846a89e0e77f4e3fa36b610e6fe42243a6f5075d92d8f2a8f19daed5863767",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/demonic_kn013_eff_01.seq",
+      "checksum": "41e891cb",
+      "plainLength": 1711,
+      "storedLength": 1050,
+      "dataOffset": 39918382,
+      "archive": "package/62.xs",
+      "sha256": "d148fd7f3dab5377967924ec2db0c36867b11bbe76baece6f50521c29ee7b1bd",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/demonic_kn014_eff_01.seq",
+      "checksum": "9799ab3d",
+      "plainLength": 6261,
+      "storedLength": 2743,
+      "dataOffset": 98651304,
+      "archive": "package/29.xs",
+      "sha256": "f3978611ed97005aa3fe1805f05080a867bf0b18ffa6a685692108f1083a6b16",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/backattack_sword_s.seq",
+      "checksum": "3b398956",
+      "plainLength": 776,
+      "storedLength": 477,
+      "dataOffset": 95535980,
+      "archive": "package/3.xs",
+      "sha256": "60a7b4d5cc897e0a188d22e4b4889c95bbb12533016df547491f5b99118c11d0",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/voice_man_attack_2.ogg",
+      "checksum": "e6808128",
+      "plainLength": 9429,
+      "storedLength": 9355,
+      "dataOffset": 61841876,
+      "archive": "package/67.xs",
+      "sha256": "1d5256ac3399b9b6b18993f6ec006b34bbfbc340a51b714429a91ae89332cae7",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/voice_girl_attack_2.ogg",
+      "checksum": "846dbbaa",
+      "plainLength": 9079,
+      "storedLength": 9005,
+      "dataOffset": 46495707,
+      "archive": "package/23.xs",
+      "sha256": "79d4aca8dd65f47d80815c09ca850feb26aa70e0e1c9a3ee8316e08c0f1b67b7",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/voice_man_attack_3.ogg",
+      "checksum": "c5684bc5",
+      "plainLength": 15531,
+      "storedLength": 15456,
+      "dataOffset": 70446950,
+      "archive": "package/50.xs",
+      "sha256": "074b44e4cb27d69d6688f3ea3f136cb69d6493df2476c1219403af66856306c8",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/voice_girl_attack_3.ogg",
+      "checksum": "c074e656",
+      "plainLength": 11918,
+      "storedLength": 11844,
+      "dataOffset": 67072779,
+      "archive": "package/67.xs",
+      "sha256": "a9e104224e72f8b6306dd6ee221b3135c014706398b3b6009c51222314187b5e",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/bsword_counter.ogg",
+      "checksum": "e0b6fcf9",
+      "plainLength": 21323,
+      "storedLength": 21304,
+      "dataOffset": 57781994,
+      "archive": "package/23.xs",
+      "sha256": "70602c2300b70aa1dff249ca3d7650c94842185786c50cacb4e6d79a9678c65c",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/bsword_attack.ogg",
+      "checksum": "09d3bdaf",
+      "plainLength": 26474,
+      "storedLength": 26455,
+      "dataOffset": 10420432,
+      "archive": "package/23.xs",
+      "sha256": "059f92c98d765df076b83ef7a7725caace62b9befd6718d8ad64bbfc3f6ebbaf",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/bsword_power.ogg",
+      "checksum": "c7acf00c",
+      "plainLength": 20146,
+      "storedLength": 20127,
+      "dataOffset": 16044034,
+      "archive": "package/67.xs",
+      "sha256": "c28a7928c292e2ac34407243e628111f1b2414420b8f45574aabccb6ca19ead9",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "xml/ghost_trail.x7",
+      "checksum": "f9edae20",
+      "plainLength": 72047,
+      "storedLength": 15645,
+      "dataOffset": 6417187,
+      "archive": "package/60.xs",
+      "sha256": "ad2999b1e8ab8d38637cab57bfc937f0ff27556cbbe7f06ee990dc44a0175131",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/demonic_claw_01.scn",
+      "checksum": "2425060a",
+      "plainLength": 72412,
+      "storedLength": 56759,
+      "dataOffset": 63598742,
+      "archive": "package/28.xs",
+      "sha256": "e472024738ecae85084355b243c9a0171b2c66866f8e625bdb2139a1194d7d32",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/demonic_claw_02.scn",
+      "checksum": "8f356cba",
+      "plainLength": 77011,
+      "storedLength": 56115,
+      "dataOffset": 72245172,
+      "archive": "package/3.xs",
+      "sha256": "565162866d870601464e1175b0401a64659016197f8cc7ca710ed9ab4d611a08",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/weapon_counter_bottom.scn",
+      "checksum": "a4784196",
+      "plainLength": 36950,
+      "storedLength": 9374,
+      "dataOffset": 74059527,
+      "archive": "package/28.xs",
+      "sha256": "81eda839aa16f76e05dfba66034d709b53d5ee8b43bdc7463e8c5ceff1a7e292",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/skill_swordman_gager_dummy01.scn",
+      "checksum": "f18757dd",
+      "plainLength": 2220,
+      "storedLength": 620,
+      "dataOffset": 26260323,
+      "archive": "package/68.xs",
+      "sha256": "a7717c0afee67305ce04a520837c681621fde5328dcaebcde4015351d4869b87",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/demonic_kn013_eff_01.scn",
+      "checksum": "064e748a",
+      "plainLength": 127751,
+      "storedLength": 41239,
+      "dataOffset": 97061543,
+      "archive": "package/28.xs",
+      "sha256": "4fe231d9a61d60b0bfb3c09a0125c635be225428e743f9411b84884f194d0a23",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/demonic_kn014_eff_01.scn",
+      "checksum": "fa1cd6f2",
+      "plainLength": 67304,
+      "storedLength": 57654,
+      "dataOffset": 14844875,
+      "archive": "package/29.xs",
+      "sha256": "b84c62dbcf75e33459d78a4074d3cc35a45132ef042360656454a997edb14cbf",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/smog.dds",
+      "checksum": "9e9b365c",
+      "plainLength": 11064,
+      "storedLength": 7092,
+      "dataOffset": 51500037,
+      "archive": "package/54.xs",
+      "sha256": "1b923965b25c2ac5ed23eded49dde06ead1e2f0aaf1b2c5a4f6381509c41af16",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/lightning1.dds",
+      "checksum": "bd60b79c",
+      "plainLength": 2872,
+      "storedLength": 2188,
+      "dataOffset": 35030307,
+      "archive": "package/54.xs",
+      "sha256": "44c44b17903008b0229b49b55d49f831451b270ec05b31d67a9d82c8ef8291ba",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/tick.dds",
+      "checksum": "874b5583",
+      "plainLength": 2872,
+      "storedLength": 2299,
+      "dataOffset": 45761478,
+      "archive": "package/4.xs",
+      "sha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/blaster6.dds",
+      "checksum": "d1926130",
+      "plainLength": 21992,
+      "storedLength": 13945,
+      "dataOffset": 53329004,
+      "archive": "package/28.xs",
+      "sha256": "ede087fd750270312a7f142359acb3b00c42fdab69cc785dcb1049823f56e470",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/eff_bat_wind2.dds",
+      "checksum": "c9aa5461",
+      "plainLength": 22000,
+      "storedLength": 15258,
+      "dataOffset": 6184504,
+      "archive": "package/3.xs",
+      "sha256": "aa2f977f00d52ea606b1d909104b822561b98ca786fc58741815a605f5c39264",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/enemy_spawn6_nomipmap.dds",
+      "checksum": "ac4a87ce",
+      "plainLength": 22000,
+      "storedLength": 7870,
+      "dataOffset": 15411443,
+      "archive": "package/68.xs",
+      "sha256": "3418a1b36f3da0c73b71c8b31e0176546de1a999c4c13efb7eed8e6a7fb2cda4",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/skill_templar_scheaven8_nomipmap.dds",
+      "checksum": "d54fa411",
+      "plainLength": 11064,
+      "storedLength": 2498,
+      "dataOffset": 47699695,
+      "archive": "package/3.xs",
+      "sha256": "e1c543113aeea2b1252f5ccc612d55100dcc8d3e37170b5609117a457866a91e",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/pupple_fire01.dds",
+      "checksum": "efcdecbf",
+      "plainLength": 5648,
+      "storedLength": 1885,
+      "dataOffset": 83637015,
+      "archive": "package/3.xs",
+      "sha256": "cfa4c3b114429f03dd06f45412574324830a4968d39d98380228d71e001753a3",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/flash_blue.dds",
+      "checksum": "db6ff55d",
+      "plainLength": 11064,
+      "storedLength": 8220,
+      "dataOffset": 100923082,
+      "archive": "package/2.xs",
+      "sha256": "4f2f29ba96e9ddbd873eafb0af9ac7a595725f98592e0160a8f52dbea39af3ee",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/enemy_res4_nomipmap.dds",
+      "checksum": "65e018a2",
+      "plainLength": 43832,
+      "storedLength": 23134,
+      "dataOffset": 21423300,
+      "archive": "package/53.xs",
+      "sha256": "276cbcd1966da1b7b9eb900a1392e8607625af0912f15a46506936077fed15ac",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/grim_energy.dds",
+      "checksum": "c2897042",
+      "plainLength": 5616,
+      "storedLength": 3011,
+      "dataOffset": 17642965,
+      "archive": "package/28.xs",
+      "sha256": "a64ed19e300f628fee3d1f8702a42dd58432fd562b1ad4fc4868514e3dbbb5f4",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/attack4_nomipmap.dds",
+      "checksum": "3fd0ba4c",
+      "plainLength": 43832,
+      "storedLength": 28106,
+      "dataOffset": 92457479,
+      "archive": "package/28.xs",
+      "sha256": "299fda1e366c7c5884af8e45dd66f8bebe59d3fd14440fab1a6d21eeb17c6f52",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/line1.dds",
+      "checksum": "8952e79a",
+      "plainLength": 1512,
+      "storedLength": 1283,
+      "dataOffset": 33769851,
+      "archive": "package/4.xs",
+      "sha256": "2d2ea10de9288ed91ed81df0550a4e953337f7af71d7367be367099afcbb1266",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/wave1.dds",
+      "checksum": "23dd21d4",
+      "plainLength": 43832,
+      "storedLength": 33435,
+      "dataOffset": 21128498,
+      "archive": "package/3.xs",
+      "sha256": "d325712d0ca00e5ceb19f509e3db76c065e5d44eade7383b85cd708eded4c86e",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/fire2.dds",
+      "checksum": "5c52614b",
+      "plainLength": 11088,
+      "storedLength": 5658,
+      "dataOffset": 92392726,
+      "archive": "package/28.xs",
+      "sha256": "ef4aac8ff59e2467b4731c5cf7b37dc75f822ba46198fab602fa64600515ab7a",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/blaster7.dds",
+      "checksum": "5e9528fe",
+      "plainLength": 21992,
+      "storedLength": 13056,
+      "dataOffset": 15730976,
+      "archive": "package/68.xs",
+      "sha256": "085df1f335b1e81d4c77d0436f0055c2d761b0ef53b23ad06db9f35d47ae3dc4",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/demonic_eff_01.dds",
+      "checksum": "27fe3093",
+      "plainLength": 1048704,
+      "storedLength": 311416,
+      "dataOffset": 101277106,
+      "archive": "package/29.xs",
+      "sha256": "ca3ebee1700d2ee773e11d2449dbe3f34157703e9d99a2ca463363a1c7c80269",
+      "method": "known-header-crc32"
+    }
+  ],
+  "missing": [],
+  "limitations": [
+    "Native hand selection and attack input/exit not yet decoded.",
+    "Forearm attachments declared; animated mesh alignment not yet verified.",
+    "Effects source events retained; runtime follow, trails and audio not yet observed."
+  ]
+}

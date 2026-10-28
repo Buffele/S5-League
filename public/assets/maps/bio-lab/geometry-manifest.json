@@ -1,0 +1,43 @@
+{
+  "schema": "s5runtime-native-map-source-runtime-v1",
+  "key": "MAPNAME_BIO_LAB",
+  "name": "Bio Lab",
+  "nativeMapId": 19,
+  "scene": "source.json",
+  "contract": "runtime-contract.json",
+  "artistConfig": "artist-config.json",
+  "authorities": [
+    {
+      "kind": "bundle",
+      "file": "source.json",
+      "sha256": "68c1e9553e590bef236c71b3fbac1a092807c884c49df6a41bc3fba05fc8a37d",
+      "source": "C:\\Users\\newpc\\Desktop\\S5 league\\work\\s5runtime-map-native-adaptation\\blender-pipeline\\static-authoring\\bio-lab\\native-19\\native.bundle.source.json",
+      "sourceSha256": "74c3e4875f32df813dcdb799aa8a8c1a10d210c5b6a0fbcf9c66a885f2da09cc"
+    },
+    {
+      "kind": "collisions",
+      "file": "collisions.source.json",
+      "sha256": "11d692fc41d56fe2fbd94a6ec386f244e8f7129e2a485046919bca0d1fc5ec7e",
+      "source": "C:\\Users\\newpc\\Desktop\\S5 league\\work\\s5runtime-map-native-adaptation\\blender-pipeline\\static-authoring\\bio-lab\\native-19\\native.collisions.source.json"
+    },
+    {
+      "kind": "markers",
+      "file": "markers.source.json",
+      "sha256": "f3f7822a82ea08a0706d907818384fa6dc190d95d1cf89c0124b70cd723c7d32",
+      "source": "C:\\Users\\newpc\\Desktop\\S5 league\\work\\s5runtime-map-native-adaptation\\blender-pipeline\\static-authoring\\bio-lab\\native-19\\native.markers.source.json"
+    },
+    {
+      "kind": "all-collision-categories",
+      "file": "collisions-all-categories.json",
+      "sha256": "558548a3337a8115a6f88e2d7f5b00ecd1d83bf18c5186fb33ec22bddcadb4d0",
+      "source": "C:\\Users\\newpc\\Desktop\\S5 league\\work\\s5runtime-map-native-adaptation\\blender-pipeline\\static-authoring\\bio-lab\\native-19\\native.all-collision-categories.source.json"
+    }
+  ],
+  "contractSha256": "c07a166a9b761a7cb7c669087bdb4f4290900520390e2a947978077a8b3d0fa0",
+  "sourceQualification": "source-qualification.json",
+  "sourceQualificationSha256": "336d7e92c359c57b23a01ae731bade3a60439e4c95c0947bb9a8d7d9d0bec8e1",
+  "nativeReady": false,
+  "gameplayReady": false,
+  "stage": "Free exploration: source geometry, saved Blender art, normal UI and keyboard movement/jump checked; complete native gameplay pending",
+  "artistConfigSha256": "b6b9b8be48ded68daf45da245e2dec02f0be938c09614c5f2e2a9fd3f3060a08"
+}

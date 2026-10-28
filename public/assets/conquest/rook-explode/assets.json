@@ -1,0 +1,447 @@
+{
+  "sequences": [
+    {
+      "name": "pve_mon_rook_b_spark",
+      "sourcePath": "Effects/pve_mon_rook_b_spark.seq",
+      "sourceAssets": [
+        {
+          "url": "/assets/conquest/rook-explode/sequences/pve_mon_rook_b_spark.seq",
+          "bytes": 1946,
+          "sha256": "50e027efdbf35b498c3d77aa01f24be9682d42f47af5553693e4c8762d4021db"
+        },
+        {
+          "url": "/assets/conquest/rook-explode/sequences/pve_mon_rook_b_spark.json",
+          "bytes": 69766,
+          "sha256": "c00ca40053c711c1b9d338327d88e402d027106deab0e6731b203d9762b68e1f"
+        }
+      ],
+      "textures": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\captain_crown_line_etex.dds",
+          "source": "effects/captain_crown_line_etex.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash.dds",
+          "source": "effects/flash.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\ringring4.dds",
+          "source": "effects/ringring4.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning1.dds",
+          "source": "effects/lightning1.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning2.dds",
+          "source": "effects/lightning2.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning3.dds",
+          "source": "effects/lightning3.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning4.dds",
+          "source": "effects/lightning4.dds"
+        }
+      ]
+    },
+    {
+      "name": "pve_rook_b_light",
+      "sourcePath": "Effects/pve_rook_b_light.seq",
+      "sourceAssets": [
+        {
+          "url": "/assets/conquest/rook-explode/sequences/pve_rook_b_light.seq",
+          "bytes": 1510,
+          "sha256": "2fa673299e26b47ac978545e66c8be0b1aac789288295af4253f8f6514e1282e"
+        },
+        {
+          "url": "/assets/conquest/rook-explode/sequences/pve_rook_b_light.json",
+          "bytes": 50896,
+          "sha256": "af10a588c0e038138874783d4f64f2d83b8bbba08c97654ebea1f3778b4acb68"
+        }
+      ],
+      "textures": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\captain_crown_line_etex.dds",
+          "source": "effects/captain_crown_line_etex.dds"
+        }
+      ]
+    },
+    {
+      "name": "pve_mon_aura02_rook",
+      "sourcePath": "Effects/pve_mon_aura02_rook.seq",
+      "sourceAssets": [
+        {
+          "url": "/assets/conquest/rook-explode/sequences/pve_mon_aura02_rook.seq",
+          "bytes": 2600,
+          "sha256": "59d72642ad127a9e620b79625f1735eb9a0d6ac57376ddb11f81cb9ff15a8db4"
+        },
+        {
+          "url": "/assets/conquest/rook-explode/sequences/pve_mon_aura02_rook.json",
+          "bytes": 93798,
+          "sha256": "4ae9717bef56181ceea59896bd8ed564abaa02d3cbaa41fbd78630fd769749fc"
+        }
+      ],
+      "textures": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\d100_st_boss_fog01.dds",
+          "source": "effects/d100_st_boss_fog01.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\weaponeff_cardfog_d100.dds",
+          "source": "effects/weaponeff_cardfog_d100.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\kata.dds",
+          "source": "effects/kata.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\hexa.dds",
+          "source": "effects/hexa.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\captain_crown_line_etex.dds",
+          "source": "effects/captain_crown_line_etex.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\attack4_nomipmap.dds",
+          "source": "effects/attack4_nomipmap.dds"
+        }
+      ]
+    },
+    {
+      "name": "rook_death",
+      "sourcePath": "Effects/rook_death.seq",
+      "sourceAssets": [
+        {
+          "url": "/assets/conquest/rook-explode/sequences/rook_death.seq",
+          "bytes": 3916,
+          "sha256": "e265fec3ea2aa8ad7be01a285cde691d9f90c91977fb68000101ca86f0054900"
+        },
+        {
+          "url": "/assets/conquest/rook-explode/sequences/rook_death.json",
+          "bytes": 141096,
+          "sha256": "da06e538087d825776649bea20fbc8b699dd4d1ec9bb8164dd7704cecceaf060"
+        }
+      ],
+      "textures": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\fire2.dds",
+          "source": "effects/fire2.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_clown_jack2_female.dds",
+          "source": "effects/skill_clown_jack2_female.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\ringring.bmp",
+          "source": "effects/ringring.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\bash1_2.dds",
+          "source": "effects/bash1_2.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\mapeffect_light6.dds",
+          "source": "effects/mapeffect_light6.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash2.dds",
+          "source": "effects/flash2.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\levelup5_nomipmap.dds",
+          "source": "effects/levelup5_nomipmap.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flame.bmp",
+          "source": "effects/flame.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\smog_gray.tga",
+          "source": "effects/smog_gray.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.dds",
+          "source": "effects/enemy_res4_nomipmap.dds"
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": "effects/attack4_nomipmap.dds",
+      "url": "/assets/conquest/rook-explode/textures/attack4_nomipmap.png",
+      "sha256": "c6723ff5604204aba59b1fbcefbd821e49be776331fe12892f95bf8ec1265b52",
+      "bytes": 33865,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "299fda1e366c7c5884af8e45dd66f8bebe59d3fd14440fab1a6d21eeb17c6f52",
+      "sourceCRC32": "3fd0ba4c",
+      "archive": "28.xs"
+    },
+    {
+      "source": "effects/bash1_2.dds",
+      "url": "/assets/conquest/rook-explode/textures/bash1_2.png",
+      "sha256": "43aa987112c5e344732c4897c875ebc6db5feed76cd7d0802f551659bbd32ae5",
+      "bytes": 24465,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "62dd88effc91d555f7f4fd2b2caf093ce0b4253365c5167ff84fb102cc3bce31",
+      "sourceCRC32": "cfb2c65d",
+      "archive": "29.xs"
+    },
+    {
+      "source": "effects/captain_crown_line_etex.dds",
+      "url": "/assets/conquest/rook-explode/textures/captain_crown_line_etex.png",
+      "sha256": "7e544b5e83724526c83c2de66f807a7566bf3b42a209fc7cbdfd2ab226ff1e7d",
+      "bytes": 27937,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "ea36c08dcf4d598180f7b29aab5ef05a1df8a8a93c3d0d888208d027a173055b",
+      "sourceCRC32": "0bfa3106",
+      "archive": "75.xs"
+    },
+    {
+      "source": "effects/d100_st_boss_fog01.dds",
+      "url": "/assets/conquest/rook-explode/textures/d100_st_boss_fog01.png",
+      "sha256": "60e5354c020d766c330b5b524b90879fe79d3b1aec81273d4cb0e65b764ef706",
+      "bytes": 14394,
+      "width": 128,
+      "height": 128,
+      "sourceSha256": "4135e246ef563ee857580741dd1ad71ce894a9a4291f1afed8f5b3ea2544342d",
+      "sourceCRC32": "a7d531b5",
+      "archive": "40.xs"
+    },
+    {
+      "source": "effects/enemy_res4_nomipmap.dds",
+      "url": "/assets/conquest/rook-explode/textures/enemy_res4_nomipmap.png",
+      "sha256": "e5024e57e1ab1467d2c787df7ab5417f1a1a68a7a751a2a94594443cd0cc026d",
+      "bytes": 26989,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "276cbcd1966da1b7b9eb900a1392e8607625af0912f15a46506936077fed15ac",
+      "sourceCRC32": "65e018a2",
+      "archive": "53.xs"
+    },
+    {
+      "source": "effects/fire2.dds",
+      "url": "/assets/conquest/rook-explode/textures/fire2.png",
+      "sha256": "ad354fb10e5ba95ad9f4f43cceff56130578285ef1fc2dbb75fbebfd955a5395",
+      "bytes": 6925,
+      "width": 64,
+      "height": 128,
+      "sourceSha256": "ef4aac8ff59e2467b4731c5cf7b37dc75f822ba46198fab602fa64600515ab7a",
+      "sourceCRC32": "5c52614b",
+      "archive": "28.xs"
+    },
+    {
+      "source": "effects/flame.dds",
+      "url": "/assets/conquest/rook-explode/textures/flame.png",
+      "sha256": "8dbf71c51fbff8a9a2ff8cbac6843c9ba1f6902ec2d8a1475ae77538bf57e151",
+      "bytes": 32442,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "d8dcade6ba78170fb844f0db16a129518850efd50ccc41b27ab7a02ded85ae3b",
+      "sourceCRC32": "120d7a82",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/flash.dds",
+      "url": "/assets/conquest/rook-explode/textures/flash.png",
+      "sha256": "d95decd7cb8b6dcb9f7822875c7f1c6f1d2aa8f7b014d5dbebdf32db1ccf5c1a",
+      "bytes": 7058,
+      "width": 128,
+      "height": 128,
+      "sourceSha256": "64d643b28b6a1243b621dbf999a6671aa812f333533d13090436f135749e26ba",
+      "sourceCRC32": "167eb4d6",
+      "archive": "40.xs"
+    },
+    {
+      "source": "effects/flash2.dds",
+      "url": "/assets/conquest/rook-explode/textures/flash2.png",
+      "sha256": "0de8afb30016a281e23113462317a20993390862d3b60acdf8538a4ce7bf2fc0",
+      "bytes": 10101,
+      "width": 128,
+      "height": 128,
+      "sourceSha256": "1fcb656be6c673a88a30dab37329a7f1226326b753242cabe1a72813a368925e",
+      "sourceCRC32": "922a9d26",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/hexa.dds",
+      "url": "/assets/conquest/rook-explode/textures/hexa.png",
+      "sha256": "deb57da75e4b8dd47db05f7eced6c68ecbaee673ecfca1266b7e383879222ace",
+      "bytes": 5124,
+      "width": 128,
+      "height": 128,
+      "sourceSha256": "607f608f8064237d22bdf6d59f29341954a36299ff156f915ca4c9c8b9c8476b",
+      "sourceCRC32": "c06ef36d",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/kata.dds",
+      "url": "/assets/conquest/rook-explode/textures/kata.png",
+      "sha256": "8309422aafd8470d8bb4b9b24663b7dd8680eefe5d3261e8722a298160f056d0",
+      "bytes": 1208,
+      "width": 128,
+      "height": 128,
+      "sourceSha256": "468dc0fc413cfaaab4134fa0389de1efdbc64123427eaa20d792ade0612145fd",
+      "sourceCRC32": "7973d8b3",
+      "archive": "28.xs"
+    },
+    {
+      "source": "effects/levelup5_nomipmap.dds",
+      "url": "/assets/conquest/rook-explode/textures/levelup5_nomipmap.png",
+      "sha256": "45a1ea9b5eabbd360b40c8f7b163af1b3032a81132dda25baffd6339a98120e8",
+      "bytes": 26244,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "d0db22c760c30a2610c8a9812cdef72e88cf9d24c32a0bdde916394a96602ef4",
+      "sourceCRC32": "4f846588",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/lightning1.dds",
+      "url": "/assets/conquest/rook-explode/textures/lightning1.png",
+      "sha256": "3b011bd1e74e8cd527237f3efc608b533fbfb5463d557f19f9528c1749ceb777",
+      "bytes": 2383,
+      "width": 64,
+      "height": 64,
+      "sourceSha256": "44c44b17903008b0229b49b55d49f831451b270ec05b31d67a9d82c8ef8291ba",
+      "sourceCRC32": "bd60b79c",
+      "archive": "54.xs"
+    },
+    {
+      "source": "effects/lightning2.dds",
+      "url": "/assets/conquest/rook-explode/textures/lightning2.png",
+      "sha256": "b48cd79285379a9f7084bb8b06223edfcef38ba14418517cb185bd5e1c84e999",
+      "bytes": 1963,
+      "width": 64,
+      "height": 64,
+      "sourceSha256": "54dc6aa6e54a6cfd4a80d7f3f6ec0f83c55a1de7184f069e5c906d3cafd375c0",
+      "sourceCRC32": "a6ea1dbc",
+      "archive": "29.xs"
+    },
+    {
+      "source": "effects/lightning3.dds",
+      "url": "/assets/conquest/rook-explode/textures/lightning3.png",
+      "sha256": "bacdcee3ee71900f5bfcdc46dbd62f5a5bde543f22731303fa35025120048294",
+      "bytes": 2306,
+      "width": 64,
+      "height": 64,
+      "sourceSha256": "aedf60f879f94ed0a807f7565f1e08ade3d23a54b56567050797398f741a3fa2",
+      "sourceCRC32": "5b3002db",
+      "archive": "29.xs"
+    },
+    {
+      "source": "effects/lightning4.dds",
+      "url": "/assets/conquest/rook-explode/textures/lightning4.png",
+      "sha256": "af6baa81e56f158543bbcce42bd7e80c0b0d8f678b64ced945067a81752a2b68",
+      "bytes": 2112,
+      "width": 64,
+      "height": 64,
+      "sourceSha256": "34d8edb5bbb8a8d70827ec14e9c0caf0a8398214cb1ab1f65532f15a91de69a8",
+      "sourceCRC32": "5b6fcc9e",
+      "archive": "28.xs"
+    },
+    {
+      "source": "effects/mapeffect_light6.dds",
+      "url": "/assets/conquest/rook-explode/textures/mapeffect_light6.png",
+      "sha256": "f513905958ef691198db90759b9e32aa107db4ae3c4dddcf3d6346610ebc1b73",
+      "bytes": 1087,
+      "width": 32,
+      "height": 128,
+      "sourceSha256": "bf7a371fd9c2455f79684109be6dbefe5b4318c3ee7253d7df523c537bef1efa",
+      "sourceCRC32": "f7cfbaeb",
+      "archive": "40.xs"
+    },
+    {
+      "source": "effects/red_ring.dds",
+      "url": "/assets/conquest/rook-explode/textures/red_ring.png",
+      "sha256": "1d697bf3ebddb24f8b36a48df95b76e807fd7c69ce52bfed69f67e49058ec17f",
+      "bytes": 103,
+      "width": 32,
+      "height": 32,
+      "sourceSha256": "5a4d85472a5868a2765f772c897ce3045c4b33ce03129f64d1e3ab142ffc86d4",
+      "sourceCRC32": "b405fb4d",
+      "archive": "53.xs"
+    },
+    {
+      "source": "effects/ringring.dds",
+      "url": "/assets/conquest/rook-explode/textures/ringring.png",
+      "sha256": "83b37fbad0e623d72b14e153e2f955eeb86c79e71cbce1f6e284cd0b211dfec9",
+      "bytes": 31714,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "e1da8ab59157ebf7ea2762fc5c818c8efd51e91300f2dad4ef25236665d0d693",
+      "sourceCRC32": "1f7a4daf",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/ringring4.dds",
+      "url": "/assets/conquest/rook-explode/textures/ringring4.png",
+      "sha256": "0334b3ff6e279a61dc6c6445f633186dc16e67ddf6d78d620a816a19db699a0b",
+      "bytes": 35907,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "4dd7c1287f717b092043b561212b6ea92f9760560fbc3efd626dba4f082ccf29",
+      "sourceCRC32": "1d5d5b28",
+      "archive": "28.xs"
+    },
+    {
+      "source": "effects/skill_clown_jack2_female.dds",
+      "url": "/assets/conquest/rook-explode/textures/skill_clown_jack2_female.png",
+      "sha256": "a1cac3a38bfc552578c053c73933879a6c96838b01d547bcecfc900271d5268d",
+      "bytes": 5377,
+      "width": 64,
+      "height": 256,
+      "sourceSha256": "138465c4ce31e33cdf97414749cd06013d44b893f99fc1a23786b9811defc25f",
+      "sourceCRC32": "958abdc4",
+      "archive": "53.xs"
+    },
+    {
+      "source": "effects/smog_gray.dds",
+      "url": "/assets/conquest/rook-explode/textures/smog_gray.png",
+      "sha256": "e808ce245e43ecf3315b1cd56b92f3ef9c01c5408a54d65ad2d0fc18c6e89920",
+      "bytes": 57184,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "c6226bea6eb8058756c7b341507baa7089fd33e116b4caed5e01582c52f403f5",
+      "sourceCRC32": "0131bc60",
+      "archive": "4.xs"
+    },
+    {
+      "source": "effects/weaponeff_cardfog_d100.dds",
+      "url": "/assets/conquest/rook-explode/textures/weaponeff_cardfog_d100.png",
+      "sha256": "4a410d88cdc59d39893c8adeab50a60a8b6092c5d5b367300ede5467def71d6d",
+      "bytes": 36124,
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "b1cfb84229331de65d8c446820a4a3f005f5b86158753b11cf2ecf55038ef2aa",
+      "sourceCRC32": "6da9ed5a",
+      "archive": "3.xs"
+    },
+    {
+      "source": "model/monster/pve_monster_knight_and_rook_2.dds",
+      "url": "/assets/conquest/rook-explode/textures/pve_monster_knight_and_rook_2.png",
+      "sha256": "c9598e8e22d88f394b05d18bf7048409baf7c8eab069868e1e988bcf24059595",
+      "bytes": 156522,
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "1bdac95040fc83d5c694cc4987bc8175b111829060777bab46c7f083bf82d287",
+      "sourceCRC32": "1db6db15",
+      "archive": "72.xs"
+    }
+  ],
+  "textureResolutionSource": [
+    "123e850",
+    "123ddc0",
+    "112de93",
+    "14a7094+28",
+    "1236620",
+    "ff55f0"
+  ],
+  "nativeReady": false
+}

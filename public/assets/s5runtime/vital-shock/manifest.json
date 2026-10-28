@@ -1,0 +1,537 @@
+{
+  "schema": "s5-vital-shock-current-stage-v1",
+  "date": "2026-10-03",
+  "itemKey": 2000065,
+  "status": "staged-not-main-game-verified",
+  "assets": [
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/vital_shock_blackcat.png",
+      "bytes": 120329,
+      "sha256": "4093f9db6ce7dd4b204de48005e42d4178c2b1a39bd1d943428da7a5b415adb8"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/model.json",
+      "bytes": 948045,
+      "sha256": "cebd432835418c13d62732fe0a637a42da04ccbf9f421f6e9d8dc2c9de47c0e7"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/animations/male.json",
+      "bytes": 1306009,
+      "sha256": "ef1aa1825f2e8dc828b33b7df2da6888e60facc760ec589d7529b98ca4e349d3"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/animations/female.json",
+      "bytes": 1520166,
+      "sha256": "3e95004735c1546e04a4afdc7d0dff27a160d26cc2bf21a1173cb8d9efe51fc6"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sounds/shockwave_hit.ogg",
+      "bytes": 21557,
+      "sha256": "6b10a2362a6a4f69b23794b5181268849a6241e919df108bee6b2e3fa4e05751"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sounds/shockwave_blast.ogg",
+      "bytes": 24757,
+      "sha256": "f2dea0222979d47cd808cce97df885bdf57a6178ea85d17873c310f6b9dfc8ac"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sounds/voice_man_attack_3.ogg",
+      "bytes": 15531,
+      "sha256": "074b44e4cb27d69d6688f3ea3f136cb69d6493df2476c1219403af66856306c8"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sounds/voice_girl_attack_3.ogg",
+      "bytes": 11918,
+      "sha256": "a9e104224e72f8b6306dd6ee221b3135c014706398b3b6009c51222314187b5e"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/icon.png",
+      "bytes": 13298,
+      "sha256": "5e9d07fb5fc96b237ce2522e1810f23bb5490bb890d75fca7f40de8595487048"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sequences/vital_claw_01.json",
+      "bytes": 8955,
+      "sha256": "887073a169c4e4a74addf975a3a098d8655145a669d8944e7ce17f54f4a03bfa"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/line1.png",
+      "bytes": 1212,
+      "sha256": "45e2bdc28b37957d3599fbf3ed50089501d790707c48363b888c971a78cdc6c1"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/models/vital_claw_01.json",
+      "bytes": 343169,
+      "sha256": "20d942f252e1e01d73af8e10b2106dc7bfde2d2fa473f36ac9ad783ecee9bf41"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/smog.png",
+      "bytes": 7967,
+      "sha256": "5862767ecd4523a324705693680f5e9fcfea68fc68b41dd497a42168067b1a7f"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sequences/vital_claw_02.json",
+      "bytes": 8955,
+      "sha256": "ef049672b8f12d6170b07c41a9cb8168c0a98f9f45b7f77731822c2da4ef4693"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/models/vital_claw_02.json",
+      "bytes": 343509,
+      "sha256": "a1dc147636cfb6c741054c96204bb4289a7e9e60637ebc7b8ea79f46abed1714"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sequences/weapon_vitalshock_strong_01.json",
+      "bytes": 93807,
+      "sha256": "6502a927e2b3d1145ccd6bcd87772df3bb8433f2ff4fa7750832275f3f972d38"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/eff_bat_wind2.png",
+      "bytes": 12658,
+      "sha256": "db44e41aad74a9196975dc9a28c7c701ed3299f0031eba0d91fa222cf2730d8e"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/enemy_spawn6_nomipmap.png",
+      "bytes": 8067,
+      "sha256": "cb759c150ab4487b4e4f9b4fc8a5ad986d144d392ffc75792aebc05c2e515652"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/skill_templar_scheaven8_nomipmap.png",
+      "bytes": 2084,
+      "sha256": "a8c98c8ad69af2f1dd90885cfba45532cf93df9b9273926b44564be499973ec7"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/pupple_fire01.png",
+      "bytes": 1545,
+      "sha256": "8f658500e8669379137bc8452a197f2416d3e085e683d5aee3bcb97631619062"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/flash_blue.png",
+      "bytes": 9926,
+      "sha256": "3c1c557d5cbcdfe8fff07a217bf6de47bdd7daa20a29090619672258682b6d95"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/enemy_res4_nomipmap.png",
+      "bytes": 26989,
+      "sha256": "e5024e57e1ab1467d2c787df7ab5417f1a1a68a7a751a2a94594443cd0cc026d"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/grim_energy.png",
+      "bytes": 2839,
+      "sha256": "009007d7d51b3be4782c714d7a2501788458646e0ac3f37e49ebfdb120d2e1a7"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/tick.png",
+      "bytes": 1831,
+      "sha256": "b193c5abe53662185c26abee065200c4f4878846a96c75ee34f2afb9751eefca"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sequences/weapon_vitalshock_strong_02.json",
+      "bytes": 93713,
+      "sha256": "bf2e4d8c7fc84984a321d0842a6cc7ff166b955b24f3ff20cd94f649af4f8738"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sequences/weapon_vitalshock_strong_03.json",
+      "bytes": 56388,
+      "sha256": "5dd0cf21f80d95e84e0af908e941ae1534af8b347ed1fbd4e18ad0e860386cbb"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/sequences/vt_dashatk_01.json",
+      "bytes": 39232,
+      "sha256": "775aad24eb1c5b1a94d42b45dd7764986200231689cb58dcf660d39f30a9c8af"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/mapeffect_light2.png",
+      "bytes": 1117,
+      "sha256": "969f180a74bd8243f1d63303d6a44613b603c195b60805fb736e061fcc27af4f"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/skill_mage_scheaveng_nomipmap.png",
+      "bytes": 6594,
+      "sha256": "d7bfb43dd5d91711e02b282fa72d980343b8b78d6c579539de3d838be47b112e"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/cure4_2.png",
+      "bytes": 7978,
+      "sha256": "0022a9a4157911368f59009bc901dd155fc6a5c0cad2fd9a3bd5a09ad0e1b564"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/textures/ringring4.png",
+      "bytes": 35907,
+      "sha256": "0334b3ff6e279a61dc6c6445f633186dc16e67ddf6d78d620a816a19db699a0b"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/models/vt_dashatk_01.json",
+      "bytes": 613313,
+      "sha256": "d456285b902098b6135ce54a6d4a0d1edd5a202fad6986818299904f9c7714c2"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/models/vt_dashatk_01.json",
+      "bytes": 613313,
+      "sha256": "d456285b902098b6135ce54a6d4a0d1edd5a202fad6986818299904f9c7714c2"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/models/vt_dashatk_01.json",
+      "bytes": 613313,
+      "sha256": "d456285b902098b6135ce54a6d4a0d1edd5a202fad6986818299904f9c7714c2"
+    },
+    {
+      "path": "/assets/s5runtime/vital-shock/effects-runtime.json",
+      "bytes": 43578,
+      "sha256": "faf0876c1b632382689d96b8b7ade18d93a89a464e63877456c3ddfb7db9426a"
+    }
+  ],
+  "sources": [
+    {
+      "path": "model/weapon/vital_shock_blackcat.scn",
+      "checksum": "ee7c7458",
+      "plainLength": 276219,
+      "storedLength": 186625,
+      "dataOffset": 82207969,
+      "archive": "package/66.xs",
+      "sha256": "fa47ee36999838a0284aae96f66c5fbb7a728a60e6acef29672bc6dfee82e554",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/character/male_bip.scn",
+      "checksum": "7a744796",
+      "plainLength": 33060253,
+      "storedLength": 33061772,
+      "dataOffset": 12367745,
+      "archive": "package/60.xs",
+      "sha256": "d9953bde346c6b242e8d45d4ea885a581203c3999a78ab13d60aa7ea3997dba5",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/character/female_bip.scn",
+      "checksum": "d3a71175",
+      "plainLength": 30705783,
+      "storedLength": 30707194,
+      "dataOffset": 22125266,
+      "archive": "package/47.xs",
+      "sha256": "98caac4c4f8ee8900a9b28b050e7900fbb8c4c1b65a5f968a20110ae7653d465",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/vital_claw_01.seq",
+      "checksum": "4185378e",
+      "plainLength": 509,
+      "storedLength": 412,
+      "dataOffset": 9178895,
+      "archive": "package/29.xs",
+      "sha256": "7474ba62e49c9172eafbf9aa7b11f32f990759b1ef2d4c6e8aaa6ca4cac84327",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/vital_claw_02.seq",
+      "checksum": "6ce909c9",
+      "plainLength": 509,
+      "storedLength": 405,
+      "dataOffset": 51307817,
+      "archive": "package/62.xs",
+      "sha256": "3af410dd3b412cdac5165338e90efc361bcb9842397c2fe1802f2a2205b72c35",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/weapon_vitalshock_strong_01.seq",
+      "checksum": "2d44507f",
+      "plainLength": 6069,
+      "storedLength": 2734,
+      "dataOffset": 39867843,
+      "archive": "package/41.xs",
+      "sha256": "d8b7bff763796447c45b3313025f6bfd107bcc1692ad8eb4aded13d09c713e85",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/weapon_vitalshock_strong_02.seq",
+      "checksum": "1bc02096",
+      "plainLength": 6069,
+      "storedLength": 2798,
+      "dataOffset": 71148919,
+      "archive": "package/54.xs",
+      "sha256": "5df2de61e122d73330a9f9ae47d5759108a11d581e21e8677f41714f9f33dd52",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/weapon_vitalshock_strong_03.seq",
+      "checksum": "0892b8da",
+      "plainLength": 3655,
+      "storedLength": 1764,
+      "dataOffset": 46743088,
+      "archive": "package/3.xs",
+      "sha256": "94dac71dd3d391d060a422cfbc09974f49120a2c33db5c6d78009757fc241763",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/vt_dashatk_01.seq",
+      "checksum": "6654d774",
+      "plainLength": 2411,
+      "storedLength": 1318,
+      "dataOffset": 104079858,
+      "archive": "package/3.xs",
+      "sha256": "18c874078d81e02e7a5ed6b4f61815f49b55d07c4a5aea08f582a4cd1121d25f",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/shockwave_hit.ogg",
+      "checksum": "54e326f7",
+      "plainLength": 21557,
+      "storedLength": 21484,
+      "dataOffset": 68050212,
+      "archive": "package/67.xs",
+      "sha256": "6b10a2362a6a4f69b23794b5181268849a6241e919df108bee6b2e3fa4e05751",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/shockwave_blast.ogg",
+      "checksum": "5676ec86",
+      "plainLength": 24757,
+      "storedLength": 24684,
+      "dataOffset": 40162074,
+      "archive": "package/23.xs",
+      "sha256": "f2dea0222979d47cd808cce97df885bdf57a6178ea85d17873c310f6b9dfc8ac",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/voice_man_attack_3.ogg",
+      "checksum": "c5684bc5",
+      "plainLength": 15531,
+      "storedLength": 15456,
+      "dataOffset": 70446950,
+      "archive": "package/50.xs",
+      "sha256": "074b44e4cb27d69d6688f3ea3f136cb69d6493df2476c1219403af66856306c8",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/voice_girl_attack_3.ogg",
+      "checksum": "c074e656",
+      "plainLength": 11918,
+      "storedLength": 11844,
+      "dataOffset": 67072779,
+      "archive": "package/67.xs",
+      "sha256": "a9e104224e72f8b6306dd6ee221b3135c014706398b3b6009c51222314187b5e",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "image/weapon/slot_sword_sudden.png",
+      "checksum": "554d1a9e",
+      "plainLength": 13298,
+      "storedLength": 13303,
+      "dataOffset": 56867819,
+      "archive": "package/76.xs",
+      "sha256": "5e9d07fb5fc96b237ce2522e1810f23bb5490bb890d75fca7f40de8595487048",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/vital_claw_01.scn",
+      "checksum": "78193d73",
+      "plainLength": 98368,
+      "storedLength": 75070,
+      "dataOffset": 44496513,
+      "archive": "package/4.xs",
+      "sha256": "90da3ccfcec2ccb4c25a29cdd5701d9084c74fae353539bae23c20967427f3eb",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/smog.dds",
+      "checksum": "9e9b365c",
+      "plainLength": 11064,
+      "storedLength": 7092,
+      "dataOffset": 51500037,
+      "archive": "package/54.xs",
+      "sha256": "1b923965b25c2ac5ed23eded49dde06ead1e2f0aaf1b2c5a4f6381509c41af16",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/vital_claw_02.scn",
+      "checksum": "33b0fd1a",
+      "plainLength": 98438,
+      "storedLength": 86336,
+      "dataOffset": 68000497,
+      "archive": "package/28.xs",
+      "sha256": "8f0ef99e1b5fd0d1962ecf0472c82fa115e555d5fec0ef765ad3e9ad54bd9ef4",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/eff_bat_wind2.dds",
+      "checksum": "c9aa5461",
+      "plainLength": 22000,
+      "storedLength": 15258,
+      "dataOffset": 6184504,
+      "archive": "package/3.xs",
+      "sha256": "aa2f977f00d52ea606b1d909104b822561b98ca786fc58741815a605f5c39264",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/enemy_spawn6_nomipmap.dds",
+      "checksum": "ac4a87ce",
+      "plainLength": 22000,
+      "storedLength": 7870,
+      "dataOffset": 15411443,
+      "archive": "package/68.xs",
+      "sha256": "3418a1b36f3da0c73b71c8b31e0176546de1a999c4c13efb7eed8e6a7fb2cda4",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/skill_templar_scheaven8_nomipmap.dds",
+      "checksum": "d54fa411",
+      "plainLength": 11064,
+      "storedLength": 2498,
+      "dataOffset": 47699695,
+      "archive": "package/3.xs",
+      "sha256": "e1c543113aeea2b1252f5ccc612d55100dcc8d3e37170b5609117a457866a91e",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/pupple_fire01.dds",
+      "checksum": "efcdecbf",
+      "plainLength": 5648,
+      "storedLength": 1885,
+      "dataOffset": 83637015,
+      "archive": "package/3.xs",
+      "sha256": "cfa4c3b114429f03dd06f45412574324830a4968d39d98380228d71e001753a3",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/flash_blue.dds",
+      "checksum": "db6ff55d",
+      "plainLength": 11064,
+      "storedLength": 8220,
+      "dataOffset": 100923082,
+      "archive": "package/2.xs",
+      "sha256": "4f2f29ba96e9ddbd873eafb0af9ac7a595725f98592e0160a8f52dbea39af3ee",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/enemy_res4_nomipmap.dds",
+      "checksum": "65e018a2",
+      "plainLength": 43832,
+      "storedLength": 23134,
+      "dataOffset": 21423300,
+      "archive": "package/53.xs",
+      "sha256": "276cbcd1966da1b7b9eb900a1392e8607625af0912f15a46506936077fed15ac",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/grim_energy.dds",
+      "checksum": "c2897042",
+      "plainLength": 5616,
+      "storedLength": 3011,
+      "dataOffset": 17642965,
+      "archive": "package/28.xs",
+      "sha256": "a64ed19e300f628fee3d1f8702a42dd58432fd562b1ad4fc4868514e3dbbb5f4",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/tick.dds",
+      "checksum": "874b5583",
+      "plainLength": 2872,
+      "storedLength": 2299,
+      "dataOffset": 45761478,
+      "archive": "package/4.xs",
+      "sha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/mapeffect_light2.dds",
+      "checksum": "4644d972",
+      "plainLength": 2872,
+      "storedLength": 2024,
+      "dataOffset": 95170245,
+      "archive": "package/28.xs",
+      "sha256": "ebf6448089fe7cdba8514b23cbe56a6bdcd9750593fc4bd7393f68083fd782d2",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/skill_mage_scheaveng_nomipmap.dds",
+      "checksum": "adaaad06",
+      "plainLength": 11080,
+      "storedLength": 6088,
+      "dataOffset": 1813926,
+      "archive": "package/28.xs",
+      "sha256": "564ffeafd431cf5cea8a761c5b161c22193232933d0b3e882e5e6736b4734712",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/cure4_2.dds",
+      "checksum": "a986ad6f",
+      "plainLength": 11080,
+      "storedLength": 8645,
+      "dataOffset": 43450101,
+      "archive": "package/62.xs",
+      "sha256": "3638ca0e3e637eba35ea32c1efb51a7d4e424213f20048f55f7e811d9fae1c36",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/vt_dashatk_01.scn",
+      "checksum": "71ffe240",
+      "plainLength": 163236,
+      "storedLength": 146430,
+      "dataOffset": 6904695,
+      "archive": "package/4.xs",
+      "sha256": "679046159251b644752298e96361cbd67a2578c28ef32c4609fabced619944f2",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/line1.dds",
+      "checksum": "8952e79a",
+      "plainLength": 1512,
+      "storedLength": 1283,
+      "dataOffset": 33769851,
+      "archive": "package/4.xs",
+      "sha256": "2d2ea10de9288ed91ed81df0550a4e953337f7af71d7367be367099afcbb1266",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/ringring4.dds",
+      "checksum": "1d5d5b28",
+      "plainLength": 43832,
+      "storedLength": 28259,
+      "dataOffset": 63983828,
+      "archive": "package/28.xs",
+      "sha256": "4dd7c1287f717b092043b561212b6ea92f9760560fbc3efd626dba4f082ccf29",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/weapon/vital_shock_blackcat.png",
+      "checksum": "62992c0c",
+      "plainLength": 120329,
+      "storedLength": 120338,
+      "dataOffset": 83885059,
+      "archive": "package/60.xs",
+      "sha256": "4093f9db6ce7dd4b204de48005e42d4178c2b1a39bd1d943428da7a5b415adb8",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/character/bip_male/male_bip_0000.scn",
+      "checksum": "fb07f65c",
+      "plainLength": 7991633,
+      "storedLength": 5725946,
+      "dataOffset": 23563894,
+      "archive": "package/9.xs",
+      "sha256": "48588d1bf3da193db6bff0868fe625b843eb3d3e5e239b98fdda49c194bc7270",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/character/bip_female/female_bip_0000.scn",
+      "checksum": "333bfa1c",
+      "plainLength": 7816537,
+      "storedLength": 5849720,
+      "dataOffset": 9175058,
+      "archive": "package/7.xs",
+      "sha256": "ea045af8ed88b9af88e2a17934e9fa245fe8165488af2ea5af96313bd366eaa7",
+      "method": "reused-current-crc-authenticated"
+    }
+  ],
+  "missing": [
+    {
+      "sequence": "vt_dashatk_01",
+      "node": 7,
+      "reason": "No particle textures"
+    }
+  ],
+  "requested": [],
+  "limitations": [
+    "Native type20 versus Lua54 and input routing remain unresolved.",
+    "Resources do not certify main-game timing, attachment, effects follow or contact physics."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "format": "s4-captain-source-scenes-v1",
+  "scenes": [
+    {
+      "name": "captain_win",
+      "source": "uieffect/captain_win.scn",
+      "sourceSha256": "dca77c873879a9f0d6f939bd009317468f9e4384864381a8c567d6c47f7b7b4f",
+      "clip": "TOUCHDOWN_GREEN",
+      "durationTicks": 9600,
+      "models": 4,
+      "file": "captain_win.json",
+      "sha256": "774011d6061d47adee6559fc5b6c4e9982d3bc8e3bdbf925beee90c4920d8424",
+      "interfacePlacement": {
+        "sequenceSource": "uieffect/captain_win.seq",
+        "sequenceSha256": "9111cb53c7876ea514b1f8a10a1a3112310d081ed540090bc7a229156be92342",
+        "screenPosition": [
+          0,
+          0,
+          1000
+        ]
+      },
+      "loaderTiming": {
+        "startMs": 0,
+        "endMs": 2000,
+        "fadeInMs": 500,
+        "fadeOutMs": 500
+      },
+      "particleSequence": {
+        "file": "captain_win.seq.json",
+        "sha256": "868bddde3145080f72cb6bae1ed385e5d24a5a6314c9a57ebe930f2880bbf242",
+        "textureSource": "uieffect/tick3.dds",
+        "textureFile": "tick3.png",
+        "textureSha256": "75c2e2715ff52d0662c1f54b4ba5c9f0c85d16087e48f91cd722cca0973889bd"
+      },
+      "sequenceParticleIncluded": true,
+      "nativeEventBindingVerified": false
+    },
+    {
+      "name": "captain_rose",
+      "source": "uieffect/captain_rose.scn",
+      "sourceSha256": "6b1928faf587ce3e01b229eefbf5074ee76d25ed422bb54e1fec8ef719de925a",
+      "clip": "TOUCHDOWN",
+      "durationTicks": 9600,
+      "models": 4,
+      "file": "captain_rose.json",
+      "sha256": "ad34f5af819f35dac342bb45d8563ba33d68671c99c2acb7eaf3431c865632f3",
+      "interfacePlacement": {
+        "sequenceSource": "uieffect/captain_rose.seq",
+        "sequenceSha256": "b8b497dbc365d0eefe49a4373ef030d31eaa26e6d8be709727147caf05493004",
+        "screenPosition": [
+          0,
+          0,
+          1000
+        ]
+      },
+      "loaderTiming": {
+        "startMs": 0,
+        "endMs": 2000,
+        "fadeInMs": 500,
+        "fadeOutMs": 500
+      },
+      "particleSequence": {
+        "file": "captain_rose.seq.json",
+        "sha256": "1171892ef3ee44f71470fb6dba4dce07c869793c5b3f82e50b684efc6ac66ebf",
+        "textureSource": "uieffect/tick.dds",
+        "textureFile": "tick.png",
+        "textureSha256": "e4c3280a58caf5688cc79cbb3676a305f59a4e0619caf29f190adfbe711f3392"
+      },
+      "sequenceParticleIncluded": true,
+      "nativeEventBindingVerified": false
+    }
+  ],
+  "nativeReady": false,
+  "countdownManifest": "countdown/manifest.json"
+}

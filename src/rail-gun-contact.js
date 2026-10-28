@@ -1,0 +1,2 @@
+import {RAIL_GUN_SOURCE as source} from './rail-gun-data.js';
+export function railGunSourceContact(shot){const profile=source.sourceAttackProfiles.find(p=>p.id===shot.sourceAttackId);if(!profile||!Number.isFinite(shot.power))throw new TypeError('Explicit selected Rail Gun profile and prepared power required');return {profileId:profile.id,attribute:profile.attribute,power:shot.power,rayCount:1,ghostCalcCollisionRange:true,sourceBlow:profile.blow?[...profile.blow]:null,blowApplied:false,criticalDeclared:false,sourceOffsets:[],nativeReady:false};}

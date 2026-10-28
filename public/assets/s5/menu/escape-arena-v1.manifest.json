@@ -1,0 +1,9 @@
+{
+  "generatedOn": "2026-10-17",
+  "mode": "built-in image_gen",
+  "asset": "/assets/s5/menu/escape-arena-v1.png",
+  "source": "Generated images are saved to C:\\Users\\newpc\\.codex\\generated_images\\01a14695-59fb-71d3-a479-db6e0ae2e835 as C:\\Users\\newpc\\.codex\\generated_images\\01a14695-59fb-71d3-a479-db6e0ae2e835\\exec-dc44325e-7592-43dc-b2c7-2e33bbc18d56.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "prompt": "Create one original high quality wide 16:9 background illustration for the Escape menu of S5 League, a fast third person anime sci-fi arena shooter video game. No UI, no buttons, no text, no lettering, no logo, no characters. An atmospheric futuristic sports arena seen at night, premium stylized game concept art, crisp architectural forms in dark midnight blue, a monumental angular arena gateway to the right with restrained luminous cyan inlays, distant elevated walkways and a subtle warm amber light on the far right. Composition deliberately asymmetric: architectural focus in the right third; left third and center-left remain dark calm deep navy negative space to place a small compact live menu. Ground has subtle reflections, depth and light mist, designed and tasteful, not generic neon cyberpunk clutter. Rich detailed art but subdued background contrast. Full bleed fully OPAQUE image, solid painted pixels covering every edge, no transparency, no black bars, no watermark, no framing. This is the background art only, interface will be implemented in real CSS.",
+  "transparent_background": false,
+  "notes": "Original background only. Buttons, typography, focus and hover effects are live CSS; no S5Runtime background or button textures in this menu."
+}

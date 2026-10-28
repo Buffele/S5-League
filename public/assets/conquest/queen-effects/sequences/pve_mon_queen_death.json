@@ -1,0 +1,3196 @@
+{
+  "format": "s5-sequence-inspection-v1",
+  "source": "effects/pve_mon_queen_death.seq",
+  "sha256": "fc1df7dd59f53341f1a8243c099e2232f2073610fe1189c208b58420c1e1a6a1",
+  "byteLength": 2792,
+  "header": {
+    "versionField": 0.10000000149011612,
+    "name": {
+      "value": "",
+      "rawHex": ""
+    },
+    "byteField": 0,
+    "durationField": 3500,
+    "nodeCount": 8,
+    "byteRange": {
+      "start": 0,
+      "end": 14
+    }
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 14,
+        "end": 147,
+        "length": 133
+      },
+      "sha256": "b37d0c8b0e99863c2e9c935ff1831f93af5dbb8388dacdd3d9fae7941d5ddc96",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_death_dummy.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f64656174685f64756d6d792e73636e",
+          "resourcePath": "effects/pve_queen_death_dummy.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 33,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 37,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 42,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 46,
+            "rawHex": "b80b0000",
+            "int32": 3000,
+            "float32": 4.203895392974451e-42
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_death_dummy.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f64656174685f64756d6d792e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 122,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "field88": {
+          "offset": 126,
+          "rawHex": "e8030000",
+          "int32": 1000,
+          "float32": 1.401298464324817e-42
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 131,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 135,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 139,
+            "end": 147,
+            "length": 8
+          }
+        }
+      }
+    },
+    {
+      "index": 1,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 147,
+        "end": 318,
+        "length": 171
+      },
+      "sha256": "425df7d09ed2ad1883609c6870d7aaad7bc3b19b21ef52e6b16a5a005cd012f9",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_gunner_chargeshot_part1.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c736b696c6c5f67756e6e65725f63686172676573686f745f70617274312e73636e",
+          "resourcePath": "effects/skill_gunner_chargeshot_part1.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 166,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 170,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "pve_queen_deadeffect_mov_dummy",
+            "rawHex": "7076655f717565656e5f646561646566666563745f6d6f765f64756d6d79"
+          },
+          "startTimeField": {
+            "offset": 205,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 209,
+            "rawHex": "d0070000",
+            "int32": 2000,
+            "float32": 2.802596928649634e-42
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_gunner_chargeshot_part1.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c736b696c6c5f67756e6e65725f63686172676573686f745f70617274312e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 293,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "field88": {
+          "offset": 297,
+          "rawHex": "e8030000",
+          "int32": 1000,
+          "float32": 1.401298464324817e-42
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 302,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 306,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 310,
+            "end": 318,
+            "length": 8
+          }
+        }
+      }
+    },
+    {
+      "index": 2,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 318,
+        "end": 761,
+        "length": 443
+      },
+      "sha256": "5ab975e42086d89496eac54c1f4de99bfaf7b1e92f120f91a7950fcf5bc25d78",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\plasma6.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c706c61736d61362e626d70",
+          "resourcePath": "effects/plasma6.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 335,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 339,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "pve_queen_deadeffect_mov_dummy",
+            "rawHex": "7076655f717565656e5f646561646566666563745f6d6f765f64756d6d79"
+          },
+          "startTimeField": {
+            "offset": 374,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 378,
+            "rawHex": "d0070000",
+            "int32": 2000,
+            "float32": 2.802596928649634e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 390,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 394,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 398,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 402,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 406,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 410,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 414,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 418,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 422,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 426,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 430,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 434,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 439,
+            "rawHex": "19000000",
+            "int32": 25,
+            "float32": 3.5032461608120427e-44
+          },
+          "flag5c": true,
+          "field60": {
+            "offset": 444,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 449,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 453,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 461,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 471,
+            "rawHex": "d0070000",
+            "int32": 2000,
+            "float32": 2.802596928649634e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 480,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 485,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 489,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 493,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 497,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 501,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 505,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 509,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 513,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 517,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 521,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 525,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 529,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 533,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 537,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 541,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 545,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 549,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 553,
+                  "rawHex": "e8030000",
+                  "int32": 1000,
+                  "float32": 1.401298464324817e-42
+                },
+                {
+                  "offset": 557,
+                  "rawHex": "19000000",
+                  "int32": 25,
+                  "float32": 3.5032461608120427e-44
+                },
+                {
+                  "offset": 561,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 3,
+          "entries": [
+            [
+              {
+                "offset": 573,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 577,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 581,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 585,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 589,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 593,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 597,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 601,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 605,
+                "rawHex": "3333f33e",
+                "int32": 1056125747,
+                "float32": 0.4749999940395355
+              },
+              {
+                "offset": 609,
+                "rawHex": "00004842",
+                "int32": 1112014848,
+                "float32": 50
+              },
+              {
+                "offset": 613,
+                "rawHex": "00004842",
+                "int32": 1112014848,
+                "float32": 50
+              },
+              {
+                "offset": 617,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 621,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 625,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 629,
+                "rawHex": "cdcc4c3e",
+                "int32": 1045220557,
+                "float32": 0.20000000298023224
+              },
+              {
+                "offset": 633,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 637,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 641,
+                "rawHex": "00002042",
+                "int32": 1109393408,
+                "float32": 40
+              },
+              {
+                "offset": 645,
+                "rawHex": "00002042",
+                "int32": 1109393408,
+                "float32": 40
+              },
+              {
+                "offset": 649,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 653,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 657,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 661,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 665,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\plasma6.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c706c61736d61362e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 729,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 733,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 737,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 741,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 745,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 749,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 753,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 757,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 3,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 761,
+        "end": 1205,
+        "length": 444
+      },
+      "sha256": "e58fd88e7081d24ad76e46b40e661fa1ab268a81fdbd3ab386e352177640c5ba",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\plasma3a.bmp",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c706c61736d6133612e626d70",
+          "resourcePath": "effects/plasma3a.bmp",
+          "extension": "bmp",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 778,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 782,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "pve_queen_deadeffect_mov_dummy",
+            "rawHex": "7076655f717565656e5f646561646566666563745f6d6f765f64756d6d79"
+          },
+          "startTimeField": {
+            "offset": 817,
+            "rawHex": "64000000",
+            "int32": 100,
+            "float32": 1.401298464324817e-43
+          },
+          "endTimeField": {
+            "offset": 821,
+            "rawHex": "34080000",
+            "int32": 2100,
+            "float32": 2.942726775082116e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 833,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 837,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 841,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 845,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 849,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 853,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 857,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 861,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 865,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 869,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 873,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 877,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 882,
+            "rawHex": "18000000",
+            "int32": 24,
+            "float32": 3.363116314379561e-44
+          },
+          "flag5c": true,
+          "field60": {
+            "offset": 887,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 892,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 896,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 904,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 914,
+            "rawHex": "d0070000",
+            "int32": 2000,
+            "float32": 2.802596928649634e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 923,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 928,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 932,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 936,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 940,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 944,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 948,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 952,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 956,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 960,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 964,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 968,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 972,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 976,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 980,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 984,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 988,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 992,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 996,
+                  "rawHex": "e8030000",
+                  "int32": 1000,
+                  "float32": 1.401298464324817e-42
+                },
+                {
+                  "offset": 1000,
+                  "rawHex": "0a000000",
+                  "int32": 10,
+                  "float32": 1.401298464324817e-44
+                },
+                {
+                  "offset": 1004,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 3,
+          "entries": [
+            [
+              {
+                "offset": 1016,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1020,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1024,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1028,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1032,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1036,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1040,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1044,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1048,
+                "rawHex": "6666e63e",
+                "int32": 1055286886,
+                "float32": 0.44999998807907104
+              },
+              {
+                "offset": 1052,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 1056,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 1060,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1064,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1068,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1072,
+                "rawHex": "3333333f",
+                "int32": 1060320051,
+                "float32": 0.699999988079071
+              },
+              {
+                "offset": 1076,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1080,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1084,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 1088,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 1092,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1096,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1100,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1104,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1108,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\plasma3a.bmp",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c706c61736d6133612e626d70"
+              },
+              "uvWords": [
+                {
+                  "offset": 1173,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1177,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1181,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1185,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1189,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1193,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1197,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1201,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 4,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 1205,
+        "end": 1648,
+        "length": 443
+      },
+      "sha256": "337d096d89bc7662d67e755facb06d0dbc10fc17427134760eb8f7c72df63e72",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\steak02.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c737465616b30322e646473",
+          "resourcePath": "effects/steak02.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 1222,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 1226,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "pve_queen_deadeffect_mov_dummy",
+            "rawHex": "7076655f717565656e5f646561646566666563745f6d6f765f64756d6d79"
+          },
+          "startTimeField": {
+            "offset": 1261,
+            "rawHex": "d0070000",
+            "int32": 2000,
+            "float32": 2.802596928649634e-42
+          },
+          "endTimeField": {
+            "offset": 1265,
+            "rawHex": "b80b0000",
+            "int32": 3000,
+            "float32": 4.203895392974451e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 1277,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1281,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1285,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 1289,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1293,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1297,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1301,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1305,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1309,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1313,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1317,
+              "rawHex": "0000c842",
+              "int32": 1120403456,
+              "float32": 100
+            },
+            {
+              "offset": 1321,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 1326,
+            "rawHex": "03000000",
+            "int32": 3,
+            "float32": 4.203895392974451e-45
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 1331,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 1336,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 1340,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 1348,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 1358,
+            "rawHex": "e8030000",
+            "int32": 1000,
+            "float32": 1.401298464324817e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 1367,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 1372,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1376,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1380,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1384,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1388,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1392,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1396,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1400,
+                  "rawHex": "00004842",
+                  "int32": 1112014848,
+                  "float32": 50
+                },
+                {
+                  "offset": 1404,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1408,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1412,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1416,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1420,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1424,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1428,
+                  "rawHex": "000048c3",
+                  "int32": -1018691584,
+                  "float32": -200
+                },
+                {
+                  "offset": 1432,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1436,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1440,
+                  "rawHex": "e8030000",
+                  "int32": 1000,
+                  "float32": 1.401298464324817e-42
+                },
+                {
+                  "offset": 1444,
+                  "rawHex": "f4010000",
+                  "int32": 500,
+                  "float32": 7.006492321624085e-43
+                },
+                {
+                  "offset": 1448,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 3,
+          "entries": [
+            [
+              {
+                "offset": 1460,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1464,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 1468,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1472,
+                "rawHex": "8180803e",
+                "int32": 1048608897,
+                "float32": 0.250980406999588
+              },
+              {
+                "offset": 1476,
+                "rawHex": "8180803e",
+                "int32": 1048608897,
+                "float32": 0.250980406999588
+              },
+              {
+                "offset": 1480,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1484,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1488,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1492,
+                "rawHex": "9a99193f",
+                "int32": 1058642330,
+                "float32": 0.6000000238418579
+              },
+              {
+                "offset": 1496,
+                "rawHex": "00001643",
+                "int32": 1125515264,
+                "float32": 150
+              },
+              {
+                "offset": 1500,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 1504,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1508,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1512,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1516,
+                "rawHex": "0000003f",
+                "int32": 1056964608,
+                "float32": 0.5
+              },
+              {
+                "offset": 1520,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1524,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1528,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1532,
+                "rawHex": "00007a44",
+                "int32": 1148846080,
+                "float32": 1000
+              },
+              {
+                "offset": 1536,
+                "rawHex": "c1c0403f",
+                "int32": 1061208257,
+                "float32": 0.7529411911964417
+              },
+              {
+                "offset": 1540,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1544,
+                "rawHex": "c1c0403f",
+                "int32": 1061208257,
+                "float32": 0.7529411911964417
+              },
+              {
+                "offset": 1548,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1552,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\steak02.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c737465616b30322e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 1616,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1620,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1624,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1628,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1632,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1636,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1640,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1644,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 5,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 1648,
+        "end": 2179,
+        "length": 531
+      },
+      "sha256": "6a2c1883ead018b9f75e35340ac960a4ba3e23e2ddc6c49370ff64a60b7c4620",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_orange.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c6173685f6f72616e67652e646473",
+          "resourcePath": "effects/flash_orange.dds",
+          "extension": "dds",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash2.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c617368322e646473",
+          "resourcePath": "effects/flash2.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 1665,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 1669,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "pve_queen_deadeffect_mov_dummy",
+            "rawHex": "7076655f717565656e5f646561646566666563745f6d6f765f64756d6d79"
+          },
+          "startTimeField": {
+            "offset": 1704,
+            "rawHex": "d0070000",
+            "int32": 2000,
+            "float32": 2.802596928649634e-42
+          },
+          "endTimeField": {
+            "offset": 1708,
+            "rawHex": "1c0c0000",
+            "int32": 3100,
+            "float32": 4.344025239406933e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 1720,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1724,
+              "rawHex": "02000000",
+              "int32": 2,
+              "float32": 2.802596928649634e-45
+            },
+            {
+              "offset": 1728,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 1732,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1736,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1740,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1744,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1748,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1752,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1756,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1760,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1764,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": false,
+          "field58": {
+            "offset": 1769,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 1774,
+            "rawHex": "19000000",
+            "int32": 25,
+            "float32": 3.5032461608120427e-44
+          },
+          "flag64": true,
+          "field6c": {
+            "offset": 1779,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 1783,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 1791,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 1801,
+            "rawHex": "4c040000",
+            "int32": 1100,
+            "float32": 1.5414283107572988e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 1810,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 1815,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1819,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1823,
+                  "rawHex": "000048c2",
+                  "int32": -1035468800,
+                  "float32": -50
+                },
+                {
+                  "offset": 1827,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1831,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1835,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1839,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1843,
+                  "rawHex": "00008c42",
+                  "int32": 1116471296,
+                  "float32": 70
+                },
+                {
+                  "offset": 1847,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1851,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1855,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1859,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1863,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1867,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1871,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1875,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1879,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1883,
+                  "rawHex": "e8030000",
+                  "int32": 1000,
+                  "float32": 1.401298464324817e-42
+                },
+                {
+                  "offset": 1887,
+                  "rawHex": "02000000",
+                  "int32": 2,
+                  "float32": 2.802596928649634e-45
+                },
+                {
+                  "offset": 1891,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 3,
+          "entries": [
+            [
+              {
+                "offset": 1903,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1907,
+                "rawHex": "0000a041",
+                "int32": 1101004800,
+                "float32": 20
+              },
+              {
+                "offset": 1911,
+                "rawHex": "0000a041",
+                "int32": 1101004800,
+                "float32": 20
+              },
+              {
+                "offset": 1915,
+                "rawHex": "8180803e",
+                "int32": 1048608897,
+                "float32": 0.250980406999588
+              },
+              {
+                "offset": 1919,
+                "rawHex": "8180803e",
+                "int32": 1048608897,
+                "float32": 0.250980406999588
+              },
+              {
+                "offset": 1923,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1927,
+                "rawHex": "cdcc4c3e",
+                "int32": 1045220557,
+                "float32": 0.20000000298023224
+              },
+              {
+                "offset": 1931,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1935,
+                "rawHex": "9a99193f",
+                "int32": 1058642330,
+                "float32": 0.6000000238418579
+              },
+              {
+                "offset": 1939,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 1943,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 1947,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1951,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1955,
+                "rawHex": "c1c0403f",
+                "int32": 1061208257,
+                "float32": 0.7529411911964417
+              },
+              {
+                "offset": 1959,
+                "rawHex": "9a99993e",
+                "int32": 1050253722,
+                "float32": 0.30000001192092896
+              },
+              {
+                "offset": 1963,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1967,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1971,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 1975,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 1979,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 1983,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 1987,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1991,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1995,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 2,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_orange.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c6173685f6f72616e67652e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 2064,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2068,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2072,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2076,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2080,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2084,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2088,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2092,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash2.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c617368322e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 2147,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2151,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2155,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2159,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2163,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2167,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2171,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2175,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 6,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 2179,
+        "end": 2619,
+        "length": 440
+      },
+      "sha256": "a1bdd19a5fdfd353ce94f16ac929d187a0650746708c4bc8685dbce81267f488",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\kata.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6b6174612e646473",
+          "resourcePath": "effects/kata.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 2196,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 2200,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "pve_queen_deadeffect_mov_dummy",
+            "rawHex": "7076655f717565656e5f646561646566666563745f6d6f765f64756d6d79"
+          },
+          "startTimeField": {
+            "offset": 2235,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 2239,
+            "rawHex": "34080000",
+            "int32": 2100,
+            "float32": 2.942726775082116e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 2251,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2255,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2259,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 2263,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2267,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2271,
+              "rawHex": "00004842",
+              "int32": 1112014848,
+              "float32": 50
+            },
+            {
+              "offset": 2275,
+              "rawHex": "0000c842",
+              "int32": 1120403456,
+              "float32": 100
+            },
+            {
+              "offset": 2279,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2283,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2287,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2291,
+              "rawHex": "0000c842",
+              "int32": 1120403456,
+              "float32": 100
+            },
+            {
+              "offset": 2295,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 2300,
+            "rawHex": "1e000000",
+            "int32": 30,
+            "float32": 4.203895392974451e-44
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 2305,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 2310,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 2314,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 2322,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 2332,
+            "rawHex": "34080000",
+            "int32": 2100,
+            "float32": 2.942726775082116e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 2341,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 2346,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2350,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2354,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2358,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2362,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2366,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2370,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2374,
+                  "rawHex": "00004843",
+                  "int32": 1128792064,
+                  "float32": 200
+                },
+                {
+                  "offset": 2378,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2382,
+                  "rawHex": "0000c842",
+                  "int32": 1120403456,
+                  "float32": 100
+                },
+                {
+                  "offset": 2386,
+                  "rawHex": "00001643",
+                  "int32": 1125515264,
+                  "float32": 150
+                },
+                {
+                  "offset": 2390,
+                  "rawHex": "0000c842",
+                  "int32": 1120403456,
+                  "float32": 100
+                },
+                {
+                  "offset": 2394,
+                  "rawHex": "00004843",
+                  "int32": 1128792064,
+                  "float32": 200
+                },
+                {
+                  "offset": 2398,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2402,
+                  "rawHex": "0000c842",
+                  "int32": 1120403456,
+                  "float32": 100
+                },
+                {
+                  "offset": 2406,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2410,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2414,
+                  "rawHex": "e8030000",
+                  "int32": 1000,
+                  "float32": 1.401298464324817e-42
+                },
+                {
+                  "offset": 2418,
+                  "rawHex": "28000000",
+                  "int32": 40,
+                  "float32": 5.605193857299268e-44
+                },
+                {
+                  "offset": 2422,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 3,
+          "entries": [
+            [
+              {
+                "offset": 2434,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2438,
+                "rawHex": "0000c842",
+                "int32": 1120403456,
+                "float32": 100
+              },
+              {
+                "offset": 2442,
+                "rawHex": "0000c842",
+                "int32": 1120403456,
+                "float32": 100
+              },
+              {
+                "offset": 2446,
+                "rawHex": "8180803e",
+                "int32": 1048608897,
+                "float32": 0.250980406999588
+              },
+              {
+                "offset": 2450,
+                "rawHex": "8180803e",
+                "int32": 1048608897,
+                "float32": 0.250980406999588
+              },
+              {
+                "offset": 2454,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2458,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2462,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2466,
+                "rawHex": "0000003f",
+                "int32": 1056964608,
+                "float32": 0.5
+              },
+              {
+                "offset": 2470,
+                "rawHex": "0000c842",
+                "int32": 1120403456,
+                "float32": 100
+              },
+              {
+                "offset": 2474,
+                "rawHex": "0000fa43",
+                "int32": 1140457472,
+                "float32": 500
+              },
+              {
+                "offset": 2478,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2482,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 2486,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2490,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2494,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2498,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2502,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2506,
+                "rawHex": "00002f44",
+                "int32": 1143930880,
+                "float32": 700
+              },
+              {
+                "offset": 2510,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2514,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2518,
+                "rawHex": "c1c0403f",
+                "int32": 1061208257,
+                "float32": 0.7529411911964417
+              },
+              {
+                "offset": 2522,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2526,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\kata.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6b6174612e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 2587,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2591,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2595,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2599,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2603,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2607,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2611,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2615,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 7,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 2619,
+        "end": 2792,
+        "length": 173
+      },
+      "sha256": "ceb755ba7d86543e73a5521ba8b026458a0e60da333a222ffe69eb5f882e5572",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_gunner_chargeshot_part1.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c736b696c6c5f67756e6e65725f63686172676573686f745f70617274312e73636e",
+          "resourcePath": "effects/skill_gunner_chargeshot_part1.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 2638,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 2642,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "pve_queen_deadeffect_mov_dummy02",
+            "rawHex": "7076655f717565656e5f646561646566666563745f6d6f765f64756d6d793032"
+          },
+          "startTimeField": {
+            "offset": 2679,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 2683,
+            "rawHex": "d0070000",
+            "int32": 2000,
+            "float32": 2.802596928649634e-42
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_gunner_chargeshot_part1.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c736b696c6c5f67756e6e65725f63686172676573686f745f70617274312e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 2767,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "field88": {
+          "offset": 2771,
+          "rawHex": "e8030000",
+          "int32": 1000,
+          "float32": 1.401298464324817e-42
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 2776,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 2780,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 2784,
+            "end": 2792,
+            "length": 8
+          }
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "nodeIndex": 0,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_death_dummy.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f64656174685f64756d6d792e73636e",
+      "resourcePath": "effects/pve_queen_death_dummy.scn",
+      "extension": "scn",
+      "kind": "model"
+    },
+    {
+      "nodeIndex": 1,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_gunner_chargeshot_part1.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c736b696c6c5f67756e6e65725f63686172676573686f745f70617274312e73636e",
+      "resourcePath": "effects/skill_gunner_chargeshot_part1.scn",
+      "extension": "scn",
+      "kind": "model"
+    },
+    {
+      "nodeIndex": 2,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\plasma6.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c706c61736d61362e626d70",
+      "resourcePath": "effects/plasma6.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 3,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\plasma3a.bmp",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c706c61736d6133612e626d70",
+      "resourcePath": "effects/plasma3a.bmp",
+      "extension": "bmp",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 4,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\steak02.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c737465616b30322e646473",
+      "resourcePath": "effects/steak02.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 5,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_orange.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c6173685f6f72616e67652e646473",
+      "resourcePath": "effects/flash_orange.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 5,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash2.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c666c617368322e646473",
+      "resourcePath": "effects/flash2.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 6,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\kata.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6b6174612e646473",
+      "resourcePath": "effects/kata.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 7,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_gunner_chargeshot_part1.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c736b696c6c5f67756e6e65725f63686172676573686f745f70617274312e73636e",
+      "resourcePath": "effects/skill_gunner_chargeshot_part1.scn",
+      "extension": "scn",
+      "kind": "model"
+    }
+  ],
+  "coverage": {
+    "envelopeBytesAccountedFor": 2792,
+    "reachesExactEof": true,
+    "structuredNodeCount": 8,
+    "fullyStructured": true,
+    "fieldMeaningFullyValidated": false,
+    "rendered": false,
+    "qualification": "Header, base, Particle, Particle_IF, GhostTrail, Lightning, NodeControl, NodeLoader and NodeLoader_IF are consumed sequentially along statically traced native reader branches. Unvalidated four-byte fields retain raw/int/float views. No runtime rendering has been verified."
+  },
+  "diagnostics": {
+    "scannedCActOffsets": [
+      14,
+      147,
+      318,
+      761,
+      1205,
+      1648,
+      2179,
+      2619
+    ],
+    "parsedNodeStarts": [
+      14,
+      147,
+      318,
+      761,
+      1205,
+      1648,
+      2179,
+      2619
+    ],
+    "markerScanMatchesParsedStarts": true,
+    "markerScanUsedForParsing": false
+  }
+}

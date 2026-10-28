@@ -1,0 +1,34 @@
+import {ConquestMonsterAnimationAdapter} from './conquest-monster-animation.js';
+import {ConquestMonsterStateManager,ConquestMonsterNormalState,ConquestMonsterRunState,ConquestMonsterDamageState,ConquestMonsterBlowState,ConquestMonsterDeathState} from './conquest-monster-state-manager.js';
+import {assertConquestQueenActor} from './conquest-queen-ai.js';
+import {createConquestQueenAttackStates,readConquestQueenAttackOwner} from './conquest-queen-attack.js';
+import {assertConquestQueenBaseLifecycle} from './conquest-queen-base-lifecycle.js';
+import {assertConquestQueenReactions} from './conquest-queen-reactions.js';
+import {assertConquestQueenMoveBox} from './conquest-queen-movebox.js';
+const protection=new WeakMap(),owners=new WeakMap(),uint=n=>Number.isInteger(n)&&n>=0&&n<=0xffffffff;
+export function assertConquestQueenRuntime(runtime,{actor}={}){const r=owners.get(runtime);if(!r||r.actor!==actor)throw Error('Typed actual Queen1403 runtime required');r.live();return runtime;}
+// CMonster's inherited states retain their original consumers. The two
+//source attack states own distinct groups; no Pawn1003 state/670ms or DeathBomb.
+export class ConquestQueenRuntime{
+ constructor({actor,readCurrentActor,baseLifecycle,reactions,attackOwner,moveBoxOwner,isFastRun,runMovement,beforeStateTick,animationOptions}={}){
+  assertConquestQueenActor(actor);assertConquestQueenBaseLifecycle(baseLifecycle,{actor});assertConquestQueenReactions(reactions,{actor});assertConquestQueenMoveBox(moveBoxOwner,{actor});
+  if(attackOwner!==readConquestQueenAttackOwner(actor)||!attackOwner||![readCurrentActor,isFastRun,runMovement,beforeStateTick].every(f=>typeof f==='function'))throw Error('Actual Queen identity/group/Run/prefix consumers required');
+  const model=actor.model;let disposed=false,fault=null,busy=false,pendingPose=false;this.actor=actor;this.disposed=false;this.manager=new ConquestMonsterStateManager();this.animation=new ConquestMonsterAnimationAdapter(model,animationOptions);this.lastAnimation=null;this.lastMovementResult=null;this.lastActorPrefix=null;this.lastPresentation=null;
+  const live=()=>{if(disposed||fault||readCurrentActor()!==actor||actor.model!==model||readConquestQueenAttackOwner(actor)!==attackOwner)throw Error('Current owned Queen runtime required'+(fault?': '+fault:''));assertConquestQueenActor(actor);assertConquestQueenBaseLifecycle(baseLifecycle,{actor});assertConquestQueenReactions(reactions,{actor});assertConquestQueenMoveBox(moveBoxOwner,{actor});};
+  const ports={...reactions.ports,baseEnter:state=>baseLifecycle.enter(state),baseExit:state=>baseLifecycle.exit(state),baseTick:(state,delta)=>{const r=baseLifecycle.tick(state,delta);this.lastMovementResult=r.motion.solverResult;return r;},
+   animationEnter:(state,context)=>{live();const ctx={...context,playbackRate:baseLifecycle.readPlaybackRate(state),animationAdapter:this.animation};this.lastAnimation=state.stateId===4&&state.requestedClip!=='00001'?reactions.ports.applyDeathAnimation(state,ctx):this.animation.enter(state.stateId,ctx);if(this.lastAnimation?.accepted!==true)throw Error('Actual authored Queen animation clip required');},
+   readMoveDirection:()=>actor.moveDirectionNative,isFastRun,applyRunMotion:(state,delta,direction)=>{this.lastMovementResult=runMovement(actor,state,delta,direction);if(this.lastMovementResult?.qualified!==true)throw Error('Queen Run collision consumer refused');}};
+  this.normal=new ConquestMonsterNormalState({actor,ports});this.run=new ConquestMonsterRunState({actor,ports});this.damage=new ConquestMonsterDamageState({actor,ports});this.blow=new ConquestMonsterBlowState({actor,ports});this.death=new ConquestMonsterDeathState({actor,ports});this.death.counter.durationMs=3000;this.attacks=createConquestQueenAttackStates({actor,attackOwner,ports});
+  for(const state of [this.normal,this.run,this.damage,this.blow,this.death,...this.attacks]){this.manager.registerState(state.stateId,state);protection.set(state,{actor,live,superArmor:[0,1,2,5,6].includes(state.stateId)});}
+  this.commandPorts=Object.freeze({requestNativeInput:(target,input)=>{live();if(target!==actor)throw Error('Actual Queen input actor required');this.manager.requestInput(input);},findNativeInputState:(target,input)=>{live();if(target!==actor)throw Error('Actual Queen state lookup actor required');return this.manager.findInputState(input);},acceptsAttackDirection:state=>!disposed&&!fault&&this.attacks.includes(state),writeAttackDirection:(state,direction)=>{live();if(!this.attacks.includes(state))throw Error('Authored Queen attack state required');state.setAttackDirection(direction);}});
+  this.assertActor=target=>{live();if(target!==actor)throw Error('Actual Queen runtime actor required');};
+  this.tick=delta=>{live();if(busy||!uint(delta))throw Error('Nonreentrant source uint32 Queen tick required');busy=true;try{this.lastActorPrefix=beforeStateTick(delta);if(this.lastActorPrefix?.qualified!==true)throw Error('Queen actor physical prefix refused: '+(this.lastActorPrefix.reason??'unqualified prefix'));live();this.manager.tick(delta);pendingPose=true;return this.snapshot();}catch(error){fault=error.message;throw error;}finally{busy=false;}};
+  // Caller evaluates the actual mixer once before this post-pose phase.
+  this.updatePresentation=delta=>{live();if(busy||!uint(delta))throw Error('Actual post-pose uint32 Queen phase required');this.lastPresentation=moveBoxOwner.retainPostPose(this.animation);pendingPose=false;return this.lastPresentation;};
+  this.snapshot=()=>({actorId:actor.id,monsterKey:1403,currentStateId:this.manager.current?.stateId??null,previousStateId:this.manager.previous?.stateId??null,pendingInputs:this.manager.pendingInputs,registeredStateIds:[0,1,2,3,4,5,6],unimplementedDefaultStateIds:[7,8,9],unqualifiedMoveBoxFallbackStateIds:[2,3,4,6],missingBodyClips:['00004'],superArmorStateIds:[0,1,2,5,6],deathCleanupDurationMs:3000,deathFadeDurationMs:2000,animation:this.lastAnimation,presentationPending:pendingPose,moveBox:moveBoxOwner.snapshot(),attackGroup:attackOwner.snapshot(),damageCounter:{...this.damage.counter},actorPrefix:this.lastActorPrefix,disposed,fault,nativeReady:false});
+  this.dispose=()=>{if(disposed)return;if(busy)throw Error('Cannot dispose Queen while ticking');const errors=[];try{const current=this.manager.current;if(current)current.exit(this.manager);}catch(e){errors.push(e);}try{this.animation.dispose();}catch(e){errors.push(e);}disposed=true;this.disposed=true;if(errors.length)throw new AggregateError(errors,'Queen runtime cleanup failed');};
+  owners.set(this,{actor,live});try{this.manager.switchState(0);}catch(error){this.dispose();throw error;}
+ }
+}
+
+export function readConquestQueenStateProtection(state){const r=protection.get(state);if(!r)throw Error('Actual private Queen state required');r.live();return Object.freeze({actor:r.actor,stateId:state.stateId,superArmorB8:r.superArmor,sourceSetter:0x4f25d0,nativeReady:false});}

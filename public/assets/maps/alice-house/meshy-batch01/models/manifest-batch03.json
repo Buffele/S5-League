@@ -1,0 +1,88 @@
+{
+  "schema": "alice-meshy-batch03-item20-v1",
+  "items": [
+    {
+      "itemId": 20,
+      "label": "Petit capot latéral rectangulaire à dos ouvert",
+      "url": "/assets/maps/alice-house/meshy-batch01/models/item20.glb",
+      "sha256": "dff71701c9b9803704a8e1406417ffa7600c1aaf7a6b1804e5206cf101695dda",
+      "bytes": 2142176,
+      "triangles": 294,
+      "triangleBudget": 300,
+      "boundsYUp": {
+        "min": [
+          -0.5,
+          0.0,
+          -0.10444876551628113
+        ],
+        "max": [
+          0.5,
+          0.23987790942192078,
+          0.10444876551628113
+        ],
+        "dimensions": [
+          1.0,
+          0.23987790942192078,
+          0.20889753103256226
+        ]
+      },
+      "normalization": {
+        "front": "+Z",
+        "up": "+Y",
+        "origin": "horizontal center; floorY0; maxSpan1"
+      },
+      "textures": {
+        "color": {
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "pixelStddev": [
+            41.483333633012634,
+            36.477594833372166,
+            48.86038837559322
+          ],
+          "sha256": "889f60b0c72232052891d336a497cf213b68bb3a4dc29d8d3ca7e48e10001284"
+        },
+        "metalrough": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            0.0,
+            18.324434892936385,
+            55.68610448140906
+          ],
+          "sha256": "53e09680a5569205a92e9aad6276c9b5106f017d58460bfb7add889365452470"
+        },
+        "normal": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            5.242173207707022,
+            4.84669291682698,
+            1.1218166462988837
+          ],
+          "sha256": "6ea622115c8f9301e7375acefe4d9fccf307c348651ce16f65ceac518d309db7"
+        }
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "topologyChangedForBudget": true,
+      "sourceTriangles": 520,
+      "geometryUVQualification": "Unwrap not changed. Existing UVs interpolated by collapse on reduced assets; no sourceUV byteidentity claim after reduction. Export/reimport triangle-position+UV multiset equality5dec."
+    }
+  ],
+  "count": 1,
+  "totalTriangles": 294,
+  "totalBytes": 2142176
+}

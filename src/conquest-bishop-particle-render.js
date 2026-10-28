@@ -1,0 +1,49 @@
+import {createConquestParticleMaterial,createConquestParticleGpuTemplates,createConquestEffectGpuWarmup} from './conquest-render-warmup.js';
+// Bishop source-bound use of the same independently CPU-qualified CActParticle stages.
+// Scoped source extension of the independently CPU-qualified EnterBase kernels.
+import * as THREE from 'three';
+import {SCN_SCENE_SCALE} from './s5runtime-coordinates.js';
+
+import {conquestBishopParticleSequence,conquestBishopParticleSourceNode,conquestBishopParticleTextureAssets} from './conquest-bishop-particle-source.js';
+import {assertConquestBishopParticleFrame,assertConquestBishopParticleFrameReceipt} from './conquest-bishop-particle-frame.js';
+import {assertConquestBishopParticleAction,readConquestBishopParticleDrawState} from './conquest-bishop-particle-action.js';
+import {conquestBishopParticleDrawGeometry} from './conquest-bishop-particle-draw.js';
+import {CONQUEST_PAWN_PARTICLE_NUMERICS} from './conquest-pawn-particle-simulation.js';
+import {CONQUEST_PAWN_PARTICLE_TRIG_PROFILE} from './conquest-pawn-particle-spatial.js';
+const banks=new WeakMap(),f=Math.fround;
+export const CONQUEST_BISHOP_PARTICLE_RENDER_POLICY=Object.freeze({name:'s5-bishop-source-geometry-three-camera-unlit-v1',coordinates:'native world *.006; native view LH bridge from retained Three view',cameraVector:'retained S5 camera world forward; native camera+1FC producer unqualified',textureOrientation:'PNG bytes decoded with ImageBitmap flipY',blend:'S5 explicit normal/additive mapping; native material1241690/1208A90 mapping remains unqualified',nativeCameraMappingQualified:false,nativeBlendMappingQualified:false,nativeGPUQualified:false});
+export async function prepareConquestBishopParticleRenderBank({source,fetchAsset=globalThis.fetch,decodeImage=globalThis.createImageBitmap}={}){
+ conquestBishopParticleSourceNode(source,0);if(typeof fetchAsset!=='function'||typeof decodeImage!=='function')throw Error('Actual PNG fetch and image decoder required');const textures=new Map();
+ try{for(const asset of conquestBishopParticleTextureAssets(source)){const response=await fetchAsset(asset.url);if(!response?.ok)throw Error('Pawn texture unavailable '+asset.url);const bytes=new Uint8Array(await response.arrayBuffer());if(bytes.length!==asset.bytes)throw Error('Pawn texture size changed');const digest=await globalThis.crypto.subtle.digest('SHA-256',bytes);if([...new Uint8Array(digest)].map(v=>v.toString(16).padStart(2,'0')).join('')!==asset.sha256)throw Error('Pawn texture identity changed');const image=await decodeImage(new Blob([bytes],{type:'image/png'}),{imageOrientation:'flipY',premultiplyAlpha:'none',colorSpaceConversion:'none'});if(image.width!==asset.width||image.height!==asset.height){image.close?.();throw Error('Exact Pawn texture dimensions required');}const texture=new THREE.Texture(image);texture.flipY=false;texture.colorSpace=THREE.NoColorSpace;texture.needsUpdate=true;textures.set(asset.source,texture);}}
+ catch(error){for(const t of textures.values()){t.image.close?.();t.dispose();}throw error;}
+ let gpuWarmup=null;let disposed=false;const record={source,textures,users:new Set(),live(){if(disposed)throw Error('Pawn render bank disposed');}};const bank=Object.freeze({kind:'conquest-owned-bishop-particle-render-bank',textureCount:textures.size,warm(renderer,camera,scene){record.live();if(!gpuWarmup){
+ const entries=[];for(const row of conquestBishopParticleSequence(source).actions){if(row.type!==undefined&&row.type!=='CActParticle')continue;const spec=conquestBishopParticleSourceNode(source,row.index).emitter.sourceFields;for(const entry of spec.textures){const texture=textures.get(entry.selectedSource);if(!texture)throw Error('Exact authored GPU warmup texture absent');entries.push({texture,depthFlag64:spec.depthFlag64,blendMode:spec.blendMode});}}
+ const templates=createConquestParticleGpuTemplates(entries);gpuWarmup=createConquestEffectGpuWarmup({...templates,assertCurrent:record.live,disposeTemplates:templates.dispose});
+ }return gpuWarmup.warm(renderer,camera,scene);},dispose(){record.live();if(record.users.size)throw Error('Pawn render bank still owns active renderers');disposed=true;gpuWarmup?.dispose();for(const t of textures.values()){t.image.close?.();t.dispose();}textures.clear();}});banks.set(bank,record);return bank;
+}
+export function assertConquestBishopParticleRenderBank(bank,{source}={}){
+ const retained=banks.get(bank);if(!retained||retained.source!==source)throw Error('Prepared exact Bishop third effect render bank required');retained.live();return bank;
+}
+export function createConquestBishopParticleRenderer({source,nodeIndex,action,frameOwner,actor,world,scene,camera,bank}={}){
+ assertConquestBishopParticleAction(action,{source,nodeIndex,frameOwner});assertConquestBishopParticleFrame(frameOwner,{actor,world,scene});const retained=banks.get(bank),node=conquestBishopParticleSourceNode(source,nodeIndex),spec=node.emitter.sourceFields;
+ if(!retained||retained.source!==source||!camera?.isCamera)throw Error('Prepared exact Pawn render bank and actual S5 camera required');retained.live();const meshes=[],ownedResources=new Map(),cap=node.capacity;
+ for(const entry of spec.textures){const texture=retained.textures.get(entry.selectedSource);if(!texture)throw Error('Exact selected Pawn source texture absent');const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.BufferAttribute(new Float32Array(cap*18),3));geometry.setAttribute('uv',new THREE.BufferAttribute(new Float32Array(cap*12),2));geometry.setAttribute('color',new THREE.BufferAttribute(new Float32Array(cap*24),4));geometry.setDrawRange(0,0);
+  // Dedicated unlit modulation of actual sourceRGBA/UV and exact PNG pixels.
+  // GPU material/camera mapping remains an explicit S5 policy, not a native
+  // D3D renderer parity claim.
+  const material=createConquestParticleMaterial({texture,depthFlag64:spec.depthFlag64,blendMode:spec.blendMode});const mesh=new THREE.Mesh(geometry,material);mesh.name='Conquest Pawn source particle '+nodeIndex;mesh.frustumCulled=false;frameOwner.renderGroup.add(mesh);meshes.push(mesh);ownedResources.set(mesh,{geometry,material});
+ }
+ let disposed=false;const vector=new THREE.Vector3(),view=new THREE.Vector3(),forward=new THREE.Vector3();
+ function live(){if(disposed)throw Error('Pawn source particle renderer disposed');retained.live();assertConquestBishopParticleAction(action,{source,nodeIndex,frameOwner});assertConquestBishopParticleFrame(frameOwner,{actor,world,scene});if(meshes.some(mesh=>mesh.parent!==frameOwner.renderGroup||mesh.geometry!==ownedResources.get(mesh).geometry||mesh.material!==ownedResources.get(mesh).material))throw Error('Owned Pawn particle mesh detached');}
+ const renderer=Object.freeze({
+  render(drawReceipt,{instanceAlpha,frameReceipt}={}){live();const state=readConquestBishopParticleDrawState(drawReceipt,{action}),frame=assertConquestBishopParticleFrameReceipt(frameReceipt,{owner:frameOwner});if(!Number.isFinite(instanceAlpha))throw Error('Actual retained action alpha required');camera.updateWorldMatrix(true,false);camera.matrixWorldInverse.copy(camera.matrixWorld).invert();camera.getWorldDirection(forward);const counts=meshes.map(()=>0);
+   for(const particle of state.particles){const index=particle.getUint32(0xa4,true);if(index>=meshes.length)throw Error('Actual source texture index outside authored rows');const mesh=meshes[index],pos=mesh.geometry.getAttribute('position'),uv=mesh.geometry.getAttribute('uv'),color=mesh.geometry.getAttribute('color'),entry=spec.textures[index];vector.set(particle.getFloat32(0x24,true),particle.getFloat32(0x28,true),particle.getFloat32(0x2c,true));if(node.control54)vector.add(new THREE.Vector3().fromArray(frame.originNative));view.copy(vector).multiplyScalar(SCN_SCENE_SCALE).applyMatrix4(camera.matrixWorldInverse);const quad=conquestBishopParticleDrawGeometry(particle,{source,nodeIndex,numericalProfile:CONQUEST_PAWN_PARTICLE_NUMERICS,trigProfile:CONQUEST_PAWN_PARTICLE_TRIG_PROFILE,runtimeOriginNative:frame.originNative,instanceAlpha,viewCenterNative:[f(view.x/SCN_SCENE_SCALE),f(view.y/SCN_SCENE_SCALE),f(-view.z/SCN_SCENE_SCALE)],cameraVectorNative:[f(forward.x),f(forward.y),f(forward.z)]}),base=counts[index]++*6,corners=[2,0,6,6,0,4];
+    for(let i=0;i<6;i++){vector.fromArray(quad.positions,i*3).multiplyScalar(SCN_SCENE_SCALE);if(quad.coordinateSpace==='native-view'){vector.z=-vector.z;vector.applyMatrix4(camera.matrixWorld);}pos.setXYZ(base+i,vector.x,vector.y,vector.z);uv.setXY(base+i,entry.uv[corners[i]],entry.uv[corners[i]+1]);color.setXYZW(base+i,...quad.rgba);}
+   }
+   meshes.forEach((mesh,i)=>{mesh.geometry.setDrawRange(0,counts[i]*6);for(const name of ['position','uv','color'])mesh.geometry.getAttribute(name).needsUpdate=true;mesh.visible=counts[i]>0;});return Object.freeze({renderedParticles:state.particles.length,renderedVertices:state.particles.length*6,rendererReady:true,sourceGeometryQualified:true,renderPolicy:CONQUEST_BISHOP_PARTICLE_RENDER_POLICY.name,nativeCameraMappingQualified:false,nativeBlendMappingQualified:false,nativeGPUQualified:false,nativeReady:false});
+  },
+  reset(){live();for(const mesh of meshes){mesh.geometry.setDrawRange(0,0);mesh.visible=false;}},
+  snapshot(){live();return {meshes:[...meshes],rendererReady:true,nativeGPUQualified:false};},
+  dispose(){if(disposed)return;disposed=true;const errors=[];for(const mesh of meshes){const owned=ownedResources.get(mesh);if(mesh.geometry!==owned.geometry||mesh.material!==owned.material)errors.push(Error('Bishop particle render resource externally replaced'));mesh.removeFromParent();owned.geometry.dispose();owned.material.dispose();}retained.users.delete(renderer);if(errors.length)throw new AggregateError(errors,'Bishop particle render cleanup ownership changed');},
+ });retained.users.add(renderer);return renderer;
+}

@@ -1,0 +1,37 @@
+/* Authenticated S4 League UI art; layout and state bindings are S5 adaptations. */
+@font-face{font-family:S4Chaser;src:url('/assets/s5runtime/chaser/ui/2002.ttf') format('truetype');font-display:swap}
+.s4-chaser-ui{position:fixed;inset:0;z-index:8;pointer-events:none;font-family:S4Chaser,Arial,sans-serif;color:#fff;text-shadow:1px 2px 2px #000;font-variant-numeric:tabular-nums}
+.s4-chaser-ui *{box-sizing:border-box}.s4-chaser-ui [hidden]{display:none!important}
+.s4-chaser-ui .ch-score-panel{position:absolute;left:1%;top:4%;width:260px;display:grid;gap:12px}
+.s4-chaser-ui .ch-score-row{display:grid;grid-template-columns:1fr auto;padding:6px 12px;background:url('/assets/s5runtime/chaser/ui/score_green_bar.png') center/100% 100% no-repeat;min-height:58px}
+.s4-chaser-ui .ch-score-best{background-image:url('/assets/s5runtime/chaser/ui/score_gray_bar.png')}.ch-score-label{grid-column:1/-1;font-size:13px}.ch-score-name{font-size:14px;max-width:145px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ch-score-value{display:flex;align-items:center}.ch-native-digit{width:26px;height:28px;object-fit:contain}.ch-readable-number{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.s4-chaser-ui .ch-round-panel{position:absolute;top:1%;left:50%;transform:translateX(-50%);width:250px;text-align:center}.ch-eyebrow{display:block;font-size:12px}.ch-round-clock{display:flex;justify-content:center}.ch-round-clock .ch-native-digit{width:45px;height:54px}.ch-hunter{font-size:14px}.ch-hunter>span{margin-right:9px}.ch-round-panel.is-urgent{color:#ffae8b}.ch-survivors{margin-top:14px}.ch-survivor-pips{display:flex;gap:2px;justify-content:center}.ch-survivor{display:block;width:22px;height:27px;background:url('/assets/s5runtime/chaser/ui/hud-38.png') center/contain no-repeat}.ch-survivor.is-bonus{background-image:url('/assets/s5runtime/chaser/ui/hud-17.png')}.ch-survivor.is-out{opacity:.22}
+/* bs-bonus is an atlas: the animated SCN owns its UV crops, never a whole-atlas DOM background. */
+.s4-chaser-ui .ch-target{position:absolute;transform:translate(-50%,-50%);background:none;width:110px;height:110px;padding-top:82px;text-align:center}.ch-target>span{display:block;font-size:10px}.ch-target b{display:block;font-size:13px}
+.s4-chaser-ui .ch-notice{position:absolute;top:36%;left:50%;transform:translate(-50%,-50%);text-align:center;min-width:340px;padding:16px;background:url('/assets/s5runtime/chaser/ui/scoreboard_back.png') center/100% 100% no-repeat}.ch-notice strong{display:block;font-size:36px}.ch-notice-detail{display:block;font-size:13px}.ch-point-feed{position:absolute;top:180px;left:16px}.ch-point-toast{display:flex;align-items:center;margin:6px 0}.ch-point-toast b{display:flex}.ch-native-plus{width:28px;height:28px;object-fit:contain}.ch-point-label{font-size:12px}
+.s4-chaser-ui .ch-roster{position:absolute;top:24%;left:50%;transform:translateX(-50%);width:min(740px,94vw);padding:22px;background:url('/assets/s5runtime/chaser/ui/scoreboard_back.png') center/100% 100% no-repeat}.s4-chaser-ui table{width:100%;border-collapse:collapse;font-size:13px}.s4-chaser-ui th,.s4-chaser-ui td{padding:9px;text-align:right}.s4-chaser-ui th:first-child,.s4-chaser-ui td:first-child{text-align:left}.s4-chaser-ui tr.is-local{background:url('/assets/s5runtime/chaser/ui/result-local-highlight.png') center/100% 100% no-repeat;color:#baff74}
+.s4-chaser-ui .ch-results{position:absolute;inset:0;display:grid;place-items:center;pointer-events:auto;background:#0009}.ch-result-card{width:min(940px,96vw);max-height:92vh;overflow:auto;padding:30px;background:url('/assets/s5runtime/chaser/ui/result-alpha-background-0.png') center/100% 100% no-repeat}.ch-result-card h2{font-size:26px}.ch-result-total{font-size:36px;color:#baff74}.ch-result-breakdown{padding:12px 0;font-size:13px}.ch-replay{font:inherit;color:#fff;min-height:42px;padding:8px 26px;border:0;background:url('/assets/s5runtime/ui/escape-button.png') center/100% 100% no-repeat;cursor:pointer}.ch-replay:hover{background-image:url('/assets/s5runtime/ui/escape-button_hover_blue.png')}
+
+/* Override the historical #match-ui system-font rule without changing shared CSS. */
+#match-ui.s4-chaser-ui{font-family:S4Chaser,Arial,sans-serif}
+
+/* Source-native board columns and exact pixel crops; FFA placement remains an adaptation. */
+.s4-chaser-ui .s4-source-board-host{max-width:100%;overflow:auto}
+.s4-chaser-ui .s4-source-board{position:relative;width:512px;min-height:55px;color:#e0e0e0;font:12px S4Chaser,Arial,sans-serif;background:url('/assets/s5runtime/chaser/ui/roster-15.png') 0 30px/512px 150px no-repeat,url('/assets/s5runtime/chaser/ui/roster-14.png') 0 180px/512px 150px no-repeat}
+.s4-chaser-ui .s4-source-board.s4-board-result{min-height:230px;background:url('/assets/s5runtime/chaser/ui/result-alpha-background-0.png') 0 0/512px 180px no-repeat,url('/assets/s5runtime/chaser/ui/result-alpha-background-1.png') 0 180px/512px 50px no-repeat}
+.s4-chaser-ui .s4-source-table{display:block;width:512px;border-collapse:collapse;text-shadow:none}
+.s4-chaser-ui .s4-source-table thead,.s4-chaser-ui .s4-source-table tbody{display:block}
+.s4-chaser-ui .s4-source-table tr{position:relative;display:block;height:25px}
+.s4-chaser-ui .s4-source-table thead tr{height:30px;background:url('/assets/s5runtime/chaser/ui/score_gray_bar.png') left top/511px 30px no-repeat}
+.s4-chaser-ui .s4-source-table th,.s4-chaser-ui .s4-source-table td{position:absolute;display:flex;align-items:center;justify-content:center;top:0;bottom:0;box-sizing:border-box;padding:0;border:0;font:12px S4Chaser,Arial,sans-serif;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.s4-chaser-ui .s4-source-table th{color:#c0c0c0}
+.s4-chaser-ui .s4-source-table td[data-field=name],.s4-chaser-ui .s4-source-table th[data-field=name]{justify-content:flex-start;padding-left:2px}
+.s4-chaser-ui .s4-source-table tr[data-local=true]{background:url('/assets/s5runtime/chaser/ui/result-local-highlight.png') left center/512px 25px no-repeat;color:#ffff00}
+.s4-chaser-ui .s4-source-table tr[data-alive=false]{opacity:.55}
+.s4-chaser-ui .s4-board-details{font:12px S4Chaser,Arial,sans-serif;text-align:left;color:#e0e0e0;padding:8px 0}
+.s4-chaser-ui .s4-board-details p{font:inherit;white-space:normal}
+.s4-chaser-ui .s4-board-details summary{cursor:pointer}
+
+/* The 512px source roster scrolls on narrow screens. Unlike play readouts,
+   its host must receive pointer input rather than inherit the HUD's none. */
+.s4-chaser-ui .ch-result-card,.s4-chaser-ui .ch-roster{background:none}.s4-chaser-ui .ch-result-table{max-width:100%;overflow:auto}.s4-chaser-ui .ch-roster{width:min(560px,94vw);pointer-events:auto}

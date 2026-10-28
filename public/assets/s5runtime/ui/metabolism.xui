@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<panel name="metabolism">
+	<anchor value="true" />
+	<elements>
+		<panel name="neo">
+			<anchor left="true" right="left" />
+			<rect top="1776" bottom="{ 1776 + 216 }" />
+			<margin left="246" right="-{ 246 + 983 }" />
+			<elements>
+				<panel name="skill">
+					<rect left="62" top="46" right="{ 62 + 128 }" bottom="{ 46 + 128 }" />
+					<states>
+						<normal>
+							<reference path="sprites/common/skills/passive5.dds" filter="box" />
+						</normal>
+					</states>
+				</panel>
+				<panel name="text">
+					<active value="true" />
+					<rect left="239" top="15" right="{ 239 + 92 }" bottom="{ 15 + 88 }" />
+					<elements>
+						<label name="current">
+							<rect right="92" />
+							<margin top="2" />
+							<anchor left="true" top="true" bottom="true" />
+							<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="41" />
+							<transform uppercase="true" />
+							<align horizontal="right" vertical="center" />
+							<text>
+								<english value="{}" />
+							</text>
+							<path trigger="manual">
+								<keyframe time="0.00">
+									<opacity value="0.00" />
+								</keyframe>
+								<keyframe time="0.20">
+									<opacity value="1.00" animation="linear" />
+								</keyframe>
+							</path>
+							<states>
+								<normal>
+									<color>
+										<tl value="rgb(217, 224, 234)" />
+										<tr value="rgb(217, 224, 234)" />
+										<bl value="rgb(171, 185, 209)" />
+										<br value="rgb(171, 185, 209)" />
+									</color>
+									<glow>
+										<color value="rgba(0, 0, 0, 204)" />
+										<radius value="4" />
+									</glow>
+								</normal>
+							</states>
+						</label>
+						<label name="separator">
+							<rect left="100" />
+							<anchor top="true" right="true" bottom="true" />
+							<margin top="7" />
+							<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="35" />
+							<transform uppercase="true" />
+							<align horizontal="left" vertical="center" />
+							<text>
+								<english value="/" />
+							</text>
+							<states>
+								<normal>
+									<color>
+										<tl value="rgba(217, 224, 234, 153)" />
+										<tr value="rgba(217, 224, 234, 153)" />
+										<bl value="rgba(171, 185, 209, 153)" />
+										<br value="rgba(171, 185, 209, 153)" />
+									</color>
+									<glow>
+										<color value="rgba(0, 0, 0, 204)" />
+										<radius value="4" />
+									</glow>
+								</normal>
+							</states>
+						</label>
+						<label name="reserve">
+							<rect left="131.5" />
+							<anchor top="true" right="true" bottom="true" />
+							<margin top="7" />
+							<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="35" />
+							<transform uppercase="true" />
+							<align horizontal="left" vertical="center" />
+							<text>
+								<english value="{}" />
+							</text>
+							<states>
+								<normal>
+									<color>
+										<tl value="rgba(217, 224, 234, 153)" />
+										<tr value="rgba(217, 224, 234, 153)" />
+										<bl value="rgba(171, 185, 209, 153)" />
+										<br value="rgba(171, 185, 209, 153)" />
+									</color>
+									<glow>
+										<color value="rgba(0, 0, 0, 204)" />
+										<radius value="4" />
+									</glow>
+								</normal>
+							</states>
+						</label>
+					</elements>
+				</panel>
+				<panel name="health">
+					<rect left="216" top="116.5" right="{ 216 + 749 }" bottom="{ 116.5 + 47 }" />
+					<elements>
+						<panel name="background">
+							<anchor value="true" />
+						</panel>
+						<panel name="fill">
+							<anchor value="true" />
+						</panel>
+					</elements>
+				</panel>
+				<panel name="stamina">
+					<rect left="194" top="171" right="{ 194 + 738 }" bottom="{ 171 + 28 }" />
+					<elements>
+						<panel name="background">
+							<anchor value="true" />
+							<elements>
+								<panel name="left">
+									<anchor left="true" top="true" bottom="true" />
+									<rect right="21" />
+									<states>
+										<normal>
+											<reference path="sprites/ingame/hud/bg_stamina_left.dds" />
+											<color value="rgba(255, 255, 255, 14)" />
+										</normal>
+									</states>
+								</panel>
+								<panel name="middle">
+									<anchor value="true" />
+									<margin left="21" right="21" />
+									<states>
+										<normal>
+											<reference path="sprites/ingame/hud/bg_stamina_mid.dds" />
+											<color value="rgba(255, 255, 255, 14)" />
+										</normal>
+									</states>
+								</panel>
+								<panel name="right">
+									<anchor left="right" top="true" right="true" bottom="true" />
+									<margin left="-21" />
+									<states>
+										<normal>
+											<reference path="sprites/ingame/hud/bg_stamina_right.dds" />
+											<color value="rgba(255, 255, 255, 14)" />
+										</normal>
+									</states>
+								</panel>
+							</elements>
+						</panel>
+						<panel name="fill">
+							<anchor value="true" />
+							<clip_region>
+								<rect right="738" bottom="28" />
+								<states>
+									<normal>
+										<reference path="sprites/ingame/hud/stamina_model.dds" />
+									</normal>
+								</states>
+							</clip_region>
+							<elements>
+								<panel name="left">
+									<anchor left="true" top="true" bottom="true" />
+									<rect right="21" />
+									<states>
+										<normal>
+											<reference path="sprites/ingame/hud/stamina_left.dds" />
+										</normal>
+									</states>
+								</panel>
+								<panel name="middle">
+									<anchor value="true" />
+									<margin left="21" right="21" />
+									<states>
+										<normal>
+											<reference path="sprites/ingame/hud/stamina_mid.dds" />
+										</normal>
+									</states>
+								</panel>
+								<panel name="right">
+									<anchor left="right" top="true" right="true" bottom="true" />
+									<margin left="-21" />
+									<states>
+										<normal>
+											<reference path="sprites/ingame/hud/stamina_right.dds" />
+										</normal>
+									</states>
+								</panel>
+							</elements>
+						</panel>
+					</elements>
+				</panel>
+			</elements>
+			<states>
+				<normal>
+					<reference path="sprites/ingame/hud/lowleft_bg.dds" />
+				</normal>
+			</states>
+		</panel>
+		<panel name="legacy">
+			<anchor value="true" />
+			<elements>
+				<panel name="skill">
+					<anchor left="true" right="left" />
+					<rect top="1778" bottom="{ 1778 + 216 }" />
+					<margin left="246" right="-{ 246 + 243 }" />
+					<elements>
+						<panel name="image">
+							<rect left="62" top="46" right="{ 62 + 128 }" bottom="{ 46 + 128 }" />
+							<states>
+								<normal>
+									<reference path="sprites/common/skills/passive5.dds" filter="box" />
+								</normal>
+							</states>
+						</panel>
+					</elements>
+					<states>
+						<normal>
+							<reference path="sprites/ingame/hud/legacy/skill_bg.dds" />
+						</normal>
+					</states>
+				</panel>
+				<panel name="health_stamina">
+					<placement value="absolute" />
+					<rect left="802" top="1820" right="{ 802 + 1276 }" bottom="{ 1820 + 267 }" />
+					<elements>
+						<panel name="health">
+							<rect left="16" top="66" right="{ 16 + 1244 }" bottom="{ 66 + 97 }" />
+							<elements>
+								<panel name="fill">
+									<clip_region>
+										<rect left="0" right="1244" />
+										<anchor top="true" bottom="true" />
+									</clip_region>
+									<anchor value="true" />
+									<states>
+										<normal>
+											<reference path="sprites/ingame/hud/legacy/health.dds" filter="box" />
+										</normal>
+									</states>
+								</panel>
+							</elements>
+							<states>
+								<normal>
+									<reference path="sprites/ingame/hud/legacy/health_bg.dds" filter="box" />
+								</normal>
+							</states>
+						</panel>
+						<panel name="stamina">
+							<rect left="79" top="13" right="{ 79 + 1118 }" bottom="{ 13 + 103 }" />
+							<elements>
+								<panel name="fill">
+									<clip_region>
+										<rect left="0" right="1244" />
+										<anchor top="true" bottom="true" />
+									</clip_region>
+									<anchor value="true" />
+									<states>
+										<normal>
+											<reference path="sprites/ingame/hud/legacy/stamina.dds" filter="box" />
+										</normal>
+									</states>
+								</panel>
+							</elements>
+							<states>
+								<normal>
+									<reference path="sprites/ingame/hud/legacy/stamina_bg.dds" filter="box" />
+								</normal>
+							</states>
+						</panel>
+					</elements>
+					<states>
+						<normal>
+							<reference path="sprites/ingame/hud/legacy/bg.dds" />
+						</normal>
+					</states>
+				</panel>
+				<panel name="text">
+					<rect left="1330" top="1957" right="{ 1330 + 518 }" bottom="{ 1957 + 60 }" />
+					<placement value="absolute" />
+					<elements>
+						<label name="current">
+							<rect right="92" />
+							<anchor left="true" top="true" bottom="true" />
+							<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="41" />
+							<transform uppercase="true" />
+							<align horizontal="right" vertical="center" />
+							<text>
+								<english value="{}" />
+							</text>
+							<path trigger="manual">
+								<keyframe time="0.00">
+									<opacity value="0.00" />
+								</keyframe>
+								<keyframe time="0.20">
+									<opacity value="1.00" animation="linear" />
+								</keyframe>
+							</path>
+							<states>
+								<normal>
+									<color>
+										<tl value="rgb(217, 224, 234)" />
+										<tr value="rgb(217, 224, 234)" />
+										<bl value="rgb(171, 185, 209)" />
+										<br value="rgb(171, 185, 209)" />
+									</color>
+									<glow>
+										<color value="rgba(0, 0, 0, 204)" />
+										<radius value="4" />
+									</glow>
+								</normal>
+							</states>
+						</label>
+						<label name="separator">
+							<rect left="100" />
+							<anchor top="true" right="true" bottom="true" />
+							<margin top="5" />
+							<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="35" />
+							<transform uppercase="true" />
+							<align horizontal="left" vertical="center" />
+							<text>
+								<english value="/" />
+							</text>
+							<states>
+								<normal>
+									<color>
+										<tl value="rgba(217, 224, 234, 153)" />
+										<tr value="rgba(217, 224, 234, 153)" />
+										<bl value="rgba(171, 185, 209, 153)" />
+										<br value="rgba(171, 185, 209, 153)" />
+									</color>
+									<glow>
+										<color value="rgba(0, 0, 0, 204)" />
+										<radius value="4" />
+									</glow>
+								</normal>
+							</states>
+						</label>
+						<label name="reserve">
+							<rect left="131.5" />
+							<anchor top="true" right="true" bottom="true" />
+							<margin top="5" />
+							<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="35" />
+							<transform uppercase="true" />
+							<align horizontal="left" vertical="center" />
+							<text>
+								<english value="{}" />
+							</text>
+							<states>
+								<normal>
+									<color>
+										<tl value="rgba(217, 224, 234, 153)" />
+										<tr value="rgba(217, 224, 234, 153)" />
+										<bl value="rgba(171, 185, 209, 153)" />
+										<br value="rgba(171, 185, 209, 153)" />
+									</color>
+									<glow>
+										<color value="rgba(0, 0, 0, 204)" />
+										<radius value="4" />
+									</glow>
+								</normal>
+							</states>
+						</label>
+					</elements>
+				</panel>
+			</elements>
+		</panel>
+	</elements>
+	<states>
+		<normal>
+			<opacity value="1.00" transition="0.20" />
+		</normal>
+		<dormant>
+			<opacity value="0.00" transition="0.20" />
+		</dormant>
+	</states>
+</panel>

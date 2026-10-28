@@ -1,0 +1,5336 @@
+{
+  "format": "s5-sequence-inspection-v1",
+  "source": "effects/pve_mon_buf_eff01.seq",
+  "sha256": "f642f69b7937eeb1ccbb7d6caf52a9f145efad499b7ecf9eb87ca750d9644f7f",
+  "byteLength": 4058,
+  "header": {
+    "versionField": 0.10000000149011612,
+    "name": {
+      "value": "",
+      "rawHex": ""
+    },
+    "byteField": 1,
+    "durationField": 1600,
+    "nodeCount": 9,
+    "byteRange": {
+      "start": 0,
+      "end": 14
+    }
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 14,
+        "end": 407,
+        "length": 393
+      },
+      "sha256": "877e2358919b2a3eefe50f0a8da0f87fc04321d5e3ef9d716592adc45058fef2",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res1_nomipmap.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c656e656d795f726573315f6e6f6d69706d61702e646473",
+          "resourcePath": "effects/enemy_res1_nomipmap.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 31,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 35,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 40,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 44,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 56,
+              "rawHex": "03000000",
+              "int32": 3,
+              "float32": 4.203895392974451e-45
+            },
+            {
+              "offset": 60,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 64,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 68,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 72,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 76,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 80,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 84,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 88,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 92,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 96,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 100,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": false,
+          "field58": {
+            "offset": 105,
+            "rawHex": "18000000",
+            "int32": 24,
+            "float32": 3.363116314379561e-44
+          },
+          "flag5c": true,
+          "field60": {
+            "offset": 110,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 115,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 119,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 127,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 137,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 146,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 151,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 155,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 159,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 163,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 167,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 171,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 175,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 179,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 183,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 187,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 191,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 195,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 199,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 203,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 207,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 211,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 215,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 219,
+                  "rawHex": "b0040000",
+                  "int32": 1200,
+                  "float32": 1.6815581571897805e-42
+                },
+                {
+                  "offset": 223,
+                  "rawHex": "0a000000",
+                  "int32": 10,
+                  "float32": 1.401298464324817e-44
+                },
+                {
+                  "offset": 227,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 239,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 243,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 247,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 251,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 255,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 259,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 263,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 267,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 271,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 275,
+                "rawHex": "00009642",
+                "int32": 1117126656,
+                "float32": 75
+              },
+              {
+                "offset": 279,
+                "rawHex": "00009642",
+                "int32": 1117126656,
+                "float32": 75
+              },
+              {
+                "offset": 283,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 287,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 291,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 295,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 299,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res1_nomipmap.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c656e656d795f726573315f6e6f6d69706d61702e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 375,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 379,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 383,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 387,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 391,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 395,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 399,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 403,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 1,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 407,
+        "end": 817,
+        "length": 410
+      },
+      "sha256": "a2a2a7802405ba9efc7d306658e2a4383cf67b2aa5c8ed98ce9a9b9c37708027",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\hexa.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c686578612e646473",
+          "resourcePath": "effects/hexa.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 424,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 428,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 433,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 437,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 449,
+              "rawHex": "03000000",
+              "int32": 3,
+              "float32": 4.203895392974451e-45
+            },
+            {
+              "offset": 453,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 457,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 461,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 465,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 469,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 473,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 477,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 481,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 485,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 489,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 493,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 498,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "flag5c": true,
+          "field60": {
+            "offset": 503,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 508,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 512,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 520,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 530,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 539,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 544,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 548,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 552,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 556,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 560,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 564,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 568,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 572,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 576,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 580,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 584,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 588,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 592,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 596,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 600,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 604,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 608,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 612,
+                  "rawHex": "40060000",
+                  "int32": 1600,
+                  "float32": 2.2420775429197073e-42
+                },
+                {
+                  "offset": 616,
+                  "rawHex": "0a000000",
+                  "int32": 10,
+                  "float32": 1.401298464324817e-44
+                },
+                {
+                  "offset": 620,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 3,
+          "entries": [
+            [
+              {
+                "offset": 632,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 636,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 640,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 644,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 648,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 652,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 656,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 660,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 664,
+                "rawHex": "3333333f",
+                "int32": 1060320051,
+                "float32": 0.699999988079071
+              },
+              {
+                "offset": 668,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 672,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 676,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 680,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 684,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 688,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 692,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 696,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 700,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 704,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 708,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 712,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 716,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 720,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 724,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\hexa.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c686578612e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 785,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 789,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 793,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 797,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 801,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 805,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 809,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 813,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 2,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 817,
+        "end": 1318,
+        "length": 501
+      },
+      "sha256": "941e6180fb95440e61ff49279b64f0fc2b85b5f241289ce7a3f3b7a683973677",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c77617665322e646473",
+          "resourcePath": "effects/wave2.dds",
+          "extension": "dds",
+          "kind": "texture"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\p_warm_blend2.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c705f7761726d5f626c656e64322e646473",
+          "resourcePath": "effects/p_warm_blend2.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 834,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 838,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 843,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 847,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 859,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 863,
+              "rawHex": "03000000",
+              "int32": 3,
+              "float32": 4.203895392974451e-45
+            },
+            {
+              "offset": 867,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 871,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 875,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 879,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 883,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 887,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 891,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 895,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 899,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 903,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 908,
+            "rawHex": "02000000",
+            "int32": 2,
+            "float32": 2.802596928649634e-45
+          },
+          "flag5c": true,
+          "field60": {
+            "offset": 913,
+            "rawHex": "32000000",
+            "int32": 50,
+            "float32": 7.006492321624085e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 918,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 922,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 930,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 940,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 949,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 954,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 958,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 962,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 966,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 970,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 974,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 978,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 982,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 986,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 990,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 994,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 998,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1002,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1006,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1010,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1014,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1018,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1022,
+                  "rawHex": "f4010000",
+                  "int32": 500,
+                  "float32": 7.006492321624085e-43
+                },
+                {
+                  "offset": 1026,
+                  "rawHex": "19000000",
+                  "int32": 25,
+                  "float32": 3.5032461608120427e-44
+                },
+                {
+                  "offset": 1030,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 3,
+          "entries": [
+            [
+              {
+                "offset": 1042,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1046,
+                "rawHex": "00002042",
+                "int32": 1109393408,
+                "float32": 40
+              },
+              {
+                "offset": 1050,
+                "rawHex": "00002042",
+                "int32": 1109393408,
+                "float32": 40
+              },
+              {
+                "offset": 1054,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1058,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1062,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1066,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1070,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1074,
+                "rawHex": "0000003f",
+                "int32": 1056964608,
+                "float32": 0.5
+              },
+              {
+                "offset": 1078,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 1082,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 1086,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1090,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1094,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1098,
+                "rawHex": "9a99993e",
+                "int32": 1050253722,
+                "float32": 0.30000001192092896
+              },
+              {
+                "offset": 1102,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1106,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1110,
+                "rawHex": "0000b442",
+                "int32": 1119092736,
+                "float32": 90
+              },
+              {
+                "offset": 1114,
+                "rawHex": "0000b442",
+                "int32": 1119092736,
+                "float32": 90
+              },
+              {
+                "offset": 1118,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1122,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1126,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1130,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1134,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 2,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c77617665322e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 1196,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1200,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1204,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1208,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1212,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1216,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1220,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1224,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            },
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\p_warm_blend2.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c705f7761726d5f626c656e64322e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 1286,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1290,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1294,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1298,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1302,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1306,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1310,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1314,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 3,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 1318,
+        "end": 1760,
+        "length": 442
+      },
+      "sha256": "b46dbf4f2b9a15358efcadc5d7e7186dead94eb5515a9bbd8b689ace71ef9313",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\hexa.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c686578612e646473",
+          "resourcePath": "effects/hexa.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 1335,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 1339,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 1344,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 1348,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 1360,
+              "rawHex": "03000000",
+              "int32": 3,
+              "float32": 4.203895392974451e-45
+            },
+            {
+              "offset": 1364,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1368,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 1372,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1376,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1380,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1384,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1388,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1392,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1396,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1400,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1404,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 1409,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "flag5c": true,
+          "field60": {
+            "offset": 1414,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 1419,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 1423,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 1431,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 1441,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 1450,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 1455,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1459,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1463,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1467,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1471,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1475,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1479,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 1483,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1487,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1491,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1495,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1499,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1503,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1507,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1511,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1515,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1519,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1523,
+                  "rawHex": "40060000",
+                  "int32": 1600,
+                  "float32": 2.2420775429197073e-42
+                },
+                {
+                  "offset": 1527,
+                  "rawHex": "0a000000",
+                  "int32": 10,
+                  "float32": 1.401298464324817e-44
+                },
+                {
+                  "offset": 1531,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 4,
+          "entries": [
+            [
+              {
+                "offset": 1543,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1547,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1551,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1555,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1559,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 1563,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1567,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1571,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1575,
+                "rawHex": "9a99193f",
+                "int32": 1058642330,
+                "float32": 0.6000000238418579
+              },
+              {
+                "offset": 1579,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 1583,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 1587,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1591,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1595,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1599,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1603,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1607,
+                "rawHex": "6666263f",
+                "int32": 1059481190,
+                "float32": 0.6499999761581421
+              },
+              {
+                "offset": 1611,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 1615,
+                "rawHex": "00008c42",
+                "int32": 1116471296,
+                "float32": 70
+              },
+              {
+                "offset": 1619,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1623,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1627,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1631,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1635,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 1639,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1643,
+                "rawHex": "0000c842",
+                "int32": 1120403456,
+                "float32": 100
+              },
+              {
+                "offset": 1647,
+                "rawHex": "0000c842",
+                "int32": 1120403456,
+                "float32": 100
+              },
+              {
+                "offset": 1651,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1655,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1659,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 1663,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1667,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\hexa.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c686578612e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 1728,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1732,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1736,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1740,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1744,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1748,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1752,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1756,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 4,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 1760,
+        "end": 2170,
+        "length": 410
+      },
+      "sha256": "51071144bee937ff2a5ad80e3e5afb76d2d44718a32c9e834c8e3ffbca408d35",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\kata.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6b6174612e646473",
+          "resourcePath": "effects/kata.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 1777,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 1781,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 1786,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 1790,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 1802,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 1806,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1810,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 1814,
+              "rawHex": "20030000",
+              "int32": 800,
+              "float32": 1.1210387714598537e-42
+            },
+            {
+              "offset": 1818,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1822,
+              "rawHex": "00008c42",
+              "int32": 1116471296,
+              "float32": 70
+            },
+            {
+              "offset": 1826,
+              "rawHex": "00002041",
+              "int32": 1092616192,
+              "float32": 10
+            },
+            {
+              "offset": 1830,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1834,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1838,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 1842,
+              "rawHex": "0000c842",
+              "int32": 1120403456,
+              "float32": 100
+            },
+            {
+              "offset": 1846,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 1851,
+            "rawHex": "0f000000",
+            "int32": 15,
+            "float32": 2.1019476964872256e-44
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 1856,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 1861,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 1865,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 1873,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 1883,
+            "rawHex": "40060000",
+            "int32": 1600,
+            "float32": 2.2420775429197073e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 1892,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 1897,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1901,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1905,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1909,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1913,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 1917,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1921,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1925,
+                  "rawHex": "0000a041",
+                  "int32": 1101004800,
+                  "float32": 20
+                },
+                {
+                  "offset": 1929,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1933,
+                  "rawHex": "00008c42",
+                  "int32": 1116471296,
+                  "float32": 70
+                },
+                {
+                  "offset": 1937,
+                  "rawHex": "00009642",
+                  "int32": 1117126656,
+                  "float32": 75
+                },
+                {
+                  "offset": 1941,
+                  "rawHex": "00004842",
+                  "int32": 1112014848,
+                  "float32": 50
+                },
+                {
+                  "offset": 1945,
+                  "rawHex": "00004842",
+                  "int32": 1112014848,
+                  "float32": 50
+                },
+                {
+                  "offset": 1949,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1953,
+                  "rawHex": "00009643",
+                  "int32": 1133903872,
+                  "float32": 300
+                },
+                {
+                  "offset": 1957,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1961,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 1965,
+                  "rawHex": "b0040000",
+                  "int32": 1200,
+                  "float32": 1.6815581571897805e-42
+                },
+                {
+                  "offset": 1969,
+                  "rawHex": "32000000",
+                  "int32": 50,
+                  "float32": 7.006492321624085e-44
+                },
+                {
+                  "offset": 1973,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 3,
+          "entries": [
+            [
+              {
+                "offset": 1985,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 1989,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 1993,
+                "rawHex": "00005041",
+                "int32": 1095761920,
+                "float32": 13
+              },
+              {
+                "offset": 1997,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2001,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 2005,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 2009,
+                "rawHex": "cdcccc3d",
+                "int32": 1036831949,
+                "float32": 0.10000000149011612
+              },
+              {
+                "offset": 2013,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2017,
+                "rawHex": "0000003f",
+                "int32": 1056964608,
+                "float32": 0.5
+              },
+              {
+                "offset": 2021,
+                "rawHex": "00009041",
+                "int32": 1099956224,
+                "float32": 18
+              },
+              {
+                "offset": 2025,
+                "rawHex": "00004843",
+                "int32": 1128792064,
+                "float32": 200
+              },
+              {
+                "offset": 2029,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2033,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2037,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2041,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2045,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2049,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2053,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2057,
+                "rawHex": "00009643",
+                "int32": 1133903872,
+                "float32": 300
+              },
+              {
+                "offset": 2061,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2065,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2069,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2073,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2077,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\kata.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6b6174612e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 2138,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2142,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2146,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2150,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2154,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2158,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2162,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2166,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 5,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 2170,
+        "end": 2562,
+        "length": 392
+      },
+      "sha256": "22afdc56573f277b10d7cde0ee55a719f4f7dac105a07fb6fa90464aae070165",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473",
+          "resourcePath": "effects/pve_monster_shield.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 2187,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 2191,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 2196,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          },
+          "endTimeField": {
+            "offset": 2200,
+            "rawHex": "58020000",
+            "int32": 600,
+            "float32": 8.407790785948902e-43
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 2212,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2216,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2220,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2224,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2228,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2232,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2236,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2240,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2244,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2248,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2252,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2256,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 2261,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 2266,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 2271,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 2275,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 2283,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 2293,
+            "rawHex": "64000000",
+            "int32": 100,
+            "float32": 1.401298464324817e-43
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 2302,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 2307,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2311,
+                  "rawHex": "00004842",
+                  "int32": 1112014848,
+                  "float32": 50
+                },
+                {
+                  "offset": 2315,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2319,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2323,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2327,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2331,
+                  "rawHex": "00003443",
+                  "int32": 1127481344,
+                  "float32": 180
+                },
+                {
+                  "offset": 2335,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2339,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2343,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2347,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2351,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2355,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2359,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2363,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2367,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2371,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2375,
+                  "rawHex": "84030000",
+                  "int32": 900,
+                  "float32": 1.2611686178923354e-42
+                },
+                {
+                  "offset": 2379,
+                  "rawHex": "4b000000",
+                  "int32": 75,
+                  "float32": 1.0509738482436128e-43
+                },
+                {
+                  "offset": 2383,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 2,
+          "entries": [
+            [
+              {
+                "offset": 2395,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2399,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2403,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2407,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2411,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2415,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2419,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2423,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2427,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2431,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2435,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2439,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 2443,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2447,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2451,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2455,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 2530,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2534,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2538,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2542,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2546,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2550,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2554,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2558,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 6,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 2562,
+        "end": 3018,
+        "length": 456
+      },
+      "sha256": "7c4672594690b1eb9995c548e0f41071444f443464cf838380fb5e0f71a074b8",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473",
+          "resourcePath": "effects/pve_monster_shield.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 2579,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 2583,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 2588,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          },
+          "endTimeField": {
+            "offset": 2592,
+            "rawHex": "78050000",
+            "int32": 1400,
+            "float32": 1.961817850054744e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 2604,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2608,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2612,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 2616,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2620,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2624,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2628,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2632,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2636,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2640,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2644,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 2648,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 2653,
+            "rawHex": "0a000000",
+            "int32": 10,
+            "float32": 1.401298464324817e-44
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 2658,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 2663,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 2667,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 2675,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 2685,
+            "rawHex": "84030000",
+            "int32": 900,
+            "float32": 1.2611686178923354e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 2694,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 2699,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2703,
+                  "rawHex": "00004842",
+                  "int32": 1112014848,
+                  "float32": 50
+                },
+                {
+                  "offset": 2707,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2711,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2715,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 2719,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2723,
+                  "rawHex": "00003443",
+                  "int32": 1127481344,
+                  "float32": 180
+                },
+                {
+                  "offset": 2727,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2731,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2735,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2739,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2743,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2747,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2751,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2755,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2759,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2763,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2767,
+                  "rawHex": "e8030000",
+                  "int32": 1000,
+                  "float32": 1.401298464324817e-42
+                },
+                {
+                  "offset": 2771,
+                  "rawHex": "4b000000",
+                  "int32": 75,
+                  "float32": 1.0509738482436128e-43
+                },
+                {
+                  "offset": 2775,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 4,
+          "entries": [
+            [
+              {
+                "offset": 2787,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2791,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2795,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2799,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2803,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2807,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2811,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2815,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2819,
+                "rawHex": "398ee33e",
+                "int32": 1055100473,
+                "float32": 0.4444444477558136
+              },
+              {
+                "offset": 2823,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2827,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2831,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2835,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2839,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2843,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2847,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2851,
+                "rawHex": "e4380e3f",
+                "int32": 1057896676,
+                "float32": 0.5555555820465088
+              },
+              {
+                "offset": 2855,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2859,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 2863,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2867,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2871,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2875,
+                "rawHex": "cdcc4c3e",
+                "int32": 1045220557,
+                "float32": 0.20000000298023224
+              },
+              {
+                "offset": 2879,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 2883,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2887,
+                "rawHex": "00004842",
+                "int32": 1112014848,
+                "float32": 50
+              },
+              {
+                "offset": 2891,
+                "rawHex": "00004842",
+                "int32": 1112014848,
+                "float32": 50
+              },
+              {
+                "offset": 2895,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2899,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 2903,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 2907,
+                "rawHex": "9a99993e",
+                "int32": 1050253722,
+                "float32": 0.30000001192092896
+              },
+              {
+                "offset": 2911,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 2986,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2990,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2994,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 2998,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3002,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3006,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3010,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3014,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 7,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 3018,
+        "end": 3506,
+        "length": 488
+      },
+      "sha256": "afc6e4aa5e7534375c83b22d60dd385cfdc9df3cc4a6537a7e7833421c1b8bce",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473",
+          "resourcePath": "effects/pve_monster_shield.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 3035,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 3039,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 3044,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          },
+          "endTimeField": {
+            "offset": 3048,
+            "rawHex": "e8030000",
+            "int32": 1000,
+            "float32": 1.401298464324817e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 3060,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3064,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3068,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 3072,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3076,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3080,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3084,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3088,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3092,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3096,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3100,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3104,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 3109,
+            "rawHex": "02000000",
+            "int32": 2,
+            "float32": 2.802596928649634e-45
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 3114,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 3119,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 3123,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 3131,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 3141,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 3150,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": false,
+              "words14to60": [
+                {
+                  "offset": 3155,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3159,
+                  "rawHex": "00004842",
+                  "int32": 1112014848,
+                  "float32": 50
+                },
+                {
+                  "offset": 3163,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3167,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3171,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3175,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3179,
+                  "rawHex": "00003443",
+                  "int32": 1127481344,
+                  "float32": 180
+                },
+                {
+                  "offset": 3183,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3187,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3191,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3195,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3199,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3203,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3207,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3211,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3215,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3219,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3223,
+                  "rawHex": "20030000",
+                  "int32": 800,
+                  "float32": 1.1210387714598537e-42
+                },
+                {
+                  "offset": 3227,
+                  "rawHex": "4b000000",
+                  "int32": 75,
+                  "float32": 1.0509738482436128e-43
+                },
+                {
+                  "offset": 3231,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 5,
+          "entries": [
+            [
+              {
+                "offset": 3243,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3247,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3251,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3255,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3259,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3263,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3267,
+                "rawHex": "cdcccc3d",
+                "int32": 1036831949,
+                "float32": 0.10000000149011612
+              },
+              {
+                "offset": 3271,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3275,
+                "rawHex": "cdcc4c3e",
+                "int32": 1045220557,
+                "float32": 0.20000000298023224
+              },
+              {
+                "offset": 3279,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3283,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3287,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3291,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3295,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3299,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3303,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3307,
+                "rawHex": "cdcccc3e",
+                "int32": 1053609165,
+                "float32": 0.4000000059604645
+              },
+              {
+                "offset": 3311,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3315,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3319,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3323,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3327,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3331,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3335,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3339,
+                "rawHex": "9a99193f",
+                "int32": 1058642330,
+                "float32": 0.6000000238418579
+              },
+              {
+                "offset": 3343,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3347,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3351,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3355,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3359,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3363,
+                "rawHex": "cdcccc3d",
+                "int32": 1036831949,
+                "float32": 0.10000000149011612
+              },
+              {
+                "offset": 3367,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3371,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3375,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3379,
+                "rawHex": "0000f041",
+                "int32": 1106247680,
+                "float32": 30
+              },
+              {
+                "offset": 3383,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 3387,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3391,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3395,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3399,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 3474,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3478,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3482,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3486,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3490,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3494,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3498,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3502,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 8,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 3506,
+        "end": 4058,
+        "length": 552
+      },
+      "sha256": "f7505032ea855b4b8e34628eae00f1846147c9a68f57f97df7dd601a69231d20",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473",
+          "resourcePath": "effects/pve_monster_shield.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 3523,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 3527,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 3532,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "endTimeField": {
+            "offset": 3536,
+            "rawHex": "4c040000",
+            "int32": 1100,
+            "float32": 1.5414283107572988e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 3548,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3552,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3556,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 3560,
+              "rawHex": "c8000000",
+              "int32": 200,
+              "float32": 2.802596928649634e-43
+            },
+            {
+              "offset": 3564,
+              "rawHex": "00001643",
+              "int32": 1125515264,
+              "float32": 150
+            },
+            {
+              "offset": 3568,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3572,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3576,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3580,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3584,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3588,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 3592,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 3597,
+            "rawHex": "0a000000",
+            "int32": 10,
+            "float32": 1.401298464324817e-44
+          },
+          "flag5c": false,
+          "field60": {
+            "offset": 3602,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 3607,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "versioned": {
+            "field30": {
+              "offset": 3611,
+              "rawHex": "0000a040",
+              "int32": 1084227584,
+              "float32": 5
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 3619,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 3629,
+            "rawHex": "84030000",
+            "int32": 900,
+            "float32": 1.2611686178923354e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 3638,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 3643,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3647,
+                  "rawHex": "00007a43",
+                  "int32": 1132068864,
+                  "float32": 250
+                },
+                {
+                  "offset": 3651,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3655,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3659,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 3663,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3667,
+                  "rawHex": "00003443",
+                  "int32": 1127481344,
+                  "float32": 180
+                },
+                {
+                  "offset": 3671,
+                  "rawHex": "00002041",
+                  "int32": 1092616192,
+                  "float32": 10
+                },
+                {
+                  "offset": 3675,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3679,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3683,
+                  "rawHex": "0000f042",
+                  "int32": 1123024896,
+                  "float32": 120
+                },
+                {
+                  "offset": 3687,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3691,
+                  "rawHex": "00009643",
+                  "int32": 1133903872,
+                  "float32": 300
+                },
+                {
+                  "offset": 3695,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3699,
+                  "rawHex": "00004843",
+                  "int32": 1128792064,
+                  "float32": 200
+                },
+                {
+                  "offset": 3703,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 3707,
+                  "rawHex": "00009643",
+                  "int32": 1133903872,
+                  "float32": 300
+                },
+                {
+                  "offset": 3711,
+                  "rawHex": "d0070000",
+                  "int32": 2000,
+                  "float32": 2.802596928649634e-42
+                },
+                {
+                  "offset": 3715,
+                  "rawHex": "0a000000",
+                  "int32": 10,
+                  "float32": 1.401298464324817e-44
+                },
+                {
+                  "offset": 3719,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 7,
+          "entries": [
+            [
+              {
+                "offset": 3731,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3735,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3739,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3743,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3747,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3751,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3755,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3759,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3763,
+                "rawHex": "398e633e",
+                "int32": 1046711865,
+                "float32": 0.2222222238779068
+              },
+              {
+                "offset": 3767,
+                "rawHex": "00000041",
+                "int32": 1090519040,
+                "float32": 8
+              },
+              {
+                "offset": 3771,
+                "rawHex": "00002041",
+                "int32": 1092616192,
+                "float32": 10
+              },
+              {
+                "offset": 3775,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3779,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3783,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3787,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3791,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3795,
+                "rawHex": "abaaaa3e",
+                "int32": 1051372203,
+                "float32": 0.3333333432674408
+              },
+              {
+                "offset": 3799,
+                "rawHex": "00008040",
+                "int32": 1082130432,
+                "float32": 4
+              },
+              {
+                "offset": 3803,
+                "rawHex": "00008040",
+                "int32": 1082130432,
+                "float32": 4
+              },
+              {
+                "offset": 3807,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3811,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3815,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3819,
+                "rawHex": "cdcc4c3e",
+                "int32": 1045220557,
+                "float32": 0.20000000298023224
+              },
+              {
+                "offset": 3823,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3827,
+                "rawHex": "398ee33e",
+                "int32": 1055100473,
+                "float32": 0.4444444477558136
+              },
+              {
+                "offset": 3831,
+                "rawHex": "0000a040",
+                "int32": 1084227584,
+                "float32": 5
+              },
+              {
+                "offset": 3835,
+                "rawHex": "00008040",
+                "int32": 1082130432,
+                "float32": 4
+              },
+              {
+                "offset": 3839,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3843,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3847,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3851,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3855,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3859,
+                "rawHex": "e4380e3f",
+                "int32": 1057896676,
+                "float32": 0.5555555820465088
+              },
+              {
+                "offset": 3863,
+                "rawHex": "00004041",
+                "int32": 1094713344,
+                "float32": 12
+              },
+              {
+                "offset": 3867,
+                "rawHex": "00004041",
+                "int32": 1094713344,
+                "float32": 12
+              },
+              {
+                "offset": 3871,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3875,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3879,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3883,
+                "rawHex": "0000003f",
+                "int32": 1056964608,
+                "float32": 0.5
+              },
+              {
+                "offset": 3887,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3891,
+                "rawHex": "abaa2a3f",
+                "int32": 1059760811,
+                "float32": 0.6666666865348816
+              },
+              {
+                "offset": 3895,
+                "rawHex": "0000a040",
+                "int32": 1084227584,
+                "float32": 5
+              },
+              {
+                "offset": 3899,
+                "rawHex": "0000a040",
+                "int32": 1084227584,
+                "float32": 5
+              },
+              {
+                "offset": 3903,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3907,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3911,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3915,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3919,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 3923,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3927,
+                "rawHex": "00007041",
+                "int32": 1097859072,
+                "float32": 15
+              },
+              {
+                "offset": 3931,
+                "rawHex": "00007041",
+                "int32": 1097859072,
+                "float32": 15
+              },
+              {
+                "offset": 3935,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3939,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 3943,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 3947,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 3951,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 4026,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 4030,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 4034,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 4038,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 4042,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 4046,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 4050,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 4054,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "nodeIndex": 0,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res1_nomipmap.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c656e656d795f726573315f6e6f6d69706d61702e646473",
+      "resourcePath": "effects/enemy_res1_nomipmap.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 1,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\hexa.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c686578612e646473",
+      "resourcePath": "effects/hexa.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 2,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c77617665322e646473",
+      "resourcePath": "effects/wave2.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 2,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\p_warm_blend2.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c705f7761726d5f626c656e64322e646473",
+      "resourcePath": "effects/p_warm_blend2.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 3,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\hexa.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c686578612e646473",
+      "resourcePath": "effects/hexa.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 4,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\kata.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c6b6174612e646473",
+      "resourcePath": "effects/kata.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 5,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473",
+      "resourcePath": "effects/pve_monster_shield.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 6,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473",
+      "resourcePath": "effects/pve_monster_shield.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 7,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473",
+      "resourcePath": "effects/pve_monster_shield.dds",
+      "extension": "dds",
+      "kind": "texture"
+    },
+    {
+      "nodeIndex": 8,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_shield.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f736869656c642e646473",
+      "resourcePath": "effects/pve_monster_shield.dds",
+      "extension": "dds",
+      "kind": "texture"
+    }
+  ],
+  "coverage": {
+    "envelopeBytesAccountedFor": 4058,
+    "reachesExactEof": true,
+    "structuredNodeCount": 9,
+    "fullyStructured": true,
+    "fieldMeaningFullyValidated": false,
+    "rendered": false,
+    "qualification": "Header, base, Particle, Particle_IF, GhostTrail, Lightning, NodeControl, NodeLoader and NodeLoader_IF are consumed sequentially along statically traced native reader branches. Unvalidated four-byte fields retain raw/int/float views. No runtime rendering has been verified."
+  },
+  "diagnostics": {
+    "scannedCActOffsets": [
+      14,
+      407,
+      817,
+      1318,
+      1760,
+      2170,
+      2562,
+      3018,
+      3506
+    ],
+    "parsedNodeStarts": [
+      14,
+      407,
+      817,
+      1318,
+      1760,
+      2170,
+      2562,
+      3018,
+      3506
+    ],
+    "markerScanMatchesParsedStarts": true,
+    "markerScanUsedForParsing": false
+  }
+}

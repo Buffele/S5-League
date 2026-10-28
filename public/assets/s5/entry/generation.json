@@ -1,0 +1,17 @@
+{
+  "identity": "S5 League",
+  "mode": "built-in imagegen",
+  "referenceImages": [],
+  "assets": [
+    {
+      "file": "league-logo-v1.png",
+      "transparent": true,
+      "prompt": "Use case: logo-brand\nAsset type: production transparent PNG logo for a browser arena action game UI.\nPrimary request: Create an entirely original S5 League logo. Exact text: \"S5\" prominently, \"LEAGUE\" smaller below. Strong compact forward-moving geometric letterforms, crisp white and cool silver edges, small electric cyan accent. Sophisticated competitive futuristic sports identity, legible at 160px width. Single centered horizontal compact logo, generous transparent margins, no surrounding badge, no other text, no watermark. Do not imitate any existing game logo. Genuine transparent background. No scenery."
+    },
+    {
+      "file": "arena-background-v1.png",
+      "transparent": false,
+      "prompt": "Use case: stylized-concept\nAsset type: production landscape 16:9 background artwork for loading screen and lobby of S5 League browser action game.\nPrimary request: An entirely original stylized futuristic urban arena suspended above clouds, clean architectural platforms and bridges, angular ivory concrete, muted teal structures, dark blue distant towers, restrained warm orange accent strips. Competitive aerial movement atmosphere. Wide cinematic framing, arena architecture around the lower and outer thirds, open atmospheric navy blue center and upper area that supports legible UI panels. Polished cel-shaded game concept illustration with restrained surface detail, atmospheric depth and soft dusk light. No characters, no weapons, no text, no logos, no HUD, no borders, no watermark. Original architecture and imagery, not copied from any existing game."
+    }
+  ]
+}

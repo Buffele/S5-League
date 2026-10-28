@@ -1,0 +1,13 @@
+* -text
+*.sh text eol=lf
+# Keep binary game resources as ordinary Git files. No Git LFS filters are used.
+*.blend binary
+*.glb binary
+*.png binary
+*.jpg binary
+*.dds binary
+*.ogg binary
+*.zip binary
+*.scn binary
+# Resource manifests authenticate raw bytes; disable newline conversion.
+public/assets/** -text

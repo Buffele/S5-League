@@ -1,0 +1,929 @@
+{
+  "schema": "s5runtime-blender-reconstruction-runtime-v1",
+  "key": "MAPNAME_BIO_LAB",
+  "mapKey": "bio-lab",
+  "nativeMapId": 19,
+  "sourceSha256": "74c3e4875f32df813dcdb799aa8a8c1a10d210c5b6a0fbcf9c66a885f2da09cc",
+  "assets": [
+    {
+      "id": "art",
+      "url": "/assets/maps/bio-lab/reconstruction/bio-lab-art-v1.glb",
+      "sha256": "aeb85ed578d8a15e6e62cc7df2e1e32c1db111f2a372eb8a485c8ef2b4434574",
+      "replacements": [
+        {
+          "moduleId": "bio-lab.s01_m000.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 0,
+          "faceRanges": [
+            [
+              0,
+              3636
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m000_c0000",
+            "s01_m000_c0001",
+            "s01_m000_c0002",
+            "s01_m000_c0003",
+            "s01_m000_c0004",
+            "s01_m000_c0005",
+            "s01_m000_c0006",
+            "s01_m000_c0007",
+            "s01_m000_c0008",
+            "s01_m000_c0009",
+            "s01_m000_c0010",
+            "s01_m000_c0011",
+            "s01_m000_c0012",
+            "s01_m000_c0013",
+            "s01_m000_c0014",
+            "s01_m000_c0015",
+            "s01_m000_c0016",
+            "s01_m000_c0017",
+            "s01_m000_c0018",
+            "s01_m000_c0019",
+            "s01_m000_c0020",
+            "s01_m000_c0021",
+            "s01_m000_c0022",
+            "s01_m000_c0023"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m003.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 3,
+          "faceRanges": [
+            [
+              0,
+              6
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m003_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m004.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 4,
+          "faceRanges": [
+            [
+              0,
+              48
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m004_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m007.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 7,
+          "faceRanges": [
+            [
+              0,
+              2216
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m007_c0000",
+            "s01_m007_c0001",
+            "s01_m007_c0002",
+            "s01_m007_c0003",
+            "s01_m007_c0004",
+            "s01_m007_c0005",
+            "s01_m007_c0006",
+            "s01_m007_c0007",
+            "s01_m007_c0008",
+            "s01_m007_c0009",
+            "s01_m007_c0010",
+            "s01_m007_c0011",
+            "s01_m007_c0012",
+            "s01_m007_c0013",
+            "s01_m007_c0014",
+            "s01_m007_c0015",
+            "s01_m007_c0016",
+            "s01_m007_c0017",
+            "s01_m007_c0018",
+            "s01_m007_c0019",
+            "s01_m007_c0020",
+            "s01_m007_c0021",
+            "s01_m007_c0022",
+            "s01_m007_c0023",
+            "s01_m007_c0024",
+            "s01_m007_c0025",
+            "s01_m007_c0026",
+            "s01_m007_c0027",
+            "s01_m007_c0028",
+            "s01_m007_c0029",
+            "s01_m007_c0030",
+            "s01_m007_c0031",
+            "s01_m007_c0032",
+            "s01_m007_c0033",
+            "s01_m007_c0034",
+            "s01_m007_c0035",
+            "s01_m007_c0036",
+            "s01_m007_c0037",
+            "s01_m007_c0038",
+            "s01_m007_c0039",
+            "s01_m007_c0040",
+            "s01_m007_c0041",
+            "s01_m007_c0042",
+            "s01_m007_c0043",
+            "s01_m007_c0044",
+            "s01_m007_c0045",
+            "s01_m007_c0046",
+            "s01_m007_c0047",
+            "s01_m007_c0048",
+            "s01_m007_c0049",
+            "s01_m007_c0050",
+            "s01_m007_c0051",
+            "s01_m007_c0052",
+            "s01_m007_c0053",
+            "s01_m007_c0054",
+            "s01_m007_c0055",
+            "s01_m007_c0056",
+            "s01_m007_c0057"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m008.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 8,
+          "faceRanges": [
+            [
+              0,
+              2136
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m008_c0000",
+            "s01_m008_c0001",
+            "s01_m008_c0002",
+            "s01_m008_c0003",
+            "s01_m008_c0004",
+            "s01_m008_c0005",
+            "s01_m008_c0006",
+            "s01_m008_c0007",
+            "s01_m008_c0008",
+            "s01_m008_c0009",
+            "s01_m008_c0010",
+            "s01_m008_c0011",
+            "s01_m008_c0012",
+            "s01_m008_c0013",
+            "s01_m008_c0014",
+            "s01_m008_c0015",
+            "s01_m008_c0016",
+            "s01_m008_c0017",
+            "s01_m008_c0018",
+            "s01_m008_c0019",
+            "s01_m008_c0020",
+            "s01_m008_c0021",
+            "s01_m008_c0022",
+            "s01_m008_c0023",
+            "s01_m008_c0024",
+            "s01_m008_c0025",
+            "s01_m008_c0026",
+            "s01_m008_c0027",
+            "s01_m008_c0028",
+            "s01_m008_c0029",
+            "s01_m008_c0030",
+            "s01_m008_c0031",
+            "s01_m008_c0032",
+            "s01_m008_c0033",
+            "s01_m008_c0034",
+            "s01_m008_c0035",
+            "s01_m008_c0036",
+            "s01_m008_c0037",
+            "s01_m008_c0038",
+            "s01_m008_c0039",
+            "s01_m008_c0040",
+            "s01_m008_c0041",
+            "s01_m008_c0042",
+            "s01_m008_c0043",
+            "s01_m008_c0044",
+            "s01_m008_c0045",
+            "s01_m008_c0046",
+            "s01_m008_c0047",
+            "s01_m008_c0048",
+            "s01_m008_c0049",
+            "s01_m008_c0050",
+            "s01_m008_c0051",
+            "s01_m008_c0052",
+            "s01_m008_c0053"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m010.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 10,
+          "faceRanges": [
+            [
+              0,
+              1069
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m010_c0000",
+            "s01_m010_c0001",
+            "s01_m010_c0002",
+            "s01_m010_c0003",
+            "s01_m010_c0004",
+            "s01_m010_c0005",
+            "s01_m010_c0006",
+            "s01_m010_c0007",
+            "s01_m010_c0008",
+            "s01_m010_c0009",
+            "s01_m010_c0010",
+            "s01_m010_c0011",
+            "s01_m010_c0012",
+            "s01_m010_c0013",
+            "s01_m010_c0014",
+            "s01_m010_c0015",
+            "s01_m010_c0016",
+            "s01_m010_c0017",
+            "s01_m010_c0018",
+            "s01_m010_c0019",
+            "s01_m010_c0020",
+            "s01_m010_c0021",
+            "s01_m010_c0022",
+            "s01_m010_c0023",
+            "s01_m010_c0024",
+            "s01_m010_c0025",
+            "s01_m010_c0026",
+            "s01_m010_c0027",
+            "s01_m010_c0028",
+            "s01_m010_c0029",
+            "s01_m010_c0030",
+            "s01_m010_c0031"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m011.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 11,
+          "faceRanges": [
+            [
+              0,
+              2072
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m011_c0000",
+            "s01_m011_c0001",
+            "s01_m011_c0002",
+            "s01_m011_c0003",
+            "s01_m011_c0004",
+            "s01_m011_c0005",
+            "s01_m011_c0006",
+            "s01_m011_c0007",
+            "s01_m011_c0008",
+            "s01_m011_c0009",
+            "s01_m011_c0010",
+            "s01_m011_c0011",
+            "s01_m011_c0012",
+            "s01_m011_c0013",
+            "s01_m011_c0014",
+            "s01_m011_c0015",
+            "s01_m011_c0016",
+            "s01_m011_c0017",
+            "s01_m011_c0018",
+            "s01_m011_c0019",
+            "s01_m011_c0020",
+            "s01_m011_c0021",
+            "s01_m011_c0022",
+            "s01_m011_c0023",
+            "s01_m011_c0024",
+            "s01_m011_c0025",
+            "s01_m011_c0026",
+            "s01_m011_c0027",
+            "s01_m011_c0028",
+            "s01_m011_c0029",
+            "s01_m011_c0030",
+            "s01_m011_c0031",
+            "s01_m011_c0032",
+            "s01_m011_c0033",
+            "s01_m011_c0034",
+            "s01_m011_c0035"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m014.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 14,
+          "faceRanges": [
+            [
+              0,
+              419
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m014_c0000",
+            "s01_m014_c0001"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m024.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 24,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m024_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m027.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 27,
+          "faceRanges": [
+            [
+              0,
+              14
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m027_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m031.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 31,
+          "faceRanges": [
+            [
+              0,
+              20
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m031_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m033.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 33,
+          "faceRanges": [
+            [
+              0,
+              20
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m033_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m035.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 35,
+          "faceRanges": [
+            [
+              0,
+              20
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m035_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m037.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 37,
+          "faceRanges": [
+            [
+              0,
+              20
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m037_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m039.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 39,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m039_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m041.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 41,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m041_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m043.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 43,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m043_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m045.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 45,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m045_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m047.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 47,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m047_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m049.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 49,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m049_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m051.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 51,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m051_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m053.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 53,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m053_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m055.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 55,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m055_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m057.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 57,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m057_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m059.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 59,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m059_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m061.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 61,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m061_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m063.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 63,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m063_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m065.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 65,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m065_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m067.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 67,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m067_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m069.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 69,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m069_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m071.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 71,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m071_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m073.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 73,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m073_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m075.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 75,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m075_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m077.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 77,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m077_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m079.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 79,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m079_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m081.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 81,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m081_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m083.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 83,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m083_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m085.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 85,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m085_c0000"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m091.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 91,
+          "faceRanges": [
+            [
+              0,
+              1027
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m091_c0000",
+            "s01_m091_c0001",
+            "s01_m091_c0002",
+            "s01_m091_c0003",
+            "s01_m091_c0004",
+            "s01_m091_c0005",
+            "s01_m091_c0006",
+            "s01_m091_c0007",
+            "s01_m091_c0008",
+            "s01_m091_c0009",
+            "s01_m091_c0010",
+            "s01_m091_c0011",
+            "s01_m091_c0012",
+            "s01_m091_c0013",
+            "s01_m091_c0014",
+            "s01_m091_c0015",
+            "s01_m091_c0016",
+            "s01_m091_c0017",
+            "s01_m091_c0018",
+            "s01_m091_c0019",
+            "s01_m091_c0020",
+            "s01_m091_c0021",
+            "s01_m091_c0022",
+            "s01_m091_c0023",
+            "s01_m091_c0024",
+            "s01_m091_c0025",
+            "s01_m091_c0026",
+            "s01_m091_c0027",
+            "s01_m091_c0028",
+            "s01_m091_c0029",
+            "s01_m091_c0030",
+            "s01_m091_c0031",
+            "s01_m091_c0032",
+            "s01_m091_c0033"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m092.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 92,
+          "faceRanges": [
+            [
+              0,
+              84
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m092_c0000",
+            "s01_m092_c0001",
+            "s01_m092_c0002",
+            "s01_m092_c0003",
+            "s01_m092_c0004",
+            "s01_m092_c0005",
+            "s01_m092_c0006",
+            "s01_m092_c0007",
+            "s01_m092_c0008"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m093.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 93,
+          "faceRanges": [
+            [
+              0,
+              258
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m093_c0000",
+            "s01_m093_c0001",
+            "s01_m093_c0002",
+            "s01_m093_c0003",
+            "s01_m093_c0004",
+            "s01_m093_c0005",
+            "s01_m093_c0006",
+            "s01_m093_c0007",
+            "s01_m093_c0008",
+            "s01_m093_c0009",
+            "s01_m093_c0010",
+            "s01_m093_c0011",
+            "s01_m093_c0012"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m094.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 94,
+          "faceRanges": [
+            [
+              0,
+              87
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m094_c0000",
+            "s01_m094_c0001",
+            "s01_m094_c0002",
+            "s01_m094_c0003",
+            "s01_m094_c0004",
+            "s01_m094_c0005",
+            "s01_m094_c0006",
+            "s01_m094_c0007",
+            "s01_m094_c0008"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m095.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 95,
+          "faceRanges": [
+            [
+              0,
+              91
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m095_c0000",
+            "s01_m095_c0001",
+            "s01_m095_c0002",
+            "s01_m095_c0003",
+            "s01_m095_c0004",
+            "s01_m095_c0005",
+            "s01_m095_c0006",
+            "s01_m095_c0007",
+            "s01_m095_c0008",
+            "s01_m095_c0009"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m096.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 96,
+          "faceRanges": [
+            [
+              0,
+              100
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m096_c0000",
+            "s01_m096_c0001",
+            "s01_m096_c0002",
+            "s01_m096_c0003",
+            "s01_m096_c0004",
+            "s01_m096_c0005",
+            "s01_m096_c0006",
+            "s01_m096_c0007",
+            "s01_m096_c0008"
+          ]
+        },
+        {
+          "moduleId": "bio-lab.s01_m097.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 97,
+          "faceRanges": [
+            [
+              0,
+              98
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m097_c0000",
+            "s01_m097_c0001",
+            "s01_m097_c0002"
+          ]
+        }
+      ]
+    }
+  ],
+  "nativeReady": false,
+  "gameplayReady": false,
+  "distributionSourceSha256": "68c1e9553e590bef236c71b3fbac1a092807c884c49df6a41bc3fba05fc8a37d"
+}

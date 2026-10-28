@@ -1,0 +1,92 @@
+{
+  "texture": {
+    "url": "/assets/conquest/rook/textures/pve_monster_shield.png",
+    "sha256": "85a9065a9e5ec3a3e7b7bd29cc237d61e3946fefad9d5c648205fdba6d6d82bd",
+    "bytes": 9088,
+    "source": "effects/pve_monster_shield.dds",
+    "width": 128,
+    "height": 128
+  },
+  "shield": {
+    "url": "/assets/conquest/rook/models/pve-rook-shield.json",
+    "sha256": "c60e3d732226b44606dd11e5563a71b443b5270a26c94be75606365de4db1282",
+    "bytes": 31789,
+    "source": "effects/pve_rook_shield.scn"
+  },
+  "outputs": [
+    {
+      "url": "/assets/conquest/rook/textures/pve_monster_shield.png",
+      "sha256": "85a9065a9e5ec3a3e7b7bd29cc237d61e3946fefad9d5c648205fdba6d6d82bd",
+      "bytes": 9088,
+      "source": "effects/pve_monster_shield.dds"
+    },
+    {
+      "url": "/assets/conquest/rook/models/pve-rook-shield.json",
+      "sha256": "c60e3d732226b44606dd11e5563a71b443b5270a26c94be75606365de4db1282",
+      "bytes": 31789,
+      "source": "effects/pve_rook_shield.scn"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/pve_mon_rook_spark.seq",
+      "sha256": "c4dedd259e366fa6f1808fd30d022cef289131d6403988d8d167d51efc05bf2f",
+      "bytes": 1946,
+      "source": "effects/pve_mon_rook_spark.seq"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/pve_mon_rook_spark.json",
+      "sha256": "565b73ecb65707b1bedd4de9ebe2bfbfe0085af5c7b3e65e9053a844786ff6ae",
+      "bytes": 69737,
+      "source": "effects/pve_mon_rook_spark.seq"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/pve_mon_rook_aura.seq",
+      "sha256": "70cd623b8cb5972549c78b856ebff94c0e37448282bc623ac95cf13182c35fda",
+      "bytes": 2068,
+      "source": "effects/pve_mon_rook_aura.seq"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/pve_mon_rook_aura.json",
+      "sha256": "9371cd233345c19384ce2ebd2894b3cbfac2efb8db9060caccf652be1444e77c",
+      "bytes": 76175,
+      "source": "effects/pve_mon_rook_aura.seq"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/pve_rook_shield.seq",
+      "sha256": "37b373340896bff77a577581b25741ee36de843af992b5ea61be29784d3c86ff",
+      "bytes": 4413,
+      "source": "effects/pve_rook_shield.seq"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/pve_rook_shield.json",
+      "sha256": "92a137629f299caf8fa7ee7e3bb17a11a0c9dd2531f8448be040a3f6ad92222e",
+      "bytes": 152137,
+      "source": "effects/pve_rook_shield.seq"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/pve_mon_buf_eff01.seq",
+      "sha256": "f642f69b7937eeb1ccbb7d6caf52a9f145efad499b7ecf9eb87ca750d9644f7f",
+      "bytes": 4058,
+      "source": "effects/pve_mon_buf_eff01.seq"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/pve_mon_buf_eff01.json",
+      "sha256": "d64df29bae9c8b80c522c1a33c828a7c2d7b206d58efb9c884668f85a828e62d",
+      "bytes": 149453,
+      "source": "effects/pve_mon_buf_eff01.seq"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/rook_death.seq",
+      "sha256": "e265fec3ea2aa8ad7be01a285cde691d9f90c91977fb68000101ca86f0054900",
+      "bytes": 3916,
+      "source": "effects/rook_death.seq"
+    },
+    {
+      "url": "/assets/conquest/rook/sequences/rook_death.json",
+      "sha256": "da06e538087d825776649bea20fbc8b699dd4d1ec9bb8164dd7704cecceaf060",
+      "bytes": 141096,
+      "source": "effects/rook_death.seq"
+    }
+  ],
+  "partialRenderPolicyRequired": true,
+  "nativeReady": false
+}

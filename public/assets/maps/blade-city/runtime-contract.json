@@ -1,0 +1,96 @@
+{
+  "schema": "s5runtime-static-map-runtime-contract-v1",
+  "key": "MAPNAME_BLADE_CITY",
+  "name": "Blade City",
+  "nativeMapId": 158,
+  "modes": [
+    "Deathmatch",
+    "Snowball Fight",
+    "Duel"
+  ],
+  "scenes": [
+    {
+      "sceneIndex": 0,
+      "source": "model/background/sky_nightsky.scn",
+      "modelCount": 1,
+      "nodeCount": 1,
+      "render": false
+    },
+    {
+      "sceneIndex": 1,
+      "source": "model/background/bladecity.scn",
+      "modelCount": 134,
+      "nodeCount": 135,
+      "render": true
+    },
+    {
+      "sceneIndex": 2,
+      "source": "model/background/bladecity_oct.scn",
+      "modelCount": 2,
+      "nodeCount": 2,
+      "render": false
+    },
+    {
+      "sceneIndex": 3,
+      "source": "model/background/bladecity_spawn_dm.scn",
+      "modelCount": 0,
+      "nodeCount": 16,
+      "render": false
+    },
+    {
+      "sceneIndex": 4,
+      "source": "model/background/bladecity_occlusion.scn",
+      "modelCount": 74,
+      "nodeCount": 74,
+      "render": false
+    },
+    {
+      "sceneIndex": 5,
+      "source": "model/background/bladecity_billboard.scn",
+      "modelCount": 24,
+      "nodeCount": 24,
+      "render": true
+    }
+  ],
+  "movementCandidates": [
+    {
+      "sceneIndex": 2,
+      "modelIndex": 0,
+      "nodeIndex": 0,
+      "name": "oct_land_ground",
+      "category": 1
+    }
+  ],
+  "weaponCandidates": [
+    {
+      "sceneIndex": 2,
+      "modelIndex": 1,
+      "nodeIndex": 1,
+      "name": "oct_weapon",
+      "category": 64
+    }
+  ],
+  "expectedRejected": [],
+  "previewSpawn": {
+    "sceneIndex": 3,
+    "nodeIndex": 0,
+    "name": "beta_spawn_pos"
+  },
+  "sourceMapSha256": "9c2d36bfea601eb6ed928b1c8621f61c9fcd122cd163281a87fa399136d3bf34",
+  "sourcePackage": "work/s5runtime-map-native-adaptation/source-pipeline/packages/blade-city/native-158",
+  "qualifications": {
+    "freeExplorationOnly": true,
+    "gameplayReady": false,
+    "nativeRuntimePlacementCertified": false,
+    "allSpawnMarkersRetained": true,
+    "noInventedSolids": true,
+    "alphaBetaDecorRequired": false,
+    "destructionIntactOnly": true,
+    "dotDamageImplemented": false,
+    "dynamicAnimationImplemented": false
+  },
+  "blockers": [
+    "BLASTINFO blast2_BS_window has no matching node in loaded source scenes; no replacement window is invented"
+  ],
+  "audit": "work/s5runtime-map-native-adaptation/next-maps-runtime-audit/blade-city-158.json"
+}

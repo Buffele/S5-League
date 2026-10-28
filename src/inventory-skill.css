@@ -1,0 +1,22 @@
+/* S5 League skill labels and equipment state surfaces. */
+#welcome.s5-entry-host {
+.s5runtime-inventory .s5runtime-inventory-skill-slot {display:grid;grid-template-columns:80px 1fr;gap:10px;align-items:center;margin:10px 0;padding:10px 0;border-top:1px solid #536a7e;}
+.s5runtime-inventory .s5runtime-skill-slot-frame {position:relative;width:80px;height:82px;display:grid;place-items:center;border:0;background:url('/assets/s5runtime/inventory/skills/skill-empty.png') center/100% 100% no-repeat;}
+.s5runtime-inventory .s5runtime-skill-slot-frame[data-equipped="true"] {background-image:url('/assets/s5runtime/inventory/skills/skill-selected.png');}
+.s5runtime-inventory .s5-skill-marker {display:grid;place-items:center;width:66px;height:57px;color:#d2dfeb;font-size:10px;line-height:1.4;text-align:center;}
+.s5runtime-inventory .s5-inventory-skill-icon{position:relative;display:grid;place-items:center;flex:none;width:min(100%,112px);height:62px;margin:0 auto 1px;}
+.s5runtime-inventory .s5-inventory-skill-image{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;}
+.s5runtime-inventory .s5-inventory-skill-image[hidden],.s5runtime-inventory .s5-inventory-skill-icon>[hidden]{display:none;}
+.s5runtime-inventory .s5-inventory-skill-icon .s5-inventory-marker{font-size:10px;letter-spacing:normal;}
+.s5runtime-inventory .s5runtime-skill-slot-copy {display:flex;flex-direction:column;align-items:flex-start;gap:5px;min-width:0;}
+.s5runtime-inventory .s5runtime-skill-slot-copy b {font-size:13px;color:#e5f3ff;}
+.s5runtime-inventory .s5runtime-skill-slot-copy small {display:block;margin:0;font-size:11px;line-height:1.35;color:#b4c7d8;}
+.s5runtime-inventory .s5runtime-skill-remove {width:auto;min-height:28px;margin:0;padding:4px 9px;background:#233d55;border:1px solid #7898b5;border-radius:2px;font-size:12px;line-height:1.2;}
+.s5runtime-inventory .s5runtime-skill-remove:disabled {opacity:.45;}
+.s5runtime-inventory .s5runtime-inventory-skills[hidden],.s5runtime-inventory .s5runtime-inventory-skill-host[hidden],.s5runtime-inventory .s5runtime-inventory-items[hidden],.s5runtime-inventory .s5runtime-inventory-pagination[hidden],.s5runtime-inventory .s5-skill-marker[hidden],.s5runtime-inventory .s5runtime-skill-remove[hidden] {display:none;}
+.s5runtime-inventory .s5runtime-inventory-skills {min-width:0;}
+
+.s5runtime-inventory .s5runtime-skill-actions {min-height:30px;}
+.s5runtime-inventory .s5runtime-inventory-skills .s5runtime-inventory-status {font-size:12px;line-height:1.35;margin:8px 0;color:#b4c7d8;}
+
+}

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Parcours de test — collisions S5</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101824;color:#edf4fb;font:15px system-ui,sans-serif}canvas{display:block;width:100vw;height:100vh;outline:none}#panel{position:fixed;top:20px;left:20px;width:min(390px,calc(100vw - 40px));padding:20px;background:#101b2eed;border:1px solid #55708b66;border-radius:16px;box-shadow:0 12px 50px #0005}h1{font-size:21px;margin:8px 0 10px}.badge{font-size:11px;font-weight:800;letter-spacing:1.5px;color:#8bdbce}p{line-height:1.5;color:#bacada;margin:10px 0}select,button{font:inherit;color:#eef5fc;background:#23354b;border:1px solid #536b86;border-radius:8px;padding:10px;cursor:pointer}select{width:100%;margin-top:5px}button{margin-top:10px}button:hover{background:#36516e}#status{font:13px ui-monospace,monospace;color:#87dfc4;margin-top:14px;min-height:36px}#error{color:#ff9e9e;white-space:pre-wrap}#help{position:fixed;bottom:20px;left:20px;right:20px;text-align:center;background:#101b2ed9;border-radius:10px;padding:12px;pointer-events:none}#toggle{position:fixed;right:18px;top:10px}small{display:block;color:#9fb3c9;line-height:1.5;margin-top:12px}@media(max-width:650px){#panel{top:12px;left:12px;padding:14px;width:310px}h1{font-size:18px}p{font-size:13px}#help{font-size:12px}}
+</style></head><body>
+<canvas id="view" tabindex="0" aria-label="Parcours de test des collisions en trois dimensions"></canvas>
+<aside id="panel"><span class="badge">PROTOTYPE · TEST ISOLÉ</span><h1>Teste les collisions</h1><p>Déplace le personnage, longe les murs, monte la pente et saute sous le plafond.</p>
+<label for="map">Carte</label><select id="map"></select>
+<label for="character">Personnage</label><select id="character"><option value="male">Masculin</option><option value="female">Féminin</option></select>
+<label for="character-scale">Échelle de test</label><select id="character-scale"><option value="1">100 % · référence</option><option value="1.25">125 %</option><option value="1.5">150 %</option><option value="1.75">175 %</option><option value="2">200 %</option></select>
+<label for="scenario">Point de départ</label><select id="scenario"></select><button id="reset">Recommencer · R</button><div id="status" role="status">Chargement…</div><div id="error" role="alert"></div>
+<label style="display:block;margin-top:12px"><input id="collider" type="checkbox"> Voir le volume de collision</label>
+<small>Personnage, animations et cartes du projet. Exploration sans combat ni destruction. Les réglages de déplacement restent provisoires ; la physique complète n’est pas encore activée dans le jeu principal.</small></aside>
+<button id="toggle" aria-expanded="true">Masquer l’aide</button><div id="help">ZQSD / WASD ou flèches : bouger · Espace : sauter · Souris glissée : tourner la caméra · Molette : zoomer</div>
+<script type="module" src="/src/collision-test-view.js"></script></body></html>

@@ -1,0 +1,15 @@
+#welcome.s5-entry-host {
+/* Authenticated Item_Button/Item_SelectButton_Image frames; real actions stay. */
+.s5-weapon-loadout{margin:0 0 12px;padding:6px 0;border:0;border-top:1px solid #3d586c;background:none;font:11px 'Segoe UI',Arial,sans-serif;color:#dbe7ee}
+.s5runtime-equipment-summary .s5-weapon-loadout-heading{margin:0 0 4px;font:600 13px 'Segoe UI',Arial,sans-serif;font-style:normal;color:#dbe7ee}.s5-weapon-loadout-help{margin:0 0 7px;font-size:10px;line-height:1.4;color:#adc3d1}
+.s5-weapon-loadout-slots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}.s5-weapon-loadout-slot{position:relative;display:flex;flex-direction:column;gap:3px;min-width:0;padding:5px 3px 3px;border:1px solid #3b566a;background:url('/assets/s5runtime/inventory/equipment-slot.png') center top/100% 80px no-repeat #0b1c2b;text-align:center}
+.s5-weapon-loadout-slot[data-target=true]{border-color:#70e4ec;background-image:url('/assets/s5runtime/inventory/equipment-selected.png')}.s5-weapon-loadout-slot[data-active=true] .s5-weapon-loadout-state{color:#ffbc8b}
+.s5-weapon-loadout-title{margin:0;font:500 9px/1.3 'Segoe UI',Arial,sans-serif;color:#a8c1d0}.s5-weapon-loadout-name{display:block;min-height:14px;max-height:14px;margin-top:30px;overflow:hidden;font-size:11px;line-height:14px;white-space:nowrap;text-overflow:ellipsis}.s5-weapon-loadout-state{font-size:9px;min-height:12px;color:#9eb9ca}
+.s5-weapon-loadout-icon{position:absolute;top:17px;left:10%;display:block;width:80%;height:30px;object-fit:contain;pointer-events:none}.s5-weapon-loadout-icon[hidden]{display:none}
+.s5-weapon-loadout :where(button){display:block;box-sizing:border-box;min-width:0;min-height:36px;width:100%;max-width:100%;margin:0;padding:4px 2px;border:1px solid #4b6c80;border-radius:2px;box-shadow:none;background:url('/assets/s5runtime/inventory/equip-normal.png') center/100% 100% no-repeat;font:10px/1.3 'Segoe UI',Arial,sans-serif;color:#dbe7ee;text-align:center;letter-spacing:normal;text-transform:none;cursor:pointer;overflow-wrap:anywhere}
+.s5-weapon-loadout button:hover{border-color:#70e4ec;background-image:url('/assets/s5runtime/inventory/equip-hover.png')}.s5-weapon-loadout button:focus-visible{outline:2px solid #70e4ec;outline-offset:2px}.s5-weapon-loadout button:disabled{opacity:.45;cursor:default}
+.s5-weapon-loadout .s5-weapon-loadout-target{position:absolute;inset:0 0 auto;min-height:0;height:80px;padding:0;border:0;border-radius:0;background:none;color:#c7e9f5;font-size:0;z-index:1}
+.s5-weapon-loadout .s5-weapon-loadout-target[aria-pressed=true]{color:#a3f3f7}.s5-weapon-loadout .s5-weapon-loadout-target:hover{box-shadow:inset 0 0 0 1px #70e4ec;background:none}
+.s5-weapon-loadout-actions{display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:2px}.s5-weapon-loadout-status{margin:7px 0 0;font-size:10px;line-height:1.4;color:#adc3d1;overflow-wrap:anywhere}
+@media(max-width:600px){.s5-weapon-loadout button:not(.s5-weapon-loadout-target){min-height:44px}.s5-weapon-loadout-slot{padding-left:4px;padding-right:4px}}
+}

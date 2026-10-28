@@ -1,0 +1,57 @@
+{
+  "source": "Current ATTACKATTRIB_MACHINE_GUN_LOWER/MIDDLE/UPPER",
+  "proof": [
+    {
+      "source": "effects/gun_hit_hexa.scn",
+      "sha256": "9c4b6b3c8f5415830c42c066dceba94293f0829e2f931d34ebababbf3bcff034",
+      "sharedModel": "/assets/s5runtime/effects/revolver/models/gun_hit_hexa.json"
+    },
+    {
+      "source": "effects/mapeff_gun_ricochet.scn",
+      "sha256": "121ee1b6eedb4a779b096189f881487ec53756bf5945ad96b778a88c8a2b90de",
+      "sharedModel": "/assets/s5runtime/effects/revolver/models/mapeff_gun_ricochet.json"
+    },
+    {
+      "source": "effects/levelup5_nomipmap.dds",
+      "sha256": "d0db22c760c30a2610c8a9812cdef72e88cf9d24c32a0bdde916394a96602ef4",
+      "sharedTexture": "/assets/s5runtime/effects/revolver/textures/levelup5_nomipmap.png"
+    },
+    {
+      "source": "effects/mapeffect_light6.dds",
+      "sha256": "bf7a371fd9c2455f79684109be6dbefe5b4318c3ee7253d7df523c537bef1efa",
+      "sharedTexture": "/assets/s5runtime/effects/revolver/textures/mapeffect_light6.png"
+    },
+    {
+      "source": "effects/attack4_nomipmap.dds",
+      "sha256": "299fda1e366c7c5884af8e45dd66f8bebe59d3fd14440fab1a6d21eeb17c6f52",
+      "sharedTexture": "/assets/s5runtime/effects/revolver/textures/attack4_nomipmap.png"
+    },
+    {
+      "source": "effects/attack3_nomipmap.dds",
+      "sha256": "4755fe0ddba41e419f3be53da78c0d2fd981bb462bf173e33ac20695049bc432",
+      "sharedTexture": "/assets/s5runtime/effects/revolver/textures/attack3_nomipmap.png"
+    },
+    {
+      "source": "effects/effect_forcefield2.dds",
+      "sha256": "d37b8bbf956c6f5860d6c3d4979329d09a8507908b801c5d8e19fa0480adc814",
+      "sharedTexture": "/assets/s5runtime/effects/revolver/textures/effect_forcefield2.png"
+    },
+    {
+      "source": "effects/tick2_blue.dds",
+      "sha256": "4f9fcf0812468175896392dcefda499c733c81a08b4198d613e35bb853c3e472",
+      "sharedTexture": "/assets/s5runtime/effects/revolver/textures/tick2_blue.png"
+    },
+    {
+      "source": "effects/gun_hit4.seq",
+      "sha256": "d46ec234cc2636be4b6b5a2711e4345b01815f3bed1d36672fad66a11d830b22"
+    },
+    {
+      "source": "effects/gun_hit.seq",
+      "sha256": "d866077998eca59820349aeb234a9ad755253c6cb07922d4e9a2d0812bf633c9"
+    }
+  ],
+  "muzzleSequence": null,
+  "proceduralTracer": true,
+  "nodeLoaderReusesExactSourceModels": true,
+  "nativeRenderingCompared": false
+}

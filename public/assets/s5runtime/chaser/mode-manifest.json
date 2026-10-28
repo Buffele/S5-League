@@ -1,0 +1,28 @@
+{
+  "evidence": [
+    {
+      "name": "slaughter_target_aura",
+      "sha256": "4fbc3c95b5949a54c73845703736d02a09c7f5b90ad08b548e272c9b7514a9e3",
+      "nodes": 2
+    },
+    {
+      "name": "slaughter_bonus_target_aura",
+      "sha256": "87a3c5bb91af1dcdd28ca872533dc37332ac85c9d7a7a786bbfe4640d73a3762",
+      "nodes": 16
+    },
+    {
+      "name": "ggrim",
+      "sha256": "3c19bca2e67410f2c5cccf1644c3264a680ee9282628bed72cb54368ac1e6c5f",
+      "nodes": 4
+    }
+  ],
+  "sourceManifest": "work/chaser-visuals/audit/sources.json",
+  "attachment": "S5 avatar root; native particles and identity inheritance controls retained",
+  "textureResolution": "ggrim legacy TGA unresolved; authenticated native same-basename DDS used, visual equivalence pending",
+  "unresolved": [
+    "ggrim_kill NodeLoader substructure",
+    "MD animation event mapping",
+    "native camera paths",
+    "original server target policy"
+  ]
+}

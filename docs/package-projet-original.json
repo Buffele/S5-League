@@ -1,0 +1,18 @@
+{
+  "name": "air-dagger",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test tests/*.test.mjs",
+    "catalog:build": "node tools/build-animation-catalog.mjs",
+    "arsenal:index": "dotnet run --project tools/s5runtime-arsenal/XsInventory --",
+    "arsenal:build": "node tools/s5runtime-arsenal/build-catalog.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.0",
+    "vite": "8.3.0"
+  }
+}

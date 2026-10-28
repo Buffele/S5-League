@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<panel name="equipment">
+	<anchor left="right" right="true" />
+	<rect top="1776" bottom="{ 1776 + 216 }" />
+	<margin left="-{ 246 + 516 }" right="246" />
+	<path trigger="framecount">
+		<keyframe time="0.00">
+			<opacity value="0.00" animation="linear" />
+		</keyframe>
+		<keyframe time="0.20">
+			<opacity value="1.00" animation="linear" />
+		</keyframe>
+	</path>
+	<elements>
+		<panel name="weapon">
+			<rect left="326" top="46" right="{ 326 + 128 }" bottom="{ 46 + 128 }" />
+			<path trigger="manual">
+				<keyframe time="0.00">
+					<opacity value="0.00" animation="linear" />
+					<scale value="1.25" animation="linear" />
+				</keyframe>
+				<keyframe time="0.15">
+					<opacity value="0.75" animation="linear" />
+					<scale value="1.00" animation="linear" />
+				</keyframe>
+				<keyframe time="0.20">
+					<opacity value="1.00" animation="linear" />
+					<scale value="1.00" animation="linear" />
+				</keyframe>
+				</path>
+			<states>
+				<normal>
+					<reference path="sprites/common/weapons/icon_gun_handgun_unique.dds" filter="box" /> 
+				</normal>
+			</states>
+		</panel>
+		<panel name="ammo">
+			<rect left="68" top="110" right="{ 68 + 190 }" bottom="{ 110 + 89 }" />
+			<elements>
+				<label name="current">
+					<rect right="92" />
+					<margin top="6" />
+					<anchor left="true" top="true" bottom="true" />
+					<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="41" />
+					<transform uppercase="true" />
+					<align horizontal="right" vertical="center" />
+					<text>
+						<english value="{}" />
+					</text>
+					<path trigger="manual">
+						<keyframe time="0.00">
+							<opacity value="0.00" />
+						</keyframe>
+						<keyframe time="0.20">
+							<opacity value="1.00" animation="linear" />
+						</keyframe>
+					</path>
+					<states>
+						<normal>
+							<color>
+								<tl value="rgb(217, 224, 234)" />
+								<tr value="rgb(217, 224, 234)" />
+								<bl value="rgb(171, 185, 209)" />
+								<br value="rgb(171, 185, 209)" />
+							</color>
+							<glow>
+								<color value="rgba(0, 0, 0, 204)" />
+								<radius value="4" />
+							</glow>
+						</normal>
+					</states>
+				</label>
+				<label name="separator">
+					<rect left="100" />
+					<anchor top="true" right="true" bottom="true" />
+					<margin top="11" />
+					<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="35" />
+					<transform uppercase="true" />
+					<align horizontal="left" vertical="center" />
+					<text>
+						<english value="/" />
+					</text>
+					<states>
+						<normal>
+							<color>
+								<tl value="rgba(217, 224, 234, 153)" />
+								<tr value="rgba(217, 224, 234, 153)" />
+								<bl value="rgba(171, 185, 209, 153)" />
+								<br value="rgba(171, 185, 209, 153)" />
+							</color>
+							<glow>
+								<color value="rgba(0, 0, 0, 204)" />
+								<radius value="4" />
+							</glow>
+						</normal>
+					</states>
+				</label>
+				<label name="reserve">
+					<rect left="131.5" />
+					<anchor top="true" right="true" bottom="true" />
+					<margin top="11" />
+					<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="35" />
+					<transform uppercase="true" />
+					<align horizontal="left" vertical="center" />
+					<text>
+						<english value="{}" />
+					</text>
+					<states>
+						<normal>
+							<color>
+								<tl value="rgba(217, 224, 234, 153)" />
+								<tr value="rgba(217, 224, 234, 153)" />
+								<bl value="rgba(171, 185, 209, 153)" />
+								<br value="rgba(171, 185, 209, 153)" />
+							</color>
+							<glow>
+								<color value="rgba(0, 0, 0, 204)" />
+								<radius value="4" />
+							</glow>
+						</normal>
+					</states>
+				</label>
+			</elements>
+		</panel>
+	</elements>
+	<states>
+		<normal>
+			<reference path="sprites/ingame/hud/lowright_bg.dds" />
+			<opacity value="1.00" transition="0.20" />
+		</normal>
+		<dormant>
+			<reference path="sprites/ingame/hud/lowright_bg.dds" />
+			<opacity value="0.00" transition="0.20" />
+		</dormant>
+	</states>
+</panel>

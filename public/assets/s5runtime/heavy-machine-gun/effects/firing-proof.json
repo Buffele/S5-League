@@ -1,0 +1,354 @@
+{
+  "source": "effects/skill_gunner_hw_fire.seq",
+  "sourceSha256": "297eff865da053ff72cd4ef429b387e9d88a4637f24ea595b37f6bf3787a7ae8",
+  "exactEof": true,
+  "sourceNodes": 2,
+  "textures": 7,
+  "resolutions": [
+    {
+      "sourceLiteral": "c:\\project_sci_fi\\test_client\\trunk\\projects\\zin\\bin\\resources\\effects\\skill_gunner_hw_part1.scn",
+      "rebasedPath": "effects/skill_gunner_hw_part1.scn",
+      "selectedPath": "effects/skill_gunner_hw_part1.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ],
+      "entries": [
+        {
+          "path": "effects/skill_gunner_hw_part1.scn",
+          "checksum": "4321b09b",
+          "plainLength": 3404,
+          "storedLength": 1208,
+          "dataOffset": 90682410
+        }
+      ]
+    },
+    {
+      "sourceLiteral": "blaster1.bmp",
+      "rebasedPath": "effects/blaster1.bmp",
+      "preferredDdsPath": "effects/blaster1.dds",
+      "selectedPath": "effects/blaster1.dds",
+      "status": "native-selected-indexed",
+      "entries": [
+        {
+          "path": "effects/blaster1.dds",
+          "checksum": "0e1559f6",
+          "plainLength": 21992,
+          "storedLength": 13883,
+          "dataOffset": 20011879
+        }
+      ],
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "sourceLiteral": "c:\\project_sci_fi\\test_client\\trunk\\projects\\zin\\bin\\resources\\effects\\blaster1.bmp",
+      "rebasedPath": "effects/blaster1.bmp",
+      "preferredDdsPath": "effects/blaster1.dds",
+      "selectedPath": "effects/blaster1.dds",
+      "status": "native-selected-indexed",
+      "rule": "CNodeLoaderTexture reader rebasing followed by shared D3D manager slot28 DDS preference",
+      "evidence": [
+        "0x1200810",
+        "0x11ffb20",
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/blaster1.dds",
+          "checksum": "0e1559f6",
+          "plainLength": 21992,
+          "storedLength": 13883,
+          "dataOffset": 20011879
+        }
+      ]
+    },
+    {
+      "sourceLiteral": "c:\\project_sci_fi\\test_client\\trunk\\projects\\zin\\bin\\resources\\effects\\blaster2.bmp",
+      "rebasedPath": "effects/blaster2.bmp",
+      "preferredDdsPath": "effects/blaster2.dds",
+      "selectedPath": "effects/blaster2.dds",
+      "status": "native-selected-indexed",
+      "rule": "CNodeLoaderTexture reader rebasing followed by shared D3D manager slot28 DDS preference",
+      "evidence": [
+        "0x1200810",
+        "0x11ffb20",
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/blaster2.dds",
+          "checksum": "d2b1c00b",
+          "plainLength": 21992,
+          "storedLength": 14401,
+          "dataOffset": 51293378
+        }
+      ]
+    },
+    {
+      "sourceLiteral": "c:\\project_sci_fi\\test_client\\trunk\\projects\\zin\\bin\\resources\\effects\\blaster3.bmp",
+      "rebasedPath": "effects/blaster3.bmp",
+      "preferredDdsPath": "effects/blaster3.dds",
+      "selectedPath": "effects/blaster3.dds",
+      "status": "native-selected-indexed",
+      "rule": "CNodeLoaderTexture reader rebasing followed by shared D3D manager slot28 DDS preference",
+      "evidence": [
+        "0x1200810",
+        "0x11ffb20",
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/blaster3.dds",
+          "checksum": "7e0cc5d8",
+          "plainLength": 21992,
+          "storedLength": 11863,
+          "dataOffset": 58479867
+        }
+      ]
+    },
+    {
+      "sourceLiteral": "c:\\project_sci_fi\\test_client\\trunk\\projects\\zin\\bin\\resources\\effects\\blaster4.bmp",
+      "rebasedPath": "effects/blaster4.bmp",
+      "preferredDdsPath": "effects/blaster4.dds",
+      "selectedPath": "effects/blaster4.dds",
+      "status": "native-selected-indexed",
+      "rule": "CNodeLoaderTexture reader rebasing followed by shared D3D manager slot28 DDS preference",
+      "evidence": [
+        "0x1200810",
+        "0x11ffb20",
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/blaster4.dds",
+          "checksum": "cda1a4ef",
+          "plainLength": 21992,
+          "storedLength": 9704,
+          "dataOffset": 37256868
+        }
+      ]
+    },
+    {
+      "sourceLiteral": "c:\\project_sci_fi\\test_client\\trunk\\projects\\zin\\bin\\resources\\effects\\blaster5.bmp",
+      "rebasedPath": "effects/blaster5.bmp",
+      "preferredDdsPath": "effects/blaster5.dds",
+      "selectedPath": "effects/blaster5.dds",
+      "status": "native-selected-indexed",
+      "rule": "CNodeLoaderTexture reader rebasing followed by shared D3D manager slot28 DDS preference",
+      "evidence": [
+        "0x1200810",
+        "0x11ffb20",
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/blaster5.dds",
+          "checksum": "b232e3ab",
+          "plainLength": 21992,
+          "storedLength": 15984,
+          "dataOffset": 77295618
+        }
+      ]
+    },
+    {
+      "sourceLiteral": "c:\\project_sci_fi\\test_client\\trunk\\projects\\zin\\bin\\resources\\effects\\blaster6.bmp",
+      "rebasedPath": "effects/blaster6.bmp",
+      "preferredDdsPath": "effects/blaster6.dds",
+      "selectedPath": "effects/blaster6.dds",
+      "status": "native-selected-indexed",
+      "rule": "CNodeLoaderTexture reader rebasing followed by shared D3D manager slot28 DDS preference",
+      "evidence": [
+        "0x1200810",
+        "0x11ffb20",
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/blaster6.dds",
+          "checksum": "d1926130",
+          "plainLength": 21992,
+          "storedLength": 13945,
+          "dataOffset": 53329004
+        }
+      ]
+    },
+    {
+      "sourceLiteral": "c:\\project_sci_fi\\test_client\\trunk\\projects\\zin\\bin\\resources\\effects\\shotgun_mflash.tga",
+      "rebasedPath": "effects/shotgun_mflash.tga",
+      "preferredDdsPath": "effects/shotgun_mflash.dds",
+      "selectedPath": "effects/shotgun_mflash.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/shotgun_mflash.dds",
+          "checksum": "8089b605",
+          "plainLength": 11064,
+          "storedLength": 8650,
+          "dataOffset": 7297750
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source": "effects/blaster1.dds",
+      "sourceSha256": "30b7656ff0253aa57c0387038c02b455b8cb40ae6eafbd189c90a1c5cf7ce86b",
+      "file": "/assets/s5runtime/heavy-machine-gun/effects/textures/blaster1.png",
+      "sha256": "b6d33b562814f9ee521c3be5c24df024194da9320ec38cdc7a828d4caf1d6aca",
+      "width": 256,
+      "height": 128
+    },
+    {
+      "source": "effects/blaster2.dds",
+      "sourceSha256": "d25ee5c66f61d878e3a1cb6b41a9adf3539a158b493b15ec0e610729932ea50f",
+      "file": "/assets/s5runtime/heavy-machine-gun/effects/textures/blaster2.png",
+      "sha256": "382a1f54045a50853a23dfe820dda63a1eb460e9adaa5ab0afd542d1411a680c",
+      "width": 256,
+      "height": 128
+    },
+    {
+      "source": "effects/blaster3.dds",
+      "sourceSha256": "093ecc598fe1839e4e5d4092d47e8e7912b910a454e57508758253bab9344ce3",
+      "file": "/assets/s5runtime/heavy-machine-gun/effects/textures/blaster3.png",
+      "sha256": "30420310c2e5a8877d90fc32936c0835c53d5828577d54dbcec3e91ea7db9ced",
+      "width": 256,
+      "height": 128
+    },
+    {
+      "source": "effects/blaster4.dds",
+      "sourceSha256": "94a657b3bd45aa94038a1a3e3b77313b8a4da415dfec36f5b8f5ee8ecd216010",
+      "file": "/assets/s5runtime/heavy-machine-gun/effects/textures/blaster4.png",
+      "sha256": "b67bdde363e7a3176662fe79223b0a335f1aba989b88ec5c384ab7f44800b5d5",
+      "width": 256,
+      "height": 128
+    },
+    {
+      "source": "effects/blaster5.dds",
+      "sourceSha256": "70a57316f3f28176922b148e64064989690c11dbf78bc179db6bc7536aa8173f",
+      "file": "/assets/s5runtime/heavy-machine-gun/effects/textures/blaster5.png",
+      "sha256": "1516b2244bf9df1360327a42c6780066e4fcd2bd714df531b96cee319b087bb4",
+      "width": 256,
+      "height": 128
+    },
+    {
+      "source": "effects/blaster6.dds",
+      "sourceSha256": "ede087fd750270312a7f142359acb3b00c42fdab69cc785dcb1049823f56e470",
+      "file": "/assets/s5runtime/heavy-machine-gun/effects/textures/blaster6.png",
+      "sha256": "f32a5a1a669bc63e72e738a1258fe673b5003809b86c9abf01d0d7179d729874",
+      "width": 256,
+      "height": 128
+    },
+    {
+      "source": "effects/shotgun_mflash.dds",
+      "sourceSha256": "e14102f4d37e0acb8a535a7e0185795c31644e966b8d01312f7914400125e5cc",
+      "file": "/assets/s5runtime/heavy-machine-gun/effects/textures/shotgun_mflash.png",
+      "sha256": "9243f99bf45f1e578dd6a0bdb41fc47ba0a22d84583acfcb3875e41dad37c251",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/skill_gunner_hw_part1.scn",
+      "sourceSha256": "2e7bbd69be088e1bdcf6005a218090c16e8d70a1cbc6e56e520cefdba8e5464b",
+      "decodedSha256": "2e7bbd69be088e1bdcf6005a218090c16e8d70a1cbc6e56e520cefdba8e5464b",
+      "exactEof": true,
+      "bytesParsed": 3404,
+      "file": "/assets/s5runtime/heavy-machine-gun/effects/firing-model.json",
+      "sha256": "f34fad72e27f8f667df62894f6444cd33bd06505a6c2319cdb289f74052187a2"
+    }
+  ],
+  "nativeSources": [
+    {
+      "file": "work/parallel-gameplay-reference/armes/heavy-machine-gun/native/node_loader_read.c",
+      "sha256": "a50eedd47cbdffae86e1c6229d4e060e9c047a4ac62bc176a8ec06cb4926bece"
+    },
+    {
+      "file": "work/parallel-gameplay-reference/armes/heavy-machine-gun/native/loader_texture_list_read.c",
+      "sha256": "fb0fc70b5e620c64229990bdb0b38df34596f72f3ac28a0503d6b60203630979"
+    },
+    {
+      "file": "work/parallel-gameplay-reference/armes/heavy-machine-gun/native/loader_texture_list_save.c",
+      "sha256": "5e9a4991d13ae41147f080edca9a8c4771bb36ead9ba7fdf153553a1a0ca1d57"
+    },
+    {
+      "file": "work/parallel-gameplay-reference/armes/heavy-machine-gun/native/loader_texture_resource_path.c",
+      "sha256": "be61839bc1e721486506a4ea3ef6cbfb4f844e34ee12561ffe9b743897c6615e"
+    },
+    {
+      "file": "work/parallel-gameplay-reference/armes/heavy-machine-gun/native/node_loader_update.c",
+      "sha256": "6344d429cf87a8e5cc48d4c683578a9f40974839011116ce66909a446d184c3a"
+    },
+    {
+      "file": "work/parallel-gameplay-reference/armes/heavy-machine-gun/native/loader_texture_apply.c",
+      "sha256": "de094c7d06f64bd4e6c8de60282f917942f0de09b0c1c5897c5ff43c7aaabdae"
+    },
+    {
+      "file": "work/parallel-gameplay-reference/armes/heavy-machine-gun/native/loader_model_animation_start.c",
+      "sha256": "ad04a546617780a223659da8ea27816274d00cb3980881db7ebb96217cbe3f09"
+    }
+  ],
+  "animationResolution": {
+    "serializedRequest": "1",
+    "runtimeClip": "HW",
+    "basis": "Only original model clip; source hierarchy and tracks retained. Native serialized AnimName versus default model playback mapping remains unverified.",
+    "nativeVerified": false
+  },
+  "nativeTextureSelectionAlgorithm": "type5: random15/32768 truncation; one new choice when uint32 local milliseconds /10 changes, without catch-up draws",
+  "nativeSeededRngVerified": false,
+  "nativeGPUCompared": false,
+  "nativeReady": false
+}

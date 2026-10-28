@@ -1,0 +1,1556 @@
+{
+  "format": "s5-practice-session-assets-v1",
+  "verifiedAt": "2026-10-15T14:40:32.575Z",
+  "published": true,
+  "sourceCount": 89,
+  "outputCount": 83,
+  "sources": [
+    {
+      "path": "model/background/chian.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/chian.dds",
+      "sha256": "ea06fa8da825b95afa385c8e94278a8734094478c3c426394dbe1c807dd81055",
+      "bytes": 349680,
+      "crc32": "6e6d3e0a",
+      "archive": "72.xs"
+    },
+    {
+      "path": "model/background/ds3_object01.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds3_object01.dds",
+      "sha256": "6c34ee42d02e4add49a4e9a88f07d3e069eb97645163cc931a29cc090a3f8131",
+      "bytes": 174904,
+      "crc32": "4e1317bf",
+      "archive": "29.xs"
+    },
+    {
+      "path": "model/background/ds4_banner_d100.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_banner_d100.dds",
+      "sha256": "27b598ae45caae4a9fd48b95ff3414e4a8cd69d389b98453a62e0fbc60307939",
+      "bytes": 174904,
+      "crc32": "d29bbdad",
+      "archive": "4.xs"
+    },
+    {
+      "path": "model/background/ds4_bottom2.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_bottom2.dds",
+      "sha256": "46b4c3fa12a242ab64b1abbda713cd49f6d0acee9e71d64ffa3110997a8cc4d8",
+      "bytes": 349680,
+      "crc32": "db650239",
+      "archive": "5.xs"
+    },
+    {
+      "path": "model/background/ds4_fullscenerendertarget.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_fullscenerendertarget.scn",
+      "sha256": "c0b9945cab36cd7f3105595bd06589d933218b658bc45e849f446dc19ebf3969",
+      "bytes": 3788,
+      "crc32": "6a902b0a",
+      "archive": "76.xs"
+    },
+    {
+      "path": "model/background/ds4_line_atex.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_line_atex.dds",
+      "sha256": "81a26c1268b48a00ba82f98c621d1c04f1ccb4b5aa9dd598131a79c2496792e5",
+      "bytes": 43832,
+      "crc32": "25731889",
+      "archive": "30.xs"
+    },
+    {
+      "path": "model/background/ds4_line_etex.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_line_etex.dds",
+      "sha256": "09661cd78057233cf848054684b56fa8ae8b5c2053b1ef993eefce554c228fac",
+      "bytes": 43832,
+      "crc32": "360cb9a1",
+      "archive": "54.xs"
+    },
+    {
+      "path": "model/background/ds4_metal6.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_metal6.dds",
+      "sha256": "ec654b904985eb419201e8e850d6134a6ab5bc486446a7ff4d5a13049ec418cd",
+      "bytes": 11064,
+      "crc32": "da7cd57f",
+      "archive": "41.xs"
+    },
+    {
+      "path": "model/background/ds4_sidesafeblue_d100.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_sidesafeblue_d100.dds",
+      "sha256": "9a9c975ec60a37c7bdf5c848fc081894f435c8abd7afca94870343caa1f879d8",
+      "bytes": 87536,
+      "crc32": "ad300e6c",
+      "archive": "29.xs"
+    },
+    {
+      "path": "model/background/ds4_sidesafered_d100.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_sidesafered_d100.dds",
+      "sha256": "0c2fb2457d93d4f9884b423ca57827d1a4f00e0ee2081c832a91fcfcc464ff0c",
+      "bytes": 87536,
+      "crc32": "01070ca0",
+      "archive": "68.xs"
+    },
+    {
+      "path": "model/background/ds4_stadium.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_stadium.scn",
+      "sha256": "6ea19f5a62dffc94576c8994aee3c58103c3ea5b7128d634b3ca16f53ebe7d6f",
+      "bytes": 1187852,
+      "crc32": "f6fe50a0",
+      "archive": "6.xs"
+    },
+    {
+      "path": "model/background/ds4_stadium01.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_stadium01.dds",
+      "sha256": "c7efe1f1a632a799d6f7a9411149716cb2caee22bd26caff3f65d250565f9c84",
+      "bytes": 174904,
+      "crc32": "747451a6",
+      "archive": "75.xs"
+    },
+    {
+      "path": "model/background/ds4_stadium02.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_stadium02.dds",
+      "sha256": "efef3c48711fe418909dce651862c16563d8261fd7c433f8e349b96f5da1aa84",
+      "bytes": 349680,
+      "crc32": "76afcc3b",
+      "archive": "6.xs"
+    },
+    {
+      "path": "model/background/ds4_stadiumlightingmap.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_stadiumlightingmap.dds",
+      "sha256": "b01cfd21ee3ffbaf0878ea1b8824ab8ccc62fa342472cbede776597614b2edbe",
+      "bytes": 174904,
+      "crc32": "c2404200",
+      "archive": "68.xs"
+    },
+    {
+      "path": "model/background/ds4_station01.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_station01.scn",
+      "sha256": "a8a238dcc73295e7c8766236ea8e1a37eec09a7d1ee8686160b85259ada83e2c",
+      "bytes": 6967058,
+      "crc32": "12ad2787",
+      "archive": "30.xs"
+    },
+    {
+      "path": "model/background/ds4_wall04.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds4_wall04.dds",
+      "sha256": "d1ef21751fdf2fa9b19d879670de4b515e100318e7a1aeb389648ef40c1cbc08",
+      "bytes": 349680,
+      "crc32": "16c9c8a7",
+      "archive": "41.xs"
+    },
+    {
+      "path": "model/background/ds5_bottom.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_bottom.dds",
+      "sha256": "91f2e579ddae880132a7041d1e10920f133519e1c982c7515c62a89c5a2c8bde",
+      "bytes": 174904,
+      "crc32": "3171c154",
+      "archive": "54.xs"
+    },
+    {
+      "path": "model/background/ds5_eff_lightblue.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_eff_lightblue.dds",
+      "sha256": "2c5a956d825004c6fe51db45b7ce096875884dfe7000a530d9a336329b37985e",
+      "bytes": 22000,
+      "crc32": "3b5f782d",
+      "archive": "6.xs"
+    },
+    {
+      "path": "model/background/ds5_eff_lightblue_ring.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_eff_lightblue_ring.dds",
+      "sha256": "92a6b86e771181d24004ff8099d5c1f54e11ee39abf61a188dfb820926b27ebd",
+      "bytes": 11064,
+      "crc32": "3697ce83",
+      "archive": "41.xs"
+    },
+    {
+      "path": "model/background/ds5_eff_lightred.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_eff_lightred.dds",
+      "sha256": "db1a092941db06c82903f33eaaa76ee300bc0e8c27e547af47a57f4177512f74",
+      "bytes": 22000,
+      "crc32": "9d75699c",
+      "archive": "4.xs"
+    },
+    {
+      "path": "model/background/ds5_eff_lightred_ring.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_eff_lightred_ring.dds",
+      "sha256": "1c1375765420729122bbfb5984a1848db54414012a62a7efdec732f6330b8abb",
+      "bytes": 11064,
+      "crc32": "7a35bd56",
+      "archive": "68.xs"
+    },
+    {
+      "path": "model/background/ds5_fullscenerendertarget.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_fullscenerendertarget.scn",
+      "sha256": "848c5c04bf73145458acefb59e2e2f9f6d0b745f0e9ebd05c3626a9f1a8d78f1",
+      "bytes": 4836,
+      "crc32": "eba8b292",
+      "archive": "4.xs"
+    },
+    {
+      "path": "model/background/ds5_lightobject01.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_lightobject01.dds",
+      "sha256": "6e0cd381b96ea54d8bfd0bd2397ad16e987cbcf12a1376512017fbd9ed74caf2",
+      "bytes": 3145904,
+      "crc32": "6fd26683",
+      "archive": "41.xs"
+    },
+    {
+      "path": "model/background/ds5_sector01_b1.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_sector01_b1.dds",
+      "sha256": "1fa92413d42247197bb6af6ec561b0d845b54131c5d4ad2e01851bdc9c189e21",
+      "bytes": 3145904,
+      "crc32": "9c93fe05",
+      "archive": "6.xs"
+    },
+    {
+      "path": "model/background/ds5_sector02_sidewall01.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_sector02_sidewall01.dds",
+      "sha256": "e1f76bdf0d5c2bcf5b665abcf8168a2ecf9b6fab2576deaa5662d33b568ae65f",
+      "bytes": 3145904,
+      "crc32": "7d1fbede",
+      "archive": "54.xs"
+    },
+    {
+      "path": "model/background/ds5_sideplan_atex_d100.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_sideplan_atex_d100.dds",
+      "sha256": "0989e0acff4c7d7aeedf58538a93e89e2e1f01604e41806a9ea5cdbeea0b73ac",
+      "bytes": 43832,
+      "crc32": "f613d010",
+      "archive": "29.xs"
+    },
+    {
+      "path": "model/background/ds5_station.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_station.scn",
+      "sha256": "1b09a5aeb8b9e5f0dc540239d06d62d7093a1146d59476af01cb44ee7586fa46",
+      "bytes": 5698416,
+      "crc32": "43ec3cb7",
+      "archive": "69.xs"
+    },
+    {
+      "path": "model/background/ds5_subwaylight.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_subwaylight.dds",
+      "sha256": "a1d33f423e60bd23b26c6832fe167c69657baa59d6c695664877340aaf7ee765",
+      "bytes": 3145904,
+      "crc32": "fdcca4f8",
+      "archive": "76.xs"
+    },
+    {
+      "path": "model/background/ds5_subwaylight02.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_subwaylight02.dds",
+      "sha256": "ce53cf5bed72ee718c9331d5ef8d579d764999fe58b264a1a72f9ba38b947cd4",
+      "bytes": 3145904,
+      "crc32": "b45eadc1",
+      "archive": "54.xs"
+    },
+    {
+      "path": "model/background/ds5_subwaylight03.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds5_subwaylight03.dds",
+      "sha256": "70a462b4c9fa518489549343298214b1783f507c0c2717ddea5726c2c5c63773",
+      "bytes": 3145904,
+      "crc32": "ed86eddc",
+      "archive": "30.xs"
+    },
+    {
+      "path": "model/background/ds7_effsafeline_d100_atex.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds7_effsafeline_d100_atex.dds",
+      "sha256": "752196e041063f55668adc76e671a5951b88a7c09339935249feb9761c0269a0",
+      "bytes": 87696,
+      "crc32": "9d0c181f",
+      "archive": "30.xs"
+    },
+    {
+      "path": "model/background/ds7_esc_light.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds7_esc_light.dds",
+      "sha256": "98be9e9607fe3d14adb767ce4dbd5fc72dfcf4782958b8f656e500ad29d88a82",
+      "bytes": 1179776,
+      "crc32": "f7639b74",
+      "archive": "72.xs"
+    },
+    {
+      "path": "model/background/ds7_fullscenerendertarget.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds7_fullscenerendertarget.scn",
+      "sha256": "d110be4a8b8794553d8f74a938883a84043a51f79e8932678b837c6d8ceefee0",
+      "bytes": 3251,
+      "crc32": "63c2b924",
+      "archive": "6.xs"
+    },
+    {
+      "path": "model/background/ds7_land_light.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds7_land_light.dds",
+      "sha256": "ff40f06379341a725b85ca79f7914b80318f2c880524acd6911311140617dcdf",
+      "bytes": 3145904,
+      "crc32": "e1c1b124",
+      "archive": "29.xs"
+    },
+    {
+      "path": "model/background/ds7_safeline.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds7_safeline.scn",
+      "sha256": "1d5c4c20932ac39396f22f26ed95325b2c6673cb6c8469f4da52975806cccf22",
+      "bytes": 200528,
+      "crc32": "43328c50",
+      "archive": "6.xs"
+    },
+    {
+      "path": "model/background/ds7_spawn_light.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds7_spawn_light.dds",
+      "sha256": "4f2bd1db6a37ebf2aed0a889e83e5f571601dfc808fba5efdea9633bc2db77e6",
+      "bytes": 1179776,
+      "crc32": "59b400fb",
+      "archive": "4.xs"
+    },
+    {
+      "path": "model/background/ds7_subway_light.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds7_subway_light.dds",
+      "sha256": "f1ac9c537d6dd190a34838ccb99e07b2f237d664fabb4374c15202de27554fd3",
+      "bytes": 1179776,
+      "crc32": "bf38bb63",
+      "archive": "5.xs"
+    },
+    {
+      "path": "model/background/ds7_subwayin_light.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds7_subwayin_light.dds",
+      "sha256": "c8bd3fe19d8a8fd55d5974617396e2f68a0eab606705ed3b2681a7966fd15f16",
+      "bytes": 1179776,
+      "crc32": "f8b3012a",
+      "archive": "77.xs"
+    },
+    {
+      "path": "model/background/ds7_wall_light.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ds7_wall_light.dds",
+      "sha256": "85eb0eb31bdc1a5ebf5a3a5bbedbcbdbcdfd46f87c406686bdfdf7ba121286ca",
+      "bytes": 1179776,
+      "crc32": "234ab665",
+      "archive": "30.xs"
+    },
+    {
+      "path": "model/background/ms_station.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ms_station.scn",
+      "sha256": "484b925663b39a2af7ef03fe6a02d226970589004c0279245867c42fde480ce5",
+      "bytes": 15012,
+      "crc32": "8d787f28",
+      "archive": "30.xs"
+    },
+    {
+      "path": "model/background/ms_station01.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ms_station01.scn",
+      "sha256": "a78630b181a8b018c9f99d451ee61033cb69459b219363fd176222f37d92dbf5",
+      "bytes": 17172,
+      "crc32": "0aa6fdce",
+      "archive": "79.xs"
+    },
+    {
+      "path": "model/background/ms_tunnel.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/ms_tunnel.scn",
+      "sha256": "fee4ff288f22c8dd6d863f2a64828052b660766de1d20b9bdac0ffc7e2a262e1",
+      "bytes": 14106,
+      "crc32": "264181de",
+      "archive": "29.xs"
+    },
+    {
+      "path": "model/background/sky_bluesky.scn",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sky_bluesky.scn",
+      "sha256": "ed38e57024bd6155d1da9767e9bf8cf087794bc6b32bb8a7657b0d95f04f14ad",
+      "bytes": 32670,
+      "crc32": "1c5f03f5",
+      "archive": "4.xs"
+    },
+    {
+      "path": "model/background/sky_bluesky01.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sky_bluesky01.dds",
+      "sha256": "2fa2c230bd45548bdea7f1be076bcca3716595c87f7da3830512820a8a8ae49c",
+      "bytes": 174904,
+      "crc32": "27f7dfdb",
+      "archive": "29.xs"
+    },
+    {
+      "path": "model/background/sky_bluesky02.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sky_bluesky02.dds",
+      "sha256": "f830f035db8f18615d867c018eedad48cf6b13f7c93b56722968593e72ffa5b9",
+      "bytes": 174904,
+      "crc32": "bdd5be58",
+      "archive": "30.xs"
+    },
+    {
+      "path": "model/background/sky_bluesky03.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sky_bluesky03.dds",
+      "sha256": "4cd9cc43785c01c7ff35b8aa190d002170bf824a476bbe029701ed45126f3953",
+      "bytes": 174904,
+      "crc32": "b9ce9c19",
+      "archive": "54.xs"
+    },
+    {
+      "path": "model/background/sky_bluesky04.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sky_bluesky04.dds",
+      "sha256": "3f5ab63c0e084112365bc31ac08d3b66b0e15db757132290fa68a24626271d79",
+      "bytes": 174904,
+      "crc32": "5f8fda57",
+      "archive": "4.xs"
+    },
+    {
+      "path": "model/background/sky_bluesky05.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sky_bluesky05.dds",
+      "sha256": "de86ee7d9184f857ac118460592350655ac77299bb8d44f54ab9e849ce0f27dd",
+      "bytes": 174904,
+      "crc32": "d4d361b9",
+      "archive": "30.xs"
+    },
+    {
+      "path": "model/background/sky_bluesky06.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sky_bluesky06.dds",
+      "sha256": "ba3aafe936f4d711c4530ebf5c2deb2e8e4f09109be1bb5dfe2ce642f2699500",
+      "bytes": 174904,
+      "crc32": "d25f533c",
+      "archive": "30.xs"
+    },
+    {
+      "path": "model/background/sub_door.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_door.dds",
+      "sha256": "cd0a4efdeda3d192b83ec8e8d0ea0bcb8fea7e1ea0ae46c612f5b4ea3d9143c2",
+      "bytes": 349680,
+      "crc32": "a588478f",
+      "archive": "4.xs"
+    },
+    {
+      "path": "model/background/sub_wall.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall.dds",
+      "sha256": "6530c6b8394fe60396a150c68553dc430f2ebdeec31a2a00082ed80cf5fca0fe",
+      "bytes": 174904,
+      "crc32": "c49efbfd",
+      "archive": "54.xs"
+    },
+    {
+      "path": "model/background/sub_wall10.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall10.dds",
+      "sha256": "8bc7d899615f4a951ccd0ea502023df8dc2d126d8196d5113252f8dca1d46c57",
+      "bytes": 174904,
+      "crc32": "5cfcdae0",
+      "archive": "75.xs"
+    },
+    {
+      "path": "model/background/sub_wall11.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall11.dds",
+      "sha256": "acacdb5c3b426a715114d5ca7c51bf6f8318e015dc35d97e69314f8fb2b6278f",
+      "bytes": 174904,
+      "crc32": "15546cb6",
+      "archive": "41.xs"
+    },
+    {
+      "path": "model/background/sub_wall2.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall2.dds",
+      "sha256": "a96e320e2eb782f6b04ef1e48842bb16882d0213bb66d3d99a2b6c671f5b902f",
+      "bytes": 174904,
+      "crc32": "a2ae1662",
+      "archive": "4.xs"
+    },
+    {
+      "path": "model/background/sub_wall3.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall3.dds",
+      "sha256": "67f2be852cff134e3e6f5143969e956c1966852abe598608eed9cabcf82e483a",
+      "bytes": 174904,
+      "crc32": "fde80a5d",
+      "archive": "5.xs"
+    },
+    {
+      "path": "model/background/sub_wall4.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall4.dds",
+      "sha256": "3bae463c945cb359a51aa66dc2c6e841f9ae96ead6bb850f2f75b081056d71f3",
+      "bytes": 174904,
+      "crc32": "99de1e28",
+      "archive": "29.xs"
+    },
+    {
+      "path": "model/background/sub_wall5.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall5.dds",
+      "sha256": "ab871d61d362b89226ad57159ce4fb74185f7dde1d01d04119b4fc27f57ddc9b",
+      "bytes": 174904,
+      "crc32": "8199927e",
+      "archive": "29.xs"
+    },
+    {
+      "path": "model/background/sub_wall6.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall6.dds",
+      "sha256": "21ce0fa3b2bf37f46c083190b7ef98d75ff5448f1ea8a602cd591f35122fb6c4",
+      "bytes": 174904,
+      "crc32": "873f5ecd",
+      "archive": "29.xs"
+    },
+    {
+      "path": "model/background/sub_wall7.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall7.dds",
+      "sha256": "1d8e99f858ba9c14310971f5dd3720cc6359ca4e62f42b390fefce4618fbdb30",
+      "bytes": 174904,
+      "crc32": "ca49f7f9",
+      "archive": "41.xs"
+    },
+    {
+      "path": "model/background/sub_wall8.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall8.dds",
+      "sha256": "1d37cdcb9abe2f73532a2f42e3d38ddb9bf605588d7e22960a2dd77fa7ec2fac",
+      "bytes": 174904,
+      "crc32": "3eb06b3a",
+      "archive": "41.xs"
+    },
+    {
+      "path": "model/background/sub_wall9.dds",
+      "file": "work/game-modes/practice-recovery/render-sources/model/background/sub_wall9.dds",
+      "sha256": "f4b9becf7221669b72d093204a43d39705184857b026a2637babcc108e065705",
+      "bytes": 174904,
+      "crc32": "56111657",
+      "archive": "68.xs"
+    },
+    {
+      "path": "effects/skill_hacker_sentrygun_2_waiting.seq",
+      "file": "work/game-modes/practice-recovery/target-assets/effects/skill_hacker_sentrygun_2_waiting.seq",
+      "sha256": "9a5c89e57286f41c86eef8e9e96657476315b603f822a6a5ee627663ec1ed14e",
+      "bytes": 531,
+      "crc32": "7cdb5f0e",
+      "archive": "3.xs"
+    },
+    {
+      "path": "effects/skill_hacker_sentrygun_2_attack.seq",
+      "file": "work/game-modes/practice-recovery/target-assets/effects/skill_hacker_sentrygun_2_attack.seq",
+      "sha256": "d44b8ff6fbe75a748986009f98f3b6ee02e33fde5acd42fbe238d0e7820d7388",
+      "bytes": 532,
+      "crc32": "df821710",
+      "archive": "29.xs"
+    },
+    {
+      "path": "effects/mapeffect_blast_glass.seq",
+      "file": "work/game-modes/practice-recovery/target-assets/effects/mapeffect_blast_glass.seq",
+      "sha256": "2ecaadedcbe0e21a852160bbf0762db42ca4d58b2e7744d6d6438458d9a20e9c",
+      "bytes": 1704,
+      "crc32": "cb183cc5",
+      "archive": "53.xs"
+    },
+    {
+      "path": "model/weapon/sentrygun.scn",
+      "file": "work/game-modes/practice-recovery/target-assets/model/weapon/sentrygun.scn",
+      "sha256": "4fd2fb2b1b04bd0a19d14fa27777823ee7740325d2ae76422c3d9016223936c2",
+      "bytes": 130866,
+      "crc32": "309419fb",
+      "archive": "60.xs"
+    },
+    {
+      "path": "sound/sentrygun_die.ogg",
+      "file": "work/game-modes/practice-recovery/target-assets/sound/sentrygun_die.ogg",
+      "sha256": "7c490d97a17f81ed13c6a190c39046ca8e461a7bfd01f44f6e8228bd6b66e8ea",
+      "bytes": 58305,
+      "crc32": "3c9e467c",
+      "archive": "71.xs"
+    },
+    {
+      "path": "sound/bsentrygun_loading.ogg",
+      "file": "work/game-modes/practice-recovery/target-assets/sound/bsentrygun_loading.ogg",
+      "sha256": "91bf1692517701d02a4b545b3a256d2b4ded81f9089b2acc723b5a6b90b84329",
+      "bytes": 84933,
+      "crc32": "909a0d1a",
+      "archive": "71.xs"
+    },
+    {
+      "path": "sound/sentrygun_blast.ogg",
+      "file": "work/game-modes/practice-recovery/target-assets/sound/sentrygun_blast.ogg",
+      "sha256": "a4f3e1ab51884694275f98fc9222606e1705a95f0b163158bbd481e4b4f511d4",
+      "bytes": 27517,
+      "crc32": "de0b7f7a",
+      "archive": "76.xs"
+    },
+    {
+      "path": "effects/smoke4.dds",
+      "file": "work/game-modes/practice-recovery/target-textures/effects/smoke4.dds",
+      "sha256": "9df942208ecfca2f6d6f28d10cfe813007d660f8493e567c8a2d5c7b948721c8",
+      "bytes": 87508,
+      "crc32": "85d82313",
+      "archive": "3.xs"
+    },
+    {
+      "path": "effects/glass_chunks2.dds",
+      "file": "work/game-modes/practice-recovery/target-textures/effects/glass_chunks2.dds",
+      "sha256": "22261e5934c758d8c6b37c7a2096fbb5fd1a7cacd249cb2b5e587862dc35d134",
+      "bytes": 1520,
+      "crc32": "90925ab3",
+      "archive": "40.xs"
+    },
+    {
+      "path": "effects/smoke2.dds",
+      "file": "work/game-modes/practice-recovery/target-textures/effects/smoke2.dds",
+      "sha256": "851c326c59b7262c7030fa981e102847a4d2d84b0ff422ffa81678a8ce651c57",
+      "bytes": 43856,
+      "crc32": "ad0ca1ed",
+      "archive": "40.xs"
+    },
+    {
+      "path": "model/weapon/optionsentry_atex.dds",
+      "file": "work/game-modes/practice-recovery/target-textures/model/weapon/optionsentry_atex.dds",
+      "sha256": "da55c94ccee14cccb9b4f7d3d81f1c5a0650ab370239fc4c8e8a5b7b519f108a",
+      "bytes": 43832,
+      "crc32": "5f37c25b",
+      "archive": "49.xs"
+    },
+    {
+      "path": "effects/specs.dds",
+      "file": "work/game-modes/practice-recovery/target-textures/effects/specs.dds",
+      "sha256": "0439e8679794c96eaac697bf12078ca930028f1864e2eb3e847e50274efc7717",
+      "bytes": 22000,
+      "crc32": "da35a901",
+      "archive": "54.xs"
+    },
+    {
+      "path": "effects/cure4_1.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/cure4_1.dds",
+      "sha256": "a1424d6b9a6d0ba89a58d0c665b8020831764517974ca3f3fa56144eb107f49d",
+      "bytes": 43856,
+      "crc32": "4617f352",
+      "archive": "3.xs"
+    },
+    {
+      "path": "effects/glass_chunks2.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/glass_chunks2.dds",
+      "sha256": "22261e5934c758d8c6b37c7a2096fbb5fd1a7cacd249cb2b5e587862dc35d134",
+      "bytes": 1520,
+      "crc32": "90925ab3",
+      "archive": "40.xs"
+    },
+    {
+      "path": "effects/graphic1.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/graphic1.dds",
+      "sha256": "513449e90080ce120de5b32ad03d31edb21094d79f77d42b0773a29b77111e24",
+      "bytes": 43832,
+      "crc32": "02710659",
+      "archive": "28.xs"
+    },
+    {
+      "path": "effects/graphic2.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/graphic2.dds",
+      "sha256": "b3ea187f342aff4b139ec32c0bba88464f5e44143b6f9ec28afe80180b474686",
+      "bytes": 22024,
+      "crc32": "cf01808c",
+      "archive": "4.xs"
+    },
+    {
+      "path": "effects/ringring2.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/ringring2.dds",
+      "sha256": "03980dd5970bcf0fc0d98493e352adb8fdab35fc7847078d14704527105f2da6",
+      "bytes": 43832,
+      "crc32": "d9515b3f",
+      "archive": "3.xs"
+    },
+    {
+      "path": "effects/ringring2b.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/ringring2b.dds",
+      "sha256": "72449f1777fc865d49baa9498e7854228f2da5136a06f22585922afeab885d61",
+      "bytes": 43832,
+      "crc32": "7520d743",
+      "archive": "28.xs"
+    },
+    {
+      "path": "effects/sentry_pan.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/sentry_pan.dds",
+      "sha256": "5465c1163a403657c1af3957dec11849ae1e41287696ece369494d80c94fa76e",
+      "bytes": 5608,
+      "crc32": "eb0d06a3",
+      "archive": "28.xs"
+    },
+    {
+      "path": "effects/sentry_pan2.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/sentry_pan2.dds",
+      "sha256": "06988f0c03e8cda5e7414d2c151b27bf76b9c08ef50716e3086aa3fbef17a6f4",
+      "bytes": 5608,
+      "crc32": "ae73b52c",
+      "archive": "54.xs"
+    },
+    {
+      "path": "effects/skill_hacker_centrygun_dummy3.scn",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/skill_hacker_centrygun_dummy3.scn",
+      "sha256": "57e7c954c4f59d421232bd4f4e3931435a704ebdd52bf5e862be6a1f94a56889",
+      "bytes": 2213,
+      "crc32": "90a77957",
+      "archive": "3.xs"
+    },
+    {
+      "path": "effects/skill_hacker_centrygun_part5.scn",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/skill_hacker_centrygun_part5.scn",
+      "sha256": "27090fcd111fea27e517ee6c024a128c992ee8ee4c20b38f8be56ebe0cf10054",
+      "bytes": 594872,
+      "crc32": "91a7ccfe",
+      "archive": "40.xs"
+    },
+    {
+      "path": "effects/skill_hacker_centrygun_part6.scn",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/skill_hacker_centrygun_part6.scn",
+      "sha256": "d3550e64c8a1ddd1ca83b75538a2ae4473e21d73dfb35b78846809a6584c58dd",
+      "bytes": 469127,
+      "crc32": "75d2dfcb",
+      "archive": "76.xs"
+    },
+    {
+      "path": "effects/skill_hacker_centrygun_part7.scn",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/skill_hacker_centrygun_part7.scn",
+      "sha256": "19eea687e0f258be6d5d46774118cdd830400b6c8ebc5c14ea0e693d5f786476",
+      "bytes": 125254,
+      "crc32": "d90c22f6",
+      "archive": "68.xs"
+    },
+    {
+      "path": "effects/skill_hacker_centrygun_part7a.scn",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/skill_hacker_centrygun_part7a.scn",
+      "sha256": "483287fc2a0f388d33e5b4dc6cf50563c6475bb08e06f3a085b77e57b46b89b9",
+      "bytes": 125340,
+      "crc32": "eda70678",
+      "archive": "72.xs"
+    },
+    {
+      "path": "effects/smoke2.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/smoke2.dds",
+      "sha256": "851c326c59b7262c7030fa981e102847a4d2d84b0ff422ffa81678a8ce651c57",
+      "bytes": 43856,
+      "crc32": "ad0ca1ed",
+      "archive": "40.xs"
+    },
+    {
+      "path": "effects/smoke4.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/smoke4.dds",
+      "sha256": "9df942208ecfca2f6d6f28d10cfe813007d660f8493e567c8a2d5c7b948721c8",
+      "bytes": 87508,
+      "crc32": "85d82313",
+      "archive": "3.xs"
+    },
+    {
+      "path": "effects/specs.dds",
+      "file": "work/game-modes/practice-recovery/sentry-behavior-staged/sources/effects/specs.dds",
+      "sha256": "0439e8679794c96eaac697bf12078ca930028f1864e2eb3e847e50274efc7717",
+      "bytes": 22000,
+      "crc32": "da35a901",
+      "archive": "54.xs"
+    }
+  ],
+  "outputs": [
+    {
+      "relative": "textures/model/background/chian.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/chian.png",
+      "bytes": 259459,
+      "sha256": "b7b75a1d38a7763f105cb2dfa2a359b65f37c063dd897db3db4551e8d1742ab1",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/chian.png",
+      "source": "model/background/chian.dds"
+    },
+    {
+      "relative": "textures/model/background/ds3_object01.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds3_object01.png",
+      "bytes": 144941,
+      "sha256": "8be2ee095076acc438183088c686466bc17dae0b790ebbf37b5d15a1951d241a",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds3_object01.png",
+      "source": "model/background/ds3_object01.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_banner_d100.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_banner_d100.png",
+      "bytes": 41423,
+      "sha256": "887a14e78030b96f3af9f35fa268c26fcb3329ff52a5d8cd44e63fed7dd8bbe6",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_banner_d100.png",
+      "source": "model/background/ds4_banner_d100.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_bottom2.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_bottom2.png",
+      "bytes": 263799,
+      "sha256": "6c37235283eb2d090af8f1776ec748f9d7968e6f24c89e401e630e3f0da9f111",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_bottom2.png",
+      "source": "model/background/ds4_bottom2.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_line_atex.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_line_atex.png",
+      "bytes": 10511,
+      "sha256": "85e7838ccaf34df1fa689c1cbf900f7ef3027ee2412f10ef84067a3d070b1173",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_line_atex.png",
+      "source": "model/background/ds4_line_atex.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_line_etex.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_line_etex.png",
+      "bytes": 7475,
+      "sha256": "31f33835644029cfdecd322dbc3540afb5fb509b8694f410ff0c296d46397500",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_line_etex.png",
+      "source": "model/background/ds4_line_etex.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_metal6.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_metal6.png",
+      "bytes": 1131,
+      "sha256": "65e0d43a5313b362509ea9450a4f55c1219bb342a3d79d68ececfc7693115580",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_metal6.png",
+      "source": "model/background/ds4_metal6.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_sidesafeblue_d100.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_sidesafeblue_d100.png",
+      "bytes": 993,
+      "sha256": "15d32a96ed48fc11cf66774bdc538b83f0d84229217b8ac9f947b8bbbaf38b2e",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_sidesafeblue_d100.png",
+      "source": "model/background/ds4_sidesafeblue_d100.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_sidesafered_d100.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_sidesafered_d100.png",
+      "bytes": 1045,
+      "sha256": "61f94cdc72120551378aefc9ca6c56f8d58753d3424bc276dfa81a6b8a5a1bd8",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_sidesafered_d100.png",
+      "source": "model/background/ds4_sidesafered_d100.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_stadium01.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_stadium01.png",
+      "bytes": 35267,
+      "sha256": "53cbe2cd69eeb93fd9aed9aa8464d62f906e9f8c25c412a3a7d7c4522a4b1276",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_stadium01.png",
+      "source": "model/background/ds4_stadium01.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_stadium02.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_stadium02.png",
+      "bytes": 77532,
+      "sha256": "ffa723b546edc6b37d4835a4489387e8b6100e4c3964cead6442aef01a64d063",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_stadium02.png",
+      "source": "model/background/ds4_stadium02.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_stadiumlightingmap.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_stadiumlightingmap.png",
+      "bytes": 125243,
+      "sha256": "922fec1cc32ebc1e88c6872b4028f2450b2f468792bc3de9ff6fce811bd58c41",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_stadiumlightingmap.png",
+      "source": "model/background/ds4_stadiumlightingmap.dds"
+    },
+    {
+      "relative": "textures/model/background/ds4_wall04.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds4_wall04.png",
+      "bytes": 216744,
+      "sha256": "e04a650866cc6431d6644d269d9037eea350e04dffaa96c9d756aa2bc81d3c12",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds4_wall04.png",
+      "source": "model/background/ds4_wall04.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_bottom.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_bottom.png",
+      "bytes": 178644,
+      "sha256": "226d2813f567bfe19d3c2d05abf1cdbf1f83f4cac0902b821f5e726cec1a0bbf",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_bottom.png",
+      "source": "model/background/ds5_bottom.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_eff_lightblue.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_eff_lightblue.png",
+      "bytes": 475,
+      "sha256": "fcee4943837207669022acc2306e0f5201ea48886a8efee26a7fdc0c9c6d74ef",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_eff_lightblue.png",
+      "source": "model/background/ds5_eff_lightblue.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_eff_lightblue_ring.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_eff_lightblue_ring.png",
+      "bytes": 6411,
+      "sha256": "a65b8700095d4b90d7c73a68aff22e0795343f97c4724d9bd0c0771eeb8e1ecb",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_eff_lightblue_ring.png",
+      "source": "model/background/ds5_eff_lightblue_ring.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_eff_lightred.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_eff_lightred.png",
+      "bytes": 480,
+      "sha256": "0f8c4f252bb0f6c9e8009aaf93525a3ff822a8c630b133353b01f7884cd3b2cd",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_eff_lightred.png",
+      "source": "model/background/ds5_eff_lightred.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_eff_lightred_ring.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_eff_lightred_ring.png",
+      "bytes": 6234,
+      "sha256": "0b7fec75599913025904c3149e907082e037dcea404e6493d55e335dd3f79f95",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_eff_lightred_ring.png",
+      "source": "model/background/ds5_eff_lightred_ring.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_lightobject01.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_lightobject01.png",
+      "bytes": 566814,
+      "sha256": "45c040f59779422258d747072c5ff9980885e12badf1042ba5204773ffaf25d3",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_lightobject01.png",
+      "source": "model/background/ds5_lightobject01.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_sector01_b1.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_sector01_b1.png",
+      "bytes": 387075,
+      "sha256": "7a3bdc9312947f88bc3b5022fd90df6a5d43dc8911218834d5aaa9b13da896e4",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_sector01_b1.png",
+      "source": "model/background/ds5_sector01_b1.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_sector02_sidewall01.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_sector02_sidewall01.png",
+      "bytes": 718148,
+      "sha256": "30f08a4bf7677a256a350370ba2d3390dba5b86dd701c4a079910591c757dccf",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_sector02_sidewall01.png",
+      "source": "model/background/ds5_sector02_sidewall01.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_sideplan_atex_d100.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_sideplan_atex_d100.png",
+      "bytes": 4799,
+      "sha256": "24fb17ee5efbe44a96ea9e5aca864010cc96caf79d111f0bc77e94b538e0e1ba",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_sideplan_atex_d100.png",
+      "source": "model/background/ds5_sideplan_atex_d100.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_subwaylight.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_subwaylight.png",
+      "bytes": 539554,
+      "sha256": "d1c320d17787a61dd6341fbfb1ab556beb407f88105a3d800a3365677f3e76c7",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_subwaylight.png",
+      "source": "model/background/ds5_subwaylight.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_subwaylight02.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_subwaylight02.png",
+      "bytes": 582319,
+      "sha256": "bee759623b79fb3e227c3e4ff770a5707b03d7581ef58e189eafc10d5ef706d8",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_subwaylight02.png",
+      "source": "model/background/ds5_subwaylight02.dds"
+    },
+    {
+      "relative": "textures/model/background/ds5_subwaylight03.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds5_subwaylight03.png",
+      "bytes": 649937,
+      "sha256": "49f7cf3e008a5601fce7ea2f97f9cfbc982e9081956c64b38cf5880706b4c821",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds5_subwaylight03.png",
+      "source": "model/background/ds5_subwaylight03.dds"
+    },
+    {
+      "relative": "textures/model/background/ds7_effsafeline_d100_atex.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds7_effsafeline_d100_atex.png",
+      "bytes": 22429,
+      "sha256": "86a35c5aff5fb56c0f718f234975c5999af8224c9d9fbd3e4110734bdac15cd6",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds7_effsafeline_d100_atex.png",
+      "source": "model/background/ds7_effsafeline_d100_atex.dds"
+    },
+    {
+      "relative": "textures/model/background/ds7_esc_light.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds7_esc_light.png",
+      "bytes": 346810,
+      "sha256": "b135ab075d5b060dd963f99a44d56cb4bf85f9d2668280bb9a316d3126e5edc5",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds7_esc_light.png",
+      "source": "model/background/ds7_esc_light.dds"
+    },
+    {
+      "relative": "textures/model/background/ds7_land_light.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds7_land_light.png",
+      "bytes": 361491,
+      "sha256": "59943de74c7086f45ff7bbc41353421fc079758faf33122d990d644151321fa5",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds7_land_light.png",
+      "source": "model/background/ds7_land_light.dds"
+    },
+    {
+      "relative": "textures/model/background/ds7_spawn_light.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds7_spawn_light.png",
+      "bytes": 238990,
+      "sha256": "53bafbefa6033ee195243e5ed5bd73434daaec151a96aa442dfa30f8173c3a09",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds7_spawn_light.png",
+      "source": "model/background/ds7_spawn_light.dds"
+    },
+    {
+      "relative": "textures/model/background/ds7_subway_light.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds7_subway_light.png",
+      "bytes": 260565,
+      "sha256": "71d9ffde47e333ddbd3ab29f8af15fd7b976d3a7c618a1ff97516955b9051594",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds7_subway_light.png",
+      "source": "model/background/ds7_subway_light.dds"
+    },
+    {
+      "relative": "textures/model/background/ds7_subwayin_light.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds7_subwayin_light.png",
+      "bytes": 360808,
+      "sha256": "893a3d00597b7f99812a73f847169dd00d30599b104f8f97880804a8bdfa925b",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds7_subwayin_light.png",
+      "source": "model/background/ds7_subwayin_light.dds"
+    },
+    {
+      "relative": "textures/model/background/ds7_wall_light.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/ds7_wall_light.png",
+      "bytes": 262342,
+      "sha256": "274a9727ab9b092e11bbe3468c2513a8340bd382a221ba82c7fc83eef36a2524",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/ds7_wall_light.png",
+      "source": "model/background/ds7_wall_light.dds"
+    },
+    {
+      "relative": "textures/model/background/sky_bluesky01.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sky_bluesky01.png",
+      "bytes": 8397,
+      "sha256": "1618c60fa8bc69bc57f83c4c4d1ecac90a63e4e292d6030817f50819641f80dc",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sky_bluesky01.png",
+      "source": "model/background/sky_bluesky01.dds"
+    },
+    {
+      "relative": "textures/model/background/sky_bluesky02.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sky_bluesky02.png",
+      "bytes": 16569,
+      "sha256": "d3003c52b5ad18dc798ffd3c5702fe4c958470d552eac5ffb64a27483612f565",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sky_bluesky02.png",
+      "source": "model/background/sky_bluesky02.dds"
+    },
+    {
+      "relative": "textures/model/background/sky_bluesky03.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sky_bluesky03.png",
+      "bytes": 9430,
+      "sha256": "99e8d4b9ed78d57a34485ac1e899534763b357398d037990c5593bfc601b9f7e",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sky_bluesky03.png",
+      "source": "model/background/sky_bluesky03.dds"
+    },
+    {
+      "relative": "textures/model/background/sky_bluesky04.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sky_bluesky04.png",
+      "bytes": 7181,
+      "sha256": "71ad953927be662363d6e900bd1734b951ef7f9d24fc532a5affa4f2c2d02380",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sky_bluesky04.png",
+      "source": "model/background/sky_bluesky04.dds"
+    },
+    {
+      "relative": "textures/model/background/sky_bluesky05.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sky_bluesky05.png",
+      "bytes": 1819,
+      "sha256": "22f6d4eec002bffc06f40d2a0ef5c262a9dbb576fd636acaaaf06a8ba34aff07",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sky_bluesky05.png",
+      "source": "model/background/sky_bluesky05.dds"
+    },
+    {
+      "relative": "textures/model/background/sky_bluesky06.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sky_bluesky06.png",
+      "bytes": 87832,
+      "sha256": "1aa6f3d3fb5a1b9c95fe4688a8839ae484ce46c088e8f18e8ea5b7c7e85c4fff",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sky_bluesky06.png",
+      "source": "model/background/sky_bluesky06.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_door.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_door.png",
+      "bytes": 77000,
+      "sha256": "6ba72d625c3b3e4a0173742a6941d40cebd0c24fbd5c49dec6fbd78485c46835",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_door.png",
+      "source": "model/background/sub_door.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall.png",
+      "bytes": 102625,
+      "sha256": "2d5c01aa80d169d8cfebb0922807a98a519fe8d711ea0ad505a852b2ee421e7c",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall.png",
+      "source": "model/background/sub_wall.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall10.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall10.png",
+      "bytes": 229679,
+      "sha256": "71708e13a9a13e28434e328401d9f0001161015000757b494fe6f3d108a3dc95",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall10.png",
+      "source": "model/background/sub_wall10.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall11.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall11.png",
+      "bytes": 64143,
+      "sha256": "58f1902faf2b207925a8e1c19ddc02fb956aa3cda43f7a38bec76301ad1b5e0a",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall11.png",
+      "source": "model/background/sub_wall11.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall2.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall2.png",
+      "bytes": 130883,
+      "sha256": "d664583b257d31b0bd1db764e7759bd0e3d43620073e49b01207707b9d8b53b0",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall2.png",
+      "source": "model/background/sub_wall2.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall3.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall3.png",
+      "bytes": 126847,
+      "sha256": "1c7cd70f251f7894fb5479961486c00cb398fac290703b7234040cbc08f3a3f3",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall3.png",
+      "source": "model/background/sub_wall3.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall4.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall4.png",
+      "bytes": 126879,
+      "sha256": "dbac293ba42d182549b158c6eba1d9e0eb745dc6daaca7ed627935f374b6e01c",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall4.png",
+      "source": "model/background/sub_wall4.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall5.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall5.png",
+      "bytes": 175179,
+      "sha256": "1e0fa55bb17e2f6e83575964459109eed7566ff2966bc831a759038530a05b58",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall5.png",
+      "source": "model/background/sub_wall5.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall6.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall6.png",
+      "bytes": 157110,
+      "sha256": "9fa823e7ae1807c28aa87664a131e60a42df2c4d65a010021f87d86235ec6c02",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall6.png",
+      "source": "model/background/sub_wall6.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall7.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall7.png",
+      "bytes": 133009,
+      "sha256": "d78a680ad710afabac17120cdc3b828c94ef6109fa310c3c454d6992174e4838",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall7.png",
+      "source": "model/background/sub_wall7.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall8.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall8.png",
+      "bytes": 79030,
+      "sha256": "b5f5faacf76fff388bd0c254bcf8cc5eef146b27f56a70c429248fd83ddf96cc",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall8.png",
+      "source": "model/background/sub_wall8.dds"
+    },
+    {
+      "relative": "textures/model/background/sub_wall9.png",
+      "url": "/assets/s5runtime/practice/textures/model/background/sub_wall9.png",
+      "bytes": 78657,
+      "sha256": "adc8702ea535c59efb4802d4a112f227cd4b6c3c594af0e11415d932111cc5f8",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/background/sub_wall9.png",
+      "source": "model/background/sub_wall9.dds"
+    },
+    {
+      "relative": "textures/effects/smoke4.png",
+      "url": "/assets/s5runtime/practice/textures/effects/smoke4.png",
+      "bytes": 5008,
+      "sha256": "05a32cf0c60153f7725f47e43b89919946100c44f11eae921499ea890cf9423a",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/effects/smoke4.png",
+      "source": "effects/smoke4.dds"
+    },
+    {
+      "relative": "textures/effects/glass_chunks2.png",
+      "url": "/assets/s5runtime/practice/textures/effects/glass_chunks2.png",
+      "bytes": 820,
+      "sha256": "c6c6386ec4e0c0ed31558307492377f624b4c954f9c8b2523d3151b01ea1338b",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/effects/glass_chunks2.png",
+      "source": "effects/glass_chunks2.dds"
+    },
+    {
+      "relative": "textures/effects/smoke2.png",
+      "url": "/assets/s5runtime/practice/textures/effects/smoke2.png",
+      "bytes": 13115,
+      "sha256": "e7b7afd3e86b8eadb63e65cca97815cd40f5cce1c301be2fa132b93c5aa9ec41",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/effects/smoke2.png",
+      "source": "effects/smoke2.dds"
+    },
+    {
+      "relative": "textures/model/weapon/optionsentry_atex.png",
+      "url": "/assets/s5runtime/practice/textures/model/weapon/optionsentry_atex.png",
+      "bytes": 28056,
+      "sha256": "6bf6d29f1b86d8398cd0bcc71d1c17c844051c69d21557ebed820d91a7fd4056",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/model/weapon/optionsentry_atex.png",
+      "source": "model/weapon/optionsentry_atex.dds"
+    },
+    {
+      "relative": "textures/effects/specs.png",
+      "url": "/assets/s5runtime/practice/textures/effects/specs.png",
+      "bytes": 678,
+      "sha256": "f9a93ad1658f383f59cecb7beafd09c56c3155820194a67f35c2f131cb8652c1",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/textures/effects/specs.png",
+      "source": "effects/specs.dds"
+    },
+    {
+      "relative": "maps/52.json",
+      "url": "/assets/s5runtime/practice/maps/52.json",
+      "bytes": 23368241,
+      "sha256": "7794b6d6213fd8ac0198784bbc6052851a3e5060720d01604a8390966050baf1",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/maps/52.json",
+      "source": "mapinfo/bginfo-ms_sstation.ini"
+    },
+    {
+      "relative": "maps/54.json",
+      "url": "/assets/s5runtime/practice/maps/54.json",
+      "bytes": 28087124,
+      "sha256": "866839f4c702db62e1eb2735204ac75c5427f6d8c6dfd9f25a982a353668d4d2",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/maps/54.json",
+      "source": "mapinfo/bginfo-ms_sstation01.ini"
+    },
+    {
+      "relative": "maps/55.json",
+      "url": "/assets/s5runtime/practice/maps/55.json",
+      "bytes": 5053912,
+      "sha256": "9246ee6e85c41b9b53b6b0954cbff4548d359bcb88cb1e45a20f63e166e3c2bc",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/maps/55.json",
+      "source": "mapinfo/bginfo-ms_tunnel.ini"
+    },
+    {
+      "relative": "sentry/model.json",
+      "url": "/assets/s5runtime/practice/sentry/model.json",
+      "bytes": 581188,
+      "sha256": "19ebaff4a6626378a938d2b1c5676e93a8e6c9fab5967e02337ce2813c784055",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/sentry/model.json",
+      "source": "model/weapon/sentrygun.scn"
+    },
+    {
+      "relative": "sound/sentrygun_die.ogg",
+      "url": "/assets/s5runtime/practice/sound/sentrygun_die.ogg",
+      "bytes": 58305,
+      "sha256": "7c490d97a17f81ed13c6a190c39046ca8e461a7bfd01f44f6e8228bd6b66e8ea",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/sound/sentrygun_die.ogg",
+      "source": "sound/sentrygun_die.ogg"
+    },
+    {
+      "relative": "sound/bsentrygun_loading.ogg",
+      "url": "/assets/s5runtime/practice/sound/bsentrygun_loading.ogg",
+      "bytes": 84933,
+      "sha256": "91bf1692517701d02a4b545b3a256d2b4ded81f9089b2acc723b5a6b90b84329",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/sound/bsentrygun_loading.ogg",
+      "source": "sound/bsentrygun_loading.ogg"
+    },
+    {
+      "relative": "sound/sentrygun_blast.ogg",
+      "url": "/assets/s5runtime/practice/sound/sentrygun_blast.ogg",
+      "bytes": 27517,
+      "sha256": "a4f3e1ab51884694275f98fc9222606e1705a95f0b163158bbd481e4b4f511d4",
+      "preparedFile": "work/game-modes/practice-recovery/prepared/sound/sentrygun_blast.ogg",
+      "source": "sound/sentrygun_blast.ogg"
+    },
+    {
+      "relative": "sentry-fx/textures/cure4_1.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/cure4_1.png",
+      "bytes": 16266,
+      "sha256": "e3079a0274bef2561d5ad892327edfb745de5ce297e544db61d5df867575590e",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/cure4_1.png",
+      "source": "effects/cure4_1.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/glass_chunks2.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/glass_chunks2.png",
+      "bytes": 820,
+      "sha256": "c6c6386ec4e0c0ed31558307492377f624b4c954f9c8b2523d3151b01ea1338b",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/glass_chunks2.png",
+      "source": "effects/glass_chunks2.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/graphic1.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/graphic1.png",
+      "bytes": 17752,
+      "sha256": "509867cf659853b8817be27fc05949cbdd47b08499a607c678e6a00d2f5bb358",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/graphic1.png",
+      "source": "effects/graphic1.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/graphic2.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/graphic2.png",
+      "bytes": 1728,
+      "sha256": "1c727dc03c37ad5030099826107ef0d2ced78fb5ff14980fd2fe238d23db2f5e",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/graphic2.png",
+      "source": "effects/graphic2.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/ringring2.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/ringring2.png",
+      "bytes": 15411,
+      "sha256": "eb59757263e19c2f35f28e358118a3103723a1dee3fcc564c5bef726d5680176",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/ringring2.png",
+      "source": "effects/ringring2.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/ringring2b.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/ringring2b.png",
+      "bytes": 15008,
+      "sha256": "9d7a6015fef61ea946d9557e0a8ca3187f25bb1c39ce09465e2ee3f3ed67c1e4",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/ringring2b.png",
+      "source": "effects/ringring2b.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/sentry_pan.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/sentry_pan.png",
+      "bytes": 3507,
+      "sha256": "d4049fb6e9e08416dff10be2776dbaf56d1a6007877cfc61358c24b86f4bbda9",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/sentry_pan.png",
+      "source": "effects/sentry_pan.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/sentry_pan2.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/sentry_pan2.png",
+      "bytes": 3155,
+      "sha256": "7e8e80e815c8dcdfe6934f3b1ad0424b3e1df90f707907bb96172f60f156f801",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/sentry_pan2.png",
+      "source": "effects/sentry_pan2.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/smoke2.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/smoke2.png",
+      "bytes": 13115,
+      "sha256": "e7b7afd3e86b8eadb63e65cca97815cd40f5cce1c301be2fa132b93c5aa9ec41",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/smoke2.png",
+      "source": "effects/smoke2.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/smoke4.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/smoke4.png",
+      "bytes": 5008,
+      "sha256": "05a32cf0c60153f7725f47e43b89919946100c44f11eae921499ea890cf9423a",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/smoke4.png",
+      "source": "effects/smoke4.dds"
+    },
+    {
+      "relative": "sentry-fx/textures/specs.png",
+      "url": "/assets/s5runtime/practice/sentry-fx/textures/specs.png",
+      "bytes": 678,
+      "sha256": "f9a93ad1658f383f59cecb7beafd09c56c3155820194a67f35c2f131cb8652c1",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/textures/specs.png",
+      "source": "effects/specs.dds"
+    },
+    {
+      "relative": "sentry-fx/models/skill_hacker_centrygun_dummy3.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/models/skill_hacker_centrygun_dummy3.json",
+      "bytes": 3272,
+      "sha256": "4bb7bd170cf9902dcd696100cac1b4ad9788da73711d9c527999a209a6f47145",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/models/skill_hacker_centrygun_dummy3.json",
+      "source": "effects/skill_hacker_centrygun_dummy3.scn"
+    },
+    {
+      "relative": "sentry-fx/models/skill_hacker_centrygun_part5.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/models/skill_hacker_centrygun_part5.json",
+      "bytes": 2139390,
+      "sha256": "c37361f1781328303a83c81cbf10aec26189dbc9ad60f4d316c09a5e8dcd2b79",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/models/skill_hacker_centrygun_part5.json",
+      "source": "effects/skill_hacker_centrygun_part5.scn"
+    },
+    {
+      "relative": "sentry-fx/models/skill_hacker_centrygun_part6.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/models/skill_hacker_centrygun_part6.json",
+      "bytes": 1795259,
+      "sha256": "15865770e2b75c7709f8caf0688f9951b30cfddc30b42f88d5faa8f73cf52211",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/models/skill_hacker_centrygun_part6.json",
+      "source": "effects/skill_hacker_centrygun_part6.scn"
+    },
+    {
+      "relative": "sentry-fx/models/skill_hacker_centrygun_part7.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/models/skill_hacker_centrygun_part7.json",
+      "bytes": 181766,
+      "sha256": "f931d8ed29779f530dd1631df9e96e7c8e22ac98392089ad558c6f2b82085506",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/models/skill_hacker_centrygun_part7.json",
+      "source": "effects/skill_hacker_centrygun_part7.scn"
+    },
+    {
+      "relative": "sentry-fx/models/skill_hacker_centrygun_part7a.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/models/skill_hacker_centrygun_part7a.json",
+      "bytes": 184077,
+      "sha256": "bd042f52f0176f15be3378575e5ec2f411a276cfe264ea85d021a30658162711",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/models/skill_hacker_centrygun_part7a.json",
+      "source": "effects/skill_hacker_centrygun_part7a.scn"
+    },
+    {
+      "relative": "sentry-fx/sequences/skill_hacker_sentrygun_2_waiting.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/sequences/skill_hacker_sentrygun_2_waiting.json",
+      "bytes": 9377,
+      "sha256": "ffe9183d810e1c94732d8cebc56a22a0198da0a2ed3d9a69d08bf964e5555861",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/sequences/skill_hacker_sentrygun_2_waiting.json",
+      "source": "effects/skill_hacker_sentrygun_2_waiting.seq"
+    },
+    {
+      "relative": "sentry-fx/sequences/skill_hacker_sentrygun_2_attack.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/sequences/skill_hacker_sentrygun_2_attack.json",
+      "bytes": 9387,
+      "sha256": "6e7d5e703146e5e0e5396e9186250ac563f8b3d32ce0d805383a81947ab7abc8",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/sequences/skill_hacker_sentrygun_2_attack.json",
+      "source": "effects/skill_hacker_sentrygun_2_attack.seq"
+    },
+    {
+      "relative": "sentry-fx/sequences/mapeffect_blast_glass.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/sequences/mapeffect_blast_glass.json",
+      "bytes": 27051,
+      "sha256": "bc277b3138049d3c0526517c0fd8f67c20a75922f200df703427ae3e284e0c1e",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/sequences/mapeffect_blast_glass.json",
+      "source": "effects/mapeffect_blast_glass.seq"
+    },
+    {
+      "relative": "sentry-fx/profiles.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/profiles.json",
+      "bytes": 3519,
+      "sha256": "e0a07ce39692e804440c4b7c5925e06d63cf7cad72e3c2911b7fdfc32a116e99",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/profiles.json",
+      "source": "script/sentrygunattribindexer.lua"
+    },
+    {
+      "relative": "sentry-fx/bundle.json",
+      "url": "/assets/s5runtime/practice/sentry-fx/bundle.json",
+      "bytes": 41163,
+      "sha256": "f738b9eba4c5a07f8867d9a82271092e38da64b10fb3ebed5b0cb422d9cb3015",
+      "preparedFile": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/bundle.json",
+      "source": "authenticated Sentry dependency graph"
+    }
+  ],
+  "maps": [
+    {
+      "mapId": 52,
+      "asset": "/assets/s5runtime/practice/maps/52.json",
+      "complete": false,
+      "missing": [
+        {
+          "mapId": 52,
+          "parent": "mapinfo/bginfo-ms_sstation.ini",
+          "line": 113,
+          "section": "STATIC",
+          "literal": "st02_spawn_death.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 52,
+          "parent": "mapinfo/bginfo-ms_sstation.ini",
+          "line": 115,
+          "section": "STATIC",
+          "literal": "ds5_station_octadd.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 52,
+          "parent": "mapinfo/bginfo-ms_sstation.ini",
+          "line": 117,
+          "section": "STATIC",
+          "literal": "ds6_station02_occlusion.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 52,
+          "parent": "mapinfo/bginfo-ms_sstation.ini",
+          "line": 123,
+          "section": "DYNAMIC",
+          "literal": "ds5_goal_arrow.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        }
+      ],
+      "sceneCount": 5
+    },
+    {
+      "mapId": 54,
+      "asset": "/assets/s5runtime/practice/maps/54.json",
+      "complete": false,
+      "missing": [
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 110,
+          "section": "STATIC",
+          "literal": "st01_spawn_death.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 113,
+          "section": "STATIC",
+          "literal": "ds5_station01_occlusion.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 117,
+          "section": "DYNAMIC",
+          "literal": "ds5_effsafe.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 118,
+          "section": "DYNAMIC",
+          "literal": "ds5_dynamic.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 119,
+          "section": "DYNAMIC",
+          "literal": "ds4_station01_arrow.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        }
+      ],
+      "sceneCount": 3
+    },
+    {
+      "mapId": 55,
+      "asset": "/assets/s5runtime/practice/maps/55.json",
+      "complete": false,
+      "missing": [
+        {
+          "mapId": 55,
+          "parent": "mapinfo/bginfo-ms_tunnel.ini",
+          "line": 107,
+          "section": "STATIC",
+          "literal": "ds0_test.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 55,
+          "parent": "mapinfo/bginfo-ms_tunnel.ini",
+          "line": 111,
+          "section": "STATIC",
+          "literal": "ds0_fullscenerendertarget.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 55,
+          "parent": "mapinfo/bginfo-ms_tunnel.ini",
+          "line": 115,
+          "section": "DYNAMIC",
+          "literal": "ds0_test_line.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 55,
+          "parent": "mapinfo/bginfo-ms_tunnel.ini",
+          "line": 116,
+          "section": "DYNAMIC",
+          "literal": "ds0_test_arrow.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 55,
+          "parent": "mapinfo/bginfo-ms_tunnel.ini",
+          "line": 117,
+          "section": "DYNAMIC",
+          "literal": "ds0_text.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        }
+      ],
+      "sceneCount": 3
+    }
+  ],
+  "nativeReady": false,
+  "browserObserved": false,
+  "limits": [
+    "Maps52/54 retain4/5 absent source scenes; map55 lacks recovered collision.",
+    "Exact derived geometry/textures/SEQ structures plus original OGG; no substitute for absent sound or scene.",
+    "Public availability does not establish SEQ rendering, attack damage, score or native result."
+  ],
+  "preparedManifests": [
+    {
+      "path": "work/game-modes/practice-recovery/prepared/manifest.json",
+      "sha256": "a4aa0addcec8743b677a16e9898eb1191c9abd81a644d149ee444aaa54e8def6"
+    },
+    {
+      "path": "work/game-modes/practice-recovery/sentry-behavior-staged/prepared/manifest.json",
+      "sha256": "96cded5513005ce33a8c12c1299ded68c493882453374c4f5fb1a9de9df14a42"
+    }
+  ]
+}

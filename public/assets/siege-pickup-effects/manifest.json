@@ -1,0 +1,233 @@
+{
+  "format": "mode-world-effects-assets-v1",
+  "assets": [
+    {
+      "source": "effects/aura_03.dds",
+      "sourceSha256": "a8be433089b774a7dfe4135ce72b0f773a981274f959e62a410b9fb33d7cbb47",
+      "file": "effects/aura_03.png",
+      "sha256": "8b1a66448b0ca90474c113f39334d9df36be1d4265315bec76e3c29e824cf1b5",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "source": "effects/d100_st_boss_fog01.dds",
+      "sourceSha256": "4135e246ef563ee857580741dd1ad71ce894a9a4291f1afed8f5b3ea2544342d",
+      "file": "effects/d100_st_boss_fog01.png",
+      "sha256": "60e5354c020d766c330b5b524b90879fe79d3b1aec81273d4cb0e65b764ef706",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/drain4a.dds",
+      "sourceSha256": "c56507c9b1b7185afccd293c34809adbad52013f44583ef1e2d33c1bde2a2884",
+      "file": "effects/drain4a.png",
+      "sha256": "923096bf8c14bec51677ac98cff98a600378cbbe799aff5a0eb168b6fb15132c",
+      "width": 64,
+      "height": 256
+    },
+    {
+      "source": "effects/enemy_res4_nomipmap.dds",
+      "sourceSha256": "276cbcd1966da1b7b9eb900a1392e8607625af0912f15a46506936077fed15ac",
+      "file": "effects/enemy_res4_nomipmap.png",
+      "sha256": "e5024e57e1ab1467d2c787df7ab5417f1a1a68a7a751a2a94594443cd0cc026d",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "effects/item_get.seq",
+      "sourceSha256": "0d2e22a81b378f752f6db3c77606a2b94859aafd20d584edc955e5cd4b61b239",
+      "decodedSha256": "0d2e22a81b378f752f6db3c77606a2b94859aafd20d584edc955e5cd4b61b239",
+      "file": "effects/item_get.seq.json",
+      "sha256": "b7099710931cc223ac30265c11befb77abf4c598301c09487a8100de9d28f05d",
+      "nodeTypes": [
+        "CActParticle",
+        "CActParticle",
+        "CActParticle",
+        "CActParticle",
+        "CActParticle",
+        "CActParticle",
+        "CActParticle",
+        "CActParticle"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/skill_templar_divcure4_nomipmap.dds",
+      "sourceSha256": "b8cc253ad65c94b9b482efdc76d9f89ca9a1f55f63008bc0a267b0648034077b",
+      "file": "effects/skill_templar_divcure4_nomipmap.png",
+      "sha256": "cfa4e673d37ec323f4605600bbabfa77c21a146aca2ad40bb09f505cc4f8eed5",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "effects/tick4.dds",
+      "sourceSha256": "cc7fa91fa84375e1f80a9fded71c9058fc44dded3c07d205bec59074e5977f57",
+      "file": "effects/tick4.png",
+      "sha256": "5ac880820af34af6f36430b41e346d019e608df9a5f269e9918621ddae9a9f43",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "source": "sound/item_drop.ogg",
+      "file": "sound/item_drop.ogg",
+      "sha256": "54108697b768b5eefa1477274a738b986baca9302b78194dc18d811e5421b0ce"
+    },
+    {
+      "source": "sound/item_gain.ogg",
+      "file": "sound/item_gain.ogg",
+      "sha256": "0b51870465d2e3c1f018c6a953cc23f5c84b41f0e0688a13cba9024cbbf2b22b"
+    }
+  ],
+  "bindings": [
+    {
+      "owner": "effects/item_get.seq",
+      "kind": "texture",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.bmp",
+      "rebasedPath": "effects/enemy_res4_nomipmap.bmp",
+      "preferredDdsPath": "effects/enemy_res4_nomipmap.dds",
+      "selectedPath": "effects/enemy_res4_nomipmap.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ]
+    },
+    {
+      "owner": "effects/item_get.seq",
+      "kind": "texture",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_templar_divcure4_nomipmap.dds",
+      "rebasedPath": "effects/skill_templar_divcure4_nomipmap.dds",
+      "preferredDdsPath": "effects/skill_templar_divcure4_nomipmap.dds",
+      "selectedPath": "effects/skill_templar_divcure4_nomipmap.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ]
+    },
+    {
+      "owner": "effects/item_get.seq",
+      "kind": "texture",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\tick4.bmp",
+      "rebasedPath": "effects/tick4.bmp",
+      "preferredDdsPath": "effects/tick4.dds",
+      "selectedPath": "effects/tick4.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ]
+    },
+    {
+      "owner": "effects/item_get.seq",
+      "kind": "texture",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\drain4a.bmp",
+      "rebasedPath": "effects/drain4a.bmp",
+      "preferredDdsPath": "effects/drain4a.dds",
+      "selectedPath": "effects/drain4a.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ]
+    },
+    {
+      "owner": "effects/item_get.seq",
+      "kind": "texture",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.bmp",
+      "rebasedPath": "effects/enemy_res4_nomipmap.bmp",
+      "preferredDdsPath": "effects/enemy_res4_nomipmap.dds",
+      "selectedPath": "effects/enemy_res4_nomipmap.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ]
+    },
+    {
+      "owner": "effects/item_get.seq",
+      "kind": "texture",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\aura_03.dds",
+      "rebasedPath": "effects/aura_03.dds",
+      "preferredDdsPath": "effects/aura_03.dds",
+      "selectedPath": "effects/aura_03.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ]
+    },
+    {
+      "owner": "effects/item_get.seq",
+      "kind": "texture",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\d100_st_boss_fog01.dds",
+      "rebasedPath": "effects/d100_st_boss_fog01.dds",
+      "preferredDdsPath": "effects/d100_st_boss_fog01.dds",
+      "selectedPath": "effects/d100_st_boss_fog01.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ]
+    },
+    {
+      "owner": "effects/item_get.seq",
+      "kind": "texture",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.bmp",
+      "rebasedPath": "effects/enemy_res4_nomipmap.bmp",
+      "preferredDdsPath": "effects/enemy_res4_nomipmap.dds",
+      "selectedPath": "effects/enemy_res4_nomipmap.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ]
+    }
+  ],
+  "excluded": [],
+  "integrated": false,
+  "nativeStateDispatchVerified": false,
+  "nativePlacementVerified": false,
+  "browserObserved": false,
+  "note": "Original geometry, animation and decoded texture pixels. Source recovery does not establish event dispatch or game integration."
+}

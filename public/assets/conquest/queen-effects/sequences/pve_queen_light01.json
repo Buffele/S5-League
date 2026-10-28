@@ -1,0 +1,157 @@
+{
+  "format": "s5-sequence-inspection-v1",
+  "source": "effects/pve_queen_light01.seq",
+  "sha256": "9707761664f0986c4ea26304937e37ecb2fd1665b9dda33ec7805079cdfa3664",
+  "byteLength": 143,
+  "header": {
+    "versionField": 0.10000000149011612,
+    "name": {
+      "value": "",
+      "rawHex": ""
+    },
+    "byteField": 1,
+    "durationField": 1000,
+    "nodeCount": 1,
+    "byteRange": {
+      "start": 0,
+      "end": 14
+    }
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 14,
+        "end": 143,
+        "length": 129
+      },
+      "sha256": "2642271235d0aa6a54664e14b9c01061d40cd01351085a2e89b88709c0ba95fe",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_light01.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f6c6967687430312e73636e",
+          "resourcePath": "effects/pve_queen_light01.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 33,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 37,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 42,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 46,
+            "rawHex": "e8030000",
+            "int32": 1000,
+            "float32": 1.401298464324817e-42
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_light01.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f6c6967687430312e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": true,
+        "field84": {
+          "offset": 118,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "field88": {
+          "offset": 122,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 127,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 131,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 135,
+            "end": 143,
+            "length": 8
+          }
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "nodeIndex": 0,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_light01.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f6c6967687430312e73636e",
+      "resourcePath": "effects/pve_queen_light01.scn",
+      "extension": "scn",
+      "kind": "model"
+    }
+  ],
+  "coverage": {
+    "envelopeBytesAccountedFor": 143,
+    "reachesExactEof": true,
+    "structuredNodeCount": 1,
+    "fullyStructured": true,
+    "fieldMeaningFullyValidated": false,
+    "rendered": false,
+    "qualification": "Header, base, Particle, Particle_IF, GhostTrail, Lightning, NodeControl, NodeLoader and NodeLoader_IF are consumed sequentially along statically traced native reader branches. Unvalidated four-byte fields retain raw/int/float views. No runtime rendering has been verified."
+  },
+  "diagnostics": {
+    "scannedCActOffsets": [
+      14
+    ],
+    "parsedNodeStarts": [
+      14
+    ],
+    "markerScanMatchesParsedStarts": true,
+    "markerScanUsedForParsing": false
+  }
+}

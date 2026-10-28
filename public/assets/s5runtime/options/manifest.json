@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-15T14:55:44.936036+00:00",
+  "sources": [
+    {
+      "path": "language/font_config.x7",
+      "checksum": "0e88ef72",
+      "plainLength": 6006,
+      "storedLength": 2147,
+      "dataOffset": 50369592,
+      "archive": "package/61.xs",
+      "key": "7b7197f20587f32f",
+      "method": "known-header-crc32",
+      "sha256": "54f034144c7bbe6913c8ee1526cd7cd4f95b633e00582475991b2eee9c7701be",
+      "storedSha256": "c82d352ada944e2002ec1f4309c1f944efb9adf65bed83a34bed252207ce5201",
+      "output": "work\\options-native-view-staged\\source\\language\\font_config.x7"
+    },
+    {
+      "path": "xui/image/lobby/lobby_option.dds",
+      "checksum": "4e2ae13c",
+      "plainLength": 5529528,
+      "storedLength": 594179,
+      "dataOffset": 47137305,
+      "archive": "package/67.xs",
+      "key": "be714c8f1974b06a",
+      "method": "known-header-crc32",
+      "sha256": "ca4f00da05104590dfcdf45b6e6634a5052f5256bb9a6a45e05aeeab97e4ae52",
+      "storedSha256": "93b44b7392b0ba0054a9c3498c808f21363db995d0e5e03dd46f58fd0617f832",
+      "output": "work\\options-native-view-staged\\source\\xui\\image\\lobby\\lobby_option.dds"
+    },
+    {
+      "path": "xui/image/lobby/login_popup.dds",
+      "checksum": "7cf5114d",
+      "plainLength": 11059168,
+      "storedLength": 3658355,
+      "dataOffset": 19340102,
+      "archive": "package/68.xs",
+      "key": "680bffd450672442",
+      "method": "known-header-crc32",
+      "sha256": "36a267f209ce7bd606516433c2aab37c2925d96dcba6cbccf9fb7ef160eccc9b",
+      "storedSha256": "bd951b21c6f7e795cb4946d469926c44169c21dce79c9d0cfe7ccd52a7e36b3b",
+      "output": "work\\options-native-view-staged\\source\\xui\\image\\lobby\\login_popup.dds"
+    },
+    {
+      "path": "gui/netsphimere.otf",
+      "checksum": "01c8e112",
+      "plainLength": 233048,
+      "storedLength": 164669,
+      "dataOffset": 1547363,
+      "archive": "package/2.xs",
+      "sha256": "9fce4656a115617ef4dad0e34da0ead87dff9f356c72e1b2a24b650ed4e0ca35",
+      "storedSha256": "88fc7501fc67b062afdce4c25e6456d6642c7e367423b2231d392f7c1323c885",
+      "key": "e28df8c39389af20",
+      "method": "known-header-crc32",
+      "output": "work\\options-native-view-staged\\source\\gui\\netsphimere.otf"
+    },
+    {
+      "path": "xui/image/lobby/lobby_makeroom.dds",
+      "checksum": "ca9f0d95",
+      "plainLength": 5375180,
+      "storedLength": 827354,
+      "dataOffset": 19750033,
+      "archive": "package/71.xs",
+      "sha256": "474a5972ae0d91faabfa3c3f801bbea1d3a60618cf596a7dbbe2cd339a87b3e0",
+      "storedSha256": "d7eac08456ba2b9127f188ae604718d161eba709265204df648f18ebf1b60a70",
+      "key": "6e4232f0c80d4284",
+      "method": "known-header-crc32",
+      "output": "work\\options-native-view-staged\\source\\xui\\image\\lobby\\lobby_makeroom.dds"
+    },
+    {
+      "path": "xui/image/lobby/lobby_roomlist.dds",
+      "checksum": "e5f4eadf",
+      "plainLength": 5529528,
+      "storedLength": 1297753,
+      "dataOffset": 76160545,
+      "archive": "package/24.xs",
+      "sha256": "1a979d022197885147c9dc8b6df0213ed6b83f4cc2d9f867ee776c824aac9ee3",
+      "storedSha256": "a7a2a2dc6b8e96eaa502a8d92b4e8965f47e331d628c29973f594c39a3f670f9",
+      "key": "d887a01cfbc5f1e7",
+      "method": "known-header-crc32",
+      "output": "work\\options-native-view-staged\\source\\xui\\image\\lobby\\lobby_roomlist.dds"
+    },
+    {
+      "path": "xui/image/lobby/lobby_help.dds",
+      "checksum": "b12168b9",
+      "plainLength": 11059168,
+      "storedLength": 903177,
+      "dataOffset": 134443721,
+      "archive": "package/24.xs",
+      "sha256": "89986125098c17583384144bc81e0764f205edc5f50ddf7b7ef45d69d4f389a1",
+      "storedSha256": "6861c69fa8fdeb1f8841cda2e93563b3e04c2b18f11797b9ead351d17ce3abf5",
+      "key": "00c63a6b5ee3d7e1",
+      "method": "known-header-crc32",
+      "output": "work\\options-native-view-staged\\source\\xui\\image\\lobby\\lobby_help.dds"
+    },
+    {
+      "path": "xui/image/common/textbox_cursor.dds",
+      "checksum": "bbf3d716",
+      "plainLength": 1152,
+      "storedLength": 221,
+      "dataOffset": 95945260,
+      "archive": "package/76.xs",
+      "sha256": "fe8f36862387ce3710f20148dc1065da041c56526862f88fdae58dbe1346bca2",
+      "storedSha256": "ae6cc009ef4bf2a7b00fdf0d63b2b192f75a6b57e189762d27126b98a8f75040",
+      "key": "5ab329959ed4c03d",
+      "method": "known-header-crc32",
+      "output": "work\\options-native-view-staged\\source\\xui\\image\\common\\textbox_cursor.dds"
+    }
+  ],
+  "xui": {
+    "path": "xui/ui/lobby_option.xui",
+    "sha256": "d161f7ffe24f54caebc9d9739513ad13467ee959e0b8a6df1ff79b40101b9e18",
+    "crc32": "63a2e111",
+    "size": 335155
+  },
+  "outputs": [
+    {
+      "source": "xui/image/lobby/lobby_option.dds",
+      "sourceSha256": "ca4f00da05104590dfcdf45b6e6634a5052f5256bb9a6a45e05aeeab97e4ae52",
+      "output": "lobby_option.png",
+      "size": [
+        720,
+        1440
+      ],
+      "sha256": "e4e8d93b03e62c702600d813b3d147f3b7d673c26eea04fad0ac7212abf772ac",
+      "rgbaPixelSha256": "02e1038c61fe2315238c766958ca708796380adb9f81762622ee803e33dcad09",
+      "published": "/assets/s5runtime/options/lobby_option.png"
+    },
+    {
+      "source": "xui/image/lobby/login_popup.dds",
+      "sourceSha256": "36a267f209ce7bd606516433c2aab37c2925d96dcba6cbccf9fb7ef160eccc9b",
+      "output": "login_popup.png",
+      "size": [
+        1440,
+        1440
+      ],
+      "sha256": "383bcd4a89008fb5b8da8a2f32af5ef1fb0f5cd810f9fa6c9bbc51a14eb17012",
+      "rgbaPixelSha256": "08b555ce3899d06d833e559ed49e8f567814370c7cb3d62f3af1c991dcf83c29",
+      "published": "/assets/s5runtime/options/login_popup.png"
+    },
+    {
+      "source": "xui/image/lobby/lobby_makeroom.dds",
+      "sourceSha256": "474a5972ae0d91faabfa3c3f801bbea1d3a60618cf596a7dbbe2cd339a87b3e0",
+      "output": "lobby_makeroom.png",
+      "size": [
+        1440,
+        700
+      ],
+      "sha256": "b6a717526f7f51ed70211891423adb553dd2ac26d1545536f732f3dbfd70763f",
+      "rgbaPixelSha256": "a1d8643413c9866cbbaa6e186cd8dede0ec925d572ef25329b6b5507803017f4",
+      "published": "/assets/s5runtime/options/lobby_makeroom.png"
+    },
+    {
+      "source": "xui/image/lobby/lobby_roomlist.dds",
+      "sourceSha256": "1a979d022197885147c9dc8b6df0213ed6b83f4cc2d9f867ee776c824aac9ee3",
+      "output": "lobby_roomlist.png",
+      "size": [
+        1440,
+        720
+      ],
+      "sha256": "4ed74064bedf84117d0ff1418a84763e2d0a573891b97ccf0d65e7af384adafe",
+      "rgbaPixelSha256": "231952494f40dc4040fc1bea34c8e250c061b97a2e5aee223d329ae72a983be5",
+      "published": "/assets/s5runtime/options/lobby_roomlist.png"
+    },
+    {
+      "source": "xui/image/lobby/lobby_help.dds",
+      "sourceSha256": "89986125098c17583384144bc81e0764f205edc5f50ddf7b7ef45d69d4f389a1",
+      "output": "lobby_help.png",
+      "size": [
+        1440,
+        1440
+      ],
+      "sha256": "92abfd4ded39bae863262f3ed52e1832d75cc1be388bd817c95e8d04adc60fea",
+      "rgbaPixelSha256": "b8862d1e173afbbc9f29bde912e46cf25761b91a235727675f4d9615f8f9e5c3",
+      "published": "/assets/s5runtime/options/lobby_help.png"
+    },
+    {
+      "source": "xui/image/common/textbox_cursor.dds",
+      "sourceSha256": "fe8f36862387ce3710f20148dc1065da041c56526862f88fdae58dbe1346bca2",
+      "output": "textbox_cursor.png",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "2219023b62f24fee4d6a35d78c9f6af4e060d1272d4a25131c3c209f667fa61b",
+      "rgbaPixelSha256": "f2b5ef9d7ec37a313ee85b570ba9bed0e844be19ee0393c742353b41d9986744",
+      "published": "/assets/s5runtime/options/textbox_cursor.png"
+    },
+    {
+      "source": "gui/netsphimere.otf",
+      "sourceSha256": "9fce4656a115617ef4dad0e34da0ead87dff9f356c72e1b2a24b650ed4e0ca35",
+      "output": "netsphimere-options.woff2",
+      "sha256": "dfec6b238d4c79355eb52f8c165f32b75bf88e590828c18edce88a30d471ebc5",
+      "published": "/assets/s5runtime/options/netsphimere-options.woff2"
+    }
+  ],
+  "fontProof": {
+    "sourceSha256": "9fce4656a115617ef4dad0e34da0ead87dff9f356c72e1b2a24b650ed4e0ca35",
+    "woff2Sha256": "dfec6b238d4c79355eb52f8c165f32b75bf88e590828c18edce88a30d471ebc5",
+    "otsOriginalExit": 0,
+    "glyphCount": 1126,
+    "cmapAndMetricsEqual": true,
+    "sourceFontConfig": "language/font_config.x7",
+    "fontAliasSizes": {
+      "2002_8": 7,
+      "2002_10": 9,
+      "2002_11": 10
+    },
+    "fontFamily": "gui/netsphimere.otf",
+    "nativeBrowserObserved": false,
+    "cffOutlineBytesEqual": true
+  },
+  "runtimeImported": false,
+  "nativeReady": false
+}

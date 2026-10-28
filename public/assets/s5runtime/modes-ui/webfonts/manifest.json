@@ -1,0 +1,340 @@
+{
+  "format": "native-source-derived-webfonts-v1",
+  "resources": [
+    {
+      "source": {
+        "path": "xui2/fonts/netsphimere.otf",
+        "archive": "24.xs",
+        "plainLength": 253576,
+        "checksum": "28630fea",
+        "sha256": "6bd14367937a59907856d682a3f6852d76e8829a8f55a4b7c3128b7e729438fc"
+      },
+      "http": {
+        "status": 200,
+        "headers": {
+          "Vary": "Origin",
+          "Content-Length": "253576",
+          "Content-Type": "font/otf",
+          "Last-Modified": "Thu, 15 Oct 2026 08:51:09 GMT",
+          "ETag": "W/\"253576-1792054269255\"",
+          "Cache-Control": "no-cache",
+          "Date": "Thu, 15 Oct 2026 10:19:25 GMT",
+          "Connection": "close"
+        },
+        "sha256": "6bd14367937a59907856d682a3f6852d76e8829a8f55a4b7c3128b7e729438fc"
+      },
+      "name": "netsphimere",
+      "sourceOS2": {
+        "version": 5,
+        "bytes": 96
+      },
+      "repair": "OS/2 version5->4 to match the existing96-byte v4 table; table checksum and whole-font adjustment updated",
+      "originalOts": {
+        "exitCode": 1,
+        "stdout": "Failed to sanitize file!\n",
+        "stderr": "ERROR: OS/2: Failed to read version 5-specific fields\nERROR: OS/2: Failed to parse table\n"
+      },
+      "repairedOts": {
+        "exitCode": 0,
+        "stdout": "File sanitized successfully!\n",
+        "stderr": ""
+      },
+      "preparedUrl": "/assets/s5runtime/modes-ui/webfonts/netsphimere.woff2",
+      "file": "prepared/netsphimere.woff2",
+      "sha256": "683a2538cda05810905dde871c8bc00006d53ae19c5b3ddd204d57f5497165a4",
+      "bytes": 103512,
+      "glyphCount": 1168,
+      "cmapCount": 1134,
+      "outlineHash": "8299f7731ce892745070055492bddd92c03419d28503735751a6b0994600e02d",
+      "preservedGlyphOrder": true,
+      "preservedCmap": true,
+      "preservedMetrics": true,
+      "untouchedSourceTablesBeforeSanitizer": [
+        "hhea",
+        "maxp",
+        "name",
+        "cmap",
+        "post",
+        "CFF ",
+        "GDEF",
+        "GSUB",
+        "GPOS",
+        "FFTM",
+        "hmtx"
+      ],
+      "woff2OtsExitCode": 0,
+      "sanitizerDroppedTables": [
+        "FFTM"
+      ],
+      "publicationHttpAttempts": [
+        {
+          "status": 200,
+          "contentType": "font/woff2",
+          "bytes": 103512,
+          "sha256": "683a2538cda05810905dde871c8bc00006d53ae19c5b3ddd204d57f5497165a4"
+        }
+      ],
+      "publishedHttp": {
+        "status": 200,
+        "contentType": "font/woff2",
+        "bytes": 103512,
+        "sha256": "683a2538cda05810905dde871c8bc00006d53ae19c5b3ddd204d57f5497165a4"
+      }
+    },
+    {
+      "source": {
+        "path": "xui2/fonts/netsphimere-semiboldcondenseditalic.otf",
+        "archive": "24.xs",
+        "plainLength": 283868,
+        "checksum": "d8d46b62",
+        "sha256": "054bc1ce865a0ff8c5e59cc02cc854e074ee1dbb4d8cdc292e2866a73e47a2bf"
+      },
+      "http": {
+        "status": 200,
+        "headers": {
+          "Vary": "Origin",
+          "Content-Length": "283868",
+          "Content-Type": "font/otf",
+          "Last-Modified": "Thu, 15 Oct 2026 08:51:09 GMT",
+          "ETag": "W/\"283868-1792054269251\"",
+          "Cache-Control": "no-cache",
+          "Date": "Thu, 15 Oct 2026 10:19:28 GMT",
+          "Connection": "close"
+        },
+        "sha256": "054bc1ce865a0ff8c5e59cc02cc854e074ee1dbb4d8cdc292e2866a73e47a2bf"
+      },
+      "name": "netsphimere-semiboldcondenseditalic",
+      "sourceOS2": {
+        "version": 5,
+        "bytes": 96
+      },
+      "repair": "OS/2 version5->4 to match the existing96-byte v4 table; table checksum and whole-font adjustment updated",
+      "originalOts": {
+        "exitCode": 1,
+        "stdout": "Failed to sanitize file!\n",
+        "stderr": "ERROR: OS/2: Failed to read version 5-specific fields\nERROR: OS/2: Failed to parse table\n"
+      },
+      "repairedOts": {
+        "exitCode": 0,
+        "stdout": "File sanitized successfully!\n",
+        "stderr": ""
+      },
+      "preparedUrl": "/assets/s5runtime/modes-ui/webfonts/netsphimere-semiboldcondenseditalic.woff2",
+      "file": "prepared/netsphimere-semiboldcondenseditalic.woff2",
+      "sha256": "58c063af4787f74bbd1b8a5c9aff907484ab65770d81bcd4f42dbf43ec0e0c77",
+      "bytes": 114716,
+      "glyphCount": 1168,
+      "cmapCount": 1134,
+      "outlineHash": "32f67b8909f863d1bf53ee5732502f3dffecf7f201c1e9633668e59327a44c2d",
+      "preservedGlyphOrder": true,
+      "preservedCmap": true,
+      "preservedMetrics": true,
+      "untouchedSourceTablesBeforeSanitizer": [
+        "hhea",
+        "maxp",
+        "name",
+        "cmap",
+        "post",
+        "CFF ",
+        "GDEF",
+        "GSUB",
+        "GPOS",
+        "FFTM",
+        "hmtx"
+      ],
+      "woff2OtsExitCode": 0,
+      "sanitizerDroppedTables": [
+        "FFTM"
+      ],
+      "publicationHttpAttempts": [
+        {
+          "status": 200,
+          "contentType": "font/woff2",
+          "bytes": 114716,
+          "sha256": "58c063af4787f74bbd1b8a5c9aff907484ab65770d81bcd4f42dbf43ec0e0c77"
+        }
+      ],
+      "publishedHttp": {
+        "status": 200,
+        "contentType": "font/woff2",
+        "bytes": 114716,
+        "sha256": "58c063af4787f74bbd1b8a5c9aff907484ab65770d81bcd4f42dbf43ec0e0c77"
+      }
+    },
+    {
+      "source": {
+        "path": "xui2/fonts/netsphimere-static.otf",
+        "archive": "24.xs",
+        "plainLength": 284460,
+        "checksum": "ea997c88",
+        "sha256": "d8dcbb6e9e5e786cf7f68f13598efaa8047d6fe5eb7f7be24c6ae840b3eef205"
+      },
+      "http": {
+        "status": 200,
+        "headers": {
+          "Vary": "Origin",
+          "Content-Length": "284460",
+          "Content-Type": "font/otf",
+          "Last-Modified": "Thu, 15 Oct 2026 08:51:09 GMT",
+          "ETag": "W/\"284460-1792054269249\"",
+          "Cache-Control": "no-cache",
+          "Date": "Thu, 15 Oct 2026 10:19:30 GMT",
+          "Connection": "close"
+        },
+        "sha256": "d8dcbb6e9e5e786cf7f68f13598efaa8047d6fe5eb7f7be24c6ae840b3eef205"
+      },
+      "name": "netsphimere-static",
+      "sourceOS2": {
+        "version": 5,
+        "bytes": 96
+      },
+      "repair": "OS/2 version5->4 to match the existing96-byte v4 table; table checksum and whole-font adjustment updated",
+      "originalOts": {
+        "exitCode": 1,
+        "stdout": "Failed to sanitize file!\n",
+        "stderr": "ERROR: OS/2: Failed to read version 5-specific fields\nERROR: OS/2: Failed to parse table\n"
+      },
+      "repairedOts": {
+        "exitCode": 0,
+        "stdout": "File sanitized successfully!\n",
+        "stderr": ""
+      },
+      "preparedUrl": "/assets/s5runtime/modes-ui/webfonts/netsphimere-static.woff2",
+      "file": "prepared/netsphimere-static.woff2",
+      "sha256": "e36d5efba442e3adc66119de9bdb116496b4234583024a8ee6ce53981444d6a5",
+      "bytes": 109392,
+      "glyphCount": 1168,
+      "cmapCount": 1134,
+      "outlineHash": "13b2afbdda96f4f47a601a4baffe808e07e20283c6075aca88e4e719039015b9",
+      "preservedGlyphOrder": true,
+      "preservedCmap": true,
+      "preservedMetrics": true,
+      "untouchedSourceTablesBeforeSanitizer": [
+        "hhea",
+        "maxp",
+        "name",
+        "cmap",
+        "post",
+        "CFF ",
+        "GDEF",
+        "GSUB",
+        "GPOS",
+        "FFTM",
+        "hmtx"
+      ],
+      "woff2OtsExitCode": 0,
+      "sanitizerDroppedTables": [
+        "FFTM"
+      ],
+      "publicationHttpAttempts": [
+        {
+          "status": 200,
+          "contentType": "font/woff2",
+          "bytes": 109392,
+          "sha256": "e36d5efba442e3adc66119de9bdb116496b4234583024a8ee6ce53981444d6a5"
+        }
+      ],
+      "publishedHttp": {
+        "status": 200,
+        "contentType": "font/woff2",
+        "bytes": 109392,
+        "sha256": "e36d5efba442e3adc66119de9bdb116496b4234583024a8ee6ce53981444d6a5"
+      }
+    },
+    {
+      "source": {
+        "path": "xui2/fonts/acephimere-bold.otf",
+        "archive": "51.xs",
+        "plainLength": 135468,
+        "checksum": "9989df45",
+        "sha256": "5ccaf6cbb608ec66132e6a025ce36b7839452e91f504e1d44c9656dd348ce641"
+      },
+      "http": {
+        "status": 200,
+        "headers": {
+          "Vary": "Origin",
+          "Content-Length": "135468",
+          "Content-Type": "font/otf",
+          "Last-Modified": "Thu, 15 Oct 2026 08:51:09 GMT",
+          "ETag": "W/\"135468-1792054269272\"",
+          "Cache-Control": "no-cache",
+          "Date": "Thu, 15 Oct 2026 10:19:33 GMT",
+          "Connection": "close"
+        },
+        "sha256": "5ccaf6cbb608ec66132e6a025ce36b7839452e91f504e1d44c9656dd348ce641"
+      },
+      "name": "acephimere-bold",
+      "sourceOS2": {
+        "version": 5,
+        "bytes": 100
+      },
+      "repair": "No source repair required",
+      "originalOts": {
+        "exitCode": 0,
+        "stdout": "File sanitized successfully!\n",
+        "stderr": ""
+      },
+      "repairedOts": {
+        "exitCode": 0,
+        "stdout": "File sanitized successfully!\n",
+        "stderr": ""
+      },
+      "preparedUrl": "/assets/s5runtime/modes-ui/webfonts/acephimere-bold.woff2",
+      "file": "prepared/acephimere-bold.woff2",
+      "sha256": "24eff75a1b6ccd4b6fded8a65c0a53d7802e3f5f476231ac5551011eb1690521",
+      "bytes": 45468,
+      "glyphCount": 1168,
+      "cmapCount": 1134,
+      "outlineHash": "b3de5ff35b38688a665be12d55d9bf6b1325d5650acd6503e89ab1f74c3e41c7",
+      "preservedGlyphOrder": true,
+      "preservedCmap": true,
+      "preservedMetrics": true,
+      "untouchedSourceTablesBeforeSanitizer": [
+        "GDEF",
+        "GPOS",
+        "GSUB",
+        "cmap",
+        "glyf",
+        "hhea",
+        "hmtx",
+        "loca",
+        "maxp",
+        "name",
+        "post",
+        "gasp",
+        "cvt ",
+        "fpgm",
+        "prep",
+        "DSIG"
+      ],
+      "woff2OtsExitCode": 0,
+      "sanitizerDroppedTables": [
+        "DSIG"
+      ],
+      "publicationHttpAttempts": [
+        {
+          "status": 200,
+          "contentType": "font/woff2",
+          "bytes": 45468,
+          "sha256": "24eff75a1b6ccd4b6fded8a65c0a53d7802e3f5f476231ac5551011eb1690521"
+        }
+      ],
+      "publishedHttp": {
+        "status": 200,
+        "contentType": "font/woff2",
+        "bytes": 45468,
+        "sha256": "24eff75a1b6ccd4b6fded8a65c0a53d7802e3f5f476231ac5551011eb1690521"
+      }
+    }
+  ],
+  "derivation": "Only OS/2 declaration5->4 where source has96bytes; checksum repair; OTS validation/rewrite; lossless WOFF2 encoding",
+  "fontToolsVersion": "4.67.0",
+  "otsVersion": "9.2.0",
+  "otsSha256": "81a8d18eb7dbd6bbaff499bfa253d8c773cd0aac1f50b9903a21b15cbbbc5f99",
+  "originalAssetsModified": false,
+  "nativeReady": false,
+  "limits": [
+    "Browser FontFace loading and rendering must be verified by root after loader promotion.",
+    "The source glyphs and metrics are preserved; source OS/2v5 optical bounds were missing and are not invented."
+  ]
+}

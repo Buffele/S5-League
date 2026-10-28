@@ -1,0 +1,38 @@
+{
+  "format": "native-weapon-inventory-icon-v1",
+  "itemKey": 2010008,
+  "itemSource": {
+    "path": "xml/item.x7",
+    "archive": "23.xs",
+    "plainLength": 1409839,
+    "checksum": "b205baac",
+    "sha256": "83142ddfdee8b7e5c80d9cb2e20fbdbf834613113028517cd12c2c40b3c5fcdb"
+  },
+  "itemGraphicAttribute": "icon_image",
+  "sources": [
+    {
+      "path": "image/weapon/icon_gun_shotgun.png",
+      "archive": "53.xs",
+      "plainLength": 10409,
+      "checksum": "da9d834d",
+      "sha256": "d55f92d65c6fd6d33f25d9452d87b2ecc28e649b3908511254541fe41bede7ee"
+    },
+    {
+      "path": "xui2/sprites/common/weapons/icon_gun_shotgun.png",
+      "archive": "61.xs",
+      "plainLength": 10409,
+      "checksum": "da9d834d",
+      "sha256": "d55f92d65c6fd6d33f25d9452d87b2ecc28e649b3908511254541fe41bede7ee"
+    }
+  ],
+  "output": {
+    "file": "burst-shotgun.png",
+    "source": "image/weapon/icon_gun_shotgun.png",
+    "sha256": "d55f92d65c6fd6d33f25d9452d87b2ecc28e649b3908511254541fe41bede7ee",
+    "adaptation": "None; exact original PNG bytes"
+  },
+  "limits": [
+    "Identity and icon only; main runtime choices and installed options determine availability.",
+    "Item2010008 is distinct from Classic2010013 and MK2. No native readiness claim."
+  ]
+}

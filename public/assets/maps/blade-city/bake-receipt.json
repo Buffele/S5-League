@@ -1,0 +1,3851 @@
+{
+  "sourceBlend": "C:\\Users\\newpc\\Desktop\\S5 league\\work\\s5runtime-map-native-adaptation\\blade-city-refinement\\blade-city-b-refined-v3.blend",
+  "sourceBlendSha256": "2be9f94c336ee1b82f404e85e102bfeae44c19ba688cbfa1a9184921b983c759",
+  "sourceStillUnchanged": true,
+  "slotCount": 189,
+  "uniqueColorGraphCount": 22,
+  "bakedColors": [
+    {
+      "signature": "0ce8706b4f6ce73748a016bf1a5a1024080d732e4f36fe233637fa99169cbd8c",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-0ce8706b4f6ce73748a0.png",
+      "sha256": "6c58844cd30baba17ac558bca186607cdec8552685ad69ce86613a28c323e80c",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / floor / 2b672aecd6c3",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "47a68ab05da437b0461d152d4f737fdcee9e188063e3dcd1ed0d8aefdadf3c46",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.5149176716804504,
+              0.5394794940948486,
+              0.577580451965332,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "0f2702a590c2e8a2fa62e9939b48c45b82e60f9d155cb71778aa684ce30af091",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-0f2702a590c2e8a2fa62.png",
+      "sha256": "9199f06e683dcc84722ffcd833edcd51a3cc5a5c2491004dee28bffa56c5b18f",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / cafe / 139f2a3a7225",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "c79b2d3330713f95a33c908c7dbcd3ae4f247394f6dcdd46652621311277afd8",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.4507857859134674,
+              0.43965718150138855,
+              0.3915724754333496,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "267750faa340ea08108e107a6f9d95e67a2622296e95d00063646d7f61842f13",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-267750faa340ea08108e.png",
+      "sha256": "e20c24f23a1367688fe377cb47d359d8ff50aba0d1b327f374e2527d893e1bdb",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / cafe / 5e71a85b8334",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "cac39d463eb3b615bfa8d4435d32c55f4611dff0da8e8aaba28a9025849fadf1",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.4507857859134674,
+              0.43965718150138855,
+              0.3915724754333496,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "276e1e1ef6b0e39263030b97adb6a494d13cacc636076794dd2f4d6f225a7a56",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-276e1e1ef6b0e3926303.png",
+      "sha256": "8d513cc8313dc8597ae05deeb563a24875a91dd71a3a2000c85b5355d7e18552",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / wall / e05246db2160",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "d9cbb19d41c179c5ec1b7076bc91fbbd84b6f929e65e968cc1c705d98a5305de",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.22322796285152435,
+              0.17464740574359894,
+              0.2622506618499756,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "2a5d90eac2a219a6e78b891191ef5e4fc40b99db3a2b9b5d16ffd965627ca14d",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-2a5d90eac2a219a6e78b.png",
+      "sha256": "0beee0c4543290f49d1cd469102be27b8ffa7994e734b370246c3be0fb3bd708",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / floor / cda411bcd596",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "dbe8e541a9071de094eed7afa5f70d2dbf0143c4d2ce1069827b7706d70501ff",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.5149176716804504,
+              0.5394794940948486,
+              0.577580451965332,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "2b216b33bc5e7288e86fb53c40a855e68a9f078a8d3e7a644bbe7b780326046e",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-2b216b33bc5e7288e86f.png",
+      "sha256": "2ff18c123c89a6142e7c4ab0037c42b3405ec50975d36817075f20b23dfdd58d",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / wall / 54252bb4cff3",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "83bede614a8659e49f96d957dba50a35e8a8d7b112b3d4a6a70099264419da3b",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.22322796285152435,
+              0.17464740574359894,
+              0.2622506618499756,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "34a19bda25f9ad001e5dec8af367d773966d254883f47071fea27b2eff4161c4",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-34a19bda25f9ad001e5d.png",
+      "sha256": "3685e99040b2b18ef2c1f57f9a594f36a1da897aaf942fcdcbeedc9f9884685e",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / wall / ab7009125406",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "0113294a7bf7f53dfcd56d98e64e1a498c941a28bbd75af6f83724258c30d4e3",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.22322796285152435,
+              0.17464740574359894,
+              0.2622506618499756,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "379e6761bee80eae74cb6d3a52650b33c36b4f0325928028f6117c54a73c2a85",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-379e6761bee80eae74cb.png",
+      "sha256": "afb28c4be53a01954a55cd4c855b5896960b0440deb520bec0d972735e960ec9",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / wall / ae62088fff67",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "c0212cd9f4bff603d4ab450374a740769ec8a0a7c4b7d4096b147972451bc62e",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.22322796285152435,
+              0.17464740574359894,
+              0.2622506618499756,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "3a09f157a9122f1f45d449cf3a966754c682bb314e04077cea6518234db83825",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-3a09f157a9122f1f45d4.png",
+      "sha256": "47e193f69b71c0ef494918d77c12fcf329aa282a61ab49a0adb1f1bf2226cc21",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / wall / ae01f83ed1bb",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "ae3f95791a0e1e7f84dc9f531df40619edc24a9951aacfffee234a69eaabfc0e",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.22322796285152435,
+              0.17464740574359894,
+              0.2622506618499756,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "3f251a26a63301ac865d2eca1ef38c6bf962d2643b5def3d195c1b53d3bc9232",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-3f251a26a63301ac865d.png",
+      "sha256": "d8f3290a3f9dca0f11467b11001466de815c54b1ba894db4a676793242177875",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / floor / d329ed1d3041",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "a68a3ce7e01b63f99ba953198b1871c44fb2f9859bd8ca5042d2bd2b15e456bb",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.5149176716804504,
+              0.5394794940948486,
+              0.577580451965332,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "40ab151ef647610684562ae09bbacadc648c33592194712124b3258d8cc34f88",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-40ab151ef64761068456.png",
+      "sha256": "51e1d19117ab3ba7935f397edd953315389395fe70017546ea3e3de678800dcd",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / graphite / 5491bcaaa95a",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 0.7799999713897705
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMixRGB",
+              "output": "Color",
+              "inputs": [
+                {
+                  "name": "Fac",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "Color1",
+                  "link": {
+                    "type": "ShaderNodeMapRange",
+                    "output": "Result",
+                    "inputs": [
+                      {
+                        "name": "Value",
+                        "link": {
+                          "type": "ShaderNodeRGBToBW",
+                          "output": "Val",
+                          "inputs": [
+                            {
+                              "name": "Color",
+                              "link": {
+                                "type": "ShaderNodeTexImage",
+                                "output": "Color",
+                                "inputs": [
+                                  {
+                                    "name": "Vector",
+                                    "link": null,
+                                    "default": [
+                                      0,
+                                      0,
+                                      0
+                                    ]
+                                  }
+                                ],
+                                "image": {
+                                  "sha256": "c023b7b61b1312a7832bdd420e72e15c50c961c2d10de9430ec0f1ec4d92f00d",
+                                  "size": [
+                                    512,
+                                    512
+                                  ],
+                                  "colorSpace": "sRGB",
+                                  "interpolation": "Linear",
+                                  "extension": "REPEAT",
+                                  "projection": "FLAT"
+                                }
+                              },
+                              "default": null
+                            }
+                          ]
+                        },
+                        "default": null
+                      },
+                      {
+                        "name": "From Min",
+                        "link": null,
+                        "default": 0
+                      },
+                      {
+                        "name": "From Max",
+                        "link": null,
+                        "default": 1
+                      },
+                      {
+                        "name": "To Min",
+                        "link": null,
+                        "default": 0.5199999809265137
+                      },
+                      {
+                        "name": "To Max",
+                        "link": null,
+                        "default": 1.0499999523162842
+                      },
+                      {
+                        "name": "Steps",
+                        "link": null,
+                        "default": 4
+                      },
+                      {
+                        "name": "Vector",
+                        "link": null,
+                        "default": [
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      {
+                        "name": "From_Min_FLOAT3",
+                        "link": null,
+                        "default": [
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      {
+                        "name": "From_Max_FLOAT3",
+                        "link": null,
+                        "default": [
+                          1,
+                          1,
+                          1
+                        ]
+                      },
+                      {
+                        "name": "To_Min_FLOAT3",
+                        "link": null,
+                        "default": [
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      {
+                        "name": "To_Max_FLOAT3",
+                        "link": null,
+                        "default": [
+                          1,
+                          1,
+                          1
+                        ]
+                      },
+                      {
+                        "name": "Steps_FLOAT3",
+                        "link": null,
+                        "default": [
+                          4,
+                          4,
+                          4
+                        ]
+                      }
+                    ],
+                    "clamp": true,
+                    "interpolation_type": "LINEAR",
+                    "data_type": "FLOAT"
+                  },
+                  "default": null
+                },
+                {
+                  "name": "Color2",
+                  "link": null,
+                  "default": [
+                    0.040915198624134064,
+                    0.05612849071621895,
+                    0.06847816705703735,
+                    1
+                  ]
+                }
+              ],
+              "blend_type": "MULTIPLY",
+              "use_clamp": false
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": {
+              "type": "ShaderNodeTexImage",
+              "output": "Color",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "image": {
+                "sha256": "c023b7b61b1312a7832bdd420e72e15c50c961c2d10de9430ec0f1ec4d92f00d",
+                "size": [
+                  512,
+                  512
+                ],
+                "colorSpace": "sRGB",
+                "interpolation": "Linear",
+                "extension": "REPEAT",
+                "projection": "FLAT"
+              }
+            },
+            "default": null
+          }
+        ],
+        "blend_type": "MIX",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "449140376f439695b2ad30c638674a79e1efbdf44d3824d1603561031f621b90",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-449140376f439695b2ad.png",
+      "sha256": "5770ec3cbc4a6ef9ffbfa92989dc093f65f5b33a7d50a7b520397e3425fdc1d7",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / floor / 221bd830604a",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "39e354ad2806a8543d6076f466c959733cef5db521da9ad295a8d482cd04d2e0",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.5149176716804504,
+              0.5394794940948486,
+              0.577580451965332,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "4570630bf32b4eda937b5815fdd6d76982a42033810c016cba415460ae2dcd08",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-4570630bf32b4eda937b.png",
+      "sha256": "8a500ef978616a38033aac8b47fee747fd8fc4fa73f9a357749da9339be66072",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / floor / a4b0132c9855",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "4e04e1fa4d384d356dd20bf192c323614748566798fe7c1eb24d8f5a0607962a",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.5149176716804504,
+              0.5394794940948486,
+              0.577580451965332,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "46ff31d98d8bf85ecefd19d29495612fcc111cd1930659420942b49a0f9a178e",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-46ff31d98d8bf85ecefd.png",
+      "sha256": "488e8396083f219e6ae88632c6a0e77486bdbb71286c0e4d7ab61b0ca115a95f",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / wall / 4e76e6177cd0",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "f0cf758cc1112e1d24ef02ca86dfa47db50e47af6bd32e9313efa0b849b811e4",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.22322796285152435,
+              0.17464740574359894,
+              0.2622506618499756,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "5aa09e7e531f145c8e69407888ed8e8f282a5d97b1f304682d049c4bd83d7082",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-5aa09e7e531f145c8e69.png",
+      "sha256": "496eb447b89ecf5d486708abef72c82de1202f7c7321b0ba1c78eedf3a7f18f9",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        256,
+        256
+      ],
+      "sourceMaterial": "BLADE B refined / graphite / e9e154050568",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 0.7799999713897705
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMixRGB",
+              "output": "Color",
+              "inputs": [
+                {
+                  "name": "Fac",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "Color1",
+                  "link": {
+                    "type": "ShaderNodeMapRange",
+                    "output": "Result",
+                    "inputs": [
+                      {
+                        "name": "Value",
+                        "link": {
+                          "type": "ShaderNodeRGBToBW",
+                          "output": "Val",
+                          "inputs": [
+                            {
+                              "name": "Color",
+                              "link": {
+                                "type": "ShaderNodeTexImage",
+                                "output": "Color",
+                                "inputs": [
+                                  {
+                                    "name": "Vector",
+                                    "link": null,
+                                    "default": [
+                                      0,
+                                      0,
+                                      0
+                                    ]
+                                  }
+                                ],
+                                "image": {
+                                  "sha256": "588e0d2c70a23116a2f8e19be7f5048d73ca764900152a9ea2bc3d8f82a05421",
+                                  "size": [
+                                    256,
+                                    256
+                                  ],
+                                  "colorSpace": "sRGB",
+                                  "interpolation": "Linear",
+                                  "extension": "REPEAT",
+                                  "projection": "FLAT"
+                                }
+                              },
+                              "default": null
+                            }
+                          ]
+                        },
+                        "default": null
+                      },
+                      {
+                        "name": "From Min",
+                        "link": null,
+                        "default": 0
+                      },
+                      {
+                        "name": "From Max",
+                        "link": null,
+                        "default": 1
+                      },
+                      {
+                        "name": "To Min",
+                        "link": null,
+                        "default": 0.5199999809265137
+                      },
+                      {
+                        "name": "To Max",
+                        "link": null,
+                        "default": 1.0499999523162842
+                      },
+                      {
+                        "name": "Steps",
+                        "link": null,
+                        "default": 4
+                      },
+                      {
+                        "name": "Vector",
+                        "link": null,
+                        "default": [
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      {
+                        "name": "From_Min_FLOAT3",
+                        "link": null,
+                        "default": [
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      {
+                        "name": "From_Max_FLOAT3",
+                        "link": null,
+                        "default": [
+                          1,
+                          1,
+                          1
+                        ]
+                      },
+                      {
+                        "name": "To_Min_FLOAT3",
+                        "link": null,
+                        "default": [
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      {
+                        "name": "To_Max_FLOAT3",
+                        "link": null,
+                        "default": [
+                          1,
+                          1,
+                          1
+                        ]
+                      },
+                      {
+                        "name": "Steps_FLOAT3",
+                        "link": null,
+                        "default": [
+                          4,
+                          4,
+                          4
+                        ]
+                      }
+                    ],
+                    "clamp": true,
+                    "interpolation_type": "LINEAR",
+                    "data_type": "FLOAT"
+                  },
+                  "default": null
+                },
+                {
+                  "name": "Color2",
+                  "link": null,
+                  "default": [
+                    0.040915198624134064,
+                    0.05612849071621895,
+                    0.06847816705703735,
+                    1
+                  ]
+                }
+              ],
+              "blend_type": "MULTIPLY",
+              "use_clamp": false
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": {
+              "type": "ShaderNodeTexImage",
+              "output": "Color",
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ],
+              "image": {
+                "sha256": "588e0d2c70a23116a2f8e19be7f5048d73ca764900152a9ea2bc3d8f82a05421",
+                "size": [
+                  256,
+                  256
+                ],
+                "colorSpace": "sRGB",
+                "interpolation": "Linear",
+                "extension": "REPEAT",
+                "projection": "FLAT"
+              }
+            },
+            "default": null
+          }
+        ],
+        "blend_type": "MIX",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "6f6000865b8b372c275813d3fc735de1ab6eb3607d329d6dc78a251186cd3c9b",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-6f6000865b8b372c2758.png",
+      "sha256": "28fe5cf81df9dc8463035a78d1edd9a5579e9128aa938ad1ae70bde398295f8f",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / wall / 37dbf5995e55",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "2b7c7822d61256e9eded1e8581044ec1f86264d36d5b612b309252fc7cbc480f",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.22322796285152435,
+              0.17464740574359894,
+              0.2622506618499756,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "7284a0c78df5683445c226eaa263dae0e98c3f9b5f8b99af6d1244d987dfb3aa",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-7284a0c78df5683445c2.png",
+      "sha256": "57f674e44f5cacd163bf64c14150ecbc50d00501e4af0d7b741c60d5370bcdef",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        256,
+        256
+      ],
+      "sourceMaterial": "BLADE B refined / yellow / 33730e6aefc1",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "4ad62006890e1c82f35eabfaa9c6abb5605f98a44606c8cc511fe598956cf6d7",
+                            "size": [
+                              256,
+                              256
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.46207699179649353,
+              0.3277781009674072,
+              0.040915198624134064,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "76a1a7be24c23e520ddd1ff45c368d63e79c8300424823b27a01354a6e7606bc",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-76a1a7be24c23e520ddd.png",
+      "sha256": "8fe0f302f049076fa161e507411a07e4b0c441270d3b11258dd56759c7c4e221",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / floor / 67c13c40c9ff",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "0fd1df211ea6bfcc7202bc9576f6c27aacd450f0fc2cec78758d12e1de01e716",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.5149176716804504,
+              0.5394794940948486,
+              0.577580451965332,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "97d37b6c14b4a95e6f4592e343675a892099a161f7b4e31e20c2b0afdaadcfca",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-97d37b6c14b4a95e6f45.png",
+      "sha256": "c274fa6137922edfcd476e9c90f7d474bd124200f61da4b0a59ba84ce6e1c263",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / graphite / 85b1035b9af8",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "09f29ff365283908db6705007aa19955d347c1b3ead43b3863c2e46f69a30354",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.040915198624134064,
+              0.05612849071621895,
+              0.06847816705703735,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "ddb4b6ba71edd5463146ea01cec8f73181fe8ead1ae2a1264640b70968695222",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-ddb4b6ba71edd5463146.png",
+      "sha256": "cc591f9498abd2ace3328173ddd4ea8f3d9992dbe45ba742277823ae2bd02d09",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / wall / 07fb35af0188",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "a210d56bcb70ea7108ceb43cdde0b4c615a586203811c862285416581ba129f6",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.22322796285152435,
+              0.17464740574359894,
+              0.2622506618499756,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "e646b00d664e6bc5297f9f2733664c260c6c7be77156ab5e5696ec654ad20e4f",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-e646b00d664e6bc5297f.png",
+      "sha256": "9f910d3bb9a54340521784b1158bc60b69eb3b97648df0cb60e61e3b0f7e8066",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / wall / a05776959df2",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "347aef08e4c354c11335870a637293df02074403d9e4f449c2af5ef3777f2a95",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.22322796285152435,
+              0.17464740574359894,
+              0.2622506618499756,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    },
+    {
+      "signature": "f62251b5b3c9622e2c0c8215cdba22bd324778390ab51fbca86a73969028040d",
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\color-f62251b5b3c9622e2c0c.png",
+      "sha256": "5000c807ef2ecda2ba1f5818b7fc95d4dedd342991fc09fa183b877bc9a67043",
+      "width": 1024,
+      "height": 1024,
+      "sourceResolution": [
+        512,
+        512
+      ],
+      "sourceMaterial": "BLADE B refined / cyan / 28c918fa956c",
+      "graph": {
+        "type": "ShaderNodeMixRGB",
+        "output": "Color",
+        "inputs": [
+          {
+            "name": "Fac",
+            "link": null,
+            "default": 1
+          },
+          {
+            "name": "Color1",
+            "link": {
+              "type": "ShaderNodeMapRange",
+              "output": "Result",
+              "inputs": [
+                {
+                  "name": "Value",
+                  "link": {
+                    "type": "ShaderNodeRGBToBW",
+                    "output": "Val",
+                    "inputs": [
+                      {
+                        "name": "Color",
+                        "link": {
+                          "type": "ShaderNodeTexImage",
+                          "output": "Color",
+                          "inputs": [
+                            {
+                              "name": "Vector",
+                              "link": null,
+                              "default": [
+                                0,
+                                0,
+                                0
+                              ]
+                            }
+                          ],
+                          "image": {
+                            "sha256": "628c7a6abc2ac9f4c7ecf76d05d797eb1a092f47dd31f4dac7db1082c304df25",
+                            "size": [
+                              512,
+                              512
+                            ],
+                            "colorSpace": "sRGB",
+                            "interpolation": "Linear",
+                            "extension": "REPEAT",
+                            "projection": "FLAT"
+                          }
+                        },
+                        "default": null
+                      }
+                    ]
+                  },
+                  "default": null
+                },
+                {
+                  "name": "From Min",
+                  "link": null,
+                  "default": 0
+                },
+                {
+                  "name": "From Max",
+                  "link": null,
+                  "default": 1
+                },
+                {
+                  "name": "To Min",
+                  "link": null,
+                  "default": 0.5199999809265137
+                },
+                {
+                  "name": "To Max",
+                  "link": null,
+                  "default": 1.0499999523162842
+                },
+                {
+                  "name": "Steps",
+                  "link": null,
+                  "default": 4
+                },
+                {
+                  "name": "Vector",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "From_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "To_Min_FLOAT3",
+                  "link": null,
+                  "default": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "To_Max_FLOAT3",
+                  "link": null,
+                  "default": [
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Steps_FLOAT3",
+                  "link": null,
+                  "default": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ],
+              "clamp": true,
+              "interpolation_type": "LINEAR",
+              "data_type": "FLOAT"
+            },
+            "default": null
+          },
+          {
+            "name": "Color2",
+            "link": null,
+            "default": [
+              0.08650045841932297,
+              0.5906188488006592,
+              0.6307571530342102,
+              1
+            ]
+          }
+        ],
+        "blend_type": "MULTIPLY",
+        "use_clamp": false
+      },
+      "bake": "Emission only on unitUV plane; source geometry and repeated UV untouched."
+    }
+  ],
+  "alphas": [
+    {
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\alpha-4ad62006890e1c82f35e.png",
+      "sha256": "e8f5cb5e40d664f016dbe8ded299628def4be10531410383adcf82d044c60c71",
+      "sourceDDSsha256": "4ad62006890e1c82f35eabfaa9c6abb5605f98a44606c8cc511fe598956cf6d7",
+      "width": 256,
+      "height": 256,
+      "channels": "RGB all equal native diffuse alpha, alphaMap reads green; Non-Color."
+    },
+    {
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\alpha-09f29ff365283908db67.png",
+      "sha256": "1136105dc1ac0769606a739d2b195ba90d02dca593ec0c0a896b9e87b8621d5c",
+      "sourceDDSsha256": "09f29ff365283908db6705007aa19955d347c1b3ead43b3863c2e46f69a30354",
+      "width": 512,
+      "height": 512,
+      "channels": "RGB all equal native diffuse alpha, alphaMap reads green; Non-Color."
+    },
+    {
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\alpha-c023b7b61b1312a7832b.png",
+      "sha256": "a66a1810fba9ebb691f47b55334b595b517760e2d4d23531e1d3df76d2fb22c1",
+      "sourceDDSsha256": "c023b7b61b1312a7832bdd420e72e15c50c961c2d10de9430ec0f1ec4d92f00d",
+      "width": 512,
+      "height": 512,
+      "channels": "RGB all equal native diffuse alpha, alphaMap reads green; Non-Color."
+    },
+    {
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\alpha-ae3f95791a0e1e7f84dc.png",
+      "sha256": "a5060be9f428b78ee9d850eb7ecf43bc6a7c4e5dc9ebd38f19c8a0df9a864202",
+      "sourceDDSsha256": "ae3f95791a0e1e7f84dc9f531df40619edc24a9951aacfffee234a69eaabfc0e",
+      "width": 512,
+      "height": 512,
+      "channels": "RGB all equal native diffuse alpha, alphaMap reads green; Non-Color."
+    },
+    {
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\alpha-cac39d463eb3b615bfa8.png",
+      "sha256": "e64425ca1fd508ff4184eae909f6fa7d5541a27d07a3f759b0a49818b14ab42f",
+      "sourceDDSsha256": "cac39d463eb3b615bfa8d4435d32c55f4611dff0da8e8aaba28a9025849fadf1",
+      "width": 512,
+      "height": 512,
+      "channels": "RGB all equal native diffuse alpha, alphaMap reads green; Non-Color."
+    },
+    {
+      "path": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\textures\\alpha-c79b2d3330713f95a33c.png",
+      "sha256": "6f295c3426585045fecbc174d17b9ded80985bf306081812d8b5e953787d6c8f",
+      "sourceDDSsha256": "c79b2d3330713f95a33c908c7dbcd3ae4f247394f6dcdd46652621311277afd8",
+      "width": 512,
+      "height": 512,
+      "channels": "RGB all equal native diffuse alpha, alphaMap reads green; Non-Color."
+    }
+  ],
+  "config": "C:\\Users\\newpc\\Desktop\\S5 league\\public\\assets\\maps\\blade-city\\artist-config.json",
+  "proofOnly": false
+}

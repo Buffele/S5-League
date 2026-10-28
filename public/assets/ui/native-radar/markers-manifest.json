@@ -1,0 +1,46 @@
+{
+  "format": "s5-native-radar-marker-assets-v1",
+  "assets": [
+    {
+      "key": "white",
+      "nativeResource": "gui/new/image_minamap_white.dds",
+      "sourceSha256": "30b90771f45c75072e2197dc34fffecd5e09ca5748ae039c97adf0ee9633473d",
+      "deliveredURL": "/assets/ui/native-radar/marker-white.png",
+      "sha256": "c61cb4d911155b549b3de3241607fcbd052892bad47848665980f3bcd9961633",
+      "width": 16,
+      "height": 16,
+      "conversion": "Lossless top-level DDS RGBA; no cropping/resizing/repainting"
+    },
+    {
+      "key": "me",
+      "nativeResource": "gui/new/image_minamap_me.dds",
+      "sourceSha256": "5e781afc822521ddbda8bfba08ca965846bf09e3824aa3a19510311e8c66d9e0",
+      "deliveredURL": "/assets/ui/native-radar/marker-me.png",
+      "sha256": "e5f30fb681fa9da8d76abcd913454c36192112939fa0fcb8f89fd925cae9b2ef",
+      "width": 16,
+      "height": 16,
+      "conversion": "Lossless top-level DDS RGBA; no cropping/resizing/repainting"
+    },
+    {
+      "key": "skin",
+      "nativeResource": "gui/new/image_maingame_minamap_skin.dds",
+      "sourceSha256": "42708c2f7c1856937059f913b645f935f9e8be5456e69a0200c6cbe4e12c5f63",
+      "deliveredURL": "/assets/ui/native-radar/frame-skin.png",
+      "sha256": "aabf8bf86ff2099d196f60b5bb0991339fb2b430491a623fc58a944d84307310",
+      "width": 256,
+      "height": 256,
+      "conversion": "Lossless top-level DDS RGBA; no cropping/resizing/repainting"
+    },
+    {
+      "key": "direction",
+      "nativeResource": "gui/new/image_minamap_direction.dds",
+      "sourceSha256": "3ff566bde56b561bc53f56ed0db22ef253f6001d565462272ae1f07611bfcfde",
+      "deliveredURL": "/assets/ui/native-radar/marker-direction.png",
+      "sha256": "b3c6fdc08f07238fb8e3c33e43fb4e56f4e738ba47edce915b445f3e7816c889",
+      "width": 32,
+      "height": 32,
+      "conversion": "Lossless top-level DDS RGBA; no cropping/resizing/repainting"
+    }
+  ],
+  "nativeResourceAliasExecuted": false
+}

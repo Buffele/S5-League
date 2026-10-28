@@ -1,0 +1,389 @@
+{
+  "format": "s5-sequence-inspection-v1",
+  "source": "effects/pve_queen_attack05.seq",
+  "sha256": "b64ceb507ca919dd5ca1acf7cbe26a761924b5186bb4f279e977ee2e5d1f9c1a",
+  "byteLength": 408,
+  "header": {
+    "versionField": 0.10000000149011612,
+    "name": {
+      "value": "",
+      "rawHex": ""
+    },
+    "byteField": 0,
+    "durationField": 3000,
+    "nodeCount": 3,
+    "byteRange": {
+      "start": 0,
+      "end": 14
+    }
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 14,
+        "end": 144,
+        "length": 130
+      },
+      "sha256": "2de055dd317a5b86f15fbf2082dd931fc4fe1a2d900409f87dbeaff28c35742a",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_attack05.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f61747461636b30352e73636e",
+          "resourcePath": "effects/pve_queen_attack05.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 33,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 37,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 42,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 46,
+            "rawHex": "64000000",
+            "int32": 100,
+            "float32": 1.401298464324817e-43
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_attack05.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f61747461636b30352e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 119,
+          "rawHex": "64000000",
+          "int32": 100,
+          "float32": 1.401298464324817e-43
+        },
+        "field88": {
+          "offset": 123,
+          "rawHex": "64000000",
+          "int32": 100,
+          "float32": 1.401298464324817e-43
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 128,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 132,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 136,
+            "end": 144,
+            "length": 8
+          }
+        }
+      }
+    },
+    {
+      "index": 1,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 144,
+        "end": 276,
+        "length": 132
+      },
+      "sha256": "e727696864bcb735ec5d91a70e26f8be6484dac0fade7fcc457139efe7e2a069",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_attack05_2.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f61747461636b30355f322e73636e",
+          "resourcePath": "effects/pve_queen_attack05_2.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 163,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 167,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 172,
+            "rawHex": "2c010000",
+            "int32": 300,
+            "float32": 4.203895392974451e-43
+          },
+          "endTimeField": {
+            "offset": 176,
+            "rawHex": "90010000",
+            "int32": 400,
+            "float32": 5.605193857299268e-43
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_attack05_2.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f61747461636b30355f322e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 251,
+          "rawHex": "64000000",
+          "int32": 100,
+          "float32": 1.401298464324817e-43
+        },
+        "field88": {
+          "offset": 255,
+          "rawHex": "64000000",
+          "int32": 100,
+          "float32": 1.401298464324817e-43
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 260,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 264,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 268,
+            "end": 276,
+            "length": 8
+          }
+        }
+      }
+    },
+    {
+      "index": 2,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 276,
+        "end": 408,
+        "length": 132
+      },
+      "sha256": "1fe87807e02a8bdea5f54dd7ec5a4507d330e413ad2430747e8bf38529b04ffe",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_attack05_3.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f61747461636b30355f332e73636e",
+          "resourcePath": "effects/pve_queen_attack05_3.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 295,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 299,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 304,
+            "rawHex": "58020000",
+            "int32": 600,
+            "float32": 8.407790785948902e-43
+          },
+          "endTimeField": {
+            "offset": 308,
+            "rawHex": "bc020000",
+            "int32": 700,
+            "float32": 9.80908925027372e-43
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_attack05_3.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f61747461636b30355f332e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 383,
+          "rawHex": "64000000",
+          "int32": 100,
+          "float32": 1.401298464324817e-43
+        },
+        "field88": {
+          "offset": 387,
+          "rawHex": "f4010000",
+          "int32": 500,
+          "float32": 7.006492321624085e-43
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 392,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 396,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 400,
+            "end": 408,
+            "length": 8
+          }
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "nodeIndex": 0,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_attack05.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f61747461636b30352e73636e",
+      "resourcePath": "effects/pve_queen_attack05.scn",
+      "extension": "scn",
+      "kind": "model"
+    },
+    {
+      "nodeIndex": 1,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_attack05_2.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f61747461636b30355f322e73636e",
+      "resourcePath": "effects/pve_queen_attack05_2.scn",
+      "extension": "scn",
+      "kind": "model"
+    },
+    {
+      "nodeIndex": 2,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_queen_attack05_3.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f717565656e5f61747461636b30355f332e73636e",
+      "resourcePath": "effects/pve_queen_attack05_3.scn",
+      "extension": "scn",
+      "kind": "model"
+    }
+  ],
+  "coverage": {
+    "envelopeBytesAccountedFor": 408,
+    "reachesExactEof": true,
+    "structuredNodeCount": 3,
+    "fullyStructured": true,
+    "fieldMeaningFullyValidated": false,
+    "rendered": false,
+    "qualification": "Header, base, Particle, Particle_IF, GhostTrail, Lightning, NodeControl, NodeLoader and NodeLoader_IF are consumed sequentially along statically traced native reader branches. Unvalidated four-byte fields retain raw/int/float views. No runtime rendering has been verified."
+  },
+  "diagnostics": {
+    "scannedCActOffsets": [
+      14,
+      144,
+      276
+    ],
+    "parsedNodeStarts": [
+      14,
+      144,
+      276
+    ],
+    "markerScanMatchesParsedStarts": true,
+    "markerScanUsedForParsing": false
+  }
+}

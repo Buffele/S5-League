@@ -1,0 +1,91 @@
+/* Sources: ui/manifest.json, modes-ui/manifest.json and webfonts/manifest.json.
+   score.xui is 598x238 on a 2880x2160 canvas. Uniform desktop contain-fit
+   matches the observed 800x600 native viewport. Other aspect ratios and the
+   larger narrow-screen reading size are explicit S5 adaptations, not observed
+   native scaling. Existing Win/Defeat crops are
+   documented in work/chaser-visuals/prepare-global-ui.py (no new images). */
+@font-face{font-family:S4TeamText;src:url('/assets/s5runtime/ui/2002.ttf') format('truetype');font-display:swap}
+@font-face{font-family:S4TeamScore;src:url('/assets/s5runtime/modes-ui/webfonts/netsphimere-semiboldcondenseditalic.woff2') format('woff2');font-display:swap}
+@font-face{font-family:S4TeamClock;src:url('/assets/s5runtime/modes-ui/webfonts/netsphimere-static.woff2') format('woff2');font-display:swap}
+:is(#touchdown-ui,#match-ui).s4-team-mode{
+ --s4-score-unit:min(calc(100vw/2880),calc(100vh/2160));--td-alpha:#00c5ff;--td-beta:#ff2c66;
+ font-family:S4TeamText,Arial,sans-serif;color:#d9e0ea;text-shadow:1px 1px 3px #000;pointer-events:none;
+ .td-scoreboard{position:absolute;top:calc(var(--s4-score-unit)*66);left:50%;width:calc(var(--s4-score-unit)*598);height:calc(var(--s4-score-unit)*238);display:block;padding:0;gap:0;filter:none;transform:translateX(-50%);background:url('/assets/s5runtime/ui/scoreboard_bg_alphablue.png') center/100% 100% no-repeat}
+ .td-team{position:absolute;top:calc(var(--s4-score-unit)*18);width:calc(var(--s4-score-unit)*81);height:calc(var(--s4-score-unit)*140);min-width:0;display:block;margin:0;padding:0;border:0;border-radius:0;background:none;box-shadow:none;color:var(--td-alpha)}
+ .td-alpha{left:calc(var(--s4-score-unit)*70)}.td-beta{left:calc(var(--s4-score-unit)*446);color:var(--td-beta)}
+ .td-team strong{display:grid;place-items:center;height:100%;padding-top:calc(var(--s4-score-unit)*6);font:calc(var(--s4-score-unit)*48*var(--s4-score-font-factor,1)) S4TeamScore,Arial,sans-serif;text-shadow:0 0 6px currentColor}
+ /* Extra team names and the local point limit remain accessible/available in
+    Tab, but score.xui has no corresponding visible labels in this cartouche. */
+ :is(.td-team span,.td-clock span){position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .td-clock{position:absolute;left:calc(var(--s4-score-unit)*198);top:0;width:calc(var(--s4-score-unit)*201);height:calc(var(--s4-score-unit)*238);display:block;min-width:0;padding:0;border:0;border-radius:0;background:none}
+ .td-clock small{position:absolute;top:calc(var(--s4-score-unit)*20);left:calc(var(--s4-score-unit)*2);width:100%;display:grid;place-items:center;height:calc(var(--s4-score-unit)*66);color:#d9e0ea;font:calc(var(--s4-score-unit)*24*var(--s4-score-font-factor,1)) S4TeamScore,Arial,sans-serif;letter-spacing:0}
+ .td-clock b{position:absolute;top:calc(var(--s4-score-unit)*96);left:0;width:100%;height:calc(var(--s4-score-unit)*138);display:grid;place-items:center;font:calc(var(--s4-score-unit)*46*var(--s4-score-font-factor,1)) S4TeamClock,Arial,sans-serif;letter-spacing:0}
+ .s4-time-bar{position:absolute;left:calc(var(--s4-score-unit)*164);top:calc(var(--s4-score-unit)*6);width:calc(var(--s4-score-unit)*272);height:calc(var(--s4-score-unit)*4);background:url('/assets/s5runtime/ui/scoreboard_timebar.png') center/100% 100% no-repeat}
+ .td-objective{top:calc(var(--s4-score-unit)*304 + 12px);left:50%;width:min(600px,calc(100vw - 24px));min-width:0;padding:0 8px;border:0;border-radius:0;background:none;box-sizing:border-box;text-align:center;text-shadow:1px 1px 3px #000,0 0 4px #000}
+ .td-objective div{width:100%;gap:4px}.td-objective small{font:11px S4TeamText,Arial,sans-serif;color:var(--td-alpha);letter-spacing:0}.td-objective b{font:20px S4TeamText,Arial,sans-serif;color:#fff}.td-objective div>span{font:13px S4TeamText,Arial,sans-serif;color:#e5eaf0}
+ .td-announcement{top:48%;width:min(720px,calc(100vw - 24px));min-width:0;max-height:calc(100dvh - 80px);overflow:auto;box-sizing:border-box;margin:0;padding:24px 22px;border:0;border-radius:0;background:none;box-shadow:none;text-shadow:2px 2px 3px #000;animation:none}
+ .td-announcement strong{height:auto;font:clamp(32px,6vw,64px) S4TeamScore,Arial,sans-serif;letter-spacing:0;color:#fff;text-shadow:1px 2px 4px #000}
+ .td-announcement small{font:14px S4TeamText,Arial,sans-serif;letter-spacing:0;color:var(--td-alpha)}.td-announcement p{font:14px S4TeamText,Arial,sans-serif;letter-spacing:0;color:#fff}
+ .td-announcement button{min-height:44px;min-width:180px;padding:10px 24px;margin:18px auto 0;border:0;border-radius:0;background:url('/assets/s5runtime/ui/escape-button.png') center/100% 100% no-repeat;font:16px S4TeamText,Arial,sans-serif;color:#d9e0ea;pointer-events:auto;cursor:pointer}
+ .td-announcement button:hover{background-image:url('/assets/s5runtime/ui/escape-button_hover_blue.png')}.td-announcement button:focus-visible{outline:2px solid #fff;outline-offset:3px}
+ .td-progress{height:4px;margin:18px 0 0;background:#001728;box-shadow:none}.td-progress i{background:url('/assets/s5runtime/ui/scoreboard_timebar.png') center/100% 100%;transform-origin:left}
+ .match-roster{top:52%;width:min(900px,calc(100vw - 24px));min-width:0;max-height:70dvh;overflow:auto;box-sizing:border-box;padding:18px;border:0;border-radius:0;pointer-events:auto;background:#000912ed url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_panel_mid.png') repeat;color:#d9e0ea}
+ .match-roster>b{font:22px S4TeamScore,Arial,sans-serif;color:#fff;letter-spacing:0}.match-roster p{padding:0;border:0;font-size:13px}
+ table{width:100%;border-collapse:collapse;text-align:left;font:14px S4TeamText,Arial,sans-serif;margin:12px 0}:is(th,td){padding:8px 10px;overflow-wrap:anywhere}th{background:#000912;color:#d9e0ea;font-weight:400}
+ tr[data-team=alpha]{background:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_mid.png') center/100% 100%;color:#90e8ff}tr[data-team=beta]{background:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_red_mid.png') center/100% 100%;color:#ff9bb5}tr[data-local=true]{outline:1px solid #e8f5ff;outline-offset:-1px}
+ .s4-roster-scope{font-size:11px;color:#c1d0da}.match-feed{top:130px;right:16px;max-width:280px}.match-feed p{background:none;border:0;border-radius:0;padding:2px;font:14px S4TeamText,Arial,sans-serif;color:#fff}
+ .td-local{bottom:15px;padding:0;background:none;border-radius:0;font:11px S4TeamText,Arial,sans-serif;letter-spacing:0}.td-local span{margin-left:12px;letter-spacing:0;color:#d9e0ea}
+ &[data-team=beta]{--td-alpha:#ff2c66;--td-beta:#00c5ff;.td-scoreboard{background-image:url('/assets/s5runtime/ui/scoreboard_bg_alphared.png')}tr[data-team=alpha]{background-image:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_red_mid.png');color:#ff9bb5}tr[data-team=beta]{background-image:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_blue_mid.png');color:#90e8ff}}
+ &[data-phase=result]{.td-progress{display:none}.td-announcement{background:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_panel_mid.png') repeat;pointer-events:auto}}
+ &[data-phase=result][data-result=win] .td-announcement strong{height:96px;font-size:0;background:url('/assets/s5runtime/ui/win.png') center/auto 80px no-repeat}
+ &[data-phase=result][data-result=defeat] .td-announcement strong{height:96px;font-size:0;background:url('/assets/s5runtime/ui/defeat.png') center/min(100%,360px) auto no-repeat}
+ @media(max-width:650px){--s4-score-unit:min(.5px,calc((100vw - 16px)/598));.td-scoreboard{top:10px}.td-objective{top:calc(var(--s4-score-unit)*238 + 20px)}.td-announcement{padding:18px 12px}table{font-size:11px}:is(th,td){padding:8px 4px}.td-local{max-width:calc(100vw - 20px);white-space:normal;text-align:center}.match-feed{top:200px;max-width:160px}}
+ @media(prefers-reduced-motion:reduce){.td-announcement{animation:none!important}}
+}
+
+/* Authenticated SCN overlay is drawn by the shared renderer, not CSS.
+   Keep semantic titles/captions available; remove only the duplicate title art.
+   While optional effects are absent/finished, existing text/glyph fallback stays. */
+:is(#touchdown-ui,#match-ui).s4-team-mode[data-native-scene=active] .td-announcement{background:none}
+:is(#touchdown-ui,#match-ui).s4-team-mode[data-native-scene=active] .td-announcement strong{background:none;opacity:0}
+
+/* TD participant tables consume recorded local actors. XUI supplies six header
+   names and authentic three-piece panel/line sprites; accessible table sizing,
+   team totals, unknown-value dashes and state labels are explicit adaptations. */
+#touchdown-ui.s4-team-mode {
+ /* Measured against the 1440x1080 native TD backbuffer. Only the browser
+    glyph size changes; source score.xui rectangles stay unchanged. Other
+    modes retain their existing font scale until compared independently. */
+ --s4-score-font-factor:calc(4/3);
+ .match-roster{width:min(1160px,calc(100vw - 24px));max-height:80dvh}
+ .td-participant-board{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;text-align:left}
+ .td-announcement .td-participant-board{grid-template-columns:minmax(0,1fr)}
+ .td-participants-empty{grid-column:1/-1;margin:4px 0;color:#c1d0da;font-size:12px}
+ .td-roster-team{min-width:0;overflow-x:auto;--td-panel-left:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_panel_left.png');--td-panel-mid:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_panel_mid.png');--td-panel-right:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_panel_right.png');--td-line-left:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_left.png');--td-line-mid:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_mid.png');--td-line-right:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_right.png')}
+ .td-roster-team[data-team=beta]{--td-panel-left:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_panel_left.png');--td-panel-mid:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_panel_mid.png');--td-panel-right:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_panel_right.png');--td-line-left:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_red_left.png');--td-line-mid:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_red_mid.png');--td-line-right:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_red_right.png')}
+ .td-roster-team h3{display:flex;justify-content:space-between;gap:12px;margin:0;padding:6px 4px;font:18px S4TeamScore,Arial,sans-serif;color:#d9e0ea}
+ .td-roster-team [data-team-total]{font:12px S4TeamText,Arial,sans-serif;align-self:center}
+ .td-roster-team table{min-width:440px;margin:0 0 8px;font-size:12px;table-layout:fixed}
+ .td-roster-team :is(th,td){padding:7px 4px;vertical-align:middle;text-align:center}
+ .td-roster-team th{height:25px;background-image:var(--td-panel-left),var(--td-panel-right),var(--td-panel-mid);background-position:left center,right center,center;background-size:18px 100%,18px 100%,calc(100% - 36px) 100%;background-repeat:no-repeat;font:14px S4TeamScore,Arial,sans-serif;text-transform:uppercase}
+ .td-roster-team th:nth-child(2){width:27%}.td-roster-team th:nth-child(5){width:24%}
+ .td-roster-team td[data-field=name]{text-align:left;overflow-wrap:anywhere}
+ .td-roster-team tbody tr{height:30px;background-image:var(--td-line-left),var(--td-line-right),var(--td-line-mid);background-position:left center,right center,center;background-size:18px 100%,18px 100%,calc(100% - 36px) 100%;background-repeat:no-repeat}
+ &[data-team=beta] .td-roster-team[data-team=alpha]{--td-line-left:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_red_left.png');--td-line-mid:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_red_mid.png');--td-line-right:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_red_right.png')}
+ &[data-team=beta] .td-roster-team[data-team=beta]{--td-line-left:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_blue_left.png');--td-line-mid:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_blue_mid.png');--td-line-right:url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_blue_right.png')}
+ @media(max-width:950px){.td-participant-board{grid-template-columns:minmax(0,1fr)}.td-roster-team table{font-size:12px}}
+ /* Narrow screens retain every recorded field without requiring a horizontal
+    drag while Tab is held. This reflow is an S5 adaptation of the source art. */
+ @media(max-width:650px){
+  .match-roster{padding:14px 10px}
+  .td-roster-team table{min-width:0;width:100%;font-size:12px;line-height:1.3}
+  .td-roster-team :is(th,td){padding:7px 2px}
+  .td-roster-team th{font-size:12px;white-space:nowrap;overflow-wrap:normal}
+  .td-roster-team th:nth-child(1){width:15%}
+  .td-roster-team th:nth-child(2){width:25%}
+  .td-roster-team th:nth-child(3),.td-roster-team th:nth-child(4){width:13%}
+  .td-roster-team th:nth-child(5){width:22%}
+  .td-roster-team th:nth-child(6){width:12%}
+ }
+}
+

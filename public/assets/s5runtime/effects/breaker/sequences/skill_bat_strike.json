@@ -1,0 +1,264 @@
+{
+  "format": "s5-sequence-inspection-v1",
+  "source": "effects/skill_bat_strike.seq",
+  "sha256": "e940e9a83be4f0d8c2ec802e1a12ea0c1f67a886e032141203b1a8cb610fc035",
+  "byteLength": 300,
+  "header": {
+    "versionField": 0.10000000149011612,
+    "name": {
+      "value": "",
+      "rawHex": ""
+    },
+    "byteField": 0,
+    "durationField": 500,
+    "nodeCount": 2,
+    "byteRange": {
+      "start": 0,
+      "end": 14
+    }
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 14,
+        "end": 163,
+        "length": 149
+      },
+      "sha256": "a4a4efcb9699306bc851ff3255aa54e3dae6de0eadad5170039531bdc2e896a4",
+      "dependencies": [
+        {
+          "sourceLiteral": "c:\\documents and settings\\skydeep01\\바탕 화면\\테스트 배트라인 이펙트\\a0015.scn",
+          "sourceBytesHex": "633a5c646f63756d656e747320616e642073657474696e67735c736b796465657030315cb9d9c5c120c8adb8e95cc5d7bdbac6ae20b9e8c6aeb6f3c0ce20c0ccc6e5c6ae5c61303031352e73636e",
+          "resourcePath": null,
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 33,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 37,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "Bat",
+            "rawHex": "426174"
+          },
+          "startTimeField": {
+            "offset": 45,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "endTimeField": {
+            "offset": 49,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "c:\\documents and settings\\skydeep01\\바탕 화면\\테스트 배트라인 이펙트\\a0015.scn",
+          "rawHex": "633a5c646f63756d656e747320616e642073657474696e67735c736b796465657030315cb9d9c5c120c8adb8e95cc5d7bdbac6ae20b9e8c6aeb6f3c0ce20c0ccc6e5c6ae5c61303031352e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 138,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "field88": {
+          "offset": 142,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 147,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 151,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 155,
+            "end": 163,
+            "length": 8
+          }
+        }
+      }
+    },
+    {
+      "index": 1,
+      "type": "CActGhostTrail",
+      "byteRange": {
+        "start": 163,
+        "end": 300,
+        "length": 137
+      },
+      "sha256": "b46a3a0a18147e58ea00d326fe7a60457f84a5006d9c108b72f882b410383a37",
+      "dependencies": [
+        {
+          "sourceLiteral": "c:\\documents and settings\\skydeep01\\바탕 화면\\야구사자후\\gi.dds",
+          "sourceBytesHex": "633a5c646f63756d656e747320616e642073657474696e67735c736b796465657030315cb9d9c5c120c8adb8e95cbedfb1b8bbe7c0dac8c45c67692e646473",
+          "resourcePath": null,
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 182,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "field10": {
+            "offset": 186,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "Line01",
+            "rawHex": "4c696e653031"
+          },
+          "startTimeField": {
+            "offset": 197,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          },
+          "endTimeField": {
+            "offset": 201,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          }
+        },
+        "outerVersion": 0.10000000149011612,
+        "versionField": 0.4000000059604645,
+        "fields10to1c": [
+          {
+            "offset": 213,
+            "rawHex": "f4010000",
+            "int32": 500,
+            "float32": 7.006492321624085e-43
+          },
+          {
+            "offset": 217,
+            "rawHex": "0000c842",
+            "int32": 1120403456,
+            "float32": 100
+          },
+          {
+            "offset": 221,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          {
+            "offset": 225,
+            "rawHex": "90010000",
+            "int32": 400,
+            "float32": 5.605193857299268e-43
+          }
+        ],
+        "flag20": false,
+        "textureFile": {
+          "value": "c:\\documents and settings\\skydeep01\\바탕 화면\\야구사자후\\gi.dds",
+          "rawHex": "633a5c646f63756d656e747320616e642073657474696e67735c736b796465657030315cb9d9c5c120c8adb8e95cbedfb1b8bbe7c0dac8c45c67692e646473"
+        },
+        "versioned": {
+          "field0c": {
+            "offset": 294,
+            "rawHex": "01000000",
+            "int32": 1,
+            "float32": 1.401298464324817e-45
+          },
+          "flag21": false,
+          "flag22": true
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "nodeIndex": 0,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "c:\\documents and settings\\skydeep01\\바탕 화면\\테스트 배트라인 이펙트\\a0015.scn",
+      "sourceBytesHex": "633a5c646f63756d656e747320616e642073657474696e67735c736b796465657030315cb9d9c5c120c8adb8e95cc5d7bdbac6ae20b9e8c6aeb6f3c0ce20c0ccc6e5c6ae5c61303031352e73636e",
+      "resourcePath": null,
+      "extension": "scn",
+      "kind": "model"
+    },
+    {
+      "nodeIndex": 1,
+      "nodeType": "CActGhostTrail",
+      "sourceLiteral": "c:\\documents and settings\\skydeep01\\바탕 화면\\야구사자후\\gi.dds",
+      "sourceBytesHex": "633a5c646f63756d656e747320616e642073657474696e67735c736b796465657030315cb9d9c5c120c8adb8e95cbedfb1b8bbe7c0dac8c45c67692e646473",
+      "resourcePath": null,
+      "extension": "dds",
+      "kind": "texture"
+    }
+  ],
+  "coverage": {
+    "envelopeBytesAccountedFor": 300,
+    "reachesExactEof": true,
+    "structuredNodeCount": 2,
+    "fullyStructured": true,
+    "fieldMeaningFullyValidated": false,
+    "rendered": false,
+    "qualification": "Header, base, Particle, Particle_IF, GhostTrail, Lightning, NodeControl, NodeLoader and NodeLoader_IF are consumed sequentially along statically traced native reader branches. Unvalidated four-byte fields retain raw/int/float views. No runtime rendering has been verified."
+  },
+  "diagnostics": {
+    "scannedCActOffsets": [
+      14,
+      163
+    ],
+    "parsedNodeStarts": [
+      14,
+      163
+    ],
+    "markerScanMatchesParsedStarts": true,
+    "markerScanUsedForParsing": false
+  }
+}

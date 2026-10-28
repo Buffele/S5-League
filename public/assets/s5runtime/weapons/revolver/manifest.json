@@ -1,0 +1,75 @@
+{
+  "format": "s5-revolver-asset-stage-v1",
+  "status": "assets-restored-runtime-pending",
+  "playable": false,
+  "rendered": false,
+  "behaviorVerified": false,
+  "model": {
+    "path": "/assets/s5runtime/weapons/revolver/model.json",
+    "source": {
+      "archive": "19.xs",
+      "crc32": "c14fd896",
+      "plainLength": 27741,
+      "bytes": 27741,
+      "sha256": "716c5efe6d0b69771868c6efa7fb7355e8f3a8b2fda51022c1402528eaa49bc1",
+      "path": "model/weapon/revolver.scn"
+    },
+    "bytesParsed": 27741,
+    "models": 4,
+    "bones": 2,
+    "clips": [
+      "base",
+      "Q0004"
+    ],
+    "attachment": "R_Hand_Dummy",
+    "idleAttachment": "Gun_Dummy",
+    "output": {
+      "bytes": 152805,
+      "sha256": "51c2bc3fb2e26853e3cccd54f44a0bb5a860750bcbd47d5421296ce4bfe3ee26"
+    }
+  },
+  "textures": [
+    {
+      "source": "model/weapon/revolver_01.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "8f8cdc5d121f792ff062c57231f59441c9397103da3f79b49506902989fd91a9",
+      "path": "/assets/s5runtime/weapons/revolver/revolver_01.png",
+      "bytes": 37948,
+      "sha256": "6aad95e4c7d948edf75b3f8161b03873ac66dd76f0f8f007e03766ffe5e1c66a",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1",
+      "status": "staged-authentic",
+      "archive": "49.xs",
+      "crc32": "8fb4aec0"
+    }
+  ],
+  "sounds": [
+    {
+      "source": "sound/revo_blast.ogg",
+      "path": "/assets/s5runtime/weapons/revolver/sounds/revo_blast.ogg",
+      "bytes": 37843,
+      "sha256": "8a70b4dcd17447913c391ec5aa554bbb7bb6e0a1c46bd74ad82cfd30d06b39eb",
+      "status": "staged-authentic"
+    },
+    {
+      "source": "sound/revo_reload.ogg",
+      "path": "/assets/s5runtime/weapons/revolver/sounds/revo_reload.ogg",
+      "status": "staged-authentic",
+      "bytes": 66826,
+      "sha256": "74abcf337c8adcf15e7d1ca1dda65aeac6dd8b975fef0e2400ce5bbf65f9c5ce"
+    }
+  ],
+  "contract": {
+    "path": "/assets/s5runtime/weapons/revolver/contract.json",
+    "bytes": 4648,
+    "sha256": "7570c09052a99d4a221c59f1f81728206d02fa6ca909aad12184a0d2d7df72fe"
+  },
+  "requiredBeforeLoadable": [],
+  "requiredBeforePlayable": [
+    "Validate Gun_Dummy idle versus R_Hand_Dummy attack attachment after the mixer on both sexes.",
+    "Integrate source-backed four-ray combat, aim blending, mobile reload and native effects in the main game.",
+    "Resolve native AddPushCondition semantics against the user rule: ordinary bullets must not invent flinch/stun.",
+    "Expose inventory only with tested loading and document remaining native fidelity limits."
+  ]
+}

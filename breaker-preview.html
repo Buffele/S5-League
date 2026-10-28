@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S5 · Validation Breaker</title></head>
+<body>
+<header><a href="/">← Jeu</a><div><span>VALIDATION ISOLÉE</span><h1>Breaker · rigs natifs</h1></div><strong id="gate">NON JOUABLE</strong></header>
+<main>
+  <section class="controls">
+    <label>Clip natif<select id="clip"></select></label>
+    <label>Assemblage<select id="mode"><option value="full">Clip entier</option><option value="right">HM006 haut + SG jambes</option><option value="gather">HM007 haut + SG jambes</option></select></label>
+    <button id="play">Pause</button><button id="first">Début</button>
+    <button id="attack-weak">Faible</button><button id="attack-strong">Forte</button><button id="attack-jump">Saut</button>
+    <button id="combat-pause">Pause diagnostic</button><button id="combat-step">Pas +10 ms</button>
+    <label>Terrain de test<select id="terrain"><option value="free">Espace libre</option><option value="wall">Mur frontal</option></select></label>
+    <label>Temps<input id="time" type="range" min="0" step=".001" value="0"></label>
+    <output id="clock">0.000 s</output>
+    <label class="check"><input id="skeleton" type="checkbox"> Squelettes</label>
+    <button id="front">Face</button><button id="side">Profil</button>
+  </section>
+  <p id="status" role="status">Chargement des rigs et du Breaker…</p><output id="combat-status">Combat isolé prêt après chargement.</output>
+  <p id="motion-status" role="status">Déplacement faible/fort : MoveBox blendé → contrôleur S5 → collisions. Chaque attaque repart de l’origine.</p>
+  <section class="views"><article><h2>Masculin</h2><div id="male" class="view"></div><p id="male-proof"></p></article><article><h2>Féminin</h2><div id="female" class="view"></div><p id="female-proof"></p></article></section>
+  <p class="notice">Prévisualisation technique uniquement : faible/fort déplacent l’acteur via le MoveBox réellement blendé et les collisions S5 existantes. Le saut part d’une hauteur d’essai explicite et applique son canal SetDrop au premier dépassement de 200 ms. L’arrêt au sol utilise grounded comme adaptateur S5, sans prétendre qu’il équivaut au bit natif inconnu. Dégâts, volumes, charge et effets restent à terminer.</p>
+</main><script type="module" src="/src/breaker-preview.js"></script></body></html>

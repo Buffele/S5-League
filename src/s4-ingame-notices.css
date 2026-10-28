@@ -1,0 +1,14 @@
+/* S5 web placement around measured visible UI panels. Existing authenticated
+   artwork/fonts and the host's opacity/lifetime remain unchanged. Import after
+   s4-ingame-hud.css. No viewport-wide overlay or pointer interception. */
+body.in-game #toast[data-s4-notice-managed="true"]{
+ left:var(--s4-notice-left,12px);top:var(--s4-notice-top,230px);
+ width:var(--s4-notice-width,min(420px,calc(100vw - 24px)));
+ right:auto;bottom:auto;transform:none;box-sizing:border-box;
+}
+/* Narrow layouts have measured free bands: Captain320 result-to-name and
+   Practice390 equipment-status-to-HP. With the unchanged14px/1.4 source font,
+   two lines need41.2px and one line21.6px, retaining full text and8px gaps. */
+@media(max-width:500px){
+ body.in-game #toast[data-s4-notice-managed="true"]{padding-block:1px}
+}

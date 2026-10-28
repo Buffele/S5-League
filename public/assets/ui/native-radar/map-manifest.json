@@ -1,0 +1,33 @@
+{
+  "format": "source-ui-map-assets-v1",
+  "assets": [
+    {
+      "url": "/assets/ui/native-radar/station02.png",
+      "nativeResource": "image/minimap/minimap_station02.png",
+      "sha256": "bf7d2a2f3aeb62d16f5d4899c06582b4b8c6f9b1ababed52419c6c42ffd0e4fc",
+      "width": 512,
+      "height": 512,
+      "archive": "28.xs",
+      "archiveChecksum": "5f864326"
+    },
+    {
+      "url": "/assets/ui/native-radar/station02-re.png",
+      "nativeResource": "image/minimap/minimap_station02-re.png",
+      "sha256": "75fb74d7fefff93e37f68045a7a591f446e790620b0126b48aadcad32a769508",
+      "width": 512,
+      "height": 512,
+      "archive": "53.xs",
+      "archiveChecksum": "239f8be9"
+    },
+    {
+      "url": "/assets/ui/native-radar/map-alpha.png",
+      "nativeResource": "gui/new/image_maingame_minamap_alpha.dds",
+      "sha256": "3a30268cc5992128dbd3946395a1f9f8b6a66c1f5aee9badb9e1a7e47b362d90",
+      "width": 128,
+      "height": 128,
+      "archive": "53.xs",
+      "archiveChecksum": "71496a3d",
+      "conversion": "Authenticated main-level RGBA, stored as PNG"
+    }
+  ]
+}

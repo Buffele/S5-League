@@ -1,0 +1,125 @@
+{
+  "status": "active-source-assets-native-visual-comparison-pending",
+  "textures": [
+    {
+      "source": "effects/smoke4.dds",
+      "sourceBytes": 87508,
+      "sourceSha256": "9df942208ecfca2f6d6f28d10cfe813007d660f8493e567c8a2d5c7b948721c8",
+      "path": "/assets/s5runtime/effects/airgun/textures/smoke4.png",
+      "bytes": 5008,
+      "sha256": "05a32cf0c60153f7725f47e43b89919946100c44f11eae921499ea890cf9423a",
+      "width": 128,
+      "height": 128,
+      "format": "RGBA32"
+    },
+    {
+      "source": "effects/plasma3a_yellowr.dds",
+      "sourceBytes": 87536,
+      "sourceSha256": "89a15ff034b4db00592ac1e5f1962a0e9ad15f31b55ba77045432249de060c51",
+      "path": "/assets/s5runtime/effects/airgun/textures/plasma3a_yellowr.png",
+      "bytes": 30991,
+      "sha256": "244ab17de9f903512be070d3e1d0ddeb65c54046460604710a8405dbec5048a6",
+      "width": 256,
+      "height": 256,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/ringring.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "e1da8ab59157ebf7ea2762fc5c818c8efd51e91300f2dad4ef25236665d0d693",
+      "path": "/assets/s5runtime/effects/airgun/textures/ringring.png",
+      "bytes": 31714,
+      "sha256": "83b37fbad0e623d72b14e153e2f955eeb86c79e71cbce1f6e284cd0b211dfec9",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/shotgun_mflash.dds",
+      "sourceBytes": 11064,
+      "sourceSha256": "e14102f4d37e0acb8a535a7e0185795c31644e966b8d01312f7914400125e5cc",
+      "path": "/assets/s5runtime/effects/airgun/textures/shotgun_mflash.png",
+      "bytes": 10321,
+      "sha256": "9243f99bf45f1e578dd6a0bdb41fc47ba0a22d84583acfcb3875e41dad37c251",
+      "width": 128,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/plasma3r.dds",
+      "sourceBytes": 87536,
+      "sourceSha256": "f2e76e78b6ba773083c0a9f2f4aa74059d2e675f36f824e10d717ec2fc6b97ae",
+      "path": "/assets/s5runtime/effects/airgun/textures/plasma3r.png",
+      "bytes": 42103,
+      "sha256": "6292ed021266d96e8239a1adadc672d017e767cef27fbc8036bbcb842c86c019",
+      "width": 256,
+      "height": 256,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/smoke.dds",
+      "sourceBytes": 22000,
+      "sourceSha256": "6c7ba56fbc44dbd4fd19564579ef2e71d5716c312f8f3b0d58b34edd1f9f8837",
+      "path": "/assets/s5runtime/effects/airgun/textures/smoke.png",
+      "bytes": 13183,
+      "sha256": "e68e85714a027e58f48660e716f520b19b7d5d293f045e87a713e100ac0cd8ab",
+      "width": 128,
+      "height": 128,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/blue_beam.dds",
+      "sourceBytes": 2896,
+      "sourceSha256": "ded367697ae0d7863918d92453fe533a1c67e13e591d9e810686385a883e8854",
+      "path": "/assets/s5runtime/effects/airgun/textures/blue_beam.png",
+      "bytes": 1080,
+      "sha256": "ad56faa4b5b37c7da7b6757312d7c48dcf9d5288191ccea08b842f908c15b50e",
+      "width": 64,
+      "height": 32,
+      "format": "DXT3"
+    },
+    {
+      "source": "effects/glass_chunks2.dds",
+      "sourceBytes": 1520,
+      "sourceSha256": "22261e5934c758d8c6b37c7a2096fbb5fd1a7cacd249cb2b5e587862dc35d134",
+      "path": "/assets/s5runtime/effects/airgun/textures/glass_chunks2.png",
+      "bytes": 820,
+      "sha256": "c6c6386ec4e0c0ed31558307492377f624b4c954f9c8b2523d3151b01ea1338b",
+      "width": 32,
+      "height": 32,
+      "format": "DXT3"
+    },
+    {
+      "source": "effects/tick.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "path": "/assets/s5runtime/effects/airgun/textures/tick.png",
+      "bytes": 1831,
+      "sha256": "b193c5abe53662185c26abee065200c4f4878846a96c75ee34f2afb9751eefca",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    }
+  ],
+  "models": [
+    {
+      "source": "effects/weapon_airgun_fire.scn",
+      "sha256": "90b9e03aad5e29bdac7c1ea91728bc328636af8069c6bd2202775707ad75e050",
+      "output": "/assets/s5runtime/effects/airgun/models/weapon_airgun_fire.json"
+    },
+    {
+      "source": "effects/skill_gunner_chargeshot_dummy1.scn",
+      "sha256": "3f81f024308bc5676f87f4ea1ce5651d47c8b9ee5354d3a1a90efc79bfb6d9bf",
+      "output": "/assets/s5runtime/effects/airgun/models/skill_gunner_chargeshot_dummy1.json"
+    }
+  ],
+  "sequences": [
+    "weapon_airgun_smog.seq",
+    "weapon_airgun_rail.seq"
+  ],
+  "nativeTextureResolution": "Same-directory DDS preferred; see tools/s5runtime-arsenal/effect-texture-resolution.mjs. Live local index resolves smoke.dds and blue_beam.dds.",
+  "remaining": [
+    "Lightning uses the decoded texture and 100 ms lifetime; procedural shape/width are a presentation approximation.",
+    "Native timing of release relative to hit and precise push strength need S5Runtime comparison."
+  ]
+}

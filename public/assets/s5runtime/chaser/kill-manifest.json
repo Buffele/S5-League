@@ -1,0 +1,156 @@
+{
+  "source": "slaughtertagattribindexer.lua Devil SetSlaySequence",
+  "sequenceSha256": "45827b9553209272ae90e7e70351a83cc4ea8b2be4bf53020d3f7f8e41144087",
+  "nodes": 8,
+  "evidence": [
+    {
+      "path": "effects/ggrim_kill.seq",
+      "checksum": "174c2fd5",
+      "plainLength": 3155,
+      "storedLength": 1722,
+      "dataOffset": 49473103,
+      "archive": "package/28.xs",
+      "status": "authenticated",
+      "sha256": "45827b9553209272ae90e7e70351a83cc4ea8b2be4bf53020d3f7f8e41144087",
+      "method": "repeated-zero-block+signature+crc32"
+    },
+    {
+      "path": "effects/grimforth.scn",
+      "checksum": "b1df657d",
+      "plainLength": 107741,
+      "storedLength": 49103,
+      "dataOffset": 21252701,
+      "archive": "package/3.xs",
+      "status": "authenticated",
+      "sha256": "39fb538f3968727be5d766391bedc4fa6d5728e5d0cc3579a48e0eb506075f0c",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/d100_st_boss_fog02.dds",
+      "checksum": "d4f029e6",
+      "plainLength": 43856,
+      "storedLength": 17251,
+      "dataOffset": 84205287,
+      "archive": "package/3.xs",
+      "status": "authenticated",
+      "sha256": "1d14d647f2a1b2729004699c1ae853e71e0af30d419abc5d05f107bdfd3c2cb3",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/tick.dds",
+      "checksum": "874b5583",
+      "plainLength": 2872,
+      "storedLength": 2299,
+      "dataOffset": 45761478,
+      "archive": "package/4.xs",
+      "status": "authenticated",
+      "sha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/grim_energy.dds",
+      "checksum": "c2897042",
+      "plainLength": 5616,
+      "storedLength": 3011,
+      "dataOffset": 17642965,
+      "archive": "package/28.xs",
+      "status": "authenticated",
+      "sha256": "a64ed19e300f628fee3d1f8702a42dd58432fd562b1ad4fc4868514e3dbbb5f4",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/fan_red.scn",
+      "checksum": "f5ea6ea9",
+      "plainLength": 4746,
+      "storedLength": 2550,
+      "dataOffset": 25642722,
+      "archive": "package/72.xs",
+      "status": "authenticated",
+      "sha256": "f1fbe8616843c2b988f9217f0caddc86231618ac18a88517fb0a439e67f1ce25",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/fan_red.dds",
+      "checksum": "b6b7fad0",
+      "plainLength": 2872,
+      "storedLength": 2360,
+      "dataOffset": 8312332,
+      "archive": "package/62.xs",
+      "status": "authenticated",
+      "sha256": "8ee3645b5fadc904f3a05dda64b3aad4f69e7f326afe8ba5c1a2064896a3a9ea",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/mapeffect_light5.dds",
+      "checksum": "24f67a0a",
+      "plainLength": 2896,
+      "storedLength": 1473,
+      "dataOffset": 100470229,
+      "archive": "package/28.xs",
+      "status": "authenticated",
+      "sha256": "0a8e205caffc04a884417d92cf01f1ced58e82abd95dc02e9f27e4916643bb67",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/lightning_red.dds",
+      "checksum": "8dfa1caa",
+      "plainLength": 2872,
+      "storedLength": 2118,
+      "dataOffset": 71098329,
+      "archive": "package/79.xs",
+      "status": "authenticated",
+      "sha256": "4dfe8c4fa55c8e021f1954ecae283671de07283095722125b0916dde653910ca",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/lightning2_red.dds",
+      "checksum": "e55f3a1d",
+      "plainLength": 2872,
+      "storedLength": 1804,
+      "dataOffset": 53217504,
+      "archive": "package/4.xs",
+      "status": "authenticated",
+      "sha256": "485ce80cfc3c9aba47ba7be9797189815c4c12388a36dd22161f87d625fefc7d",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/lightning3_red.dds",
+      "checksum": "9999df88",
+      "plainLength": 2872,
+      "storedLength": 2066,
+      "dataOffset": 27305227,
+      "archive": "package/29.xs",
+      "status": "authenticated",
+      "sha256": "385bd23767cc237ef2754a60ed88e21a687212545a47428d21d2fefb5e5a073c",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/lightning4_red.dds",
+      "checksum": "adb3fc78",
+      "plainLength": 2872,
+      "storedLength": 2274,
+      "dataOffset": 26143340,
+      "archive": "package/3.xs",
+      "status": "authenticated",
+      "sha256": "50dafda52c3126ad483986764e826cdd8c639eb126a4c50ea7c7e3ec3d5ad9dc",
+      "method": "known-header-crc32"
+    }
+  ],
+  "textures": [
+    "d100_st_boss_fog02",
+    "tick",
+    "grim_energy",
+    "fan_red",
+    "mapeffect_light5",
+    "lightning_red",
+    "lightning2_red",
+    "lightning3_red",
+    "lightning4_red"
+  ],
+  "nativeReader": "0x1200810 resource-string list; empty name at offset 149",
+  "limitations": [
+    "Legacy BMP/TGA literals use authenticated same-basename DDS; visual equivalence unverified.",
+    "Native event mapping recovered statically; exact rendered placement requires S5Runtime comparison."
+  ],
+  "nativeGameplayVerified": false
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "date": "2026-09-26",
+  "sourceSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+  "evidenceKind": "static-control-flow-and-read-only-loaded-parameters",
+  "notSynchronizedWithVideo": true,
+  "animationTicksPerSecond": 4800,
+  "offsetTicksClarification": "Legacy field name: CAnimParam +0x3c is copied to controller +0x54 after selection (0xB782B4-0xB782C9), then added to the NEXT incoming blend duration (0x7C7C5D). It is not a playback start offset. 00003 to SN002 therefore blends for (500+1000)/4800 seconds; 00000 to SN002 for 1000/4800 seconds.",
+  "landStateLimitMs": 300,
+  "landExitCondition": "elapsedMs > limitMs",
+  "jumpParameters": [
+    {"index": 0, "clip": "00000", "blendTicks": 500, "offsetTicks": 1000, "speed": 1, "loop": false, "reset": true},
+    {"index": 1, "clip": "00001", "blendTicks": 500, "offsetTicks": 0, "speed": 1, "loop": false, "reset": true},
+    {"index": 2, "clip": "00004", "blendTicks": 100, "offsetTicks": 300, "speed": 1, "loop": false, "reset": true},
+    {"index": 3, "clip": "00003", "blendTicks": 200, "offsetTicks": 500, "speed": 0.8, "loop": false, "reset": true},
+    {"index": 4, "clip": "00000", "blendTicks": 100, "offsetTicks": 0, "speed": 0.8, "loop": false, "reset": true},
+    {"index": 5, "clip": "00002", "blendTicks": 1000, "offsetTicks": 0, "speed": 1, "loop": true, "reset": true}
+  ],
+  "landingSubstateParameterIndex": {"5": 3, "6": 4},
+  "jumpUses": [
+    {"parameterIndex": 0, "context": "CJumpState : entrée du sous-état 0", "selectionAddress": "0x626A58", "playAddress": "0x626AD9", "durationArgument": "state+0x160; vitesse effective à vérifier"},
+    {"parameterIndex": 1, "context": "CJumpState : entrée du sous-état 1", "selectionAddress": "0x626CFB", "playAddress": "0x626D7A", "durationArgument": "state+0x150; vitesse effective à vérifier"},
+    {"parameterIndex": 2, "context": "CJumpState : entrée du sous-état 3", "selectionAddress": "0x626FD8", "playAddress": "0x627057", "durationArgument": "state+0x150; vitesse effective à vérifier"},
+    {"parameterIndex": 3, "context": "CJumpState : réception, sous-état 5", "selectionAddress": "0x6272AF", "playAddress": "0x627320", "durationArgument": "0; pas de durée forcée"},
+    {"parameterIndex": 4, "context": "CJumpState : réception avec roulade, sous-état 6", "selectionAddress": "0x62750A", "playAddress": "0x62757B", "durationArgument": "0; pas de durée forcée"},
+    {"parameterIndex": 5, "context": "CJumpState : après dépassement du timer +0x14c, sous-états 1/3", "selectionAddress": "0x62585C", "playAddress": "0x6258E9", "durationArgument": "0; pas de durée forcée"},
+    {"parameterIndex": 5, "context": "CJumpState : après dépassement du timer +0x14c, sous-états 2/4", "selectionAddress": "0x625E1B", "playAddress": "0x625EA8", "durationArgument": "0; pas de durée forcée"}
+  ],
+  "jumpDispatch": {"tableAddress":"0x627768", "targets":["0x626A58","0x626CFB","0x627760","0x626FD8","0x627760","0x6272AF","0x62750A"], "note":"Les entrées 2 et 4 retournent sans sélectionner un nouveau clip; le tick peut ensuite jouer le paramètre 5. Les numéros ne nomment pas à eux seuls un geste ni une direction."},
+  "daggerIdle": {
+    "weaponSlot": 24, "parameterIndex": 0, "clip": "SN002",
+    "blendTicks": 1000, "offsetTicks": 0, "speed": 1,
+    "loop": true, "reset": false, "blendOverrides": []
+  },
+  "ordinaryBlend": {"outgoingTimeContinues": true, "weight": "linear", "rotation": "slerp"},
+  "limits": [
+    "Loaded settings and code establish the normal roll-to-dagger-idle path, not a frame-synchronized trace of either recording.",
+    "0.8 is rounded from the stored float32 0.800000011920929.",
+    "300 ms of gameplay is approximately 240 ms of source animation at 0.8 speed, not 300 ms of source animation.",
+    "The outgoing blend clock advances independently; do not assume the old 0.8 speed remains applied during blending.",
+    "Does not establish sprint-cancel timing, backward-jump input selection, or female visual matching."
+  ]
+}

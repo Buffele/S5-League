@@ -1,0 +1,143 @@
+{
+  "texture": {
+    "url": "/assets/conquest/pawn-explode/textures/pve_mon_pawn_etex_2.png",
+    "sha256": "976bc9b4de9dc20808f8b8369eb474c76b44539d8e288fa55023001a0e75bd11",
+    "bytes": 42051,
+    "source": "model/monster/pve_mon_pawn_etex_2.dds"
+  },
+  "ringTexture": {
+    "url": "/assets/conquest/pawn-explode/textures/red_ring.png",
+    "sha256": "1d697bf3ebddb24f8b36a48df95b76e807fd7c69ce52bfed69f67e49058ec17f",
+    "bytes": 103,
+    "source": "effects/red_ring.dds"
+  },
+  "models": [
+    {
+      "url": "/assets/conquest/pawn-explode/models/pve-mon-pawn-red-eff.json",
+      "sha256": "43ab47f4c42000531ae5128dd94dc1dfbd7cbd8eb8157453a42adfe222afaf3c",
+      "bytes": 30366,
+      "source": "effects/pve_mon_pawn_red_eff.scn"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/models/pve-mon-pawn-red-eff2.json",
+      "sha256": "0dbd754cba9860f6c74414d0be7e99aa36521f20808cedcfd5ea755023ba500a",
+      "bytes": 42283,
+      "source": "effects/pve_mon_pawn_red_eff2.scn"
+    }
+  ],
+  "sequences": [
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff.seq",
+      "sha256": "3daa28c5d025ab7b7f88f57b669dda61eb1d22f4b1366af7013526536fbb5339",
+      "bytes": 146,
+      "source": "effects/pve_mon_pawn_red_eff.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff.json",
+      "sha256": "25081fab7ebd0127e657027c1b08d93405f2aa72d42a3d5fa796430ca4e0fcf3",
+      "bytes": 4591,
+      "source": "effects/pve_mon_pawn_red_eff.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff2.seq",
+      "sha256": "eae5769f53512b3db7e6341a831ebb30fff22ea7cf2945992f2d554b69b4eee1",
+      "bytes": 147,
+      "source": "effects/pve_mon_pawn_red_eff2.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff2.json",
+      "sha256": "52325e9ad6848b516c2bd5c036835599483ed7e51ce074be5f1ea2b5e59eb0b6",
+      "bytes": 4603,
+      "source": "effects/pve_mon_pawn_red_eff2.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff3.seq",
+      "sha256": "88be362327e9f18a7f5b92254d362e8623ffae73a1e6b8c71d4bdb08e0655ad7",
+      "bytes": 890,
+      "source": "effects/pve_mon_pawn_red_eff3.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff3.json",
+      "sha256": "435021366a28be40487d17b0aa8c314014be8269484cd98b4c5f76b523e42961",
+      "bytes": 32903,
+      "source": "effects/pve_mon_pawn_red_eff3.seq"
+    }
+  ],
+  "outputs": [
+    {
+      "url": "/assets/conquest/pawn-explode/textures/pve_mon_pawn_etex_2.png",
+      "sha256": "976bc9b4de9dc20808f8b8369eb474c76b44539d8e288fa55023001a0e75bd11",
+      "bytes": 42051,
+      "source": "model/monster/pve_mon_pawn_etex_2.dds"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/textures/red_ring.png",
+      "sha256": "1d697bf3ebddb24f8b36a48df95b76e807fd7c69ce52bfed69f67e49058ec17f",
+      "bytes": 103,
+      "source": "effects/red_ring.dds"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/textures/smog_gray.png",
+      "sha256": "e808ce245e43ecf3315b1cd56b92f3ef9c01c5408a54d65ad2d0fc18c6e89920",
+      "bytes": 57184,
+      "source": "effects/smog_gray.dds"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/textures/weaponeff_cardfog2_d100.png",
+      "sha256": "01c8f3503e8fbbf92d8d8b7a34a79758dbdf4a21fec9aa965bcd7f0480440c97",
+      "bytes": 34758,
+      "source": "effects/weaponeff_cardfog2_d100.dds"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/models/pve-mon-pawn-red-eff.json",
+      "sha256": "43ab47f4c42000531ae5128dd94dc1dfbd7cbd8eb8157453a42adfe222afaf3c",
+      "bytes": 30366,
+      "source": "effects/pve_mon_pawn_red_eff.scn"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/models/pve-mon-pawn-red-eff2.json",
+      "sha256": "0dbd754cba9860f6c74414d0be7e99aa36521f20808cedcfd5ea755023ba500a",
+      "bytes": 42283,
+      "source": "effects/pve_mon_pawn_red_eff2.scn"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff.seq",
+      "sha256": "3daa28c5d025ab7b7f88f57b669dda61eb1d22f4b1366af7013526536fbb5339",
+      "bytes": 146,
+      "source": "effects/pve_mon_pawn_red_eff.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff.json",
+      "sha256": "25081fab7ebd0127e657027c1b08d93405f2aa72d42a3d5fa796430ca4e0fcf3",
+      "bytes": 4591,
+      "source": "effects/pve_mon_pawn_red_eff.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff2.seq",
+      "sha256": "eae5769f53512b3db7e6341a831ebb30fff22ea7cf2945992f2d554b69b4eee1",
+      "bytes": 147,
+      "source": "effects/pve_mon_pawn_red_eff2.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff2.json",
+      "sha256": "52325e9ad6848b516c2bd5c036835599483ed7e51ce074be5f1ea2b5e59eb0b6",
+      "bytes": 4603,
+      "source": "effects/pve_mon_pawn_red_eff2.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff3.seq",
+      "sha256": "88be362327e9f18a7f5b92254d362e8623ffae73a1e6b8c71d4bdb08e0655ad7",
+      "bytes": 890,
+      "source": "effects/pve_mon_pawn_red_eff3.seq"
+    },
+    {
+      "url": "/assets/conquest/pawn-explode/sequences/pve-mon-pawn-red-eff3.json",
+      "sha256": "435021366a28be40487d17b0aa8c314014be8269484cd98b4c5f76b523e42961",
+      "bytes": 32903,
+      "source": "effects/pve_mon_pawn_red_eff3.seq"
+    }
+  ],
+  "thirdTextureResolutionQualified": true,
+  "thirdScopedSourceRuntimeAvailable": true,
+  "nativeReady": false
+}

@@ -1,0 +1,2 @@
+export const ANCHORING_ASSET_MANIFEST_SHA256="3af501edadca129cbb2d74f6be37623520e7e71316752c52e29f8984e224c422";
+export const ANCHORING_ASSET_ROOT='/assets/s5runtime/skill-runtime/anchoring';

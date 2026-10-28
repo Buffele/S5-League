@@ -1,0 +1,52 @@
+{
+  "schema": "blade-city-runtime-lighting-explicit-s5-approximation-v1",
+  "sourceBlend": "blade-city-b-refined-v3.blend",
+  "purpose": "Runtime approximation of the neutral, non-camera world lighting. The approved orange panorama stays visible but supplies no environment illumination.",
+  "nativeLightingCertified": false,
+  "blenderPixelParityCertified": false,
+  "valuesAreMeasured": false,
+  "colorConvention": "Linear RGB arrays for Three.Color.fromArray; proposed by visual review, not sampled from an HDRI or native registry.",
+  "lighting": {
+    "hemisphere": {
+      "skyColor": [0.42, 0.58, 0.85],
+      "groundColor": [0.12, 0.13, 0.18],
+      "intensity": 1.0,
+      "qualification": "Explicit S5 approximation of neutral daylight and broad passage fill, not an exported/baked Blender sky."
+    }
+  },
+  "background": {
+    "useExistingApprovedPackedPanorama": true,
+    "image": "blade-city-b-4k.png",
+    "intensity": 0.7,
+    "environmentIntensity": 0.0,
+    "rotationY": 0
+  },
+  "presentation": {
+    "toneMapping": "AgX",
+    "sourceExposureEv": 0.25,
+    "exposure": 1.189207115002721,
+    "fog": null,
+    "sourceLook": "AgX - Medium High Contrast",
+    "lookParityCertified": false
+  },
+  "sourceLights": {
+    "includeOnlyNotHideRender": true,
+    "sunName": "Blade B neutral daylight",
+    "sunEnergy": 2.1,
+    "broadAreaEnergies": [30000, 24000, 18000],
+    "areaPowerToRuntimePhotometryCertified": false,
+    "note": "Previous ART lights remain in source but hide_render=true. Do not export those disabled lights. World Multiple Scattering strength0.11 is not a runtime environment intensity."
+  },
+  "materials": {
+    "nativeMaterialBackupAndSamplerSourcePropertiesRetained": true,
+    "nativeImagesAndSourceUVRetained": true,
+    "emission": "All new Principled shaders have default black emission, unlinked from Base Color. Bake Base Color without inventing emission.",
+    "surface": "Principled; graphite metallic0.10, other roles0.025; roughness floor0.66, graphite0.55, wall/cafe0.58, yellow/cyan0.46. Authored alpha connected for source render states2/4/32.",
+    "note": "These are artist materials, not a native render-state shader reconstruction."
+  },
+  "limits": [
+    "An indoor-armory concept cannot replace the authenticated exterior geometry.",
+    "Orange panorama remains as approved; its mismatch with the concept daylight is documented.",
+    "Verify runtime screenshots before claiming visual match; numerical proposal is not a pixel parity measurement."
+  ]
+}

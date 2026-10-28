@@ -1,0 +1,66 @@
+{
+  "format": "s5-staged-weapon-assets-v1",
+  "id": "breaker",
+  "displayName": "Breaker",
+  "variant": "classic",
+  "status": "integrated-training",
+  "playable": true,
+  "reason": "S5 training: original mesh, textures, male/female clips, MoveBox, attack timing and sounds. Hold/release charge, world hitbox orientation, victim body and reactions are adaptations, not a complete native port. Full SEQ effects remain staged.",
+  "assets": [
+    {
+      "role": "weapon-scene",
+      "path": "/assets/s5runtime/weapon-breaker-classic.json",
+      "bytes": 63173,
+      "sha256": "e18e3745a25f0cd77f0f8f3a9d3074bb86c1deeaa6d9bda06079ec42fcf5579c",
+      "source": "model/weapon/breaker.scn"
+    },
+    {
+      "role": "weapon-texture",
+      "path": "/assets/s5runtime/textures/06e4d7d3a0e766c8.png",
+      "bytes": 45776,
+      "sha256": "06e4d7d3a0e766c85845c6effb38fd5d2bde75c905a968318b4f502ca9a91586",
+      "source": "model/weapon/breaker.dds"
+    },
+    {
+      "role": "classic-trail-texture",
+      "path": "/assets/s5runtime/textures/d9726737c5a5b072.png",
+      "bytes": 92309,
+      "sha256": "d9726737c5a5b072d4ad83101db38ebc5cccd64a02689ea3ea1f01e9ed79e711",
+      "source": "image/hm.dds"
+    },
+    {
+      "role": "strong-sound",
+      "path": "/assets/s5runtime/sound/breaker_big_smash.ogg",
+      "bytes": 27566,
+      "sha256": "358d72ea3590cda0c57c6a2222277d5e1c629646f0cfd3b11bbc7a2387dccfdb",
+      "source": "sound/breaker_big_smash.ogg"
+    },
+    {
+      "role": "hit-sound",
+      "path": "/assets/s5runtime/sound/breaker_hit.ogg",
+      "bytes": 24951,
+      "sha256": "494dc9b02731edccf3b6c1d13119db6c6823a5f1db14c41ca50ee46f30b048a3",
+      "source": "sound/breaker_hit.ogg"
+    },
+    {
+      "role": "swing-sound",
+      "path": "/assets/s5runtime/sound/breaker_smash.ogg",
+      "bytes": 14612,
+      "sha256": "7423935e65e586446b23598e76650f62f8f4cccfd18ea7ac8e2350909ef26508",
+      "source": "sound/breaker_smash.ogg"
+    },
+    {
+      "role": "jump-sound",
+      "path": "/assets/s5runtime/sound/breaker_jump.ogg",
+      "bytes": 26648,
+      "sha256": "c8fa310fb69575be90d81f6060240c87d03cf05ed85a049333eb88363af750b8",
+      "source": "sound/breaker_jump.ogg"
+    }
+  ],
+  "remainingForNativeFidelity": [
+    "Resolve native charge input gates, resource costs and cancels.",
+    "Confirm runtime parameter precedence, world attack-box flags and obstruction policy.",
+    "Replace training victim volumes and reaction impulses with verified native behavior.",
+    "Render complete original SEQ effects and GhostTrail."
+  ]
+}

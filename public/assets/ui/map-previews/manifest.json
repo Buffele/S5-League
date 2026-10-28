@@ -1,0 +1,192 @@
+{
+  "schema": "room-map-previews-v1",
+  "source": {
+    "path": "xml/map.x7",
+    "archive": "package/50.xs",
+    "crc32": "371b2a04",
+    "storedSha256": "860162e59783c91767f1a4f74f5a40e0ef7859fb4619364b175ba9ecb934591f",
+    "plainSha256": "030d1fbe50f9da9cb2b7c6a19aebb847f386b2f4d03129adb31f29754617ceff",
+    "plainBytes": 36638,
+    "decodeMethod": "known-header-crc32"
+  },
+  "sourceIndexSha256": "fbc5b05e18578f56d1ad3e29be53882177e9d0358e69caba0cc3fad6f146a42c",
+  "operation": "Lossless RGBA conversion, no cropping/resizing/recolouring",
+  "maps": {
+    "19": {
+      "nativeMapId": 19,
+      "nameKey": "MAPNAME_BIO_LAB",
+      "sourceModeNumbers": "1,22,24",
+      "image": "/assets/ui/map-previews/map-2ecdc39e8a35.png",
+      "size": [
+        720,
+        360
+      ],
+      "pngSha256": "f3f5d73d044b4b6b87a73a59c3b4819b4fad52ed68a4430544c464c47a009290",
+      "rgbaSha256": "454d46ff2a2e4f358676f321f3828c6eb6b5b78bdee6feee8fde985f5e324020",
+      "source": {
+        "path": "xui/image/lobby/map_select/biolab.tga",
+        "archive": "package/76.xs",
+        "crc32": "569d118d",
+        "storedSha256": "3cbf120052904f9f1ad2d8a0fb8de5f9c0fe53fd09941c31f4e715fec20e3f2c",
+        "plainSha256": "2ecdc39e8a3575df3356326544fa79b7ecad7e5ae1eca5dc2323c858f20ea7b4",
+        "plainBytes": 1036844,
+        "decodeMethod": "known-header-crc32"
+      },
+      "sourceFile": "work/waiting-room-map-card-20261017/source/2ecdc39e8a3575df3356326544fa79b7ecad7e5ae1eca5dc2323c858f20ea7b4.tga"
+    },
+    "52": {
+      "nativeMapId": 52,
+      "nameKey": "MAPNAME_STATION2",
+      "sourceModeNumbers": "4",
+      "image": "/assets/ui/map-previews/map-d0268bf49175.png",
+      "size": [
+        720,
+        360
+      ],
+      "pngSha256": "66ca639653bec88dd2aa6b6825964147414c6f90051c1644eedf29de12d68c08",
+      "rgbaSha256": "a1d9fa9b6df2ca1fbabd37a2cef1c4e03bc8130759b9615d97c0ad2cc32f3f6b",
+      "source": {
+        "path": "xui/image/lobby/map_select/s4station02.tga",
+        "archive": "package/79.xs",
+        "crc32": "6f986bad",
+        "storedSha256": "1574253cb56835012729eaf29ff607993dc32f7bae4f31bf4da84fec16310355",
+        "plainSha256": "d0268bf49175ea6596999855823de818ad389ca36193cd3a9cf3e8971a1c8ec3",
+        "plainBytes": 1036844,
+        "decodeMethod": "known-header-crc32"
+      },
+      "sourceFile": "work/waiting-room-map-card-20261017/source/d0268bf49175ea6596999855823de818ad389ca36193cd3a9cf3e8971a1c8ec3.tga"
+    },
+    "54": {
+      "nativeMapId": 54,
+      "nameKey": "MAPNAME_STATION1",
+      "sourceModeNumbers": "4",
+      "image": "/assets/ui/map-previews/map-9ac20bb4ed84.png",
+      "size": [
+        720,
+        360
+      ],
+      "pngSha256": "f84ab2d6de5122a99db639fb05fbd2b8dc63cfb325a77aed3f9c1f1841b4bf65",
+      "rgbaSha256": "b18a056c9dd63750b162be49b756206b0753b44808fa527f375b8d6159732e16",
+      "source": {
+        "path": "xui/image/lobby/map_select/s4station01.tga",
+        "archive": "package/61.xs",
+        "crc32": "f4b1cac9",
+        "storedSha256": "c7c8f455df9422a56a4ccc069445679746bc1cd45d40f670ac56fff4fd6cd52e",
+        "plainSha256": "9ac20bb4ed84387fcdc7af889fe5d9b0a9ecb37188e79c7acb322972e8f67ff7",
+        "plainBytes": 1036844,
+        "decodeMethod": "known-header-crc32"
+      },
+      "sourceFile": "work/waiting-room-map-card-20261017/source/9ac20bb4ed84387fcdc7af889fe5d9b0a9ecb37188e79c7acb322972e8f67ff7.tga"
+    },
+    "55": {
+      "nativeMapId": 55,
+      "nameKey": "MAPNAME_TUNNEL",
+      "sourceModeNumbers": "4",
+      "image": "/assets/ui/map-previews/map-349737dfb612.png",
+      "size": [
+        720,
+        360
+      ],
+      "pngSha256": "9ff61eb63c14318ddfa8344a77a937b1868121d837f04f9ef08f198530ae8341",
+      "rgbaSha256": "df733d34d0fa65dbfe3bfcb211057c96ba98c9fb5093f0bfff1ee9ad775123eb",
+      "source": {
+        "path": "xui/image/lobby/map_select/tn01.tga",
+        "archive": "package/74.xs",
+        "crc32": "33fbc6af",
+        "storedSha256": "54fbc3d2a08dc97af425c387947ed1750f0ff2d915ebebb0f3a7cfa059ad5603",
+        "plainSha256": "349737dfb612ddd29c51503ec496e014bb10fc9a704d1f0dff48ab67b8e751fc",
+        "plainBytes": 1036844,
+        "decodeMethod": "known-header-crc32"
+      },
+      "sourceFile": "work/waiting-room-map-card-20261017/source/349737dfb612ddd29c51503ec496e014bb10fc9a704d1f0dff48ab67b8e751fc.tga"
+    },
+    "66": {
+      "nativeMapId": 66,
+      "nameKey": "MAPNAME_STATION2",
+      "sourceModeNumbers": "2",
+      "image": "/assets/ui/map-previews/map-d0268bf49175.png",
+      "size": [
+        720,
+        360
+      ],
+      "pngSha256": "66ca639653bec88dd2aa6b6825964147414c6f90051c1644eedf29de12d68c08",
+      "rgbaSha256": "a1d9fa9b6df2ca1fbabd37a2cef1c4e03bc8130759b9615d97c0ad2cc32f3f6b",
+      "source": {
+        "path": "xui/image/lobby/map_select/s4station02.tga",
+        "archive": "package/79.xs",
+        "crc32": "6f986bad",
+        "storedSha256": "1574253cb56835012729eaf29ff607993dc32f7bae4f31bf4da84fec16310355",
+        "plainSha256": "d0268bf49175ea6596999855823de818ad389ca36193cd3a9cf3e8971a1c8ec3",
+        "plainBytes": 1036844,
+        "decodeMethod": "known-header-crc32"
+      },
+      "sourceFile": "work/waiting-room-map-card-20261017/source/d0268bf49175ea6596999855823de818ad389ca36193cd3a9cf3e8971a1c8ec3.tga"
+    },
+    "93": {
+      "nativeMapId": 93,
+      "nameKey": "MAPNAME_CIRCLE2",
+      "sourceModeNumbers": "8",
+      "image": "/assets/ui/map-previews/map-4f1b6f2313ac.png",
+      "size": [
+        720,
+        360
+      ],
+      "pngSha256": "23236b6a6233c5613782ec5f6676d098773fb992b4f4ebc512a613b8af504b9c",
+      "rgbaSha256": "f7cf4ba8491dda3e863032c72709eae8bdd26e9809c220765b8160c1539fc4d8",
+      "source": {
+        "path": "xui/image/lobby/map_select/sc02.tga",
+        "archive": "package/51.xs",
+        "crc32": "7f09aca4",
+        "storedSha256": "528e7775eaef99726b539070bb29b0faf52796846c2673dc189da31fb58aed60",
+        "plainSha256": "4f1b6f2313accbfd03a0467a80e64add58a5c23cab5c9b90e55c8274597950da",
+        "plainBytes": 1036844,
+        "decodeMethod": "known-header-crc32"
+      },
+      "sourceFile": "work/waiting-room-map-card-20261017/source/4f1b6f2313accbfd03a0467a80e64add58a5c23cab5c9b90e55c8274597950da.tga"
+    },
+    "158": {
+      "nativeMapId": 158,
+      "nameKey": "MAPNAME_BLADE_CITY",
+      "sourceModeNumbers": "1,22,24",
+      "image": "/assets/ui/map-previews/map-d0c88236d6d5.png",
+      "size": [
+        720,
+        360
+      ],
+      "pngSha256": "737c025fb3a5b56521c66c70252527ec77384a82b45197d66621b30ea9aa3c69",
+      "rgbaSha256": "78587148729c9de4089bd087c9e46ffde07cb4904c3d297f2ff38eef37b3612b",
+      "source": {
+        "path": "xui/image/lobby/map_select/bladecity.tga",
+        "archive": "package/25.xs",
+        "crc32": "3011537f",
+        "storedSha256": "14e0724346ba23b3d56d4692126abb248f88f14353027b76eaa13f9921954bdf",
+        "plainSha256": "d0c88236d6d5551f3fd36bf3015cc2877ff503c0cac072ae83697dc9e9823b64",
+        "plainBytes": 1036844,
+        "decodeMethod": "known-header-crc32"
+      },
+      "sourceFile": "work/waiting-room-map-card-20261017/source/d0c88236d6d5551f3fd36bf3015cc2877ff503c0cac072ae83697dc9e9823b64.tga"
+    },
+    "225": {
+      "nativeMapId": 225,
+      "nameKey": "MAPNAME_ALICE_HOUSE",
+      "sourceModeNumbers": "8",
+      "image": "/assets/ui/map-previews/map-2f535e5660dd.png",
+      "size": [
+        720,
+        360
+      ],
+      "pngSha256": "8fff8d6bd2ccc2f8b8da802197c91a7df7a6f11807ed7f367ca4d4b4754c3771",
+      "rgbaSha256": "4093bf8719c9404647784477148b7f6e8aa9d666ef165d6a81f406f0aa6f9b83",
+      "source": {
+        "path": "xui/image/lobby/map_select/alicehouse.tga",
+        "archive": "package/24.xs",
+        "crc32": "43d4e158",
+        "storedSha256": "03df086f3ce218f90960118824e844135919b05815e186b7a179d02afd742fcd",
+        "plainSha256": "2f535e5660dd2deaf1b50a6217586766b97bf4f0ac03b3111cc3aad7115318f5",
+        "plainBytes": 1036844,
+        "decodeMethod": "known-header-crc32"
+      },
+      "sourceFile": "work/waiting-room-map-card-20261017/source/2f535e5660dd2deaf1b50a6217586766b97bf4f0ac03b3111cc3aad7115318f5.tga"
+    }
+  }
+}

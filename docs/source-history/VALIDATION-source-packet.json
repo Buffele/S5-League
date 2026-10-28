@@ -1,0 +1,55 @@
+{
+  "created": "2026-10-28T05:06:34.981Z",
+  "isolatedRoot": "S5-developpeur",
+  "dependencyValidation": "Existing locked dependency versions copied locally for validation only; node_modules excluded from archive. Fresh npm ci was not executed.",
+  "sourceBoundary": "Vite filesystem access restricted to the isolated package root.",
+  "compilation": {
+    "passed": true,
+    "write": false,
+    "modules": 1178,
+    "generatedFiles": 114,
+    "generatedBytes": 6570740,
+    "warning": "Existing source warning: assertConquestMonsterStateNotificationReceipt is referenced but not exported by src/conquest-player-monster-combat.js. Gameplay left unchanged."
+  },
+  "provenanceHelper": {
+    "passed": true,
+    "checks": [
+      "immutable authored source identity retained",
+      "transformed distribution digest tracked separately",
+      "ordinary asset hashes updated",
+      "legacy scan clean for transformed fixture"
+    ]
+  },
+  "browser": [
+    {
+      "name": "arena",
+      "query": "",
+      "state": {
+        "bootstrap": "ready",
+        "title": "S5 League",
+        "text": "— FPS\nS5\nLEAGUE\nPlay\nInventory\nShop\nClan\nSocial\nAa\nDrag to rotate\nSquad\n1 / 4\nLocal player\nSolo session\nInvite players\n\nSquads unlock with online services.\n\nPLAY / LOCAL SESSION\nLOCAL\nFree training\nMovement arena\n\nExplore the map and practise with your current equipment.\n\nMap\nMovement arena\nRules\nDefault rules\nTeam\nAlpha · blue\nMatch settings\nOnline rooms\nUnavailable in this build\n\nReady · Male character · Spy Dagger\n\nEnter room\nLocal player\nLocal profile\nPROGRESSION\nCaching resources…\nP\n—\nS\n—\nYour loadout\nPresets\n&\nSpy Dagger\nACTIVE\n×\nÉ\nEmpty slot\nADD WEAPON\n\"\nEmpty slot\nADD WEAPON\nCustomize\nWeapons & outfits\nClan & chat\n\nOnline services are not available in this build.",
+        "webgl": true
+      },
+      "entered": true,
+      "errors": [],
+      "requests": [],
+      "timeout": null
+    },
+    {
+      "name": "azit",
+      "query": "?scene=azit&mode=training",
+      "state": {
+        "bootstrap": "ready",
+        "title": "S5 League",
+        "text": "— FPS\nS5\nLEAGUE\nPlay\nInventory\nShop\nClan\nSocial\nAa\nDrag to rotate\nSquad\n1 / 4\nLocal player\nSolo session\nInvite players\n\nSquads unlock with online services.\n\nPLAY / LOCAL SESSION\nLOCAL\nFree training\nAzit\n\nExplore the map and practise with your current equipment.\n\nMap\nAzit · Refuge solaire (exploration)\nRules\nDefault rules\nTeam\nAlpha · blue\nMatch settings\nOnline rooms\nUnavailable in this build\n\nReady · Male character · Spy Dagger\n\nEnter room\nLocal player\nLocal profile\nPROGRESSION\nCaching resources…\nP\n—\nS\n—\nYour loadout\nPresets\n&\nSpy Dagger\nACTIVE\n×\nÉ\nEmpty slot\nADD WEAPON\n\"\nEmpty slot\nADD WEAPON\nCustomize\nWeapons & outfits\nClan & chat\n\nOnline services are not available in this build.",
+        "webgl": true
+      },
+      "entered": false,
+      "errors": [],
+      "requests": [],
+      "timeout": null
+    }
+  ],
+  "excludedTests": "Full tests/import pipelines require research corpus and additional tools not included in this base package.",
+  "passed": true
+}

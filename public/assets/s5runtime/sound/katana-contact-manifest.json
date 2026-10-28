@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "path": "sound/katana_hit_slash.ogg",
+      "archive": "67.xs",
+      "checksum": "bec52ecd",
+      "plainLength": 20156,
+      "storedLength": 19987,
+      "dataOffset": 60362321,
+      "sha256": "58ff0afcae94e125c61bc3b8d53252de20a43e4a81d6464a6a31a325bde3c62c",
+      "method": "known-header-crc32",
+      "publicPath": "/assets/s5runtime/sound/katana_hit_slash.ogg"
+    },
+    {
+      "path": "sound/burstshotgun_wall_hit.ogg",
+      "archive": "71.xs",
+      "checksum": "b5844763",
+      "plainLength": 16624,
+      "storedLength": 16605,
+      "dataOffset": 89567954,
+      "sha256": "d106660df758d8b2e70a603bb0d775933fccf9502c79d31d460ed81345b4197e",
+      "method": "known-header-crc32",
+      "publicPath": "/assets/s5runtime/sound/burstshotgun_wall_hit.ogg"
+    }
+  ],
+  "nativePlaybackVerified": false
+}

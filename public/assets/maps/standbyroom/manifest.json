@@ -1,0 +1,783 @@
+{
+  "schema": "standbyroom-source-runtime-v1",
+  "source": "model/background/standbyroom.scn",
+  "scene": "scene.json",
+  "markers": "markers.json",
+  "collisions": "collisions-all-categories.json",
+  "nativeMapId": null,
+  "name": "Standby room",
+  "references": [
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 1,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "a_a_ch_03.dds",
+      "path": "model/background/a_a_ch_03.dds",
+      "sha256": "1263d515f1bed592c812f9b9304f037812dac2ae696efb70d593178400d9b975",
+      "file": "textures/model/background/a_a_ch_03.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 2,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 3,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "a_a_ch_04.dds",
+      "path": "model/background/a_a_ch_04.dds",
+      "sha256": "b4d1faad081c31bd208235bf509c3e7cb64c2f8ab139ec8adb8714474e2083d9",
+      "file": "textures/model/background/a_a_ch_04.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 3,
+      "textureIndex": 1,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 4,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 5,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 6,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 7,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 8,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 9,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 10,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 11,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 12,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 13,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 14,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 15,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 16,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 17,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 18,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 19,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 20,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "a_a_ch_03.dds",
+      "path": "model/background/a_a_ch_03.dds",
+      "sha256": "1263d515f1bed592c812f9b9304f037812dac2ae696efb70d593178400d9b975",
+      "file": "textures/model/background/a_a_ch_03.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 21,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 22,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 23,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 24,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 25,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 26,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 26,
+      "textureIndex": 1,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 26,
+      "textureIndex": 2,
+      "field": "source",
+      "reference": "a_a_ch.dds",
+      "path": "model/background/a_a_ch.dds",
+      "sha256": "91eca871cc5ab30791290663ca9052658e65c7b4930ab1ea102bcde477eec5f4",
+      "file": "textures/model/background/a_a_ch.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 27,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_ad04-1_tg.dds",
+      "path": "model/background/city_ad04-1_tg.dds",
+      "sha256": "3a1df60fa26527c8a9d4e7dd3d265e95be0fb4b62daf3980278df1916df9225a",
+      "file": "textures/model/background/city_ad04-1_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 28,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 29,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 30,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chatbox1_tg.dds",
+      "path": "model/background/city_chatbox1_tg.dds",
+      "sha256": "a32ede6016b7455eb97cb39aceb08f1811476ed08cd10be944fd6f077605da0a",
+      "file": "textures/model/background/city_chatbox1_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 31,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "a_a_ch.dds",
+      "path": "model/background/a_a_ch.dds",
+      "sha256": "91eca871cc5ab30791290663ca9052658e65c7b4930ab1ea102bcde477eec5f4",
+      "file": "textures/model/background/a_a_ch.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 32,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "chat_03_d100.dds",
+      "path": "model/background/chat_03_d100.dds",
+      "sha256": "f7a4e54fbb91b5679f3a83a58f2dbdd6ec688cf80e2e1065b8e12596e96344ca",
+      "file": "textures/model/background/chat_03_d100.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 33,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chatbox1_tg.dds",
+      "path": "model/background/city_chatbox1_tg.dds",
+      "sha256": "a32ede6016b7455eb97cb39aceb08f1811476ed08cd10be944fd6f077605da0a",
+      "file": "textures/model/background/city_chatbox1_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 34,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 35,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "ds4_banner_d100.dds",
+      "path": "model/background/ds4_banner_d100.dds",
+      "sha256": "27b598ae45caae4a9fd48b95ff3414e4a8cd69d389b98453a62e0fbc60307939",
+      "file": "textures/model/background/ds4_banner_d100.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 36,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 37,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 38,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "ds4_banner_d100.dds",
+      "path": "model/background/ds4_banner_d100.dds",
+      "sha256": "27b598ae45caae4a9fd48b95ff3414e4a8cd69d389b98453a62e0fbc60307939",
+      "file": "textures/model/background/ds4_banner_d100.dds"
+    },
+    {
+      "scene": "model/background/standbyroom.scn",
+      "modelIndex": 39,
+      "textureIndex": 0,
+      "field": "source",
+      "reference": "city_chat_tg.dds",
+      "path": "model/background/city_chat_tg.dds",
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "file": "textures/model/background/city_chat_tg.dds"
+    }
+  ],
+  "textures": [
+    {
+      "nativePath": "model/background/a_a_ch.dds",
+      "file": "textures/model/background/a_a_ch.dds",
+      "bytes": 174904,
+      "sha256": "91eca871cc5ab30791290663ca9052658e65c7b4930ab1ea102bcde477eec5f4",
+      "ddsHeader": {
+        "headerSize": 124,
+        "height": 512,
+        "width": 512,
+        "mipmapCount": 10,
+        "fourCC": "DXT1",
+        "rgbBitCount": 0,
+        "headerReadOnly": true
+      },
+      "archiveAuthority": {
+        "path": "model/background/a_a_ch.dds",
+        "archive": "5.xs",
+        "checksum": "ed64c766",
+        "actualCrc32": "ed64c766",
+        "plainLength": 174904,
+        "storedLength": 23399,
+        "dataOffset": 71076850,
+        "status": "verified",
+        "storedSha256": "02da27fe25843ca7cd90e353212bd221982702e8a48a633e8b9a69469fcd6acf",
+        "archivePlaintextSha256": "91eca871cc5ab30791290663ca9052658e65c7b4930ab1ea102bcde477eec5f4",
+        "actualStoredLength": 23399,
+        "actualPlainLength": 174904,
+        "method": "known-header-crc32",
+        "cacheValidated": true
+      }
+    },
+    {
+      "nativePath": "model/background/a_a_ch_03.dds",
+      "file": "textures/model/background/a_a_ch_03.dds",
+      "bytes": 174904,
+      "sha256": "1263d515f1bed592c812f9b9304f037812dac2ae696efb70d593178400d9b975",
+      "ddsHeader": {
+        "headerSize": 124,
+        "height": 512,
+        "width": 512,
+        "mipmapCount": 10,
+        "fourCC": "DXT1",
+        "rgbBitCount": 0,
+        "headerReadOnly": true
+      },
+      "archiveAuthority": {
+        "path": "model/background/a_a_ch_03.dds",
+        "archive": "64.xs",
+        "checksum": "c58219a9",
+        "actualCrc32": "c58219a9",
+        "plainLength": 174904,
+        "storedLength": 107133,
+        "dataOffset": 34013488,
+        "status": "verified",
+        "storedSha256": "190ec217f68b47ef620483d0a08ffc58c92eead4fcc7858a439ae4ddc197916a",
+        "archivePlaintextSha256": "1263d515f1bed592c812f9b9304f037812dac2ae696efb70d593178400d9b975",
+        "actualStoredLength": 107133,
+        "actualPlainLength": 174904,
+        "method": "known-header-crc32",
+        "cacheValidated": true
+      }
+    },
+    {
+      "nativePath": "model/background/a_a_ch_04.dds",
+      "file": "textures/model/background/a_a_ch_04.dds",
+      "bytes": 174904,
+      "sha256": "b4d1faad081c31bd208235bf509c3e7cb64c2f8ab139ec8adb8714474e2083d9",
+      "ddsHeader": {
+        "headerSize": 124,
+        "height": 512,
+        "width": 512,
+        "mipmapCount": 10,
+        "fourCC": "DXT1",
+        "rgbBitCount": 0,
+        "headerReadOnly": true
+      },
+      "archiveAuthority": {
+        "path": "model/background/a_a_ch_04.dds",
+        "archive": "30.xs",
+        "checksum": "05850803",
+        "actualCrc32": "05850803",
+        "plainLength": 174904,
+        "storedLength": 108648,
+        "dataOffset": 76573409,
+        "status": "verified",
+        "storedSha256": "87a90a3e6b322853c53949047548f1c4b24d56751dd8e029c1fcf59fc7253fdd",
+        "archivePlaintextSha256": "b4d1faad081c31bd208235bf509c3e7cb64c2f8ab139ec8adb8714474e2083d9",
+        "actualStoredLength": 108648,
+        "actualPlainLength": 174904,
+        "method": "known-header-crc32",
+        "cacheValidated": true
+      }
+    },
+    {
+      "nativePath": "model/background/chat_03_d100.dds",
+      "file": "textures/model/background/chat_03_d100.dds",
+      "bytes": 43856,
+      "sha256": "f7a4e54fbb91b5679f3a83a58f2dbdd6ec688cf80e2e1065b8e12596e96344ca",
+      "ddsHeader": {
+        "headerSize": 124,
+        "height": 128,
+        "width": 256,
+        "mipmapCount": 9,
+        "fourCC": "DXT3",
+        "rgbBitCount": 0,
+        "headerReadOnly": true
+      },
+      "archiveAuthority": {
+        "path": "model/background/chat_03_d100.dds",
+        "archive": "54.xs",
+        "checksum": "0afdfa6b",
+        "actualCrc32": "0afdfa6b",
+        "plainLength": 43856,
+        "storedLength": 11985,
+        "dataOffset": 55885059,
+        "status": "verified",
+        "storedSha256": "272b8a136cbd45618dd3126cca21081771a6cb6581fc46872e4992f1f08e9dcd",
+        "archivePlaintextSha256": "f7a4e54fbb91b5679f3a83a58f2dbdd6ec688cf80e2e1065b8e12596e96344ca",
+        "actualStoredLength": 11985,
+        "actualPlainLength": 43856,
+        "method": "known-header-crc32",
+        "cacheValidated": true
+      }
+    },
+    {
+      "nativePath": "model/background/city_ad04-1_tg.dds",
+      "file": "textures/model/background/city_ad04-1_tg.dds",
+      "bytes": 174904,
+      "sha256": "3a1df60fa26527c8a9d4e7dd3d265e95be0fb4b62daf3980278df1916df9225a",
+      "ddsHeader": {
+        "headerSize": 124,
+        "height": 512,
+        "width": 512,
+        "mipmapCount": 10,
+        "fourCC": "DXT1",
+        "rgbBitCount": 0,
+        "headerReadOnly": true
+      },
+      "archiveAuthority": {
+        "path": "model/background/city_ad04-1_tg.dds",
+        "archive": "6.xs",
+        "checksum": "29b55eaa",
+        "actualCrc32": "29b55eaa",
+        "plainLength": 174904,
+        "storedLength": 136622,
+        "dataOffset": 69734653,
+        "status": "verified",
+        "storedSha256": "eb90583cac59f68df2ca9ccdbfa059f91dd35bbcfd3b0efd1c06a6c73149264d",
+        "archivePlaintextSha256": "3a1df60fa26527c8a9d4e7dd3d265e95be0fb4b62daf3980278df1916df9225a",
+        "actualStoredLength": 136622,
+        "actualPlainLength": 174904,
+        "method": "known-header-crc32",
+        "cacheValidated": true
+      }
+    },
+    {
+      "nativePath": "model/background/city_chat_tg.dds",
+      "file": "textures/model/background/city_chat_tg.dds",
+      "bytes": 174928,
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+      "ddsHeader": {
+        "headerSize": 124,
+        "height": 256,
+        "width": 512,
+        "mipmapCount": 10,
+        "fourCC": "DXT3",
+        "rgbBitCount": 0,
+        "headerReadOnly": true
+      },
+      "archiveAuthority": {
+        "path": "model/background/city_chat_tg.dds",
+        "archive": "55.xs",
+        "checksum": "66c54ef2",
+        "actualCrc32": "66c54ef2",
+        "plainLength": 174928,
+        "storedLength": 50387,
+        "dataOffset": 22214292,
+        "status": "verified",
+        "storedSha256": "2969fe0ac5fdfa330ded4b37ca4c1be7edc03d3d046e2f3b4086949b10665ee3",
+        "archivePlaintextSha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6",
+        "actualStoredLength": 50387,
+        "actualPlainLength": 174928,
+        "method": "known-header-crc32",
+        "cacheValidated": true
+      }
+    },
+    {
+      "nativePath": "model/background/city_chatbox1_tg.dds",
+      "file": "textures/model/background/city_chatbox1_tg.dds",
+      "bytes": 349680,
+      "sha256": "a32ede6016b7455eb97cb39aceb08f1811476ed08cd10be944fd6f077605da0a",
+      "ddsHeader": {
+        "headerSize": 124,
+        "height": 512,
+        "width": 512,
+        "mipmapCount": 10,
+        "fourCC": "DXT3",
+        "rgbBitCount": 0,
+        "headerReadOnly": true
+      },
+      "archiveAuthority": {
+        "path": "model/background/city_chatbox1_tg.dds",
+        "archive": "29.xs",
+        "checksum": "728b5966",
+        "actualCrc32": "728b5966",
+        "plainLength": 349680,
+        "storedLength": 68310,
+        "dataOffset": 97673858,
+        "status": "verified",
+        "storedSha256": "7b990540723dc3fc0cd9ee80aab8ea86f52e6a0cefc4e15e2735017685150abb",
+        "archivePlaintextSha256": "a32ede6016b7455eb97cb39aceb08f1811476ed08cd10be944fd6f077605da0a",
+        "actualStoredLength": 68310,
+        "actualPlainLength": 349680,
+        "method": "known-header-crc32",
+        "cacheValidated": true
+      }
+    },
+    {
+      "nativePath": "model/background/ds4_banner_d100.dds",
+      "file": "textures/model/background/ds4_banner_d100.dds",
+      "bytes": 174904,
+      "sha256": "27b598ae45caae4a9fd48b95ff3414e4a8cd69d389b98453a62e0fbc60307939",
+      "ddsHeader": {
+        "headerSize": 124,
+        "height": 512,
+        "width": 512,
+        "mipmapCount": 10,
+        "fourCC": "DXT1",
+        "rgbBitCount": 0,
+        "headerReadOnly": true
+      },
+      "archiveAuthority": {
+        "path": "model/background/ds4_banner_d100.dds",
+        "archive": "4.xs",
+        "checksum": "d29bbdad",
+        "actualCrc32": "d29bbdad",
+        "plainLength": 174904,
+        "storedLength": 48070,
+        "dataOffset": 59472751,
+        "status": "verified",
+        "storedSha256": "66efb93a936bfafa746a7669b4d2984eda34b2a2b9e1f7a1ca63884d94fe7c94",
+        "archivePlaintextSha256": "27b598ae45caae4a9fd48b95ff3414e4a8cd69d389b98453a62e0fbc60307939",
+        "actualStoredLength": 48070,
+        "actualPlainLength": 174904,
+        "method": "known-header-crc32",
+        "cacheValidated": true
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "scene.json",
+      "bytes": 1718813,
+      "sha256": "9722594710c1ebd2373d8e4c9ae0dac41d7ba33d849ed28923d0c6d60c5c6432"
+    },
+    {
+      "file": "markers.json",
+      "bytes": 48106,
+      "sha256": "6d12e79ff10d51efb5df0d712324431bdf68acbe84e781a369ba9f093fe64f73"
+    },
+    {
+      "file": "collisions-all-categories.json",
+      "bytes": 430416,
+      "sha256": "184638e226d7b106aa3f2a70c9b91fb4a341c5dd1b053e96955fe979e1a72fd0"
+    },
+    {
+      "file": "textures/model/background/a_a_ch.dds",
+      "bytes": 174904,
+      "sha256": "91eca871cc5ab30791290663ca9052658e65c7b4930ab1ea102bcde477eec5f4"
+    },
+    {
+      "file": "textures/model/background/a_a_ch_03.dds",
+      "bytes": 174904,
+      "sha256": "1263d515f1bed592c812f9b9304f037812dac2ae696efb70d593178400d9b975"
+    },
+    {
+      "file": "textures/model/background/a_a_ch_04.dds",
+      "bytes": 174904,
+      "sha256": "b4d1faad081c31bd208235bf509c3e7cb64c2f8ab139ec8adb8714474e2083d9"
+    },
+    {
+      "file": "textures/model/background/chat_03_d100.dds",
+      "bytes": 43856,
+      "sha256": "f7a4e54fbb91b5679f3a83a58f2dbdd6ec688cf80e2e1065b8e12596e96344ca"
+    },
+    {
+      "file": "textures/model/background/city_ad04-1_tg.dds",
+      "bytes": 174904,
+      "sha256": "3a1df60fa26527c8a9d4e7dd3d265e95be0fb4b62daf3980278df1916df9225a"
+    },
+    {
+      "file": "textures/model/background/city_chat_tg.dds",
+      "bytes": 174928,
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6"
+    },
+    {
+      "file": "textures/model/background/city_chatbox1_tg.dds",
+      "bytes": 349680,
+      "sha256": "a32ede6016b7455eb97cb39aceb08f1811476ed08cd10be944fd6f077605da0a"
+    },
+    {
+      "file": "textures/model/background/ds4_banner_d100.dds",
+      "bytes": 174904,
+      "sha256": "27b598ae45caae4a9fd48b95ff3414e4a8cd69d389b98453a62e0fbc60307939"
+    }
+  ],
+  "statistics": {
+    "modelRecords": 41,
+    "nonemptyMeshes": 40,
+    "nodes": 71,
+    "vertices": 10503,
+    "triangles": 4990,
+    "s5VisibleEstimatedMeshes": 39,
+    "s5VisibleEstimatedTriangles": 4282,
+    "textureReferences": 42,
+    "uniqueTextureResources": 8,
+    "materialSlots": 43,
+    "collisionCandidateRecords": 1,
+    "collisionCandidateTriangles": 708,
+    "nonmeshNodeTypes": {
+      "Bone": 2,
+      "Box": 28
+    },
+    "markerRoleHints": {
+      "other-node": 2,
+      "standby": 16,
+      "observer": 12
+    },
+    "renderStateCounts": {
+      "0": 24,
+      "1": 3,
+      "8193": 2,
+      "67": 5,
+      "97": 4,
+      "9": 2,
+      "8192": 1
+    },
+    "allNormalCountsMatchPositions": true,
+    "weightedModels": 0
+  },
+  "policy": {
+    "staticSerializedPoseOnly": true,
+    "aliceModeInherited": false,
+    "alphaBetaWayfindingRequired": false,
+    "nativeSpawnSelectorProven": false,
+    "spawn": null,
+    "worldPlacementCertified": false,
+    "collisionSemanticsCertified": false,
+    "renderParityCertified": false,
+    "animationPlaybackCertified": false
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "format": "s5runtime-inventory-ui-v1",
+  "sources": {
+    "xui/ui/lobby_infocharacter.xui": {
+      "archive": "24.xs",
+      "checksum": "d7ea1db7",
+      "plainLength": 336410,
+      "sha256": "e4945e79b850bffa3af013e1a6e604d46af47ed1a452dec877596e361c8eb29c"
+    },
+    "xui/ui/3layout.xui": {
+      "archive": "51.xs",
+      "checksum": "c50ccf43",
+      "plainLength": 17266,
+      "sha256": "f9adc3731d457e59b80d71d745499f854a029a98345e1b247d03ff83396c7502"
+    },
+    "xui/ui/shop_ inven.xui": {
+      "archive": "51.xs",
+      "checksum": "8bd265b3",
+      "plainLength": 207861,
+      "sha256": "5b8e05b099b310ba49495a3869354b79ea614c7a1f111ffc62d02d5d587b043d"
+    },
+    "xui/image/lobby/background_inventory.png": {
+      "archive": "67.xs",
+      "checksum": "b1004ead",
+      "plainLength": 994267,
+      "sha256": "16188669531da04b5f38a4bb2952287a59bf86bce54c101621e7850e928224a6"
+    },
+    "xui/ui/lobby_character.xui": {
+      "archive": "71.xs",
+      "checksum": "3b42365e",
+      "plainLength": 533957,
+      "sha256": "a969fd1c5b27d838fbdcf9a39052842cadd5baa6f9b149491699110452a17439"
+    },
+    "xui/image/lobby/lobby_chatacter.dds": {
+      "archive": "67.xs",
+      "checksum": "7ea235c1",
+      "plainLength": 2764768,
+      "sha256": "c923fea162f140ebadda66b5c9e120e612ea8d8b9bad7a9aeb69086e5f48f029"
+    },
+    "xui/image/lobby/shop.dds": {
+      "archive": "72.xs",
+      "checksum": "30babae8",
+      "plainLength": 11059168,
+      "sha256": "b18fd212af92d7fddc1e3f059be550ce3557645424242702aa4d7fbdb759d7f7"
+    },
+    "xml/_eu_weapon.x7": {
+      "archive": "60.xs",
+      "checksum": "7f594d19",
+      "plainLength": 87234,
+      "sha256": "5e133a7cd2f8a4724f4066395a2b6ef2b2b0ec553c51acb7ffebffa98056b26c"
+    }
+  },
+  "outputs": [
+    {
+      "file": "panel.png",
+      "source": "xui/image/lobby/shop.dds",
+      "node": "Inven_bg_Image",
+      "state": 0,
+      "uv": [
+        0.0,
+        0.0,
+        0.658203,
+        0.666016
+      ],
+      "pixelRect": [
+        0,
+        0,
+        948,
+        959
+      ],
+      "size": [
+        948,
+        959
+      ],
+      "sha256": "d5b0ed6ebe9af36851cf28161d15c8c80485fdaea5e09272828db8a494515493"
+    },
+    {
+      "file": "item-slot.png",
+      "source": "xui/image/lobby/shop.dds",
+      "node": "ItemSlot_pen_bg_Button",
+      "state": 0,
+      "uv": [
+        0.826172,
+        0.796875,
+        0.981445,
+        0.966797
+      ],
+      "pixelRect": [
+        1190,
+        1148,
+        1413,
+        1392
+      ],
+      "size": [
+        223,
+        244
+      ],
+      "sha256": "39804e4bf5202e89c099bf7fb6cf53b299592e4a9e66771336acc9fc5594c651"
+    },
+    {
+      "file": "equip-normal.png",
+      "source": "xui/image/lobby/shop.dds",
+      "node": "Item_Install_Button",
+      "state": 0,
+      "uv": [
+        0.734375,
+        0.427734,
+        0.818359,
+        0.463867
+      ],
+      "pixelRect": [
+        1058,
+        616,
+        1178,
+        668
+      ],
+      "size": [
+        120,
+        52
+      ],
+      "sha256": "fed21d535d14785caf77362f388c73741079e7bc2ea2fcb8075f628238a68f11"
+    },
+    {
+      "file": "tab-normal.png",
+      "source": "xui/image/lobby/shop.dds",
+      "node": "ArmsSkill_TabButton",
+      "state": 0,
+      "uv": [
+        0.660156,
+        0.364258,
+        0.772461,
+        0.423828
+      ],
+      "pixelRect": [
+        951,
+        525,
+        1112,
+        610
+      ],
+      "size": [
+        161,
+        85
+      ],
+      "sha256": "6ada5783c8f6b33e0229481326f573505a6cfc71f667191eb8d2b6d4c2081d31"
+    },
+    {
+      "file": "equip-hover.png",
+      "source": "xui/image/lobby/shop.dds",
+      "node": "Item_Install_Button",
+      "state": 1,
+      "uv": [
+        0.914063,
+        0.427734,
+        0.998047,
+        0.463867
+      ],
+      "pixelRect": [
+        1316,
+        616,
+        1437,
+        668
+      ],
+      "size": [
+        121,
+        52
+      ],
+      "sha256": "d6ec6d8eae40c52e98918417f97e37dcf7236d4a6880b2b55f4d8bc86f6da823"
+    },
+    {
+      "file": "tab-hover.png",
+      "source": "xui/image/lobby/shop.dds",
+      "node": "ArmsSkill_TabButton",
+      "state": 1,
+      "uv": [
+        0.886719,
+        0.364258,
+        0.999023,
+        0.423828
+      ],
+      "pixelRect": [
+        1277,
+        525,
+        1439,
+        610
+      ],
+      "size": [
+        162,
+        85
+      ],
+      "sha256": "7e654769396da4daf52db103952213ba7a8e2723f052185e3ddd9a48d9c5d0fa"
+    },
+    {
+      "file": "equip-pressed.png",
+      "source": "xui/image/lobby/shop.dds",
+      "node": "Item_Install_Button",
+      "state": 2,
+      "uv": [
+        0.824219,
+        0.427734,
+        0.908203,
+        0.463867
+      ],
+      "pixelRect": [
+        1187,
+        616,
+        1308,
+        668
+      ],
+      "size": [
+        121,
+        52
+      ],
+      "sha256": "9e9a08c6a682a09af2169d9ffeed7e7f5e94ce9f05e9350b57ed32bae7c858e0"
+    },
+    {
+      "file": "tab-pressed.png",
+      "source": "xui/image/lobby/shop.dds",
+      "node": "ArmsSkill_TabButton",
+      "state": 2,
+      "uv": [
+        0.660156,
+        0.301758,
+        0.772461,
+        0.361328
+      ],
+      "pixelRect": [
+        951,
+        435,
+        1112,
+        520
+      ],
+      "size": [
+        161,
+        85
+      ],
+      "sha256": "35dcd1525e9d15f65f57bd934f7f02d549787056876c8f83adfe69645ed16a21"
+    },
+    {
+      "file": "tab-active.png",
+      "source": "xui/image/lobby/shop.dds",
+      "node": "ArmsSkill_TabButton",
+      "state": 4,
+      "uv": [
+        0.773438,
+        0.364258,
+        0.885742,
+        0.423828
+      ],
+      "pixelRect": [
+        1114,
+        525,
+        1275,
+        610
+      ],
+      "size": [
+        161,
+        85
+      ],
+      "sha256": "38ba57efc81982af34fb590e3b884651fb5ad9819b4de9541baf7e07c13885fb"
+    },
+    {
+      "file": "equipment-slot.png",
+      "source": "xui/image/lobby/lobby_chatacter.dds",
+      "node": "Item_Button",
+      "state": 0,
+      "uv": [
+        0.0,
+        0.46875,
+        0.15625,
+        0.625
+      ],
+      "pixelRect": [
+        0,
+        338,
+        112,
+        450
+      ],
+      "size": [
+        112,
+        112
+      ],
+      "sha256": "7bd2fa5c217ad6379ee1e643940fea1743bd918a15bcfe976f0d85aff81c2e83"
+    },
+    {
+      "file": "equipment-selected.png",
+      "source": "xui/image/lobby/lobby_chatacter.dds",
+      "node": "Item_SelectButton_Image",
+      "state": 0,
+      "uv": [
+        0.46875,
+        0.46875,
+        0.625,
+        0.625
+      ],
+      "pixelRect": [
+        338,
+        338,
+        450,
+        450
+      ],
+      "size": [
+        112,
+        112
+      ],
+      "sha256": "e02e8a2998303c9f4795f2848e4e5e3da57d91ea8c657639b310233c1fdb3c00"
+    },
+    {
+      "file": "background.png",
+      "source": "xui/image/lobby/background_inventory.png",
+      "sha256": "16188669531da04b5f38a4bb2952287a59bf86bce54c101621e7850e928224a6"
+    }
+  ],
+  "layout": {
+    "source": "xui/ui/shop_ inven.xui",
+    "columns": 4,
+    "rows": 3,
+    "itemSize": [
+      158,
+      160
+    ],
+    "rowPitch": [
+      165,
+      166
+    ],
+    "categoryPitch": 70
+  },
+  "limits": [
+    "Native avatar preview and three-weapon loadout are not implemented by this sprite preparation.",
+    "Browser main-game observation and native screenshot comparison are separate gates."
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "status": "staged-source-verified-runtime-pending",
+  "behaviorVerified": false,
+  "rendered": false,
+  "evidence": [
+    {
+      "source": "effects/katanaa_strong.seq",
+      "bytes": 2871,
+      "outerCrc32": "9c0e5a85",
+      "sha256": "e3c44f97e67c25fdcfb9bca5184c76e0775f72518582874f34f97a5f06073ad5",
+      "matches": [
+        {
+          "archive": "41.xs",
+          "checksum": "9c0e5a85"
+        }
+      ]
+    },
+    {
+      "source": "effects/smoke.dds",
+      "bytes": 22000,
+      "outerCrc32": "60b0444a",
+      "sha256": "6c7ba56fbc44dbd4fd19564579ef2e71d5716c312f8f3b0d58b34edd1f9f8837",
+      "matches": [
+        {
+          "archive": "25.xs",
+          "checksum": "60b0444a"
+        }
+      ]
+    },
+    {
+      "source": "effects/glass_chunks2.dds",
+      "bytes": 1520,
+      "outerCrc32": "90925ab3",
+      "sha256": "22261e5934c758d8c6b37c7a2096fbb5fd1a7cacd249cb2b5e587862dc35d134",
+      "matches": [
+        {
+          "archive": "42.xs",
+          "checksum": "90925ab3"
+        }
+      ]
+    },
+    {
+      "source": "effects/katana_strong.scn",
+      "bytes": 99752,
+      "outerCrc32": "bd505cd3",
+      "sha256": "597e4669d87bf01e98d0c17e075687dce4ebbbed3af16e8ce256cc1462deef82",
+      "matches": [
+        {
+          "archive": "53.xs",
+          "checksum": "bd505cd3"
+        }
+      ]
+    },
+    {
+      "source": "effects/ringring.dds",
+      "bytes": 43832,
+      "outerCrc32": "1f7a4daf",
+      "sha256": "e1da8ab59157ebf7ea2762fc5c818c8efd51e91300f2dad4ef25236665d0d693",
+      "matches": [
+        {
+          "archive": "64.xs",
+          "checksum": "1f7a4daf"
+        }
+      ]
+    },
+    {
+      "source": "effects/slash03.dds",
+      "bytes": 11064,
+      "outerCrc32": "81ff9182",
+      "sha256": "be0640d68a1aa1d3a4786e0dae3654d565303ab1562c889bfccab931d81c8837",
+      "matches": [
+        {
+          "archive": "53.xs",
+          "checksum": "81ff9182"
+        }
+      ]
+    },
+    {
+      "source": "effects/blaster7.dds",
+      "bytes": 21992,
+      "outerCrc32": "5e9528fe",
+      "sha256": "085df1f335b1e81d4c77d0436f0055c2d761b0ef53b23ad06db9f35d47ae3dc4",
+      "matches": [
+        {
+          "archive": "2.xs",
+          "checksum": "5e9528fe"
+        }
+      ]
+    },
+    {
+      "source": "effects/blaster8.dds",
+      "bytes": 21992,
+      "outerCrc32": "44e294a2",
+      "sha256": "9d0ca5cc0e06c0ca6af65d1a32e33dbfcd19bba5a83899daba0e48d40210d9c2",
+      "matches": [
+        {
+          "archive": "25.xs",
+          "checksum": "44e294a2"
+        }
+      ]
+    },
+    {
+      "source": "effects/sigmablade_wind.dds",
+      "bytes": 22000,
+      "outerCrc32": "32e4cfd9",
+      "sha256": "97a433f129baa464601ff94c0e37993fdf67c586b001cb05756fe3ff9bba0945",
+      "matches": [
+        {
+          "archive": "71.xs",
+          "checksum": "32e4cfd9"
+        }
+      ]
+    },
+    {
+      "source": "effects/tick.dds",
+      "bytes": 2872,
+      "outerCrc32": "874b5583",
+      "sha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "matches": [
+        {
+          "archive": "26.xs",
+          "checksum": "874b5583"
+        }
+      ]
+    },
+    {
+      "source": "effects/katanaa_s_atk02_line01.seq",
+      "bytes": 596,
+      "outerCrc32": "d31f0de7",
+      "sha256": "0aa51edc411991df935308628f3a58bf4f6a940664a7a55e4be4390f31cc9173",
+      "matches": [
+        {
+          "archive": "25.xs",
+          "checksum": "d31f0de7"
+        }
+      ]
+    },
+    {
+      "source": "effects/katana_s_atk_line01.scn",
+      "bytes": 37040,
+      "outerCrc32": "e9df0d2a",
+      "sha256": "4ed36380ed2aec4d1bab75384fd6cbfea2dbd40e3cb30a0e816e3dda2d2ba8f1",
+      "matches": [
+        {
+          "archive": "25.xs",
+          "checksum": "e9df0d2a"
+        }
+      ]
+    },
+    {
+      "source": "effects/kata.dds",
+      "bytes": 11064,
+      "outerCrc32": "7973d8b3",
+      "sha256": "468dc0fc413cfaaab4134fa0389de1efdbc64123427eaa20d792ade0612145fd",
+      "matches": [
+        {
+          "archive": "42.xs",
+          "checksum": "7973d8b3"
+        }
+      ]
+    },
+    {
+      "source": "effects/bash1_2.dds",
+      "bytes": 87536,
+      "outerCrc32": "cfb2c65d",
+      "sha256": "62dd88effc91d555f7f4fd2b2caf093ce0b4253365c5167ff84fb102cc3bce31",
+      "matches": [
+        {
+          "archive": "60.xs",
+          "checksum": "cfb2c65d"
+        }
+      ]
+    },
+    {
+      "source": "effects/katanaa_jump.seq",
+      "bytes": 1346,
+      "outerCrc32": "60254c66",
+      "sha256": "7e81ba50f8583ab91e22d57259bccb97798bb1ec37340a18fbd1bfbc956fc93e",
+      "matches": [
+        {
+          "archive": "3.xs",
+          "checksum": "60254c66"
+        }
+      ]
+    },
+    {
+      "source": "effects/katanaa_jump.scn",
+      "bytes": 17014,
+      "outerCrc32": "0a36a560",
+      "sha256": "ae895cd8f28edfc54d57a14a1519223f6b37680de1eeace9fc8c10102cdeb60b",
+      "matches": [
+        {
+          "archive": "64.xs",
+          "checksum": "0a36a560"
+        }
+      ]
+    },
+    {
+      "source": "effects/gazer03_1.dds",
+      "bytes": 11080,
+      "outerCrc32": "1666d3de",
+      "sha256": "9c6b40579c0c3a6563c45aa32c98ad6d89ca0457ed2f759c706151e58c6d2580",
+      "matches": [
+        {
+          "archive": "42.xs",
+          "checksum": "1666d3de"
+        }
+      ]
+    },
+    {
+      "source": "effects/katana_charge2.seq",
+      "bytes": 5345,
+      "outerCrc32": "0e432ba8",
+      "sha256": "8050d9763eace79675896fcc579d76e953c1978368c2a4dbc64fb796b661d1a2",
+      "matches": [
+        {
+          "archive": "60.xs",
+          "checksum": "0e432ba8"
+        }
+      ]
+    },
+    {
+      "source": "effects/eff_bat_wind2.dds",
+      "bytes": 22000,
+      "outerCrc32": "c9aa5461",
+      "sha256": "aa2f977f00d52ea606b1d909104b822561b98ca786fc58741815a605f5c39264",
+      "matches": [
+        {
+          "archive": "64.xs",
+          "checksum": "c9aa5461"
+        }
+      ]
+    },
+    {
+      "source": "effects/enemy_spawn6_nomipmap.dds",
+      "bytes": 22000,
+      "outerCrc32": "ac4a87ce",
+      "sha256": "3418a1b36f3da0c73b71c8b31e0176546de1a999c4c13efb7eed8e6a7fb2cda4",
+      "matches": [
+        {
+          "archive": "64.xs",
+          "checksum": "ac4a87ce"
+        }
+      ]
+    },
+    {
+      "source": "effects/skill_templar_scheaven8_nomipmap.dds",
+      "bytes": 11064,
+      "outerCrc32": "d54fa411",
+      "sha256": "e1c543113aeea2b1252f5ccc612d55100dcc8d3e37170b5609117a457866a91e",
+      "matches": [
+        {
+          "archive": "25.xs",
+          "checksum": "d54fa411"
+        }
+      ]
+    },
+    {
+      "source": "effects/pupple_fire01.dds",
+      "bytes": 5648,
+      "outerCrc32": "efcdecbf",
+      "sha256": "cfa4c3b114429f03dd06f45412574324830a4968d39d98380228d71e001753a3",
+      "matches": [
+        {
+          "archive": "42.xs",
+          "checksum": "efcdecbf"
+        }
+      ]
+    },
+    {
+      "source": "effects/flash_blue.dds",
+      "bytes": 11064,
+      "outerCrc32": "db6ff55d",
+      "sha256": "4f2f29ba96e9ddbd873eafb0af9ac7a595725f98592e0160a8f52dbea39af3ee",
+      "matches": [
+        {
+          "archive": "67.xs",
+          "checksum": "db6ff55d"
+        }
+      ]
+    },
+    {
+      "source": "effects/enemy_res4_nomipmap.dds",
+      "bytes": 43832,
+      "outerCrc32": "65e018a2",
+      "sha256": "276cbcd1966da1b7b9eb900a1392e8607625af0912f15a46506936077fed15ac",
+      "matches": [
+        {
+          "archive": "3.xs",
+          "checksum": "65e018a2"
+        }
+      ]
+    },
+    {
+      "source": "effects/katana_charge2.scn",
+      "bytes": 214543,
+      "outerCrc32": "01d5a8ab",
+      "sha256": "9bd0b3fd593f359537441b45c033ce7062af2074a4e29cb20c37ab0a6009f31c",
+      "matches": [
+        {
+          "archive": "3.xs",
+          "checksum": "01d5a8ab"
+        }
+      ]
+    },
+    {
+      "source": "effects/blaster6.dds",
+      "bytes": 21992,
+      "outerCrc32": "d1926130",
+      "sha256": "ede087fd750270312a7f142359acb3b00c42fdab69cc785dcb1049823f56e470",
+      "matches": [
+        {
+          "archive": "71.xs",
+          "checksum": "d1926130"
+        }
+      ]
+    },
+    {
+      "source": "effects/grim_energy.dds",
+      "bytes": 5616,
+      "outerCrc32": "c2897042",
+      "sha256": "a64ed19e300f628fee3d1f8702a42dd58432fd562b1ad4fc4868514e3dbbb5f4",
+      "matches": [
+        {
+          "archive": "60.xs",
+          "checksum": "c2897042"
+        }
+      ]
+    },
+    {
+      "source": "sound/katana_charge.ogg",
+      "bytes": 14920,
+      "outerCrc32": "83f9a4e0",
+      "sha256": "a5abc6840927cbf6f3167f70ad2080f5d6a6e540201984570e141916313b50d3",
+      "matches": [
+        {
+          "archive": "66.xs",
+          "checksum": "83f9a4e0"
+        }
+      ]
+    }
+  ],
+  "decodedStrongSha256": "1dc9de3ef97adc137af03664fa94d78fe52c09fff159a2d63dec00631bb54999",
+  "models": [
+    "katana_strong",
+    "katana_s_atk_line01",
+    "katanaa_jump",
+    "katana_charge2"
+  ],
+  "textures": [
+    "smoke",
+    "glass_chunks2",
+    "ringring",
+    "slash03",
+    "blaster7",
+    "blaster8",
+    "sigmablade_wind",
+    "tick",
+    "kata",
+    "bash1_2",
+    "gazer03_1",
+    "eff_bat_wind2",
+    "enemy_spawn6_nomipmap",
+    "skill_templar_scheaven8_nomipmap",
+    "pupple_fire01",
+    "flash_blue",
+    "enemy_res4_nomipmap",
+    "blaster6",
+    "grim_energy"
+  ],
+  "sounds": [
+    "/assets/s5runtime/sound/katana_charge.ogg"
+  ],
+  "pendingActivation": {
+    "katana_charge2": "Source XML identifies charge_normal_seq and sound; exact charge-state trigger must be established before automatic playback."
+  },
+  "omitted": [
+    {
+      "sequence": "katanaa_s_atk02_line01",
+      "node": 0,
+      "type": "CActNodeLoader_IF",
+      "reason": "Screen-space interface renderer required",
+      "interface": {
+        "versionField": 0.10000000149011612,
+        "screenPositionWords": [
+          {
+            "offset": 152,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          {
+            "offset": 156,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          {
+            "offset": 160,
+            "rawHex": "00007a44",
+            "int32": 1148846080,
+            "float32": 1000
+          }
+        ],
+        "byteRange": {
+          "start": 148,
+          "end": 164,
+          "length": 16
+        },
+        "fieldMeaning": "Names ScreenPosX/ScreenPosY/ScreenDepth come from native class metadata; values remain raw/int/float views."
+      }
+    },
+    {
+      "sequence": "katanaa_s_atk02_line01",
+      "node": 1,
+      "type": "CActParticle_IF",
+      "reason": "Screen-space interface renderer required",
+      "interface": {
+        "versionField": 0.10000000149011612,
+        "screenPositionWords": [
+          {
+            "offset": 584,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          {
+            "offset": 588,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          {
+            "offset": 592,
+            "rawHex": "00007a44",
+            "int32": 1148846080,
+            "float32": 1000
+          }
+        ],
+        "byteRange": {
+          "start": 580,
+          "end": 596,
+          "length": 16
+        },
+        "fieldMeaning": "Names ScreenPosX/ScreenPosY/ScreenDepth come from native class metadata; values remain raw/int/float views."
+      }
+    },
+    {
+      "model": "katanaa_jump",
+      "mesh": "spin5_nofog_nocull_nodepthwrite_alphablend2_nolight",
+      "reason": "Missing source texture",
+      "textures": [
+        "slash06_1.dds"
+      ]
+    },
+    {
+      "model": "katanaa_jump",
+      "mesh": "spin2_nofog_nocull_nodepthwrite_alphablend2_nolight",
+      "reason": "Missing source texture",
+      "textures": [
+        "slash06_1.dds"
+      ]
+    },
+    {
+      "model": "katanaa_jump",
+      "mesh": "spin3_nofog_nocull_nodepthwrite_alphablend2_nolight",
+      "reason": "Missing source texture",
+      "textures": [
+        "slash06_1.dds"
+      ]
+    },
+    {
+      "model": "katanaa_jump",
+      "mesh": "spin3_nofog_nocull_nodepthwrite_alphablend2_nolight",
+      "reason": "Missing source texture",
+      "textures": [
+        "slash06_1.dds"
+      ]
+    }
+  ]
+}

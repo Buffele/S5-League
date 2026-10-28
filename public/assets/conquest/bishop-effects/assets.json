@@ -1,0 +1,338 @@
+{
+  "monsterKey": 1303,
+  "sequences": [
+    {
+      "name": "pve_mon_bishop_eff01",
+      "sourcePath": "effects/pve_mon_bishop_eff01.seq",
+      "sourceAssets": [
+        {
+          "url": "/assets/conquest/bishop-effects/sequences/pve_mon_bishop_eff01.seq",
+          "bytes": 1779,
+          "sha256": "49bed275965258e5da6ff83ea22af1a577e925c629bd2138e4383d0812d68c17"
+        },
+        {
+          "url": "/assets/conquest/bishop-effects/sequences/pve_mon_bishop_eff01.json",
+          "bytes": 64569,
+          "sha256": "ffd05ae0dd3b70c8b8c84aa666bc2825ac64e43703847bd32c8bc5091e3c7096"
+        }
+      ],
+      "textures": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res1_nomipmap.dds",
+          "source": "effects/enemy_res1_nomipmap.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\graphic1.dds",
+          "source": "effects/graphic1.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash2.dds",
+          "source": "effects/flash2.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\captain_crown_line_etex.dds",
+          "source": "effects/captain_crown_line_etex.dds"
+        }
+      ]
+    },
+    {
+      "name": "pve_mon_bishop_attack",
+      "sourcePath": "effects/pve_mon_bishop_attack.seq",
+      "sourceAssets": [
+        {
+          "url": "/assets/conquest/bishop-effects/sequences/pve_mon_bishop_attack.seq",
+          "bytes": 2622,
+          "sha256": "70f6b5351db3723ea68ca3a7674bffc2b44d37adffa273b83e85040eb1dee6c6"
+        },
+        {
+          "url": "/assets/conquest/bishop-effects/sequences/pve_mon_bishop_attack.json",
+          "bytes": 94385,
+          "sha256": "57cc42a32207f3bcbb7ae2d24af1741ae4e3795a460ddf28dc13901aaf438d6f"
+        }
+      ],
+      "textures": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_templar_scheaven1r_nomipmap.bmp",
+          "source": "effects/skill_templar_scheaven1r_nomipmap.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\plasma6.bmp",
+          "source": "effects/plasma6.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\plasma3a.bmp",
+          "source": "effects/plasma3a.dds"
+        }
+      ]
+    },
+    {
+      "name": "bishop_death",
+      "sourcePath": "effects/bishop_death.seq",
+      "sourceAssets": [
+        {
+          "url": "/assets/conquest/bishop-effects/sequences/bishop_death.seq",
+          "bytes": 3949,
+          "sha256": "bf85a37020024d0634f0c347a84f75b58e8fb143c64f13e174ad2d168e0ffaa6"
+        },
+        {
+          "url": "/assets/conquest/bishop-effects/sequences/bishop_death.json",
+          "bytes": 142523,
+          "sha256": "514abc61422cb82a2ded84dc5d00969348154e83c8ed454c09a17e77125fa0df"
+        }
+      ],
+      "textures": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\fire01.dds",
+          "source": "effects/fire01.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_clown_jack2_female.dds",
+          "source": "effects/skill_clown_jack2_female.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\ringring.bmp",
+          "source": "effects/ringring.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\bash1_2.dds",
+          "source": "effects/bash1_2.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\mapeffect_light6.dds",
+          "source": "effects/mapeffect_light6.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash2.dds",
+          "source": "effects/flash2.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\levelup5_nomipmap.dds",
+          "source": "effects/levelup5_nomipmap.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flame.bmp",
+          "source": "effects/flame.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\smog_gray.tga",
+          "source": "effects/smog_gray.dds"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.dds",
+          "source": "effects/enemy_res4_nomipmap.dds"
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": "effects/enemy_res1_nomipmap.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/enemy_res1_nomipmap.png",
+      "bytes": 6940,
+      "sha256": "49100f4800adc3a1cbd393c5a7554280833ec270a60e0c4e2e4bd35cf76930f1",
+      "width": 128,
+      "height": 128,
+      "sourceSha256": "76953593830b6a3c5972d24a23ea94f9ecbafc856ec19718f0cef6e33eb25d33",
+      "sourceCRC32": "6120b66e",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/graphic1.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/graphic1.png",
+      "bytes": 17752,
+      "sha256": "509867cf659853b8817be27fc05949cbdd47b08499a607c678e6a00d2f5bb358",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "513449e90080ce120de5b32ad03d31edb21094d79f77d42b0773a29b77111e24",
+      "sourceCRC32": "02710659",
+      "archive": "28.xs"
+    },
+    {
+      "source": "effects/flash2.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/flash2.png",
+      "bytes": 10101,
+      "sha256": "0de8afb30016a281e23113462317a20993390862d3b60acdf8538a4ce7bf2fc0",
+      "width": 128,
+      "height": 128,
+      "sourceSha256": "1fcb656be6c673a88a30dab37329a7f1226326b753242cabe1a72813a368925e",
+      "sourceCRC32": "922a9d26",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/captain_crown_line_etex.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/captain_crown_line_etex.png",
+      "bytes": 27937,
+      "sha256": "7e544b5e83724526c83c2de66f807a7566bf3b42a209fc7cbdfd2ab226ff1e7d",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "ea36c08dcf4d598180f7b29aab5ef05a1df8a8a93c3d0d888208d027a173055b",
+      "sourceCRC32": "0bfa3106",
+      "archive": "75.xs"
+    },
+    {
+      "source": "effects/skill_templar_scheaven1r_nomipmap.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/skill_templar_scheaven1r_nomipmap.png",
+      "bytes": 7723,
+      "sha256": "1097eb1c0e12b101ac194abd882d868dda9e51b974fb1d6e7febc4aa6fe18e06",
+      "width": 128,
+      "height": 256,
+      "sourceSha256": "3353803aa31490228ec972e45e8a5c67e267b6eb79f7a0a8a76a7b0056c69ea2",
+      "sourceCRC32": "3aea76b8",
+      "archive": "29.xs"
+    },
+    {
+      "source": "effects/plasma6.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/plasma6.png",
+      "bytes": 24917,
+      "sha256": "855b91dba61e5475218fa9921404288ec9ebb8368aca005caa54447df972506b",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "40db4d3a6042e6be4395f2830cc26c7961b2917330bc9364e3e6f5e2a773f66f",
+      "sourceCRC32": "d49e6e22",
+      "archive": "29.xs"
+    },
+    {
+      "source": "effects/plasma3a.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/plasma3a.png",
+      "bytes": 33014,
+      "sha256": "4daaf8cfaae4a20f740382bd73dac8d3f9f293d51e0c5330111fa38bb52129ca",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "cfc8b1bb4fb8a7ff11a0f586939473680f760a9225a7459e1ee58a12ff0cffca",
+      "sourceCRC32": "1224141e",
+      "archive": "40.xs"
+    },
+    {
+      "source": "effects/fire01.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/fire01.png",
+      "bytes": 13809,
+      "sha256": "b7e146076bded5f8eeeb7ac0d5ef768f155daf4f885289f49485f4830da8fae6",
+      "width": 128,
+      "height": 256,
+      "sourceSha256": "d9f7a7133862caf394aebbcca622b5315805d3479c245fbe1e93aec34c65c0bf",
+      "sourceCRC32": "d08891ce",
+      "archive": "29.xs"
+    },
+    {
+      "source": "effects/skill_clown_jack2_female.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/skill_clown_jack2_female.png",
+      "bytes": 5377,
+      "sha256": "a1cac3a38bfc552578c053c73933879a6c96838b01d547bcecfc900271d5268d",
+      "width": 64,
+      "height": 256,
+      "sourceSha256": "138465c4ce31e33cdf97414749cd06013d44b893f99fc1a23786b9811defc25f",
+      "sourceCRC32": "958abdc4",
+      "archive": "53.xs"
+    },
+    {
+      "source": "effects/ringring.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/ringring.png",
+      "bytes": 31714,
+      "sha256": "83b37fbad0e623d72b14e153e2f955eeb86c79e71cbce1f6e284cd0b211dfec9",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "e1da8ab59157ebf7ea2762fc5c818c8efd51e91300f2dad4ef25236665d0d693",
+      "sourceCRC32": "1f7a4daf",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/bash1_2.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/bash1_2.png",
+      "bytes": 24465,
+      "sha256": "43aa987112c5e344732c4897c875ebc6db5feed76cd7d0802f551659bbd32ae5",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "62dd88effc91d555f7f4fd2b2caf093ce0b4253365c5167ff84fb102cc3bce31",
+      "sourceCRC32": "cfb2c65d",
+      "archive": "29.xs"
+    },
+    {
+      "source": "effects/mapeffect_light6.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/mapeffect_light6.png",
+      "bytes": 1087,
+      "sha256": "f513905958ef691198db90759b9e32aa107db4ae3c4dddcf3d6346610ebc1b73",
+      "width": 32,
+      "height": 128,
+      "sourceSha256": "bf7a371fd9c2455f79684109be6dbefe5b4318c3ee7253d7df523c537bef1efa",
+      "sourceCRC32": "f7cfbaeb",
+      "archive": "40.xs"
+    },
+    {
+      "source": "effects/levelup5_nomipmap.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/levelup5_nomipmap.png",
+      "bytes": 26244,
+      "sha256": "45a1ea9b5eabbd360b40c8f7b163af1b3032a81132dda25baffd6339a98120e8",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "d0db22c760c30a2610c8a9812cdef72e88cf9d24c32a0bdde916394a96602ef4",
+      "sourceCRC32": "4f846588",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/flame.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/flame.png",
+      "bytes": 32442,
+      "sha256": "8dbf71c51fbff8a9a2ff8cbac6843c9ba1f6902ec2d8a1475ae77538bf57e151",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "d8dcade6ba78170fb844f0db16a129518850efd50ccc41b27ab7a02ded85ae3b",
+      "sourceCRC32": "120d7a82",
+      "archive": "3.xs"
+    },
+    {
+      "source": "effects/smog_gray.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/smog_gray.png",
+      "bytes": 57184,
+      "sha256": "e808ce245e43ecf3315b1cd56b92f3ef9c01c5408a54d65ad2d0fc18c6e89920",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "c6226bea6eb8058756c7b341507baa7089fd33e116b4caed5e01582c52f403f5",
+      "sourceCRC32": "0131bc60",
+      "archive": "4.xs"
+    },
+    {
+      "source": "effects/enemy_res4_nomipmap.dds",
+      "url": "/assets/conquest/bishop-effects/textures/effects/enemy_res4_nomipmap.png",
+      "bytes": 26989,
+      "sha256": "e5024e57e1ab1467d2c787df7ab5417f1a1a68a7a751a2a94594443cd0cc026d",
+      "width": 256,
+      "height": 256,
+      "sourceSha256": "276cbcd1966da1b7b9eb900a1392e8607625af0912f15a46506936077fed15ac",
+      "sourceCRC32": "65e018a2",
+      "archive": "53.xs"
+    }
+  ],
+  "attackNodeLoader": {
+    "sourcePath": "effects/weapon_shockwave_rail.scn",
+    "sourceCRC32": "a8a6da0a",
+    "sourceAssets": [
+      {
+        "url": "/assets/conquest/bishop-effects/models/weapon_shockwave_rail.scn",
+        "bytes": 129761,
+        "sha256": "8ae79a3af139e44ae0551c195671d24045ff33f56da0b8a1d8e06ac8eb522c50"
+      },
+      {
+        "url": "/assets/conquest/bishop-effects/models/weapon_shockwave_rail.json",
+        "bytes": 461802,
+        "sha256": "78af210a665f093d4b304687d23d6829b70410356973d09d4428a39e7275e68c"
+      }
+    ],
+    "startTimeMs": 1000,
+    "endTimeMs": 1500,
+    "meshCount": 9,
+    "sourceClip": "weapon_shockwave_rail",
+    "durationTicks": 19200,
+    "pending": true,
+    "runtimeQualified": false,
+    "pendingReason": "NodeLoader initial selection/field90, billboard and morph-vertex animation/material consumers remain unqualified; no static-mesh substitution"
+  },
+  "tracer152": {
+    "attributeId": 152,
+    "type": "GUNTRACER_TYPE_LINK",
+    "nodeName": "Bishop_Fire_Dummy",
+    "sourcePath": "effects/skill_gunner_chargeshot_rail.seq",
+    "consumerQualified": false,
+    "pending": true
+  },
+  "nativeReady": false
+}

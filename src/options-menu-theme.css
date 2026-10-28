@@ -1,0 +1,188 @@
+/* Lobby settings, based on the ImageGen concept in work/settings-redesign-20261022.
+   The original controls and transaction ports remain the only value owners. */
+#welcome.s5-entry-host .s5-lobby[data-section=settings] .s5-lobby-content{padding:28px 4%;background:#11191d55;backdrop-filter:blur(5px)}
+#welcome.s5-entry-host .s5-lobby[data-section=settings] .menu-panel[data-panel=settings]{background:transparent}
+#welcome.s5-entry-host .s5-lobby[data-section=settings] .menu-settings-slot{display:block;max-width:1440px;margin:0 auto}
+#welcome.s5-entry-host .s5-lobby[data-section=settings] #input-settings{margin:0;padding:0;border:0;background:none;max-width:none}
+#welcome.s5-entry-host .s5-lobby[data-section=settings] .s5-lobby-footer{min-height:56px;padding-block:6px}
+#welcome.s5-entry-host .s5-lobby[data-section=settings] .s5-lobby-footer .s5-lobby-play{display:none}
+#welcome.s5-entry-host .s5-lobby[data-section=settings] .s5-lobby-footer .s5-lobby-motion{margin-left:auto}
+#welcome.s5-entry-host .s5-lobby[data-section=settings] :is(.s5-lobby-status,#weapon-controls){display:none}
+#welcome.s5-entry-host .s5-lobby[data-section=settings] #input-settings>:is(#bgm-status,#input-controls-hint){display:none}
+
+#welcome .s5runtime-options-view[data-menu-layout=lobby]{
+ --settings-line:#ffffff24;--settings-muted:#b7c0c7;--settings-accent:#f1a77e;
+ margin:0;max-width:none;overflow:visible;color:#edf0f3;font:14px/1.5 'Segoe UI',Arial,sans-serif;text-align:left;
+ & *{box-sizing:border-box}
+ & [hidden]{display:none!important}
+ & :is(p,small,span,b,label,legend,output){float:none;letter-spacing:normal;text-transform:none}
+ & p{max-width:none}
+ & .s5runtime-options-plane{width:100%!important;height:min(920px,calc(100dvh - 200px))!important;min-height:480px;display:grid;grid-template-columns:248px minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto;overflow:hidden;border:1px solid #ffffff30;border-radius:6px;background:linear-gradient(130deg,#242c32f5,#171e24fa);box-shadow:0 20px 70px #0006;backdrop-filter:blur(12px)}
+ & .s5runtime-options-node{position:static!important;inset:auto!important;width:auto!important;height:auto!important;max-width:100%;white-space:normal;color:inherit;font:inherit;text-align:left!important;background-image:none!important}
+ & .s5runtime-options-image{display:none!important}
+ & button.s5runtime-options-node{min-height:42px;margin:0;padding:10px 16px;border:1px solid #ffffff35;border-radius:4px;background:linear-gradient(#ffffff06,#ffffff02);color:#edf0f3;font:500 14px/1.35 'Segoe UI',Arial,sans-serif;white-space:normal;text-align:center!important;box-shadow:inset 0 1px #ffffff05}
+ & button.s5runtime-options-node:not(:disabled):hover{border-color:#e7ac8880;background:#ffffff0c}
+ & button.s5runtime-options-node[data-selected=true]{background:#e99c7018;border-color:#eda77e;color:#fff}
+ & button.s5runtime-options-node:disabled{color:#9ca6ae;background:#ffffff02;border-color:#ffffff16;opacity:.55;cursor:not-allowed}
+ & :is(button,input,select,summary,[tabindex]):focus-visible{outline:2px solid #a9deef;outline-offset:3px;box-shadow:0 0 0 4px #17262e}
+ & .s5-settings-sidebar{grid-column:1;grid-row:1;min-width:0;padding:28px 18px;border-right:1px solid var(--settings-line);background:linear-gradient(120deg,#26303888,#11191e33)}
+ & .s5-settings-sidebar h3.s5runtime-options-node{margin:0 8px 4px;font:600 26px/1.25 'Segoe UI',Arial,sans-serif;color:#f5f6f7;letter-spacing:-.02em;text-align:left!important}
+ & p.s5-settings-intro{margin:8px 8px 26px;font-size:13px;line-height:1.5;color:var(--settings-muted)}
+ & .s5-settings-categories{display:grid;gap:8px}
+ & .s5-settings-categories>button.s5runtime-options-node{position:relative!important;display:flex;justify-content:flex-start;align-items:center;gap:14px;min-height:58px;padding:12px 16px;border-color:transparent;border-bottom-color:var(--settings-line);background:none;border-radius:4px;box-shadow:none;font-size:16px;text-align:left!important}
+ & .s5-settings-category-icon{display:inline-flex;flex:none;width:24px;height:24px;color:#c1cbd2}
+ & .s5-settings-category-icon svg{display:block;width:100%;height:100%}
+ & .s5-settings-category-arrow{margin-left:auto;font-size:23px;color:#acb7c0}
+ & .s5-settings-categories>button[data-selected=true]{border-color:#d9966f;background:linear-gradient(100deg,#d38a642b,#d38a640c);color:#fff}
+ & .s5-settings-categories>button[data-selected=true] .s5-settings-category-icon{color:#ffc49f}
+ & .s5-settings-body{grid-column:2;grid-row:1;display:flex;flex-direction:column;min-width:0;min-height:0}
+ & .s5-settings-header{position:relative;inset:auto;width:auto;flex:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px 18px;margin:0 30px;padding:26px 44px 22px 0;border-bottom:1px solid var(--settings-line)}
+ & h2.s5-settings-heading{margin:0;font:600 27px/1.2 'Segoe UI',Arial,sans-serif;color:#f6f7f8;letter-spacing:-.02em;font-style:normal;text-transform:none}
+ & p.s5-settings-description{grid-column:1/-1;margin:0;color:var(--settings-muted);font:14px/1.5 'Segoe UI',Arial,sans-serif}
+ & .s5-settings-badge{grid-column:2;grid-row:1;align-self:center;padding:4px 9px;border:1px solid #aacbb337;border-radius:3px;color:#b6dbca;font-size:11px;letter-spacing:.03em;white-space:nowrap}
+ & .s5-settings-header>button.s5runtime-options-node{position:absolute!important;right:-8px!important;top:19px!important;min-width:38px;width:38px!important;min-height:38px;padding:0;border:0;background:none;color:#b8c1c9;font-size:26px}
+ & .s5-settings-body>.s5runtime-options-section{position:relative!important;inset:auto!important;flex:1;min-height:0;min-width:0;overflow:auto;padding:24px 30px 30px;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#72808a transparent}
+ & .s5-options-graphics-content{position:static!important;overflow:visible;padding:0;border:0;border-radius:0;background:none;white-space:normal}
+ & #graphics-settings{margin:0;padding:0;border:0;background:none;color:inherit;box-shadow:none}
+ & #graphics-settings>summary{display:none}
+ & :is(.character-appearance-settings,.settings-group){display:block;min-width:0;margin:0 0 24px;padding:0 0 24px;border:0;border-bottom:1px solid var(--settings-line);background:none;color:inherit;text-align:left}
+ & :is(.character-appearance-settings,.settings-group)>legend{display:block;float:none;width:100%;margin:0 0 12px;padding:0;color:#f1f3f5;font:600 18px/1.35 'Segoe UI',Arial,sans-serif;text-align:left}
+ & .character-appearance-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:16px;border:1px solid var(--settings-line);border-radius:4px;background:#ffffff02}
+ & .character-appearance-fields :is(div,label){min-width:0;gap:7px;color:#c6cfd6;font:13px/1.45 'Segoe UI',Arial,sans-serif;text-align:left}
+ & .character-appearance-fields span{color:inherit;font:inherit}
+ & .character-appearance-fields select{min-height:42px;width:100%;margin:0;padding:10px 12px;border:1px solid #ffffff30;border-radius:3px;background:#2a343df0;color:#f0f3f5;font:14px/1.4 'Segoe UI',Arial,sans-serif;color-scheme:dark;text-overflow:ellipsis}
+ & .character-appearance-settings>small{display:block;margin:12px 0 0;color:var(--settings-muted);font:12px/1.6 'Segoe UI',Arial,sans-serif;text-align:left}
+ & .graphics-grid{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:none;gap:0;padding:0;border:0}
+ & .graphics-grid>*{grid-area:auto}
+ & .settings-group-note{display:block;margin:-5px 0 14px!important;color:var(--settings-muted)!important;font:13px/1.5 'Segoe UI',Arial,sans-serif!important;text-align:left}
+ & :is(.settings-choices,.settings-choices--4){display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+ & .settings-choices--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+ & .settings-choices--4{grid-template-columns:repeat(2,minmax(0,1fr))}
+ & button.settings-choice{display:flex;align-items:flex-start;justify-content:center;min-height:76px;padding:14px 32px 14px 16px!important;border:1px solid #ffffff25!important;border-radius:4px;background:linear-gradient(#ffffff04,#ffffff01)!important;box-shadow:none;text-align:left}
+ & button.settings-choice:not(:disabled):hover{border-color:#f1a77e80!important;background:#ffffff09!important;transform:none}
+ & button.settings-choice.is-selected{border-color:#e9a17b!important;background:linear-gradient(120deg,#df95631c,#d8916410)!important;box-shadow:inset 0 0 0 1px #eda77e15}
+ & .settings-choice b{margin:0;color:#f4f5f6;font:600 14px/1.4 'Segoe UI',Arial,sans-serif}
+ & .settings-choice small{margin:5px 0 0!important;color:var(--settings-muted)!important;font:12px/1.4 'Segoe UI',Arial,sans-serif!important}
+ & .settings-choice:after{display:none}
+ & .settings-choice.is-selected:after{content:'';display:block;position:absolute;right:12px;top:16px;width:13px;height:13px;border:3px solid #f0b08b;border-radius:50%;background:#d88d622b;box-shadow:0 0 0 2px #d88d6220}
+ & .settings-preview{display:none!important}
+ & .settings-range{display:grid;grid-template-columns:minmax(0,1fr) 70px;gap:10px;margin:0 0 24px;padding:0 0 24px;border-bottom:1px solid var(--settings-line);text-align:left}
+ & .settings-range>span{color:#e0e5e9;font-size:14px;font-weight:500}
+ & .settings-range output{font-size:13px;color:#e5c3ac;text-align:right}
+ & .settings-range input{grid-column:1/-1;width:100%;margin:6px 0}
+ & input[type=range]{accent-color:#dea17c;min-height:24px;cursor:pointer}
+ & input[type=checkbox]{appearance:auto!important;accent-color:#b47350;position:static!important;inset:auto!important;width:18px!important;height:18px!important;min-height:18px;margin:0;border-radius:3px;cursor:pointer;box-shadow:none!important}
+ & .gamepad-settings p{margin:0 0 14px;font:13px/1.6 'Segoe UI',Arial,sans-serif;color:var(--settings-muted)}
+ & .gamepad-settings .character-appearance-fields{grid-template-columns:repeat(2,minmax(0,1fr))}
+ & .gamepad-settings output{color:#e5bd9f;font-size:13px}
+ & .gamepad-settings details{margin-top:16px;border:1px solid var(--settings-line);border-radius:4px;background:#ffffff02}
+ & #graphics-settings .gamepad-settings summary{display:flex;align-items:center;padding:12px 14px;background:transparent;color:#d9e0e5;font-size:14px;text-align:left}
+ & #graphics-settings .gamepad-settings summary:before{display:none}
+ & #graphics-settings .gamepad-settings summary:after{content:'⌄';background:none;color:#bdc7cf}
+ & .gamepad-settings details>p{margin:0;padding:0 16px 16px;line-height:1.8}
+ & #graphics-settings>.graphics-hint{margin:0;color:var(--settings-muted);font:12px/1.6 'Segoe UI',Arial,sans-serif;text-align:left}
+ & #graphics-settings>a{display:inline-block;margin-top:16px;color:#ebba9d;font-size:13px}
+ & .s5-options-responsive-stage{position:static!important;inset:auto!important;width:auto!important;height:auto!important;display:flex;flex-wrap:wrap;align-content:start;gap:12px}
+ & .s5-options-responsive-stage>button.s5runtime-options-node{flex:none;min-width:120px;order:0}
+ & .s5-options-responsive-stage>.s5runtime-options-section{position:static!important;inset:auto!important;order:1;flex:1 0 100%;min-width:0;margin-top:12px}
+ & .s5-settings-volume-row{display:grid;grid-template-columns:minmax(120px,1fr) 192px 54px 90px;align-items:center;gap:20px;padding:24px 0;border-bottom:1px solid var(--settings-line)}
+ & .s5-settings-volume-row>label.s5runtime-options-node{left:auto!important;width:auto!important;padding:0;font-size:16px;text-align:left!important}
+ & .s5-settings-volume-value{color:#e5bf9f;font-size:14px;text-align:right}
+ & .s5-settings-mute-label{display:flex;align-items:center;gap:10px;color:#c6cfd6;font-size:13px;cursor:pointer}
+ & .s5runtime-audio-hscroll{flex:none;position:relative!important;inset:auto!important;width:192px!important;height:24px!important;min-height:24px;max-width:100%;background:none}
+ & .s5runtime-audio-hscroll-part{height:14px!important;top:5px!important;line-height:14px;transform:none!important}
+ & .s5runtime-audio-hscroll-part[data-part=track]{background:#0b1319;border-color:#66737c;border-radius:3px}
+ & .s5runtime-audio-hscroll-part:is([data-part=left],[data-part=right]){background:#35414b;color:#e2e7eb;border-radius:2px}
+ & .s5runtime-audio-hscroll-part[data-part=right]{transform:scaleX(-1)!important}
+ & .s5runtime-audio-hscroll-part[data-part=thumb]{background:#daa580;border:1px solid #f6d2b8;border-radius:3px;box-shadow:none}
+ & .s5runtime-options-bindings{position:static!important;width:100%!important;height:auto!important;max-height:none;overflow:visible;padding:0;border:1px solid var(--settings-line);border-radius:4px;background:#ffffff02}
+ & .s5runtime-options-binding-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(120px,180px);align-items:center;position:relative;min-height:56px;height:auto!important;padding:9px 16px;gap:8px;border-bottom:1px solid #ffffff12}
+ & .s5runtime-options-binding-row:last-child{border-bottom:0}
+ & .s5runtime-options-binding-row>span{font-size:14px;color:#d1d9df}
+ & .s5runtime-options-binding-row>button{font-family:Consolas,monospace}
+ & .s5runtime-options-binding-row>span:last-child:not([hidden]){position:absolute!important;right:16px!important;left:auto!important;max-width:180px;color:#ffd2b6;font-size:12px}
+ & [data-settings-pane=mouse]{display:grid;grid-template-columns:minmax(120px,1fr) 192px 64px;align-items:center;gap:20px;padding:24px 0}
+ & [data-settings-pane=mouse]>label{font-size:16px}
+ & [data-settings-pane=mouse]>[data-xui-path$='/Title1_Label']{grid-column:1;grid-row:1}
+ & [data-settings-pane=mouse]>.s5runtime-audio-hscroll{grid-column:2;grid-row:1}
+ & [data-settings-pane=mouse]>output{grid-column:3;grid-row:1;color:#e6bf9e}
+ & [data-settings-pane=mouse]>[data-xui-path$='/Titel2_Label']{grid-column:1;grid-row:2}
+ & [data-settings-pane=mouse]>input[type=checkbox]{grid-column:2;grid-row:2}
+ & [data-settings-pane=playlist]{display:grid;grid-template-columns:minmax(0,1fr) 44px minmax(0,1fr);gap:14px;align-items:start}
+ & [data-settings-pane=playlist]>[data-callback]{display:none}
+ & [data-settings-pane=playlist]>.s5runtime-options-bindings{max-height:350px;overflow:auto}
+ & [data-settings-pane=playlist]>[aria-label='Map catalog']{grid-column:1/-1;max-height:64px;display:flex;overflow:auto}
+ & [aria-label='Map catalog']>[role=option]{flex:none;width:auto!important;min-width:110px;padding:12px}
+ & [aria-label='Map catalog']>[aria-disabled=true]{display:none!important}
+ & [data-settings-pane=playlist]>[aria-label='Track catalog']{grid-column:1;grid-row:2}
+ & [data-settings-pane=playlist]>[aria-label='Playlist Station2']{grid-column:3;grid-row:2;min-height:160px}
+ & [data-settings-pane=playlist]>button{grid-column:2;grid-row:2;align-self:center;min-width:44px;padding:10px}
+ & [data-settings-pane=playlist] [role=option]{display:flex;align-items:center;gap:8px;min-height:48px;height:auto!important;padding:8px 10px;border-bottom:1px solid #ffffff16;cursor:pointer}
+ & [data-settings-pane=playlist] [role=option][aria-selected=true]{background:#dc996123;box-shadow:inset 2px 0 #e9a17b}
+ & [data-settings-pane=playlist] [role=option]>span:not(.s5runtime-options-image){flex:1;overflow-wrap:anywhere;font-size:12px}
+ & [data-settings-pane=playlist] [role=option]>button{flex:none;min-width:32px;min-height:32px;padding:4px}
+ & [data-settings-pane=playlist]>input[type=checkbox]{grid-column:1}
+ & .s5-settings-footer{grid-column:1/-1;grid-row:2;display:block;position:relative;inset:auto;z-index:2;width:100%;min-height:0;margin:0;padding:18px 28px 14px;border-top:1px solid var(--settings-line);background:#1c252cf5}
+ & .s5-settings-actions{display:flex;align-items:center;gap:12px}
+ & .s5-settings-actions>button{min-width:140px}
+ & .s5-settings-actions>button:first-child{margin-right:auto}
+ & .s5-settings-actions>button[data-xui-path$='/Ok_Button']{order:3;background:linear-gradient(#9f5d3a,#81462e)!important;border-color:#d4987480;color:#fff}
+ & .s5-settings-actions>button[data-xui-path$='/Ok_Button']:hover{background:linear-gradient(#aa6945,#8a4b31)!important}
+ & .s5-settings-notes{display:flex;flex-wrap:wrap;gap:2px 12px;align-items:center;margin-top:10px}
+ & .s5-settings-notes p{margin:0;font:12px/1.5 'Segoe UI',Arial,sans-serif;text-align:left;color:var(--settings-muted)}
+ & .s5-settings-notes .s5runtime-options-status:empty{display:none}
+ & .s5-settings-notes .s5runtime-options-status{color:#ebc4a8;flex-basis:100%}
+ & .s5runtime-options-retry{min-height:36px;padding:6px 12px;background:#754b35;border:1px solid #c99573;border-radius:3px;color:#fff}
+}
+@media(min-width:1800px){#welcome .s5runtime-options-view[data-menu-layout=lobby] .s5runtime-options-plane{grid-template-columns:276px minmax(0,1fr)}}
+@media(max-width:1100px){#welcome .s5runtime-options-view[data-menu-layout=lobby]{
+ & .s5runtime-options-plane{grid-template-columns:204px minmax(0,1fr)}
+ & .s5-settings-sidebar{padding:24px 12px}
+ & .s5-settings-sidebar h3.s5runtime-options-node{font-size:23px}
+ & .s5-settings-body>.s5runtime-options-section{padding:20px}
+ & .s5-settings-header{margin-inline:20px}
+ & .s5-settings-volume-row{grid-template-columns:minmax(0,1fr) 192px 54px;gap:12px}
+ & .s5-settings-mute-label{grid-column:1/-1;justify-self:end}
+ & .s5-settings-badge{grid-column:1;grid-row:3;justify-self:start}
+ & [data-settings-pane=playlist]{grid-template-columns:minmax(0,1fr)}
+ & [data-settings-pane=playlist]>:is(.s5runtime-options-bindings,button){grid-column:1;grid-row:auto}
+}}
+@media(max-width:760px){
+ #welcome.s5-entry-host .s5-lobby[data-section=settings] .s5-lobby-content{padding:12px;min-height:0;overflow:visible}
+ #welcome .s5runtime-options-view[data-menu-layout=lobby]{
+  & .s5runtime-options-plane{display:flex;flex-direction:column;min-height:440px;height:calc(100dvh - 184px)!important;overflow:hidden}
+  & .s5-settings-sidebar{flex:none;padding:20px 16px 12px;border-right:0;border-bottom:1px solid var(--settings-line)}
+  & .s5-settings-sidebar h3.s5runtime-options-node{margin:0;font-size:24px}
+  & p.s5-settings-intro{margin:6px 0 16px}
+  & .s5-settings-categories{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}
+  & .s5-settings-categories>button.s5runtime-options-node{justify-content:center;min-height:44px;padding:8px 4px;font-size:12px;gap:4px}
+  & .s5-settings-category-icon,& .s5-settings-category-arrow{display:none}
+  & .s5-settings-header{margin:0 16px;padding-block:20px}
+  & h2.s5-settings-heading{font-size:23px}
+  & .s5-settings-body{flex:1;min-height:0}
+  & .s5-settings-body>.s5runtime-options-section{padding:20px 16px;max-height:none;overflow:auto}
+  & .character-appearance-fields,& .gamepad-settings .character-appearance-fields{grid-template-columns:minmax(0,1fr);padding:12px}
+  & :is(.settings-choices,.settings-choices--2,.settings-choices--4){grid-template-columns:minmax(0,1fr)}
+  & button.settings-choice{min-height:64px}
+  & .s5-settings-footer{position:relative;flex:none;padding:14px 16px;backdrop-filter:blur(12px)}
+  & .s5-settings-actions{gap:8px}
+  & .s5-settings-actions>button{min-width:0;flex:1;padding:10px 8px;font-size:13px}
+  & .s5-settings-notes .s5-settings-save-note{font-size:11px}
+  & .s5-settings-volume-row{grid-template-columns:minmax(0,1fr) 54px;gap:12px}
+  & .s5-settings-volume-row>.s5runtime-audio-hscroll{grid-column:1;grid-row:2}
+  & .s5-settings-volume-row>output{grid-column:2;grid-row:2}
+  & .s5-settings-mute-label{grid-column:1/-1;justify-self:start}
+  & .s5runtime-options-binding-row{grid-template-columns:minmax(0,1fr) 112px;padding:10px}
+  & [data-settings-pane=mouse]{grid-template-columns:minmax(0,1fr) 44px;gap:16px}
+  & [data-settings-pane=mouse]>[data-xui-path$='/Title1_Label']{grid-column:1/-1;grid-row:1}
+  & [data-settings-pane=mouse]>.s5runtime-audio-hscroll{grid-column:1;grid-row:2}
+  & [data-settings-pane=mouse]>output{grid-column:2;grid-row:2}
+  & [data-settings-pane=mouse]>[data-xui-path$='/Titel2_Label']{grid-column:1;grid-row:3}
+  & [data-settings-pane=mouse]>input[type=checkbox]{grid-column:2;grid-row:3}
+ }
+}
+@media(max-height:650px) and (min-width:761px){#welcome .s5runtime-options-view[data-menu-layout=lobby]{
+ & .s5runtime-options-plane{height:calc(100dvh - 165px)!important;min-height:320px}
+ & .s5-settings-header{padding-top:16px;padding-bottom:16px}
+ & .s5-settings-footer{padding-block:12px}
+}}

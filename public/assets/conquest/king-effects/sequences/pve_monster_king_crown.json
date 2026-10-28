@@ -1,0 +1,704 @@
+{
+  "format": "s5-sequence-inspection-v1",
+  "source": "effects/pve_monster_king_crown.seq",
+  "sha256": "ba94e2cb8cadaeadeefa053aff81eae52bdbeae453c3945ea80bfd7defe6047b",
+  "byteLength": 570,
+  "header": {
+    "versionField": 0.10000000149011612,
+    "name": {
+      "value": "",
+      "rawHex": ""
+    },
+    "byteField": 0,
+    "durationField": 5200,
+    "nodeCount": 2,
+    "byteRange": {
+      "start": 0,
+      "end": 14
+    }
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "type": "CActNodeLoader",
+      "byteRange": {
+        "start": 14,
+        "end": 148,
+        "length": 134
+      },
+      "sha256": "8f7d9c94953afa0bb10163ccb89504f7f8e754ef0b785dfcd8fb266c0abe3346",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_king_crown.scn",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f6b696e675f63726f776e2e73636e",
+          "resourcePath": "effects/pve_monster_king_crown.scn",
+          "extension": "scn",
+          "kind": "model"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 33,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 37,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 42,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "endTimeField": {
+            "offset": 46,
+            "rawHex": "50140000",
+            "int32": 5200,
+            "float32": 7.286752014489049e-42
+          }
+        },
+        "versionField": 0.30000001192092896,
+        "fileName": {
+          "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_king_crown.scn",
+          "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f6b696e675f63726f776e2e73636e"
+        },
+        "animationName": {
+          "value": "",
+          "rawHex": ""
+        },
+        "flag80": false,
+        "field84": {
+          "offset": 123,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "field88": {
+          "offset": 127,
+          "rawHex": "00000000",
+          "int32": 0,
+          "float32": 0
+        },
+        "versioned": {
+          "interfaceType": {
+            "value": "",
+            "rawHex": ""
+          },
+          "field8c": {
+            "offset": 132,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field90": {
+            "offset": 136,
+            "rawHex": "c8000000",
+            "int32": 200,
+            "float32": 2.802596928649634e-43
+          }
+        },
+        "nativeSubstructure": {
+          "versionField": 0.10000000149011612,
+          "count": 0,
+          "entries": [],
+          "fullyParsed": true,
+          "supportedShape": "empty list",
+          "byteRange": {
+            "start": 140,
+            "end": 148,
+            "length": 8
+          }
+        }
+      }
+    },
+    {
+      "index": 1,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 148,
+        "end": 570,
+        "length": 422
+      },
+      "sha256": "d0844314a063286163dce3154a4f11f99f63723c01ce1c9984f418115f25e3d2",
+      "dependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\attack3_nomipmap.dds",
+          "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c61747461636b335f6e6f6d69706d61702e646473",
+          "resourcePath": "effects/attack3_nomipmap.dds",
+          "extension": "dds",
+          "kind": "texture"
+        }
+      ],
+      "parseLevel": "native-reader-structure-exact",
+      "fields": {
+        "base": {
+          "versionField": 0.10000000149011612,
+          "field0c": {
+            "offset": 165,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "field10": {
+            "offset": 169,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "name": {
+            "value": "",
+            "rawHex": ""
+          },
+          "startTimeField": {
+            "offset": 174,
+            "rawHex": "f00a0000",
+            "int32": 2800,
+            "float32": 3.923635700109488e-42
+          },
+          "endTimeField": {
+            "offset": 178,
+            "rawHex": "50140000",
+            "int32": 5200,
+            "float32": 7.286752014489049e-42
+          }
+        },
+        "particleVersion": 0.10000000149011612,
+        "control": {
+          "versionField": 0.5,
+          "primaryWords": [
+            {
+              "offset": 190,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 194,
+              "rawHex": "02000000",
+              "int32": 2,
+              "float32": 2.802596928649634e-45
+            },
+            {
+              "offset": 198,
+              "rawHex": "01000000",
+              "int32": 1,
+              "float32": 1.401298464324817e-45
+            },
+            {
+              "offset": 202,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 206,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 210,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 214,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 218,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 222,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 226,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 230,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            {
+              "offset": 234,
+              "rawHex": "0000b443",
+              "int32": 1135869952,
+              "float32": 360
+            }
+          ],
+          "flag54": true,
+          "field58": {
+            "offset": 239,
+            "rawHex": "0a000000",
+            "int32": 10,
+            "float32": 1.401298464324817e-44
+          },
+          "flag5c": true,
+          "field60": {
+            "offset": 244,
+            "rawHex": "19000000",
+            "int32": 25,
+            "float32": 3.5032461608120427e-44
+          },
+          "flag64": false,
+          "field6c": {
+            "offset": 249,
+            "rawHex": "00000000",
+            "int32": 0,
+            "float32": 0
+          },
+          "versioned": {
+            "field30": {
+              "offset": 253,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 261,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          }
+        },
+        "blockA": {
+          "versionField": 0.10000000149011612,
+          "field10": {
+            "offset": 271,
+            "rawHex": "60090000",
+            "int32": 2400,
+            "float32": 3.363116314379561e-42
+          },
+          "flag14": true,
+          "count": 1,
+          "entries": [
+            {
+              "field0c": {
+                "offset": 280,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              "flag10": true,
+              "words14to60": [
+                {
+                  "offset": 285,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 289,
+                  "rawHex": "0000a042",
+                  "int32": 1117782016,
+                  "float32": 80
+                },
+                {
+                  "offset": 293,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 297,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 301,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 305,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 309,
+                  "rawHex": "0000b443",
+                  "int32": 1135869952,
+                  "float32": 360
+                },
+                {
+                  "offset": 313,
+                  "rawHex": "00002041",
+                  "int32": 1092616192,
+                  "float32": 10
+                },
+                {
+                  "offset": 317,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 321,
+                  "rawHex": "00007a43",
+                  "int32": 1132068864,
+                  "float32": 250
+                },
+                {
+                  "offset": 325,
+                  "rawHex": "00009643",
+                  "int32": 1133903872,
+                  "float32": 300
+                },
+                {
+                  "offset": 329,
+                  "rawHex": "0000b442",
+                  "int32": 1119092736,
+                  "float32": 90
+                },
+                {
+                  "offset": 333,
+                  "rawHex": "0000c842",
+                  "int32": 1120403456,
+                  "float32": 100
+                },
+                {
+                  "offset": 337,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 341,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 345,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 349,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 353,
+                  "rawHex": "96000000",
+                  "int32": 150,
+                  "float32": 2.1019476964872256e-43
+                },
+                {
+                  "offset": 357,
+                  "rawHex": "64000000",
+                  "int32": 100,
+                  "float32": 1.401298464324817e-43
+                },
+                {
+                  "offset": 361,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                }
+              ]
+            }
+          ]
+        },
+        "blockB": {
+          "versionField": 0.10000000149011612,
+          "count": 3,
+          "entries": [
+            [
+              {
+                "offset": 373,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 377,
+                "rawHex": "00004842",
+                "int32": 1112014848,
+                "float32": 50
+              },
+              {
+                "offset": 381,
+                "rawHex": "00004842",
+                "int32": 1112014848,
+                "float32": 50
+              },
+              {
+                "offset": 385,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 389,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 393,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 397,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 401,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 405,
+                "rawHex": "199c0f3f",
+                "int32": 1057987609,
+                "float32": 0.5609756112098694
+              },
+              {
+                "offset": 409,
+                "rawHex": "00002041",
+                "int32": 1092616192,
+                "float32": 10
+              },
+              {
+                "offset": 413,
+                "rawHex": "00002041",
+                "int32": 1092616192,
+                "float32": 10
+              },
+              {
+                "offset": 417,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 421,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 425,
+                "rawHex": "8180003f",
+                "int32": 1056997505,
+                "float32": 0.501960813999176
+              },
+              {
+                "offset": 429,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 433,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ],
+            [
+              {
+                "offset": 437,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 441,
+                "rawHex": "0000a040",
+                "int32": 1084227584,
+                "float32": 5
+              },
+              {
+                "offset": 445,
+                "rawHex": "0000a040",
+                "int32": 1084227584,
+                "float32": 5
+              },
+              {
+                "offset": 449,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 453,
+                "rawHex": "0000803f",
+                "int32": 1065353216,
+                "float32": 1
+              },
+              {
+                "offset": 457,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 461,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              },
+              {
+                "offset": 465,
+                "rawHex": "00000000",
+                "int32": 0,
+                "float32": 0
+              }
+            ]
+          ]
+        },
+        "textures": {
+          "versionField": 0.20000000298023224,
+          "count": 1,
+          "entries": [
+            {
+              "path": {
+                "value": "d:\\s4\\bin\\work\\client\\resources\\effects\\attack3_nomipmap.dds",
+                "rawHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c61747461636b335f6e6f6d69706d61702e646473"
+              },
+              "uvWords": [
+                {
+                  "offset": 538,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 542,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 546,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 550,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 554,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 558,
+                  "rawHex": "00000000",
+                  "int32": 0,
+                  "float32": 0
+                },
+                {
+                  "offset": 562,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                },
+                {
+                  "offset": 566,
+                  "rawHex": "0000803f",
+                  "int32": 1065353216,
+                  "float32": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "nodeIndex": 0,
+      "nodeType": "CActNodeLoader",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pve_monster_king_crown.scn",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c7076655f6d6f6e737465725f6b696e675f63726f776e2e73636e",
+      "resourcePath": "effects/pve_monster_king_crown.scn",
+      "extension": "scn",
+      "kind": "model"
+    },
+    {
+      "nodeIndex": 1,
+      "nodeType": "CActParticle",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\attack3_nomipmap.dds",
+      "sourceBytesHex": "643a5c73345c62696e5c776f726b5c636c69656e745c7265736f75726365735c656666656374735c61747461636b335f6e6f6d69706d61702e646473",
+      "resourcePath": "effects/attack3_nomipmap.dds",
+      "extension": "dds",
+      "kind": "texture"
+    }
+  ],
+  "coverage": {
+    "envelopeBytesAccountedFor": 570,
+    "reachesExactEof": true,
+    "structuredNodeCount": 2,
+    "fullyStructured": true,
+    "fieldMeaningFullyValidated": false,
+    "rendered": false,
+    "qualification": "Header, base, Particle, Particle_IF, GhostTrail, Lightning, NodeControl, NodeLoader and NodeLoader_IF are consumed sequentially along statically traced native reader branches. Unvalidated four-byte fields retain raw/int/float views. No runtime rendering has been verified."
+  },
+  "diagnostics": {
+    "scannedCActOffsets": [
+      14,
+      148
+    ],
+    "parsedNodeStarts": [
+      14,
+      148
+    ],
+    "markerScanMatchesParsedStarts": true,
+    "markerScanUsedForParsing": false
+  }
+}

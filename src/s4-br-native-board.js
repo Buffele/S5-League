@@ -1,0 +1,5 @@
+import {renderS4SourceBoard,S4_RESULT_BOARD_LAYOUT} from './s4-chaser-native-board.js';
+export const S4_BR_BOARD_LAYOUT={"width":512,"rowHeight":25,"headerHeight":30,"source":"gui/new/score_board_ingame.xui","group":"GroupBox_scoreboard_br","columns":[{"key":"name","label":"Name","left":0,"right":211,"sourceNode":"Label_scoreboard_bs_betateamlist_username"},{"key":"score","label":"Points","left":217,"right":297,"sourceNode":"Label_scoreboard_bs_betateamlist_kill"},{"key":"state","label":"State","left":338,"right":403,"sourceNode":"Label_scoreboard_bs_betateamlist_status"},{"key":"ping","label":"Ping","left":430,"right":510,"sourceNode":"Label_scoreboard_bs_betateamlist_ping"}]};
+export const renderS4BattleRoyalBoard=(host,rows,{result=false,details=[]}={})=>renderS4SourceBoard(host,rows,{layout:result?S4_RESULT_BOARD_LAYOUT:S4_BR_BOARD_LAYOUT,kind:result?'result':'ranking',details});
+
+for(const column of S4_BR_BOARD_LAYOUT.columns)Object.freeze(column);Object.freeze(S4_BR_BOARD_LAYOUT.columns);Object.freeze(S4_BR_BOARD_LAYOUT);

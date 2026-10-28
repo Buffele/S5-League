@@ -1,0 +1,590 @@
+{
+  "schema": "s5-twin-blade-current-stage-v1",
+  "date": "2026-10-03",
+  "status": "staged-not-main-game-verified",
+  "assets": [
+    {
+      "path": "/assets/s5runtime/twin-blade/model.json",
+      "bytes": 537636,
+      "sha256": "17f77320f9cc087125d07d62b5eb343e69a1a2a6e874ca62c16789aaabbbc4ff"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/animations/male.json",
+      "bytes": 2718360,
+      "sha256": "a8c2cd462f9c502bee202e74e05d75f09bcb33330e510286889767bde17e4a34"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/animations/female.json",
+      "bytes": 2747243,
+      "sha256": "94d627dac98f0d79b2697378f26337e7106ead1c8695912883330615571fb9a7"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/twinsword.png",
+      "bytes": 48454,
+      "sha256": "e670d77b8be526d7199b277a946250a06d291652d0d447cd90ffd5a0c3ecdc16"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/di.png",
+      "bytes": 49145,
+      "sha256": "1485e2ac472aaf5d83c0214b90da48996b1288d507886bf1e7299afe945e86a3"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/di2.png",
+      "bytes": 15634,
+      "sha256": "ebbe13b095f65ea7626f553e18e6b2abb6e432c398e27ac1dc1153f43fcd29bb"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sounds/twinsword_cut_2.ogg",
+      "bytes": 14583,
+      "sha256": "f03658e33f243d85dcab717a9f44816ed5cffc3f2ef055943cc6d3b4daf07cc5"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sounds/twinsword_cut_3.ogg",
+      "bytes": 19058,
+      "sha256": "b31ced68a8606f123fab392499f16d5cdd955667710ce71e3c94e328cfe18999"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sounds/twinsword_charge.ogg",
+      "bytes": 39902,
+      "sha256": "a5bd8e60c61e8eca877956b0843961bbb05ba4b922748ac57336f482d8b63a9a"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sounds/twinsword_charge_full.ogg",
+      "bytes": 98073,
+      "sha256": "84378387c4afa0cc80dd5d7eb30d219068f67c19d68a0740143730c5c86dab47"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sounds/twinsword_wide.ogg",
+      "bytes": 38605,
+      "sha256": "a6bd50807075d6d2725adb5f4b580fd269facc21eb1bceddf4fbbc6b82f2bf85"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sounds/twinsword_jump.ogg",
+      "bytes": 17628,
+      "sha256": "54264171a6e079b546a751420a109255f3a473b03c9ab95daca05462f1f60d21"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sequences/weapon_twinseord_charge.json",
+      "bytes": 24203,
+      "sha256": "1281c8cd0f9c0805b7be4b770a91814d3abf60469133c75755ae04210f6d0472"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/ringring4.png",
+      "bytes": 35907,
+      "sha256": "0334b3ff6e279a61dc6c6445f633186dc16e67ddf6d78d620a816a19db699a0b"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/wave2.png",
+      "bytes": 2013,
+      "sha256": "b9e8ed3941f38e1de948551f2701e6ef9cfeef2c3ca63efffd0fe3d2dd622be9"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/tick3.png",
+      "bytes": 1820,
+      "sha256": "5edbe05dfd80048421991ea875aeb9a7de96dadd84c753cb2f0e1f6c9996d00a"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/flash_blue.png",
+      "bytes": 9926,
+      "sha256": "3c1c557d5cbcdfe8fff07a217bf6de47bdd7daa20a29090619672258682b6d95"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sequences/weapon_twinseord_charge_loop.json",
+      "bytes": 20994,
+      "sha256": "477969aa354946907e7e91a63c021b333959e35dccc76a66b32c92be7be18092"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/lightning1.png",
+      "bytes": 2383,
+      "sha256": "3b011bd1e74e8cd527237f3efc608b533fbfb5463d557f19f9528c1749ceb777"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/lightning2.png",
+      "bytes": 1963,
+      "sha256": "b48cd79285379a9f7084bb8b06223edfcef38ba14418517cb185bd5e1c84e999"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/lightning3.png",
+      "bytes": 2306,
+      "sha256": "bacdcee3ee71900f5bfcdc46dbd62f5a5bde543f22731303fa35025120048294"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/lightning4.png",
+      "bytes": 2112,
+      "sha256": "af6baa81e56f158543bbcce42bd7e80c0b0d8f678b64ced945067a81752a2b68"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sequences/skill_doublesword_strike.json",
+      "bytes": 52429,
+      "sha256": "7fd63fc927337c359f30e527d0838e63b063b02e5f39ebd5c9a27494b3fcd775"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/smog_black2.png",
+      "bytes": 4122,
+      "sha256": "13cded19175300ede9f3d83ccef9c319b5a72a3e3ccd339cde4036eb2d49e7f9"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/glass_chunks2.png",
+      "bytes": 820,
+      "sha256": "c6c6386ec4e0c0ed31558307492377f624b4c954f9c8b2523d3151b01ea1338b"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sequences/chain.json",
+      "bytes": 3476,
+      "sha256": "e36ccbd6fa3cfd0a95880e6ff41b8a88d989ef284e2737b02ecf22a9ac44bceb"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/textures/chaser_lightning_ophelia.png",
+      "bytes": 249332,
+      "sha256": "12f617f2ffd1c9f9953bf9787379a4cfa4eac4476f0cc0b0d6312629c1fd0ec3"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/models/chain_test.json",
+      "bytes": 3748122,
+      "sha256": "ee57c63ac866d5e35835480805fceee20be3603d81014202f32e409e968a58e1"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/sequences/chain_12.json",
+      "bytes": 3455,
+      "sha256": "1a3fdb514560d963a270754bfa0e997c570dba887f094c34a834ba456f556aa6"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/models/chain_12.json",
+      "bytes": 3399400,
+      "sha256": "ec25dcd3e4fff886782a11450093f82fcc4f22b190c7b2eb80e24be3d3b2999e"
+    },
+    {
+      "path": "/assets/s5runtime/twin-blade/effects-runtime.json",
+      "bytes": 11690,
+      "sha256": "40ba97e6610de37cbb3a27d7f77f687f77b030aafa5e60405f27b62d98c35a9e"
+    }
+  ],
+  "sources": [
+    {
+      "path": "script/actorstates_normalstates.lua",
+      "checksum": "0edda9cc",
+      "plainLength": 26466,
+      "storedLength": 5155,
+      "dataOffset": 89879533,
+      "archive": "package/67.xs",
+      "sha256": "f143f916491aa1a6b4afc8b41f82924d05a979de43cf6d5ca1d78a8e302b8c29",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/actorstates_runstates.lua",
+      "checksum": "d3c7d263",
+      "plainLength": 163991,
+      "storedLength": 23531,
+      "dataOffset": 77922521,
+      "archive": "package/60.xs",
+      "sha256": "d9e6f2e1918d98073fe75699ce9f329b427667ea1059461038b76e481de848cb",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/actorstates_doublesword.lua",
+      "checksum": "9990572b",
+      "plainLength": 13952,
+      "storedLength": 5606,
+      "dataOffset": 96131855,
+      "archive": "package/50.xs",
+      "sha256": "1cab31d96cff7247b743845db24f7030c19fbaf77edde0aee699b04483664e23",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/weapon_doublesword.lua",
+      "checksum": "68b1ff5c",
+      "plainLength": 18435,
+      "storedLength": 8906,
+      "dataOffset": 64832238,
+      "archive": "package/23.xs",
+      "sha256": "4e10a2f9c4990fbe0dad4f9e4a003b00742f4a14f2cc279cb0b6a616bce8d29a",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/weapon_breakersword.lua",
+      "checksum": "aa89939b",
+      "plainLength": 18417,
+      "storedLength": 7509,
+      "dataOffset": 46456735,
+      "archive": "package/23.xs",
+      "sha256": "5909d6658f69f0ba7ec7e2a3a4de8459342c9d9bab5b87e0b51c8de43a52d68b",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/attackattribindexer.lua",
+      "checksum": "f3adc6f2",
+      "plainLength": 638240,
+      "storedLength": 144403,
+      "dataOffset": 32489011,
+      "archive": "package/50.xs",
+      "sha256": "f714b31691b87c020c5618d96f51876bab361445b689709b8a20880882048c65",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "xml/weapon_attach.x7",
+      "checksum": "76389134",
+      "plainLength": 7030,
+      "storedLength": 2234,
+      "dataOffset": 31609413,
+      "archive": "package/67.xs",
+      "sha256": "099e2f5fcb6acdb33583e1eab6ef0637ee81f08fb1ec9fbb020fe00889fdee54",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "xml/ghost_trail.x7",
+      "checksum": "f9edae20",
+      "plainLength": 72047,
+      "storedLength": 15645,
+      "dataOffset": 6417187,
+      "archive": "package/60.xs",
+      "sha256": "ad2999b1e8ab8d38637cab57bfc937f0ff27556cbbe7f06ee990dc44a0175131",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "model/weapon/twinsword_r.scn",
+      "checksum": "9ca77d7d",
+      "plainLength": 64161,
+      "storedLength": 40821,
+      "dataOffset": 37590784,
+      "archive": "package/49.xs",
+      "sha256": "b1efbd025e5c0f1b78aaa92b7de97828de217758a75a07d22e29af237349d295",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "model/weapon/twinsword_l.scn",
+      "checksum": "a0ff5866",
+      "plainLength": 68661,
+      "storedLength": 44820,
+      "dataOffset": 55582951,
+      "archive": "package/67.xs",
+      "sha256": "c43545d87cb110b9ca08f3b0fe1a005942668a02ad9549c889e05b5a1997da75",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "model/weapon/twinsword.dds",
+      "checksum": "eb7b4db3",
+      "plainLength": 87536,
+      "storedLength": 43395,
+      "dataOffset": 30360691,
+      "archive": "package/49.xs",
+      "sha256": "f5f3d9bff023dc63d7e9af223eee22db45f9ebf56160767515e1e0b3988f3c1c",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/twinsword_cut_2.ogg",
+      "checksum": "2e116d96",
+      "plainLength": 14583,
+      "storedLength": 14509,
+      "dataOffset": 17021968,
+      "archive": "package/50.xs",
+      "sha256": "f03658e33f243d85dcab717a9f44816ed5cffc3f2ef055943cc6d3b4daf07cc5",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/twinsword_cut_3.ogg",
+      "checksum": "890f0310",
+      "plainLength": 19058,
+      "storedLength": 18985,
+      "dataOffset": 79046432,
+      "archive": "package/23.xs",
+      "sha256": "b31ced68a8606f123fab392499f16d5cdd955667710ce71e3c94e328cfe18999",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/twinsword_charge.ogg",
+      "checksum": "1c4294bb",
+      "plainLength": 39902,
+      "storedLength": 39828,
+      "dataOffset": 72522034,
+      "archive": "package/67.xs",
+      "sha256": "a5bd8e60c61e8eca877956b0843961bbb05ba4b922748ac57336f482d8b63a9a",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/twinsword_charge_full.ogg",
+      "checksum": "693694ba",
+      "plainLength": 98073,
+      "storedLength": 98054,
+      "dataOffset": 62131404,
+      "archive": "package/23.xs",
+      "sha256": "84378387c4afa0cc80dd5d7eb30d219068f67c19d68a0740143730c5c86dab47",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/twinsword_wide.ogg",
+      "checksum": "de6c7377",
+      "plainLength": 38605,
+      "storedLength": 38532,
+      "dataOffset": 2158947,
+      "archive": "package/71.xs",
+      "sha256": "a6bd50807075d6d2725adb5f4b580fd269facc21eb1bceddf4fbbc6b82f2bf85",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/twinsword_jump.ogg",
+      "checksum": "ba944795",
+      "plainLength": 17628,
+      "storedLength": 17555,
+      "dataOffset": 38071399,
+      "archive": "package/74.xs",
+      "sha256": "54264171a6e079b546a751420a109255f3a473b03c9ab95daca05462f1f60d21",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "model/character/male_bip.scn",
+      "checksum": "7a744796",
+      "plainLength": 33060253,
+      "storedLength": 33061772,
+      "dataOffset": 12367745,
+      "archive": "package/60.xs",
+      "sha256": "d9953bde346c6b242e8d45d4ea885a581203c3999a78ab13d60aa7ea3997dba5",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "model/character/female_bip.scn",
+      "checksum": "d3a71175",
+      "plainLength": 30705783,
+      "storedLength": 30707194,
+      "dataOffset": 22125266,
+      "archive": "package/47.xs",
+      "sha256": "98caac4c4f8ee8900a9b28b050e7900fbb8c4c1b65a5f968a20110ae7653d465",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/weapon_twinseord_charge.seq",
+      "checksum": "e3d9c050",
+      "plainLength": 1606,
+      "storedLength": 1017,
+      "dataOffset": 101007438,
+      "archive": "package/29.xs",
+      "sha256": "eac9d34556708adf9e317931f2efedcf74197c40217afba3c1e205ad26099f91",
+      "method": "repeated-zero-block+signature+crc32"
+    },
+    {
+      "path": "effects/weapon_twinseord_charge_loop.seq",
+      "checksum": "443e8ba8",
+      "plainLength": 1425,
+      "storedLength": 1069,
+      "dataOffset": 97572276,
+      "archive": "package/62.xs",
+      "sha256": "9594cbce9bb1c52b0f812f6af7eb01012fb6e5995b01da02d278036fb2a19d59",
+      "method": "repeated-zero-block+signature+crc32"
+    },
+    {
+      "path": "effects/skill_doublesword_strike.seq",
+      "checksum": "4b3218cf",
+      "plainLength": 3575,
+      "storedLength": 1916,
+      "dataOffset": 68917901,
+      "archive": "package/3.xs",
+      "sha256": "8d4336d7e4f35805eebde2c2b2a6221dba45e0fa475aabb9383d8bd937fbc52d",
+      "method": "repeated-zero-block+signature+crc32"
+    },
+    {
+      "path": "effects/chain_12.seq",
+      "checksum": "26b535a6",
+      "plainLength": 184,
+      "storedLength": 184,
+      "dataOffset": 37989241,
+      "archive": "package/62.xs",
+      "sha256": "96b0fa59b620524bc61b89462d12a2527ec7f3cf9135d92271847163842793ca",
+      "method": "byte-lane-frequency+crc32"
+    },
+    {
+      "path": "effects/blank_1sec.seq",
+      "checksum": "98533987",
+      "plainLength": 311,
+      "storedLength": 159,
+      "dataOffset": 67623867,
+      "archive": "package/29.xs",
+      "sha256": "c35774dbbd81a011e40c6da38c0e60e89a24a33485890fb1d12c3f7b020876da",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/chain.seq",
+      "checksum": "0b0557bc",
+      "plainLength": 186,
+      "storedLength": 186,
+      "dataOffset": 52551745,
+      "archive": "package/40.xs",
+      "sha256": "5fb051fc66a14c358c084398407f1848fa5a22015f337adf50922991e7e97980",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/chain_test.scn",
+      "checksum": "599ce86e",
+      "plainLength": 977145,
+      "storedLength": 585118,
+      "dataOffset": 82350068,
+      "archive": "package/3.xs",
+      "sha256": "518957981aae169f9e5f35e9aba9fa436491751f4a29ebfd1ddf5d872afb0b90",
+      "method": "byte-lane-frequency+crc32"
+    },
+    {
+      "path": "effects/chain_12.scn",
+      "checksum": "895ef32a",
+      "plainLength": 886761,
+      "storedLength": 572739,
+      "dataOffset": 28391287,
+      "archive": "package/3.xs",
+      "sha256": "ba646fa03166238f8ca3eb049cbde5aad4fb318116e41e1ab35e0c5bcae94243",
+      "method": "byte-lane-frequency+crc32"
+    },
+    {
+      "path": "image/di.dds",
+      "checksum": "36d56604",
+      "plainLength": 87536,
+      "storedLength": 33611,
+      "dataOffset": 17973043,
+      "archive": "package/39.xs",
+      "sha256": "eeb11e92486d32c862f829d71900bf286a7e90234e7826369d783bcc569677ad",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "image/di2.dds",
+      "checksum": "71887de8",
+      "plainLength": 87536,
+      "storedLength": 31915,
+      "dataOffset": 98494510,
+      "archive": "package/0.xs",
+      "sha256": "95e5ee6be6c993f9884e26be92ae4a9010d5ad1fd18c7f2fb28734526d2226d8",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/ringring4.dds",
+      "checksum": "1d5d5b28",
+      "plainLength": 43832,
+      "storedLength": 28259,
+      "dataOffset": 63983828,
+      "archive": "package/28.xs",
+      "sha256": "4dd7c1287f717b092043b561212b6ea92f9760560fbc3efd626dba4f082ccf29",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/wave2.dds",
+      "checksum": "dfa68a6d",
+      "plainLength": 2872,
+      "storedLength": 2052,
+      "dataOffset": 33366192,
+      "archive": "package/53.xs",
+      "sha256": "7e6476b35707b3ed64dafef8f17f9ae53c5c2a1e54900412944d3d9302553561",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/tick3.dds",
+      "checksum": "2c99ebab",
+      "plainLength": 2872,
+      "storedLength": 2328,
+      "dataOffset": 35179484,
+      "archive": "package/40.xs",
+      "sha256": "51981ada47ced4529963901d57482ceb91197cc8ee120eb7be03c3b0bd7619e4",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/flash_blue.dds",
+      "checksum": "db6ff55d",
+      "plainLength": 11064,
+      "storedLength": 8220,
+      "dataOffset": 100923082,
+      "archive": "package/2.xs",
+      "sha256": "4f2f29ba96e9ddbd873eafb0af9ac7a595725f98592e0160a8f52dbea39af3ee",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/lightning1.dds",
+      "checksum": "bd60b79c",
+      "plainLength": 2872,
+      "storedLength": 2188,
+      "dataOffset": 35030307,
+      "archive": "package/54.xs",
+      "sha256": "44c44b17903008b0229b49b55d49f831451b270ec05b31d67a9d82c8ef8291ba",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/lightning2.dds",
+      "checksum": "a6ea1dbc",
+      "plainLength": 2872,
+      "storedLength": 1839,
+      "dataOffset": 14155084,
+      "archive": "package/29.xs",
+      "sha256": "54dc6aa6e54a6cfd4a80d7f3f6ec0f83c55a1de7184f069e5c906d3cafd375c0",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/lightning3.dds",
+      "checksum": "5b3002db",
+      "plainLength": 2872,
+      "storedLength": 2078,
+      "dataOffset": 43884895,
+      "archive": "package/29.xs",
+      "sha256": "aedf60f879f94ed0a807f7565f1e08ade3d23a54b56567050797398f741a3fa2",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/lightning4.dds",
+      "checksum": "5b6fcc9e",
+      "plainLength": 2872,
+      "storedLength": 2424,
+      "dataOffset": 68086868,
+      "archive": "package/28.xs",
+      "sha256": "34d8edb5bbb8a8d70827ec14e9c0caf0a8398214cb1ab1f65532f15a91de69a8",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/smog_black2.dds",
+      "checksum": "50032007",
+      "plainLength": 22000,
+      "storedLength": 8314,
+      "dataOffset": 82857478,
+      "archive": "package/40.xs",
+      "sha256": "5768e272586217a4a9e698a8fd568bb0f3a584cad4baf80160e02a2685acbb26",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/glass_chunks2.dds",
+      "checksum": "90925ab3",
+      "plainLength": 1520,
+      "storedLength": 956,
+      "dataOffset": 4598147,
+      "archive": "package/40.xs",
+      "sha256": "22261e5934c758d8c6b37c7a2096fbb5fd1a7cacd249cb2b5e587862dc35d134",
+      "method": "saved-plaintext-current-CRC-verified"
+    },
+    {
+      "path": "effects/chaser_lightning_ophelia.dds",
+      "checksum": "704413dc",
+      "plainLength": 349680,
+      "storedLength": 203253,
+      "dataOffset": 48142423,
+      "archive": "package/3.xs",
+      "sha256": "74221621d691e7a5875c18fbdebc930ebd4d99afb5f2f8ffdc373b503bce7d1a",
+      "method": "saved-plaintext-current-CRC-verified"
+    }
+  ],
+  "missing": [
+    {
+      "sequence": "chain",
+      "model": "Box02",
+      "reason": "Empty source texture; mesh omitted"
+    },
+    {
+      "sequence": "chain",
+      "model": "Box06",
+      "reason": "Empty source texture; mesh omitted"
+    },
+    {
+      "sequence": "chain_12",
+      "model": "Box02",
+      "reason": "Empty source texture; mesh omitted"
+    },
+    {
+      "sequence": "chain_12",
+      "model": "Box01",
+      "reason": "Empty source texture; mesh omitted"
+    }
+  ],
+  "limitations": [
+    "Resource closure does not prove rendered effects, attachment or native timing.",
+    "Animation playback fitting, charge routing and critical rays need integration validation."
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "City Kit Commercial 2.1",
+  "author": "Kenney",
+  "license": "CC0-1.0",
+  "source": "https://kenney.nl/assets/city-kit-commercial",
+  "download": "https://kenney.nl/media/pages/assets/city-kit-commercial/a742d900eb-1753115042/kenney_city-kit-commercial_2.1.zip",
+  "archiveSHA256": "f8b09b081c2bb88bcc126e2dec1cb40fd0dad7e7e591b6c26aaefe96fb35276b",
+  "modifications": "Original GLB geometry and palette copied unchanged. Runtime material shader maps the palette to ivory, blue glazing and coral. Uniform scale, placement and rotation are in layout.json.",
+  "models": [
+    {
+      "id": "building-skyscraper-a",
+      "file": "building-skyscraper-a.glb",
+      "bytes": 111336,
+      "sha256": "d8339bbb75944ff91d1ec9a70ec6dead71bd98b94a42d3dd0fc1f3b107ddbe85",
+      "triangles": 1292
+    },
+    {
+      "id": "building-skyscraper-b",
+      "file": "building-skyscraper-b.glb",
+      "bytes": 138480,
+      "sha256": "3a383e8a0a8819023d30b2aee1c6f40fa6bc28990227a306a86e531f36c6b8d5",
+      "triangles": 1592
+    },
+    {
+      "id": "building-skyscraper-c",
+      "file": "building-skyscraper-c.glb",
+      "bytes": 149524,
+      "sha256": "e73c357554f7561fedb8c1cbecf9d7163ba09ada264d661c59a0f0a180e0185f",
+      "triangles": 1704
+    },
+    {
+      "id": "building-skyscraper-d",
+      "file": "building-skyscraper-d.glb",
+      "bytes": 167148,
+      "sha256": "5c524ec13be53fff85ace8b328bc2587cba4e93962230e4a0ba98998e53d30b5",
+      "triangles": 1892
+    },
+    {
+      "id": "building-skyscraper-e",
+      "file": "building-skyscraper-e.glb",
+      "bytes": 101880,
+      "sha256": "21b58a2f2b18d6a7cf8915e8b947bdb6a6a0706da6cffb5a01677c29f03b5935",
+      "triangles": 1156
+    },
+    {
+      "id": "building-h",
+      "file": "building-h.glb",
+      "bytes": 127384,
+      "sha256": "6881613ce218bb33a0f56137d4d33b00d307c47e518fbb21ccba1083efbea896",
+      "triangles": 1512
+    },
+    {
+      "id": "building-l",
+      "file": "building-l.glb",
+      "bytes": 290516,
+      "sha256": "0c3d1b346c142198b7f504d12b40cb1630bb14c3ff38a013922b700d09f9dcff",
+      "triangles": 3512
+    },
+    {
+      "id": "building-m",
+      "file": "building-m.glb",
+      "bytes": 301004,
+      "sha256": "1cdc717ac86a0479043ff0d0146142f5dfc2622c0e3aaac484fad5807f94d580",
+      "triangles": 3740
+    },
+    {
+      "id": "building-n",
+      "file": "building-n.glb",
+      "bytes": 341232,
+      "sha256": "35dc225d48516ead483a49e90dd164f1bc62b1ad75d3095488bd404cad1848b0",
+      "triangles": 4350
+    }
+  ],
+  "totalAssetBytes": 1728504,
+  "instanceCount": 42,
+  "totalTriangles": 96392
+}

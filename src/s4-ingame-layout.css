@@ -1,0 +1,8 @@
+/* S5 browser layering: final results and replay controls occupy the foreground
+   above the combat readouts. Source artwork and live state stay in their UIs. */
+body.in-game :is(#match-ui,#touchdown-ui)[data-phase="result"]{z-index:22}
+body.in-game #practice-session:has(.s4-practice-limits[open]){z-index:22}
+/* Results lock combat. Keep aiming and special-attack text from bleeding
+   through the source result panel's translucent pixels. */
+body.in-game:has(:is(#match-ui,#touchdown-ui)[data-phase="result"]) :is(#fireball-hud,#crosshair){visibility:hidden}
+body.in-game:has(#match-ui[data-s4-mode-ui="captain"]:is([data-phase="intermission"],[data-phase="result-countdown"],[data-phase="dead"])) :is(#fireball-hud,#crosshair){visibility:hidden}

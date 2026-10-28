@@ -1,0 +1,47 @@
+{
+  "status": "runtime-prepared-native-comparison-pending",
+  "textures": [
+    {
+      "source": "effects/0008.dds",
+      "sourceBytes": 5608,
+      "sourceSha256": "aec64b63e0c25dc15ec22f5a225928c41339280efb04cc3fce00f59daa5a6824",
+      "path": "/assets/s5runtime/effects/semi-rifle/textures/0008.png",
+      "bytes": 5646,
+      "sha256": "d3f41b16c0723dfaaa43b7f3b8aa06e069870bf692579c9db97b0e1be5daad0c",
+      "width": 128,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/0009.dds",
+      "sourceBytes": 87536,
+      "sourceSha256": "a8147ac7ffca6c97d68e2ddaa4e761b88379253f2691ba1cdd5bfa5cf7bbf7f0",
+      "path": "/assets/s5runtime/effects/semi-rifle/textures/0009.png",
+      "bytes": 40904,
+      "sha256": "b37e3db12baca35302a2fbf25d8253c0488388fb066c9495d8027955a68f1978",
+      "width": 256,
+      "height": 256,
+      "format": "DXT3"
+    },
+    {
+      "source": "effects/flash.dds",
+      "sourceBytes": 11064,
+      "sourceSha256": "64d643b28b6a1243b621dbf999a6671aa812f333533d13090436f135749e26ba",
+      "path": "/assets/s5runtime/effects/semi-rifle/textures/flash.png",
+      "bytes": 7058,
+      "sha256": "d95decd7cb8b6dcb9f7822875c7f1c6f1d2aa8f7b014d5dbebdf32db1ccf5c1a",
+      "width": 128,
+      "height": 128,
+      "format": "DXT1"
+    }
+  ],
+  "model": {
+    "source": "effects/gun_blast1_1.scn",
+    "sha256": "4ff1dfde2f9202433a4465a2c15cb1e9db6e3f867f4611d70f58f0eb2b1bd705"
+  },
+  "sharedDependencies": [
+    "/assets/s5runtime/effects/revolver/models",
+    "/assets/s5runtime/effects/revolver/textures"
+  ],
+  "source": "ATTACKATTRIB_SMG2: gun_blast1_1, gun_hit4, gun_hit"
+}

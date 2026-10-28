@@ -1,0 +1,2164 @@
+{
+  "schema": "standbyroom-native-markers-v1",
+  "source": "model/background/standbyroom.scn",
+  "root": {
+    "name": "#standbyroom",
+    "parent": "",
+    "unknown": 0.10000000149011612,
+    "matrix": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "records": [
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "blast2_cross01",
+      "parent": "",
+      "type": "Bone",
+      "matrix": [
+        -1,
+        0,
+        1.5099580252808664e-07,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1.5099580252808664e-07,
+        0,
+        -1,
+        0,
+        73.74334716796875,
+        -1469.4625244140625,
+        -5303.0859375,
+        1
+      ],
+      "sourceNodeIndex": 0,
+      "serializedByteRange": {
+        "start": 102,
+        "end": 272
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        73.74334716796875,
+        -1469.4625244140625,
+        -5303.0859375
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "other-node",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_standby_pos06",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.0066696894355118275,
+        0,
+        0.38994306325912476,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.38994306325912476,
+        0,
+        -0.0066696894355118275,
+        0,
+        2105.65625,
+        28638.4609375,
+        -232.82958984375,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 2,
+      "serializedByteRange": {
+        "start": 479,
+        "end": 650
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2105.65625,
+        28638.4609375,
+        -232.82958984375
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "Particle View 01",
+      "parent": "",
+      "type": "Bone",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "sourceNodeIndex": 12,
+      "serializedByteRange": {
+        "start": 157228,
+        "end": 157400
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        0,
+        0,
+        0
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "other-node",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_standby_pos05",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.0066696894355118275,
+        0,
+        0.38994306325912476,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.38994306325912476,
+        0,
+        -0.0066696894355118275,
+        0,
+        2317.019287109375,
+        28638.4609375,
+        -161.74978637695312,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 20,
+      "serializedByteRange": {
+        "start": 218464,
+        "end": 218635
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2317.019287109375,
+        28638.4609375,
+        -161.74978637695312
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_standby_pos04",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.0066696894355118275,
+        0,
+        0.38994306325912476,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.38994306325912476,
+        0,
+        -0.0066696894355118275,
+        0,
+        2527.12158203125,
+        28638.4609375,
+        -151.52816772460938,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 21,
+      "serializedByteRange": {
+        "start": 218635,
+        "end": 218806
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2527.12158203125,
+        28638.4609375,
+        -151.52816772460938
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_standby_pos03",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.0066696894355118275,
+        0,
+        0.38994306325912476,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.38994306325912476,
+        0,
+        -0.0066696894355118275,
+        0,
+        2524.3642578125,
+        28638.4609375,
+        125.78565979003906,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 22,
+      "serializedByteRange": {
+        "start": 218806,
+        "end": 218977
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2524.3642578125,
+        28638.4609375,
+        125.78565979003906
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_standby_pos02",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.0066696894355118275,
+        0,
+        0.38994306325912476,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.38994306325912476,
+        0,
+        -0.0066696894355118275,
+        0,
+        2311.7578125,
+        28638.4609375,
+        123.25788879394531,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 23,
+      "serializedByteRange": {
+        "start": 218977,
+        "end": 219148
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2311.7578125,
+        28638.4609375,
+        123.25788879394531
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_standby_pos01",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.0066696894355118275,
+        0,
+        0.38994306325912476,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.38994306325912476,
+        0,
+        -0.0066696894355118275,
+        0,
+        2110.569091796875,
+        28638.4609375,
+        190.44131469726562,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 24,
+      "serializedByteRange": {
+        "start": 219148,
+        "end": 219319
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2110.569091796875,
+        28638.4609375,
+        190.44131469726562
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_standby_pos01",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.006669387686997652,
+        0,
+        -0.38994309306144714,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.38994309306144714,
+        0,
+        0.006669387686997652,
+        0,
+        -2048.34716796875,
+        28638.4609375,
+        -230.64218139648438,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 38,
+      "serializedByteRange": {
+        "start": 342728,
+        "end": 342898
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2048.34716796875,
+        28638.4609375,
+        -230.64218139648438
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_standby_pos02",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.006669387686997652,
+        0,
+        -0.38994309306144714,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.38994309306144714,
+        0,
+        0.006669387686997652,
+        0,
+        -2267.922119140625,
+        28638.4609375,
+        -161.38951110839844,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 39,
+      "serializedByteRange": {
+        "start": 342898,
+        "end": 343068
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2267.922119140625,
+        28638.4609375,
+        -161.38951110839844
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_standby_pos03",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.006669387686997652,
+        0,
+        -0.38994309306144714,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.38994309306144714,
+        0,
+        0.006669387686997652,
+        0,
+        -2521.982177734375,
+        28638.4609375,
+        -163.5992889404297,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 40,
+      "serializedByteRange": {
+        "start": 343068,
+        "end": 343238
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2521.982177734375,
+        28638.4609375,
+        -163.5992889404297
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_standby_pos04",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.006669387686997652,
+        0,
+        -0.38994309306144714,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.38994309306144714,
+        0,
+        0.006669387686997652,
+        0,
+        -2526.950927734375,
+        28638.4609375,
+        126.90039825439453,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 41,
+      "serializedByteRange": {
+        "start": 343238,
+        "end": 343408
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2526.950927734375,
+        28638.4609375,
+        126.90039825439453
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_standby_pos05",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.006669387686997652,
+        0,
+        -0.38994309306144714,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.38994309306144714,
+        0,
+        0.006669387686997652,
+        0,
+        -2273.18359375,
+        28638.4609375,
+        123.61817169189453,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 42,
+      "serializedByteRange": {
+        "start": 343408,
+        "end": 343578
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2273.18359375,
+        28638.4609375,
+        123.61817169189453
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_standby_pos06",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.006669387686997652,
+        0,
+        -0.38994309306144714,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.38994309306144714,
+        0,
+        0.006669387686997652,
+        0,
+        -2043.4346923828125,
+        28638.4609375,
+        192.62876892089844,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 43,
+      "serializedByteRange": {
+        "start": 343578,
+        "end": 343748
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2043.4346923828125,
+        28638.4609375,
+        192.62876892089844
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_observer_pos01",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.1396353840827942,
+        0,
+        0.3641456067562103,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.3641456067562103,
+        0,
+        -0.1396353840827942,
+        0,
+        2392.65234375,
+        28638.4609375,
+        938.1077880859375,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 44,
+      "serializedByteRange": {
+        "start": 343748,
+        "end": 343920
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2392.65234375,
+        28638.4609375,
+        938.1077880859375
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_observer_pos02",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.2007475346326828,
+        0,
+        0.3343658447265625,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.3343658447265625,
+        0,
+        -0.2007475346326828,
+        0,
+        2222.24609375,
+        28638.4609375,
+        1336.861572265625,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 45,
+      "serializedByteRange": {
+        "start": 343920,
+        "end": 344092
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2222.24609375,
+        28638.4609375,
+        1336.861572265625
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_observer_pos03",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.2804473340511322,
+        0,
+        0.2710154950618744,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.2710154950618744,
+        0,
+        -0.2804473340511322,
+        0,
+        1957.955322265625,
+        28638.4609375,
+        1648.2608642578125,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 46,
+      "serializedByteRange": {
+        "start": 344092,
+        "end": 344264
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        1957.955322265625,
+        28638.4609375,
+        1648.2608642578125
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_observer_pos04",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.2804473340511322,
+        0,
+        0.2710154950618744,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.2710154950618744,
+        0,
+        -0.2804473340511322,
+        0,
+        1666.197021484375,
+        28638.4609375,
+        1934.7591552734375,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 47,
+      "serializedByteRange": {
+        "start": 344264,
+        "end": 344436
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        1666.197021484375,
+        28638.4609375,
+        1934.7591552734375
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_observer_pos05",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.10736621916294098,
+        0,
+        -0.3749300539493561,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.3749300539493561,
+        0,
+        0.10736621916294098,
+        0,
+        -2398.447509765625,
+        28638.4609375,
+        -967.3292236328125,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 48,
+      "serializedByteRange": {
+        "start": 344436,
+        "end": 344607
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2398.447509765625,
+        28638.4609375,
+        -967.3292236328125
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_observer_pos06",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.10736621916294098,
+        0,
+        -0.3749300539493561,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.3749300539493561,
+        0,
+        0.10736621916294098,
+        0,
+        -2254.158447265625,
+        28638.4609375,
+        -1305.940185546875,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 49,
+      "serializedByteRange": {
+        "start": 344607,
+        "end": 344778
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2254.158447265625,
+        28638.4609375,
+        -1305.940185546875
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_observer_pos07",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.2804466485977173,
+        0,
+        -0.27101612091064453,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.27101612091064453,
+        0,
+        0.2804466485977173,
+        0,
+        -1987.1568603515625,
+        28638.4609375,
+        -1664.1143798828125,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 50,
+      "serializedByteRange": {
+        "start": 344778,
+        "end": 344949
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -1987.1568603515625,
+        28638.4609375,
+        -1664.1143798828125
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_observer_pos08",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.2804466485977173,
+        0,
+        -0.27101612091064453,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.27101612091064453,
+        0,
+        0.2804466485977173,
+        0,
+        -1668.3505859375,
+        28638.4609375,
+        -1964.80859375,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 51,
+      "serializedByteRange": {
+        "start": 344949,
+        "end": 345120
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -1668.3505859375,
+        28638.4609375,
+        -1964.80859375
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_standby_pos07",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.0066696894355118275,
+        0,
+        0.38994306325912476,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.38994306325912476,
+        0,
+        -0.0066696894355118275,
+        0,
+        2741.082763671875,
+        28638.4609375,
+        60.73725128173828,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 60,
+      "serializedByteRange": {
+        "start": 396580,
+        "end": 396751
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2741.082763671875,
+        28638.4609375,
+        60.73725128173828
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_standby_pos08",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.0066696894355118275,
+        0,
+        0.38994306325912476,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.38994306325912476,
+        0,
+        -0.0066696894355118275,
+        0,
+        2743.840087890625,
+        28638.4609375,
+        -100.45951843261719,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 61,
+      "serializedByteRange": {
+        "start": 396751,
+        "end": 396922
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        2743.840087890625,
+        28638.4609375,
+        -100.45951843261719
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_standby_pos07",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.006669387686997652,
+        0,
+        -0.38994309306144714,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.38994309306144714,
+        0,
+        0.006669387686997652,
+        0,
+        -2749.330322265625,
+        28638.4609375,
+        60.0046501159668,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 62,
+      "serializedByteRange": {
+        "start": 396922,
+        "end": 397092
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2749.330322265625,
+        28638.4609375,
+        60.0046501159668
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_standby_pos08",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.006669387686997652,
+        0,
+        -0.38994309306144714,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.38994309306144714,
+        0,
+        0.006669387686997652,
+        0,
+        -2746.57275390625,
+        28638.4609375,
+        -101.19210815429688,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 63,
+      "serializedByteRange": {
+        "start": 397092,
+        "end": 397262
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -2746.57275390625,
+        28638.4609375,
+        -101.19210815429688
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "standby",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_observer_pos09",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.32324767112731934,
+        0,
+        -0.2181994616985321,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.2181994616985321,
+        0,
+        0.32324767112731934,
+        0,
+        -1241.136474609375,
+        28638.4609375,
+        -2297.18798828125,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 64,
+      "serializedByteRange": {
+        "start": 397262,
+        "end": 397433
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -1241.136474609375,
+        28638.4609375,
+        -2297.18798828125
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "beta_observer_pos10",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.3562268912792206,
+        0,
+        -0.15875282883644104,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        0.15875282883644104,
+        0,
+        0.3562268912792206,
+        0,
+        -906.7239990234375,
+        28638.4609375,
+        -2476.10693359375,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 65,
+      "serializedByteRange": {
+        "start": 397433,
+        "end": 397604
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        -906.7239990234375,
+        28638.4609375,
+        -2476.10693359375
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_observer_pos05",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.3562273681163788,
+        0,
+        0.1587519645690918,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.1587519645690918,
+        0,
+        -0.3562273681163788,
+        0,
+        1278.635498046875,
+        28638.4609375,
+        2267.340087890625,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 66,
+      "serializedByteRange": {
+        "start": 397604,
+        "end": 397776
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        1278.635498046875,
+        28638.4609375,
+        2267.340087890625
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    },
+    {
+      "source": "model/background/standbyroom.scn",
+      "name": "alpha_observer_pos06",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.3562273681163788,
+        0,
+        0.1587519645690918,
+        0,
+        0,
+        0.38999995589256287,
+        0,
+        0,
+        -0.1587519645690918,
+        0,
+        -0.3562273681163788,
+        0,
+        885.9188842773438,
+        28638.4609375,
+        2442.552001953125,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        50,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          50,
+          50,
+          50
+        ]
+      ],
+      "sourceNodeIndex": 67,
+      "serializedByteRange": {
+        "start": 397776,
+        "end": 397948
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      },
+      "resolvedParentIndex": -1,
+      "rawSerializedTranslation": [
+        885.9188842773438,
+        28638.4609375,
+        2442.552001953125
+      ],
+      "positionQualification": "Exact matrix words 12..14, native units and axes; not a certified actor spawn or floor-safe world point.",
+      "nameRoleHint": "observer",
+      "nativeSpawnSelectorProven": false
+    }
+  ],
+  "limitations": [
+    "Box fields and matrices are retained, not interpreted as certified hitboxes, spawns or camera positions.",
+    "No coordinate invented, snapped to floor, mirrored or rescaled.",
+    "Standby/observer naming is an index hint, not native selector proof."
+  ]
+}

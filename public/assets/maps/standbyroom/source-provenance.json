@@ -1,0 +1,94 @@
+{
+  "schema": "standbyroom-published-source-provenance-v1",
+  "sourceArchiveAuthority": {
+    "path": "model/background/standbyroom.scn",
+    "archive": "5.xs",
+    "checksum": "345a7ea9",
+    "actualCrc32": "345a7ea9",
+    "plainLength": 524288,
+    "storedLength": 524315,
+    "dataOffset": 59821317,
+    "status": "verified",
+    "storedSha256": "d91a0069e47df713036861f78425131a2f02d4600d2fa59cb9e99c5788b6e02c",
+    "archivePlaintextSha256": "964de48ee1d00af9fc29f4d3886dcb9f21c578d915307ef62b9b6da56f09fe88",
+    "actualStoredLength": 524315,
+    "actualPlainLength": 524288,
+    "method": "known-header-crc32",
+    "cacheValidated": true
+  },
+  "parseAuthority": {
+    "source": "model/background/standbyroom.scn",
+    "archivePlaintextSha256": "964de48ee1d00af9fc29f4d3886dcb9f21c578d915307ef62b9b6da56f09fe88",
+    "decodedSha256": "9933ffd0ac8772d2ee85f04fec4fb76d10f294d3ebd22ba8f2818d3c2977b034",
+    "jsonSha256": "9722594710c1ebd2373d8e4c9ae0dac41d7ba33d849ed28923d0c6d60c5c6432",
+    "protected": true,
+    "bytes": 524288,
+    "strictParse": true,
+    "originalParserParity": true
+  },
+  "files": [
+    {
+      "file": "scene.json",
+      "bytes": 1718813,
+      "sha256": "9722594710c1ebd2373d8e4c9ae0dac41d7ba33d849ed28923d0c6d60c5c6432"
+    },
+    {
+      "file": "markers.json",
+      "bytes": 48106,
+      "sha256": "6d12e79ff10d51efb5df0d712324431bdf68acbe84e781a369ba9f093fe64f73"
+    },
+    {
+      "file": "collisions-all-categories.json",
+      "bytes": 430416,
+      "sha256": "184638e226d7b106aa3f2a70c9b91fb4a341c5dd1b053e96955fe979e1a72fd0"
+    },
+    {
+      "file": "textures/model/background/a_a_ch.dds",
+      "bytes": 174904,
+      "sha256": "91eca871cc5ab30791290663ca9052658e65c7b4930ab1ea102bcde477eec5f4"
+    },
+    {
+      "file": "textures/model/background/a_a_ch_03.dds",
+      "bytes": 174904,
+      "sha256": "1263d515f1bed592c812f9b9304f037812dac2ae696efb70d593178400d9b975"
+    },
+    {
+      "file": "textures/model/background/a_a_ch_04.dds",
+      "bytes": 174904,
+      "sha256": "b4d1faad081c31bd208235bf509c3e7cb64c2f8ab139ec8adb8714474e2083d9"
+    },
+    {
+      "file": "textures/model/background/chat_03_d100.dds",
+      "bytes": 43856,
+      "sha256": "f7a4e54fbb91b5679f3a83a58f2dbdd6ec688cf80e2e1065b8e12596e96344ca"
+    },
+    {
+      "file": "textures/model/background/city_ad04-1_tg.dds",
+      "bytes": 174904,
+      "sha256": "3a1df60fa26527c8a9d4e7dd3d265e95be0fb4b62daf3980278df1916df9225a"
+    },
+    {
+      "file": "textures/model/background/city_chat_tg.dds",
+      "bytes": 174928,
+      "sha256": "72c77f847c4cf689882155ad2ef8254180a0217a6624e44debfd5a8eb7a829e6"
+    },
+    {
+      "file": "textures/model/background/city_chatbox1_tg.dds",
+      "bytes": 349680,
+      "sha256": "a32ede6016b7455eb97cb39aceb08f1811476ed08cd10be944fd6f077605da0a"
+    },
+    {
+      "file": "textures/model/background/ds4_banner_d100.dds",
+      "bytes": 174904,
+      "sha256": "27b598ae45caae4a9fd48b95ff3414e4a8cd69d389b98453a62e0fbc60307939"
+    }
+  ],
+  "copyVerification": "Byte equality and SHA256 for every copy; archive plaintext CRC32 and lengths also rechecked for native SCN and DDS.",
+  "innerDecodedQualification": "SCN CC01 inner decode has its own SHA256; never presented as the original archive CRC.",
+  "limitations": [
+    "Contained by Alice225 source package, but this handoff has no inherited Alice gameplay mode, team policy, camera, lighting or spawn selector.",
+    "Source preparation writes only this handoff directory; any later publication or loader implementation is recorded separately. No native process is used.",
+    "This publication writes only public/assets/maps/standbyroom/. The separately authorized loader is src/standby-room-world.js; no main or controls integration is performed by this publisher.",
+    "This publication does not integrate a scene, choose a spawn or modify controls."
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "schema": "s5runtime-static-map-runtime-contract-v1",
+  "key": "MAPNAME_BIO_LAB",
+  "name": "Bio Lab",
+  "nativeMapId": 19,
+  "modes": [
+    "Deathmatch",
+    "Snowball Fight",
+    "Duel"
+  ],
+  "scenes": [
+    {
+      "sceneIndex": 0,
+      "source": "model/background/sky_season7.scn",
+      "modelCount": 1,
+      "nodeCount": 1,
+      "render": false
+    },
+    {
+      "sceneIndex": 1,
+      "source": "model/background/biolab.scn",
+      "modelCount": 98,
+      "nodeCount": 101,
+      "render": true
+    },
+    {
+      "sceneIndex": 2,
+      "source": "model/background/biolab_water.scn",
+      "modelCount": 2,
+      "nodeCount": 2,
+      "render": true
+    },
+    {
+      "sceneIndex": 3,
+      "source": "model/background/biolab_eff_dummy.scn",
+      "modelCount": 0,
+      "nodeCount": 13,
+      "render": false
+    },
+    {
+      "sceneIndex": 4,
+      "source": "model/background/biolab_oct.scn",
+      "modelCount": 32,
+      "nodeCount": 33,
+      "render": false
+    },
+    {
+      "sceneIndex": 5,
+      "source": "model/background/biolab_spawn.scn",
+      "modelCount": 0,
+      "nodeCount": 6,
+      "render": false
+    }
+  ],
+  "movementCandidates": [
+    {
+      "sceneIndex": 1,
+      "modelIndex": 32,
+      "nodeIndex": 33,
+      "name": "oct_Object11942",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 34,
+      "nodeIndex": 35,
+      "name": "oct_Object11943",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 36,
+      "nodeIndex": 37,
+      "name": "oct_Object11941",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 38,
+      "nodeIndex": 39,
+      "name": "oct_Object11921",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 40,
+      "nodeIndex": 42,
+      "name": "oct_Object11922",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 42,
+      "nodeIndex": 44,
+      "name": "oct_Object11928",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 44,
+      "nodeIndex": 46,
+      "name": "oct_Object11929",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 46,
+      "nodeIndex": 48,
+      "name": "oct_Object11923",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 48,
+      "nodeIndex": 50,
+      "name": "oct_Object11925",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 50,
+      "nodeIndex": 52,
+      "name": "oct_Object11924",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 52,
+      "nodeIndex": 54,
+      "name": "oct_Object11930",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 54,
+      "nodeIndex": 56,
+      "name": "oct_Object11920",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 56,
+      "nodeIndex": 58,
+      "name": "oct_Object11927",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 58,
+      "nodeIndex": 60,
+      "name": "oct_Object11931",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 60,
+      "nodeIndex": 62,
+      "name": "oct_Object11932",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 62,
+      "nodeIndex": 64,
+      "name": "oct_Object11926",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 64,
+      "nodeIndex": 66,
+      "name": "oct_Object11933",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 66,
+      "nodeIndex": 68,
+      "name": "oct_Object11919",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 68,
+      "nodeIndex": 70,
+      "name": "oct_Object11935",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 70,
+      "nodeIndex": 72,
+      "name": "oct_Object11934",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 72,
+      "nodeIndex": 74,
+      "name": "oct_Object11937",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 74,
+      "nodeIndex": 76,
+      "name": "oct_Object11936",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 76,
+      "nodeIndex": 78,
+      "name": "oct_Object11938",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 78,
+      "nodeIndex": 80,
+      "name": "oct_Object11917",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 80,
+      "nodeIndex": 82,
+      "name": "oct_Object11939",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 82,
+      "nodeIndex": 84,
+      "name": "oct_Object11940",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 84,
+      "nodeIndex": 86,
+      "name": "oct_Object11923",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 86,
+      "nodeIndex": 88,
+      "name": "oct_Object11944",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 88,
+      "nodeIndex": 91,
+      "name": "oct_Object11886",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 90,
+      "nodeIndex": 93,
+      "name": "oct_Plane01",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "nodeIndex": 1,
+      "name": "oct_land_ground",
+      "category": 1
+    }
+  ],
+  "weaponCandidates": [
+    {
+      "sceneIndex": 1,
+      "modelIndex": 32,
+      "nodeIndex": 33,
+      "name": "oct_Object11942",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 34,
+      "nodeIndex": 35,
+      "name": "oct_Object11943",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 36,
+      "nodeIndex": 37,
+      "name": "oct_Object11941",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 38,
+      "nodeIndex": 39,
+      "name": "oct_Object11921",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 40,
+      "nodeIndex": 42,
+      "name": "oct_Object11922",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 42,
+      "nodeIndex": 44,
+      "name": "oct_Object11928",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 44,
+      "nodeIndex": 46,
+      "name": "oct_Object11929",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 46,
+      "nodeIndex": 48,
+      "name": "oct_Object11923",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 48,
+      "nodeIndex": 50,
+      "name": "oct_Object11925",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 50,
+      "nodeIndex": 52,
+      "name": "oct_Object11924",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 52,
+      "nodeIndex": 54,
+      "name": "oct_Object11930",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 54,
+      "nodeIndex": 56,
+      "name": "oct_Object11920",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 56,
+      "nodeIndex": 58,
+      "name": "oct_Object11927",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 58,
+      "nodeIndex": 60,
+      "name": "oct_Object11931",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 60,
+      "nodeIndex": 62,
+      "name": "oct_Object11932",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 62,
+      "nodeIndex": 64,
+      "name": "oct_Object11926",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 64,
+      "nodeIndex": 66,
+      "name": "oct_Object11933",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 66,
+      "nodeIndex": 68,
+      "name": "oct_Object11919",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 68,
+      "nodeIndex": 70,
+      "name": "oct_Object11935",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 70,
+      "nodeIndex": 72,
+      "name": "oct_Object11934",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 72,
+      "nodeIndex": 74,
+      "name": "oct_Object11937",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 74,
+      "nodeIndex": 76,
+      "name": "oct_Object11936",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 76,
+      "nodeIndex": 78,
+      "name": "oct_Object11938",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 78,
+      "nodeIndex": 80,
+      "name": "oct_Object11917",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 80,
+      "nodeIndex": 82,
+      "name": "oct_Object11939",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 82,
+      "nodeIndex": 84,
+      "name": "oct_Object11940",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 84,
+      "nodeIndex": 86,
+      "name": "oct_Object11923",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 86,
+      "nodeIndex": 88,
+      "name": "oct_Object11944",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 88,
+      "nodeIndex": 91,
+      "name": "oct_Object11886",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 90,
+      "nodeIndex": 93,
+      "name": "oct_Plane01",
+      "category": 32768
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 1,
+      "nodeIndex": 2,
+      "name": "oct_weapon",
+      "category": 64
+    }
+  ],
+  "expectedRejected": [
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 1145
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 1528
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 1529
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 1539
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 1689
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 1976
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 1981
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 2441
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 2445
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 2489
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 4465
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 4466
+    },
+    {
+      "sceneIndex": 4,
+      "modelIndex": 0,
+      "triangleIndex": 5625
+    }
+  ],
+  "previewSpawn": {
+    "sceneIndex": 5,
+    "nodeIndex": 0,
+    "name": "beta_spawn_pos_01"
+  },
+  "sourceMapSha256": "74c3e4875f32df813dcdb799aa8a8c1a10d210c5b6a0fbcf9c66a885f2da09cc",
+  "sourcePackage": "work/s5runtime-map-native-adaptation/source-pipeline/packages/bio-lab/native-19",
+  "qualifications": {
+    "freeExplorationOnly": true,
+    "gameplayReady": false,
+    "nativeRuntimePlacementCertified": false,
+    "allSpawnMarkersRetained": true,
+    "noInventedSolids": true,
+    "alphaBetaDecorRequired": false,
+    "destructionIntactOnly": true,
+    "dotDamageImplemented": false,
+    "dynamicAnimationImplemented": false
+  },
+  "blockers": [
+    "DOT_STATIC poison timer/damage and effects not implemented in this factory",
+    "Destructible groups retain intact collisions; lifecycle/resource binding must be explicitly installed"
+  ],
+  "audit": "work/s5runtime-map-native-adaptation/next-maps-runtime-audit/bio-lab-19.json",
+  "distributionSourceSha256": "68c1e9553e590bef236c71b3fbac1a092807c884c49df6a41bc3fba05fc8a37d"
+}

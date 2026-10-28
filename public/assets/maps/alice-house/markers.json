@@ -1,0 +1,867 @@
+{
+  "schema": "alice-house-native-markers-v1",
+  "source": "model/background/alicehouse.scn",
+  "records": [
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "alpha_limited_area01",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        6.305614948272705,
+        0,
+        6.577269004992559e-07,
+        0,
+        0,
+        6.305614948272705,
+        0,
+        0,
+        -6.577269004992559e-07,
+        0,
+        6.305614948272705,
+        0,
+        691.4977416992188,
+        -3261.05224609375,
+        235.9578094482422,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        435.3468322753906,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          2618.18359375,
+          435.3468322753906,
+          3019.789306640625
+        ]
+      ],
+      "sourceNodeIndex": 0,
+      "serializedByteRange": {
+        "start": 101,
+        "end": 263
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "beta_limited_area02",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        6.305614948272705,
+        0,
+        6.577269004992559e-07,
+        0,
+        0,
+        6.305614948272705,
+        0,
+        0,
+        -6.577269004992559e-07,
+        0,
+        6.305614948272705,
+        0,
+        691.4977416992188,
+        -3265.947021484375,
+        861.022216796875,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        434.570556640625,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          2621.0927734375,
+          434.570556640625,
+          3055.47802734375
+        ]
+      ],
+      "sourceNodeIndex": 1,
+      "serializedByteRange": {
+        "start": 263,
+        "end": 424
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "beta_spawn_pos_01",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.12453395873308182,
+        0,
+        0.12453407049179077,
+        0,
+        0,
+        0.1761176884174347,
+        0,
+        0,
+        -0.12453407049179077,
+        0,
+        -0.12453395873308182,
+        0,
+        1937.524658203125,
+        1988.0157470703125,
+        597.0113525390625,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        150,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          150,
+          150,
+          150
+        ]
+      ],
+      "sourceNodeIndex": 2,
+      "serializedByteRange": {
+        "start": 424,
+        "end": 583
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "alpha_spawn_pos_01",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -7.698348625240214e-09,
+        0,
+        0.1761176884174347,
+        0,
+        0,
+        0.1761176884174347,
+        0,
+        0,
+        -0.1761176884174347,
+        0,
+        -7.698348625240214e-09,
+        0,
+        5444.3076171875,
+        1985.6788330078125,
+        -2957.919921875,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        150,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          150,
+          150,
+          150
+        ]
+      ],
+      "sourceNodeIndex": 3,
+      "serializedByteRange": {
+        "start": 583,
+        "end": 743
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "alpha_spawn_pos_02",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.10101691633462906,
+        0,
+        0.14426720142364502,
+        0,
+        0,
+        0.1761176884174347,
+        0,
+        0,
+        -0.14426720142364502,
+        0,
+        -0.10101691633462906,
+        0,
+        -880.6875,
+        1902.014404296875,
+        -2627.53076171875,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        150,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          150,
+          150,
+          150
+        ]
+      ],
+      "sourceNodeIndex": 4,
+      "serializedByteRange": {
+        "start": 743,
+        "end": 903
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "alpha_spawn_pos_03",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.12453404814004898,
+        0,
+        -0.12453398108482361,
+        0,
+        0,
+        0.1761176884174347,
+        0,
+        0,
+        0.12453398108482361,
+        0,
+        -0.12453404814004898,
+        0,
+        -3287.225341796875,
+        2747.310302734375,
+        516.849853515625,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        150,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          150,
+          150,
+          150
+        ]
+      ],
+      "sourceNodeIndex": 5,
+      "serializedByteRange": {
+        "start": 903,
+        "end": 1063
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "alpha_spawn_pos_04",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.10101696103811264,
+        0,
+        -0.14426717162132263,
+        0,
+        0,
+        0.1761176884174347,
+        0,
+        0,
+        0.14426717162132263,
+        0,
+        0.10101696103811264,
+        0,
+        -1909.803466796875,
+        1902.014404296875,
+        -4406.29248046875,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        150,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          150,
+          150,
+          150
+        ]
+      ],
+      "sourceNodeIndex": 6,
+      "serializedByteRange": {
+        "start": 1063,
+        "end": 1223
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "alpha_spawn_pos_05",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        0.14426715672016144,
+        0,
+        -0.10101696848869324,
+        0,
+        0,
+        0.1761176884174347,
+        0,
+        0,
+        0.10101696848869324,
+        0,
+        0.14426715672016144,
+        0,
+        3457.779541015625,
+        1939.768798828125,
+        -2471.653564453125,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        150,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          150,
+          150,
+          150
+        ]
+      ],
+      "sourceNodeIndex": 7,
+      "serializedByteRange": {
+        "start": 1223,
+        "end": 1383
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "alpha_spawn_pos_06",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        -0.124534010887146,
+        0,
+        -0.124534010887146,
+        0,
+        0,
+        0.1761176884174347,
+        0,
+        0,
+        0.124534010887146,
+        0,
+        -0.124534010887146,
+        0,
+        -2911.4609375,
+        1884.9124755859375,
+        3234.67138671875,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        150,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          150,
+          150,
+          150
+        ]
+      ],
+      "sourceNodeIndex": 9,
+      "serializedByteRange": {
+        "start": 14620,
+        "end": 14780
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "con_chaser_door_Dummy",
+      "parent": "alicehouse.scn",
+      "type": "Bone",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1304.4345703125,
+        1700,
+        -86.20018005371094,
+        1
+      ],
+      "sourceNodeIndex": 15,
+      "serializedByteRange": {
+        "start": 475448,
+        "end": 475646
+      },
+      "parentResolution": {
+        "serializedName": "alicehouse.scn",
+        "candidateIndices": [],
+        "status": "root"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "chaser_door_Dummy_03",
+      "parent": "con_chaser_door_Dummy",
+      "type": "Bone",
+      "matrix": [
+        -1.6292068494294654e-07,
+        -2.9802315282267955e-08,
+        -1,
+        0,
+        -5.0709224044484264e-15,
+        1,
+        -2.9802315282267955e-08,
+        0,
+        1,
+        2.1550881929467832e-16,
+        -1.6292068494294654e-07,
+        0,
+        1192.5654296875,
+        537.04296875,
+        2.1120452880859375,
+        1
+      ],
+      "sourceNodeIndex": 16,
+      "serializedByteRange": {
+        "start": 475646,
+        "end": 475850
+      },
+      "parentResolution": {
+        "serializedName": "con_chaser_door_Dummy",
+        "candidateIndices": [
+          15
+        ],
+        "status": "unique-name"
+      },
+      "parentIndex": 15
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "chaser_door_Dummy_04",
+      "parent": "con_chaser_door_Dummy",
+      "type": "Bone",
+      "matrix": [
+        1,
+        -2.9802313505911115e-08,
+        0,
+        0,
+        2.9802313505911115e-08,
+        1,
+        -6.7053176943786e-30,
+        0,
+        1.998339723774626e-37,
+        6.7053176943786e-30,
+        1,
+        0,
+        5.30859375,
+        537.04296875,
+        1192.2000732421875,
+        1
+      ],
+      "sourceNodeIndex": 17,
+      "serializedByteRange": {
+        "start": 475850,
+        "end": 476054
+      },
+      "parentResolution": {
+        "serializedName": "con_chaser_door_Dummy",
+        "candidateIndices": [
+          15
+        ],
+        "status": "unique-name"
+      },
+      "parentIndex": 15
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "chaser_door_Dummy_01",
+      "parent": "con_chaser_door_Dummy",
+      "type": "Bone",
+      "matrix": [
+        7.549790126404332e-08,
+        -1.240455276274588e-07,
+        1,
+        0,
+        9.365176582636862e-15,
+        1,
+        1.240455276274588e-07,
+        0,
+        -1,
+        0,
+        7.549790126404332e-08,
+        0,
+        -1192.6343994140625,
+        537.04296875,
+        -1.4570465087890625,
+        1
+      ],
+      "sourceNodeIndex": 18,
+      "serializedByteRange": {
+        "start": 476054,
+        "end": 476258
+      },
+      "parentResolution": {
+        "serializedName": "con_chaser_door_Dummy",
+        "candidateIndices": [
+          15
+        ],
+        "status": "unique-name"
+      },
+      "parentIndex": 15
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "chaser_door_Dummy_02",
+      "parent": "con_chaser_door_Dummy",
+      "type": "Bone",
+      "matrix": [
+        -1,
+        -2.9802313505911115e-08,
+        3.2584136988589307e-07,
+        0,
+        -2.9802313505911115e-08,
+        1,
+        9.710826164455871e-15,
+        0,
+        -3.2584136988589307e-07,
+        0,
+        -1,
+        0,
+        5.310302734375,
+        537.04296875,
+        -1173.7998046875,
+        1
+      ],
+      "sourceNodeIndex": 19,
+      "serializedByteRange": {
+        "start": 476258,
+        "end": 476462
+      },
+      "parentResolution": {
+        "serializedName": "con_chaser_door_Dummy",
+        "candidateIndices": [
+          15
+        ],
+        "status": "unique-name"
+      },
+      "parentIndex": 15
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "blast2_win",
+      "parent": "alicehouse.scn",
+      "type": "Bone",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1568.331787109375,
+        2027.830810546875,
+        -3990.508544921875,
+        1
+      ],
+      "sourceNodeIndex": 27,
+      "serializedByteRange": {
+        "start": 870862,
+        "end": 871049
+      },
+      "parentResolution": {
+        "serializedName": "alicehouse.scn",
+        "candidateIndices": [],
+        "status": "root"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "blast2_door",
+      "parent": "alicehouse.scn",
+      "type": "Bone",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -366.8154296875,
+        2383.4521484375,
+        -2454.812744140625,
+        1
+      ],
+      "sourceNodeIndex": 42,
+      "serializedByteRange": {
+        "start": 1012378,
+        "end": 1012566
+      },
+      "parentResolution": {
+        "serializedName": "alicehouse.scn",
+        "candidateIndices": [],
+        "status": "root"
+      }
+    },
+    {
+      "source": "model/background/alicehouse.scn",
+      "name": "blast2_box",
+      "parent": "alicehouse.scn",
+      "type": "Bone",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1194.664306640625,
+        2349.240234375,
+        -1574.2913818359375,
+        1
+      ],
+      "sourceNodeIndex": 75,
+      "serializedByteRange": {
+        "start": 2564151,
+        "end": 2564338
+      },
+      "parentResolution": {
+        "serializedName": "alicehouse.scn",
+        "candidateIndices": [],
+        "status": "root"
+      }
+    }
+  ],
+  "worldPositionsNotBaked": true
+}

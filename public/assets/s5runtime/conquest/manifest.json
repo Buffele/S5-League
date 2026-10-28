@@ -1,0 +1,358 @@
+{
+  "format": "s5-conquest-render-stage-v1",
+  "preparedAt": "2026-10-21T16:27:49.316Z",
+  "models": [
+    {
+      "source": "model/monster/pve_mon_bishop.scn",
+      "asset": "/assets/s5runtime/conquest/models/pve_mon_bishop.json",
+      "weighted": 0
+    },
+    {
+      "source": "model/monster/pve_mon_king.scn",
+      "asset": "/assets/s5runtime/conquest/models/pve_mon_king.json",
+      "weighted": 5
+    },
+    {
+      "source": "model/monster/pve_mon_knight.scn",
+      "asset": "/assets/s5runtime/conquest/models/pve_mon_knight.json",
+      "weighted": 13
+    },
+    {
+      "source": "model/monster/pve_mon_pawn.scn",
+      "asset": "/assets/s5runtime/conquest/models/pve_mon_pawn.json",
+      "weighted": 0
+    },
+    {
+      "source": "model/monster/pve_mon_queen.scn",
+      "asset": "/assets/s5runtime/conquest/models/pve_mon_queen.json",
+      "weighted": 5
+    },
+    {
+      "source": "model/monster/pve_mon_rook.scn",
+      "asset": "/assets/s5runtime/conquest/models/pve_mon_rook.json",
+      "weighted": 0
+    }
+  ],
+  "map": "/assets/s5runtime/conquest/maps/46.json",
+  "outputs": [
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/sky_nightsky01.png",
+      "relative": "textures/model/background/sky_nightsky01.png",
+      "bytes": 87727,
+      "sha256": "b26ca55ca38418f96f7f78027aba8237b18a35b19f7ac879e7a88ad3b187eacf",
+      "source": "model/background/sky_nightsky01.dds",
+      "sourceSha256": "17e44b0e42ebd5c4e1bc45e95032ffb36cbae732c19924918110109e86e76348",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/sky_nightsky02.png",
+      "relative": "textures/model/background/sky_nightsky02.png",
+      "bytes": 99047,
+      "sha256": "8dd963c38c84bab9c9d736ebf9ac71b6589c28d8b8845d7935477a2b64840bff",
+      "source": "model/background/sky_nightsky02.dds",
+      "sourceSha256": "3080765267c10be0ddfd77786f815376c336f80e1001fb94d9f40b471a7b5813",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/sky_nightsky03.png",
+      "relative": "textures/model/background/sky_nightsky03.png",
+      "bytes": 100579,
+      "sha256": "a1ada6973c4d41b9787a3e4ec2f91ed49e472445ba829aee27808559365ec8f5",
+      "source": "model/background/sky_nightsky03.dds",
+      "sourceSha256": "c22f1384d0039a989f4c2ad5dae29758a56113df01e181859f1ff289d90318e6",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/sky_nightsky04.png",
+      "relative": "textures/model/background/sky_nightsky04.png",
+      "bytes": 103438,
+      "sha256": "caa0afea287d2a43a73a2a74e048a4317014d7bff9795eaca65b7cb71218dc4d",
+      "source": "model/background/sky_nightsky04.dds",
+      "sourceSha256": "19a06aeaf5d931549e3acab2dcb5c5fd6b775b5fd57c916cc3f5f585d50592a8",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/sky_nightsky05.png",
+      "relative": "textures/model/background/sky_nightsky05.png",
+      "bytes": 279967,
+      "sha256": "c2a01c961c3540a8ccbb7c1cbec19e3beb7f0a100ef7d1e4a4cab026491dfa10",
+      "source": "model/background/sky_nightsky05.dds",
+      "sourceSha256": "63591a57fe5e976cd9ddc0a882aec92303176a3086b21ffd1f9f4d4a42c4abfa",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/sky_nightsky06.png",
+      "relative": "textures/model/background/sky_nightsky06.png",
+      "bytes": 105176,
+      "sha256": "0eae57dc563b6f767526ce73cec021fa1692384066b84495b3452cb8fc51e6be",
+      "source": "model/background/sky_nightsky06.dds",
+      "sourceSha256": "8cf642327b06212650f29deb0616d132608a421aa2c4dd99b2ec0af1168c79ae",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/wave_alpha.png",
+      "relative": "textures/model/background/wave_alpha.png",
+      "bytes": 94705,
+      "sha256": "515b567d91b039863b625effd6c52373cd93a8f173f28a157b923a1702a67497",
+      "source": "model/background/wave_alpha.dds",
+      "sourceSha256": "83ec3535a36ffdaa6491affb92a42181d45ee815deddf295bdfe0bf26b00a7b9",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/wave_cube.png",
+      "relative": "textures/model/background/wave_cube.png",
+      "bytes": 85517,
+      "sha256": "84f16e8e18243586344cdfbd41922ae18727454fa0f142e73e08eae5e6256dc3",
+      "source": "model/background/wave_cube.dds",
+      "sourceSha256": "e37b7752b17cac3b3980ca35ba2e0db8d3b6b79a785740528bb1281a3f2eb540",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/wave_d_block03lightingmap.png",
+      "relative": "textures/model/background/wave_d_block03lightingmap.png",
+      "bytes": 278700,
+      "sha256": "b988aa3a8cca5fd2bc24c57d45cc7381cd02f3392a909ada9f05d1ec95193bfa",
+      "source": "model/background/wave_d_block03lightingmap.dds",
+      "sourceSha256": "7952fc474b42e4f66c42e0c2193af48d46e7ea3bbd71ecc7faf43c981215b659",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/wave_d_ground01lightingmap.png",
+      "relative": "textures/model/background/wave_d_ground01lightingmap.png",
+      "bytes": 297688,
+      "sha256": "4cc76856c374904cb416fb9a77122247ce72264286e4b670f91ad1a6ae4ac102",
+      "source": "model/background/wave_d_ground01lightingmap.dds",
+      "sourceSha256": "5af95bc17d1274907314e0bae930ec8b2639a0b187fd00616af784dabd8fa117",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/wave_m_block01lightingmap.png",
+      "relative": "textures/model/background/wave_m_block01lightingmap.png",
+      "bytes": 91484,
+      "sha256": "a6969a5421c14f9f5160c2eac89e951bc3659e20c42f29b12887bfcaa2c59076",
+      "source": "model/background/wave_m_block01lightingmap.dds",
+      "sourceSha256": "a3ee179c84351f8715704022c603f635332e2ad373d4366bcfe2946b33bba644",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/wave_tile01.png",
+      "relative": "textures/model/background/wave_tile01.png",
+      "bytes": 84458,
+      "sha256": "6671263214febd25df5e98e69cc1e415a5731f55ba1ae4a1d1a6d0c2eb974407",
+      "source": "model/background/wave_tile01.dds",
+      "sourceSha256": "9768f8bed07fbb42c002fe7de909a2ee7992055512e6d23649fddec96554bbc0",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/wave_tile02.png",
+      "relative": "textures/model/background/wave_tile02.png",
+      "bytes": 154471,
+      "sha256": "513376118f88e16085d45593ef44ab7651898777ce9b53c308f8d28b2b0a9c0b",
+      "source": "model/background/wave_tile02.dds",
+      "sourceSha256": "9ddc5d851abeb1d36a5a9bc16c6c697fdf7c73b7ca4882dd9b23a0c2a38ea87c",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/wave_tile03.png",
+      "relative": "textures/model/background/wave_tile03.png",
+      "bytes": 34022,
+      "sha256": "4e864376513529ff522c0aafe718c7841788eb39884ad28e9a81ccafa6e20243",
+      "source": "model/background/wave_tile03.dds",
+      "sourceSha256": "5e13ab50db945ad938185d8339239dc6f4e9cc38a1d6c9703c0e4f94af95b582",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/background/wave_tile04.png",
+      "relative": "textures/model/background/wave_tile04.png",
+      "bytes": 172924,
+      "sha256": "35ea4b1f2c2c1a9dcbbfba0f03c0f6ac992a25480bc3503595d828782cb2ded8",
+      "source": "model/background/wave_tile04.dds",
+      "sourceSha256": "b980c78bf5b4d2b3af4fdc64a77f5c7115dd46c05bfb214a41eda1a0ee51a110",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/monster/pve_mon_pawn_etex.png",
+      "relative": "textures/model/monster/pve_mon_pawn_etex.png",
+      "bytes": 50969,
+      "sha256": "7ff6702b12d4c414f47fb7a6ee4499a027c833e1d92d6213e35b80146ee4718a",
+      "source": "model/monster/pve_mon_pawn_etex.dds",
+      "sourceSha256": "5eb87a30afa5433b66a55a665a33dc301563bf73ad6557af8eab7fa2a2cdb1b3",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/monster/pve_mon_pawn_n.png",
+      "relative": "textures/model/monster/pve_mon_pawn_n.png",
+      "bytes": 27434,
+      "sha256": "9d99b07b7ffaa1c310532d9f6f9af91b7c330b61911d59639f7986177c822021",
+      "source": "model/monster/pve_mon_pawn_n.dds",
+      "sourceSha256": "128c9c526aa2ec0fbd112adb787462d85cf14dd7c11b0288719b22ae8a81383a",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/monster/pve_monster_bishop_basic.png",
+      "relative": "textures/model/monster/pve_monster_bishop_basic.png",
+      "bytes": 138315,
+      "sha256": "dce6c0a9d7d3d3c57e427f6ba6c1b41184b6a3feac871b50dde880a0eceeb281",
+      "source": "model/monster/pve_monster_bishop_basic.dds",
+      "sourceSha256": "e3e2901b77053e02766e297547d61ab633a771bb8dab91a313e39c2e2a1da8cf",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/monster/pve_monster_king_etex.png",
+      "relative": "textures/model/monster/pve_monster_king_etex.png",
+      "bytes": 692481,
+      "sha256": "c076c2327ec164fe9daf01b6292d88ab6df0db12ad44963310ad077c1e304ecc",
+      "source": "model/monster/pve_monster_king_etex.dds",
+      "sourceSha256": "1a09400f20b66d694d4b3ae0e1f798847b2a974c8e7cc92aedc03aa86730f68c",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/monster/pve_monster_king_n.png",
+      "relative": "textures/model/monster/pve_monster_king_n.png",
+      "bytes": 272583,
+      "sha256": "871fbf467af11fe5ede61a369d942318605ab314f023fe54846c8a4f23f87847",
+      "source": "model/monster/pve_monster_king_n.dds",
+      "sourceSha256": "ede53eb8f1d4138330562278fd52fb7e27f000de84708493a8e50b1634f04183",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/monster/pve_monster_knight_and_rook.png",
+      "relative": "textures/model/monster/pve_monster_knight_and_rook.png",
+      "bytes": 187000,
+      "sha256": "8bea34b2f532c402ca193abba8748f45f0c0f9def7137cda92368e3330210cf8",
+      "source": "model/monster/pve_monster_knight_and_rook.dds",
+      "sourceSha256": "451c9f222532b316706f2b0038ad9a49b8d70f48498e7a7dd1d825aec56638f5",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/monster/pve_monster_knight_and_rook_n.png",
+      "relative": "textures/model/monster/pve_monster_knight_and_rook_n.png",
+      "bytes": 92534,
+      "sha256": "c1ba072ddb32e7407eb2df9934c428e9cd03253d6a72c937cb85171f41dceef6",
+      "source": "model/monster/pve_monster_knight_and_rook_n.dds",
+      "sourceSha256": "0f212ff0b8aef38d4c4ea3686bb1a9939e225c97d18ec3fd99f7e564537a3315",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/monster/pve_monster_queen.png",
+      "relative": "textures/model/monster/pve_monster_queen.png",
+      "bytes": 223364,
+      "sha256": "0a6e76ead38986d19b9eec17d77c71bc01345808b5e1a1b53b94b4df16a76f89",
+      "source": "model/monster/pve_monster_queen.dds",
+      "sourceSha256": "553d7022a83e9488491401989f397cb99e6e96042e7d48502cc672bb3bbb839b",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/textures/model/monster/pve_monster_queen_n.png",
+      "relative": "textures/model/monster/pve_monster_queen_n.png",
+      "bytes": 150862,
+      "sha256": "5e578a7fd01139a3f3678ff95fd540d45f4f7104094d480b2734a3f42b8962b1",
+      "source": "model/monster/pve_monster_queen_n.dds",
+      "sourceSha256": "9701b315ed99f2e96545eef47908b8d08bb8f072ed375bfeecee32e90db1eec0",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "/assets/s5runtime/conquest/models/pve_mon_bishop.json",
+      "relative": "models/pve_mon_bishop.json",
+      "bytes": 776172,
+      "sha256": "413caca50833566d9ff60db43a7ca53ab0beacec66923b5ba61a493171fe9b5a",
+      "source": "model/monster/pve_mon_bishop.scn"
+    },
+    {
+      "path": "/assets/s5runtime/conquest/models/pve_mon_king.json",
+      "relative": "models/pve_mon_king.json",
+      "bytes": 5134032,
+      "sha256": "6170a1db01cbd43100e4e694eaa331cfd2f68e2970459ca8f03d93fb4385f41f",
+      "source": "model/monster/pve_mon_king.scn"
+    },
+    {
+      "path": "/assets/s5runtime/conquest/models/pve_mon_knight.json",
+      "relative": "models/pve_mon_knight.json",
+      "bytes": 920146,
+      "sha256": "37569d2149ab9237677b0cdc632135bc085547dcf133e97d4a3ac5ef72187310",
+      "source": "model/monster/pve_mon_knight.scn"
+    },
+    {
+      "path": "/assets/s5runtime/conquest/models/pve_mon_pawn.json",
+      "relative": "models/pve_mon_pawn.json",
+      "bytes": 362068,
+      "sha256": "2300f2e242f2a43efc667ed93a88da9b42eed9fc09e31199ad774d33124211c4",
+      "source": "model/monster/pve_mon_pawn.scn"
+    },
+    {
+      "path": "/assets/s5runtime/conquest/models/pve_mon_queen.json",
+      "relative": "models/pve_mon_queen.json",
+      "bytes": 1581566,
+      "sha256": "f88566d15cb31ee86f60abe29c10548b7ae4dad59042b96afc8546a490133604",
+      "source": "model/monster/pve_mon_queen.scn"
+    },
+    {
+      "path": "/assets/s5runtime/conquest/models/pve_mon_rook.json",
+      "relative": "models/pve_mon_rook.json",
+      "bytes": 458974,
+      "sha256": "d4ed883c88ced10d61e94f6f5aed1b2b1d6fc2765f1b4d9541e9c38d0a5c39e8",
+      "source": "model/monster/pve_mon_rook.scn"
+    },
+    {
+      "path": "/assets/s5runtime/conquest/maps/46.json",
+      "relative": "maps/46.json",
+      "bytes": 1552924,
+      "sha256": "ce84b4245ef0e5e29329e4372f8ae68318e585d50adcbb31b3bf51641abded55",
+      "source": "mapinfo/bginfo-wave_middle.ini"
+    },
+    {
+      "path": "/assets/s5runtime/conquest/collision/46.json",
+      "relative": "collision/46.json",
+      "bytes": 838091,
+      "sha256": "3642ee6336059e213d60a8f7e5e299e7a97296d69180c96eb767e1972620bc9f",
+      "source": "mapinfo/bginfo-wave_middle.ini; complete STATIC source geometry"
+    }
+  ],
+  "published": true,
+  "browserObserved": false,
+  "nativeReady": false,
+  "unresolvedTextures": [
+    {
+      "model": "ground02_nodepthwrite_nocull_shadowsurface_alphablend2 115",
+      "field": "source",
+      "literal": "wave_alpha02.tga",
+      "source": "model/background/wave_d_01.scn"
+    },
+    {
+      "model": "oct_block_alpha",
+      "field": "source",
+      "literal": "wave_wall3.tga",
+      "source": "model/background/wave_d_oct.scn"
+    }
+  ],
+  "limits": [
+    "Source-directory/DDS suffix texture resolution has not been native-loader observed.",
+    "Six monster models prepared; weighted renderer and complete native AI remain required.",
+    "Two map texture references unresolved; no replacement pixels.",
+    "SEQ/AI/server stage blockers remain explicit."
+  ]
+}

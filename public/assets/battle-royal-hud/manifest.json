@@ -1,0 +1,54 @@
+{
+  "source": {
+    "path": "gui/new/respawn.dds",
+    "checksum": "242d47b7",
+    "plainLength": 349680,
+    "storedLength": 38105,
+    "dataOffset": 104405966,
+    "archive": "40.xs",
+    "key": "f9e2057bff02797e",
+    "method": "known-header-crc32",
+    "sha256": "439fc36dff2a527235ea7e2b5a3823a94746837237e1a9ddd2c7b71b1c068bf0",
+    "contentStatus": "archive-plaintext"
+  },
+  "layout": {
+    "source": "gui/new/maingame_ingame.xui",
+    "sha256": "13cec91e2a42057de0a2ad56e8ced877bb993e657757f7edcd98361cc5be4708",
+    "group": "GroupBox_brmode",
+    "node": "Image_br_mainboard",
+    "logicalRect": [
+      303,
+      -1,
+      710,
+      97
+    ],
+    "uv": [
+      0,
+      0.808594,
+      0.794922,
+      1
+    ]
+  },
+  "atlas": {
+    "width": 512,
+    "height": 512,
+    "rgbaSha256": "fff370431a3f603bd3e1b5a80a209cb60b911c380c40199e6e6b10122e8c46af"
+  },
+  "output": {
+    "file": "score-frame.png",
+    "crop": [
+      0,
+      414,
+      407,
+      512
+    ],
+    "width": 407,
+    "height": 98,
+    "sha256": "a95b3c330d5bec4a3903d40bf77615e082635c57e928d3da7557397c1be87755",
+    "rgbaSha256": "0e10aafb786af33cb0f63e9cc0a14d1d760e4c122704c32e4ebaa1c08ad6a182",
+    "exactTopLevelCrop": true
+  },
+  "nativeCapture": "work/native-battle-royal/native/hud-before-escape.png",
+  "s5VisualVerified": false,
+  "briefingValueBindingVerified": false
+}

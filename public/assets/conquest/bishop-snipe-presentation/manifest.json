@@ -1,0 +1,22 @@
+{
+  "source": "model/monster/pve_monster_bishop_basic_2.dds",
+  "archive": "68.xs",
+  "entry": {
+    "path": "model/monster/pve_monster_bishop_basic_2.dds",
+    "checksum": "b8a3e956",
+    "plainLength": 43832,
+    "storedLength": 32293,
+    "dataOffset": 66552788
+  },
+  "decodeMethod": "known-header-crc32",
+  "sourceBytes": 43832,
+  "sourceSha256": "8d4e4d07b8cdbcaab026cc6602884fb71acce16247fbbff3947a24db47d866ed",
+  "url": "/assets/conquest/bishop-snipe-presentation/pve_monster_bishop_basic_2.png",
+  "pngBytes": 50848,
+  "pngSha256": "e33b55fb0aab5d6ad9ff052c533aa336feadd752037318f1c5310b0bd6d2bea9",
+  "width": 256,
+  "height": 256,
+  "rgbaSha256": "7585b692c30e8caad93f4de1a4b7a25d5f9e9b14a14a5cf700cb001ebd844af1",
+  "rgbaRoundTripExact": true,
+  "scope": "Source XML1314 Scene.texture; base-color only; native GPU parity unqualified"
+}

@@ -1,0 +1,126 @@
+{
+  "chaser": {
+    "width": 512,
+    "rowHeight": 25,
+    "headerHeight": 30,
+    "source": "gui/new/score_board_ingame.xui",
+    "group": "GroupBox_scoreboard_bs",
+    "columns": [
+      {
+        "key": "name",
+        "label": "Name",
+        "left": 0,
+        "right": 175,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_username"
+      },
+      {
+        "key": "chaser",
+        "label": "Chaser",
+        "left": 175,
+        "right": 215,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_score"
+      },
+      {
+        "key": "score",
+        "label": "Points",
+        "left": 215,
+        "right": 295,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_kill"
+      },
+      {
+        "key": "state",
+        "label": "State",
+        "left": 295,
+        "right": 360,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_status"
+      },
+      {
+        "key": "damage",
+        "label": "Damage",
+        "left": 360,
+        "right": 430,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_damage"
+      },
+      {
+        "key": "ping",
+        "label": "Ping",
+        "left": 430,
+        "right": 510,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_ping"
+      }
+    ]
+  },
+  "br": {
+    "width": 512,
+    "rowHeight": 25,
+    "headerHeight": 30,
+    "source": "gui/new/score_board_ingame.xui",
+    "group": "GroupBox_scoreboard_br",
+    "columns": [
+      {
+        "key": "name",
+        "label": "Name",
+        "left": 0,
+        "right": 211,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_username"
+      },
+      {
+        "key": "score",
+        "label": "Points",
+        "left": 217,
+        "right": 297,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_kill"
+      },
+      {
+        "key": "state",
+        "label": "State",
+        "left": 338,
+        "right": 403,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_status"
+      },
+      {
+        "key": "ping",
+        "label": "Ping",
+        "left": 430,
+        "right": 510,
+        "sourceNode": "Label_scoreboard_bs_betateamlist_ping"
+      }
+    ]
+  },
+  "result": {
+    "width": 512,
+    "rowHeight": 25,
+    "headerHeight": 30,
+    "source": "gui/new/result.xui + gui/new/ingamelistbox.xui",
+    "columns": [
+      {
+        "key": "name",
+        "label": "Name",
+        "left": 30,
+        "right": 205,
+        "sourceNode": "Label_resultlist_username"
+      },
+      {
+        "key": "score",
+        "label": "Points",
+        "left": 205,
+        "right": 300,
+        "sourceNode": "Label_resultlist_score"
+      },
+      {
+        "key": "exp",
+        "label": "EXP",
+        "left": 300,
+        "right": 380,
+        "sourceNode": "Label_resultlist_exp"
+      },
+      {
+        "key": "pen",
+        "label": "PEN",
+        "left": 380,
+        "right": 460,
+        "sourceNode": "Label_resultlist_gamemoney"
+      }
+    ]
+  }
+}

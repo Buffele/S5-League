@@ -1,0 +1,67 @@
+{
+  "format": "s4-opponent-health-ui-assets-v1",
+  "layout": {
+    "file": "work/s5runtime-inventory-recovery/modes-ui/source/gui/new/maingame_ingame.xui",
+    "sha256": "13cec91e2a42057de0a2ad56e8ced877bb993e657757f7edcd98361cc5be4708",
+    "panel": "ENEMY_STATUS_GroupBox",
+    "lines": [
+      8374,
+      8451
+    ]
+  },
+  "outputs": [
+    {
+      "source": "gui/new/green.dds",
+      "file": "prepared/gui/new/green.png",
+      "url": "/assets/s5runtime/modes-ui/gui/new/green.png",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "5574d6b64375faa58e6d2f479a775fe77c66f389d8516cb889a16213d14b3155",
+      "provenance": {
+        "archive": "2.xs",
+        "checksum": "0f0e4ecd",
+        "plainLength": 384,
+        "sha256": "8c1610c690a5684e2ac3d994cccd4c39afca2c4baa28dcf10f702680ee5e4cbe"
+      }
+    },
+    {
+      "source": "gui/new/red.dds",
+      "file": "prepared/gui/new/red.png",
+      "url": "/assets/s5runtime/modes-ui/gui/new/red.png",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "dac2c781af2ac81b6cbd3e49f8b32edf939f12bec7c02421687ccf9888a0bdea",
+      "provenance": {
+        "archive": "72.xs",
+        "checksum": "c2adb49c",
+        "plainLength": 384,
+        "sha256": "2999db0ebd66019e06369eebc0d03225457be50d9bffa0e006ca7c3a2a8a7095"
+      }
+    },
+    {
+      "source": "gui/new/white.dds",
+      "file": "prepared/gui/new/white.png",
+      "url": "/assets/s5runtime/modes-ui/gui/new/white.png",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "2b699027cd6f3768998a284258c80177e55edc91803c5f9a2f6bb4756da7392b",
+      "provenance": {
+        "archive": "74.xs",
+        "checksum": "61eb0e00",
+        "plainLength": 1152,
+        "sha256": "f0701d20d6dfadbe130d3ad7b5867c92625ca0adf19036804ae60a3fc0db490f"
+      }
+    }
+  ],
+  "nativeReady": false,
+  "limits": [
+    "Legacy layout/skins authenticated; actual native targeting policy and animation timing not observed.",
+    "Runtime immediate HP fill, no invented delayed-damage white overlay."
+  ]
+}

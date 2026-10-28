@@ -1,0 +1,232 @@
+{
+  "format": "s4-team-mode-ui-effects-v1",
+  "scenes": [
+    {
+      "name": "touch_green",
+      "source": "uieffect/touch_green.scn",
+      "sourceSha256": "188f95a793642dec5cfd7de512348c35a4af4778d82fa498f9c5d4a2b2b936c6",
+      "sourceCrc32": "e6831a0e",
+      "sourceSize": 15832,
+      "output": "touch_green.json",
+      "outputSha256": "a24df4870b81873af9936d124b83398c86cee86ed8ccb54e3956d851a68fbead",
+      "outputSize": 47363,
+      "clip": "TOUCHDOWN_GREEN",
+      "duration": 2,
+      "models": 5,
+      "bindings": [
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/touch_back_green.tga",
+          "publishedTexture": "touch_back_green.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        },
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/touch_check_l.tga",
+          "publishedTexture": "touch_check_l.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        },
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/touch_check.tga",
+          "publishedTexture": "touch_check.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        },
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/_rc_touch_green.tga",
+          "publishedTexture": "_eu_touch_green.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        },
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/_rc_touch_goal_green.tga",
+          "publishedTexture": "_eu_touch_goal_green.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        }
+      ]
+    },
+    {
+      "name": "touch_red",
+      "source": "uieffect/touch_red.scn",
+      "sourceSha256": "dc2c873aae4a43b9a2aea2af01904ea3186f01eb5444f1af6566096d62d91fb5",
+      "sourceCrc32": "c2710b5e",
+      "sourceSize": 15790,
+      "output": "touch_red.json",
+      "outputSha256": "3fa6c9c8bdf94ee025d5ffdc8843f522a661069eba8b9127152d7298ce19aace",
+      "outputSize": 47239,
+      "clip": "TOUCHDOWN",
+      "duration": 2,
+      "models": 5,
+      "bindings": [
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/touch_back_red.tga",
+          "publishedTexture": "touch_back_red.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        },
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/touch_checr_l.tga",
+          "publishedTexture": "touch_checr_l.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        },
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/touch_checr.tga",
+          "publishedTexture": "touch_checr.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        },
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/_rc_touch_red.tga",
+          "publishedTexture": "_eu_touch_red.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        },
+        {
+          "sourceLiteral": "d:/zinteam/etc/bin/kor/resources/uieffect/_rc_touch_goal_red.tga",
+          "publishedTexture": "_eu_touch_goal_red.png",
+          "policy": "S5 explicit basename TGA→authenticated DDS; _rc→English _eu edition",
+          "nativeBindingVerified": false
+        }
+      ]
+    },
+    {
+      "name": "win",
+      "source": "uieffect/win.scn",
+      "sha256": "ab1fabb1d47ba3cfac729eda1bb8a8ac8d5e9b7f84bcce11d6d026f0395e38c8",
+      "clip": "COMBO",
+      "duration": 3,
+      "models": 2,
+      "sourceCrc32": "8ae19074",
+      "sourceSize": 6452,
+      "sourceSha256": "ab1fabb1d47ba3cfac729eda1bb8a8ac8d5e9b7f84bcce11d6d026f0395e38c8",
+      "output": "win.json",
+      "outputSha256": "6835d7800e63d73c5145025e4ca1ce0458ae942d424ffbb6a257ec747ee0ff06",
+      "outputSize": 20441,
+      "bindingsPolicy": "Existing published authenticated Chaser effect scene/texture URLs reused; S5 team-result association only"
+    },
+    {
+      "name": "lose",
+      "source": "uieffect/lose.scn",
+      "sha256": "044b9df1ade4e2ba8903271df559f6ae316ff3c687bfa59af7cacbacce5c81a3",
+      "decodedSha256": "ec1a177803a38b5d5db2da949bcba1ae8dc1f55ba866e72eac403ade8865bd07",
+      "keySha256": "08349b992648e8d208cb3e5e9c56b917adc985bb9144bce4fafea71e134a580a",
+      "utilityModuleSha256": "9a279b2d63c5905a1ddc33304d02563872997b8d662bf969cdbe3286ebd592d1",
+      "clip": "WIN",
+      "duration": 3,
+      "models": 2,
+      "sourceCrc32": "ef8af869",
+      "sourceSize": 6451,
+      "sourceSha256": "044b9df1ade4e2ba8903271df559f6ae316ff3c687bfa59af7cacbacce5c81a3",
+      "output": "lose.json",
+      "outputSha256": "a2fea3bf5d4b7d7b0b2a3a8a4feb10ee1dcca4995c84d9367a9594539c930f4a",
+      "outputSize": 20440,
+      "bindingsPolicy": "Existing published authenticated Chaser effect scene/texture URLs reused; S5 team-result association only"
+    }
+  ],
+  "textures": [
+    {
+      "source": "uieffect/_eu_touch_green.dds",
+      "sourceSha256": "d1f7fb2b5c96999b93ce95258029ba8b79b51f44aed82300e59a6d655dd55a30",
+      "sourceCrc32": "a9e6dbda",
+      "sourceSize": 2553144,
+      "output": "_eu_touch_green.png",
+      "outputSha256": "884a25de13c525b380f9fec2eeeb3a512ace3c4750306beab267456a450cea00",
+      "outputSize": 307759
+    },
+    {
+      "source": "uieffect/_eu_touch_red.dds",
+      "sourceSha256": "232ec69f25fef29dbb172fa2558e59f797286b98274a9eb939615ee9898dd318",
+      "sourceCrc32": "d119262a",
+      "sourceSize": 2553144,
+      "output": "_eu_touch_red.png",
+      "outputSha256": "b7e30ccb33ad5541b871c7b012d258245a3518d240b58957bce0370a554f0c14",
+      "outputSize": 328625
+    },
+    {
+      "source": "uieffect/_eu_touch_goal_green.dds",
+      "sourceSha256": "d0560d3fe603e340797b65941e7e2dc1810a07dc232a2516ca77558b12b3b1f1",
+      "sourceCrc32": "57b65502",
+      "sourceSize": 393336,
+      "output": "_eu_touch_goal_green.png",
+      "outputSha256": "97cffbd7b0eaee911c4c6cf5ec90eb6971a817a74e9631a4dc0cdbdacbdd8977",
+      "outputSize": 84793
+    },
+    {
+      "source": "uieffect/_eu_touch_goal_red.dds",
+      "sourceSha256": "160bccf4e14ca89937e57141ce44f986cbaac67fa447aed8a91b7b90bc03e689",
+      "sourceCrc32": "99636102",
+      "sourceSize": 393336,
+      "output": "_eu_touch_goal_red.png",
+      "outputSha256": "0a4a15d2a582012ed1cc4783aadb502d0266b20249cf63252a5f35f2afad0879",
+      "outputSize": 87763
+    },
+    {
+      "source": "uieffect/touch_back_red.dds",
+      "sourceSha256": "81b66549b71837913507016c432ee169cbffa62aa1dc6a8d77ceb40ad8977d48",
+      "sourceCrc32": "af8d62af",
+      "sourceSize": 87516,
+      "output": "touch_back_red.png",
+      "outputSha256": "a051c86ac4d33ccfa28472838cf48bbd217409c5cfc424b03c31b114fb54c09b",
+      "outputSize": 2049
+    },
+    {
+      "source": "uieffect/touch_back_green.dds",
+      "sourceSha256": "5f659c34780187d766129b84345d74a6f846cb15c3cf0a6e5fd0c41893048118",
+      "sourceCrc32": "eeaa1ee0",
+      "sourceSize": 87516,
+      "output": "touch_back_green.png",
+      "outputSha256": "86476b233cc9bb3808363a684e58c20a91203fde9174e2775e24afeeece03e1d",
+      "outputSize": 2004
+    },
+    {
+      "source": "uieffect/touch_checr_l.dds",
+      "sourceSha256": "4140a9192797e237a466fc9d8a0956ec037864bf9dd09d19755b2516016c153f",
+      "sourceCrc32": "f7f88997",
+      "sourceSize": 2764588,
+      "output": "touch_checr_l.png",
+      "outputSha256": "8304099d6e3f58f352a8150c6c9f28a62a7aac6e1c13d99a9b3a77102e17606f",
+      "outputSize": 14769
+    },
+    {
+      "source": "uieffect/touch_checr.dds",
+      "sourceSha256": "57f23a0308a1179a32882d3e6d8dc53115c4c2f603b5c81b3873512507022469",
+      "sourceCrc32": "2ccaad58",
+      "sourceSize": 2764588,
+      "output": "touch_checr.png",
+      "outputSha256": "daa7293866ce76c37cdf3d202690b53b61ccad7d2a3c408cd28db9455ee80412",
+      "outputSize": 14782
+    },
+    {
+      "source": "uieffect/touch_check_l.dds",
+      "sourceSha256": "6c77480c27e20c4840466fa8eb62ad2a606c9c366112c5fab2c6a1e2d9bc81d4",
+      "sourceCrc32": "9dd55832",
+      "sourceSize": 2764588,
+      "output": "touch_check_l.png",
+      "outputSha256": "0dcc99422187f22ea40aade6f4c66e5543b0e5c8f62fd491ba8363d842bc8210",
+      "outputSize": 14771
+    },
+    {
+      "source": "uieffect/touch_check.dds",
+      "sourceSha256": "b552d6d144e532c2face0b738d490b7185a6edf2fc30268c3433a629021f5656",
+      "sourceCrc32": "46e77cfd",
+      "sourceSize": 2764588,
+      "output": "touch_check.png",
+      "outputSha256": "f6ddaa17b1f083f8641186d45ea83a36640ebf76519d11bca2e1c7e26c2cfb82",
+      "outputSize": 14780
+    }
+  ],
+  "policy": {
+    "eventBinding": "S5 goal: scorer team==local team→green, otherwise red; result winner==local team→win, otherwise lose; draw no inferred scene",
+    "nativeBindingVerified": false,
+    "nativeSequenceCompositionVerified": false,
+    "nativeCompared": false
+  },
+  "blocked": [
+    "touch_goal.seq, inter_time_over.seq unresolved CRC header",
+    "inter_time_over.scn requires _rc_interface_effect.tga; _eu_interface_effect.dds decode unresolved",
+    "inter_match_over.seq effects/→uieffect/ alias unverified; inter_match_over.scn requires result_bs_01.tga/result_02.tga/result_03.tga",
+    "Death and halftime scene identity/trigger not established; textual S5 notices retained"
+  ]
+}

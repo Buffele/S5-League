@@ -1,0 +1,68 @@
+{
+  "assets": [
+    {
+      "mode": "captain",
+      "file": "captain.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f7fcc5bdc28fbff7d0a553c2db333e65a450a537ed82183ddbacc1a9dbf78571",
+      "sourceSha256": "6811df8b01ef4c5f069d4c814d378034880ee63e1971c6fe6aaec7b8b708d929",
+      "decodedPixelsEqual": true
+    },
+    {
+      "mode": "chaser",
+      "file": "chaser.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "737bdba722f851dceac01c34d491f8e6f7d3ef604349e01045a0983c9d3b8d28",
+      "sourceSha256": "10630bb4d998d8061493450efcf090e9e18d065b60a22dc792eb9abd53f9364a",
+      "decodedPixelsEqual": true
+    },
+    {
+      "mode": "battleroyal",
+      "file": "battleroyal.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "778f77c16525ea778fed1f0dbb33bea34e1edf2ca9a5937ede7eb67504d91cc1",
+      "sourceSha256": "7c0c85b23ad9801098e7003e4203e8f87b77426e2eac522000d9a1075c8bcc2a",
+      "decodedPixelsEqual": true
+    },
+    {
+      "mode": "siege",
+      "file": "siege.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "73a32c4fb41cb3286a772a93beb59b3cb80ce1c9b33633d6aef6a0cf457c4526",
+      "sourceSha256": "47e6886e1203d723ed6f223a9237c2ef60be185914894a8f3b44be56a26d74fb",
+      "decodedPixelsEqual": true
+    },
+    {
+      "mode": "touchdown",
+      "file": "touchdown.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "eb5e2c1f22cce0c650d34f69521c3893f2b501a7c1cdcd2edb552d66d7692d3f",
+      "sourceSha256": "109d14c2da7aaac702296230c6c04c6a5ed1e16c6ea287f17eef7e834d6402b4",
+      "decodedPixelsEqual": true
+    },
+    {
+      "mode": "practice",
+      "file": "practice.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5c450d8378bf8c28feb3d82ad4303a1ccc4878bf89ef1376f64de1329f2f3f98",
+      "sourceSha256": "0d919997aa8efb09c0185e3355269bfab12b3181708be4de3575d251643d4e83",
+      "decodedPixelsEqual": true
+    },
+    {
+      "mode": "deathmatch",
+      "file": "deathmatch.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5a4efb174c891fdc6d1b1242bdcb3e10a47621908980c942b60702c2920b5a4a",
+      "sourceSha256": "e0f8dcad48dbb332967a25e3ff1022acebb6c3f8640cab57a02fae53d48ec8b9",
+      "decodedPixelsEqual": true
+    }
+  ],
+  "fullNativeLayoutVerified": false
+}

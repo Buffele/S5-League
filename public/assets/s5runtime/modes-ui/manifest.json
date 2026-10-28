@@ -1,0 +1,903 @@
+{
+  "format": "native-mode-ui-public-assets-v1",
+  "sources": {
+    "gui/new/ingame_score_number_green_3.dds": {
+      "path": "gui/new/ingame_score_number_green_3.dds",
+      "archive": "2.xs",
+      "checksum": "89a2aba3",
+      "plainLength": 24696,
+      "sha256": "be1e4fc89ee09ef8fb99e98fc4c369f1848ff2597a8a66b2aab0871b56547863"
+    },
+    "gui/new/ingame_score_number_green_4.dds": {
+      "path": "gui/new/ingame_score_number_green_4.dds",
+      "archive": "2.xs",
+      "checksum": "c3c2efb2",
+      "plainLength": 24696,
+      "sha256": "feb96f86781278536c01e8175a0ad20f82dbad2f522e5f3bb00da3395789d5b0"
+    },
+    "gui/new/icon_club_pmang.dds": {
+      "path": "gui/new/icon_club_pmang.dds",
+      "archive": "2.xs",
+      "checksum": "dbd0c684",
+      "plainLength": 5616,
+      "sha256": "fcb4b1fd216949806bf06a354f0eee76134dea841941c5a00847bf5d89b6096b"
+    },
+    "gui/new/bs_long_2.dds": {
+      "path": "gui/new/bs_long_2.dds",
+      "archive": "2.xs",
+      "checksum": "09ae4214",
+      "plainLength": 16512,
+      "sha256": "dd48801b1e2f9f066c8d616209aa2854dfe387d06e658d16fb327474c903b9f9"
+    },
+    "gui/new/siege_ui_dummy.dds": {
+      "path": "gui/new/siege_ui_dummy.dds",
+      "archive": "3.xs",
+      "checksum": "6f26ef9c",
+      "plainLength": 699216,
+      "sha256": "8c9904b88b0f0d3df3ef0a82c9b1ae569f0151ce70075909a978e5e560c0cd0e"
+    },
+    "xui2/fonts/netsphimere-static.otf": {
+      "path": "xui2/fonts/netsphimere-static.otf",
+      "archive": "24.xs",
+      "checksum": "ea997c88",
+      "plainLength": 284460,
+      "sha256": "d8dcbb6e9e5e786cf7f68f13598efaa8047d6fe5eb7f7be24c6ae840b3eef205"
+    },
+    "xui2/fonts/netsphimere-semiboldcondenseditalic.otf": {
+      "path": "xui2/fonts/netsphimere-semiboldcondenseditalic.otf",
+      "archive": "24.xs",
+      "checksum": "d8d46b62",
+      "plainLength": 283868,
+      "sha256": "054bc1ce865a0ff8c5e59cc02cc854e074ee1dbb4d8cdc292e2866a73e47a2bf"
+    },
+    "xui2/fonts/netsphimere.otf": {
+      "path": "xui2/fonts/netsphimere.otf",
+      "archive": "24.xs",
+      "checksum": "28630fea",
+      "plainLength": 253576,
+      "sha256": "6bd14367937a59907856d682a3f6852d76e8829a8f55a4b7c3128b7e729438fc"
+    },
+    "gui/new/back.dds": {
+      "path": "gui/new/back.dds",
+      "archive": "28.xs",
+      "checksum": "dadde416",
+      "plainLength": 4224,
+      "sha256": "bb8cc57ba0f96e88a17a62d88f1db741215cf04d6df47953a2fc15cca0515fb4"
+    },
+    "gui/new/score_red_bar.dds": {
+      "path": "gui/new/score_red_bar.dds",
+      "archive": "28.xs",
+      "checksum": "30d333c6",
+      "plainLength": 171652,
+      "sha256": "0373f2141b309bd465067949e925473d458c821272345a6144aa7e938695cb85"
+    },
+    "gui/new/ingame_score_number_green_1.dds": {
+      "path": "gui/new/ingame_score_number_green_1.dds",
+      "archive": "28.xs",
+      "checksum": "bc278bb3",
+      "plainLength": 24696,
+      "sha256": "ee3f57d9b29514e333b29b7c7df70e740d9decffb8cc814b435e914cd96e7f86"
+    },
+    "gui/new/score_green_bar.dds": {
+      "path": "gui/new/score_green_bar.dds",
+      "archive": "40.xs",
+      "checksum": "b47b1c85",
+      "plainLength": 171652,
+      "sha256": "7b43614caad31d66d1faa196de16484f32f3598f4369fac09da9404a4c1593fd"
+    },
+    "gui/new/black.dds": {
+      "path": "gui/new/black.dds",
+      "archive": "40.xs",
+      "checksum": "5cd62b0d",
+      "plainLength": 4224,
+      "sha256": "5db9e8642be11aee73b6f8c6f3d724aac2e86e189aa885c705528e59d8378d0d"
+    },
+    "gui/new/ingame_score_number_green_2.dds": {
+      "path": "gui/new/ingame_score_number_green_2.dds",
+      "archive": "40.xs",
+      "checksum": "e0d55160",
+      "plainLength": 24696,
+      "sha256": "546fef8ffab3b9abcfaf808be26c37730f06c37f0bec1125f823144b568291f5"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_blue.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_blue.dds",
+      "archive": "51.xs",
+      "checksum": "69a93d0c",
+      "plainLength": 96448,
+      "sha256": "640fc24f6d9ec0d5753fd4ffaa55115dc9a801184f9f2589fa368a6998181bcb"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_forward.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_forward.dds",
+      "archive": "51.xs",
+      "checksum": "7b7a767e",
+      "plainLength": 2208,
+      "sha256": "046883d2d59462667ff82c7a0f3903d363705327e4463ee03cd1e19be187c8b0"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_spectators.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_spectators.dds",
+      "archive": "51.xs",
+      "checksum": "6f8266f8",
+      "plainLength": 5312,
+      "sha256": "875795e9fae0c1dfafc8b0a5ea9059b71c77d5ffbf80fb714c824ff5fc555884"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_left.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_left.dds",
+      "archive": "51.xs",
+      "checksum": "11f05bea",
+      "plainLength": 14528,
+      "sha256": "c6741c8c582e5efacce1439ece4638f0f5d4e63bbd4385c442909337960afafe"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_panel_left.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_panel_left.dds",
+      "archive": "51.xs",
+      "checksum": "87056de8",
+      "plainLength": 15504,
+      "sha256": "6c89d71e024177bf030871523e5621c1c6e2a623abfcce8e419911731c16c7a1"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_panel_mid.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_panel_mid.dds",
+      "archive": "51.xs",
+      "checksum": "8035edaf",
+      "plainLength": 15504,
+      "sha256": "3c18cb5fae27dd1e9fe6aafadac6ac54d9e82789c932773cb803e7ddb13a18d6"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_right.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_right.dds",
+      "archive": "51.xs",
+      "checksum": "c507f857",
+      "plainLength": 14528,
+      "sha256": "2125841ddb437762d2a91da507f510e502231eef9912e7b829e28628324fad4b"
+    },
+    "xui2/fonts/acephimere-bold.otf": {
+      "path": "xui2/fonts/acephimere-bold.otf",
+      "archive": "51.xs",
+      "checksum": "9989df45",
+      "plainLength": 135468,
+      "sha256": "5ccaf6cbb608ec66132e6a025ce36b7839452e91f504e1d44c9656dd348ce641"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_red.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_red.dds",
+      "archive": "51.xs",
+      "checksum": "61872cf4",
+      "plainLength": 96448,
+      "sha256": "1f37e77ced3d385fa6ac402b8cab470f69ade5ca4734b4cbf5332e7800959657"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_line_red_mid.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_line_red_mid.dds",
+      "archive": "51.xs",
+      "checksum": "340c7d47",
+      "plainLength": 14528,
+      "sha256": "cf25916cf3f82864fa1030bb56768d6dc05f46a97c6cde51d9740786dbe1b00d"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_line_red_right.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_line_red_right.dds",
+      "archive": "51.xs",
+      "checksum": "302b34ca",
+      "plainLength": 14528,
+      "sha256": "06fc0c263758657dff33b2a2803b7dd90a0d7a9baf46edcb4f9dd0b7bcacd145"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/captainmark.png": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/captainmark.png",
+      "archive": "51.xs",
+      "checksum": "fe6adba9",
+      "plainLength": 5395,
+      "sha256": "e79be8562ec372bc5a7d6674ffffd78c28e210c78721c021b465ade4fdffdef6"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_panel_left.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_panel_left.dds",
+      "archive": "51.xs",
+      "checksum": "839d2830",
+      "plainLength": 15504,
+      "sha256": "d23c56ccf831826bd94320f98fa30ada2d26aba4c108db0751caea7377986c0c"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_right.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_right.dds",
+      "archive": "51.xs",
+      "checksum": "282fa9ca",
+      "plainLength": 14528,
+      "sha256": "50e82cfa2af9bdb7428e3a6e3748c4c26894f2ca9afe4f339522ef787f84e2b2"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_line_red_left.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_line_red_left.dds",
+      "archive": "51.xs",
+      "checksum": "965d062c",
+      "plainLength": 14528,
+      "sha256": "23d311c826bd401ddea25b7181644177ecc4694804df97972f11eb8f57d00856"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/backdrop_blue.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/backdrop_blue.dds",
+      "archive": "51.xs",
+      "checksum": "547fa97b",
+      "plainLength": 426528,
+      "sha256": "4475e6e5e67a839e3fe142b618bac4a57fd1ba4572d1df5531bf0677294916d0"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_blue.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_blue.dds",
+      "archive": "51.xs",
+      "checksum": "6e2db27d",
+      "plainLength": 96448,
+      "sha256": "c21d15fd90f2c86fd76510ca17fad3a277e93e446b1147165c085a5a2dbb0677"
+    },
+    "gui/new/score_gray_bar.dds": {
+      "path": "gui/new/score_gray_bar.dds",
+      "archive": "53.xs",
+      "checksum": "841cb58a",
+      "plainLength": 171652,
+      "sha256": "ee50abd0832a52672b293dbd9b82782b5a6b430e07be99f86f272462b99bebe6"
+    },
+    "gui/new/bs_short_1.dds": {
+      "path": "gui/new/bs_short_1.dds",
+      "archive": "53.xs",
+      "checksum": "625bbf7e",
+      "plainLength": 16512,
+      "sha256": "437b9e9d26361868fee783ba9970919dfb089f651a12b0b55b8ee126d2b9f115"
+    },
+    "gui/new/ingame1.dds": {
+      "path": "gui/new/ingame1.dds",
+      "archive": "53.xs",
+      "checksum": "e8068ab2",
+      "plainLength": 5529528,
+      "sha256": "3e05090625c55b364fc7e58d2a074bcdeec5b70d60dc83ad48a5b82b65eff091"
+    },
+    "gui/new/ingame4.dds": {
+      "path": "gui/new/ingame4.dds",
+      "archive": "53.xs",
+      "checksum": "077026e2",
+      "plainLength": 1382328,
+      "sha256": "a9b36b40d8f466b540a53a72ae0f70a690f35caba8462a37e20a7717e7be97fa"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_mid.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_mid.dds",
+      "archive": "61.xs",
+      "checksum": "f4db1d5b",
+      "plainLength": 14528,
+      "sha256": "e5bbef8c0a698bc6176597c7b41403526d0b8a50a6951e8302b9beb3bb81cf6f"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_goals.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_goals.dds",
+      "archive": "61.xs",
+      "checksum": "a8a3f467",
+      "plainLength": 5312,
+      "sha256": "f96e3acdd50383a9aca5f70016e870f5d34d0ac4461e9dc2a9d358402c110d55"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_mid.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_mid.dds",
+      "archive": "61.xs",
+      "checksum": "f4db1d5b",
+      "plainLength": 14528,
+      "sha256": "e5bbef8c0a698bc6176597c7b41403526d0b8a50a6951e8302b9beb3bb81cf6f"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/backdrop_red.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/backdrop_red.dds",
+      "archive": "61.xs",
+      "checksum": "3273e2a9",
+      "plainLength": 426528,
+      "sha256": "91acd6e2faa07fb354f7a285ddc529d38f3e26c936047a70ab0bd8ecb668d286"
+    },
+    "gui/new/arcade_hpgauge.dds": {
+      "path": "gui/new/arcade_hpgauge.dds",
+      "archive": "62.xs",
+      "checksum": "a8b3a639",
+      "plainLength": 1048704,
+      "sha256": "fc77538995e9c247227e218c1dec8ae8a45991d67a7b1f3845fa250b63a68ab7"
+    },
+    "gui/new/scoreboard_back.dds": {
+      "path": "gui/new/scoreboard_back.dds",
+      "archive": "62.xs",
+      "checksum": "5d57f3c0",
+      "plainLength": 262272,
+      "sha256": "425625543e4b32410716f6e90b97fcd7d798966cb9e124fee2d2b4a1b00e0c35"
+    },
+    "xui2/sprites/ingame/hud/scoreboard_bg_alphablue.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard_bg_alphablue.dds",
+      "archive": "67.xs",
+      "checksum": "2b2b2733",
+      "plainLength": 569424,
+      "sha256": "6fae653315037469d409a9872b9bf899c2c60cc77f92acc6ccfa4332359aac61"
+    },
+    "xui2/sprites/ingame/hud/scoreboard_timebar.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard_timebar.dds",
+      "archive": "67.xs",
+      "checksum": "71193532",
+      "plainLength": 4480,
+      "sha256": "24e40cd869f0b27d5b52723a61e46f7748cc1da6b67cc2dc7b5b8bf31866f0b5"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_red.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_red.dds",
+      "archive": "71.xs",
+      "checksum": "83c2f528",
+      "plainLength": 96448,
+      "sha256": "9ecc94838ab8617ed7fd1236c0903554f422dc17cb35d17eab95fe1d3cf2f9cc"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_panel_right.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_panel_right.dds",
+      "archive": "71.xs",
+      "checksum": "d232870d",
+      "plainLength": 15504,
+      "sha256": "407e922a6e141b85044a5c61351370cf87845af33b8f7891efc939356e9d48a5"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_left.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_left.dds",
+      "archive": "71.xs",
+      "checksum": "d93a8945",
+      "plainLength": 14528,
+      "sha256": "39537784239c8c5cb663db8fd308cfe29b6538151d853536d92424534a64f4fa"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_panel_right.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_panel_right.dds",
+      "archive": "74.xs",
+      "checksum": "5bf52a2b",
+      "plainLength": 15504,
+      "sha256": "0e2521f3f3248dd5a841413c0e8da8e701524f1f3cadccb7b159383efaeeb3e0"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/ping_local.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/ping_local.dds",
+      "archive": "74.xs",
+      "checksum": "de10d125",
+      "plainLength": 5480,
+      "sha256": "94062b727c2a828fbec5b179e38c3e9192325a458dbb29cb4f6f1d2737df7822"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_right.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_right.dds",
+      "archive": "74.xs",
+      "checksum": "58d23c7f",
+      "plainLength": 14528,
+      "sha256": "154c11b083dbbd49e5bd150289a2e0a748909d8f7d755cf9a72600051213c767"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_timeleft.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_timeleft.dds",
+      "archive": "74.xs",
+      "checksum": "4771fbc7",
+      "plainLength": 5312,
+      "sha256": "188a9b3206e83d6fb4b9adcdba4c86acc91278f5a1e43d480796edd8360c202b"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_mid.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_mid.dds",
+      "archive": "76.xs",
+      "checksum": "340c7d47",
+      "plainLength": 14528,
+      "sha256": "cf25916cf3f82864fa1030bb56768d6dc05f46a97c6cde51d9740786dbe1b00d"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_left.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_left.dds",
+      "archive": "77.xs",
+      "checksum": "851d1d96",
+      "plainLength": 14528,
+      "sha256": "f2e3dbabe07998495485fffdc6fc2665a2941fb303caa2dbd6c601db85822708"
+    },
+    "xui2/sprites/ingame/hud/scoreboard/beta_panel_mid.dds": {
+      "path": "xui2/sprites/ingame/hud/scoreboard/beta_panel_mid.dds",
+      "archive": "79.xs",
+      "checksum": "8035edaf",
+      "plainLength": 15504,
+      "sha256": "3c18cb5fae27dd1e9fe6aafadac6ac54d9e82789c932773cb803e7ddb13a18d6"
+    }
+  },
+  "outputs": [
+    {
+      "source": "gui/new/ingame_score_number_green_3.dds",
+      "file": "gui/new/ingame_score_number_green_3.png",
+      "size": [
+        96,
+        48
+      ],
+      "sha256": "1f2a8cc7dd8a06698c4e8c21842ee07944677c1167131ba1ff2627a0ec59dfd3",
+      "url": "/assets/s5runtime/modes-ui/gui/new/ingame_score_number_green_3.png"
+    },
+    {
+      "source": "gui/new/ingame_score_number_green_4.dds",
+      "file": "gui/new/ingame_score_number_green_4.png",
+      "size": [
+        96,
+        48
+      ],
+      "sha256": "9b4ae2b919da2d3d313f54be61125b0e1411f788acb28480e08e486d2fb5a276",
+      "url": "/assets/s5runtime/modes-ui/gui/new/ingame_score_number_green_4.png"
+    },
+    {
+      "source": "gui/new/icon_club_pmang.dds",
+      "file": "gui/new/icon_club_pmang.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "869b18035541858fab1db96531d4a7054c0afdb7d4f840cfb659587ed61ead30",
+      "url": "/assets/s5runtime/modes-ui/gui/new/icon_club_pmang.png"
+    },
+    {
+      "source": "gui/new/bs_long_2.dds",
+      "file": "gui/new/bs_long_2.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f874df2025baa36af111de586b9539143167c9e22791da79ab3ba273aabf2bff",
+      "url": "/assets/s5runtime/modes-ui/gui/new/bs_long_2.png"
+    },
+    {
+      "source": "gui/new/siege_ui_dummy.dds",
+      "file": "gui/new/siege_ui_dummy.png",
+      "size": [
+        1024,
+        512
+      ],
+      "sha256": "525450551bf35112830c6481fa55b7defe36b05a37f3e30f09eac5c20c4bf064",
+      "url": "/assets/s5runtime/modes-ui/gui/new/siege_ui_dummy.png"
+    },
+    {
+      "source": "xui2/fonts/netsphimere-static.otf",
+      "file": "xui2/fonts/netsphimere-static.otf",
+      "size": null,
+      "sha256": "d8dcbb6e9e5e786cf7f68f13598efaa8047d6fe5eb7f7be24c6ae840b3eef205",
+      "url": "/assets/s5runtime/modes-ui/xui2/fonts/netsphimere-static.otf"
+    },
+    {
+      "source": "xui2/fonts/netsphimere-semiboldcondenseditalic.otf",
+      "file": "xui2/fonts/netsphimere-semiboldcondenseditalic.otf",
+      "size": null,
+      "sha256": "054bc1ce865a0ff8c5e59cc02cc854e074ee1dbb4d8cdc292e2866a73e47a2bf",
+      "url": "/assets/s5runtime/modes-ui/xui2/fonts/netsphimere-semiboldcondenseditalic.otf"
+    },
+    {
+      "source": "xui2/fonts/netsphimere.otf",
+      "file": "xui2/fonts/netsphimere.otf",
+      "size": null,
+      "sha256": "6bd14367937a59907856d682a3f6852d76e8829a8f55a4b7c3128b7e729438fc",
+      "url": "/assets/s5runtime/modes-ui/xui2/fonts/netsphimere.otf"
+    },
+    {
+      "source": "gui/new/back.dds",
+      "file": "gui/new/back.png",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "27b772ecb9e5ec5aac2a65b86e30a836796a0f764e94f69b1638aa83034be284",
+      "url": "/assets/s5runtime/modes-ui/gui/new/back.png"
+    },
+    {
+      "source": "gui/new/score_red_bar.dds",
+      "file": "gui/new/score_red_bar.png",
+      "size": [
+        720,
+        45
+      ],
+      "sha256": "03aff626f6683f844ec2337d55c092716e83c1961e3db71350b3d3ac44d227c1",
+      "url": "/assets/s5runtime/modes-ui/gui/new/score_red_bar.png"
+    },
+    {
+      "source": "gui/new/ingame_score_number_green_1.dds",
+      "file": "gui/new/ingame_score_number_green_1.png",
+      "size": [
+        96,
+        48
+      ],
+      "sha256": "fb028dd1d584f89de9b9d5aa89c2974f287f50f047d232cef2592d33885b7a1d",
+      "url": "/assets/s5runtime/modes-ui/gui/new/ingame_score_number_green_1.png"
+    },
+    {
+      "source": "gui/new/score_green_bar.dds",
+      "file": "gui/new/score_green_bar.png",
+      "size": [
+        720,
+        45
+      ],
+      "sha256": "c72f3444c18d00c82229de80aff95c9d9001a8276af3d58a7f676e4e8789d179",
+      "url": "/assets/s5runtime/modes-ui/gui/new/score_green_bar.png"
+    },
+    {
+      "source": "gui/new/black.dds",
+      "file": "gui/new/black.png",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "b80557bfd41dc817b699fd1131ad442ac5f8e07dee1263f77d5f59a54746a6e9",
+      "url": "/assets/s5runtime/modes-ui/gui/new/black.png"
+    },
+    {
+      "source": "gui/new/ingame_score_number_green_2.dds",
+      "file": "gui/new/ingame_score_number_green_2.png",
+      "size": [
+        96,
+        48
+      ],
+      "sha256": "c4cf7b664d33a197c75f954fa415e95b8c7353c968e507e5352b3e64c773e937",
+      "url": "/assets/s5runtime/modes-ui/gui/new/ingame_score_number_green_2.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_blue.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_blue.png",
+      "size": [
+        280,
+        86
+      ],
+      "sha256": "78ad997d89b2761669fb8ac1f13e235f39367e780d64028a9a8f1f5da0089af7",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_blue.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_forward.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_forward.png",
+      "size": [
+        20,
+        26
+      ],
+      "sha256": "eeee9609cac31a77ccf49b748300a36d1c455270315e65fda75293a13bb768e5",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/roominfo_icon_forward.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_spectators.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_spectators.png",
+      "size": [
+        36,
+        36
+      ],
+      "sha256": "a6e53794a5fbc803d3027f6a08ddaf8a172c4d3bc529309956c7b553a3a69147",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/roominfo_icon_spectators.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_left.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_left.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "9f669ac87c48dc2c8129505217f5c84404879ef80da54f47489381132f5e944d",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_left.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_panel_left.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_panel_left.png",
+      "size": [
+        62,
+        62
+      ],
+      "sha256": "b007eab200758eb2cfdc726225bf74223cab14fdefefb8c52124ee669d4b6e9e",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_panel_left.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_panel_mid.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_panel_mid.png",
+      "size": [
+        62,
+        62
+      ],
+      "sha256": "4e97e7b5e3a3dca80623053a4e54fc853da69e72049372a6730e89759850f2a8",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_panel_mid.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_right.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_right.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "c2169bc2d0eae2a46658ab220554ebf1b854a2773e241725f951b49b94140f7c",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_blue_right.png"
+    },
+    {
+      "source": "xui2/fonts/acephimere-bold.otf",
+      "file": "xui2/fonts/acephimere-bold.otf",
+      "size": null,
+      "sha256": "5ccaf6cbb608ec66132e6a025ce36b7839452e91f504e1d44c9656dd348ce641",
+      "url": "/assets/s5runtime/modes-ui/xui2/fonts/acephimere-bold.otf"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_red.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_red.png",
+      "size": [
+        280,
+        86
+      ],
+      "sha256": "ca03fa86c87a01270ce84077c27f1a56958e4e05ff9e3ecd53002e1e1e23112d",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_red.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_line_red_mid.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_line_red_mid.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "1a0126856fb3a742ee1bdb7086efa86d215e1675a197abd3e8bc6f7447fa1626",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_red_mid.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_line_red_right.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_line_red_right.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "ab002b170d5b2a92b97c13454ba65baf7fda6a059d5d698f1d9107adb0e77596",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_red_right.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/captainmark.png",
+      "file": "xui2/sprites/ingame/hud/scoreboard/captainmark.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "6f8c430c806a4733628f092354e19b51ea80d2bdc34b321d78b8929b941d2cdc",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/captainmark.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_panel_left.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_panel_left.png",
+      "size": [
+        62,
+        62
+      ],
+      "sha256": "1db738bb017baa70d7a29ad8d7d6b7e2875a4eac8cd77201c0fe7d7322252316",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_panel_left.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_right.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_right.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "24009d6bed4f503f70870a36d138557579712fd7c552bd09d74157f58717af20",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_right.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_line_red_left.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_line_red_left.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "615e6e09df99f6350d9f868975549cb288c2086d9e5674a389be457f4c1b065a",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_red_left.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/backdrop_blue.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/backdrop_blue.png",
+      "size": [
+        650,
+        164
+      ],
+      "sha256": "bf60a6bf6058aeff82578f2a05992bfac310c35ad9986ad53e45db77c8efa6a2",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/backdrop_blue.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_blue.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_blue.png",
+      "size": [
+        280,
+        86
+      ],
+      "sha256": "cb0c77f007c52ae6bfd8651b40a9d134f9a02c29f8fe75a240c90ea1b78d9597",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_blue.png"
+    },
+    {
+      "source": "gui/new/score_gray_bar.dds",
+      "file": "gui/new/score_gray_bar.png",
+      "size": [
+        720,
+        45
+      ],
+      "sha256": "9aa6c59b98dadf69bb4b3e3cdbea7cd11d2ed2f6eb10bac3a9ef9d4eef7f7d2e",
+      "url": "/assets/s5runtime/modes-ui/gui/new/score_gray_bar.png"
+    },
+    {
+      "source": "gui/new/bs_short_1.dds",
+      "file": "gui/new/bs_short_1.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "0cf2ce5f298adb404dd6dc8314626e85d09877b2e41045e188c04414016e53d6",
+      "url": "/assets/s5runtime/modes-ui/gui/new/bs_short_1.png"
+    },
+    {
+      "source": "gui/new/ingame1.dds",
+      "file": "gui/new/ingame1.png",
+      "size": [
+        1440,
+        720
+      ],
+      "sha256": "6f37c6055a44400427a397a87c07bd74b4804c8055a3254a9413acc460c236dd",
+      "url": "/assets/s5runtime/modes-ui/gui/new/ingame1.png"
+    },
+    {
+      "source": "gui/new/ingame4.dds",
+      "file": "gui/new/ingame4.png",
+      "size": [
+        720,
+        360
+      ],
+      "sha256": "2b422ce71d3f977a3312eadd4c6eb3377624c9cca399020faa53559904a510cc",
+      "url": "/assets/s5runtime/modes-ui/gui/new/ingame4.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_mid.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_mid.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "287dc70a2b8d21f712e15339d6b2add9b5b4bf0dc2ddcdd1aac117e034d5772c",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_blue_mid.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_goals.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_goals.png",
+      "size": [
+        36,
+        36
+      ],
+      "sha256": "2a3decf251bcf7e39a16f48e0ac7a8eab307ad94cde0629a50d36c7a01cdab2f",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/roominfo_icon_goals.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_mid.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_mid.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "287dc70a2b8d21f712e15339d6b2add9b5b4bf0dc2ddcdd1aac117e034d5772c",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_blue_mid.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/backdrop_red.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/backdrop_red.png",
+      "size": [
+        650,
+        164
+      ],
+      "sha256": "432c6e24ff60db8f2f769b465607db3927c2ac5dbae2da31a7ac8879ddb98e71",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/backdrop_red.png"
+    },
+    {
+      "source": "gui/new/arcade_hpgauge.dds",
+      "file": "gui/new/arcade_hpgauge.png",
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "44124140a901c2fffdc99e798713552b9fcf223185ebd9c3b3d6d7dc477fd8bf",
+      "url": "/assets/s5runtime/modes-ui/gui/new/arcade_hpgauge.png"
+    },
+    {
+      "source": "gui/new/scoreboard_back.dds",
+      "file": "gui/new/scoreboard_back.png",
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "9b63acd9e28f8aa31eb476f1dc6122fd83a727ac83534ccf88caffcb504c4fc0",
+      "url": "/assets/s5runtime/modes-ui/gui/new/scoreboard_back.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard_bg_alphablue.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard_bg_alphablue.png",
+      "size": [
+        598,
+        238
+      ],
+      "sha256": "0d410b7aafdd8ece290ff2cfa2d65ecffef5c2b868c73fa5f74ced2b86b363db",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard_bg_alphablue.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard_timebar.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard_timebar.png",
+      "size": [
+        272,
+        4
+      ],
+      "sha256": "4bb10b1bcf982e555ed73c55e7def8bb5083518eb9a48fcb824c13f706ab7eff",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard_timebar.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_red.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_red.png",
+      "size": [
+        280,
+        86
+      ],
+      "sha256": "76697ab12ca139d79956825abf6ba3dfd1235cf25f5862d3ddd4a14982218462",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_red.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_panel_right.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_panel_right.png",
+      "size": [
+        62,
+        62
+      ],
+      "sha256": "a9786b3f744d219881e0fe9f258e74fc58a34955eadc21cc6e8b28d9fd70e268",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_panel_right.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_left.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_left.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "68924ce62f52824edbfed222419be06400fa1950de20772cd7eb0f12eb4b9069",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_red_left.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_panel_right.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_panel_right.png",
+      "size": [
+        62,
+        62
+      ],
+      "sha256": "8067e5ac7536d7096b8a7fd6b013e55bba86581f40867f86bc50a4c5a3db2bb4",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_panel_right.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/ping_local.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/ping_local.png",
+      "size": [
+        28,
+        36
+      ],
+      "sha256": "526eb4a67a0d81cf21262fc2fac37c884a7450b2160a7aaea17f2068760dab6f",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/ping_local.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_right.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_right.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "debfc527a0ea5517a02ef9418dce9563e59630fc0dca9f3feccc46628b92ec77",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_red_right.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_timeleft.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/roominfo_icon_timeleft.png",
+      "size": [
+        36,
+        36
+      ],
+      "sha256": "260c3e327f57b5f13740ae219f285012e47862c6c526146e6c8c4e7fb295b209",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/roominfo_icon_timeleft.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_mid.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/alpha_line_red_mid.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "1a0126856fb3a742ee1bdb7086efa86d215e1675a197abd3e8bc6f7447fa1626",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/alpha_line_red_mid.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_left.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_line_blue_left.png",
+      "size": [
+        60,
+        60
+      ],
+      "sha256": "b21554c75102e9831e4bf1ffbaa3b73f8bfa61fab4d24c2ac233a997de2e9b32",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_line_blue_left.png"
+    },
+    {
+      "source": "xui2/sprites/ingame/hud/scoreboard/beta_panel_mid.dds",
+      "file": "xui2/sprites/ingame/hud/scoreboard/beta_panel_mid.png",
+      "size": [
+        62,
+        62
+      ],
+      "sha256": "4e97e7b5e3a3dca80623053a4e54fc853da69e72049372a6730e89759850f2a8",
+      "url": "/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/beta_panel_mid.png"
+    }
+  ],
+  "nativeReady": false,
+  "limits": [
+    "Authenticated images/fonts only; no native mode/state/event or field binding certified.",
+    "XUI coordinates, templates, clipping and UV extraction remain in the source handoff.",
+    "Legacy same-stem extension aliases remain unverified in the native loader.",
+    "No announcement SEQ, SCN, particle or unverified Practice substitution published."
+  ]
+}

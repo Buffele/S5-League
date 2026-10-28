@@ -1,0 +1,42 @@
+/* Supplemental S5 readouts only. Recovered HUD artwork, native resource bars,
+   per-mode score/clock layouts and the source reticle remain owned by their
+   dedicated stylesheets. Do not replace those surfaces with generic cards. */
+body.in-game{--s5-ink:#f4f8ff;--s5-cyan:#43d9ed;--s5-pink:#ff6589;--s5-panel:linear-gradient(145deg,#122336e8,#07121edf);--s5-hairline:#adcce72b;--s5-resources-height:calc(100px * var(--hud-scale,1))}
+body.in-game #hud.s5-low-hp #hp-value{color:#ff8d9d}
+body.in-game #hud.s5-damaged .health .bar{filter:brightness(1.3)}
+body.in-game #weapon.s5-low-ammo .s4-equipment-current{color:#ff7f94}
+body.in-game #weapon.s5-reloading .s4-equipment-current{opacity:.45}
+/* Optional S5 magazine subdivisions occupy the blank upper-left equipment
+   area; the live numbers, weapon art and separate status line stay clear. */
+#s5-ammo-pips{position:absolute;left:36px;right:auto;top:12px;display:flex;justify-content:flex-end;gap:5px;height:12px;pointer-events:none}
+#s5-ammo-pips i{display:block;width:4px;height:10px;border-radius:1px;background:#7893ac;opacity:.24;transition:background .12s,opacity .12s}
+#s5-ammo-pips i.is-loaded{opacity:1;background:#72d8e4}
+#s5-skill{position:fixed;left:24px;bottom:calc(58px + var(--s5-resources-height,100px));width:52px;height:52px;z-index:10;pointer-events:none;background:var(--s5-panel);border:1px solid var(--s5-hairline);border-radius:5px;box-shadow:0 4px 18px #0003;transition:border-color .15s,box-shadow .15s}
+#s5-skill img{width:100%;height:100%;object-fit:contain;filter:none}
+#s5-skill.is-active{border-color:#55e2ec99;box-shadow:0 0 18px #43d9ed30}
+body.in-game #skill-status{right:auto!important;left:84px!important;top:auto!important;bottom:calc(70px + var(--s5-resources-height))!important;background:none!important;border:0!important;padding:0!important;font-size:11px!important;max-width:260px}
+#s5-radar{position:fixed;left:26px;top:30px;width:164px;height:164px;z-index:10;pointer-events:none;border:1px solid #b0d6ef38;border-radius:8px;background:linear-gradient(145deg,#11263bd9,#071523cb);box-shadow:0 8px 28px #0003;overflow:visible}
+#s5-radar canvas{width:100%;height:100%;opacity:.95}
+#s5-radar>span{position:absolute;left:48%;top:-7px;color:white;font:600 12px 'Segoe UI',sans-serif}
+/* Collision outlines are opt-in diagnostics. The installer owns their hidden
+   state; native mode-specific visibility must come from the real radar port. */
+body:not(.in-game) :is(#s5-radar,#s5-skill){display:none}
+:is(#s5-ammo-pips,#s5-radar,#s5-skill)[hidden]{display:none!important}
+body.in-game:has(:is(#match-ui,#touchdown-ui)[data-phase="result"]) :is(#s5-radar,#s5-skill,#skill-status){visibility:hidden}
+body.in-game :is(#match-ui,#touchdown-ui) .s5-clock-urgent{color:#ff9b89!important;text-shadow:0 0 15px #ff68442e}
+@media(max-width:850px){#s5-radar{width:120px;height:120px;left:16px;top:22px}}
+@media(max-width:600px){
+ #s5-radar{width:104px;height:104px;left:12px;top:25px}
+ #s5-skill{left:16px;bottom:calc(60px + var(--s5-resources-height))}
+ body.in-game #skill-status{left:16px!important;bottom:calc(118px + var(--s5-resources-height))!important;max-width:140px}
+}
+@media(max-width:500px){
+ #s5-skill{left:16px;bottom:calc(96px + var(--s4-resource-height))}
+ body.in-game #skill-status{left:12px!important;bottom:calc(72px + var(--s4-resource-height))!important;max-width:96px}
+}
+@media(max-height:500px) and (min-width:501px){
+ #s5-skill{left:12px;bottom:148px}
+ body.in-game #skill-status{left:12px!important;bottom:208px!important;max-width:200px}
+ #s5-ammo-pips{left:28px;top:8px;gap:3px}
+}
+@media(prefers-reduced-motion:reduce){#s5-ammo-pips i,#s5-skill{transition:none}}

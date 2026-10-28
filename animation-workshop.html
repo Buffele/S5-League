@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S5 • Atelier d’animation</title></head>
+<body>
+<header><a class="brand" href="/">S5<span> / MOTION STUDIO</span></a><span class="tag">CRÉATEUR D’ANIMATION</span><div class="header-actions"><button id="undo" title="Ctrl+Z">↶ Annuler</button><button id="redo" title="Ctrl+Maj+Z">↷ Rétablir</button><a href="/">Retour au jeu ↗</a></div></header>
+<main>
+ <aside class="library">
+  <div class="section-title">01 / PROJET</div><h1>Donne vie<br>au mouvement<span>.</span></h1>
+  <label>Nom de la création<input id="project-name" maxlength="100" value="Mon animation"></label>
+  <div class="row"><label>Corps<select id="actor-sex"><option value="male">Masculin</option><option value="female">Féminin</option></select></label><label>Tenue<select id="actor-outfit"><option value="01">Collection 01</option><option value="02">Collection 02</option></select></label></div>
+  <label>Durée en secondes<input id="duration" type="number" min="0.1" max="60" step="0.1" value="2"></label>
+  <small>Changer la durée étire le timing de toutes les poses.</small>
+  <button id="new-project" class="wide">＋ Partir de la pose neutre</button>
+  <div class="section-title separated">02 / ANIMATION SOURCE</div>
+  <p><a href="/animation-catalog.html" target="_blank" rel="noopener">Catalogue S5Runtime · comparer les clips originaux ↗</a></p>
+  <label>Animations existantes<select id="source-clip"></select></label>
+  <button id="clone-source" class="wide">Créer une copie modifiable</button>
+  <small>Les animations d’origine ne sont jamais écrasées. Une copie utilise 15 poses par seconde.</small>
+  <div class="section-title separated">03 / MES FICHIERS</div>
+  <button id="save-project" class="wide">Sauvegarder le brouillon</button>
+  <div class="row"><button id="export-project">Exporter JSON ↗</button><button id="import-project">Importer JSON</button></div>
+  <input id="project-file" type="file" accept=".json,application/json" hidden>
+  <small>Un brouillon local est enregistré automatiquement. Exporte tes fichiers pour conserver plusieurs créations.</small>
+  <p id="status" role="status" aria-live="polite">Chargement du personnage…</p>
+ </aside>
+ <section class="stage" aria-label="Aperçu 3D">
+  <canvas id="studio" aria-label="Personnage 3D et articulations" tabindex="0"></canvas>
+  <div class="stage-top"><span class="stage-badge">APERÇU TEMPS RÉEL</span><span id="bone-badge">Choisis une articulation</span></div>
+  <div class="stage-tools"><button id="view-front">Face</button><button id="view-side">Profil</button><button id="view-back">Dos</button><button id="view-reset">¾</button><button id="fullscreen">Plein écran</button></div>
+  <div class="stage-hint"><span id="selection-hint">Alt + clic sur le corps : sélectionner · Glisser : orbite · Molette : zoom</span><br><strong>Rotation / déplacement → pose clé automatique</strong></div>
+ </section>
+ <aside class="inspector">
+  <div class="section-title">04 / POSE & ARTICULATIONS</div>
+  <label>Articulation<select id="bone-select"></select></label>
+  <label class="check"><input id="advanced-joints" type="checkbox"> Afficher les articulations avancées</label>
+  <button id="direct-select" class="wide" aria-pressed="false">Sélection sur le personnage · Alt</button>
+  <small>Maintiens Alt et clique sur une partie du corps. Ou active ce bouton pour sélectionner sans clavier.</small>
+  <div class="row segmented"><button id="rotate-mode" aria-pressed="true">Rotation</button><button id="move-mode" aria-pressed="false">Déplacer</button></div>
+  <small id="transform-hint">Rotations locales. Les longueurs des membres sont conservées.</small>
+  <fieldset><legend>Rotation locale · degrés</legend><div class="axes"><label>X<input id="rx" type="number" step="1"></label><label>Y<input id="ry" type="number" step="1"></label><label>Z<input id="rz" type="number" step="1"></label></div><div class="row"><button id="copy-rotation">Copier la rotation</button><button id="paste-rotation" disabled>Coller la rotation</button></div><small id="rotation-clipboard-hint">Copie la rotation X/Y/Z, avance avec +1 image, puis colle-la. La position reste inchangée.</small></fieldset>
+  <fieldset><legend>Position locale · unités du squelette</legend><div class="axes"><label>X<input id="px" type="number" step="1"></label><label>Y<input id="py" type="number" step="1"></label><label>Z<input id="pz" type="number" step="1"></label></div></fieldset>
+  <button id="reset-bone" class="wide">Réinitialiser cette articulation</button>
+  <div class="row"><button id="copy-pose">Copier la pose</button><button id="paste-pose">Coller la pose</button></div>
+  <div class="section-title separated">AFFICHAGE</div>
+  <label class="check"><input id="show-joints" type="checkbox" checked> Points des articulations</label>
+  <label class="check"><input id="show-skeleton" type="checkbox"> Squelette complet</label>
+  <label class="check"><input id="show-weapon" type="checkbox"> Afficher l’arme</label>
+  <p class="tip"><b>À toi de jouer</b><br>1. Place la tête de lecture.<br>2. Tourne une articulation.<br>3. Avance et crée la pose suivante.<br>4. Lance la lecture.<br><br><b>Corps entier</b> déplace tout le personnage. Les doigts et les os techniques restent accessibles avec l’option avancée.</p>
+ </aside>
+ <section class="timeline" aria-label="Timeline des poses">
+  <div class="transport"><button id="play-animation" class="primary">▶ Lire</button><button id="previous-frame" title="Image précédente">−1 image</button><button id="next-frame" title="Image suivante">+1 image</button><label class="time-label">Temps<input id="playhead-time" type="number" min="0" step="0.033333" value="0"></label><span id="time-readout">0.00 / 2.00 s</span><label>Vitesse<select id="playback-rate"><option value="0.25">¼×</option><option value="0.5">½×</option><option value="1" selected>1×</option><option value="1.5">1½×</option><option value="2">2×</option></select></label><label class="check"><input id="loop-animation" type="checkbox" checked> Boucle</label></div>
+  <input id="scrubber" aria-label="Position dans l’animation" type="range" min="0" max="2" step="0.001" value="0">
+  <div id="key-track" aria-label="Poses clés"></div>
+  <div class="key-tools"><button id="add-key">＋ Pose clé</button><button id="delete-key">Supprimer la clé</button><label>Temps de la clé<input id="key-time" type="number" min="0" step="0.033333"></label><label>Vers la pose suivante<select id="key-ease"><option value="smooth">Douce</option><option value="linear">Linéaire</option><option value="step">Pose tenue</option></select></label><button id="close-loop">Copier début → fin</button><span id="key-count">2 poses</span></div>
+ </section>
+</main>
+<script type="module" src="/src/animation-workshop.js"></script>
+</body></html>

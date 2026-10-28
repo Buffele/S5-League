@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template name="escape_button">
+	<panel name="{name}">
+		<rect top="{ 94 * {index} }" bottom="{ 94 + (94 * {index}) }" />
+		<anchor left="true" right="true" />
+		<path trigger="framecount">
+			<keyframe time="0.00">
+				<opacity value="0.00" animation="linear" />
+				<offset animation="bezier(0,.8,.2,1)">
+					<y value="72" />
+				</offset>
+			</keyframe>
+			<keyframe time="0.25">
+				<opacity value="1.00" animation="linear" />
+				<offset animation="bezier(0,.8,.2,1)">
+					<y value="0" />
+				</offset>
+			</keyframe>
+		</path>
+		<elements>
+			<panel name="background">
+				<anchor value="true" />
+				<input override="parent" />
+				<states>
+					<normal>
+						<reference path="sprites/ingame/escape/button.dds" async="true" />
+					</normal>
+				</states>
+			</panel>
+			<panel name="background_hover">
+				<anchor value="true" />
+				<input override="parent" />
+				<states>
+					<normal>
+						<reference path="sprites/ingame/escape/button_hover_{color_type}.dds" async="true" />
+						<opacity value="0.00" transition="0.20" />
+					</normal>
+					<hovered>
+						<reference path="sprites/ingame/escape/button_hover_{color_type}.dds" async="true" />
+						<opacity value="1.00" transition="0.20" />
+					</hovered>
+				</states>
+			</panel>
+			<label name="text">
+				<anchor value="true" />
+				<margin left="8" />
+				<input active="false" />
+				<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="31" />
+				<transform uppercase="true" />
+				<align horizontal="center" vertical="center" />
+				<text>
+					{children}
+				</text>
+				<states>
+					<normal>
+						<color>
+							<tl value="rgb(216, 223, 234)" />
+							<tr value="rgb(216, 223, 234)" />
+							<bl value="rgb(171, 186, 209)" />
+							<br value="rgb(171, 186, 209)" />
+						</color>
+					<!--<glow>
+							<color value="rgb(216, 223, 234)" />
+							<radius value="4.2" />
+						</glow> -->
+					</normal>
+				</states>
+			</label>
+			<panel name="light">
+				<anchor value="true" />
+				<input override="parent" />
+				<states>
+					<normal>
+						<reference path="sprites/ingame/escape/button_hover_{color_type}_light.dds" />
+						<color value="rgba(255, 255, 255, 0)" transition="0.20" />
+					</normal>
+					<hovered>
+						<reference path="sprites/ingame/escape/button_hover_{color_type}_light.dds" />
+						<color value="rgba(255, 255, 255, 255)" transition="0.20" />
+					</hovered>
+				</states>
+			</panel>
+		</elements>
+		<states>
+			<normal>
+				<offset>
+					<x value="0.00" transition="0.20" />
+					<y value="0.00" transition="0.20" />
+				</offset>
+			</normal>
+			<hovered>
+				<offset>
+					<x value="{offset}" transition="0.20" />
+					<y value="0.00" transition="0.20" />
+				</offset>
+			</hovered>
+		</states>
+	</panel>
+</template>
+
+<panel name="buttons">
+	<rect left="1200" top="1017" right="{ 1200 + 474 }" bottom="{ 1017 + (94 * 4) }" />
+	<path trigger="framecount">
+		<keyframe time="0.00">
+			<opacity value="0.00" animation="linear" />
+		</keyframe>
+		<keyframe time="0.20">
+			<opacity value="1.00" animation="linear" />
+		</keyframe>
+	</path>
+	<elements>
+		<escape_button name="resume" color_type="blue" offset="51.00" index="0">
+			<english value="resume" />
+		</escape_button>
+		<escape_button name="leave room" color_type="red" offset="51.00" index="1">
+			<english value="leave room" />
+		</escape_button>
+	</elements>
+</panel>

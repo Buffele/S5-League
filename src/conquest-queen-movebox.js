@@ -1,0 +1,43 @@
+import {ConquestMonsterAnimationAdapter,conquestMonsterAnimationIntent} from './conquest-monster-animation.js';
+import {assertConquestQueenActor} from './conquest-queen-ai.js';
+import {ConquestMonsterMappedState} from './conquest-monster-state-manager.js';
+const f=Math.fround,owners=new WeakMap(),components=new WeakMap(),receipts=new WeakMap(),identity=()=>[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1];
+const floats=(v,n)=>{if(!Array.isArray(v)||v.length!==n||!v.every(x=>Number.isFinite(x)&&Number.isFinite(f(x))))throw Error('Finite source Queen '+n+'-float input required');return v.map(f);};
+// This policy is limited to the four actual missing MoveBox tracks below.
+// The body clip00004 itself is absent and remains a separate strict refusal.
+// It creates no fallback alias and does not claim native fallback key+28.
+export const CONQUEST_QUEEN_RETAIN_EVALUATED_MOVEBOX=Object.freeze({kind:'s5-retain-evaluated-local-pose',monsterKey:1403,node:'MoveBox',missingClips:Object.freeze(['00003_1','00001','00002','00004']),sourceFallbackQualified:false,nativeReady:false});
+export function conquestQueenMoveBoxDisplacement({matrixBC,previousMatrix60,direction8c,multiplierA0}={}){
+ const now=floats(matrixBC,16),before=floats(previousMatrix60,16),direction=floats(direction8c,3);
+ if(direction[1]!==0||Math.abs(Math.hypot(...direction)-1)>1e-5||!Number.isFinite(multiplierA0)||!Number.isFinite(f(multiplierA0)))throw Error('Actual horizontal normalized8C and protected MoveBox multiplier required');
+ let axis,angle;if(direction[2]>.9998999834060669){axis=[0,1,0];angle=3.1415927410125732;}else{const length=f(Math.sqrt(f(f(f(direction[0]*direction[0])+f(direction[1]*direction[1]))+f(direction[2]*direction[2]))));angle=f(Math.acos(f(-direction[2]/length)));if(Number.isNaN(angle))angle=0;const raw=[direction[1],f(-direction[0]),0],square=f(f(raw[0]*raw[0])+f(raw[1]*raw[1]));axis=square>1.1754943508222875e-38?raw.map(v=>f(v/Math.sqrt(square))):[0,0,0];}
+ const half=f(angle*.5),s=f(Math.sin(half)),[x,y,z]=axis.map(v=>f(v*s)),w=f(Math.cos(half)),m=[f(1-2*y*y-2*z*z),f(2*x*y+2*z*w),f(2*x*z-2*y*w),f(2*x*y-2*z*w),f(1-2*x*x-2*z*z),f(2*y*z+2*x*w),f(2*x*z+2*y*w),f(2*y*z-2*x*w),f(1-2*x*x-2*y*y)];
+ const raw=[0,1,2].map(i=>f(now[12+i]-before[12+i])),delta=[0,1,2].map(i=>f(f(f(f(raw[0]*m[i])+f(raw[1]*m[3+i]))+f(raw[2]*m[6+i]))*f(multiplierA0)));
+ return {displacement:Object.freeze({x:delta[0],y:delta[1],z:delta[2]}),matrix60:Object.freeze(now),source:'A2E200:BC−60→facing8C→A0→virtual70/A03B30',localSpaceSourceQualified:true,numericParity:'bounded original DLL29 scalar profile',nativeReady:false};
+}
+export function assertConquestQueenMoveBox(owner,{actor}={}){const r=owners.get(owner);if(!r||r.actor!==actor)throw Error('Typed current Queen MoveBox owner required');r.live();return owner;}
+export function assertConquestQueenMoveBoxReceipt(receipt,{owner,actor}={}){assertConquestQueenMoveBox(owner,{actor});if(receipts.get(receipt)!==owners.get(owner))throw Error('Actual private Queen MoveBox receipt required');return receipt;}
+// Source BC is the local transform animator destination48. It is distinct
+//from node.world34=BC*parent58 and contains no actor/renderer scaling.
+export function createConquestQueenMoveBox({actor,readCurrentActor,moveSourceDisplacement,missingClipPolicy=null}={}){
+ assertConquestQueenActor(actor);if(typeof readCurrentActor!=='function'||typeof moveSourceDisplacement!=='function'||missingClipPolicy!==null&&missingClipPolicy!==CONQUEST_QUEEN_RETAIN_EVALUATED_MOVEBOX)throw Error('Explicit Queen identity/real collision consumer and immutable optional pose policy required');if(components.has(actor))throw Error('Release the previous Queen MoveBox owner first');
+ const model=actor.model,node=model.findSourceNode('MoveBox'),sourceNode=model.hierarchy.find('MoveBox');if(!node||sourceNode?.id!==51||sourceNode.type!=='Bone'||model.nodes.get(sourceNode.id)!==node)throw Error('Actual authenticated Queen MoveBox ordinal51 required');
+ const retainedFind=model.findSourceNode,record={actor,disposed:false,fault:null,node,sourceNode,pose:identity(),poseSerial:0,animation:null,lastMotion:null,activeState:null,matrix60:identity(),busy:false};let api;
+ record.live=()=>{if(record.disposed||record.fault||components.get(actor)!==api||readCurrentActor()!==actor||actor.model!==model||model.findSourceNode!==retainedFind||model.findSourceNode('MoveBox')!==node||model.nodes.get(51)!==node||model.hierarchy.find('MoveBox')!==sourceNode)throw Error('Current owned Queen MoveBox required');assertConquestQueenActor(actor);};
+ const selection=state=>{const intent=conquestMonsterAnimationIntent({monsterKey:1403,stateId:state.stateId,previousRequestedName:''}),clip=state.stateId===4&&actor.nativeField33C===2?'BASE':intent.clip,entry=sourceNode.definition.animations?.[clip],missing=!entry;
+  if(missing&&!(missingClipPolicy===CONQUEST_QUEEN_RETAIN_EVALUATED_MOVEBOX&&missingClipPolicy.missingClips.includes(clip)))throw Error('Unknown native MoveBox fallback for '+clip+'; exact S5 retained-pose policy required');return {clip,missing,sourceFallbackQualified:!missing};};
+ api=Object.freeze({actor,
+  enter(state){record.live();if(!(state instanceof ConquestMonsterMappedState)||state.actor!==actor||![0,1,2,3,4,5,6].includes(state.stateId)||record.activeState)throw Error('Distinct actual Queen MoveBox state entry required');const chosen=selection(state);record.activeState=state;record.matrix60=identity();record.animation=chosen;return api.snapshot();},
+  tick(state,multiplierA0){record.live();if(record.busy||state!==record.activeState)throw Error('Nonreentrant current Queen MoveBox state required');record.busy=true;try{const motion=conquestQueenMoveBoxDisplacement({matrixBC:record.pose,previousMatrix60:record.matrix60,direction8c:['x','y','z'].map(k=>actor.facingNative[k]),multiplierA0});record.matrix60=motion.matrix60;
+   const result=moveSourceDisplacement(actor,state,motion.displacement);if(result?.then)throw Error('Synchronous Queen MoveBox collision consumer required');if(result?.qualified!==true)throw Error('Queen MoveBox collision refused: '+(result?.reason??'unqualified collision'));if(result.actor!==actor||!result.state?.anchor684||!result.position||['x','y','z'].some((k,i)=>result.position[k]!==actor.positionNative[k]||result.position[k]!==result.state.anchor684[i]))throw Error('Queen MoveBox requires actual retained collision solver/actor commit');record.live();
+   const receipt=Object.freeze({...motion,actor,poseSerial:record.poseSerial,sourceFallbackQualified:record.animation.sourceFallbackQualified,sourceAnimatorMatrixQualified:false,solverResult:result});receipts.set(receipt,record);record.lastMotion=receipt;return receipt;
+  }catch(error){record.fault=error.message;throw error;}finally{record.busy=false;}},
+  retainPostPose(animation){record.live();if(record.busy||!(animation instanceof ConquestMonsterAnimationAdapter)||animation.model!==model||animation.disposed||!animation.lastReceipt?.accepted||animation.lastReceipt.clip!==record.animation?.clip)throw Error('Actual post-mixer Queen animation owner/selection required');
+   const chosen=selection(record.activeState);node.updateMatrix();record.pose=floats([...node.matrix.elements],16);record.poseSerial++;record.animation=chosen;return api.snapshot();},
+  // Resource exit may follow quarantine/unlink. It performs no source read,
+  //collision or actor write and cannot reopen the computation gate.
+  exit(state){if(record.disposed||state!==record.activeState||components.get(actor)!==api)throw Error('Owned actual Queen MoveBox exit required');record.activeState=null;record.matrix60=identity();return api.snapshot();},
+  snapshot(){const last=record.lastMotion;return {actorId:actor.id,nodeOrdinal:51,activeStateId:record.activeState?.stateId??null,matrix60:[...record.matrix60],matrixBC:[...record.pose],poseSerial:record.poseSerial,selection:record.animation&&{...record.animation},policy:missingClipPolicy?.kind??'strict',sourceSpaceQualified:true,sourceAnimatorMatrixQualified:false,lastMotion:last&&{displacement:{...last.displacement},poseSerial:last.poseSerial,sourceFallbackQualified:last.sourceFallbackQualified,collisionQualified:last.solverResult.qualified,position:{...last.solverResult.position},solverMask:last.solverResult.solverMask,responseMask:last.solverResult.responseMask},disposed:record.disposed,fault:record.fault,nativeReady:false};},
+  dispose(){if(record.busy)throw Error('Cannot release Queen MoveBox while applying collision');record.disposed=true;record.activeState=null;if(components.get(actor)===api)components.delete(actor);},
+ });owners.set(api,record);components.set(actor,api);record.live();return api;
+}

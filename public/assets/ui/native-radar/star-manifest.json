@@ -1,0 +1,19 @@
+{
+  "format": "s5-native-radar-marker-assets-v1",
+  "assets": [
+    {
+      "key": "star",
+      "nativeResource": "gui/new/image_minamap_star.dds",
+      "nativeRequestedResource": "resources/gui/new/image_minamap_star.tga",
+      "sourceSha256": "94b82ed652c785e681df8f8d6f4eb8f02a17b5495ec2d4fd14d66a094f0b347c",
+      "deliveredURL": "/assets/ui/native-radar/marker-star.png",
+      "sha256": "735f7e431d6d7022c1d23251c77a3bba67fa65d4c5fb893a63cfcaae09fa9fa6",
+      "rgbaSha256": "83449e77674a314e0d46bb007614016bff92965ed62c941a3213dc6e1c80dc37",
+      "width": 32,
+      "height": 16,
+      "conversion": "Lossless top-level DDS RGBA; no cropping/resizing/repainting"
+    }
+  ],
+  "nativeResourceAliasExecuted": false,
+  "nativeStarRuntimeObserved": false
+}

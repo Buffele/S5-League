@@ -1,0 +1,1026 @@
+{
+  "format": "s5-cannonade-restored-resources-v1",
+  "status": "main-game-experimental-native-comparison-pending",
+  "itemKey": 2030002,
+  "sourceContract": "work/cannonade-recovery/source-contract.json",
+  "sourceContractSha256": "48182962e5c6416e59804fa4f909680f6027ed69129ca9c6c0a7c8d4a0b4fd08",
+  "animations": [
+    {
+      "sex": "male",
+      "clips": [
+        {
+          "name": "E0018",
+          "tracks": 57,
+          "durationTicks": 8000
+        },
+        {
+          "name": "E0019",
+          "tracks": 57,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0020",
+          "tracks": 56,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0021",
+          "tracks": 56,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0022",
+          "tracks": 56,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0023",
+          "tracks": 56,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0024",
+          "tracks": 56,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0025",
+          "tracks": 56,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0026",
+          "tracks": 56,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0007",
+          "tracks": 57,
+          "durationTicks": 4800
+        },
+        {
+          "name": "E0001",
+          "tracks": 57,
+          "durationTicks": 8000
+        },
+        {
+          "name": "E0002",
+          "tracks": 57,
+          "durationTicks": 8000
+        },
+        {
+          "name": "E0003",
+          "tracks": 57,
+          "durationTicks": 8000
+        },
+        {
+          "name": "E0004_C",
+          "tracks": 57,
+          "durationTicks": 7200
+        },
+        {
+          "name": "E0005_C",
+          "tracks": 57,
+          "durationTicks": 7200
+        },
+        {
+          "name": "E0006_C",
+          "tracks": 57,
+          "durationTicks": 7200
+        },
+        {
+          "name": "E0008",
+          "tracks": 57,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0009",
+          "tracks": 57,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0010",
+          "tracks": 57,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0011",
+          "tracks": 57,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0012",
+          "tracks": 57,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0013",
+          "tracks": 57,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0014",
+          "tracks": 57,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0015",
+          "tracks": 57,
+          "durationTicks": 4000
+        }
+      ],
+      "addedClipCount": 0,
+      "existingBaseRig": {
+        "sha256": "6a036085f82022f3d3da3a93d65be05338d45d784ebf9ec7e9e00ed500be612a",
+        "clips": [
+          {
+            "name": "E0018",
+            "tracks": 57,
+            "durationTicks": 8000
+          },
+          {
+            "name": "E0019",
+            "tracks": 57,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0020",
+            "tracks": 56,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0021",
+            "tracks": 56,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0022",
+            "tracks": 56,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0023",
+            "tracks": 56,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0024",
+            "tracks": 56,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0025",
+            "tracks": 56,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0026",
+            "tracks": 56,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0007",
+            "tracks": 57,
+            "durationTicks": 4800
+          },
+          {
+            "name": "E0001",
+            "tracks": 57,
+            "durationTicks": 8000
+          },
+          {
+            "name": "E0002",
+            "tracks": 57,
+            "durationTicks": 8000
+          },
+          {
+            "name": "E0003",
+            "tracks": 57,
+            "durationTicks": 8000
+          },
+          {
+            "name": "E0004_C",
+            "tracks": 57,
+            "durationTicks": 7200
+          },
+          {
+            "name": "E0005_C",
+            "tracks": 57,
+            "durationTicks": 7200
+          },
+          {
+            "name": "E0006_C",
+            "tracks": 57,
+            "durationTicks": 7200
+          },
+          {
+            "name": "E0008",
+            "tracks": 57,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0009",
+            "tracks": 57,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0010",
+            "tracks": 57,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0011",
+            "tracks": 57,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0012",
+            "tracks": 57,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0013",
+            "tracks": 57,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0014",
+            "tracks": 57,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0015",
+            "tracks": 57,
+            "durationTicks": 4000
+          }
+        ],
+        "maxTrackDelta": 0.000007421875011459633,
+        "tolerance": 0.00002
+      },
+      "lowerProof": {
+        "verified": false,
+        "error": "Error: cannonade/male: root curve handedness 1 contradicts Twin Blade reference -1",
+        "sourceMapping": {
+          "front": "E0019",
+          "leftFront": "E0020",
+          "left": "E0021",
+          "rightFront": "E0022",
+          "right": "E0023",
+          "back": "E0024",
+          "leftBack": "E0025",
+          "rightBack": "E0026"
+        }
+      }
+    },
+    {
+      "sex": "female",
+      "clips": [
+        {
+          "name": "E0018",
+          "tracks": 62,
+          "durationTicks": 8000
+        },
+        {
+          "name": "E0019",
+          "tracks": 62,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0020",
+          "tracks": 62,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0021",
+          "tracks": 58,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0022",
+          "tracks": 58,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0023",
+          "tracks": 58,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0024",
+          "tracks": 58,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0025",
+          "tracks": 58,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0026",
+          "tracks": 58,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0007",
+          "tracks": 58,
+          "durationTicks": 4800
+        },
+        {
+          "name": "E0001",
+          "tracks": 58,
+          "durationTicks": 8000
+        },
+        {
+          "name": "E0002",
+          "tracks": 58,
+          "durationTicks": 8000
+        },
+        {
+          "name": "E0003",
+          "tracks": 58,
+          "durationTicks": 8000
+        },
+        {
+          "name": "E0004_C",
+          "tracks": 58,
+          "durationTicks": 7200
+        },
+        {
+          "name": "E0005_C",
+          "tracks": 58,
+          "durationTicks": 7200
+        },
+        {
+          "name": "E0006_C",
+          "tracks": 58,
+          "durationTicks": 7200
+        },
+        {
+          "name": "E0008",
+          "tracks": 58,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0009",
+          "tracks": 58,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0010",
+          "tracks": 58,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0011",
+          "tracks": 58,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0012",
+          "tracks": 58,
+          "durationTicks": 3200
+        },
+        {
+          "name": "E0013",
+          "tracks": 58,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0014",
+          "tracks": 58,
+          "durationTicks": 4000
+        },
+        {
+          "name": "E0015",
+          "tracks": 58,
+          "durationTicks": 4000
+        }
+      ],
+      "addedClipCount": 0,
+      "existingBaseRig": {
+        "sha256": "222a2f065fbdfcb8c333ed96e281b4e37ac3d631851224ee7914096e432cd4a5",
+        "clips": [
+          {
+            "name": "E0018",
+            "tracks": 62,
+            "durationTicks": 8000
+          },
+          {
+            "name": "E0019",
+            "tracks": 62,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0020",
+            "tracks": 62,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0021",
+            "tracks": 58,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0022",
+            "tracks": 58,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0023",
+            "tracks": 58,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0024",
+            "tracks": 58,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0025",
+            "tracks": 58,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0026",
+            "tracks": 58,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0007",
+            "tracks": 58,
+            "durationTicks": 4800
+          },
+          {
+            "name": "E0001",
+            "tracks": 58,
+            "durationTicks": 8000
+          },
+          {
+            "name": "E0002",
+            "tracks": 58,
+            "durationTicks": 8000
+          },
+          {
+            "name": "E0003",
+            "tracks": 58,
+            "durationTicks": 8000
+          },
+          {
+            "name": "E0004_C",
+            "tracks": 58,
+            "durationTicks": 7200
+          },
+          {
+            "name": "E0005_C",
+            "tracks": 58,
+            "durationTicks": 7200
+          },
+          {
+            "name": "E0006_C",
+            "tracks": 58,
+            "durationTicks": 7200
+          },
+          {
+            "name": "E0008",
+            "tracks": 58,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0009",
+            "tracks": 58,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0010",
+            "tracks": 58,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0011",
+            "tracks": 58,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0012",
+            "tracks": 58,
+            "durationTicks": 3200
+          },
+          {
+            "name": "E0013",
+            "tracks": 58,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0014",
+            "tracks": 58,
+            "durationTicks": 4000
+          },
+          {
+            "name": "E0015",
+            "tracks": 58,
+            "durationTicks": 4000
+          }
+        ],
+        "maxTrackDelta": 0.000007519531237676347,
+        "tolerance": 0.00002
+      },
+      "lowerProof": {
+        "verified": false,
+        "error": "Error: cannonade/female: root curve handedness 1 contradicts Twin Blade reference -1",
+        "sourceMapping": {
+          "front": "E0019",
+          "leftFront": "E0020",
+          "left": "E0021",
+          "rightFront": "E0022",
+          "right": "E0023",
+          "back": "E0024",
+          "leftBack": "E0025",
+          "rightBack": "E0026"
+        }
+      }
+    }
+  ],
+  "resources": [
+    {
+      "source": "effects/levelup5_nomipmap.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "d0db22c760c30a2610c8a9812cdef72e88cf9d24c32a0bdde916394a96602ef4",
+      "path": "/assets/s5runtime/effects/cannonade/textures/levelup5_nomipmap.png",
+      "bytes": 26244,
+      "sha256": "45a1ea9b5eabbd360b40c8f7b163af1b3032a81132dda25baffd6339a98120e8",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/wave1.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "d325712d0ca00e5ceb19f509e3db76c065e5d44eade7383b85cd708eded4c86e",
+      "path": "/assets/s5runtime/effects/cannonade/textures/wave1.png",
+      "bytes": 42929,
+      "sha256": "7caed1e3dc1fd8f036bd42e9559bed535c603d78869b792ca122db7ee4695f96",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/lightning4_red.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "50dafda52c3126ad483986764e826cdd8c639eb126a4c50ea7c7e3ec3d5ad9dc",
+      "path": "/assets/s5runtime/effects/cannonade/textures/lightning4_red.png",
+      "bytes": 1980,
+      "sha256": "82386b3b5aed200e1bed4ee8b035823ea6bb9e50572540d8e03f362d2b394f31",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/ringring.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "e1da8ab59157ebf7ea2762fc5c818c8efd51e91300f2dad4ef25236665d0d693",
+      "path": "/assets/s5runtime/effects/cannonade/textures/ringring.png",
+      "bytes": 31714,
+      "sha256": "83b37fbad0e623d72b14e153e2f955eeb86c79e71cbce1f6e284cd0b211dfec9",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/hexa.dds",
+      "sourceBytes": 11064,
+      "sourceSha256": "607f608f8064237d22bdf6d59f29341954a36299ff156f915ca4c9c8b9c8476b",
+      "path": "/assets/s5runtime/effects/cannonade/textures/hexa.png",
+      "bytes": 5124,
+      "sha256": "deb57da75e4b8dd47db05f7eced6c68ecbaee673ecfca1266b7e383879222ace",
+      "width": 128,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/steak02.dds",
+      "sourceBytes": 43848,
+      "sourceSha256": "65848679b7d48776b7d132a4fdaa2f78ff9e9c7f12f06e01ae7ecff8e3b5ac4b",
+      "path": "/assets/s5runtime/effects/cannonade/textures/steak02.png",
+      "bytes": 22602,
+      "sha256": "8fbaa610a880834f1cddbe7166441cb55f49ac0dbe49f484e54c31a195a6acc5",
+      "width": 512,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/tick.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "path": "/assets/s5runtime/effects/cannonade/textures/tick.png",
+      "bytes": 1831,
+      "sha256": "b193c5abe53662185c26abee065200c4f4878846a96c75ee34f2afb9751eefca",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/graphic2.dds",
+      "sourceBytes": 22024,
+      "sourceSha256": "b3ea187f342aff4b139ec32c0bba88464f5e44143b6f9ec28afe80180b474686",
+      "path": "/assets/s5runtime/effects/cannonade/textures/graphic2.png",
+      "bytes": 1728,
+      "sha256": "1c727dc03c37ad5030099826107ef0d2ced78fb5ff14980fd2fe238d23db2f5e",
+      "width": 512,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/lightning2_red.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "485ce80cfc3c9aba47ba7be9797189815c4c12388a36dd22161f87d625fefc7d",
+      "path": "/assets/s5runtime/effects/cannonade/textures/lightning2_red.png",
+      "bytes": 1926,
+      "sha256": "61df46055f273cadfc4902e986cb6110106cb59bb2c26efe55ad9a49cd5b430c",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/inter_pasthit6_yellow.dds",
+      "sourceBytes": 11040,
+      "sourceSha256": "a0e22897d90ac1f14e32d1cd07ac757101c5cfa412013553ff813b5f8a0ebb61",
+      "path": "/assets/s5runtime/effects/cannonade/textures/inter_pasthit6_yellow.png",
+      "bytes": 7701,
+      "sha256": "db0a34d45f9ccff790cd8b97aadb6a6aa5593d21950801e7a81aea53804f5e78",
+      "width": 128,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/attack4_nomipmap.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "299fda1e366c7c5884af8e45dd66f8bebe59d3fd14440fab1a6d21eeb17c6f52",
+      "path": "/assets/s5runtime/effects/cannonade/textures/attack4_nomipmap.png",
+      "bytes": 33865,
+      "sha256": "c6723ff5604204aba59b1fbcefbd821e49be776331fe12892f95bf8ec1265b52",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/mapeffect_light5.dds",
+      "sourceBytes": 2896,
+      "sourceSha256": "0a8e205caffc04a884417d92cf01f1ced58e82abd95dc02e9f27e4916643bb67",
+      "path": "/assets/s5runtime/effects/cannonade/textures/mapeffect_light5.png",
+      "bytes": 1450,
+      "sha256": "dba840ce9a156ffc26cc631a781d991c53214944de73e637d7020ebab83c128e",
+      "width": 32,
+      "height": 64,
+      "format": "DXT3"
+    },
+    {
+      "source": "effects/lightning3_red.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "385bd23767cc237ef2754a60ed88e21a687212545a47428d21d2fefb5e5a073c",
+      "path": "/assets/s5runtime/effects/cannonade/textures/lightning3_red.png",
+      "bytes": 2239,
+      "sha256": "2120c31ce137671fd794401b8503648f34a822f635dbe643cfc983120f2ea87a",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/yellow_beam.dds",
+      "sourceBytes": 11052,
+      "sourceSha256": "09d3ad0a991388edb9096071b0457794af29432139c21f0a791a284d5cb1e520",
+      "path": "/assets/s5runtime/effects/cannonade/textures/yellow_beam.png",
+      "bytes": 788,
+      "sha256": "7f60f38884dff73380c1f36f5a6ec4c6b17c623057017e4ded7241d35f6ca215",
+      "width": 64,
+      "height": 32,
+      "format": "RGBA32"
+    },
+    {
+      "source": "effects/envmaprail.dds",
+      "sourceBytes": 5616,
+      "sourceSha256": "cd639e9ba72c49981642ec4417d71718116be8a81b8ee3a73fd28f23aa1f5609",
+      "path": "/assets/s5runtime/effects/cannonade/textures/envmaprail.png",
+      "bytes": 5055,
+      "sha256": "ed5b96c1e0419c2f20f08a6e6d3e9dd7ee9dfb459ddc08d5dd5092019e0e5509",
+      "width": 64,
+      "height": 64,
+      "format": "DXT3"
+    },
+    {
+      "source": "effects/flash.dds",
+      "sourceBytes": 11064,
+      "sourceSha256": "64d643b28b6a1243b621dbf999a6671aa812f333533d13090436f135749e26ba",
+      "path": "/assets/s5runtime/effects/cannonade/textures/flash.png",
+      "bytes": 7058,
+      "sha256": "d95decd7cb8b6dcb9f7822875c7f1c6f1d2aa8f7b014d5dbebdf32db1ccf5c1a",
+      "width": 128,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/l_light_yellow.dds",
+      "sourceBytes": 11080,
+      "sourceSha256": "20c5f2bc2105be49c5b37b2fe0dcad9a4cf24c1dd37d7197c7cf5752d00ee6dc",
+      "path": "/assets/s5runtime/effects/cannonade/textures/l_light_yellow.png",
+      "bytes": 5329,
+      "sha256": "347981100ab8c5bfd71efb1e944e22acddbb96ab9a40f388052f36edc8fc36a7",
+      "width": 64,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "model/weapon/railgun02.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "1c3b0fc69de06a8952613c1ed1a80012a17ddeeb8c48dbd78935ec9c16c61bf6",
+      "path": "/assets/s5runtime/weapons/cannonade/railgun02.png",
+      "bytes": 33524,
+      "sha256": "3bb4e3da18983192d4dd5df290c77785870e7f246e44d3fe4823d5bea3718ac8",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/l_light_red.dds",
+      "sourceBytes": 11080,
+      "sourceSha256": "9409d87c9b45c9edceb7f12dcfa43b1a22ba302d508d9ad44ae4fb5bb9df249b",
+      "path": "/assets/s5runtime/effects/cannonade/textures/l_light_red.png",
+      "bytes": 5276,
+      "sha256": "1b0f7b633574ea543b87ba7aeff3100e395808db547379e31b2826e61c0cac8d",
+      "width": 64,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/blaster1.dds",
+      "sourceBytes": 21992,
+      "sourceSha256": "30b7656ff0253aa57c0387038c02b455b8cb40ae6eafbd189c90a1c5cf7ce86b",
+      "path": "/assets/s5runtime/effects/cannonade/textures/blaster1.png",
+      "bytes": 16299,
+      "sha256": "b6d33b562814f9ee521c3be5c24df024194da9320ec38cdc7a828d4caf1d6aca",
+      "width": 256,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/skill_clown_jack2_female.dds",
+      "sourceBytes": 11080,
+      "sourceSha256": "138465c4ce31e33cdf97414749cd06013d44b893f99fc1a23786b9811defc25f",
+      "path": "/assets/s5runtime/effects/cannonade/textures/skill_clown_jack2_female.png",
+      "bytes": 5377,
+      "sha256": "a1cac3a38bfc552578c053c73933879a6c96838b01d547bcecfc900271d5268d",
+      "width": 64,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/enemy_res4_nomipmap.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "276cbcd1966da1b7b9eb900a1392e8607625af0912f15a46506936077fed15ac",
+      "path": "/assets/s5runtime/effects/cannonade/textures/enemy_res4_nomipmap.png",
+      "bytes": 26989,
+      "sha256": "e5024e57e1ab1467d2c787df7ab5417f1a1a68a7a751a2a94594443cd0cc026d",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/particle1a.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "bb744328ddab94b9998acee375d5c51badcf9c85b475fd459efc28058b97ec24",
+      "path": "/assets/s5runtime/effects/cannonade/textures/particle1a.png",
+      "bytes": 20326,
+      "sha256": "dc2b076c462a2b9e9f2556b05a17899e6c791fce48d968c5f6f2d3b22970c461",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/launch_flash3a_red.dds",
+      "sourceBytes": 11064,
+      "sourceSha256": "fe3adcb8c0316103cd7beb88e552647abc2b05af60fbd55c3630144f841a7dc0",
+      "path": "/assets/s5runtime/effects/cannonade/textures/launch_flash3a_red.png",
+      "bytes": 8306,
+      "sha256": "bb5eff78c9e2114ef17317cb8932dea2aa3421fd78156ac40a98b1f0e64fb044",
+      "width": 128,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/attack3_nomipmap.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "4755fe0ddba41e419f3be53da78c0d2fd981bb462bf173e33ac20695049bc432",
+      "path": "/assets/s5runtime/effects/cannonade/textures/attack3_nomipmap.png",
+      "bytes": 15104,
+      "sha256": "8952a69aa7f562d2f23df3390316b3ce4391fd5446578f4ef2a310c0e58dd7aa",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/plasma3a_yellow.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "ab81983d1718b3f6aed9410f538715fe3b5d2e600ae0f24982bf7abc8d81ccf6",
+      "path": "/assets/s5runtime/effects/cannonade/textures/plasma3a_yellow.png",
+      "bytes": 26615,
+      "sha256": "55b019d9cf855c34a3473e03b1a79126789902ec9aaa6dcf6e387b6a68ed9891",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/lightning_red.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "4dfe8c4fa55c8e021f1954ecae283671de07283095722125b0916dde653910ca",
+      "path": "/assets/s5runtime/effects/cannonade/textures/lightning_red.png",
+      "bytes": 2340,
+      "sha256": "fb9df70dfbc6608f7cfb6fa1937f838d8d82f479e801867b85f582c172cd838a",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "path": "/assets/s5runtime/weapon-cannonade-classic.json",
+      "sha256": "a7c26a55cdbc817dc8399a83de9de7d808c38f94228981c455ce4cbe62ea1d8a",
+      "bytes": 112823
+    },
+    {
+      "path": "/assets/s5runtime/sound/cannonade/brail_attack.ogg",
+      "sha256": "51c7a782bc59a3522205f9d198f7e57c8afd0539945a3f02d0f781045c931d9e",
+      "bytes": 65433
+    },
+    {
+      "path": "/assets/s5runtime/sound/cannonade/brail_blast_max.ogg",
+      "sha256": "66a0bb3d23afb1f069c04ed7fc82478cb1a3ef5c7dc6d0bbfdcd01e3ec8ab725",
+      "bytes": 87905
+    },
+    {
+      "path": "/assets/s5runtime/sound/cannonade/brail_charge_complete.ogg",
+      "sha256": "f91ce4fd3c373aa1080033b459b9ad61df4f7d4d0f1c5f93512d9c9b14267b27",
+      "bytes": 145421
+    },
+    {
+      "path": "/assets/s5runtime/sound/cannonade/brail_blast.ogg",
+      "sha256": "a4f8b1d76bd05b2dfa75a0b2f64e68f17097a6469924b9a29e8c2c88b9c8b202",
+      "bytes": 49432
+    },
+    {
+      "path": "/assets/s5runtime/sound/cannonade/brail_charge.ogg",
+      "sha256": "ca81111af97a8f3cde4b15ac3c0ca67a0efaa42d98d01c9646dac620c165bc3d",
+      "bytes": 149981
+    },
+    {
+      "path": "/assets/s5runtime/sound/cannonade/brail_reload.ogg",
+      "sha256": "c45426ca24b92c2b1389cef8c40c35490551e7751de0df81237c199337f6e65b",
+      "bytes": 27366
+    },
+    {
+      "path": "/assets/s5runtime/animations/cannonade/male-source.json",
+      "sha256": "e09284289202338856d2e947860c3c4051fa35129ab289a93ea843d7fb6c52de",
+      "bytes": 2338926
+    },
+    {
+      "path": "/assets/s5runtime/animations/cannonade/male.json",
+      "sha256": "06090ac677de47c99fbf4d86a22dba9215f70a829f7a540b7b63cd131c5127c3",
+      "bytes": 2972
+    },
+    {
+      "path": "/assets/s5runtime/animations/cannonade/female-source.json",
+      "sha256": "ab0f2461b0645000bb941a1a150884364a2d72bc401968fd25772fa5abe11567",
+      "bytes": 2441007
+    },
+    {
+      "path": "/assets/s5runtime/animations/cannonade/female.json",
+      "sha256": "d884cc119180a7b6d0584f403389e374c396aee60a66f43e1c52b9a06cfd54c0",
+      "bytes": 2977
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/models/weapon_canon_charge.json",
+      "sha256": "f3e4571cdcef9e663c1b018f037c466ee054aee0e22d4da60dcc5b66f5053ee6",
+      "bytes": 26819
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/models/skill_gunner_elecbomb_part3.json",
+      "sha256": "8ce3a2a3c8cf5c45a24790747ebc7778e75d878b3d26a1261ac81c7ef1545563",
+      "bytes": 368977
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/models/weapon_canon_smallfire.json",
+      "sha256": "3a7b1bc2c48607e2933ed6b16eae4dcbcb7c4e61248cb8436a9b4a6f589c03ef",
+      "bytes": 754361
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/models/weapon_canon_fullfire.json",
+      "sha256": "ca13453d78c5fd0940f8c37b0a393669d88571a7b0d8549bd5f8c702022c9fe6",
+      "bytes": 753297
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/sequences/skill_gunner_electronic_bomb_3.json",
+      "sha256": "4e44d9c5f45adce37927c36c1bb2e527c95c7e64e689085dac85567cfc359f15",
+      "bytes": 26670
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/sequences/weapon_canon_fire_max.json",
+      "sha256": "5526e11bfac7b902a25d113e5364217f9c76adc6c9f5bd28bd0a7c209188d5d9",
+      "bytes": 11385
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/sequences/weapon_canon_fire.json",
+      "sha256": "3fc69adbe4194642af8d9afc96087c1f17b755b1eb12f6f013c848e516d7061c",
+      "bytes": 11390
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/sequences/weapon_canon_charge_loop.json",
+      "sha256": "6301b0e636a6fc374fad1d822edd874bcdbf48cac5301e33a5168dce1c149066",
+      "bytes": 18982
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/sequences/weapon_canon_hit_max.json",
+      "sha256": "d85b8a5394137e93a1ab033a76034c27a3e18262d198ae38da148df29f16591d",
+      "bytes": 42575
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/sequences/weapon_canon_charge.json",
+      "sha256": "f5080254bb778217b8c124ea0735bff366f56df6e39e8fae69cc88ab9d680733",
+      "bytes": 21796
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/sequences/weapon_canon_hit.json",
+      "sha256": "cab633c1998919eeb76c735cd7d0d69dd70d211133ca6207b8f79f1fcebac679",
+      "bytes": 42576
+    },
+    {
+      "path": "/assets/s5runtime/effects/cannonade/runtime.json",
+      "sha256": "3a7188a6c1eaeb5e8c87efacd9fc96d73a564e3e548690fdb7f1658840adb047",
+      "bytes": 24659
+    }
+  ],
+  "curveIssues": [
+    {
+      "sex": "male",
+      "reason": "Error: cannonade/male: root curve handedness 1 contradicts Twin Blade reference -1"
+    },
+    {
+      "sex": "female",
+      "reason": "Error: cannonade/female: root curve handedness 1 contradicts Twin Blade reference -1"
+    }
+  ],
+  "unresolved": [],
+  "nativeGameplayVerified": false,
+  "runtime": {
+    "weapon": "cannonade",
+    "adapter": "src/cannonade-runtime.js",
+    "contact": "src/cannonade-contact.js",
+    "charge": "src/cannonade-charge.js",
+    "effects": "src/cannonade-effects.js",
+    "tests": "tests/cannonade-gameplay.test.mjs",
+    "inventoryEnabled": true,
+    "shortcut": "J",
+    "reconstruction": {
+      "damage": "Native charge interpolation and observed equipped-reference endpoints compared on both sexes; target HP/armor/critical and equipment outside that profile remain unverified",
+      "targetVolume": "arena box, width1 / height2.2",
+      "occlusion": "center ray",
+      "pushPolicy": "collision-swept displacement; native actor gates/cap unresolved"
+    },
+    "remainingNativeWork": [
+      "Native route is a delayed CExplosionAttack at the aim point, not a moving rocket. Exact input/state and effect timing comparisons remain pending.",
+      "Native right click toggles stable vertical FOV45, initially requesting catalogue15; charge/fire coexistence and switch exit are observed. The active reference camera uses response1.5 entering and1.75 exiting;162 captured angle changes compare exactly with the S5 float32 pipeline. External15-to45 target hook, camera translation, reticle/body visibility and interrupt policy remain unverified.",
+      "Native equipped-reference power7.203390121459961..36.01695251464844 and49 live charge getter samples compare. Target hit volumes, other equipment, armor/guard/critical and HP pipeline remain unverified. Protected numbers are read through native getters.",
+      "AddPushCondition parameters are source-backed and update the actor position through collision. Record direction and native actor gates/cap are arena reconstruction.",
+      "Both CActLightning source nodes are now rendered: three straight points, source width80, repeat4 and fade500.156 scalar updates compare against native1290270 under explicit24-bit/nearest, supported by six original-frame FP queries. Evaluated native endpoints/vertices, following and GPU blend/pixels remain unverified; other flash/charge/impact dimensions and audio need comparison.",
+      "Both-sex/eight-direction native body clips, mobile reload and transitions remain unverified. Ten male/female weapon-root observations relative to their native hand pass; this does not certify body clips."
+    ],
+    "powerReference": {
+      "minimum": 7.203390121459961,
+      "maximum": 36.01695251464844,
+      "sourceBeforeNativeProfile": 8.5,
+      "evidence": "work/cannonade-recovery/native-logical-values-v4.json"
+    },
+    "logicalEvidence": "work/cannonade-recovery/logical-comparison.json",
+    "zoom": {
+      "fov": 45,
+      "catalogueFov": 15,
+      "evidence": "work/cannonade-recovery/native-zoom-v2.json",
+      "mode": "toggle",
+      "camera": {
+        "initialTarget": 15,
+        "target": 45,
+        "rest": 90,
+        "enterResponse": 1.5,
+        "exitResponse": 1.75,
+        "tickScale": 0.009999999776482582,
+        "evidence": "work/cannonade-recovery/native-zoom-transition-v2.json"
+      },
+      "cameraTransition": "Observed initial15 then stable45; native float32 interpolation compared in162 angle changes. External clamp hook and full camera equivalence remain open.",
+      "comparison": "work/cannonade-recovery/camera-comparison.json"
+    },
+    "lightning": {
+      "adapter": "src/lightning-effect.js",
+      "math": "src/native-lightning.js",
+      "nativeScalarComparison": "work/cannonade-recovery/lightning-scalar-comparison.json",
+      "frameFpEvidence": "work/cannonade-recovery/native-lightning/frame-fpu-v1.json",
+      "nativeEvaluatedGeometryVerified": false,
+      "nativeGpuVerified": false,
+      "endpointPolicy": "Live post-mixer muzzle plus aimed first-contact snapshot; actual native destination publication/follow and absolute endpoints pending"
+    }
+  }
+}

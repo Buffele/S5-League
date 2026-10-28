@@ -1,0 +1,459 @@
+{
+  "format": "s5-submachine-gun-resources-v1",
+  "status": "main-game-experimental-native-comparison-pending",
+  "itemKey": 2010001,
+  "ability": {
+    "type": "2",
+    "category": "2",
+    "rate_of_fire": "8",
+    "power": "7",
+    "move_speed_rate": "1.05",
+    "attack_move_speed_rate": "1.05",
+    "magazine_capacity": "30",
+    "cracked_magazine_capacity": "10",
+    "max_ammo": "-1",
+    "max_ammo_limit": "-1",
+    "accuracy": "0.04"
+  },
+  "attachmentSource": {
+    "path": "work/s5runtime-local/private/weapon-source-current/weapon_attach.x7",
+    "sha256": "099e2f5fcb6acdb33583e1eab6ef0637ee81f08fb1ec9fbb020fe00889fdee54",
+    "entries": [
+      {
+        "sceneIndex": 0,
+        "attackAttach": "R_Hand_Dummy",
+        "link": 0,
+        "idleAttach": "Gun_Dummy"
+      },
+      {
+        "sceneIndex": 1,
+        "attackAttach": "L_Hand_Dummy",
+        "link": 0,
+        "idleAttach": "Gun_Dummy"
+      }
+    ]
+  },
+  "states": {
+    "normal": {
+      "function": "NormalState_SubMachineGun",
+      "source": "work/s5runtime-local/private/weapon-source-lua/script/actorstates_normalstates.lua",
+      "sourceSha256": "f143f916491aa1a6b4afc8b41f82924d05a979de43cf6d5ca1d78a8e302b8c29",
+      "bodySha256": "70287aa8b418ddaee9c0f3e32eed1020380c2ea834ac95d100481b9573b7ec4a",
+      "clips": [
+        "D0026"
+      ]
+    },
+    "run": {
+      "function": "RunState_SubMachineGun",
+      "source": "work/s5runtime-local/private/weapon-source-lua/script/actorstates_runstates.lua",
+      "sourceSha256": "d9e6f2e1918d98073fe75699ce9f329b427667ea1059461038b76e481de848cb",
+      "bodySha256": "6503208c2c6adfc277b8a0004b09b6d2b7e9cef087fdba2f78ae032a4186b021",
+      "clips": [
+        "D0027",
+        "D0028",
+        "D0029",
+        "D0030",
+        "D0031",
+        "D0032",
+        "D0033",
+        "D0034"
+      ]
+    },
+    "attack": {
+      "function": "UseWeapon1State_SubMachineGunAttack",
+      "source": "work/s5runtime-local/private/weapon-source-lua/script/actorstates_etcweapon.lua",
+      "sourceSha256": "8bcaf906f398223c0d5df4fcbdafd4af65dac78bb7ae5d5e7f43df12b2ddfc1b",
+      "bodySha256": "30d93c9024712d7eb9bab9d6fde72f1f2237fd22c62a6a574c27d50f234b9b7b",
+      "clips": [
+        "D0004",
+        "D0004_1",
+        "D0004_2",
+        "D0005",
+        "D0005_1",
+        "D0005_2",
+        "D0006",
+        "D0006_1",
+        "D0006_2",
+        "D0007",
+        "D0007_1",
+        "D0007_2",
+        "D0008",
+        "D0008_1",
+        "D0008_2",
+        "D0009",
+        "D0009_1",
+        "D0009_2",
+        "D0010",
+        "D0010_1",
+        "D0010_2",
+        "D0011",
+        "D0011_1",
+        "D0011_2",
+        "D0000",
+        "D0001",
+        "D0002"
+      ]
+    },
+    "reload": {
+      "function": "ReloadState_SubMachineGun",
+      "source": "work/s5runtime-local/private/weapon-source-lua/script/actorstates_reloadstates.lua",
+      "sourceSha256": "01e98ab014aae28f2f8b8f51740ca9a6d9be03e7718a8c8e4a6fd6d936eec0b7",
+      "bodySha256": "10b218523f8c3ded8bf6c62beab34fe718b5cafb153d316f3a8eedb9a83078cb",
+      "clips": [
+        "D0003",
+        "D0027",
+        "D0028",
+        "D0029",
+        "D0030",
+        "D0031",
+        "D0032",
+        "D0033",
+        "D0034"
+      ]
+    }
+  },
+  "animations": [
+    {
+      "sex": "male",
+      "source": "model/character/male_bip.scn",
+      "sourceSha256": "d9953bde346c6b242e8d45d4ea885a581203c3999a78ab13d60aa7ea3997dba5",
+      "sourceCrc32": "7a744796",
+      "clipCount": 37,
+      "runProof": {
+        "rootBone": "Bip01",
+        "calibration": {
+          "frontClip": "D0027",
+          "rightClip": "D0031",
+          "minimumAlignment": 0.7,
+          "handedness": -1
+        },
+        "directions": {
+          "front": {
+            "clip": "D0027",
+            "rootFacing": [
+              1,
+              0.000001
+            ],
+            "relativeProjection": [
+              1,
+              0
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "rightFront": {
+            "clip": "D0030",
+            "rootFacing": [
+              0.866026,
+              -0.499999
+            ],
+            "relativeProjection": [
+              0.866025,
+              0.5
+            ],
+            "alignment": 0.965926,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "right": {
+            "clip": "D0031",
+            "rootFacing": [
+              0.000001,
+              -1
+            ],
+            "relativeProjection": [
+              0,
+              1
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "rightBack": {
+            "clip": "D0034",
+            "rootFacing": [
+              -0.866025,
+              -0.500001
+            ],
+            "relativeProjection": [
+              -0.866025,
+              0.5
+            ],
+            "alignment": 0.965926,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "back": {
+            "clip": "D0032",
+            "rootFacing": [
+              -1,
+              -0.000001
+            ],
+            "relativeProjection": [
+              -1,
+              0
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "leftBack": {
+            "clip": "D0033",
+            "rootFacing": [
+              -0.866026,
+              0.499999
+            ],
+            "relativeProjection": [
+              -0.866026,
+              -0.5
+            ],
+            "alignment": 0.965926,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "left": {
+            "clip": "D0029",
+            "rootFacing": [
+              -0.000001,
+              1
+            ],
+            "relativeProjection": [
+              0,
+              -1
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "leftFront": {
+            "clip": "D0028",
+            "rootFacing": [
+              0.866025,
+              0.500001
+            ],
+            "relativeProjection": [
+              0.866025,
+              -0.5
+            ],
+            "alignment": 0.965926,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          }
+        }
+      }
+    },
+    {
+      "sex": "female",
+      "source": "model/character/female_bip.scn",
+      "sourceSha256": "98caac4c4f8ee8900a9b28b050e7900fbb8c4c1b65a5f968a20110ae7653d465",
+      "sourceCrc32": "d3a71175",
+      "clipCount": 37,
+      "runProof": {
+        "rootBone": "Bip01",
+        "calibration": {
+          "frontClip": "D0027",
+          "rightClip": "D0031",
+          "minimumAlignment": 0.7,
+          "handedness": -1
+        },
+        "directions": {
+          "front": {
+            "clip": "D0027",
+            "rootFacing": [
+              1,
+              0.000001
+            ],
+            "relativeProjection": [
+              1,
+              0
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "rightFront": {
+            "clip": "D0030",
+            "rootFacing": [
+              0.866026,
+              -0.499999
+            ],
+            "relativeProjection": [
+              0.866025,
+              0.5
+            ],
+            "alignment": 0.965926,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "right": {
+            "clip": "D0031",
+            "rootFacing": [
+              0.000001,
+              -1
+            ],
+            "relativeProjection": [
+              0,
+              1
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "rightBack": {
+            "clip": "D0034",
+            "rootFacing": [
+              -0.866025,
+              -0.500001
+            ],
+            "relativeProjection": [
+              -0.866025,
+              0.5
+            ],
+            "alignment": 0.965926,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "back": {
+            "clip": "D0032",
+            "rootFacing": [
+              -1,
+              -0.000001
+            ],
+            "relativeProjection": [
+              -1,
+              0
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "leftBack": {
+            "clip": "D0033",
+            "rootFacing": [
+              -0.866026,
+              0.499999
+            ],
+            "relativeProjection": [
+              -0.866025,
+              -0.5
+            ],
+            "alignment": 0.965926,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "left": {
+            "clip": "D0029",
+            "rootFacing": [
+              -0.000001,
+              1
+            ],
+            "relativeProjection": [
+              0,
+              -1
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "leftFront": {
+            "clip": "D0028",
+            "rootFacing": [
+              0.866025,
+              0.500001
+            ],
+            "relativeProjection": [
+              0.866025,
+              -0.5
+            ],
+            "alignment": 0.965926,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          }
+        }
+      }
+    }
+  ],
+  "resources": [
+    {
+      "source": "model/weapon/handle2.dds",
+      "sourceBytes": 349680,
+      "sourceSha256": "b894e4b80171ca47a3294c130c5201df04e29a63a5a8684eb7166a3e64c76945",
+      "path": "/assets/s5runtime/weapons/submachine-gun/handle2.png",
+      "bytes": 111274,
+      "sha256": "7ab5a5e701a849084da0db39bcf9f397ac6170f9e8f33a35cf0d624fa64afbc8",
+      "width": 512,
+      "height": 512,
+      "format": "DXT5"
+    },
+    {
+      "source": "model/weapon/bar_gun3.dds",
+      "sourceBytes": 349680,
+      "sourceSha256": "91713423ae5e48b0ef8304933ee1dc6625aee3e092bd91969996f7d0a294ab7c",
+      "path": "/assets/s5runtime/weapons/submachine-gun/bar_gun3.png",
+      "bytes": 99278,
+      "sha256": "c96915a577c6f5c653553320441063c970ffc8dbd34393d788db731736f8a610",
+      "width": 512,
+      "height": 512,
+      "format": "DXT5"
+    },
+    {
+      "path": "/assets/s5runtime/weapon-submachine-gun-classic.json",
+      "bytes": 309191,
+      "sha256": "c02d2a1110df2939fa370eed5c7dccaf547d34897a9cd029c06a3dcc8c0af296"
+    },
+    {
+      "path": "/assets/s5runtime/sound/submachine-gun/smg_blast.ogg",
+      "bytes": 16623,
+      "sha256": "8cb7efbb701992c6e0f6080de838f8f62a35654936e8d7fcfba90070768dbc73"
+    },
+    {
+      "path": "/assets/s5runtime/sound/submachine-gun/smg_reload.ogg",
+      "bytes": 24502,
+      "sha256": "83a5a1bbe432b9a6d5c1ff821400248fbecca1536437ef34df8c6b3bddd9f5f8"
+    },
+    {
+      "path": "/assets/s5runtime/sound/submachine-gun/smg_dry_fire.ogg",
+      "bytes": 11659,
+      "sha256": "d098a95f90328cb98bf8d34b196d5483e0e4025c09f3c98a5c6a43210b34b192"
+    },
+    {
+      "path": "/assets/s5runtime/sound/submachine-gun/player_attack.ogg",
+      "bytes": 28401,
+      "sha256": "ba0d7d419eba1e585542e717b9f683b37ee925441f85d00ec23f05202d5f7c9f"
+    },
+    {
+      "path": "/assets/s5runtime/sound/submachine-gun/wall_attack.ogg",
+      "bytes": 28475,
+      "sha256": "a58b4e626ef4fab22a300a23ca6f037f1b184255a3c38b55b0c06949303dd626"
+    },
+    {
+      "path": "/assets/s5runtime/animations/submachine-gun/male.json",
+      "bytes": 3633535,
+      "sha256": "17b12a1678d0db670c6e233ff64beaff9c46c9ac3168ca2da602ee52d23074c1"
+    },
+    {
+      "path": "/assets/s5runtime/animations/submachine-gun/female.json",
+      "bytes": 3115709,
+      "sha256": "2b1424fcf3c15294ccc59427dfeccf3230f75d9dd0ccd6a0c30d37289be84eb1"
+    }
+  ],
+  "missing": [
+    "Native moving-fire animation selections, particularly rear/diagonal source curves, require live comparison on both sexes.",
+    "Native attachment position/orientation, dual flash timing, equip/stow and aerial transitions remain unverified.",
+    "RayDistanceLimit now uses native map fog/cull limits and option33; twelve native configuration comparisons pass. Far target HP/collision volumes still require native comparison.",
+    "Native critical/body-part volumes, armor/guard/conditions and exact HP pipeline are not reproduced by the arena AABB.",
+    "Pattern recovery interpolation, native pitch blend curve and first-shot timing require quantitative native comparisons."
+  ],
+  "nativeGameplayVerified": false,
+  "runtime": {
+    "weapon": "submachinegun",
+    "adapter": "src/submachine-gun-runtime.js",
+    "rangeAdapter": "src/native-rifle-range.js",
+    "rangeEvidence": "work/submachine-gun-recovery/range-analysis/native-map-cases-v2.json",
+    "tests": "tests/submachine-gun-gameplay.test.mjs",
+    "effects": "/assets/s5runtime/effects/submachine-gun/runtime-manifest.json",
+    "inventoryEnabled": true,
+    "shortcut": "U"
+  }
+}

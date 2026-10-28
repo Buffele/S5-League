@@ -1,0 +1,113 @@
+{
+  "credit": "Powered by Poly Haven",
+  "sources": [
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_textured_concrete/wood_textured_concrete_diff_1k.jpg",
+      "source": "https://polyhaven.com/a/wood_textured_concrete",
+      "file": "wood_textured_concrete-Diffuse.jpg",
+      "asset": "wood_textured_concrete",
+      "md5": "670f233ec7dd3361a1efede0fa610d83",
+      "map": "Diffuse"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_textured_concrete/wood_textured_concrete_nor_gl_1k.jpg",
+      "source": "https://polyhaven.com/a/wood_textured_concrete",
+      "file": "wood_textured_concrete-nor_gl.jpg",
+      "asset": "wood_textured_concrete",
+      "md5": "0de39637d416d61dd21b937d455de9e9",
+      "map": "nor_gl"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_textured_concrete/wood_textured_concrete_arm_1k.jpg",
+      "source": "https://polyhaven.com/a/wood_textured_concrete",
+      "file": "wood_textured_concrete-arm.jpg",
+      "asset": "wood_textured_concrete",
+      "md5": "bcee12ef05461e538c9e3d61bf823547",
+      "map": "arm"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_diff_1k.jpg",
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+      "file": "concrete_floor_worn_001-Diffuse.jpg",
+      "asset": "concrete_floor_worn_001",
+      "md5": "e35597cca586150b1ab2aa9a331a39c5",
+      "map": "Diffuse"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_1k.jpg",
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+      "file": "concrete_floor_worn_001-nor_gl.jpg",
+      "asset": "concrete_floor_worn_001",
+      "md5": "9de6626758f8793b71182b892c110827",
+      "map": "nor_gl"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_floor_worn_001/concrete_floor_worn_001_arm_1k.jpg",
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+      "file": "concrete_floor_worn_001-arm.jpg",
+      "asset": "concrete_floor_worn_001",
+      "md5": "8174fe8a5c982edef079c3c3775e5377",
+      "map": "arm"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_diff_1k.jpg",
+      "source": "https://polyhaven.com/a/metal_plate",
+      "file": "metal_plate-Diffuse.jpg",
+      "asset": "metal_plate",
+      "md5": "bd9daf4c04046ca392a38b8df955ed26",
+      "map": "Diffuse"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_nor_gl_1k.jpg",
+      "source": "https://polyhaven.com/a/metal_plate",
+      "file": "metal_plate-nor_gl.jpg",
+      "asset": "metal_plate",
+      "md5": "d379e66130ad6ccff217ac9b13de935d",
+      "map": "nor_gl"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/metal_plate/metal_plate_arm_1k.jpg",
+      "source": "https://polyhaven.com/a/metal_plate",
+      "file": "metal_plate-arm.jpg",
+      "asset": "metal_plate",
+      "md5": "13f064ffa4863a4170d902f675eb022e",
+      "map": "arm"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face/rock_face_diff_1k.jpg",
+      "source": "https://polyhaven.com/a/rock_face",
+      "file": "rock_face-Diffuse.jpg",
+      "asset": "rock_face",
+      "md5": "220c637db6056b45e7c0a17e6ed8514e",
+      "map": "Diffuse"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face/rock_face_nor_gl_1k.jpg",
+      "source": "https://polyhaven.com/a/rock_face",
+      "file": "rock_face-nor_gl.jpg",
+      "asset": "rock_face",
+      "md5": "0d244b69a346db78f06c7b76510bb640",
+      "map": "nor_gl"
+    },
+    {
+      "license": "CC0",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face/rock_face_arm_1k.jpg",
+      "source": "https://polyhaven.com/a/rock_face",
+      "file": "rock_face-arm.jpg",
+      "asset": "rock_face",
+      "md5": "c50427671b20794a93864f0602fbbd32",
+      "map": "arm"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "status": "runtime-wired-native-comparison-pending",
+  "source": "ATTACKATTRIB_SUBMACHINE_GUN",
+  "muzzles": [
+    "Gun_L_Fire_Dummy",
+    "Gun_R_Fire_Dummy"
+  ],
+  "tracer": "Gun_L_Fire_Dummy",
+  "proofs": [
+    {
+      "source": "effects/gun_blast1_1.seq",
+      "sha256": "4a70a83e6f931c5b3d56725f9f2994874d5f039392ab981b6b64680c604c0230"
+    },
+    {
+      "source": "effects/gun_hit4.seq",
+      "sha256": "d46ec234cc2636be4b6b5a2711e4345b01815f3bed1d36672fad66a11d830b22"
+    },
+    {
+      "source": "effects/gun_hit.seq",
+      "sha256": "d866077998eca59820349aeb234a9ad755253c6cb07922d4e9a2d0812bf633c9"
+    },
+    {
+      "source": "effects/0008.dds",
+      "sha256": "aec64b63e0c25dc15ec22f5a225928c41339280efb04cc3fce00f59daa5a6824",
+      "path": "/assets/s5runtime/effects/semi-rifle/textures/0008.png",
+      "outputSha256": "d3f41b16c0723dfaaa43b7f3b8aa06e069870bf692579c9db97b0e1be5daad0c"
+    },
+    {
+      "source": "effects/0009.dds",
+      "sha256": "a8147ac7ffca6c97d68e2ddaa4e761b88379253f2691ba1cdd5bfa5cf7bbf7f0",
+      "path": "/assets/s5runtime/effects/semi-rifle/textures/0009.png",
+      "outputSha256": "b37e3db12baca35302a2fbf25d8253c0488388fb066c9495d8027955a68f1978"
+    },
+    {
+      "source": "effects/flash.dds",
+      "sha256": "64d643b28b6a1243b621dbf999a6671aa812f333533d13090436f135749e26ba",
+      "path": "/assets/s5runtime/effects/semi-rifle/textures/flash.png",
+      "outputSha256": "d95decd7cb8b6dcb9f7822875c7f1c6f1d2aa8f7b014d5dbebdf32db1ccf5c1a"
+    },
+    {
+      "source": "effects/gun_blast1_1.scn",
+      "sha256": "4ff1dfde2f9202433a4465a2c15cb1e9db6e3f867f4611d70f58f0eb2b1bd705"
+    },
+    {
+      "source": "effects/levelup5_nomipmap.dds",
+      "sha256": "d0db22c760c30a2610c8a9812cdef72e88cf9d24c32a0bdde916394a96602ef4",
+      "path": "/assets/s5runtime/effects/revolver/textures/levelup5_nomipmap.png",
+      "outputSha256": "45a1ea9b5eabbd360b40c8f7b163af1b3032a81132dda25baffd6339a98120e8"
+    },
+    {
+      "source": "effects/mapeffect_light6.dds",
+      "sha256": "bf7a371fd9c2455f79684109be6dbefe5b4318c3ee7253d7df523c537bef1efa",
+      "path": "/assets/s5runtime/effects/revolver/textures/mapeffect_light6.png",
+      "outputSha256": "f513905958ef691198db90759b9e32aa107db4ae3c4dddcf3d6346610ebc1b73"
+    },
+    {
+      "source": "effects/attack4_nomipmap.dds",
+      "sha256": "299fda1e366c7c5884af8e45dd66f8bebe59d3fd14440fab1a6d21eeb17c6f52",
+      "path": "/assets/s5runtime/effects/revolver/textures/attack4_nomipmap.png",
+      "outputSha256": "c6723ff5604204aba59b1fbcefbd821e49be776331fe12892f95bf8ec1265b52"
+    },
+    {
+      "source": "effects/attack3_nomipmap.dds",
+      "sha256": "4755fe0ddba41e419f3be53da78c0d2fd981bb462bf173e33ac20695049bc432",
+      "path": "/assets/s5runtime/effects/revolver/textures/attack3_nomipmap.png",
+      "outputSha256": "8952a69aa7f562d2f23df3390316b3ce4391fd5446578f4ef2a310c0e58dd7aa"
+    },
+    {
+      "source": "effects/effect_forcefield2.dds",
+      "sha256": "d37b8bbf956c6f5860d6c3d4979329d09a8507908b801c5d8e19fa0480adc814",
+      "path": "/assets/s5runtime/effects/revolver/textures/effect_forcefield2.png",
+      "outputSha256": "1480689b25ce9949bae43c6e6999474189ee656c33fff407864faaea6ac6df2c"
+    },
+    {
+      "source": "effects/tick2_blue.dds",
+      "sha256": "4f9fcf0812468175896392dcefda499c733c81a08b4198d613e35bb853c3e472",
+      "path": "/assets/s5runtime/effects/revolver/textures/tick2_blue.png",
+      "outputSha256": "a1d841d8d266bf0622a08f092edd8955bf2e97002fbdeb37c1a943785afb4fe1"
+    },
+    {
+      "source": "effects/gun_hit_hexa.scn",
+      "sha256": "9c4b6b3c8f5415830c42c066dceba94293f0829e2f931d34ebababbf3bcff034"
+    },
+    {
+      "source": "effects/mapeff_gun_ricochet.scn",
+      "sha256": "121ee1b6eedb4a779b096189f881487ec53756bf5945ad96b778a88c8a2b90de"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/assets/s5runtime/effects/semi-rifle/models/gun_blast1_1.json",
+      "sha256": "69a501f50e7506f8843c390606be2059112e46dbd5ddf1d8feeaa8ce3c8677e2"
+    },
+    {
+      "path": "/assets/s5runtime/effects/semi-rifle/textures/0009.png",
+      "sha256": "b37e3db12baca35302a2fbf25d8253c0488388fb066c9495d8027955a68f1978"
+    },
+    {
+      "path": "/assets/s5runtime/effects/semi-rifle/textures/0008.png",
+      "sha256": "d3f41b16c0723dfaaa43b7f3b8aa06e069870bf692579c9db97b0e1be5daad0c"
+    },
+    {
+      "path": "/assets/s5runtime/effects/semi-rifle/textures/flash.png",
+      "sha256": "d95decd7cb8b6dcb9f7822875c7f1c6f1d2aa8f7b014d5dbebdf32db1ccf5c1a"
+    },
+    {
+      "path": "/assets/s5runtime/effects/revolver/textures/levelup5_nomipmap.png",
+      "sha256": "45a1ea9b5eabbd360b40c8f7b163af1b3032a81132dda25baffd6339a98120e8"
+    },
+    {
+      "path": "/assets/s5runtime/effects/revolver/models/gun_hit_hexa.json",
+      "sha256": "d22181c3dceb75302b571d3fef41006d858149c1f2f1a3fdc8108cbf19f356ff"
+    },
+    {
+      "path": "/assets/s5runtime/effects/revolver/textures/effect_forcefield2.png",
+      "sha256": "1480689b25ce9949bae43c6e6999474189ee656c33fff407864faaea6ac6df2c"
+    },
+    {
+      "path": "/assets/s5runtime/effects/revolver/textures/mapeffect_light6.png",
+      "sha256": "f513905958ef691198db90759b9e32aa107db4ae3c4dddcf3d6346610ebc1b73"
+    },
+    {
+      "path": "/assets/s5runtime/effects/revolver/textures/attack4_nomipmap.png",
+      "sha256": "c6723ff5604204aba59b1fbcefbd821e49be776331fe12892f95bf8ec1265b52"
+    },
+    {
+      "path": "/assets/s5runtime/effects/revolver/textures/attack3_nomipmap.png",
+      "sha256": "8952a69aa7f562d2f23df3390316b3ce4391fd5446578f4ef2a310c0e58dd7aa"
+    },
+    {
+      "path": "/assets/s5runtime/effects/revolver/models/mapeff_gun_ricochet.json",
+      "sha256": "c81fc398af67f08a139b66552f1b2961a9e7dddafb4c04efdf0ad97a689705fb"
+    },
+    {
+      "path": "/assets/s5runtime/effects/revolver/textures/tick2_blue.png",
+      "sha256": "a1d841d8d266bf0622a08f092edd8955bf2e97002fbdeb37c1a943785afb4fe1"
+    }
+  ],
+  "nativeGameplayVerified": false
+}

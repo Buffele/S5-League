@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "output": "courtyard-v1.png",
+  "reference": "User-selected lobby concept, archived in work/lobby-redesign-20261018/reference.png",
+  "prompt": "Use case: precise-object-edit. Asset type: background plate for actual interactive S5 League game lobby. Input image is reference screenshot. Generate the ENVIRONMENT ONLY. Remove ALL interface panels, all typography, all characters, weapons, avatars, logo, header and footer. Reconstruct the uncovered scene behind them. Keep the quiet sunlit concrete futuristic anime sports-arena architectural courtyard, pale blue sky, intersecting pale concrete skybridges, industrial training-arena building facade on right, broad flat tiled concrete floor occupying lower third, warm daylight and soft shadows, restrained neutral palette. Camera and perspective as reference. Plenty of uncluttered floor around x=40% y=85% for runtime character to stand. Landscape 16:9. This is clean game environment background, NO character, NO UI, NO text, NO logo, NO frame. Faithful stylized 3D game render, soft distant depth of field but foreground floor crisp. No hologram platform or extra decorative objects.",
+  "scope": "Environment plate only; HUD is interactive HTML/CSS/SVG and avatar is the evaluated runtime rig."
+}

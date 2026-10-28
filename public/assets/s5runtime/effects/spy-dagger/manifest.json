@@ -1,0 +1,148 @@
+{
+  "schema": "s5-spy-dagger-effects-v1",
+  "source": "UseWeapon2State_SpyDagger AddSequence(0, Effects/shortknife01.seq, empty sound, 0, 5000)",
+  "status": "staged-source-authenticated-main-game-observation-pending",
+  "evidence": [
+    {
+      "path": "effects/shortknife01.seq",
+      "checksum": "ba704bdb",
+      "plainLength": 2402,
+      "storedLength": 1284,
+      "dataOffset": 4966676,
+      "archive": "package/40.xs",
+      "sha256": "7a425205a3c4796f35c3811a4406fda9dd5328f71e6e7849c2fb3566876bb5c1",
+      "method": "repeated-zero-block+signature+crc32"
+    },
+    {
+      "path": "effects/mapeffect_light2.dds",
+      "checksum": "4644d972",
+      "plainLength": 2872,
+      "storedLength": 2024,
+      "dataOffset": 95170245,
+      "archive": "package/28.xs",
+      "sha256": "ebf6448089fe7cdba8514b23cbe56a6bdcd9750593fc4bd7393f68083fd782d2",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/smog.dds",
+      "checksum": "9e9b365c",
+      "plainLength": 11064,
+      "storedLength": 7092,
+      "dataOffset": 51500037,
+      "archive": "package/54.xs",
+      "sha256": "1b923965b25c2ac5ed23eded49dde06ead1e2f0aaf1b2c5a4f6381509c41af16",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/skill_mage_scheaveng_nomipmap.dds",
+      "checksum": "adaaad06",
+      "plainLength": 11080,
+      "storedLength": 6088,
+      "dataOffset": 1813926,
+      "archive": "package/28.xs",
+      "sha256": "564ffeafd431cf5cea8a761c5b161c22193232933d0b3e882e5e6736b4734712",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/spy_dagger_effect.scn",
+      "checksum": "a4d52441",
+      "plainLength": 16594,
+      "storedLength": 14189,
+      "dataOffset": 93435907,
+      "archive": "package/41.xs",
+      "sha256": "18d806673ab23cd4cb09997b9e873e9cb5c31243eaefcd331fa36f9c7102e0d3",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/spy_dagger_effect.dds",
+      "checksum": "4a723a9e",
+      "plainLength": 22000,
+      "storedLength": 20883,
+      "dataOffset": 768178,
+      "archive": "package/3.xs",
+      "sha256": "be3b0d3468ea20ea15c1925eb98cb4241840c64d9aea8715bb1509a7e298261d",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/tick.dds",
+      "checksum": "874b5583",
+      "plainLength": 2872,
+      "storedLength": 2299,
+      "dataOffset": 45761478,
+      "archive": "package/4.xs",
+      "sha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "method": "known-header-crc32"
+    }
+  ],
+  "textures": [
+    {
+      "source": "effects/mapeffect_light2.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "ebf6448089fe7cdba8514b23cbe56a6bdcd9750593fc4bd7393f68083fd782d2",
+      "path": "/assets/s5runtime/effects/spy-dagger/textures/mapeffect_light2.png",
+      "bytes": 1117,
+      "sha256": "969f180a74bd8243f1d63303d6a44613b603c195b60805fb736e061fcc27af4f",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/smog.dds",
+      "sourceBytes": 11064,
+      "sourceSha256": "1b923965b25c2ac5ed23eded49dde06ead1e2f0aaf1b2c5a4f6381509c41af16",
+      "path": "/assets/s5runtime/effects/spy-dagger/textures/smog.png",
+      "bytes": 7967,
+      "sha256": "5862767ecd4523a324705693680f5e9fcfea68fc68b41dd497a42168067b1a7f",
+      "width": 128,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/skill_mage_scheaveng_nomipmap.dds",
+      "sourceBytes": 11080,
+      "sourceSha256": "564ffeafd431cf5cea8a761c5b161c22193232933d0b3e882e5e6736b4734712",
+      "path": "/assets/s5runtime/effects/spy-dagger/textures/skill_mage_scheaveng_nomipmap.png",
+      "bytes": 6594,
+      "sha256": "d7bfb43dd5d91711e02b282fa72d980343b8b78d6c579539de3d838be47b112e",
+      "width": 64,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/spy_dagger_effect.dds",
+      "sourceBytes": 22000,
+      "sourceSha256": "be3b0d3468ea20ea15c1925eb98cb4241840c64d9aea8715bb1509a7e298261d",
+      "path": "/assets/s5runtime/effects/spy-dagger/textures/spy_dagger_effect.png",
+      "bytes": 26486,
+      "sha256": "38b90ab5bf76beafd4b84f676f35ecb3b688e660d41b8d5a4179918e49f83d8a",
+      "width": 128,
+      "height": 128,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/tick.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "path": "/assets/s5runtime/effects/spy-dagger/textures/tick.png",
+      "bytes": 1831,
+      "sha256": "b193c5abe53662185c26abee065200c4f4878846a96c75ee34f2afb9751eefca",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    }
+  ],
+  "models": [
+    {
+      "source": "effects/spy_dagger_effect.scn",
+      "path": "/assets/s5runtime/effects/spy-dagger/models/spy_dagger_effect.json",
+      "sourceSha256": "18d806673ab23cd4cb09997b9e873e9cb5c31243eaefcd331fa36f9c7102e0d3",
+      "models": 1
+    }
+  ],
+  "omitted": [],
+  "nativeTextureResolution": "Same-basename DDS from current copied archive for legacy BMP literals; no visual substitution.",
+  "limitations": [
+    "Source resource closure is complete; native particle branch fidelity, following and exact placement require S5Runtime comparison.",
+    "Authored sequence lasts 1500 ms; Lua AddSequence 5000 ms end parameter is retained as evidence, not used to stretch emitter duration."
+  ]
+}

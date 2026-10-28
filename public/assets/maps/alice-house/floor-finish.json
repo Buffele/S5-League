@@ -1,0 +1,165 @@
+{
+  "schema": "alice-house-botanical-floor-v1",
+  "source": "model/background/alicehouse.scn",
+  "sourceSha256": "0bcd779d8e38e86165fe4a8f4425b358d1744108f62d55a9e93125d628e341eb",
+  "assets": [
+    {
+      "id": 1,
+      "name": "Chambre — lames claires",
+      "url": "/assets/maps/alice-house/textures/alice-botanical-floor-01-v1.png",
+      "sha256": "e023e236af29a67c069e2e76a716594c21785a1efe658dcd31b72319d40eb63f",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": 2,
+      "name": "Salon d’échecs — parquet Versailles",
+      "url": "/assets/maps/alice-house/textures/alice-botanical-floor-02-v1.png",
+      "sha256": "c732fa2ffcb78e4a2ef2ab651ce84c9592054d0e3c9f85c9d80e43a29160e665",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": 3,
+      "name": "Bibliothèque — chevrons de chêne",
+      "url": "/assets/maps/alice-house/textures/alice-botanical-floor-03-v1.png",
+      "sha256": "f2a9b06188072b084715a61152aae51250bd1f96648ed44d8048f8494a54f7d3",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": 4,
+      "name": "Salle à manger — parquet tressé",
+      "url": "/assets/maps/alice-house/textures/alice-botanical-floor-04-v1.png",
+      "sha256": "4005089e9595509682411af8301c8b1e08f2b0c404cd475b7ce9f04bf9e1984d",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": 5,
+      "name": "Galeries et palier — lames continues",
+      "url": "/assets/maps/alice-house/textures/alice-botanical-floor-05-v1.png",
+      "sha256": "146e9cf49c439cf951f8d4f6293c1835b0ee7b680b243dc965cfee9ec96ea050",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": 6,
+      "name": "Passages — pierre ivoire et sauge",
+      "url": "/assets/maps/alice-house/textures/alice-botanical-floor-06-v1.png",
+      "sha256": "1d544d006f06a5f5101fa35fde7cd88d112e354f3354dc6167daa5ee217c0e30",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": 7,
+      "name": "Pavillon central — mosaïque botanique",
+      "url": "/assets/maps/alice-house/textures/alice-botanical-floor-07-v1.png",
+      "sha256": "685ff00ab67d609ce3458e07a11fdc7618e8c52b435cf8a9ecad5d4a461e9c83",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": 8,
+      "name": "Bordure de marqueterie botanique",
+      "url": "/assets/maps/alice-house/textures/alice-botanical-floor-08-v1.png",
+      "sha256": "1ec2c9368ffb154d6b9d47f4037a3befa086a3d8ee9ff2e38122f21396384ba0",
+      "width": 2162,
+      "height": 727
+    },
+    {
+      "id": 9,
+      "name": "Bordure de pierre sauge",
+      "url": "/assets/maps/alice-house/textures/alice-botanical-floor-09-v1.png",
+      "sha256": "74f2ef1be755ca95b74e028d3721be2322e90730b19971650b3c938d3d61380f",
+      "width": 2172,
+      "height": 724
+    }
+  ],
+  "zones": [
+    {
+      "id": "chambre",
+      "texture": 1,
+      "border": 8,
+      "bounds": [
+        -16.4,
+        -0.5,
+        -23.59,
+        -11.5
+      ],
+      "pitch": 2.8
+    },
+    {
+      "id": "salon-echecs",
+      "texture": 2,
+      "border": 8,
+      "bounds": [
+        0.5,
+        17,
+        -23.59,
+        -11.5
+      ],
+      "pitch": 3.2
+    },
+    {
+      "id": "salle-a-manger",
+      "texture": 4,
+      "border": 8,
+      "bounds": [
+        18,
+        31.3,
+        -23.59,
+        -11.5
+      ],
+      "pitch": 2.8
+    },
+    {
+      "id": "bibliotheque-bureaux",
+      "texture": 3,
+      "border": 8,
+      "bounds": [
+        -19.3,
+        -5.2,
+        6.6,
+        16.34
+      ],
+      "pitch": 3.2
+    },
+    {
+      "id": "galerie-escalier",
+      "texture": 5,
+      "border": 8,
+      "bounds": [
+        -23.4,
+        -3,
+        -11.5,
+        6.6
+      ],
+      "pitch": 2.8
+    }
+  ],
+  "circulation": {
+    "id": "circulations",
+    "texture": 6,
+    "border": 9,
+    "pitch": 2.4
+  },
+  "rearGallery": {
+    "id": "galerie-fond",
+    "texture": 5,
+    "border": 8,
+    "pitch": 2.8
+  },
+  "central": {
+    "id": "zone-chaser",
+    "texture": 7,
+    "border": 9
+  },
+  "stairs": {
+    "id": "marches-et-paliers",
+    "texture": 5,
+    "pitch": 2.8
+  },
+  "borderWidth": 0.24,
+  "policy": "Render-only coplanar surfaces clipped to existing S5Runtime floor faces, with unchanged geometry/collision/spawn data. Terrace model 0 faces 23..46 is excluded. Rectangular room finish limits follow the surveyed furniture/threshold zones; they do not define physics. Fine wooden panel rails conceal generated parquet repeat boundaries."
+}

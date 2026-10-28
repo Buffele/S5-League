@@ -1,0 +1,892 @@
+{
+  "format": "s5-breaker-effects-staged-v1",
+  "status": "staged-data-not-renderable",
+  "playable": false,
+  "rendered": false,
+  "sourceManifest": {
+    "path": "work/s5runtime-decoder/breaker-effects/manifest.json",
+    "sha256": "24edd67a197bd4bde982cfed3723815256393b93f40b6e1befb8be1e2a1e31bd",
+    "resources": 13,
+    "failures": 0
+  },
+  "supplementalSourceManifest": {
+    "path": "work/s5runtime-decoder/breaker-effects-extra/manifest.json",
+    "sha256": "83fea9efbd337537991f5675916f44439b92bfa653746ab73ce245b376e28216",
+    "resources": 2,
+    "failures": 0
+  },
+  "resolvedGiSourceManifest": {
+    "path": "work/s5runtime-decoder/breaker-effects-gi/manifest.json",
+    "sha256": "462d092491c7ccb959e520fd349d2a4acda957657ace0e4a51cf7a57f8067943",
+    "resources": 1,
+    "failures": 0
+  },
+  "particleTextureSourceManifest": {
+    "path": "work/s5runtime-decoder/breaker-particle-dds/manifest.json",
+    "sha256": "fa70203b48d0b9d1e1e3058306a35fd1490838325c99b52844ab59418b681e22",
+    "resources": 20,
+    "failures": 0,
+    "independentlyVerified": 20,
+    "independentVerificationSha256": "2af0fd158f20ad5ec91817882188158b5e4d86965a66ad7cef821ecf67f88484",
+    "resolutionAuditSha256": "606f53c69887deacb0f8dff4fa83f26f1fb866d66f2510b0e0d0950d1249c1cf"
+  },
+  "nodeLoaderModelResolution": {
+    "path": "work/s5runtime-decoder/nodeloader-model-resolution.json",
+    "sha256": "15814065122fd6ba137541d504e98c29cabfd262e4dc26b4b8b403be9c902278",
+    "modelsResolved": 3,
+    "nativeExecuted": false,
+    "rendered": false
+  },
+  "modelTextureSourceManifest": {
+    "path": "work/s5runtime-decoder/breaker-model-texture/manifest.json",
+    "sha256": "f470679791a10dbdfa3d958ceb21390adf3478b512671608adf766aa84548754",
+    "resources": 1,
+    "failures": 0,
+    "independentlyVerified": 1,
+    "independentVerificationSha256": "5813e01038b8fe400bbd8218c63a86ccef61d8c7b2b9a995fa3d4b861779f3b0"
+  },
+  "coverage": {
+    "sequencesStructured": 5,
+    "texturesConverted": 23,
+    "modelsConverted": 3,
+    "sequenceNodesStructured": 26,
+    "directDependencyCompleteSequences": [
+      "effects/weapon_breaker_chargeattcack.seq",
+      "effects/skill_bat_strike.seq",
+      "effects/hm_jumpattack.seq",
+      "effects/backattack_sword_s.seq",
+      "effects/blank_1sec.seq"
+    ]
+  },
+  "assets": [
+    {
+      "role": "sequence-structure",
+      "path": "/assets/s5runtime/effects/breaker/sequences/weapon_breaker_chargeattcack.json",
+      "bytes": 167356,
+      "sha256": "11342b33aec63a0f16ff041310bd98917ffbc2df7f654e84a06a6f6e4b7d3c90",
+      "workspaceSource": "converted/effects/weapon_breaker_chargeattcack.json"
+    },
+    {
+      "role": "sequence-structure",
+      "path": "/assets/s5runtime/effects/breaker/sequences/skill_bat_strike.json",
+      "bytes": 7994,
+      "sha256": "34ff6831b77d117c58dfa546986146edd25c9c60dd112616bdd1259508dfaf2d",
+      "workspaceSource": "converted/effects/skill_bat_strike.json"
+    },
+    {
+      "role": "sequence-structure",
+      "path": "/assets/s5runtime/effects/breaker/sequences/hm_jumpattack.json",
+      "bytes": 141905,
+      "sha256": "655fd929c8f1e18dbe205fd5cd17c9a60e0399374ca4858fc681b1cea3b3e5b8",
+      "workspaceSource": "converted/effects/hm_jumpattack.json"
+    },
+    {
+      "role": "sequence-structure",
+      "path": "/assets/s5runtime/effects/breaker/sequences/backattack_sword_s.json",
+      "bytes": 28531,
+      "sha256": "0b75dec6d944213d1bf64f74d16e1dad67b4671dc70c19967d0a45ad5bcbf36e",
+      "workspaceSource": "converted/effects/backattack_sword_s.json"
+    },
+    {
+      "role": "sequence-structure",
+      "path": "/assets/s5runtime/effects/breaker/sequences/blank_1sec.json",
+      "bytes": 12339,
+      "sha256": "06de18b207d4d197314ee81c9286ec1d8ba0865ff04ceaa808c40ae60db10071",
+      "workspaceSource": "converted/effects/blank_1sec.json"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/air02.png",
+      "bytes": 15011,
+      "sha256": "087d711ff43b26106330309ff11b9c0c0dab6c17b86b2f068b2cce819c1ab0e1",
+      "workspaceSource": "converted/effects/textures/air02.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/attack4_nomipmap.png",
+      "bytes": 33865,
+      "sha256": "c6723ff5604204aba59b1fbcefbd821e49be776331fe12892f95bf8ec1265b52",
+      "workspaceSource": "converted/effects/textures/attack4_nomipmap.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/d100_st_boss_fog01.png",
+      "bytes": 14394,
+      "sha256": "60e5354c020d766c330b5b524b90879fe79d3b1aec81273d4cb0e65b764ef706",
+      "workspaceSource": "converted/effects/textures/d100_st_boss_fog01.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/eff_bat_elec01.png",
+      "bytes": 24718,
+      "sha256": "9c2fa3e948e89c2752e24cef9a2b2297da3c62a7bbe4451bb8db20446e93b569",
+      "workspaceSource": "converted/effects/textures/eff_bat_elec01.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/enemy_res1_nomipmap.png",
+      "bytes": 6940,
+      "sha256": "49100f4800adc3a1cbd393c5a7554280833ec270a60e0c4e2e4bd35cf76930f1",
+      "workspaceSource": "converted/effects/textures/enemy_res1_nomipmap.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/enemy_res4_nomipmap.png",
+      "bytes": 26989,
+      "sha256": "e5024e57e1ab1467d2c787df7ab5417f1a1a68a7a751a2a94594443cd0cc026d",
+      "workspaceSource": "converted/effects/textures/enemy_res4_nomipmap.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/flash_blue.png",
+      "bytes": 9926,
+      "sha256": "3c1c557d5cbcdfe8fff07a217bf6de47bdd7daa20a29090619672258682b6d95",
+      "workspaceSource": "converted/effects/textures/flash_blue.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/gazer03.png",
+      "bytes": 4239,
+      "sha256": "e462e1e94f331d9aed3df96e3b63de5e8838186464e198904379b93c69276c15",
+      "workspaceSource": "converted/effects/textures/gazer03.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/gazer03_1.png",
+      "bytes": 4508,
+      "sha256": "a291b9d5dfd01f030f186d2a40f8b8fe8dbe0ba89abb5257ad8eaf55da499d9e",
+      "workspaceSource": "converted/effects/textures/gazer03_1.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/gi.png",
+      "bytes": 31970,
+      "sha256": "c45736b8e1c2a894f40cfdfaf1781d4a1f0d0ca6d115b5b99f06eed7a4fe6de7",
+      "workspaceSource": "converted/effects/textures/gi.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/hm_jump.png",
+      "bytes": 53397,
+      "sha256": "abb898c4a3eab14554eac0503b48bef9b4a3c51dfa2b7048ed7a491a1c632eb3",
+      "workspaceSource": "converted/effects/textures/hm_jump.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/lightning1.png",
+      "bytes": 2383,
+      "sha256": "3b011bd1e74e8cd527237f3efc608b533fbfb5463d557f19f9528c1749ceb777",
+      "workspaceSource": "converted/effects/textures/lightning1.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/lightning2.png",
+      "bytes": 1963,
+      "sha256": "b48cd79285379a9f7084bb8b06223edfcef38ba14418517cb185bd5e1c84e999",
+      "workspaceSource": "converted/effects/textures/lightning2.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/lightning3.png",
+      "bytes": 2306,
+      "sha256": "bacdcee3ee71900f5bfcdc46dbd62f5a5bde543f22731303fa35025120048294",
+      "workspaceSource": "converted/effects/textures/lightning3.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/lightning4.png",
+      "bytes": 2112,
+      "sha256": "af6baa81e56f158543bbcce42bd7e80c0b0d8f678b64ced945067a81752a2b68",
+      "workspaceSource": "converted/effects/textures/lightning4.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/pupple_fire01.png",
+      "bytes": 1545,
+      "sha256": "8f658500e8669379137bc8452a197f2416d3e085e683d5aee3bcb97631619062",
+      "workspaceSource": "converted/effects/textures/pupple_fire01.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/pupple_fire02.png",
+      "bytes": 1170,
+      "sha256": "85f20a0d0c1b07af79c29a7178de21fd28d949e3cd18628590397fca694a11db",
+      "workspaceSource": "converted/effects/textures/pupple_fire02.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/ringring4.png",
+      "bytes": 35907,
+      "sha256": "0334b3ff6e279a61dc6c6445f633186dc16e67ddf6d78d620a816a19db699a0b",
+      "workspaceSource": "converted/effects/textures/ringring4.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/skill_templar_divcure4_nomipmap.png",
+      "bytes": 14957,
+      "sha256": "cfa4e673d37ec323f4605600bbabfa77c21a146aca2ad40bb09f505cc4f8eed5",
+      "workspaceSource": "converted/effects/textures/skill_templar_divcure4_nomipmap.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/skill_templar_scheaven1r_nomipmap.png",
+      "bytes": 7723,
+      "sha256": "1097eb1c0e12b101ac194abd882d868dda9e51b974fb1d6e7febc4aa6fe18e06",
+      "workspaceSource": "converted/effects/textures/skill_templar_scheaven1r_nomipmap.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/tick.png",
+      "bytes": 1831,
+      "sha256": "b193c5abe53662185c26abee065200c4f4878846a96c75ee34f2afb9751eefca",
+      "workspaceSource": "converted/effects/textures/tick.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/tick3.png",
+      "bytes": 1820,
+      "sha256": "5edbe05dfd80048421991ea875aeb9a7de96dadd84c753cb2f0e1f6c9996d00a",
+      "workspaceSource": "converted/effects/textures/tick3.png"
+    },
+    {
+      "role": "converted-texture",
+      "path": "/assets/s5runtime/effects/breaker/textures/wave2.png",
+      "bytes": 2013,
+      "sha256": "b9e8ed3941f38e1de948551f2701e6ef9cfeef2c3ca63efffd0fe3d2dd622be9",
+      "workspaceSource": "converted/effects/textures/wave2.png"
+    },
+    {
+      "role": "converted-model",
+      "path": "/assets/s5runtime/effects/breaker/models/a0015.json",
+      "bytes": 624,
+      "sha256": "20780391253da6c5a1bb06fff0c9e5f7f7305feeb523cd6bc349ebf070f65c29",
+      "workspaceSource": "converted/effects/models/a0015.json"
+    },
+    {
+      "role": "converted-model",
+      "path": "/assets/s5runtime/effects/breaker/models/eff_bat_jumpattack.json",
+      "bytes": 8294,
+      "sha256": "d24e624c649c1755ea0112c6c23221630b705af5d038072e03f90ec656eafd11",
+      "workspaceSource": "converted/effects/models/eff_bat_jumpattack.json"
+    },
+    {
+      "role": "converted-model",
+      "path": "/assets/s5runtime/effects/breaker/models/hm_jump.json",
+      "bytes": 30421,
+      "sha256": "55cc905a02e7dc8f4be71502f427b19eb11e78bb2d4b94917fea344a593c994f",
+      "workspaceSource": "converted/effects/models/hm_jump.json"
+    }
+  ],
+  "sequencePlans": [
+    {
+      "source": "effects/weapon_breaker_chargeattcack.seq",
+      "convertedPath": "/assets/s5runtime/effects/breaker/sequences/weapon_breaker_chargeattcack.json",
+      "structureReadToExactEof": true,
+      "fieldMeaningFullyValidated": false,
+      "resolvedDependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\air02.dds",
+          "archive": "69.xs",
+          "archivePath": "effects/air02.dds",
+          "checksum": "6bf73f21",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/air02.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\d100_st_boss_fog01.dds",
+          "archive": "69.xs",
+          "archivePath": "effects/d100_st_boss_fog01.dds",
+          "checksum": "a7d531b5",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/d100_st_boss_fog01.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res1_nomipmap.dds",
+          "archive": "3.xs",
+          "archivePath": "effects/enemy_res1_nomipmap.dds",
+          "checksum": "6120b66e",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/enemy_res1_nomipmap.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.dds",
+          "archive": "3.xs",
+          "archivePath": "effects/enemy_res4_nomipmap.dds",
+          "checksum": "65e018a2",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/enemy_res4_nomipmap.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\gazer03.dds",
+          "archive": "67.xs",
+          "archivePath": "effects/gazer03.dds",
+          "checksum": "156d27d5",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/gazer03.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning1.dds",
+          "archive": "42.xs",
+          "archivePath": "effects/lightning1.dds",
+          "checksum": "bd60b79c",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/lightning1.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pupple_fire01.dds",
+          "archive": "42.xs",
+          "archivePath": "effects/pupple_fire01.dds",
+          "checksum": "efcdecbf",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/pupple_fire01.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\pupple_fire02.dds",
+          "archive": "60.xs",
+          "archivePath": "effects/pupple_fire02.dds",
+          "checksum": "93567a08",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/pupple_fire02.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_templar_divcure4_nomipmap.dds",
+          "archive": "2.xs",
+          "archivePath": "effects/skill_templar_divcure4_nomipmap.dds",
+          "checksum": "6fbf0c81",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/skill_templar_divcure4_nomipmap.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\skill_templar_scheaven1r_nomipmap.dds",
+          "archive": "25.xs",
+          "archivePath": "effects/skill_templar_scheaven1r_nomipmap.dds",
+          "checksum": "3aea76b8",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/skill_templar_scheaven1r_nomipmap.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\tick3.dds",
+          "archive": "3.xs",
+          "archivePath": "effects/tick3.dds",
+          "checksum": "2c99ebab",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/tick3.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        }
+      ],
+      "unresolvedDependencies": [],
+      "directDependenciesComplete": true,
+      "rendered": false,
+      "playable": false
+    },
+    {
+      "source": "effects/skill_bat_strike.seq",
+      "convertedPath": "/assets/s5runtime/effects/breaker/sequences/skill_bat_strike.json",
+      "structureReadToExactEof": true,
+      "fieldMeaningFullyValidated": false,
+      "resolvedDependencies": [
+        {
+          "sourceLiteral": "c:\\documents and settings\\skydeep01\\바탕 화면\\야구사자후\\gi.dds",
+          "archive": "2.xs",
+          "archivePath": "effects/gi.dds",
+          "checksum": "bb11f947",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/gi.png",
+          "nativePathResolution": {
+            "reader": "0x112b410",
+            "sequenceDirectorySource": "effects/skill_bat_strike.seq",
+            "archivePath": "effects/gi.dds",
+            "operation": "replace embedded drive+directory with the loaded SEQ drive+directory; preserve basename and extension",
+            "extensionPreserved": true
+          }
+        },
+        {
+          "sourceLiteral": "c:\\documents and settings\\skydeep01\\바탕 화면\\테스트 배트라인 이펙트\\a0015.scn",
+          "archive": "3.xs",
+          "archivePath": "effects/a0015.scn",
+          "checksum": "01c3368c",
+          "sha256": "94833c018fcd0642803669bf6438e15dfc86cde4eca640db40d5d10597d98e15",
+          "convertedPath": "/assets/s5runtime/effects/breaker/models/a0015.json",
+          "nativePathResolution": {
+            "rule": "sequence directory + source basename + source extension",
+            "rebasedPath": "effects/a0015.scn",
+            "selectedPath": "effects/a0015.scn",
+            "evidence": [
+              "0x115f9bd",
+              "0x115fa02",
+              "0x115fa19",
+              "0x115fa33"
+            ]
+          },
+          "resolution": "native-nodeloader-basename-extension",
+          "contentStatus": "decoded-shape-data-not-rendered"
+        }
+      ],
+      "unresolvedDependencies": [],
+      "directDependenciesComplete": true,
+      "rendered": false,
+      "playable": false
+    },
+    {
+      "source": "effects/hm_jumpattack.seq",
+      "convertedPath": "/assets/s5runtime/effects/breaker/sequences/hm_jumpattack.json",
+      "structureReadToExactEof": true,
+      "fieldMeaningFullyValidated": false,
+      "resolvedDependencies": [
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\eff_bat_jumpattack.scn",
+          "archive": "2.xs",
+          "archivePath": "effects/eff_bat_jumpattack.scn",
+          "checksum": "04c6e1f0",
+          "sha256": "12925d1d5cd79dd63e9a39876f664146f1d3a2ea2d970a578f00403b8c588f20",
+          "convertedPath": "/assets/s5runtime/effects/breaker/models/eff_bat_jumpattack.json",
+          "nativePathResolution": {
+            "rule": "sequence directory + source basename + source extension",
+            "rebasedPath": "effects/eff_bat_jumpattack.scn",
+            "selectedPath": "effects/eff_bat_jumpattack.scn",
+            "evidence": [
+              "0x115f9bd",
+              "0x115fa02",
+              "0x115fa19",
+              "0x115fa33"
+            ]
+          },
+          "resolution": "native-nodeloader-basename-extension",
+          "contentStatus": "decoded-shape-data-not-rendered"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\enemy_res4_nomipmap.bmp",
+          "archive": "3.xs",
+          "archivePath": "effects/enemy_res4_nomipmap.dds",
+          "checksum": "65e018a2",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/enemy_res4_nomipmap.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\flash_blue.bmp",
+          "archive": "67.xs",
+          "archivePath": "effects/flash_blue.dds",
+          "checksum": "db6ff55d",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/flash_blue.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\gazer03_1.bmp",
+          "archive": "42.xs",
+          "archivePath": "effects/gazer03_1.dds",
+          "checksum": "1666d3de",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/gazer03_1.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\gazer03.bmp",
+          "archive": "67.xs",
+          "archivePath": "effects/gazer03.dds",
+          "checksum": "156d27d5",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/gazer03.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\hm_jump.scn",
+          "archive": "42.xs",
+          "archivePath": "effects/hm_jump.scn",
+          "checksum": "f699ca98",
+          "sha256": "bb4cd08e9e5ccb4011e57af996853f5815d77424b02c3339319b65b0b1589d85",
+          "convertedPath": "/assets/s5runtime/effects/breaker/models/hm_jump.json",
+          "nativePathResolution": {
+            "rule": "sequence directory + source basename + source extension",
+            "rebasedPath": "effects/hm_jump.scn",
+            "selectedPath": "effects/hm_jump.scn",
+            "evidence": [
+              "0x115f9bd",
+              "0x115fa02",
+              "0x115fa19",
+              "0x115fa33"
+            ]
+          },
+          "resolution": "native-nodeloader-basename-extension",
+          "contentStatus": "decoded-shape-data-not-rendered"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning1.bmp",
+          "archive": "42.xs",
+          "archivePath": "effects/lightning1.dds",
+          "checksum": "bd60b79c",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/lightning1.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning2.bmp",
+          "archive": "25.xs",
+          "archivePath": "effects/lightning2.dds",
+          "checksum": "a6ea1dbc",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/lightning2.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning3.bmp",
+          "archive": "3.xs",
+          "archivePath": "effects/lightning3.dds",
+          "checksum": "5b3002db",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/lightning3.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\lightning4.bmp",
+          "archive": "3.xs",
+          "archivePath": "effects/lightning4.dds",
+          "checksum": "5b6fcc9e",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/lightning4.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\ringring4.bmp",
+          "archive": "67.xs",
+          "archivePath": "effects/ringring4.dds",
+          "checksum": "1d5d5b28",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/ringring4.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\tick3.bmp",
+          "archive": "3.xs",
+          "archivePath": "effects/tick3.dds",
+          "checksum": "2c99ebab",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/tick3.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\wave2.bmp",
+          "archive": "42.xs",
+          "archivePath": "effects/wave2.dds",
+          "checksum": "dfa68a6d",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/wave2.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        }
+      ],
+      "unresolvedDependencies": [],
+      "directDependenciesComplete": true,
+      "rendered": false,
+      "playable": false
+    },
+    {
+      "source": "effects/backattack_sword_s.seq",
+      "convertedPath": "/assets/s5runtime/effects/breaker/sequences/backattack_sword_s.json",
+      "structureReadToExactEof": true,
+      "fieldMeaningFullyValidated": false,
+      "resolvedDependencies": [
+        {
+          "sourceLiteral": "d:\\--------s4--------\\이펙트work\\attack4_nomipmap.bmp",
+          "archive": "2.xs",
+          "archivePath": "effects/attack4_nomipmap.dds",
+          "checksum": "3fd0ba4c",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/attack4_nomipmap.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        },
+        {
+          "sourceLiteral": "d:\\--------s4--------\\이펙트work\\tick.bmp",
+          "archive": "26.xs",
+          "archivePath": "effects/tick.dds",
+          "checksum": "874b5583",
+          "convertedPath": "/assets/s5runtime/effects/breaker/textures/tick.png",
+          "nativePathResolution": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+          "resolution": "native-cparticletexture-dds-preferred"
+        }
+      ],
+      "unresolvedDependencies": [],
+      "directDependenciesComplete": true,
+      "rendered": false,
+      "playable": false
+    },
+    {
+      "source": "effects/blank_1sec.seq",
+      "convertedPath": "/assets/s5runtime/effects/breaker/sequences/blank_1sec.json",
+      "structureReadToExactEof": true,
+      "fieldMeaningFullyValidated": false,
+      "resolvedDependencies": [],
+      "unresolvedDependencies": [],
+      "directDependenciesComplete": true,
+      "rendered": false,
+      "playable": false
+    }
+  ],
+  "modelDependencyBlockers": [],
+  "nativeTextureResolutionEvidence": {
+    "particleReader": "0x123e850",
+    "particleTextureCreate": "0x123ddc0",
+    "particleD3dLoader": "0x1236620 via vtable 0x14a7094 slot +0x28",
+    "ghostTrailReader": "0x112b410",
+    "sequenceDirectoryInitialization": "0x1220150 -> 0x1241640 and 0x112b6b0",
+    "operation": "rebase to the loaded SEQ directory; CActParticle then prefers an existing same-directory/same-basename .dds, otherwise the original extension",
+    "particleScope": "CActParticle only; 20 unique selected DDS paths, zero unresolved",
+    "giResolution": "effects/skill_bat_strike.seq + gi.dds -> effects/gi.dds",
+    "rejectedGiCandidate": "image/gi.dds",
+    "particleExtensionSubstitution": "BMP/TGA -> same-directory same-basename DDS only when that exact DDS exists",
+    "ghostTrailExtensionSubstitution": false,
+    "modelDataDdsPreference": "SceneResourceManager rebases to the SCN directory; the shared D3D texture manager then prefers an existing same-directory/same-basename .dds",
+    "editorOnlyRewrite": "_atex. -> _etex.",
+    "method": "static disassembly only; the client was not executed"
+  },
+  "resolvedNestedModelDependencies": [
+    {
+      "model": "effects/eff_bat_jumpattack.scn",
+      "embeddedTexture": "eff_bat_elec01.tga",
+      "status": "native-d3d-dds-preferred-converted",
+      "archivePath": "effects/eff_bat_elec01.dds",
+      "convertedPath": "/assets/s5runtime/effects/breaker/textures/eff_bat_elec01.png",
+      "checksum": "ad624eef",
+      "sha256": "75a19f089a09c4db3c28b9e83896132bf98349f57568c0d8390bfe85d3b9fa25"
+    },
+    {
+      "model": "effects/hm_jump.scn",
+      "embeddedTexture": "hm_jump.dds",
+      "status": "exact-archive-path-converted",
+      "archivePath": "effects/hm_jump.dds",
+      "convertedPath": "/assets/s5runtime/effects/breaker/textures/hm_jump.png"
+    }
+  ],
+  "resolvedNodeLoaderDependencies": [
+    {
+      "sequence": "effects/skill_bat_strike.seq",
+      "embeddedPath": "c:\\documents and settings\\skydeep01\\바탕 화면\\테스트 배트라인 이펙트\\a0015.scn",
+      "archivePath": "effects/a0015.scn",
+      "convertedPath": "/assets/s5runtime/effects/breaker/models/a0015.json",
+      "resolution": "native-nodeloader-basename-extension",
+      "contentStatus": "decoded-shape-data-not-rendered",
+      "checksum": "01c3368c",
+      "sha256": "94833c018fcd0642803669bf6438e15dfc86cde4eca640db40d5d10597d98e15",
+      "node": {
+        "name": "Line01",
+        "type": "Shape",
+        "serializedPairs": 1,
+        "models": 0,
+        "clips": 0
+      }
+    }
+  ],
+  "requiredBeforeRendering": [
+    "Implement and validate the rendering semantics of the decoded a0015/Line01 Shape pair; it is serialized shape/trail data, not a mesh.",
+    "Implement an effect renderer and visually validate timing, blend, UV animation, attachment and lifetime behavior."
+  ],
+  "requiredBeforePlayable": [
+    "All rendering requirements above.",
+    "Decode and validate the male and female actor rigs and all Breaker actor clips.",
+    "Integrate Breaker states, cancels, damage and effect bindings without changing general physics."
+  ],
+  "conversionVerification": {
+    "method": "authenticated SEQ SHA256/CRC32/length -> exact field comparison except descriptive qualification -> current canonical LF conversion; staged generator -> all public asset hashes",
+    "runner": "work/melee-batch-5/reconcile-breaker-effect-manifest.mjs",
+    "parser": {
+      "path": "work/arsenal-integration/convert-seq.mjs",
+      "sha256": "136ba1447b1780d2ca767f40c2dbecd83c273030e8f8c9570a2740b7e93e55e7"
+    },
+    "inputManifest": {
+      "path": "work/s5runtime-decoder/breaker/manifest.json",
+      "sha256": "233dc9d97d237c76cb9eab89128313136c89e1f2a1a4bdfa0eea08e220f5d013"
+    },
+    "sequences": [
+      {
+        "source": "effects/weapon_breaker_chargeattcack.seq",
+        "sourceSha256": "6fd3284342350d7a07f944190b8324e6b5e601321affea5ca4cb7d217867678b",
+        "sourceCrc32": "3686e297",
+        "sourceBytes": 4652,
+        "convertedPath": "/assets/s5runtime/effects/breaker/sequences/weapon_breaker_chargeattcack.json",
+        "convertedSha256": "11342b33aec63a0f16ff041310bd98917ffbc2df7f654e84a06a6f6e4b7d3c90",
+        "convertedBytes": 167356,
+        "previousQualification": "Header, base, Particle, GhostTrail and NodeLoader are consumed sequentially along statically traced native reader branches. NodeLoader deliberately rejects non-empty nested lists. Several four-byte fields retain raw/int/float views because their runtime meaning is not validated. No runtime rendering has been verified."
+      },
+      {
+        "source": "effects/skill_bat_strike.seq",
+        "sourceSha256": "e940e9a83be4f0d8c2ec802e1a12ea0c1f67a886e032141203b1a8cb610fc035",
+        "sourceCrc32": "2a212a8a",
+        "sourceBytes": 300,
+        "convertedPath": "/assets/s5runtime/effects/breaker/sequences/skill_bat_strike.json",
+        "convertedSha256": "34ff6831b77d117c58dfa546986146edd25c9c60dd112616bdd1259508dfaf2d",
+        "convertedBytes": 7994,
+        "previousQualification": "Header, base, Particle, GhostTrail and NodeLoader are consumed sequentially along statically traced native reader branches. NodeLoader deliberately rejects non-empty nested lists. Several four-byte fields retain raw/int/float views because their runtime meaning is not validated. No runtime rendering has been verified."
+      },
+      {
+        "source": "effects/hm_jumpattack.seq",
+        "sourceSha256": "c426627fb1c8404629d45e0504ae999140db96370dd45b0e5df11906154735a9",
+        "sourceCrc32": "95458b26",
+        "sourceBytes": 4163,
+        "convertedPath": "/assets/s5runtime/effects/breaker/sequences/hm_jumpattack.json",
+        "convertedSha256": "655fd929c8f1e18dbe205fd5cd17c9a60e0399374ca4858fc681b1cea3b3e5b8",
+        "convertedBytes": 141905,
+        "previousQualification": "Header, base, Particle, GhostTrail and NodeLoader are consumed sequentially along statically traced native reader branches. NodeLoader deliberately rejects non-empty nested lists. Several four-byte fields retain raw/int/float views because their runtime meaning is not validated. No runtime rendering has been verified."
+      },
+      {
+        "source": "effects/backattack_sword_s.seq",
+        "sourceSha256": "60a7b4d5cc897e0a188d22e4b4889c95bbb12533016df547491f5b99118c11d0",
+        "sourceCrc32": "3b398956",
+        "sourceBytes": 776,
+        "convertedPath": "/assets/s5runtime/effects/breaker/sequences/backattack_sword_s.json",
+        "convertedSha256": "0b75dec6d944213d1bf64f74d16e1dad67b4671dc70c19967d0a45ad5bcbf36e",
+        "convertedBytes": 28531,
+        "previousQualification": "Header, base, Particle, GhostTrail and NodeLoader are consumed sequentially along statically traced native reader branches. NodeLoader deliberately rejects non-empty nested lists. Several four-byte fields retain raw/int/float views because their runtime meaning is not validated. No runtime rendering has been verified."
+      },
+      {
+        "source": "effects/blank_1sec.seq",
+        "sourceSha256": "c35774dbbd81a011e40c6da38c0e60e89a24a33485890fb1d12c3f7b020876da",
+        "sourceCrc32": "98533987",
+        "sourceBytes": 311,
+        "convertedPath": "/assets/s5runtime/effects/breaker/sequences/blank_1sec.json",
+        "convertedSha256": "06de18b207d4d197314ee81c9286ec1d8ba0865ff04ceaa808c40ae60db10071",
+        "convertedBytes": 12339,
+        "previousQualification": "Header, base, Particle, GhostTrail and NodeLoader are consumed sequentially along statically traced native reader branches. NodeLoader deliberately rejects non-empty nested lists. Several four-byte fields retain raw/int/float views because their runtime meaning is not validated. No runtime rendering has been verified."
+      }
+    ],
+    "parserRevalidations": [
+      {
+        "time": "2026-10-15T13:15:07.876Z",
+        "priorParserSha256": "23c0bc6fbc9cb4584f95ec92096845965c8685f5869583d178c2890279972629",
+        "parserSha256": "f79bc4f37cd3a6199adab2458ac2d4fedf6d666c27c426ba5e6edc09da367f30",
+        "sourceProof": "work/game-modes/practice-recovery/sentry-behavior-staged/native-source.json",
+        "correction": "Native NodeLoader115F8B0 reads the substructure only for version>=float32(0.3).",
+        "rows": [
+          {
+            "source": "effects/weapon_breaker_chargeattcack.seq",
+            "sourceSha256": "6fd3284342350d7a07f944190b8324e6b5e601321affea5ca4cb7d217867678b",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/weapon_breaker_chargeattcack.json",
+            "priorConvertedSha256": "11342b33aec63a0f16ff041310bd98917ffbc2df7f654e84a06a6f6e4b7d3c90",
+            "convertedSha256": "11342b33aec63a0f16ff041310bd98917ffbc2df7f654e84a06a6f6e4b7d3c90",
+            "byteIdentical": true,
+            "schemaAdditions": [],
+            "serializedFieldsPreserved": true
+          },
+          {
+            "source": "effects/skill_bat_strike.seq",
+            "sourceSha256": "e940e9a83be4f0d8c2ec802e1a12ea0c1f67a886e032141203b1a8cb610fc035",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/skill_bat_strike.json",
+            "priorConvertedSha256": "f3ffcd889cee2d73af1ba3923d221b665ac378064c44cd8cfa5516ee3a66f31c",
+            "convertedSha256": "34ff6831b77d117c58dfa546986146edd25c9c60dd112616bdd1259508dfaf2d",
+            "byteIdentical": false,
+            "schemaAdditions": [
+              "nodes.0.fields.nativeSubstructure.entries=[]"
+            ],
+            "serializedFieldsPreserved": true
+          },
+          {
+            "source": "effects/hm_jumpattack.seq",
+            "sourceSha256": "c426627fb1c8404629d45e0504ae999140db96370dd45b0e5df11906154735a9",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/hm_jumpattack.json",
+            "priorConvertedSha256": "eeb6556847bd91b21b9f084d10ee889ebed2c2950651fc049e55ed06b2cfdd39",
+            "convertedSha256": "655fd929c8f1e18dbe205fd5cd17c9a60e0399374ca4858fc681b1cea3b3e5b8",
+            "byteIdentical": false,
+            "schemaAdditions": [
+              "nodes.7.fields.nativeSubstructure.entries=[]",
+              "nodes.9.fields.nativeSubstructure.entries=[]"
+            ],
+            "serializedFieldsPreserved": true
+          },
+          {
+            "source": "effects/backattack_sword_s.seq",
+            "sourceSha256": "60a7b4d5cc897e0a188d22e4b4889c95bbb12533016df547491f5b99118c11d0",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/backattack_sword_s.json",
+            "priorConvertedSha256": "0b75dec6d944213d1bf64f74d16e1dad67b4671dc70c19967d0a45ad5bcbf36e",
+            "convertedSha256": "0b75dec6d944213d1bf64f74d16e1dad67b4671dc70c19967d0a45ad5bcbf36e",
+            "byteIdentical": true,
+            "schemaAdditions": [],
+            "serializedFieldsPreserved": true
+          },
+          {
+            "source": "effects/blank_1sec.seq",
+            "sourceSha256": "c35774dbbd81a011e40c6da38c0e60e89a24a33485890fb1d12c3f7b020876da",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/blank_1sec.json",
+            "priorConvertedSha256": "06de18b207d4d197314ee81c9286ec1d8ba0865ff04ceaa808c40ae60db10071",
+            "convertedSha256": "06de18b207d4d197314ee81c9286ec1d8ba0865ff04ceaa808c40ae60db10071",
+            "byteIdentical": true,
+            "schemaAdditions": [],
+            "serializedFieldsPreserved": true
+          }
+        ],
+        "renderingObserved": false,
+        "nativeCompared": false,
+        "nativeReadinessChanged": false
+      },
+      {
+        "time": "2026-10-20T18:17:00.186Z",
+        "priorParserSha256": "f79bc4f37cd3a6199adab2458ac2d4fedf6d666c27c426ba5e6edc09da367f30",
+        "parserSha256": "136ba1447b1780d2ca767f40c2dbecd83c273030e8f8c9570a2740b7e93e55e7",
+        "sourceProof": "work/game-modes/practice-recovery/sentry-behavior-staged/native-source.json",
+        "correction": "Native NodeLoader115F8B0 reads the substructure only for version>=float32(0.3).",
+        "rows": [
+          {
+            "source": "effects/weapon_breaker_chargeattcack.seq",
+            "sourceSha256": "6fd3284342350d7a07f944190b8324e6b5e601321affea5ca4cb7d217867678b",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/weapon_breaker_chargeattcack.json",
+            "priorConvertedSha256": "11342b33aec63a0f16ff041310bd98917ffbc2df7f654e84a06a6f6e4b7d3c90",
+            "convertedSha256": "11342b33aec63a0f16ff041310bd98917ffbc2df7f654e84a06a6f6e4b7d3c90",
+            "byteIdentical": true,
+            "schemaAdditions": [],
+            "serializedFieldsPreserved": true
+          },
+          {
+            "source": "effects/skill_bat_strike.seq",
+            "sourceSha256": "e940e9a83be4f0d8c2ec802e1a12ea0c1f67a886e032141203b1a8cb610fc035",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/skill_bat_strike.json",
+            "priorConvertedSha256": "34ff6831b77d117c58dfa546986146edd25c9c60dd112616bdd1259508dfaf2d",
+            "convertedSha256": "34ff6831b77d117c58dfa546986146edd25c9c60dd112616bdd1259508dfaf2d",
+            "byteIdentical": true,
+            "schemaAdditions": [],
+            "serializedFieldsPreserved": true
+          },
+          {
+            "source": "effects/hm_jumpattack.seq",
+            "sourceSha256": "c426627fb1c8404629d45e0504ae999140db96370dd45b0e5df11906154735a9",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/hm_jumpattack.json",
+            "priorConvertedSha256": "655fd929c8f1e18dbe205fd5cd17c9a60e0399374ca4858fc681b1cea3b3e5b8",
+            "convertedSha256": "655fd929c8f1e18dbe205fd5cd17c9a60e0399374ca4858fc681b1cea3b3e5b8",
+            "byteIdentical": true,
+            "schemaAdditions": [],
+            "serializedFieldsPreserved": true
+          },
+          {
+            "source": "effects/backattack_sword_s.seq",
+            "sourceSha256": "60a7b4d5cc897e0a188d22e4b4889c95bbb12533016df547491f5b99118c11d0",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/backattack_sword_s.json",
+            "priorConvertedSha256": "0b75dec6d944213d1bf64f74d16e1dad67b4671dc70c19967d0a45ad5bcbf36e",
+            "convertedSha256": "0b75dec6d944213d1bf64f74d16e1dad67b4671dc70c19967d0a45ad5bcbf36e",
+            "byteIdentical": true,
+            "schemaAdditions": [],
+            "serializedFieldsPreserved": true
+          },
+          {
+            "source": "effects/blank_1sec.seq",
+            "sourceSha256": "c35774dbbd81a011e40c6da38c0e60e89a24a33485890fb1d12c3f7b020876da",
+            "convertedPath": "/assets/s5runtime/effects/breaker/sequences/blank_1sec.json",
+            "priorConvertedSha256": "06de18b207d4d197314ee81c9286ec1d8ba0865ff04ceaa808c40ae60db10071",
+            "convertedSha256": "06de18b207d4d197314ee81c9286ec1d8ba0865ff04ceaa808c40ae60db10071",
+            "byteIdentical": true,
+            "schemaAdditions": [],
+            "serializedFieldsPreserved": true
+          }
+        ],
+        "renderingObserved": false,
+        "nativeCompared": false,
+        "nativeReadinessChanged": false
+      }
+    ]
+  }
+}

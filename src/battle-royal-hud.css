@@ -1,0 +1,47 @@
+/* Observed rule9/Galleon111 HUD; maingame_ingame.xui/GroupBox_brmode.
+   Source frame407x98 and label rects use a1024x768 design canvas.
+   Narrow-screen size and timer offset are explicit presentation adaptations. */
+@font-face {
+ font-family: 'Battle Royal HUD';
+ src: url('/assets/s5runtime/ui/2002.ttf') format('truetype');
+ font-display: swap;
+}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui=battleroyal] {
+ --br-hud-unit:min(calc(100vw / 1024),calc(100vh / 768));
+ .br-native-hud {
+  position:absolute;left:calc(50% - 209 * var(--br-hud-unit));top:calc(-1 * var(--br-hud-unit));
+  width:calc(407 * var(--br-hud-unit));height:calc(98 * var(--br-hud-unit));
+  background:url('/assets/battle-royal-hud/score-frame.png') center / 100% 100% no-repeat;
+  color:#fff;text-shadow:1px 1px 2px #000;pointer-events:none;
+ }
+ .br-first-place {
+  position:absolute;left:calc(111 * var(--br-hud-unit));top:calc(17 * var(--br-hud-unit));
+  width:calc(192 * var(--br-hud-unit));height:calc(37 * var(--br-hud-unit));
+  display:flex;align-items:center;justify-content:center;gap:.2em;overflow:hidden;white-space:nowrap;
+  font:calc(20 * var(--br-hud-unit)) 'Battle Royal HUD',Arial,sans-serif;color:#ff1493;
+ }
+ .br-first-place [data-br-leader-name]{min-width:0;overflow:hidden;text-overflow:ellipsis}
+ .br-first-place [data-br-leader-score]{flex-shrink:0}
+ .br-local-points {
+  position:absolute;left:calc(148 * var(--br-hud-unit));top:calc(64 * var(--br-hud-unit));
+  width:calc(117 * var(--br-hud-unit));height:calc(25 * var(--br-hud-unit));
+  display:flex;align-items:center;justify-content:center;gap:calc(4 * var(--br-hud-unit));white-space:nowrap;
+  font:calc(15 * var(--br-hud-unit)) 'Battle Royal HUD',Arial,sans-serif;color:#fff;
+ }
+ .br-local-points b{font:inherit}
+ .br-session-rule{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .br-native-clock {
+  position:absolute;left:calc(48 * var(--br-hud-unit));top:calc(23 * var(--br-hud-unit));
+  margin:0;font:calc(20 * var(--br-hud-unit)) 'Battle Royal HUD',Arial,sans-serif;
+  color:#fff;text-shadow:1px 1px 2px #000;white-space:nowrap;pointer-events:none;
+ }
+ /* S5 rule/help copy belongs to Tab, away from the native play HUD. */
+ .match-roster .td-objective{
+  position:static;transform:none;display:flex;min-width:0;margin-top:12px;
+  padding:8px 0;border:0;background:none;
+ }
+ @media(max-width:600px){
+  --br-hud-unit:min(.75px,calc((100vw - 16px) / 407));
+  .br-native-clock{left:8px;top:calc(102 * var(--br-hud-unit));font-size:16px}
+ }
+}

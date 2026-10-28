@@ -1,0 +1,60 @@
+node_modules/
+android/.gradle/
+android/**/build/
+android/local.properties
+android/*.jks
+android/*.keystore
+outputs/android/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+test-result.txt
+coverage/
+.DS_Store
+Thumbs.db
+__pycache__/
+tmp/imagegen/
+*.pyc
+*.blend[0-9]*
+# Rejected visual reference; not used by Circle 2.
+art/circle2-imports/kenney-space-kit/
+art/circle2-imports/kenney-space-kit.zip
+art/circle2-atlas/rejected-azure-sky-photo-8k.jpg
+.vscode/
+.idea/
+.dotnet-cli/
+tools/s5runtime-trace/calibration/
+tools/s5runtime-trace/.deps/
+tools/s5runtime-trace/bin/
+tools/s5runtime-trace/obj/
+
+# Local migration evidence and archived chat snapshots (not runtime assets).
+work/reprise-local/
+work/project-relocation/
+
+# Local build and dependency caches (regenerable).
+.build-check-s5/
+tmp/bat-build/
+work/capture-build-deps/
+work/capture-package/dist/
+work/movement-analysis/pydeps/
+
+# Large decoder corpora and fetched third-party sources. Keep the decoder
+# scripts, reports, focused fixtures and staging work tracked for handoff.
+# The two recovered native character SCNs are required to resume the Katana
+# work and are versioned. Do not exclude scn-library wholesale.
+work/s5runtime-decoder/scn-inner-decoded/
+work/s5runtime-decoder/scn-samples/
+work/s5runtime-decoder/module-fetch/
+work/s5runtime-decoder/unverified-protected/
+work/s5runtime-decoder/references/UnityScnTool/
+
+# Temporary isolated checkout used to verify a remote restoration.
+.sync-check/
+
+# Keep the small validation reports referenced by the current handoff docs.
+!work/katon/*.log
+!work/semi-rifle-restoration/*.log
+!work/revolver-restoration/*.log

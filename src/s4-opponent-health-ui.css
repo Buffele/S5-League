@@ -1,0 +1,15 @@
+/* gui/new/maingame_ingame.xui ENEMY_STATUS_GroupBox (legacy 1024×768).
+   These are the enemy plate's own skins, not the player's metabolism HUD. */
+@font-face{font-family:S4Opponent2002;src:url('/assets/s5runtime/ui/2002.ttf') format('truetype');font-display:swap}
+/* Body-level plates retain their last projection while combat rendering is
+   suspended. They belong only to the actual playing surface, never entry,
+   lobby, the joined waiting room or the automatic result presentation. */
+body:not(.in-game) .enemy-health,body.in-waiting-room .enemy-health,body.room-results-open .enemy-health{display:none!important}
+body.in-game .enemy-health.s4-opponent-health{position:fixed;left:0;top:0;z-index:12;width:85px;height:26px;padding:0;margin:0;background:none;border:0;border-radius:0;box-shadow:none;pointer-events:none;overflow:visible;color:#f00;font-family:S4Opponent2002,sans-serif;font-weight:400;will-change:transform}
+body.in-game .s4-opponent-health[hidden]{display:none}
+body.in-game .s4-opponent-health>.s4-opponent-number{display:none}
+body.in-game .s4-opponent-health>.s4-opponent-name{position:absolute;left:-213px;top:-6px;width:512px;height:20px;font:400 12px/20px S4Opponent2002,sans-serif;text-align:center;letter-spacing:0;color:#f00;text-shadow:1px 1px #000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body.in-game .s4-opponent-health>.s4-opponent-bar{position:absolute;left:10px;top:15px;width:64px;height:5px;margin:0;padding:1px;box-sizing:border-box;overflow:hidden;border:0;border-radius:0;background:url('/assets/s5runtime/modes-ui/gui/new/black.png') center/100% 100% no-repeat}
+body.in-game .s4-opponent-health .s4-opponent-fill{display:block;width:100%;height:100%;background:url('/assets/s5runtime/modes-ui/gui/new/red.png') center/100% 100% no-repeat;transform-origin:left center;border-radius:0}
+body.in-game .s4-opponent-health[data-relation=ally] .s4-opponent-fill{background-image:url('/assets/s5runtime/modes-ui/gui/new/green.png')}
+body.in-game .s4-opponent-health[data-relation=spectate] .s4-opponent-fill{background-image:url('/assets/s5runtime/modes-ui/gui/new/white.png');background-size:200% 200%;background-position:left top}

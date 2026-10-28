@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'Game Menu Condensed';
+  src: url('/assets/s5runtime/modes-ui/webfonts/netsphimere-semiboldcondenseditalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+.game-escape-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: auto;
+  /* The actual game canvas stays visible beneath this translucent veil. */
+  background: rgb(3 12 23 / 46%);
+  color: #edf5ff;
+  pointer-events: auto;
+}
+.game-escape-menu[hidden] { display: none !important; }
+.game-escape-menu [hidden] { display: none !important; }
+.game-escape-effects-open .game-escape-content{flex-basis:620px;max-height:calc(100dvh - 40px);overflow:auto;padding:24px;background:#101f30f5;border:1px solid #6597b6;border-radius:8px}
+.game-weapon-effects{font:14px/1.5 sans-serif}.game-weapon-effects h2{margin:0 0 18px;color:#e2f8ff;font-size:22px}.game-weapon-effects>label{display:grid;gap:7px}.game-weapon-effects select{min-height:42px;width:100%;padding:9px;background:#172a3e;border:1px solid #64899b;border-radius:4px;color:#edf5ff;font:inherit}.game-weapon-effects select:focus-visible,.game-weapon-effects-back:focus-visible{outline:2px solid #63e4ff;outline-offset:3px}.game-weapon-effects .s5-inventory-effects{margin-top:20px}.game-weapon-effects .s5-inventory-effects h3{font-size:16px}.game-weapon-effects .s5-inventory-effects label>span{font-size:14px}.game-weapon-effects-back{display:block;margin:20px 0 0;width:100%;padding:12px;border:1px solid #64899b;border-radius:4px;background:#173b54;color:#edf5ff;font:inherit;cursor:pointer}
+/* Hide competing HUD overlays, preserving the live #game canvas. */
+body.game-menu-open > :not(#game):not(.game-escape-menu) { visibility: hidden !important; }
+.game-escape-menu .game-escape-content {
+  position: relative;
+  box-sizing: border-box;
+  flex: 0 1 310px;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+.game-escape-menu .game-escape-identity {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: -24px 0 -2px;
+  pointer-events: none;
+  user-select: none;
+  filter: drop-shadow(0 3px 4px #0008);
+}
+.game-escape-menu .game-escape-buttons { display: grid; gap: 8px; padding-left: 12px; }
+.game-escape-training { display: grid; gap: 12px; margin: 20px 0 0 12px; padding: 16px; border: 1px solid #6597b66b; background: #0c1c2bed; font: 14px/1.4 sans-serif; }
+.game-escape-training[hidden] { display: none !important; }
+.game-escape-training legend { padding: 0 6px; color: #bfefff; }
+.game-escape-training label { display: grid; gap: 5px; }
+.game-escape-training select { width: 100%; min-width: 0; min-height: 38px; padding: 7px; border: 1px solid #6597b6; border-radius: 3px; background: #142a3e; color: #edf5ff; font: inherit; }
+.game-escape-training select:focus-visible { outline: 2px solid #63e4ff; outline-offset: 2px; }
+.game-escape-training select:disabled { opacity: .6; }
+.game-escape-training p { margin: 0; color: #cbe6f5; }
+.game-escape-training p:empty { display: none; }
+.game-escape-menu .game-escape-button {
+  --cut: 28px;
+  --rim: linear-gradient(145deg, #bacbdb 0%, #344c66 22%, #7e9bb9 55%, #d0e4f2 76%, #455c78 100%);
+  --surface: linear-gradient(155deg, #2a4054ee, #101d30f5 58%, #2f4154ee);
+  position: relative;
+  isolation: isolate;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 46px;
+  margin: 0;
+  padding: 11px 26px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: #bfccda;
+  font: italic 600 18px/1.25 'Game Menu Condensed', 'Arial Narrow', sans-serif;
+  letter-spacing: 1.1px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  filter: drop-shadow(0 3px 3px #0007);
+  transition: color 140ms, filter 140ms, translate 140ms;
+}
+.game-escape-menu .game-escape-button::before,
+.game-escape-menu .game-escape-button::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  clip-path: polygon(var(--cut) 0, 100% 0, calc(100% - var(--cut)) 100%, 0 100%);
+  pointer-events: none;
+}
+.game-escape-menu .game-escape-button::before { background: var(--rim); }
+.game-escape-menu .game-escape-button::after {
+  inset: 2px;
+  background: linear-gradient(180deg, #dcf6ff21, transparent 16%, transparent 80%, #9bc9e521), var(--surface);
+  box-shadow: inset 0 2px 3px #030b1855;
+}
+.game-escape-menu .game-escape-button[data-action='resume'] {
+  --rim: linear-gradient(145deg, #d7f6ff, #407e9c 28%, #a7eeff 55%, #0bd2ef 80%, #39708e);
+  --surface: linear-gradient(155deg, #175a77f5, #113150f5 55%, #08718af5);
+  color: #f2fbff;
+}
+.game-escape-menu .game-escape-slash {
+  position: absolute;
+  left: -5px;
+  top: 9px;
+  width: 7px;
+  height: calc(100% - 18px);
+  transform: skewX(-32deg);
+  background: #20c9e0;
+  box-shadow: inset 1px 0 #b7f7ff99;
+  transition: background-color 140ms, box-shadow 140ms;
+}
+.game-escape-menu .game-escape-button:not(:disabled):is(:hover, :focus-visible) {
+  --rim: linear-gradient(145deg, #f1fcff, #6be2f3 42%, #d1f7ff 60%, #10d9f5);
+  --surface: linear-gradient(155deg, #20789af5, #17446af5 55%, #0c92a8f5);
+  color: #fff;
+  filter: drop-shadow(0 0 5px #00c8e333) drop-shadow(0 3px 3px #0007);
+}
+.game-escape-menu .game-escape-button:not(:disabled):is(:hover, :focus-visible) .game-escape-slash { background: #91f0ff; box-shadow: 0 0 8px #21dbed77; }
+.game-escape-menu .game-escape-button:focus-visible { outline: none; }
+.game-escape-menu .game-escape-button:focus-visible::before { background: #c5f7ff; }
+.game-escape-menu .game-escape-button:active:not(:disabled) { translate: 0 1px; }
+.game-escape-menu .game-escape-button:disabled { opacity: .4; cursor: default; }
+.game-escape-menu .game-escape-button span {
+  float: none;
+  position: relative;
+  z-index: 1;
+  font: inherit;
+  color: inherit;
+  background: none;
+  -webkit-text-fill-color: currentColor;
+  text-shadow: 0 1px 2px #0008;
+}
+@media (max-height: 300px) {
+  .game-escape-menu { align-items: flex-start; padding-block: 12px; }
+  .game-escape-menu .game-escape-content { margin-block: auto; flex-basis: 260px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .game-escape-menu .game-escape-button,
+  .game-escape-menu .game-escape-slash { transition: none; }
+}
+@media (forced-colors: active) {
+  .game-escape-menu { background: transparent; }
+  .game-escape-menu .game-escape-button { background: ButtonFace; color: ButtonText; border: 1px solid ButtonText; filter: none; }
+  .game-escape-menu .game-escape-button::before,
+  .game-escape-menu .game-escape-button::after,
+  .game-escape-menu .game-escape-slash { display: none; }
+  .game-escape-menu .game-escape-button:focus-visible { outline: 2px solid Highlight; outline-offset: 3px; }
+}

@@ -1,0 +1,193 @@
+{
+  "format": "s5-smash-rifle-asset-stage-v1",
+  "status": "static-assets-not-playable",
+  "playable": false,
+  "rendered": false,
+  "behaviorVerified": false,
+  "weapon": "/assets/s5runtime/weapon-smash-rifle-classic.json",
+  "weaponAsset": {
+    "path": "/assets/s5runtime/weapon-smash-rifle-classic.json",
+    "bytes": 234091,
+    "sha256": "1aa4820178dc24df2eee505eab85e16f225eb55fdf01d7cb4c327a0a84419e00"
+  },
+  "modelSource": {
+    "path": "model/weapon/dualgun.scn",
+    "bytes": 66598,
+    "sha256": "ce746228c1b416c22e2410a1be407187f10fec5205141428b1640a17ccdcdba4",
+    "bytesParsed": 66598,
+    "models": 7,
+    "bones": 2,
+    "clips": 8,
+    "attachment": "R_Hand_Dummy"
+  },
+  "textures": [
+    {
+      "source": "model/weapon/dualgun_atex.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "1e218dbee181ef0e754d042b4ad87c7e955a8bf7a64427d04259c3d2b4eec67d",
+      "path": "/assets/s5runtime/weapons/smash-rifle/dualgun_atex.png",
+      "bytes": 55573,
+      "sha256": "0f7c55b24963b209c91acc9da2c84be06f827d0e940519e14015d6418768c3ef",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    }
+  ],
+  "sounds": [
+    {
+      "source": "sound/smg3_reload.ogg",
+      "path": "/assets/s5runtime/weapons/smash-rifle/sounds/smg3_reload.ogg",
+      "bytes": 67436,
+      "sha256": "dfe60b84ef74c634b359999b3ef75cd0fcef66f5f06b57110584b14478fa3e23"
+    },
+    {
+      "source": "sound/smg3_blast.ogg",
+      "path": "/assets/s5runtime/weapons/smash-rifle/sounds/smg3_blast.ogg",
+      "bytes": 8154,
+      "sha256": "a1e5af5ba3bdaa2699bbd20097e044f9f682c69f307d89edcdb993ad3dc83b89"
+    },
+    {
+      "source": "sound/smg3_hit.ogg",
+      "path": "/assets/s5runtime/weapons/smash-rifle/sounds/smg3_hit.ogg",
+      "bytes": 14370,
+      "sha256": "c08a01c18c79186ae69bddc31eccbdac1cf3afbb90ceb1b9a9381272ab6bbedf"
+    },
+    {
+      "source": "sound/smg3_wall_hit.ogg",
+      "path": "/assets/s5runtime/weapons/smash-rifle/sounds/smg3_wall_hit.ogg",
+      "bytes": 12015,
+      "sha256": "42793beb0053d9dff8cfd4203e4747db709441b20fc12eafe497657fa69e6d1d"
+    },
+    {
+      "source": "sound/smg_dry_fire.ogg",
+      "path": "/assets/s5runtime/weapons/smash-rifle/sounds/smg_dry_fire.ogg",
+      "bytes": 11659,
+      "sha256": "d098a95f90328cb98bf8d34b196d5483e0e4025c09f3c98a5c6a43210b34b192"
+    }
+  ],
+  "ui": [
+    {
+      "source": "image/weapon/xhair_smashrifle_1.png",
+      "sourceBytes": 4653,
+      "sourceSha256": "80f812bee81fcfd16ffd554482f58d27259fa8e54ae088b6e02e48bd32dbc409",
+      "path": "/assets/s5runtime/weapons/smash-rifle/ui/xhair_smashrifle_1.png",
+      "bytes": 4653,
+      "sha256": "80f812bee81fcfd16ffd554482f58d27259fa8e54ae088b6e02e48bd32dbc409"
+    },
+    {
+      "source": "image/weapon/slot_gun_dual.png",
+      "sourceBytes": 11604,
+      "sourceSha256": "591bd93edfece933314b33baeac0898ff06662b0fa912d0278f6cde56d1393bf",
+      "path": "/assets/s5runtime/weapons/smash-rifle/ui/slot_gun_dual.png",
+      "bytes": 11604,
+      "sha256": "591bd93edfece933314b33baeac0898ff06662b0fa912d0278f6cde56d1393bf"
+    }
+  ],
+  "contract": {
+    "item": 2010006,
+    "type": 21,
+    "scene": "model/weapon/dualgun.scn",
+    "attachment": "R_Hand_Dummy",
+    "link": 1,
+    "rateOfFire": 8,
+    "power": 6,
+    "moveSpeedRate": 1,
+    "attackMoveSpeedRate": 1,
+    "accuracy": 0.025,
+    "range": 500,
+    "magazine": {
+      "xbn": 40,
+      "euX7": 50,
+      "status": "conflicting-static-tables-runtime-precedence-unverified"
+    },
+    "reloadSound": "smg3_reload.ogg",
+    "fireNode": "Dual_Fire_Dummy",
+    "damageDropoff": {
+      "start": 4000,
+      "end": 12000,
+      "minimumRate": 0.2
+    },
+    "ammoPerShot": 1,
+    "meleeMoveSpeedRate": 0.8,
+    "sourceEvidence": [
+      {
+        "path": "xbn/weapon.xml",
+        "bytes": 498259,
+        "sha256": "9de364c5095c1762676babedea658262b7a9d1899cfcb0769066273d8a508c53"
+      },
+      {
+        "path": "xml/_eu_weapon.x7",
+        "bytes": 87234,
+        "sha256": "5e133a7cd2f8a4724f4066395a2b6ef2b2b0ec553c51acb7ffebffa98056b26c"
+      },
+      {
+        "path": "xml/weapon_attach.x7",
+        "bytes": 7030,
+        "sha256": "099e2f5fcb6acdb33583e1eab6ef0637ee81f08fb1ec9fbb020fe00889fdee54"
+      },
+      {
+        "path": "xml/weapon_lua.x7",
+        "bytes": 615875,
+        "sha256": "0ebdc08d6d524755a5c452004b9b952176384cd9c20d2e56e0d08b5d7bbe1a86"
+      },
+      {
+        "path": "script/actorstates_normalstates.lua",
+        "bytes": 26466,
+        "sha256": "f143f916491aa1a6b4afc8b41f82924d05a979de43cf6d5ca1d78a8e302b8c29"
+      },
+      {
+        "path": "script/actorstates_runstates.lua",
+        "bytes": 163991,
+        "sha256": "d9e6f2e1918d98073fe75699ce9f329b427667ea1059461038b76e481de848cb"
+      },
+      {
+        "path": "script/actorstates_etcweapon.lua",
+        "bytes": 310445,
+        "sha256": "8bcaf906f398223c0d5df4fcbdafd4af65dac78bb7ae5d5e7f43df12b2ddfc1b"
+      },
+      {
+        "path": "script/actorstates_reloadstates.lua",
+        "bytes": 31302,
+        "sha256": "01e98ab014aae28f2f8b8f51740ca9a6d9be03e7718a8c8e4a6fd6d936eec0b7"
+      },
+      {
+        "path": "script/weapon_smg3gun.lua",
+        "bytes": 36902,
+        "sha256": "6c15a460129e8987141ae9b641312bc295694baf64d41a18c8af17dac8682a60"
+      },
+      {
+        "path": "script/weapon_smg3sword.lua",
+        "bytes": 1053,
+        "sha256": "11e099faebf184899295ae49ee4df61ca6dc77a7fbd283eb39abfaf3b5b6ee03"
+      },
+      {
+        "path": "script/attackattribindexer.lua",
+        "bytes": 638240,
+        "sha256": "f714b31691b87c020c5618d96f51876bab361445b689709b8a20880882048c65"
+      }
+    ]
+  },
+  "variantsObserved": [
+    "model/weapon/knight_smash_rifle.scn",
+    "model/weapon/smash_rifle_clockwork.scn",
+    "model/weapon/smash_rifle_clockwork_darkstar.scn",
+    "model/weapon/smash_rifle_clockwork_nightstar.scn"
+  ],
+  "variantsStaged": [],
+  "effectsStaged": false,
+  "requiredBeforePlayable": [
+    "Resolve XBN versus EU X7 magazine precedence; do not guess 40 versus 50.",
+    "Render idle, eight-direction locomotion, fire, reload and melee on both sexes.",
+    "Validate R_Hand_Dummy grip and Dual_Fire_Dummy after mixer evaluation.",
+    "Implement and verify firing pattern, recoil, damage falloff, ammo, reload, melee hit volumes, effects and audio timing."
+  ],
+  "dispersion": {
+    "status": "native-pattern-integrated-recovery-provisional",
+    "points": 40,
+    "module": "src/rifle-dispersion.js",
+    "recoverySeconds": 0.5,
+    "nativeRegressionCertified": false,
+    "accuracySemanticsCertified": false,
+    "tests": "tests/rifle-dispersion.test.mjs"
+  }
+}

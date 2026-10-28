@@ -1,0 +1,393 @@
+{
+  "schema": "s5-map-interior-previews-v1",
+  "created": "2026-10-18",
+  "method": "Direct PNG export of the actual Three.js framebuffer, shipped map factories and presentation; no image generation, recolouring or replacement geometry.",
+  "captureTool": "tools/map-preview-capture/capture.html",
+  "qualification": "Representation of the current S5 maps, not a claim of native client rendering parity or complete Practice geometry.",
+  "scenes": {
+    "arena": {
+      "nativeMapId": null,
+      "name": "arena",
+      "image": "/assets/ui/map-interiors/arena-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "11e09d3d1a189ab3106cf24c5a072333fea83b0739a32383e5bc37b7be5e7f15",
+      "camera": {
+        "position": [
+          0,
+          2.4,
+          15
+        ],
+        "target": [
+          0,
+          1.7,
+          0
+        ],
+        "fov": 65
+      },
+      "factory": "src/arena.js",
+      "factorySha256": "f1fc7dc7980dcc4500f5f98fecb1e6eb5d73b188c2d6d70387a4d29e50ac3bd8",
+      "complete": true,
+      "missingScenes": []
+    },
+    "station2": {
+      "nativeMapId": 66,
+      "name": "Station 2 · Classic",
+      "image": "/assets/ui/map-interiors/station2-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "7c2d8100465987e6bd26f8b5e1e9e565f5e653a5abe16babcd491103c3711e26",
+      "camera": {
+        "position": [
+          13,
+          18,
+          -17
+        ],
+        "target": [
+          0,
+          8,
+          0
+        ],
+        "fov": 65
+      },
+      "factory": "src/imported-map.js",
+      "factorySha256": "ee6bd5c2fde7c406b4b811dc45ec1a3b27df442dca6ffa2995a86636daecba18",
+      "complete": true,
+      "missingScenes": []
+    },
+    "station2-modular": {
+      "nativeMapId": 66,
+      "name": "Station 2 · Anime blue / coral",
+      "image": "/assets/ui/map-interiors/station2-modular-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "1adf16d29433d76709fba62f83469c6c7efd568c32636d7e2551cc24c61940db",
+      "camera": {
+        "position": [
+          13,
+          18,
+          -17
+        ],
+        "target": [
+          0,
+          8,
+          0
+        ],
+        "fov": 65
+      },
+      "factory": "src/station2-modular.js",
+      "factorySha256": "d3964699ad3fdbdf1cf8067d32cadb515790ebe222855757326d5bce668dedbe",
+      "complete": true,
+      "missingScenes": []
+    },
+    "circle2": {
+      "nativeMapId": 93,
+      "name": "Circle 2 · Azure Atrium",
+      "image": "/assets/ui/map-interiors/circle2-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "5214037bcfe1ffd42e8256c99162671a038311d03885a94403e983929c2d8d6d",
+      "camera": {
+        "position": [
+          22.5,
+          6.4399999999999995,
+          0
+        ],
+        "target": [
+          7.5,
+          5.739999999999999,
+          2.7554552980815444e-15
+        ],
+        "fov": 65
+      },
+      "factory": "src/circle2-atlas.js",
+      "factorySha256": "e8edc09ca5cc0f099bff8ec6e57f3164976ad09349eaca52c2c275c2346dc937",
+      "complete": true,
+      "missingScenes": []
+    },
+    "circle2-classic": {
+      "nativeMapId": 93,
+      "name": "Circle-2",
+      "image": "/assets/ui/map-interiors/circle2-classic-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "fb5368dee82944f3e7819417167de9c36b78b7a8041dbab5283cb2bc7ffae4b8",
+      "camera": {
+        "position": [
+          -14,
+          2,
+          14
+        ],
+        "target": [
+          0,
+          -2,
+          0
+        ],
+        "fov": 65
+      },
+      "factory": "src/imported-map.js",
+      "factorySha256": "ee6bd5c2fde7c406b4b811dc45ec1a3b27df442dca6ffa2995a86636daecba18",
+      "complete": true,
+      "missingScenes": []
+    },
+    "alice-house": {
+      "nativeMapId": 225,
+      "name": "Alice House",
+      "image": "/assets/ui/map-interiors/alice-house-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "f674c1917ce3fb15fba2ac43474bcb84d4277e7f31b0795dd87406ba872f666f",
+      "camera": {
+        "position": [
+          -8.8,
+          13,
+          -27.5
+        ],
+        "target": [
+          0,
+          9,
+          0
+        ],
+        "fov": 65
+      },
+      "factory": "src/alice-house-world.js",
+      "factorySha256": "dddfea6a3ebda8a171eb75e3e2f928a6f0b61531992eec0a762bab24821a1d0d",
+      "complete": true,
+      "missingScenes": []
+    },
+    "bio-lab": {
+      "nativeMapId": 19,
+      "name": "Bio Lab",
+      "image": "/assets/ui/map-interiors/bio-lab-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "7f987593730a100542ab0df71cc3b51b1b15a41f51b005553c13830a41726da8",
+      "camera": {
+        "position": [
+          -42,
+          13,
+          -20
+        ],
+        "target": [
+          -22,
+          8,
+          15
+        ],
+        "fov": 65
+      },
+      "factory": "src/native-artist-map.js",
+      "factorySha256": "325975e6f6e0023c391e623bbac32d3a522f9b927305558aa7ae3d67398254fc",
+      "complete": true,
+      "missingScenes": []
+    },
+    "blade-city": {
+      "nativeMapId": 158,
+      "name": "Blade City",
+      "image": "/assets/ui/map-interiors/blade-city-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "89b1796aa3bf50e47a7c0bdab2cc07024be4c738d99eeeec0804d76d69049c59",
+      "camera": {
+        "position": [
+          -34.0885224609375,
+          6.6110703126471275,
+          43.5473203125
+        ],
+        "target": [
+          -34.0885224609375,
+          5.911070312647127,
+          28.5473203125
+        ],
+        "fov": 65
+      },
+      "factory": "src/native-artist-map.js",
+      "factorySha256": "325975e6f6e0023c391e623bbac32d3a522f9b927305558aa7ae3d67398254fc",
+      "complete": true,
+      "missingScenes": []
+    },
+    "ironheart": {
+      "nativeMapId": 151,
+      "name": "Iron Heart · Classic",
+      "image": "/assets/ui/map-interiors/ironheart-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "c873603b5d3ebcfc1ba58c7b3782116605a8026cdaacd8d016c24c3db754e7ca",
+      "camera": {
+        "position": [
+          10.98441650390625,
+          -59.39833770751954,
+          68.56453125
+        ],
+        "target": [
+          10.98441650390625,
+          -60.09833770751954,
+          53.56453125
+        ],
+        "fov": 65
+      },
+      "factory": "src/ironheart-world.js",
+      "factorySha256": "45df6caee832878f805d344d97aa11baa4f54e7b98ee3c3cf3180c14e970e40c",
+      "complete": true,
+      "missingScenes": []
+    },
+    "practice-52": {
+      "nativeMapId": 52,
+      "name": "Practice map52",
+      "image": "/assets/ui/map-interiors/practice-52-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "480dea72e53aff8f113ce0972ace959f9cf3b60f9ae431a1430fb8ff52b5d805",
+      "camera": {
+        "position": [
+          -13,
+          18,
+          -17
+        ],
+        "target": [
+          0,
+          8,
+          0
+        ],
+        "fov": 65
+      },
+      "factory": "src/practice-world.js",
+      "factorySha256": "41ddbf3a54da2e234191c2f8ea6620b498ca4f1a75db72fb43a27ac17bfdcb2c",
+      "complete": false,
+      "missingScenes": [
+        {
+          "mapId": 52,
+          "parent": "mapinfo/bginfo-ms_sstation.ini",
+          "line": 113,
+          "section": "STATIC",
+          "literal": "st02_spawn_death.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 52,
+          "parent": "mapinfo/bginfo-ms_sstation.ini",
+          "line": 115,
+          "section": "STATIC",
+          "literal": "ds5_station_octadd.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 52,
+          "parent": "mapinfo/bginfo-ms_sstation.ini",
+          "line": 117,
+          "section": "STATIC",
+          "literal": "ds6_station02_occlusion.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 52,
+          "parent": "mapinfo/bginfo-ms_sstation.ini",
+          "line": 123,
+          "section": "DYNAMIC",
+          "literal": "ds5_goal_arrow.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        }
+      ]
+    },
+    "practice-54": {
+      "nativeMapId": 54,
+      "name": "Practice map54",
+      "image": "/assets/ui/map-interiors/practice-54-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "2ca551d65c7e090e4dd89250094784a9338a6304596cc5538198e2e00af19665",
+      "camera": {
+        "position": [
+          -64.4865703125,
+          7.981164869409357,
+          9.239257324218753
+        ],
+        "target": [
+          -49.48657031250001,
+          7.2811648694093565,
+          9.239257324218752
+        ],
+        "fov": 65
+      },
+      "factory": "src/practice-world.js",
+      "factorySha256": "41ddbf3a54da2e234191c2f8ea6620b498ca4f1a75db72fb43a27ac17bfdcb2c",
+      "complete": false,
+      "missingScenes": [
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 110,
+          "section": "STATIC",
+          "literal": "st01_spawn_death.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 113,
+          "section": "STATIC",
+          "literal": "ds5_station01_occlusion.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 117,
+          "section": "DYNAMIC",
+          "literal": "ds5_effsafe.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 118,
+          "section": "DYNAMIC",
+          "literal": "ds5_dynamic.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        },
+        {
+          "mapId": 54,
+          "parent": "mapinfo/bginfo-ms_sstation01.ini",
+          "line": 119,
+          "section": "DYNAMIC",
+          "literal": "ds4_station01_arrow.scn",
+          "candidates": [],
+          "resolution": "unique archive basename candidate; native loader path not observed"
+        }
+      ]
+    },
+    "azit": {
+      "nativeMapId": 15,
+      "name": "Azit · Refuge solaire (exploration)",
+      "image": "/assets/ui/map-interiors/azit-v1.png",
+      "width": 1280,
+      "height": 640,
+      "pngSha256": "f2d2548dfcbfa54af3985a77d85642df48b5c1213be3ffdc28fd740a08f9e7ee",
+      "camera": {
+        "position": [
+          38,
+          30,
+          38
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "fov": 62
+      },
+      "factory": "src/native-artist-map.js",
+      "factorySha256": "2defb0c82a9181f0691048ec0275547eccd2c0aed13b56c7221cf6a9784d38d0",
+      "complete": false,
+      "missingScenes": [],
+      "qualification": "All source scenes retained. Source texture azi_window_wy unavailable for338 visual faces; jump stations and native match rules not activated. Actual framebuffer from the current S5 source factory, not ImageGen."
+    }
+  }
+}

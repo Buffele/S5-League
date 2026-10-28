@@ -1,0 +1,976 @@
+{
+  "schema": "bio-lab-source-map-objects-v1",
+  "key": "MAPNAME_BIO_LAB",
+  "nativeMapId": 19,
+  "profiles": [
+    {
+      "key": "BLASTINFO_01",
+      "hp": 150,
+      "hpRecoveryMs": 10000,
+      "rebirthMs": 10000,
+      "material": 4,
+      "effect": "",
+      "sound": "wall_destroy_wooden.ogg",
+      "sourceEffects": {
+        "sequence": {
+          "value": "",
+          "line": 179
+        },
+        "sound": {
+          "value": "wall_destroy_wooden.ogg",
+          "line": 180
+        },
+        "material": 4,
+        "rebirthTexture": {
+          "value": "noise.bmp",
+          "line": 174
+        },
+        "rebirthSound": {
+          "value": "teleport.ogg",
+          "line": 175
+        }
+      }
+    },
+    {
+      "key": "BLASTINFO_02",
+      "hp": 200,
+      "hpRecoveryMs": 10000,
+      "rebirthMs": 3000,
+      "material": 3,
+      "effect": "mapeffect_blast_glass.seq",
+      "sound": "wall_destroy_steel.ogg",
+      "sourceEffects": {
+        "sequence": {
+          "value": "mapeffect_blast_glass.seq",
+          "line": 187
+        },
+        "sound": {
+          "value": "wall_destroy_steel.ogg",
+          "line": 188
+        },
+        "material": 3,
+        "rebirthTexture": {
+          "value": "noise.bmp",
+          "line": 174
+        },
+        "rebirthSound": {
+          "value": "teleport.ogg",
+          "line": 175
+        }
+      }
+    },
+    {
+      "key": "BLASTINFO_03",
+      "hp": 100,
+      "hpRecoveryMs": 10000,
+      "rebirthMs": 3000,
+      "material": 6,
+      "effect": "",
+      "sound": "wall_destroy_wooden.ogg",
+      "sourceEffects": {
+        "sequence": {
+          "value": "",
+          "line": 195
+        },
+        "sound": {
+          "value": "wall_destroy_wooden.ogg",
+          "line": 196
+        },
+        "material": 6,
+        "rebirthTexture": {
+          "value": "noise.bmp",
+          "line": 174
+        },
+        "rebirthSound": {
+          "value": "teleport.ogg",
+          "line": 175
+        }
+      }
+    }
+  ],
+  "instances": [
+    {
+      "key": "model/background/biolab.scn#node-41",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 39,
+      "sourceNodeIndex": 41,
+      "name": "Object11895",
+      "ownerId": 639092609,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 40,
+          "sourceNodeIndex": 42,
+          "name": "oct_Object11922",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-43",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 41,
+      "sourceNodeIndex": 43,
+      "name": "Object11901",
+      "ownerId": 4051358438,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 42,
+          "sourceNodeIndex": 44,
+          "name": "oct_Object11928",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-45",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 43,
+      "sourceNodeIndex": 45,
+      "name": "Object11902",
+      "ownerId": 1752400732,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 44,
+          "sourceNodeIndex": 46,
+          "name": "oct_Object11929",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-47",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 45,
+      "sourceNodeIndex": 47,
+      "name": "Object11896",
+      "ownerId": 3206452795,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 46,
+          "sourceNodeIndex": 48,
+          "name": "oct_Object11923",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-49",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 47,
+      "sourceNodeIndex": 49,
+      "name": "Object11898",
+      "ownerId": 1487321916,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 48,
+          "sourceNodeIndex": 50,
+          "name": "oct_Object11925",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-51",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 49,
+      "sourceNodeIndex": 51,
+      "name": "Object11897",
+      "ownerId": 3357124269,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 50,
+          "sourceNodeIndex": 52,
+          "name": "oct_Object11924",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-53",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 51,
+      "sourceNodeIndex": 53,
+      "name": "Object11903",
+      "ownerId": 527741898,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 52,
+          "sourceNodeIndex": 54,
+          "name": "oct_Object11930",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-55",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 53,
+      "sourceNodeIndex": 55,
+      "name": "Object11893",
+      "ownerId": 3480511156,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 54,
+          "sourceNodeIndex": 56,
+          "name": "oct_Object11920",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-57",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 55,
+      "sourceNodeIndex": 57,
+      "name": "Object11900",
+      "ownerId": 2256396912,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 56,
+          "sourceNodeIndex": 58,
+          "name": "oct_Object11927",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-59",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 57,
+      "sourceNodeIndex": 59,
+      "name": "Object11904",
+      "ownerId": 2165319273,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 58,
+          "sourceNodeIndex": 60,
+          "name": "oct_Object11931",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-61",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 59,
+      "sourceNodeIndex": 61,
+      "name": "Object11905",
+      "ownerId": 4128708351,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 60,
+          "sourceNodeIndex": 62,
+          "name": "oct_Object11932",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-63",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 61,
+      "sourceNodeIndex": 63,
+      "name": "Object11899",
+      "ownerId": 799116202,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 62,
+          "sourceNodeIndex": 64,
+          "name": "oct_Object11926",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-65",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 63,
+      "sourceNodeIndex": 65,
+      "name": "Object11906",
+      "ownerId": 1864255301,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 64,
+          "sourceNodeIndex": 66,
+          "name": "oct_Object11933",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-67",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 65,
+      "sourceNodeIndex": 67,
+      "name": "Object11892",
+      "ownerId": 3094565410,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 66,
+          "sourceNodeIndex": 68,
+          "name": "oct_Object11919",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-69",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 67,
+      "sourceNodeIndex": 69,
+      "name": "Object11908",
+      "ownerId": 2292607554,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 68,
+          "sourceNodeIndex": 70,
+          "name": "oct_Object11935",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-71",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 69,
+      "sourceNodeIndex": 71,
+      "name": "Object11907",
+      "ownerId": 404322259,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 70,
+          "sourceNodeIndex": 72,
+          "name": "oct_Object11934",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-73",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 71,
+      "sourceNodeIndex": 73,
+      "name": "Object11910",
+      "ownerId": 2674316081,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 72,
+          "sourceNodeIndex": 74,
+          "name": "oct_Object11937",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-75",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 73,
+      "sourceNodeIndex": 75,
+      "name": "Object11909",
+      "ownerId": 4288764628,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 74,
+          "sourceNodeIndex": 76,
+          "name": "oct_Object11936",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-77",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 75,
+      "sourceNodeIndex": 77,
+      "name": "Object11911",
+      "ownerId": 3898729383,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 76,
+          "sourceNodeIndex": 78,
+          "name": "oct_Object11938",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-79",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 77,
+      "sourceNodeIndex": 79,
+      "name": "Object11890",
+      "ownerId": 1451045646,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 78,
+          "sourceNodeIndex": 80,
+          "name": "oct_Object11917",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-81",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 79,
+      "sourceNodeIndex": 81,
+      "name": "Object11912",
+      "ownerId": 1902686749,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 80,
+          "sourceNodeIndex": 82,
+          "name": "oct_Object11939",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-83",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 81,
+      "sourceNodeIndex": 83,
+      "name": "Object11913",
+      "ownerId": 107971211,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 82,
+          "sourceNodeIndex": 84,
+          "name": "oct_Object11940",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-85",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 83,
+      "sourceNodeIndex": 85,
+      "name": "Object11922",
+      "ownerId": 1514529246,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 84,
+          "sourceNodeIndex": 86,
+          "name": "oct_Object11923",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-87",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 85,
+      "sourceNodeIndex": 87,
+      "name": "Object11924",
+      "ownerId": 3005629675,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 86,
+          "sourceNodeIndex": 88,
+          "name": "oct_Object11944",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-32",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 31,
+      "sourceNodeIndex": 32,
+      "name": "Object11915_shadowsurface",
+      "ownerId": 1485102997,
+      "profileKey": "BLASTINFO_02",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 32,
+          "sourceNodeIndex": 33,
+          "name": "oct_Object11942",
+          "triangles": 20
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-34",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 33,
+      "sourceNodeIndex": 34,
+      "name": "Object11916_shadowsurface",
+      "ownerId": 1241101804,
+      "profileKey": "BLASTINFO_02",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 34,
+          "sourceNodeIndex": 35,
+          "name": "oct_Object11943",
+          "triangles": 20
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-36",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 35,
+      "sourceNodeIndex": 36,
+      "name": "Object11914_shadowsurface",
+      "ownerId": 3783197821,
+      "profileKey": "BLASTINFO_02",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 36,
+          "sourceNodeIndex": 37,
+          "name": "oct_Object11941",
+          "triangles": 20
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-38",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 37,
+      "sourceNodeIndex": 38,
+      "name": "Object11894_shadowsurface",
+      "ownerId": 365580401,
+      "profileKey": "BLASTINFO_02",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 38,
+          "sourceNodeIndex": 39,
+          "name": "oct_Object11921",
+          "triangles": 20
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-90",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 87,
+      "sourceNodeIndex": 90,
+      "name": "Object11886_alphablend2_nolight",
+      "ownerId": 501348875,
+      "profileKey": "BLASTINFO_03",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 88,
+          "sourceNodeIndex": 91,
+          "name": "oct_Object11886",
+          "triangles": 18
+        }
+      ]
+    },
+    {
+      "key": "model/background/biolab.scn#node-92",
+      "source": "model/background/biolab.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 89,
+      "sourceNodeIndex": 92,
+      "name": "Plane01_nolight_alphablend1",
+      "ownerId": 2900682194,
+      "profileKey": "BLASTINFO_03",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 90,
+          "sourceNodeIndex": 93,
+          "name": "oct_Plane01",
+          "triangles": 10
+        }
+      ]
+    }
+  ],
+  "colliderTriangles": 396,
+  "poison": {
+    "sourceSceneIndex": 4,
+    "sourceNodeIndex": 0,
+    "nodeName": "dot_limited_area01_10_500_!dead_eff",
+    "box": {
+      "center": [
+        -17.909564941406252,
+        -5.257597412109375,
+        26.707951171875
+      ],
+      "axes": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "halfExtents": [
+        40.921265625000004,
+        1.76710546875,
+        48.003978515625
+      ]
+    },
+    "damage": 10,
+    "intervalMs": 500,
+    "team": "all",
+    "effect": "dot_eff",
+    "hud": "dot_eff_hud",
+    "sourceLines": {
+      "node": 165,
+      "team": 166,
+      "damage": 167,
+      "timer": 168,
+      "effect": 169,
+      "hud": 170
+    },
+    "qualification": {
+      "sourceStaticBoxConvention": "Recovered11C1990 transform-origin/half-extents convention, reused from Azit",
+      "nativeBioLabTimerCompared": false,
+      "firstTickAndReentryVerified": false
+    }
+  },
+  "sequences": [
+    {
+      "order": 1,
+      "sequence": "bg_biolab_poison_eff_02.seq",
+      "dummy": "biolab_poison_Dummy_01",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 0,
+      "worldRuntimeMatrix": [
+        -0.005908846378326416,
+        0,
+        -0.001041889786720276,
+        0,
+        -1.242029412651391e-10,
+        0.006,
+        7.043893788249988e-10,
+        0,
+        0.001041889786720276,
+        7.152557373046875e-10,
+        -0.005908846378326416,
+        0,
+        -20.14427783203125,
+        2.7790338134765626,
+        55.288664062500004,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 134,
+        "dummy": 135
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 2,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_02",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 5,
+      "worldRuntimeMatrix": [
+        -0.004914913058280945,
+        0,
+        0.0034414572715759277,
+        0,
+        0.0034414572715759277,
+        -9.775241096576792e-10,
+        0.004914913058280945,
+        0,
+        5.606845547845296e-10,
+        0.006,
+        8.007410201571474e-10,
+        0,
+        -21.1083486328125,
+        -2.6005074462890625,
+        44.920810546875,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 136,
+        "dummy": 137
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 3,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_03",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 6,
+      "worldRuntimeMatrix": [
+        -0.003441460132598877,
+        0,
+        0.004914910912513733,
+        0,
+        0.004914910912513733,
+        -9.775241096576792e-10,
+        0.003441460132598877,
+        0,
+        8.007406790966343e-10,
+        0.006,
+        5.606850237427352e-10,
+        0,
+        -30.606820312500002,
+        -2.600507080078125,
+        16.317755859375,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 138,
+        "dummy": 139
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 4,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_04",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 7,
+      "worldRuntimeMatrix": [
+        -0.003856725811958313,
+        0,
+        -0.004596266627311707,
+        0,
+        -0.004596266627311707,
+        -9.775241096576792e-10,
+        0.003856725811958313,
+        0,
+        -7.488269204714016e-10,
+        0.006,
+        6.283404303530915e-10,
+        0,
+        -1.2526466674804688,
+        -2.600507080078125,
+        23.445663574218752,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 140,
+        "dummy": 141
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 5,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_05",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 9,
+      "worldRuntimeMatrix": [
+        -0.005437847256660461,
+        0,
+        0.0025357081890106203,
+        0,
+        0.0025357081890106203,
+        -9.775241096576792e-10,
+        0.005437847256660461,
+        0,
+        4.131193094281116e-10,
+        0.006,
+        8.859377658154699e-10,
+        0,
+        -27.2370205078125,
+        -2.600507080078125,
+        -7.43602294921875,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 142,
+        "dummy": 143
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 6,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_06",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 8,
+      "worldRuntimeMatrix": [
+        -0.005437847256660461,
+        0,
+        0.0025357081890106203,
+        0,
+        0.0025357081890106203,
+        -9.775241096576792e-10,
+        0.005437847256660461,
+        0,
+        4.131193094281116e-10,
+        0.006,
+        8.859377658154699e-10,
+        0,
+        -6.113615112304688,
+        -2.600507080078125,
+        -10.349646240234375,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 144,
+        "dummy": 145
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 7,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_08",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 11,
+      "worldRuntimeMatrix": [
+        -0.006,
+        0,
+        -9.059748151685199e-10,
+        0,
+        -9.059748151685199e-10,
+        -9.775241096576792e-10,
+        0.006,
+        0,
+        -1.4760203354154644e-16,
+        0.006,
+        9.775241096576792e-10,
+        0,
+        -19.42352490234375,
+        3.17077001953125,
+        54.468181640625,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 146,
+        "dummy": 147
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 8,
+      "sequence": "bg_biolab_poison_eff_02.seq",
+      "dummy": "biolab_poison_Dummy_07",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 10,
+      "worldRuntimeMatrix": [
+        -0.005437847256660461,
+        0,
+        0.0025357081890106203,
+        0,
+        3.022799717200542e-10,
+        0.006,
+        6.482419081521584e-10,
+        0,
+        -0.0025357081890106203,
+        7.152557373046875e-10,
+        -0.005437847256660461,
+        0,
+        -18.54814013671875,
+        2.8244132080078126,
+        55.279828125,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 148,
+        "dummy": 149
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    }
+  ],
+  "qualification": {
+    "nativeOwnerBindings": true,
+    "sourceReaderValues": true,
+    "localS5Authority": true,
+    "nativeRuntimeParity": false,
+    "gameplayReady": false,
+    "effectsRendererImplemented": false,
+    "audioPlaybackImplemented": false,
+    "poisonTiming": "Explicit host policy: first tick after500ms continuous overlap, equality included, reset on exit/reset/inactive/death, at most one tick per actor per simulation call, no catch-up burst. Native first-tick phase/boundary/reentry/catch-up unverified."
+  }
+}

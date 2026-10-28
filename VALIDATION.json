@@ -1,0 +1,126 @@
+{
+  "created": "2026-10-28T06:31:46.847831+00:00",
+  "edition": "Portable source and developer packet",
+  "scope": "Internal paths and identifiers normalized; distributed integrity pins updated while authored provenance remains distinct. Physics and weapon parameters were not retuned.",
+  "dependencies": {
+    "freshNpmCi": true,
+    "installedPackages": 16,
+    "node": "22.20.0"
+  },
+  "build": {
+    "command": "npm run build",
+    "passed": true,
+    "modules": 1178,
+    "outputFiles": 3157,
+    "existingWarnings": [
+      "assertConquestMonsterStateNotificationReceipt is referenced but not exported by src/conquest-player-monster-combat.js.",
+      "Some generated chunks exceed the configured size advisory."
+    ]
+  },
+  "sourceScope": {
+    "gameplaySourceFilesChecked": 1257,
+    "onlyIdentifierAndIntegrityEdits": true,
+    "distributedIntegrityModules": 5,
+    "authoredIdentityAdapterModules": 1,
+    "physicsAndWeaponRetuning": false
+  },
+  "targetedChecks": {
+    "distributedIntegrityModules": 5,
+    "distributedPinsUpdated": 12,
+    "remainingUnappliedIntegrityEdits": 0,
+    "verificationErrors": [],
+    "passed": [
+      "Practice model payload digests and frustum receipts",
+      "Anchoring models, textures, sequences, audio, and animations",
+      "Program and Wasm digests",
+      "Azit authored optical identity and four qualified materials",
+      "Bio Lab authored identity separated from distributed bundle digest"
+    ]
+  },
+  "browser": {
+    "passed": true,
+    "cases": [
+      {
+        "name": "arena",
+        "query": "",
+        "bootstrap": "ready",
+        "entered": true,
+        "settings": true,
+        "errors": [],
+        "missing": []
+      },
+      {
+        "name": "azit",
+        "query": "?scene=azit&mode=training",
+        "bootstrap": "ready",
+        "entered": false,
+        "settings": false,
+        "errors": [],
+        "missing": []
+      },
+      {
+        "name": "bio-lab",
+        "query": "?scene=bio-lab&mode=training&bio3d=preview",
+        "bootstrap": "ready",
+        "entered": false,
+        "settings": false,
+        "errors": [],
+        "missing": []
+      },
+      {
+        "name": "blade-city",
+        "query": "?scene=blade-city&mode=training",
+        "bootstrap": "ready",
+        "entered": false,
+        "settings": false,
+        "errors": [],
+        "missing": []
+      },
+      {
+        "name": "practice52",
+        "query": "?scene=practice-52&mode=practice&frustumDebug=1",
+        "bootstrap": "ready",
+        "entered": false,
+        "settings": false,
+        "errors": [],
+        "missing": []
+      },
+      {
+        "name": "practice54",
+        "query": "?scene=practice-54&mode=practice",
+        "bootstrap": "ready",
+        "entered": false,
+        "settings": false,
+        "errors": [],
+        "missing": []
+      },
+      {
+        "name": "conquest",
+        "query": "?scene=conquest-46&mode=conquest",
+        "bootstrap": "ready",
+        "entered": false,
+        "settings": false,
+        "errors": [],
+        "missing": []
+      },
+      {
+        "name": "station2",
+        "query": "?scene=station2-modular&mode=training",
+        "bootstrap": "ready",
+        "entered": false,
+        "settings": false,
+        "errors": [],
+        "missing": []
+      }
+    ]
+  },
+  "limits": [
+    "Software-rendered browser smoke checks do not establish hardware performance or exhaustive gameplay fidelity.",
+    "The full research-dependent test suite and advanced import pipelines are not included."
+  ],
+  "attributionPolicy": {
+    "approvedPublicFile": "README.md",
+    "approvedOccurrences": 1,
+    "otherPathsAndFileContents": 0
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "sources": [
+    {
+      "path": "gui/new/result.xui",
+      "sha256": "088383ed28f155d4c62df254c1a0b2e09aaa0d09038ba62a5eba13d7ed48e8ab"
+    },
+    {
+      "path": "gui/new/ingamelistbox.xui",
+      "sha256": "209e67b6c9e53df14f153dc117afa9df3a07d96045b2811525fd8881fae5165b"
+    },
+    {
+      "path": "gui/new/scoreboard_back.dds",
+      "sha256": "425625543e4b32410716f6e90b97fcd7d798966cb9e124fee2d2b4a1b00e0c35"
+    }
+  ],
+  "rowsPerList": 8,
+  "rowHeight": 25,
+  "lists": [
+    {
+      "rect": {
+        "left": 0,
+        "top": 460,
+        "right": 512,
+        "bottom": 660
+      },
+      "headers": [
+        {
+          "name": "Label_result_betateamlist_gamemoney",
+          "rect": {
+            "left": 380,
+            "top": 430,
+            "right": 460,
+            "bottom": 460
+          },
+          "font": "2002_12",
+          "color": "4290822336",
+          "text": "PEN"
+        },
+        {
+          "name": "Label_result_betateamlist_exp",
+          "rect": {
+            "left": 300,
+            "top": 430,
+            "right": 380,
+            "bottom": 460
+          },
+          "font": "2002_12",
+          "color": "4290822336",
+          "text": "EXP"
+        },
+        {
+          "name": "Label_result_betateamlist_score_total",
+          "rect": {
+            "left": 205,
+            "top": 430,
+            "right": 300,
+            "bottom": 460
+          },
+          "font": "2002_12",
+          "color": "4290822336",
+          "text": "Points"
+        },
+        {
+          "name": "Label_result_betateamlist_username",
+          "rect": {
+            "left": 30,
+            "top": 430,
+            "right": 205,
+            "bottom": 460
+          },
+          "font": "2002_12",
+          "color": "4290822336",
+          "text": "Name"
+        }
+      ],
+      "backgrounds": [
+        {
+          "rect": {
+            "left": 0,
+            "top": 430,
+            "right": 512,
+            "bottom": 610
+          },
+          "sprite": "/assets/s5runtime/chaser/ui/result-alpha-background-0.png"
+        },
+        {
+          "rect": {
+            "left": 0,
+            "top": 610,
+            "right": 512,
+            "bottom": 660
+          },
+          "sprite": "/assets/s5runtime/chaser/ui/result-alpha-background-1.png"
+        }
+      ]
+    },
+    {
+      "rect": {
+        "left": 512,
+        "top": 460,
+        "right": 1024,
+        "bottom": 660
+      },
+      "headers": [
+        {
+          "name": "Label_result_betateamlist_gamemoney",
+          "rect": {
+            "left": 892,
+            "top": 430,
+            "right": 972,
+            "bottom": 460
+          },
+          "font": "2002_12",
+          "color": "4290822336",
+          "text": "PEN"
+        },
+        {
+          "name": "Label_result_betateamlist_exp",
+          "rect": {
+            "left": 812,
+            "top": 430,
+            "right": 892,
+            "bottom": 460
+          },
+          "font": "2002_12",
+          "color": "4290822336",
+          "text": "EXP"
+        },
+        {
+          "name": "Label_result_betateamlist_score_total",
+          "rect": {
+            "left": 717,
+            "top": 430,
+            "right": 812,
+            "bottom": 460
+          },
+          "font": "2002_12",
+          "color": "4290822336",
+          "text": "Points"
+        },
+        {
+          "name": "Label_result_betateamlist_username",
+          "rect": {
+            "left": 542,
+            "top": 430,
+            "right": 717,
+            "bottom": 460
+          },
+          "font": "2002_12",
+          "color": "4290822336",
+          "text": "Name"
+        }
+      ],
+      "backgrounds": [
+        {
+          "rect": {
+            "left": 512,
+            "top": 430,
+            "right": 1024,
+            "bottom": 610
+          },
+          "sprite": "/assets/s5runtime/chaser/ui/result-beta-background-0.png"
+        }
+      ]
+    }
+  ],
+  "fields": {
+    "name": {
+      "name": "Label_resultlist_username",
+      "rect": {
+        "left": 30,
+        "top": 0,
+        "right": 205,
+        "bottom": 25
+      },
+      "font": "2002_12",
+      "color": "4292927712",
+      "text": "User name"
+    },
+    "score": {
+      "name": "Label_resultlist_score",
+      "rect": {
+        "left": 205,
+        "top": 0,
+        "right": 300,
+        "bottom": 25
+      },
+      "font": "2002_12",
+      "color": "4292927712",
+      "text": "10"
+    },
+    "exp": {
+      "name": "Label_resultlist_exp",
+      "rect": {
+        "left": 300,
+        "top": 0,
+        "right": 380,
+        "bottom": 25
+      },
+      "font": "2002_12",
+      "color": "4292927712",
+      "text": ""
+    },
+    "pen": {
+      "name": "Label_resultlist_gamemoney",
+      "rect": {
+        "left": 380,
+        "top": 0,
+        "right": 460,
+        "bottom": 25
+      },
+      "font": "2002_12",
+      "color": "4294967040",
+      "text": ""
+    }
+  },
+  "verifiedLiveS5Runtime": false,
+  "localHighlight": {
+    "rect": {
+      "left": 0,
+      "top": 0,
+      "right": 512,
+      "bottom": 25
+    },
+    "sprite": "/assets/s5runtime/chaser/ui/result-local-highlight.png"
+  }
+}

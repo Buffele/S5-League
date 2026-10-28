@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-15T13:38:22.566642+00:00",
+  "sourcePeSha256": "6bea9d8cc2503a1e660c1d8a9dfd1241f394207c4f1cb84a9d4a1fea3d3c8017",
+  "tracks": [
+    {
+      "url": "/assets/s5runtime/interface-audio/sound/interface/mouse_click.ogg",
+      "path": "sound/interface/mouse_click.ogg",
+      "sha256": "c12c63147b5b1aa5b716c906e9eabf127de615e9fc292335cdca3d8d7076f3b2",
+      "crc32": "bcfcf5b6",
+      "size": 27944,
+      "sourceArchive": "package/51.xs",
+      "sourceOffset": 79759504,
+      "sourceStoredLength": 27926,
+      "sourceSavedPath": "work/s5runtime-inventory-recovery/interface-sounds/source/51/sound/interface/mouse_click.ogg",
+      "publishedPath": "public/assets/s5runtime/interface-audio/sound/interface/mouse_click.ogg"
+    },
+    {
+      "url": "/assets/s5runtime/interface-audio/sound/interface/mouse_enter.ogg",
+      "path": "sound/interface/mouse_enter.ogg",
+      "sha256": "2d8f665183ee437d417e89a3bced184dc1c97faa6408b241bb830fdf951b3a4f",
+      "crc32": "29df2473",
+      "size": 13538,
+      "sourceArchive": "package/23.xs",
+      "sourceOffset": 43431684,
+      "sourceStoredLength": 13518,
+      "sourceSavedPath": "work/s5runtime-inventory-recovery/interface-sounds/source/23/sound/interface/mouse_enter.ogg",
+      "publishedPath": "public/assets/s5runtime/interface-audio/sound/interface/mouse_enter.ogg"
+    }
+  ],
+  "identities": {
+    "equip": {
+      "contract": "base-window-974910-974970",
+      "widgetType": "CGUI_Button",
+      "xui": "xui/ui/shop_ inven.xui",
+      "nodePath": "Inven_Window/ItemSlot_GroupBox/Item_Install_Button",
+      "sourceSha256": "5b8e05b099b310ba49495a3869354b79ea614c7a1f111ffc62d02d5d587b043d",
+      "sourceCrc32": "8bd265b3",
+      "xuiMouseUpSound": "Sound\\Interface\\shop_costume_wear.ogg",
+      "xuiMouseUpResourceAvailable": false,
+      "uiProjection": "S5 per-card equip/remove projects the single native selected-item button; base-window cue is separate from XUI sound and from equipment outcome"
+    },
+    "remove": {
+      "contract": "base-window-974910-974970",
+      "widgetType": "CGUI_Button",
+      "xui": "xui/ui/shop_ inven.xui",
+      "nodePath": "Inven_Window/ItemSlot_GroupBox/Item_Clear_Button",
+      "sourceSha256": "5b8e05b099b310ba49495a3869354b79ea614c7a1f111ffc62d02d5d587b043d",
+      "sourceCrc32": "8bd265b3",
+      "xuiMouseUpSound": "Sound\\Interface\\shop_costume_unwear.ogg",
+      "xuiMouseUpResourceAvailable": false,
+      "uiProjection": "S5 per-card equip/remove projects the single native selected-item button; base-window cue is separate from XUI sound and from equipment outcome"
+    }
+  },
+  "missingXuiResources": [
+    "sound/interface/lobby_common_button_click_click.ogg",
+    "sound/interface/lobby_common_button_over_click.ogg",
+    "sound/interface/lobby_common_pagemove_click.ogg",
+    "sound/interface/lobby_community_button_click.ogg",
+    "sound/interface/lobby_mainbar_miniicon_click.ogg",
+    "sound/interface/lobby_makeroom_button_click.ogg",
+    "sound/interface/lobby_simpinven_click.ogg",
+    "sound/interface/lobby_system_button_click.ogg",
+    "sound/interface/main_navi_button_over.ogg",
+    "sound/interface/notice_alram.ogg",
+    "sound/interface/shop_costume_unwear.ogg",
+    "sound/interface/shop_costume_wear.ogg",
+    "sound/interface/shop_maincate_button_click.ogg",
+    "sound/interface/shop_subcate_button_click.ogg",
+    "sound/interface/slot_close.ogg",
+    "sound/interface/slot_open.ogg"
+  ],
+  "nativeReady": false,
+  "browserObserved": false
+}

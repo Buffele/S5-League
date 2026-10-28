@@ -1,0 +1,15 @@
+* text=auto
+*.sh text eol=lf
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.png binary
+*.jpg binary
+*.dds binary
+*.ogg binary
+*.zip binary
+*.scn binary
+tests/fixtures/** -text
+# Asset manifests verify raw byte lengths and hashes. Preserve these bytes on
+# Windows and other systems instead of applying checkout newline conversion.
+public/assets/** -text
+work/arsenal-integration/converted/** -text

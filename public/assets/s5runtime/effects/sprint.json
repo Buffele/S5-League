@@ -1,0 +1,67 @@
+{
+  "source": "skill_fastrun1.seq",
+  "sha256": "ecf4360ca9337603a07fcee487cf37ef91309ae3762a8f5c7825d2f96180eaf1",
+  "capacity": 2500,
+  "rate": 300,
+  "lifeMs": 500,
+  "lifeVariationMs": 500,
+  "speed": 4000.0,
+  "speedVariation": 1000.0,
+  "radius": 500.0,
+  "verticalRadius": 500.0,
+  "origin": [
+    0.0,
+    300.0,
+    0.0
+  ],
+  "acceleration": [
+    0.0,
+    -300.0,
+    0.0
+  ],
+  "appearance": [
+    [
+      0.0,
+      10.0,
+      200.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.15379999577999115,
+      8.0,
+      200.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.0
+    ],
+    [
+      1.0,
+      8.0,
+      200.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "uv": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "widthVariation": 1,
+  "heightVariation": 200,
+  "angularRange": 6.28000020980835
+}

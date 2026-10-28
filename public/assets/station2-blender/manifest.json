@@ -1,0 +1,555 @@
+{
+  "version": 4,
+  "generator": "Blender 5.2.2 LTS",
+  "coordinateSystem": "glTF Y up / module local",
+  "modules": [
+    {
+      "id": "train",
+      "replacedModelIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "pivot": [
+        0,
+        6,
+        0
+      ],
+      "collisionSHA256": "010c15928ce9662f68c55ea7f6ab1958ea008af22b66ae9252ca946a998e708c"
+    },
+    {
+      "id": "alpha-stairs",
+      "replacedModelIndices": [
+        5,
+        6,
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "pivot": [
+        9.81,
+        5.8,
+        -7.86
+      ],
+      "collisionSHA256": "578a96f6e265b2721bedfc62538326b78b780e8fcc6a1246db40420afd4e37fb"
+    },
+    {
+      "id": "alpha-bridge",
+      "replacedModelIndices": [
+        1,
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "pivot": [
+        0,
+        10,
+        -12
+      ],
+      "collisionSHA256": "6d401c58b2f7988fce02a6dc0b5d6827ee227884f4ac63fe60b6156c16c5cb7a"
+    },
+    {
+      "id": "beta-bridge",
+      "replacedModelIndices": [
+        1,
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "pivot": [
+        0,
+        10,
+        12
+      ],
+      "collisionSHA256": "e0853588c312b6916c9994d08cf308b41531d2f4939dce32d4320b862a983bea"
+    },
+    {
+      "id": "beta-stairs",
+      "replacedModelIndices": [
+        7,
+        8,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "pivot": [
+        -9.81,
+        5.8,
+        7.86
+      ],
+      "collisionSHA256": "5e2a8a551c2de97ed485bde45a8aa56207aa9a562561435af860ed033ca1116c"
+    },
+    {
+      "id": "alpha-base",
+      "replacedModelIndices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "pivot": [
+        0,
+        14,
+        -35
+      ],
+      "collisionSHA256": "61cccb5a29db78f51992f9d7fbc5ac43e9e9df0100c4d972383924f2e3e9dda4"
+    },
+    {
+      "id": "beta-base",
+      "replacedModelIndices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29
+      ],
+      "pivot": [
+        0,
+        14,
+        35
+      ],
+      "collisionSHA256": "9a1c1629ffe28f855c4fc3d9942d9e9fd01d295a8ea63b427dfa4ba0d38571e1"
+    },
+    {
+      "id": "alpha-deck",
+      "replacedModelIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "pivot": [
+        0,
+        5,
+        -15
+      ],
+      "collisionSHA256": "2f6a009ec2081beeef044ac3c2b7147d9c1debaf9dffafb663dfb2d18c019cd7"
+    },
+    {
+      "id": "beta-deck",
+      "replacedModelIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "pivot": [
+        0,
+        5,
+        15
+      ],
+      "collisionSHA256": "3c9051ea93a7a0b872a03cb4efdc03e838d371fe3cbc8a21dff757e1d0bdee11"
+    },
+    {
+      "id": "west-route",
+      "replacedModelIndices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "pivot": [
+        -27,
+        3,
+        0
+      ],
+      "collisionSHA256": "ce4e190a4d76f046e5d62911ddf99e0c19b9ec6dd7b1d4ebc51b98bc2d0f1798"
+    },
+    {
+      "id": "east-route",
+      "replacedModelIndices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pivot": [
+        27,
+        3,
+        0
+      ],
+      "collisionSHA256": "eef4d6effd3773a849c6b3938cc507cf5be342723023c175be841c842ba4c1d2"
+    },
+    {
+      "id": "alpha-lasers",
+      "replacedModelIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18
+      ],
+      "pivot": [
+        0,
+        20,
+        -27
+      ],
+      "collisionSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "beta-lasers",
+      "replacedModelIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "pivot": [
+        0,
+        20,
+        27
+      ],
+      "collisionSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "alpha-goal",
+      "replacedModelIndices": [],
+      "pivot": [
+        0,
+        15,
+        -40
+      ],
+      "collisionSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "beta-goal",
+      "replacedModelIndices": [],
+      "pivot": [
+        0,
+        15,
+        40
+      ],
+      "collisionSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "backdrop",
+      "replacedModelIndices": [
+        0,
+        1
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "collisionSHA256": "fae10998c9b39609974a79190dfff7cf45c8c199d26641b83e2b13159d170c33"
+    },
+    {
+      "id": "sky",
+      "replacedModelIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "collisionSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "trainFloor": {
+    "sourceHeight": -0.23002,
+    "visualOffset": 0.003,
+    "triangles": 82
+  },
+  "scope": "full-map-anime-v3",
+  "design": {
+    "revision": 3,
+    "palette": [
+      "ivory",
+      "cobalt blue",
+      "coral",
+      "sky blue",
+      "warm yellow"
+    ],
+    "edgeProfiles": 1134,
+    "baseSigns": {
+      "alpha-base": 4,
+      "beta-base": 4
+    },
+    "train": "accepted pilot retained",
+    "physicalMaterials": [
+      "rock_face"
+    ],
+    "architectureTextures": [
+      "paint-anime.png",
+      "floor-anime.png"
+    ],
+    "direction": "bright modern anime architecture, reference image 2"
+  },
+  "newCladdingPanels": 1504,
+  "banners": {
+    "alpha-base": 1,
+    "beta-base": 1
+  },
+  "environment": {
+    "rockSpires": 12,
+    "towers": 20,
+    "halos": 2,
+    "physics": "presentation only; original death plane unchanged"
+  },
+  "glbBytes": 30880684,
+  "objects": 13190,
+  "notes": [
+    "Original collision arrays remain external and unchanged.",
+    "Full-map first pass.",
+    "Original aperture contours and traversable silhouettes retained as gauges.",
+    "No gameplay collider is exported."
+  ],
+  "runtimeExport": {
+    "bytes": 30880684,
+    "triangles": 356363,
+    "removedObjects": 0,
+    "renderObjects": 8604
+  },
+  "wallBranding": {
+    "alpha-base": 6,
+    "beta-base": 6,
+    "alpha-deck": 3,
+    "beta-deck": 3,
+    "west-route": 0,
+    "east-route": 0
+  }
+}

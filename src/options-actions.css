@@ -1,0 +1,4 @@
+#welcome .s5-options-transaction-actions {display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
+#welcome .s5-options-transaction-actions > button {width:auto;min-height:32px;margin:0;padding:7px 12px;font-size:13px;line-height:1.25;}
+#welcome .s5-options-transaction-actions > p {flex-basis:100%;margin:2px 0;font-size:12px;line-height:1.4;}
+#welcome .s5-options-transaction-actions > h3 {flex-basis:100%;margin:0;font-size:14px;}

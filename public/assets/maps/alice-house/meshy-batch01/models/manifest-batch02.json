@@ -1,0 +1,462 @@
+{
+  "schema": "alice-meshy-batch02-v1",
+  "items": [
+    {
+      "itemId": 13,
+      "label": "Cabinet",
+      "url": "/assets/maps/alice-house/meshy-batch01/models/item13.glb",
+      "sha256": "406044bd44a2d7db1fe0d3efede16911f1dc6ea14940e4e3af2e61e79622143b",
+      "bytes": 2602492,
+      "triangles": 1970,
+      "triangleBudget": 2000,
+      "boundsYUp": {
+        "min": [
+          -0.33504611253738403,
+          0.0,
+          -0.22533349692821503
+        ],
+        "max": [
+          0.33504611253738403,
+          1.0,
+          0.22533349692821503
+        ],
+        "dimensions": [
+          0.6700922250747681,
+          1.0,
+          0.45066699385643005
+        ]
+      },
+      "normalization": {
+        "front": "+Z",
+        "up": "+Y",
+        "origin": "horizontal center; floorY0; maxSpan1"
+      },
+      "textures": {
+        "color": {
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "pixelStddev": [
+            61.61945063345824,
+            51.81052331034631,
+            57.57179432803057
+          ],
+          "sha256": "74d17ee437326d45f308c11dbf1aae6c806af7edd4f40f7540eeedaa1e3021c3"
+        },
+        "metalrough": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            0.9653382182985759,
+            17.377265790130707,
+            59.20758342381705
+          ],
+          "sha256": "18b71fe8a52c18817d640ca083acfa149a8ab6232e42dbff3106fa31fede58ee"
+        },
+        "normal": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            5.437268944108309,
+            5.612056412903259,
+            2.083583528707717
+          ],
+          "sha256": "00c14ea93765d46c2c1a2f1bbdee53774ec5e40ea52eefa1f3706ebb09d62b9b"
+        }
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "topologyChangedForBudget": true,
+      "sourceTriangles": 2084,
+      "geometryUVQualification": "Unwrap not changed. Existing UVs interpolated by collapse on reduced assets; no sourceUV byteidentity claim after reduction. Export/reimport triangle-position+UV multiset equality5dec."
+    },
+    {
+      "itemId": 14,
+      "label": "Rug",
+      "url": "/assets/maps/alice-house/meshy-batch01/models/item14.glb",
+      "sha256": "f1aa309ebb7443a896bd671accab854260a9cf6034a927ef38375f8be9196d48",
+      "bytes": 2966860,
+      "triangles": 98,
+      "triangleBudget": 100,
+      "boundsYUp": {
+        "min": [
+          -0.4999999701976776,
+          0.0,
+          -0.0033538094721734524
+        ],
+        "max": [
+          0.5,
+          0.5967074632644653,
+          0.0033538101706653833
+        ],
+        "dimensions": [
+          0.9999999701976776,
+          0.5967074632644653,
+          0.006707619642838836
+        ]
+      },
+      "normalization": {
+        "front": "+Z",
+        "up": "+Y",
+        "origin": "horizontal center; floorY0; maxSpan1"
+      },
+      "textures": {
+        "color": {
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "pixelStddev": [
+            65.6390035478634,
+            56.24384021022372,
+            61.10111252516132
+          ],
+          "sha256": "ea1bf711a71f02ae369df5aa650dabe57c65951a818a4c8eb515c3aa3b7f9999"
+        },
+        "metalrough": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            0.5651994439712129,
+            10.47883977257516,
+            0.6984816135608555
+          ],
+          "sha256": "d40b276338fde190dd9bbfdba79616d94d93d3e5d067a21527f53174c1344619"
+        },
+        "normal": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            7.654494636761523,
+            8.263088873230616,
+            2.9756417460824376
+          ],
+          "sha256": "b43a1bc5b3e1b3f8e2fa8f048af2e5fdea2cc04b877a8ebfe749e2589b27aef5"
+        }
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "topologyChangedForBudget": true,
+      "sourceTriangles": 108,
+      "geometryUVQualification": "Unwrap not changed. Existing UVs interpolated by collapse on reduced assets; no sourceUV byteidentity claim after reduction. Export/reimport triangle-position+UV multiset equality5dec."
+    },
+    {
+      "itemId": 15,
+      "label": "Wall_Sconce_Lantern",
+      "url": "/assets/maps/alice-house/meshy-batch01/models/item15.glb",
+      "sha256": "4414e89bfbc3494ec4513b53b4d62b03306b07f04efe1d83c3069415c3e2e130",
+      "bytes": 2060528,
+      "triangles": 895,
+      "triangleBudget": 1000,
+      "boundsYUp": {
+        "min": [
+          -0.11961334943771362,
+          0.0,
+          -0.26152220368385315
+        ],
+        "max": [
+          0.11961334943771362,
+          0.9999999403953552,
+          0.26152217388153076
+        ],
+        "dimensions": [
+          0.23922669887542725,
+          0.9999999403953552,
+          0.5230443775653839
+        ]
+      },
+      "normalization": {
+        "front": "+Z",
+        "up": "+Y",
+        "origin": "horizontal center; floorY0; maxSpan1"
+      },
+      "textures": {
+        "color": {
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "pixelStddev": [
+            70.86871634604971,
+            58.29547246166357,
+            45.77691375904154
+          ],
+          "sha256": "611b2033cb50d234e2f0c112e3d4ba746e22453210e855b8cc6530c02e5a165a"
+        },
+        "metalrough": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            89.41667334770965,
+            28.74523313978628,
+            98.3624012707968
+          ],
+          "sha256": "73aa3cec5194419639657cb0c03dd8ec2197aa891f6736295421c02ec5f460e4"
+        },
+        "normal": null
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "topologyChangedForBudget": false,
+      "sourceTriangles": 895,
+      "geometryUVQualification": "Source UVs preserved; export/reimport triangle-position+UV multiset equality5dec."
+    },
+    {
+      "itemId": 17,
+      "label": "Curved_Strip",
+      "url": "/assets/maps/alice-house/meshy-batch01/models/item17.glb",
+      "sha256": "5e1fc4fec79dc29ec5e4cac7661bb3ff98a273ca86345ea86ca97518bac53f45",
+      "bytes": 2409692,
+      "triangles": 295,
+      "triangleBudget": 300,
+      "boundsYUp": {
+        "min": [
+          -0.5,
+          0.0,
+          -0.23324471712112427
+        ],
+        "max": [
+          0.5,
+          0.0311000794172287,
+          0.23324471712112427
+        ],
+        "dimensions": [
+          1.0,
+          0.0311000794172287,
+          0.46648943424224854
+        ]
+      },
+      "normalization": {
+        "front": "+Z",
+        "up": "+Y",
+        "origin": "horizontal center; floorY0; maxSpan1"
+      },
+      "textures": {
+        "color": {
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "pixelStddev": [
+            55.113878639500854,
+            45.47096996349072,
+            43.35072025387447
+          ],
+          "sha256": "4c46b858edc74e8a046b93da2e380f4678cea9bac7e61ad4b19431269a1c39f1"
+        },
+        "metalrough": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            0.5794353037231349,
+            10.77102771630356,
+            42.8751819771749
+          ],
+          "sha256": "1c76d33f21ed9858a74d230ee97281f249aa7dcc748022ff362ce979d1bca650"
+        },
+        "normal": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            4.07585981036186,
+            6.816034913839179,
+            2.0251546917167573
+          ],
+          "sha256": "046cd90a2ccc8f9658747a20674a2e262cf284413aca88b547c81b9da7d23c5c"
+        }
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "topologyChangedForBudget": true,
+      "sourceTriangles": 516,
+      "geometryUVQualification": "Unwrap not changed. Existing UVs interpolated by collapse on reduced assets; no sourceUV byteidentity claim after reduction. Export/reimport triangle-position+UV multiset equality5dec."
+    },
+    {
+      "itemId": 18,
+      "label": "Curved_Balustrade",
+      "url": "/assets/maps/alice-house/meshy-batch01/models/item18.glb",
+      "sha256": "8cc5f82c0b969d8e4ff801dd955ac73529d1235e5f19866c47f71118e0571045",
+      "bytes": 1672320,
+      "triangles": 1425,
+      "triangleBudget": 1500,
+      "boundsYUp": {
+        "min": [
+          -0.4999999701976776,
+          0.0,
+          -0.0933317169547081
+        ],
+        "max": [
+          0.4999999403953552,
+          0.207004576921463,
+          0.0933317095041275
+        ],
+        "dimensions": [
+          0.9999999105930328,
+          0.207004576921463,
+          0.1866634264588356
+        ]
+      },
+      "normalization": {
+        "front": "+Z",
+        "up": "+Y",
+        "origin": "horizontal center; floorY0; maxSpan1"
+      },
+      "textures": {
+        "color": {
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "pixelStddev": [
+            66.18893705285058,
+            61.45297512957329,
+            59.2414177734153
+          ],
+          "sha256": "b61c3788ad084f59d468057121907c376a49bf05f3ccbb27a30d19ddac5d5e47"
+        },
+        "metalrough": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            71.4823007140201,
+            33.39404001711507,
+            21.205480183427067
+          ],
+          "sha256": "6c474e1e741a13301ee2302aa8bb9f4e07052de6177ab996951f14d4cd402fe1"
+        },
+        "normal": null
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "topologyChangedForBudget": false,
+      "sourceTriangles": 1425,
+      "geometryUVQualification": "Source UVs preserved; export/reimport triangle-position+UV multiset equality5dec."
+    },
+    {
+      "itemId": 19,
+      "label": "Vertical_U_Frame",
+      "url": "/assets/maps/alice-house/meshy-batch01/models/item19.glb",
+      "sha256": "dcd92c6a520313ee43036b08864aea24e092ab14563b3157ee22fb29ed1b7fef",
+      "bytes": 1860528,
+      "triangles": 295,
+      "triangleBudget": 300,
+      "boundsYUp": {
+        "min": [
+          -0.18263481557369232,
+          0.0,
+          -0.03547929972410202
+        ],
+        "max": [
+          0.18263481557369232,
+          1.0,
+          0.03547930344939232
+        ],
+        "dimensions": [
+          0.36526963114738464,
+          1.0,
+          0.07095860317349434
+        ]
+      },
+      "normalization": {
+        "front": "+Z",
+        "up": "+Y",
+        "origin": "horizontal center; floorY0; maxSpan1"
+      },
+      "textures": {
+        "color": {
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "pixelStddev": [
+            41.38508503342814,
+            37.61756395719234,
+            42.79195530619171
+          ],
+          "sha256": "e9da7193a0d6bccf95fcea076ae93002cac5c4a230e68eea3accf9808cdd8416"
+        },
+        "metalrough": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            0.628751089664502,
+            11.19969295698754,
+            56.3640288602064
+          ],
+          "sha256": "1eaab5e2aedfc4886c71fde3c83f581c9e87bc0448f337b4495e4b7d3016c8a0"
+        },
+        "normal": {
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "format": "PNG",
+          "mode": "RGB",
+          "pixelStddev": [
+            3.4764759576666395,
+            3.6937391911456157,
+            1.3186446194029688
+          ],
+          "sha256": "301812a37882c65dcad002fd4bd7eb69b93afe1e292b5a1719d088ce466ddf03"
+        }
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "topologyChangedForBudget": true,
+      "sourceTriangles": 470,
+      "geometryUVQualification": "Unwrap not changed. Existing UVs interpolated by collapse on reduced assets; no sourceUV byteidentity claim after reduction. Export/reimport triangle-position+UV multiset equality5dec."
+    }
+  ],
+  "count": 6,
+  "totalTriangles": 4978,
+  "totalBytes": 13572420
+}

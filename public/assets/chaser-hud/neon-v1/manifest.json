@@ -1,0 +1,223 @@
+{
+  "ability": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      13,
+      174,
+      2164,
+      552
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/ability.png",
+    "backgroundSize": "100.976% 191.534%",
+    "backgroundPosition": "61.905% 50.289%"
+  },
+  "announcement": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      14,
+      159,
+      2158,
+      574
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/announcement.png",
+    "backgroundSize": "101.306% 174.458%",
+    "backgroundPosition": "50.000% 51.456%"
+  },
+  "hp": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      15,
+      228,
+      2160,
+      460
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/hp.png",
+    "backgroundSize": "101.259% 312.069%",
+    "backgroundPosition": "55.556% 46.341%"
+  },
+  "light-sweep": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      51,
+      242,
+      2135,
+      478
+    ],
+    "alphaRange": [
+      0,
+      253
+    ],
+    "url": "/assets/chaser-hud/neon-v1/light-sweep.png",
+    "backgroundSize": "104.223% 306.780%",
+    "backgroundPosition": "57.955% 49.590%"
+  },
+  "results": {
+    "width": 1586,
+    "height": 992,
+    "bounds": [
+      17,
+      89,
+      1570,
+      877
+    ],
+    "alphaRange": [
+      0,
+      254
+    ],
+    "url": "/assets/chaser-hud/neon-v1/results.png",
+    "backgroundSize": "102.125% 125.888%",
+    "backgroundPosition": "51.515% 43.627%"
+  },
+  "score-best": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      27,
+      206,
+      2163,
+      499
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/score-best.png",
+    "backgroundSize": "101.685% 247.099%",
+    "backgroundPosition": "75.000% 47.796%"
+  },
+  "score-mine": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      26,
+      197,
+      2164,
+      502
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/score-mine.png",
+    "backgroundSize": "101.590% 237.377%",
+    "backgroundPosition": "76.471% 47.017%"
+  },
+  "sp": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      15,
+      224,
+      2159,
+      463
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/sp.png",
+    "backgroundSize": "101.306% 302.929%",
+    "backgroundPosition": "53.571% 46.186%"
+  },
+  "survivors": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      2,
+      197,
+      2171,
+      513
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/survivors.png",
+    "backgroundSize": "100.138% 229.114%",
+    "backgroundPosition": "66.667% 48.284%"
+  },
+  "target": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      128,
+      109,
+      2052,
+      643
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/target.png",
+    "backgroundSize": "112.890% 135.581%",
+    "backgroundPosition": "51.613% 57.368%"
+  },
+  "timer": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      45,
+      109,
+      2126,
+      581
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/timer.png",
+    "backgroundSize": "104.373% 153.390%",
+    "backgroundPosition": "49.451% 43.254%"
+  },
+  "victory": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      0,
+      120,
+      2172,
+      580
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/victory.png",
+    "backgroundSize": "100.000% 157.391%",
+    "backgroundPosition": "50.000% 45.455%"
+  },
+  "weapon": {
+    "width": 2172,
+    "height": 724,
+    "bounds": [
+      11,
+      62,
+      2166,
+      532
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "url": "/assets/chaser-hud/neon-v1/weapon.png",
+    "backgroundSize": "100.789% 154.043%",
+    "backgroundPosition": "64.706% 24.409%"
+  }
+}

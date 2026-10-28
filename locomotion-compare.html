@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S5 · Comparaison des animations</title></head>
+<body>
+<main>
+ <header><a href="/">S5 <span>/ LABO ANIMATION</span></a><a id="game-link" href="/?character=s5runtime&weapon=dagger&runStyle=blenderTrial">Essayer en jeu ↗</a></header>
+ <section class="intro"><div><p class="eyebrow">COMPARAISON SYNCHRONISÉE</p><h1>Le même parcours. Deux animations.</h1><p>Les personnages font un cercle sans tourner le buste : avant, côtés, arrière et diagonales. La caméra et le rythme sont partagés.</p></div><span class="experiment-label">ESSAI · SPY DAGGER</span></section>
+ <section class="toolbar" aria-label="Contrôles de comparaison">
+  <button id="pause" class="primary" disabled>Pause</button><button id="restart" disabled>Recommencer le tour</button>
+  <label>Corps<select id="sex"><option value="male">Homme</option><option value="female">Femme</option></select></label>
+  <label>À comparer<select id="variant"><option value="blenderBold">V2 athlétique · 8 directions</option><option value="blenderTrial">V1 légère · avant seulement</option><option value="smooth">Lissage · courbes adoucies</option></select></label>
+  <label>Vitesse<select id="speed"><option value="0.25">0,25×</option><option value="0.5">0,5×</option><option value="1" selected>1×</option></select></label>
+  <button id="fullscreen">Plein écran</button>
+ </section>
+ <p id="scope" class="scope">Blender V2 : nouvelle posture, bras et récupération des jambes sur les huit directions. Essai réversible.</p>
+ <section class="viewer" aria-label="Animations originales et expérimentales côte à côte">
+  <canvas id="comparison" aria-label="Deux personnages synchronisés, orientation identique"></canvas>
+  <div class="pane-label original"><span>01 / ORIGINAL S5RUNTIME</span><strong>Animation classique</strong></div>
+  <div class="pane-label modified"><span>02 / ESSAI</span><strong id="variant-title">V2 athlétique</strong><small id="variant-active">Chargement…</small></div>
+  <div class="divider"></div>
+  <div class="viewer-bottom"><span>Regard verrouillé · même orientation des deux côtés</span><span>Glisser pour tourner la caméra · molette pour zoomer</span></div>
+ </section>
+ <section class="navigation" aria-label="Parcours et direction">
+  <div class="tour-controls"><button id="circle" aria-pressed="true">↻ Tours automatiques</button><button id="idle" aria-pressed="false">Repos</button><p id="direction">Avant</p><small id="mode-hint">Un tour en 12 secondes à vitesse normale.</small></div>
+  <div class="direction-pad" aria-label="Maintenir une direction">
+   <button data-direction="leftFront">↖ Diagonale avant gauche</button><button data-direction="front">↑ Avant</button><button data-direction="rightFront">↗ Diagonale avant droite</button>
+   <button data-direction="left">← Gauche</button><span>Choisir une direction<br>pour l’observer sur place</span><button data-direction="right">Droite →</button>
+   <button data-direction="leftBack">↙ Diagonale arrière gauche</button><button data-direction="back">↓ Arrière</button><button data-direction="rightBack">↘ Diagonale arrière droite</button>
+  </div>
+  <div class="camera-controls"><span>Vue partagée</span><button data-view="threeQuarter" aria-pressed="true">¾</button><button data-view="front" aria-pressed="false">Face</button><button data-view="side" aria-pressed="false">Profil</button><button data-view="back" aria-pressed="false">Dos</button></div>
+ </section>
+ <p id="status" role="status" aria-live="polite">Chargement des deux personnages…</p>
+ <details><summary>Diagnostics de synchronisation</summary><output id="diagnostics"></output></details>
+</main>
+<script type="module" src="/src/locomotion-compare.js"></script>
+</body></html>

@@ -1,0 +1,499 @@
+{
+  "schema": "alice-house-source-destructibles-v1",
+  "source": "model/background/alicehouse.scn",
+  "nativeMapId": 225,
+  "sourceSceneJsonSha256": "0bcd779d8e38e86165fe4a8f4425b358d1744108f62d55a9e93125d628e341eb",
+  "sourceBginfoSha256": "483553c1131fa72df4a05ded0904a1060a4e3b0f54d7890738ea98696f779f8c",
+  "bindingAuditSha256": "257bcd2b042235e634a2e76e1e9143de7486a5596b39c6525a372069d65d912d",
+  "profiles": [
+    {
+      "key": "blast2_win",
+      "hp": 10,
+      "hpRecoveryMs": 10000,
+      "rebirthMs": 7000,
+      "material": 1,
+      "sourceSection": "BLASTINFO_02",
+      "sourceLine": 174,
+      "sourceMaterialKey": "mterial",
+      "sourceMaterialValue": "6",
+      "nativeMaterialReadKey": "material",
+      "effect": "mapeffect_blast_glass.seq",
+      "sound": "wall_destroy_steel.ogg1"
+    },
+    {
+      "key": "blast2_door",
+      "hp": 10,
+      "hpRecoveryMs": 10000,
+      "rebirthMs": 30000,
+      "material": 1,
+      "sourceSection": "BLASTINFO_03",
+      "sourceLine": 182,
+      "sourceMaterialKey": "mterial",
+      "sourceMaterialValue": "6",
+      "nativeMaterialReadKey": "material",
+      "effect": "mapeffect_blast_glass.seq",
+      "sound": "wall_destroy_steel.ogg1"
+    },
+    {
+      "key": "blast2_box",
+      "hp": 40,
+      "hpRecoveryMs": 10000,
+      "rebirthMs": 10000,
+      "material": 1,
+      "sourceSection": "BLASTINFO_01",
+      "sourceLine": 166,
+      "sourceMaterialKey": "mterial",
+      "sourceMaterialValue": "3",
+      "nativeMaterialReadKey": "material",
+      "effect": "mapeffect_blast_glass.seq",
+      "sound": "wall_destroy_steel.ogg"
+    }
+  ],
+  "instances": [
+    {
+      "key": "alice225/main/model-13/node-28",
+      "profileKey": "blast2_win",
+      "sourceModelIndex": 13,
+      "sourceNodeIndex": 28,
+      "name": "window01_alphablend1_01",
+      "colliders": [
+        {
+          "sourceModelIndex": 14,
+          "sourceNodeIndex": 29,
+          "name": "oct_window01",
+          "triangles": 6
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-15/node-30",
+      "profileKey": "blast2_win",
+      "sourceModelIndex": 15,
+      "sourceNodeIndex": 30,
+      "name": "window02_alphablend1_01_",
+      "colliders": [
+        {
+          "sourceModelIndex": 16,
+          "sourceNodeIndex": 31,
+          "name": "oct_window02",
+          "triangles": 8
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-17/node-32",
+      "profileKey": "blast2_win",
+      "sourceModelIndex": 17,
+      "sourceNodeIndex": 32,
+      "name": "window03_alphablend1_01",
+      "colliders": [
+        {
+          "sourceModelIndex": 18,
+          "sourceNodeIndex": 33,
+          "name": "oct_window03",
+          "triangles": 6
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-19/node-34",
+      "profileKey": "blast2_win",
+      "sourceModelIndex": 19,
+      "sourceNodeIndex": 34,
+      "name": "window04_alphablend1_01",
+      "colliders": [
+        {
+          "sourceModelIndex": 20,
+          "sourceNodeIndex": 35,
+          "name": "oct_window04",
+          "triangles": 6
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-21/node-36",
+      "profileKey": "blast2_win",
+      "sourceModelIndex": 21,
+      "sourceNodeIndex": 36,
+      "name": "window05_alphablend1_01",
+      "colliders": [
+        {
+          "sourceModelIndex": 22,
+          "sourceNodeIndex": 37,
+          "name": "oct_window05",
+          "triangles": 6
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-23/node-38",
+      "profileKey": "blast2_win",
+      "sourceModelIndex": 23,
+      "sourceNodeIndex": 38,
+      "name": "window06_alphablend1_01",
+      "colliders": [
+        {
+          "sourceModelIndex": 24,
+          "sourceNodeIndex": 39,
+          "name": "oct_window06",
+          "triangles": 6
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-27/node-43",
+      "profileKey": "blast2_door",
+      "sourceModelIndex": 27,
+      "sourceNodeIndex": 43,
+      "name": "doorattic02",
+      "colliders": [
+        {
+          "sourceModelIndex": 28,
+          "sourceNodeIndex": 44,
+          "name": "oct_doorattic02",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-29/node-45",
+      "profileKey": "blast2_door",
+      "sourceModelIndex": 29,
+      "sourceNodeIndex": 45,
+      "name": "doorattic01",
+      "colliders": [
+        {
+          "sourceModelIndex": 30,
+          "sourceNodeIndex": 46,
+          "name": "oct_doorattic01",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-31/node-47",
+      "profileKey": "blast2_door",
+      "sourceModelIndex": 31,
+      "sourceNodeIndex": 47,
+      "name": "door01",
+      "colliders": [
+        {
+          "sourceModelIndex": 32,
+          "sourceNodeIndex": 48,
+          "name": "oct_door01",
+          "triangles": 18
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-33/node-49",
+      "profileKey": "blast2_door",
+      "sourceModelIndex": 33,
+      "sourceNodeIndex": 49,
+      "name": "door02",
+      "colliders": [
+        {
+          "sourceModelIndex": 34,
+          "sourceNodeIndex": 50,
+          "name": "oct_door02",
+          "triangles": 18
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-35/node-51",
+      "profileKey": "blast2_door",
+      "sourceModelIndex": 35,
+      "sourceNodeIndex": 51,
+      "name": "door03",
+      "colliders": [
+        {
+          "sourceModelIndex": 36,
+          "sourceNodeIndex": 52,
+          "name": "oct_door03",
+          "triangles": 18
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-37/node-53",
+      "profileKey": "blast2_door",
+      "sourceModelIndex": 37,
+      "sourceNodeIndex": 53,
+      "name": "door04",
+      "colliders": [
+        {
+          "sourceModelIndex": 38,
+          "sourceNodeIndex": 54,
+          "name": "oct_door04",
+          "triangles": 18
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-59/node-76",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 59,
+      "sourceNodeIndex": 76,
+      "name": "desk",
+      "colliders": [
+        {
+          "sourceModelIndex": 60,
+          "sourceNodeIndex": 77,
+          "name": "oct_desk",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-61/node-78",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 61,
+      "sourceNodeIndex": 78,
+      "name": "bigdoor02",
+      "colliders": [
+        {
+          "sourceModelIndex": 62,
+          "sourceNodeIndex": 79,
+          "name": "oct_bigdoor02",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-63/node-80",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 63,
+      "sourceNodeIndex": 80,
+      "name": "bigdoor01",
+      "colliders": [
+        {
+          "sourceModelIndex": 64,
+          "sourceNodeIndex": 81,
+          "name": "oct_bigdoor01",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-65/node-82",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 65,
+      "sourceNodeIndex": 82,
+      "name": "bigdoor03",
+      "colliders": [
+        {
+          "sourceModelIndex": 66,
+          "sourceNodeIndex": 83,
+          "name": "oct_bigdoor03",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-67/node-84",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 67,
+      "sourceNodeIndex": 84,
+      "name": "bigdoor04",
+      "colliders": [
+        {
+          "sourceModelIndex": 68,
+          "sourceNodeIndex": 85,
+          "name": "oct_bigdoor04",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-69/node-86",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 69,
+      "sourceNodeIndex": 86,
+      "name": "smallcahir03",
+      "colliders": [
+        {
+          "sourceModelIndex": 70,
+          "sourceNodeIndex": 87,
+          "name": "oct_chair01",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-71/node-88",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 71,
+      "sourceNodeIndex": 88,
+      "name": "smallcahir02",
+      "colliders": [
+        {
+          "sourceModelIndex": 72,
+          "sourceNodeIndex": 89,
+          "name": "oct_chair04",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-73/node-90",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 73,
+      "sourceNodeIndex": 90,
+      "name": "smallcahir04",
+      "colliders": [
+        {
+          "sourceModelIndex": 74,
+          "sourceNodeIndex": 91,
+          "name": "oct_smallcahir04",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-75/node-92",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 75,
+      "sourceNodeIndex": 92,
+      "name": "smallcahir01",
+      "colliders": [
+        {
+          "sourceModelIndex": 76,
+          "sourceNodeIndex": 93,
+          "name": "oct_smallcahir01",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-77/node-94",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 77,
+      "sourceNodeIndex": 94,
+      "name": "bigtable",
+      "colliders": [
+        {
+          "sourceModelIndex": 78,
+          "sourceNodeIndex": 95,
+          "name": "oct_bigtable",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-79/node-96",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 79,
+      "sourceNodeIndex": 96,
+      "name": "box01",
+      "colliders": [
+        {
+          "sourceModelIndex": 80,
+          "sourceNodeIndex": 97,
+          "name": "oct_box01",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-81/node-98",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 81,
+      "sourceNodeIndex": 98,
+      "name": "chair01",
+      "colliders": [
+        {
+          "sourceModelIndex": 82,
+          "sourceNodeIndex": 99,
+          "name": "oct_chair01",
+          "triangles": 72
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-83/node-100",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 83,
+      "sourceNodeIndex": 100,
+      "name": "smalltable",
+      "colliders": [
+        {
+          "sourceModelIndex": 84,
+          "sourceNodeIndex": 101,
+          "name": "oct_smalltable",
+          "triangles": 10
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-85/node-102",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 85,
+      "sourceNodeIndex": 102,
+      "name": "chair02",
+      "colliders": [
+        {
+          "sourceModelIndex": 86,
+          "sourceNodeIndex": 103,
+          "name": "oct_chair02",
+          "triangles": 72
+        }
+      ]
+    },
+    {
+      "key": "alice225/main/model-87/node-104",
+      "profileKey": "blast2_box",
+      "sourceModelIndex": 87,
+      "sourceNodeIndex": 104,
+      "name": "frame",
+      "colliders": [
+        {
+          "sourceModelIndex": 88,
+          "sourceNodeIndex": 105,
+          "name": "oct_frame",
+          "triangles": 12
+        }
+      ]
+    }
+  ],
+  "sourceBuffersChanged": false,
+  "scope": "Explicit native model instances and their resolved collision children; independent HP per instance, not per Bone/family.",
+  "materialPolicy": "Native reader requests material; misspelled mterial is retained as evidence and native default1 is used.",
+  "resources": [
+    {
+      "literal": "wall_destroy_steel.ogg",
+      "archiveCandidates": [
+        {
+          "path": "sound/wall_destroy_steel.ogg",
+          "archive": "50.xs"
+        }
+      ],
+      "substitutionMade": false
+    },
+    {
+      "literal": "wall_destroy_steel.ogg1",
+      "archiveCandidates": [],
+      "substitutionMade": false
+    },
+    {
+      "literal": "mapeffect_blast_glass.seq",
+      "archiveCandidates": [
+        {
+          "path": "effects/mapeffect_blast_glass.seq",
+          "archive": "53.xs"
+        }
+      ],
+      "substitutionMade": false
+    },
+    {
+      "literal": "teleport.ogg",
+      "archiveCandidates": [],
+      "substitutionMade": false
+    },
+    {
+      "literal": "noise.bmp",
+      "archiveCandidates": [],
+      "substitutionMade": false
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "sourceSHA256": "600779da209080cec33978b53f2a6bf5ce2e20e28ad6e9d5afd46df5dd6689b5",
+  "inputCollisionArea": 152657.7305358885,
+  "outputCollisionArea": 152657.73053588867,
+  "prefabs": [
+    {
+      "id": "train",
+      "models": 57,
+      "triangles": 18595,
+      "collisionTriangles": 5000
+    },
+    {
+      "id": "alpha-bridge",
+      "models": 15,
+      "triangles": 401,
+      "collisionTriangles": 156
+    },
+    {
+      "id": "beta-bridge",
+      "models": 15,
+      "triangles": 401,
+      "collisionTriangles": 156
+    },
+    {
+      "id": "alpha-stairs",
+      "models": 15,
+      "triangles": 4431,
+      "collisionTriangles": 401
+    },
+    {
+      "id": "beta-stairs",
+      "models": 16,
+      "triangles": 4927,
+      "collisionTriangles": 410
+    },
+    {
+      "id": "alpha-base",
+      "models": 27,
+      "triangles": 10997,
+      "collisionTriangles": 1299
+    },
+    {
+      "id": "beta-base",
+      "models": 30,
+      "triangles": 12964,
+      "collisionTriangles": 1299
+    },
+    {
+      "id": "alpha-deck",
+      "models": 38,
+      "triangles": 3196,
+      "collisionTriangles": 1472
+    },
+    {
+      "id": "beta-deck",
+      "models": 40,
+      "triangles": 3571,
+      "collisionTriangles": 1466
+    },
+    {
+      "id": "west-route",
+      "models": 13,
+      "triangles": 2286,
+      "collisionTriangles": 1032
+    },
+    {
+      "id": "east-route",
+      "models": 14,
+      "triangles": 2507,
+      "collisionTriangles": 990
+    },
+    {
+      "id": "alpha-lasers",
+      "models": 19,
+      "triangles": 704,
+      "collisionTriangles": 0
+    },
+    {
+      "id": "beta-lasers",
+      "models": 19,
+      "triangles": 704,
+      "collisionTriangles": 0
+    },
+    {
+      "id": "alpha-goal",
+      "models": 36,
+      "triangles": 1128,
+      "collisionTriangles": 0
+    },
+    {
+      "id": "beta-goal",
+      "models": 36,
+      "triangles": 1128,
+      "collisionTriangles": 0
+    },
+    {
+      "id": "backdrop",
+      "models": 2,
+      "triangles": 144,
+      "collisionTriangles": 2071
+    },
+    {
+      "id": "sky",
+      "models": 6,
+      "triangles": 768,
+      "collisionTriangles": 0
+    }
+  ]
+}

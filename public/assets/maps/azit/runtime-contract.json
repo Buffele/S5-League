@@ -1,0 +1,203 @@
+{
+  "schema": "s5runtime-static-map-runtime-contract-v1",
+  "key": "MAPNAME_AZIT",
+  "name": "Azit",
+  "nativeMapId": 15,
+  "modes": [
+    "Deathmatch",
+    "Snowball Fight",
+    "Duel"
+  ],
+  "scenes": [
+    {
+      "sceneIndex": 0,
+      "source": "model/background/sky_bluesky.scn",
+      "modelCount": 1,
+      "nodeCount": 1,
+      "render": false
+    },
+    {
+      "sceneIndex": 1,
+      "source": "model/background/azit.scn",
+      "modelCount": 27,
+      "nodeCount": 30,
+      "render": true
+    },
+    {
+      "sceneIndex": 2,
+      "source": "model/background/azit_jump.scn",
+      "modelCount": 0,
+      "nodeCount": 18,
+      "render": false
+    },
+    {
+      "sceneIndex": 3,
+      "source": "model/background/azit_jump_indicator.scn",
+      "modelCount": 18,
+      "nodeCount": 18,
+      "render": true
+    },
+    {
+      "sceneIndex": 4,
+      "source": "model/background/azit_jump_spawn.scn",
+      "modelCount": 17,
+      "nodeCount": 17,
+      "render": true
+    },
+    {
+      "sceneIndex": 5,
+      "source": "model/background/azit_spawn.scn",
+      "modelCount": 0,
+      "nodeCount": 8,
+      "render": false
+    },
+    {
+      "sceneIndex": 6,
+      "source": "model/background/azit_oct.scn",
+      "modelCount": 2,
+      "nodeCount": 4,
+      "render": false
+    }
+  ],
+  "movementCandidates": [
+    {
+      "sceneIndex": 1,
+      "modelIndex": 13,
+      "nodeIndex": 16,
+      "name": "oct_Box130",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 15,
+      "nodeIndex": 18,
+      "name": "oct_Box125",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 17,
+      "nodeIndex": 20,
+      "name": "oct_Box133",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 19,
+      "nodeIndex": 22,
+      "name": "oct_Box129",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 21,
+      "nodeIndex": 24,
+      "name": "oct_Box131",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 23,
+      "nodeIndex": 26,
+      "name": "oct_Box127",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 25,
+      "nodeIndex": 28,
+      "name": "oct_Box132",
+      "category": 128
+    },
+    {
+      "sceneIndex": 6,
+      "modelIndex": 0,
+      "nodeIndex": 2,
+      "name": "oct_land_ground",
+      "category": 24577
+    }
+  ],
+  "weaponCandidates": [
+    {
+      "sceneIndex": 1,
+      "modelIndex": 13,
+      "nodeIndex": 16,
+      "name": "oct_Box130",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 15,
+      "nodeIndex": 18,
+      "name": "oct_Box125",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 17,
+      "nodeIndex": 20,
+      "name": "oct_Box133",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 19,
+      "nodeIndex": 22,
+      "name": "oct_Box129",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 21,
+      "nodeIndex": 24,
+      "name": "oct_Box131",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 23,
+      "nodeIndex": 26,
+      "name": "oct_Box127",
+      "category": 128
+    },
+    {
+      "sceneIndex": 1,
+      "modelIndex": 25,
+      "nodeIndex": 28,
+      "name": "oct_Box132",
+      "category": 128
+    },
+    {
+      "sceneIndex": 6,
+      "modelIndex": 1,
+      "nodeIndex": 3,
+      "name": "oct_weapon",
+      "category": 64
+    }
+  ],
+  "expectedRejected": [],
+  "previewSpawn": {
+    "sceneIndex": 5,
+    "nodeIndex": 0,
+    "name": "alpha_spawn_pos_01"
+  },
+  "sourceMapSha256": "c9a499a11b97dd270034dbda94babc79a4a17fbf83689aa341afc54bd046e0aa",
+  "sourcePackage": "work/s5runtime-map-native-adaptation/source-pipeline/packages/azit/native-15/",
+  "qualifications": {
+    "freeExplorationOnly": true,
+    "nativeRuntimePlacementCertified": false,
+    "gameplayReady": false,
+    "nativeReady": false,
+    "noInventedSolids": true,
+    "allSourceMarkersRetained": true,
+    "destructionIntactOnly": true,
+    "jumpStationBehaviorImplemented": false,
+    "alphaBetaDecorRequired": false
+  },
+  "blockers": [
+    "Seven BLAST2 source instances remain intact; local authority, damage/visual/effect bindings are not activated by this factory.",
+    "Jump Box trigger/indicator/platform source pose is retained, but launch, transport, animation and mode allocation behavior are not implemented.",
+    "Preview spawn is an explicit source marker with S5 floor projection/clearance; native spawn allocation is not certified."
+  ],
+  "audit": "work/azit-native-adaptation/runtime-audit.json"
+}

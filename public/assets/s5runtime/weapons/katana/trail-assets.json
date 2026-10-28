@@ -1,0 +1,16 @@
+{
+  "schema": "katana-classic-trail-texture-v1",
+  "assets": [
+    {
+      "source": "image/slash01.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "9c6c03f966638c8fa67f40c11b42c9292707de278f8962663f72aa08d39d57cc",
+      "path": "/assets/s5runtime/weapons/katana/trail/slash01.png",
+      "bytes": 34730,
+      "sha256": "dfe51d1de436297873fce9b16f906dfe08a668a8a31d93a02d09299bf4369f27",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    }
+  ]
+}

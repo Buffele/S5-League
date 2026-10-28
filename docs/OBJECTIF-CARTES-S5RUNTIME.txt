@@ -1,0 +1,73 @@
+OBJECTIF — RECONSTRUCTION ET FINITION DES MAPS S5RUNTIME DANS S5
+Révision validée par l'utilisateur le 27 octobre 2026
+
+Reconstruire et finaliser les autres maps S5Runtime sélectionnées dans S5, selon
+leur thème artistique déjà validé, avec le niveau de finition recherché sur
+Alice House et Azit. Cette révision généralise la reconstruction Blender à
+la série et remplace la priorité historique à une simple réfection des atlas.
+Les références et livraisons précédentes restent conservées.
+
+PÉRIMÈTRE
+Les 48 choix de S5Runtime-choix-valides.json font autorité, sous réserve des
+corrections utilisateur ultérieures. Alice House et Azit servent de références
+et ne sont pas recommencées. Les maps exclues et les huit choix non résolus
+ne sont pas réintroduits automatiquement. Les corrections tardives de thème
+priment sur les anciens concepts (notamment Alice botanique et Azit crépuscule).
+
+POUR CHAQUE CARTE
+1. Analyser exhaustivement l'original S5Runtime : architecture, sols, murs,
+   bordures, escaliers et rambardes, spawns, meubles, machines, accessoires,
+   signalétique, effets et petits détails. Identifier collisions, ouvertures,
+   surfaces traversables, trampolines, destructibles et règles selon l'acteur
+   ou le mode. Relier les observations aux faces, UV, poses et instances.
+   Ne pas confondre modèle combiné, partition de triangles et objet fonctionnel.
+2. Définir la transformation artistique de chaque ensemble et sous-partie :
+   formes, assemblages, matériaux, textures, détails, effets et éclairage.
+   Respecter le thème avec du bon sens et de la diversité. Éviter les matières
+   génériques, le motif identique partout ou une simple recoloration globale.
+3. Reconstruire dans Blender à partir de S5Runtime. Conserver une référence source
+   protégée, distincte des nouveaux modules visuels. Adapter les modèles si
+   cela améliore réellement le résultat ; conserver et retexturer ceux qui
+   conviennent déjà. Aucun recours à Meshy pour la série. Les anciens éléments
+   déjà validés dans Alice ne sont pas supprimés par cette instruction.
+4. Générer les nouvelles textures via ImageGen avec des descriptions très
+   détaillées par fonction et famille : matériaux, joints, fixations, usure,
+   mobilier, accessoires et décor. Prévoir une lecture de loin, à hauteur du
+   joueur et de près. Adapter formats/résolutions/variantes/atlas aux surfaces.
+   Éditer l'atlas d'origine lorsque les UV et la forme sont conservés ; fournir
+   de nouveaux UV artistiques aux modules reconstruits. Protéger les masques
+   alpha fonctionnels, les ouvertures et les transparences natives.
+5. Produire le panorama via l'API OpenAI avec la clé configurée dans
+   l'environnement Windows, sans jamais l'exposer. Format panoramique 2:1,
+   résolution native réellement vérifiée de 4K ou 8K. Ne pas présenter un
+   agrandissement comme natif. Contrôler netteté, raccord, horizon, luminosité,
+   orientation et cohérence avec les matériaux et lumières en jeu.
+6. Préserver le fonctionnement S5Runtime : parcours, dimensions jouables,
+   couvertures, ouvertures, collisions, spawns, sauts, destructions/restaurations
+   et comportements spécifiques aux modes/rôles. Les nouveaux décors doivent
+   laisser libres les déplacements et trajectoires. Toute modification
+   fonctionnelle est explicite, justifiée et validée. Repères Alpha/Bêta
+   uniquement pour les maps/variantes Touchdown, jamais par supposition d'axe.
+7. Enrichir et optimiser : décors cohérents et utiles, modèles web possibles
+   avec provenance/licence, géométrie et matériaux partagés, instances,
+   transparences/éclairages/effets bornés, détails utiles préservés. Mesurer les
+   coûts réels ; une source complète ou une capture ne prouve pas la fluidité.
+8. Intégrer par lots cohérents. Comparer les versions aux mêmes angles, puis
+   vérifier dans S5 les personnages, matières, déplacements, interactions et
+   performances. Regrouper les corrections, régressions et builds pertinents ;
+   ne pas répéter les contrôles passés sans changement pertinent ou doute ouvert.
+9. Traiter l'atmosphère propre à chaque carte : nuit ou crépuscule lorsque le
+   thème le demande, lumières pratiques, LEDs, émissions, reflets, contraste,
+   transparence et effets visuels. Raccorder panorama et éclairage. Préserver
+   la lisibilité des personnages, des obstacles et des parcours ; ne pas
+   imposer le même éclairage à toutes les maps. Le cap écran 30 Hz de ce PC
+   n'est pas à lui seul une régression de performances.
+
+CRITÈRE DE FIN
+Une carte est terminée après validation en jeu de sa finition artistique,
+de son fonctionnement et de ses performances, avec projet Blender éditable,
+inventaire, images/prompts/provenance et preuves de contrôle disponibles.
+Conserver les sources et versions précédentes ; pas de ZIP non demandé.
+Déclarer précisément les sources manquantes, approximations et contrôles
+restants. Ne pas inventer une géométrie absente pour débloquer une carte,
+ni qualifier toute la fidélité native à partir d'une exploration libre.

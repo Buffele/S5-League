@@ -1,0 +1,383 @@
+{
+  "layout": {
+    "path": "work/s5runtime-inventory-recovery/interface-sounds/entry-source/xui/ui/3d_waitingroom.xui",
+    "sha256": "5ce4191f2acadba907ff97578c9ba1bff0f50c553ef498440f32cb21dcfbf0fa",
+    "archive": "package/74.xs",
+    "checksum": "603ba41b"
+  },
+  "atlas": {
+    "path": "public/assets/s5runtime/rooms/3d_waitroom-da6b2a1f.png",
+    "sha256": "eb520085dedcf37371c59a1ed9892f3ad9973084c368470959c468f6ccca70db",
+    "size": [
+      1440,
+      1440
+    ]
+  },
+  "operation": "Unchanged RGBA pixel crops at rounded XUI UV boundaries",
+  "sprites": {
+    "team-alpha": {
+      "file": "team-alpha.png",
+      "node": "alpha_back_Image",
+      "state": 0,
+      "uv": [
+        0.0,
+        0.460938,
+        0.326172,
+        0.807617
+      ],
+      "crop": [
+        0,
+        664,
+        470,
+        1163
+      ],
+      "size": [
+        470,
+        499
+      ],
+      "layoutRect": {
+        "left": "-4",
+        "top": "339",
+        "right": "330",
+        "bottom": "694"
+      },
+      "sha256": "f131f74a063cb77ebe47bfaccff20f3611804aab10dc29c94e2ce7b74d543144"
+    },
+    "team-beta": {
+      "file": "team-beta.png",
+      "node": "beta_back_Image",
+      "state": 0,
+      "uv": [
+        0.331055,
+        0.459961,
+        0.657227,
+        0.806641
+      ],
+      "crop": [
+        477,
+        662,
+        946,
+        1162
+      ],
+      "size": [
+        469,
+        500
+      ],
+      "layoutRect": {
+        "left": "694",
+        "top": "339",
+        "right": "1028",
+        "bottom": "694"
+      },
+      "sha256": "849058fb982729c6d4cd7d8371fc9eddb201c411afc3cc74cda9a678d875559d"
+    },
+    "actions-frame": {
+      "file": "actions-frame.png",
+      "node": "CGUI_Image",
+      "state": 0,
+      "uv": [
+        0.649414,
+        0.333008,
+        0.995117,
+        0.394531
+      ],
+      "crop": [
+        935,
+        480,
+        1433,
+        568
+      ],
+      "size": [
+        498,
+        88
+      ],
+      "layoutRect": {
+        "left": "326",
+        "top": "612",
+        "right": "700",
+        "bottom": "676"
+      },
+      "sha256": "dafcd7ec9aa0a2d9ff7689c35915f308468f474376ab0fb95d6f7eeaea67efa3"
+    },
+    "room-settings-icon": {
+      "file": "room-settings-icon.png",
+      "node": "set_room_property_Image",
+      "state": 0,
+      "uv": [
+        0.601563,
+        0.836914,
+        0.660156,
+        0.890625
+      ],
+      "crop": [
+        866,
+        1205,
+        951,
+        1282
+      ],
+      "size": [
+        85,
+        77
+      ],
+      "layoutRect": {
+        "left": "25",
+        "top": "104",
+        "right": "55",
+        "bottom": "133"
+      },
+      "sha256": "0d8e53390d324b1ede47c2780aee989bc79da63037bbc2e9d0640fcac60f7c7f"
+    },
+    "change-items-normal": {
+      "file": "change-items-normal.png",
+      "node": "item_change_Button",
+      "state": 0,
+      "uv": [
+        0.655273,
+        0.019531,
+        0.770508,
+        0.069336
+      ],
+      "crop": [
+        944,
+        28,
+        1110,
+        100
+      ],
+      "size": [
+        166,
+        72
+      ],
+      "layoutRect": {
+        "left": "331",
+        "top": "619",
+        "right": "449",
+        "bottom": "670"
+      },
+      "sha256": "91e2f6f9378cdf5746a5aa8df9b5e659cd548dfb51d7616b91ac08c045b90939"
+    },
+    "change-items-hover": {
+      "file": "change-items-hover.png",
+      "node": "item_change_Button",
+      "state": 1,
+      "uv": [
+        0.655273,
+        0.172852,
+        0.770508,
+        0.222656
+      ],
+      "crop": [
+        944,
+        249,
+        1110,
+        321
+      ],
+      "size": [
+        166,
+        72
+      ],
+      "layoutRect": {
+        "left": "331",
+        "top": "619",
+        "right": "449",
+        "bottom": "670"
+      },
+      "sha256": "dc3a096dc030d1822723310e12ebd72a7cc1f9e1386cdf32cb9d368797674320"
+    },
+    "change-items-pressed": {
+      "file": "change-items-pressed.png",
+      "node": "item_change_Button",
+      "state": 2,
+      "uv": [
+        0.655273,
+        0.097656,
+        0.771484,
+        0.150391
+      ],
+      "crop": [
+        944,
+        141,
+        1111,
+        217
+      ],
+      "size": [
+        167,
+        76
+      ],
+      "layoutRect": {
+        "left": "331",
+        "top": "619",
+        "right": "449",
+        "bottom": "670"
+      },
+      "sha256": "f4c8c4efcd69a0efc58130d416dc9e9bf806d0cf6c2effbc474609984ef7a725"
+    },
+    "start-normal": {
+      "file": "start-normal.png",
+      "node": "start_blue_Button",
+      "state": 0,
+      "uv": [
+        0.141602,
+        0.026367,
+        0.246094,
+        0.076172
+      ],
+      "crop": [
+        204,
+        38,
+        354,
+        110
+      ],
+      "size": [
+        150,
+        72
+      ],
+      "layoutRect": {
+        "left": "449",
+        "top": "619",
+        "right": "578",
+        "bottom": "670"
+      },
+      "sha256": "2e4923f4e054e6edc6e7c19e405896a55b59fee6ecb44107dbab1659dfd27059"
+    },
+    "start-hover": {
+      "file": "start-hover.png",
+      "node": "start_blue_Button",
+      "state": 1,
+      "uv": [
+        0.254883,
+        0.027344,
+        0.360352,
+        0.076172
+      ],
+      "crop": [
+        367,
+        39,
+        519,
+        110
+      ],
+      "size": [
+        152,
+        71
+      ],
+      "layoutRect": {
+        "left": "449",
+        "top": "619",
+        "right": "578",
+        "bottom": "670"
+      },
+      "sha256": "b338ff73b85d3dcae0541b488a974dcf01b1740742a3e102791e053a855150e6"
+    },
+    "start-pressed": {
+      "file": "start-pressed.png",
+      "node": "start_blue_Button",
+      "state": 2,
+      "uv": [
+        0.025391,
+        0.026367,
+        0.129883,
+        0.076172
+      ],
+      "crop": [
+        37,
+        38,
+        187,
+        110
+      ],
+      "size": [
+        150,
+        72
+      ],
+      "layoutRect": {
+        "left": "449",
+        "top": "619",
+        "right": "578",
+        "bottom": "670"
+      },
+      "sha256": "9b56ea6fe0b56a0799bca0e68395691f81d88680f8b0d186f4c16aece7e27a5d"
+    },
+    "room-settings-normal": {
+      "file": "room-settings-normal.png",
+      "node": "set_room_property_Button",
+      "state": 0,
+      "uv": [
+        0.655273,
+        0.019531,
+        0.770508,
+        0.069336
+      ],
+      "crop": [
+        944,
+        28,
+        1110,
+        100
+      ],
+      "size": [
+        166,
+        72
+      ],
+      "layoutRect": {
+        "left": "2",
+        "top": "99",
+        "right": "70",
+        "bottom": "139"
+      },
+      "sha256": "91e2f6f9378cdf5746a5aa8df9b5e659cd548dfb51d7616b91ac08c045b90939"
+    },
+    "room-settings-hover": {
+      "file": "room-settings-hover.png",
+      "node": "set_room_property_Button",
+      "state": 1,
+      "uv": [
+        0.655273,
+        0.172852,
+        0.770508,
+        0.222656
+      ],
+      "crop": [
+        944,
+        249,
+        1110,
+        321
+      ],
+      "size": [
+        166,
+        72
+      ],
+      "layoutRect": {
+        "left": "2",
+        "top": "99",
+        "right": "70",
+        "bottom": "139"
+      },
+      "sha256": "dc3a096dc030d1822723310e12ebd72a7cc1f9e1386cdf32cb9d368797674320"
+    },
+    "room-settings-pressed": {
+      "file": "room-settings-pressed.png",
+      "node": "set_room_property_Button",
+      "state": 2,
+      "uv": [
+        0.655273,
+        0.097656,
+        0.771484,
+        0.150391
+      ],
+      "crop": [
+        944,
+        141,
+        1111,
+        217
+      ],
+      "size": [
+        167,
+        76
+      ],
+      "layoutRect": {
+        "left": "2",
+        "top": "99",
+        "right": "70",
+        "bottom": "139"
+      },
+      "sha256": "f4c8c4efcd69a0efc58130d416dc9e9bf806d0cf6c2effbc474609984ef7a725"
+    }
+  }
+}

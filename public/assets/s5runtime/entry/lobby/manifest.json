@@ -1,0 +1,506 @@
+{
+  "format": "s5runtime-entry-lobby-v1",
+  "nativeReady": false,
+  "sourceGeometry": [
+    1024,
+    768
+  ],
+  "geometry": {
+    "LeftBottom_GroupBox": {
+      "left": "8",
+      "top": "545",
+      "right": "343",
+      "bottom": "760"
+    },
+    "RightBottom_GroupBox": {
+      "left": "349",
+      "top": "545",
+      "right": "1019",
+      "bottom": "760"
+    },
+    "RightTop_GroupBox": {
+      "left": "349",
+      "top": "93",
+      "right": "1016",
+      "bottom": "539"
+    },
+    "LeftTop_GroupBox": {
+      "left": "8",
+      "top": "93",
+      "right": "343",
+      "bottom": "539"
+    }
+  },
+  "layoutSource": "work/s5runtime-inventory-recovery/source/xui/ui/3layout.xui",
+  "layoutSha256": "f9adc3731d457e59b80d71d745499f854a029a98345e1b247d03ff83396c7502",
+  "outputs": [
+    {
+      "file": "navigation.png",
+      "sha256": "7ecd2429f02fd6e079dc75941f85378ebdf64d9689083d004d3eed8af3aaec53",
+      "source": "xui/image/lobby/main_navi.dds",
+      "provenance": {
+        "archive": "51.xs",
+        "checksum": "45bb2508",
+        "plainLength": 1398236,
+        "sha256": "80ec0e4c6acc64ddd09947b3245b1384b7fed91794aeec8b4e2cf133eae80f55"
+      },
+      "atlasSha256": "32db4d7dab4c4046e01ebb3fa61ecb295f0b65a389b078148f455ba8ac0663f6",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/3main_upnavi.xui",
+      "layoutSha256": "08003a8f2f02c55d33cb8b69c2079b08ca827a23e8dfd3fbe624c610a3545505",
+      "node": "Button",
+      "state": "gui_skin_0",
+      "occurrence": 1,
+      "uv": [
+        0.0,
+        0.410156,
+        0.125,
+        0.648438
+      ],
+      "pixelRect": [
+        0,
+        105,
+        128,
+        166
+      ],
+      "sourceRect": {
+        "left": "375",
+        "top": "2",
+        "right": "503",
+        "bottom": "63"
+      }
+    },
+    {
+      "file": "navigation-hover.png",
+      "sha256": "dd5fb3cc9e31189bc993d1369d53c929155ba23adab13e8bf5cdfe7b23022393",
+      "source": "xui/image/lobby/main_navi.dds",
+      "provenance": {
+        "archive": "51.xs",
+        "checksum": "45bb2508",
+        "plainLength": 1398236,
+        "sha256": "80ec0e4c6acc64ddd09947b3245b1384b7fed91794aeec8b4e2cf133eae80f55"
+      },
+      "atlasSha256": "32db4d7dab4c4046e01ebb3fa61ecb295f0b65a389b078148f455ba8ac0663f6",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/3main_upnavi.xui",
+      "layoutSha256": "08003a8f2f02c55d33cb8b69c2079b08ca827a23e8dfd3fbe624c610a3545505",
+      "node": "Button",
+      "state": "gui_skin_1",
+      "occurrence": 1,
+      "uv": [
+        0.251953,
+        0.410156,
+        0.376953,
+        0.648438
+      ],
+      "pixelRect": [
+        258,
+        105,
+        386,
+        166
+      ],
+      "sourceRect": {
+        "left": "375",
+        "top": "2",
+        "right": "503",
+        "bottom": "63"
+      }
+    },
+    {
+      "file": "navigation-active.png",
+      "sha256": "f8d2c0061b756c39abc76b72174bef1218d16ab250c87897876414a002ddc6da",
+      "source": "xui/image/lobby/main_navi.dds",
+      "provenance": {
+        "archive": "51.xs",
+        "checksum": "45bb2508",
+        "plainLength": 1398236,
+        "sha256": "80ec0e4c6acc64ddd09947b3245b1384b7fed91794aeec8b4e2cf133eae80f55"
+      },
+      "atlasSha256": "32db4d7dab4c4046e01ebb3fa61ecb295f0b65a389b078148f455ba8ac0663f6",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/3main_upnavi.xui",
+      "layoutSha256": "08003a8f2f02c55d33cb8b69c2079b08ca827a23e8dfd3fbe624c610a3545505",
+      "node": "Button",
+      "state": "gui_skin_0",
+      "occurrence": 0,
+      "uv": [
+        0.37793,
+        0.410156,
+        0.50293,
+        0.648438
+      ],
+      "pixelRect": [
+        387,
+        105,
+        515,
+        166
+      ],
+      "sourceRect": {
+        "left": "375",
+        "top": "2",
+        "right": "503",
+        "bottom": "63"
+      }
+    },
+    {
+      "file": "header.png",
+      "sha256": "1cbc0039c4d1f9bbe3e25f44c16bc193b76cef7f3e9a8155a1ca67130ab50608",
+      "source": "xui/image/lobby/basicpopup.dds",
+      "provenance": {
+        "archive": "61.xs",
+        "checksum": "862f7f6c",
+        "plainLength": 2764768,
+        "sha256": "e8fbf4c38855e3b99882d003d2d43fa227a8e39bd52fce521bf82d02b52f6bf9"
+      },
+      "atlasSha256": "79ef9ce1d6439d51b4206d2aa215e96ed946c085761cc697eece8c84462be9ec",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/main_upnavi.xui",
+      "layoutSha256": "3ee45a63b70bee9e863aaaa031e8dce3b0e4483ce4f23caa950d821ef060513e",
+      "node": "back2_Image",
+      "state": "gui_skin_0",
+      "occurrence": 0,
+      "uv": [
+        0.058594,
+        0.03125,
+        0.724609,
+        0.15625
+      ],
+      "pixelRect": [
+        42,
+        22,
+        522,
+        112
+      ],
+      "sourceRect": {
+        "left": "-224",
+        "top": "0",
+        "right": "1276",
+        "bottom": "64"
+      }
+    },
+    {
+      "file": "header-line.png",
+      "sha256": "e4c6519a17e2dd99e8bb00b803d737956e68b3e855a6c85f4879b339fdaca264",
+      "source": "xui/image/lobby/main_navi2.dds",
+      "provenance": {
+        "archive": "78.xs",
+        "checksum": "159c7753",
+        "plainLength": 2764768,
+        "sha256": "90a02228f75fbdb0e6eb1b0960949d67041c1eed80a30d5363e114516f9ee3a9"
+      },
+      "atlasSha256": "4b9fdf475d8322dd42768e61d36839785db638387d3323b15ccec65ba94f66d1",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/main_upnavi.xui",
+      "layoutSha256": "3ee45a63b70bee9e863aaaa031e8dce3b0e4483ce4f23caa950d821ef060513e",
+      "node": "back1_Image",
+      "state": "gui_skin_0",
+      "occurrence": 0,
+      "uv": [
+        0.0,
+        0.931641,
+        1.001953,
+        0.986328
+      ],
+      "pixelRect": [
+        0,
+        671,
+        721,
+        710
+      ],
+      "sourceRect": {
+        "left": "-223",
+        "top": "61",
+        "right": "1277",
+        "bottom": "89"
+      }
+    },
+    {
+      "file": "activity-panel.png",
+      "sha256": "c55ec80877fcb68f67175e047941a2f5ba345816c25eb18463dcd780466ca365",
+      "source": "xui/image/lobby/lobby_roomlist_2.dds",
+      "provenance": {
+        "archive": "24.xs",
+        "checksum": "e5f4eadf",
+        "plainLength": 5529528,
+        "sha256": "1a979d022197885147c9dc8b6df0213ed6b83f4cc2d9f867ee776c824aac9ee3"
+      },
+      "atlasSha256": "01f97ddb74b4ec7a0fa3db6b11e842fb4f981ef98a90bdbc0174c84d9ec85add",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/lobby_roomlist.xui",
+      "layoutSha256": "f92370dd1fb364c3689e241afc56a5c37ccc1b5de99dfdbadf3b6f37649b6af3",
+      "node": "RoomList_GroupBox",
+      "state": "gui_skin_0",
+      "occurrence": 1,
+      "uv": [
+        0.004883,
+        0.009766,
+        0.65625,
+        0.875
+      ],
+      "pixelRect": [
+        7,
+        7,
+        945,
+        630
+      ],
+      "sourceRect": {
+        "left": "0",
+        "top": "0",
+        "right": "667",
+        "bottom": "443"
+      }
+    },
+    {
+      "file": "create-room.png",
+      "sha256": "535557fa5b9ce1f078e8e8a34e01a63a7ed26cf5e0598a3a569ddaa495b2a306",
+      "source": "xui/image/lobby/lobby_roomlist_2.dds",
+      "provenance": {
+        "archive": "24.xs",
+        "checksum": "e5f4eadf",
+        "plainLength": 5529528,
+        "sha256": "1a979d022197885147c9dc8b6df0213ed6b83f4cc2d9f867ee776c824aac9ee3"
+      },
+      "atlasSha256": "01f97ddb74b4ec7a0fa3db6b11e842fb4f981ef98a90bdbc0174c84d9ec85add",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/lobby_roomlist.xui",
+      "layoutSha256": "f92370dd1fb364c3689e241afc56a5c37ccc1b5de99dfdbadf3b6f37649b6af3",
+      "node": "MakeMission_Button",
+      "state": "gui_skin_0",
+      "occurrence": 3,
+      "uv": [
+        0.882813,
+        0.021484,
+        0.991211,
+        0.099609
+      ],
+      "pixelRect": [
+        1271,
+        15,
+        1427,
+        72
+      ],
+      "sourceRect": {
+        "left": "534",
+        "top": "404",
+        "right": "663",
+        "bottom": "444"
+      }
+    },
+    {
+      "file": "create-room-hover.png",
+      "sha256": "83cfc2ced989f887e300fe6391d582d3b2f7b63cc6816f6057dea2682a1fbdee",
+      "source": "xui/image/lobby/lobby_roomlist_2.dds",
+      "provenance": {
+        "archive": "24.xs",
+        "checksum": "e5f4eadf",
+        "plainLength": 5529528,
+        "sha256": "1a979d022197885147c9dc8b6df0213ed6b83f4cc2d9f867ee776c824aac9ee3"
+      },
+      "atlasSha256": "01f97ddb74b4ec7a0fa3db6b11e842fb4f981ef98a90bdbc0174c84d9ec85add",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/lobby_roomlist.xui",
+      "layoutSha256": "f92370dd1fb364c3689e241afc56a5c37ccc1b5de99dfdbadf3b6f37649b6af3",
+      "node": "MakeMission_Button",
+      "state": "gui_skin_1",
+      "occurrence": 3,
+      "uv": [
+        0.882813,
+        0.201172,
+        0.991211,
+        0.279297
+      ],
+      "pixelRect": [
+        1271,
+        145,
+        1427,
+        201
+      ],
+      "sourceRect": {
+        "left": "534",
+        "top": "404",
+        "right": "663",
+        "bottom": "444"
+      }
+    },
+    {
+      "file": "settings.png",
+      "sha256": "c11b8e7d3a2b0ef94ca2a94fa98f9e88ab4b1d37e31792aeccd83fa137a96b72",
+      "source": "xui/image/lobby/main_navi2.dds",
+      "provenance": {
+        "archive": "78.xs",
+        "checksum": "159c7753",
+        "plainLength": 2764768,
+        "sha256": "90a02228f75fbdb0e6eb1b0960949d67041c1eed80a30d5363e114516f9ee3a9"
+      },
+      "atlasSha256": "4b9fdf475d8322dd42768e61d36839785db638387d3323b15ccec65ba94f66d1",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/main_upnavi.xui",
+      "layoutSha256": "3ee45a63b70bee9e863aaaa031e8dce3b0e4483ce4f23caa950d821ef060513e",
+      "node": "Set_Button",
+      "state": "gui_skin_0",
+      "occurrence": 0,
+      "uv": [
+        0.275391,
+        0.056641,
+        0.314453,
+        0.095703
+      ],
+      "pixelRect": [
+        198,
+        41,
+        226,
+        69
+      ],
+      "sourceRect": {
+        "left": "987",
+        "top": "33",
+        "right": "1007",
+        "bottom": "53"
+      }
+    },
+    {
+      "file": "settings-hover.png",
+      "sha256": "16617886d953b83615127574c6427da16bfed5eaf4344945139e73a43fcac440",
+      "source": "xui/image/lobby/main_navi2.dds",
+      "provenance": {
+        "archive": "78.xs",
+        "checksum": "159c7753",
+        "plainLength": 2764768,
+        "sha256": "90a02228f75fbdb0e6eb1b0960949d67041c1eed80a30d5363e114516f9ee3a9"
+      },
+      "atlasSha256": "4b9fdf475d8322dd42768e61d36839785db638387d3323b15ccec65ba94f66d1",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/main_upnavi.xui",
+      "layoutSha256": "3ee45a63b70bee9e863aaaa031e8dce3b0e4483ce4f23caa950d821ef060513e",
+      "node": "Set_Button",
+      "state": "gui_skin_1",
+      "occurrence": 0,
+      "uv": [
+        0.363281,
+        0.056641,
+        0.402344,
+        0.095703
+      ],
+      "pixelRect": [
+        262,
+        41,
+        290,
+        69
+      ],
+      "sourceRect": {
+        "left": "987",
+        "top": "33",
+        "right": "1007",
+        "bottom": "53"
+      }
+    },
+    {
+      "file": "back.png",
+      "sha256": "e793868f271fd840fe62682e267e5261b0e04b2ac02449466fd35c7a00989ff1",
+      "source": "xui/image/lobby/main_navi2.dds",
+      "provenance": {
+        "archive": "78.xs",
+        "checksum": "159c7753",
+        "plainLength": 2764768,
+        "sha256": "90a02228f75fbdb0e6eb1b0960949d67041c1eed80a30d5363e114516f9ee3a9"
+      },
+      "atlasSha256": "4b9fdf475d8322dd42768e61d36839785db638387d3323b15ccec65ba94f66d1",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/main_upnavi.xui",
+      "layoutSha256": "3ee45a63b70bee9e863aaaa031e8dce3b0e4483ce4f23caa950d821ef060513e",
+      "node": "ItemList_Left_Button",
+      "state": "gui_skin_0",
+      "occurrence": 0,
+      "uv": [
+        0.007813,
+        0.056641,
+        0.095703,
+        0.142578
+      ],
+      "pixelRect": [
+        6,
+        41,
+        69,
+        103
+      ],
+      "sourceRect": {
+        "left": "940",
+        "top": "12",
+        "right": "985",
+        "bottom": "57"
+      }
+    },
+    {
+      "file": "back-hover.png",
+      "sha256": "844adfc15b5000aa73bd9ea74aef349efb56791c4acb36e1f7ea080b7d363757",
+      "source": "xui/image/lobby/main_navi2.dds",
+      "provenance": {
+        "archive": "78.xs",
+        "checksum": "159c7753",
+        "plainLength": 2764768,
+        "sha256": "90a02228f75fbdb0e6eb1b0960949d67041c1eed80a30d5363e114516f9ee3a9"
+      },
+      "atlasSha256": "4b9fdf475d8322dd42768e61d36839785db638387d3323b15ccec65ba94f66d1",
+      "layout": "work/s5runtime-inventory-recovery/rooms/xui/ui/main_upnavi.xui",
+      "layoutSha256": "3ee45a63b70bee9e863aaaa031e8dce3b0e4483ce4f23caa950d821ef060513e",
+      "node": "ItemList_Left_Button",
+      "state": "gui_skin_1",
+      "occurrence": 0,
+      "uv": [
+        0.183594,
+        0.056641,
+        0.271484,
+        0.142578
+      ],
+      "pixelRect": [
+        132,
+        41,
+        195,
+        103
+      ],
+      "sourceRect": {
+        "left": "940",
+        "top": "12",
+        "right": "985",
+        "bottom": "57"
+      }
+    },
+    {
+      "file": "background.png",
+      "source": "xui/image/lobby/background_lobby.png",
+      "sha256": "51eed8a8db8bb7ae981b702294aca0e6ae6665de89069fb65e19d009184ae5f9",
+      "provenance": {
+        "archive": "67.xs",
+        "checksum": "b7ac8559",
+        "plainLength": 654993,
+        "sha256": "f1896fa53dd6b288999b9b1bcbc9b8d2cdcb3c7bf5d4a70ec11980d653495655"
+      },
+      "transformation": "byte-identical existing authenticated PNG derivative"
+    },
+    {
+      "file": "logo.png",
+      "source": "xui/image/lobby/lobby_logo.dds",
+      "sha256": "0d3e6ed3e8af8ca8b51d2e6da5c126b91578d14a9fac7577f4101ed04ad7d26d",
+      "provenance": {
+        "archive": "61.xs",
+        "checksum": "3ceae551",
+        "plainLength": 57608,
+        "sha256": "8bf7000311cda4de818dc99f1de1d200f2cd2fda6d097bd6bc55b3ca9fe91bb5"
+      },
+      "transformation": "byte-identical existing authenticated PNG derivative"
+    },
+    {
+      "file": "logo-hover.png",
+      "source": "xui/image/lobby/lobby_logo_hover.dds",
+      "sha256": "7f06e8ca7155d903b324e92ac4207c882dc2baf8d4f47a8d879daa09843767f0",
+      "provenance": {
+        "archive": "24.xs",
+        "checksum": "c5a53ae9",
+        "plainLength": 57608,
+        "sha256": "4a13edfb8a79f17d84ec086098f34a014e3268271b1e12cad6cb6c9542ff8c73"
+      },
+      "transformation": "byte-identical existing authenticated PNG derivative"
+    },
+    {
+      "file": "netsphimere.woff2",
+      "source": "public/assets/s5runtime/modes-ui/webfonts/netsphimere.woff2",
+      "sha256": "683a2538cda05810905dde871c8bc00006d53ae19c5b3ddd204d57f5497165a4",
+      "transformation": "byte-identical OTS-validated web derivative; OS/2 v5 to v4 repair documented in work/s5runtime-inventory-recovery/modes-ui/font-recovery/HANDOFF.md"
+    }
+  ],
+  "limits": [
+    "Source sprites, UVs and rectangles verified; animated SCN header effects not reproduced.",
+    "Room list is empty because browser game has no network room service. Create button opens actual local preparation.",
+    "Four labelled navigation tabs adapt the source button templates; native 1024x768 columns retained at desktop, stacked below 740px.",
+    "The avatar mount is intentionally empty until the application attaches its real rig."
+  ]
+}

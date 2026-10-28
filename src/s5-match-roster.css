@@ -1,0 +1,155 @@
+/* S5's held-Tab report. Original CSS artwork, system typography and a stacked
+   team/summary rail composition. Scoped to live rosters: the customized HUD,
+   result screens, gameplay data and keyboard ownership stay with their hosts.
+   Repeated root IDs deliberately outrank the legacy mode-specific selectors;
+   only inline source cell widths need !important to remove their geometry. */
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster){
+ --report-top:clamp(136px,19vh,190px);
+ position:absolute;inset:auto;top:var(--report-top);left:50%;transform:translateX(-50%);
+ width:min(1040px,calc(100vw - 48px));min-width:0;max-width:none;
+ max-height:calc(100dvh - var(--report-top) - 180px);overflow:auto;box-sizing:border-box;
+ padding:22px;border:1px solid #96b9ce38;border-top:3px solid #6be4d2;border-radius:16px;
+ background:linear-gradient(125deg,#19323bec,#101b2af5 65%);box-shadow:0 18px 60px #0005;
+ color:#e4eff5;text-shadow:none;font:14px/1.5 system-ui,sans-serif;pointer-events:auto;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster)::before{
+ content:'S5 / MATCH OVERVIEW';display:block;margin:0 0 16px;
+ color:#83eddc;font:700 11px/1.5 system-ui,sans-serif;letter-spacing:.18em;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .match-roster>b{
+ display:block;margin:0 0 8px;color:#f1f7fc;font:600 22px/1.3 system-ui,sans-serif;letter-spacing:0;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .match-roster>[data-roster-summary]{
+ position:static;inset:auto;margin:0 0 16px;padding:0;color:#a5bac9;font:12px/1.5 system-ui,sans-serif;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.td-participant-board,.native-mode-teams){
+ display:grid;grid-template-columns:minmax(0,1fr);gap:12px;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.td-roster-team,.native-team-panel){
+ --report-accent:#83eddc;display:grid;grid-template-columns:155px minmax(0,1fr);
+ min-width:0;overflow:hidden;border:1px solid #a5bac922;border-radius:10px;
+ background:#08151e70;color:#d9e7ef;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.td-roster-team,.native-team-panel)[data-team=beta]{--report-accent:#f7c982}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.td-roster-team h3,.native-team-title){
+ display:flex;flex-direction:column;align-items:flex-start;justify-content:center;
+ gap:8px;height:auto;min-height:90px;margin:0;padding:16px;
+ border:0;border-left:3px solid var(--report-accent);background:#ffffff04;
+ color:var(--report-accent);font:700 17px/1.3 system-ui,sans-serif;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.td-roster-team h3>span:first-child,.native-team-title span){
+ display:block;width:auto;min-width:0;height:auto;min-height:0;margin:0;padding:0;border:0;
+ background:none;color:var(--report-accent);text-shadow:none;font:inherit;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .td-roster-team [data-team-total]{
+ position:static;width:auto;height:auto;margin:0;padding:0;clip-path:none;overflow:visible;
+ align-self:auto;white-space:normal;color:#aec2cf;font:12px/1.5 system-ui,sans-serif;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .native-team-title strong{font:600 26px/1 system-ui,sans-serif}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .native-team-meta{grid-column:2;padding:8px 12px;font:12px/1.5 system-ui,sans-serif}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .native-team-scroll{grid-column:2;grid-row:1;align-self:center;min-width:0;overflow:auto}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) table{
+ display:table;width:100%;min-width:0;table-layout:fixed;border-collapse:collapse;
+ margin:0;text-align:left;color:#d9e7ef;font:13px/1.5 system-ui,sans-serif;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) thead{display:table-header-group}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) tbody{display:table-row-group}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) tr{
+ display:table-row;height:auto;line-height:1.5;background:none;color:inherit;outline:0;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) :is(th,td){
+ position:static;inset:auto;display:table-cell;box-sizing:border-box;width:auto!important;
+ height:auto;padding:11px 8px;vertical-align:middle;text-align:center;
+ background:none;border:0;border-bottom:1px solid #afc8d51a;color:inherit;
+ text-shadow:none;white-space:normal;overflow-wrap:anywhere;font:inherit;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) th{
+ color:#9fb5c5;background:#ffffff04;font-size:10px;font-weight:600;line-height:1.5;letter-spacing:.06em;text-transform:uppercase;
+}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) th[data-field=name],
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-roster-team th:nth-child(2){width:24%!important}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) td[data-field=name]{text-align:left;font-weight:600}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) tr[data-local=true]{background:#83eddc10}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) tr[data-local=true] td{color:#e6fff9;text-shadow:none}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .match-roster .s4-roster-scope{display:block;margin-top:14px;color:#9fb5c5;font:11px/1.5 system-ui,sans-serif}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .match-roster .s4-source-header-art{display:none}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) .s4-source-board{
+ width:100%!important;min-height:0;background:none;font:inherit;
+}
+body.in-game #match-ui#match-ui .match-roster.native-mode-roster>header{font:600 22px/1.3 system-ui,sans-serif;gap:12px;flex-wrap:wrap}
+body.in-game #match-ui#match-ui .match-roster .native-mode-details{font-family:system-ui,sans-serif}
+body.in-game #match-ui#match-ui .match-roster .native-captain-mark{background:none;border:1px solid #83eddc77;border-radius:4px;font:700 11px/1 system-ui,sans-serif;width:18px;height:18px}
+body.in-game #match-ui#match-ui .match-roster .native-ping-local{background:none;padding:2px 4px;color:#a7dac6;font:10px/1.4 system-ui,sans-serif}
+body.in-game :is(#touchdown-ui,#match-ui):has(>.match-roster:not([hidden]))>.td-objective{visibility:hidden}
+body.in-game #match-ui#match-ui .match-roster .native-siege-point{grid-template-columns:28px auto}
+body.in-game #match-ui#match-ui .match-roster .native-siege-point-icon[data-owner]{display:grid;place-items:center;width:26px;height:26px;background:none;border:1px solid #a5bac955;border-radius:6px;color:#d9e7ef;font:700 13px/1 system-ui,sans-serif}
+body.in-game #match-ui#match-ui .match-roster .native-siege-point-icon[data-owner=alpha]{color:#83eddc;border-color:#83eddc88}
+body.in-game #match-ui#match-ui .match-roster .native-siege-point-icon[data-owner=beta]{color:#f7c982;border-color:#f7c98288}
+body.in-game #match-ui#match-ui .match-roster :is(.native-mode-details p,.native-mode-details summary,.native-mode-metrics,.native-siege-point-text){font-family:system-ui,sans-serif}
+body.in-game #match-ui#match-ui .match-roster .native-team-title{grid-row:1/span 2;box-sizing:border-box;min-height:70px}
+body.in-game #match-ui#match-ui .match-roster .native-team-meta{padding:4px 12px;font-size:11px;line-height:1.4}
+body.in-game #match-ui#match-ui .match-roster .native-mode-table :is(th,td){padding:6px 8px}
+body.in-game #match-ui#match-ui .match-roster>.td-objective{margin:0 0 12px;padding:0;text-align:left}
+body.in-game #match-ui#match-ui .match-roster>.td-objective>div{display:flex;flex-direction:row;align-items:center;flex-wrap:wrap;gap:8px 16px}
+body.in-game #match-ui#match-ui .match-roster>.td-objective :is(small,b,span){font:12px/1.5 system-ui,sans-serif}
+body.in-game #match-ui#match-ui .match-roster>.td-objective .td-diamond{display:none}
+@media(max-width:700px){
+ body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster){--report-top:130px;width:calc(100vw - 24px);padding:14px;max-height:calc(100dvh - var(--report-top) - 180px)}
+ body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.td-roster-team,.native-team-panel){grid-template-columns:minmax(0,1fr)}
+ body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.td-roster-team h3,.native-team-title){flex-direction:row;justify-content:space-between;align-items:center;min-height:0;padding:10px}
+ body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .native-team-scroll{grid-column:1;grid-row:auto}
+ body.in-game #match-ui#match-ui .match-roster .native-team-title{grid-row:auto;min-height:0}
+ body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .native-team-meta{grid-column:1}
+ body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster) :is(th,td){padding:8px 3px;font-size:11px;letter-spacing:0}
+}
+@media(max-height:540px){
+ body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) :is(.match-roster,.ch-roster){--report-top:105px;max-height:calc(100dvh - 125px);width:min(1040px,calc(100vw - 24px))}
+}
+/* HP counters below are local accepted combat damage, not unverified native
+   damage units. Keep their disclosures separate from weighted point columns. */
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .match-roster .td-recorded-statistics{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:8px}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .match-roster .td-recorded-statistics details{border-top:1px solid #afc8d52a;padding-top:10px;color:#adc3d0;font:12px/1.5 system-ui,sans-serif}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .match-roster .td-recorded-statistics summary{cursor:pointer;color:#e2eff5;padding:4px 0}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .match-roster .td-recorded-statistics dl{display:grid;grid-template-columns:1fr auto;gap:4px 12px;margin:8px 0 0}
+body.in-game :is(#touchdown-ui,#match-ui):is(#touchdown-ui,#match-ui) .match-roster .td-recorded-statistics :is(dt,dd){margin:0}
+/* The held TD report must expose the common two-actor session without a
+   pointer gesture. Compact the title and team rows, then align metric labels
+   above their values instead of making a long list below the tables. */
+body.in-game #touchdown-ui#touchdown-ui .match-roster{padding:14px}
+body.in-game #touchdown-ui#touchdown-ui .match-roster::before{float:right;margin:3px 0 0 12px;font-size:10px}
+body.in-game #touchdown-ui#touchdown-ui .match-roster>b{font-size:18px;margin:0 0 2px}
+body.in-game #touchdown-ui#touchdown-ui .match-roster>[data-roster-summary]{margin:4px 0 12px}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-roster-team h3{box-sizing:border-box;min-height:60px;padding:10px}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-roster-team :is(th,td){padding:7px 6px}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics details{padding-top:8px}
+/* A third participant must not squeeze six metric labels into a third lane. */
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics{grid-template-columns:repeat(2,minmax(0,1fr))}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics summary{padding:2px 0;font-size:11px}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-combat-breakdown{margin:8px 0 0;font:11px/1.4 system-ui,sans-serif;color:#adc3d0}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics dl{grid-template-columns:repeat(6,minmax(0,1fr));gap:5px 8px;margin-top:8px}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics dt{grid-row:1;font-size:10px;line-height:1.35;color:#a6bdcb;overflow-wrap:anywhere}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics dd{grid-row:2;color:#e6fff9;font-size:18px;line-height:1.3;font-variant-numeric:tabular-nums}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics :is(dt,dd):nth-of-type(1){grid-column:1}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics :is(dt,dd):nth-of-type(2){grid-column:2}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics :is(dt,dd):nth-of-type(3){grid-column:3}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics :is(dt,dd):nth-of-type(4){grid-column:4}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics :is(dt,dd):nth-of-type(5){grid-column:5}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics :is(dt,dd):nth-of-type(6){grid-column:6}
+body.in-game #touchdown-ui#touchdown-ui .match-roster .s4-roster-scope{font-size:10px;margin-top:8px}
+@media(max-width:700px){
+ body.in-game #touchdown-ui#touchdown-ui .match-roster{padding:14px}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics{grid-template-columns:minmax(0,1fr)}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster::before{float:none;margin:0 0 8px}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-roster-team h3{min-height:0;padding:8px 10px}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-roster-team :is(th,td){padding:7px 3px}
+ /* Badge/ping have no producer in these local TD rows. Preserve their DOM
+    data for wider layouts, but give the useful four columns room on phones. */
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-roster-team :is(th,td):is(:first-child,:nth-child(6)){display:none}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-roster-team th:nth-child(2){width:36%!important}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics dl{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:5px}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics :is(dt,dd):nth-of-type(4){grid-column:1}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics :is(dt,dd):nth-of-type(5){grid-column:2}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics :is(dt,dd):nth-of-type(6){grid-column:3}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics dt:nth-of-type(n+4){grid-row:3;margin-top:8px}
+ body.in-game #touchdown-ui#touchdown-ui .match-roster .td-recorded-statistics dd:nth-of-type(n+4){grid-row:4}
+}

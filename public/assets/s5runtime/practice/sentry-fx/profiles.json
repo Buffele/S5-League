@@ -1,0 +1,134 @@
+{
+  "50": {
+    "attributeId": 6,
+    "hp": 50,
+    "attackMs": 4000,
+    "creationMs": 2000,
+    "destructionMs": 3000,
+    "findTargetMs": 300,
+    "reloadMs": 1500,
+    "attack": {
+      "style": 1,
+      "collisionStartMs": 1000,
+      "collisionPeriodMs": 1000,
+      "damageDelayMs": 0,
+      "damageOnce": 4,
+      "hitGeometryProducerEstablished": false
+    },
+    "sequences": {
+      "creation": "",
+      "search": "Effects/skill_hacker_sentrygun_2_waiting.seq",
+      "attack": "Effects/skill_hacker_sentrygun_2_attack.seq",
+      "destruction": "Effects/mapeffect_blast_glass.seq"
+    },
+    "sounds": {
+      "creation": "Sound/bsentrygun_loading.ogg",
+      "search": "",
+      "attack": "Sound/sentrygun_blast.ogg",
+      "destruction": "Sound/sentrygun_die.ogg"
+    },
+    "source": {
+      "path": "script/sentrygunattribindexer.lua",
+      "line": 122
+    }
+  },
+  "75": {
+    "attributeId": 7,
+    "hp": 70,
+    "attackMs": 3000,
+    "creationMs": 1000,
+    "destructionMs": 3000,
+    "findTargetMs": 200,
+    "reloadMs": 1000,
+    "attack": {
+      "style": 1,
+      "collisionStartMs": 500,
+      "collisionPeriodMs": 600,
+      "damageDelayMs": 0,
+      "damageOnce": 6,
+      "hitGeometryProducerEstablished": false
+    },
+    "sequences": {
+      "creation": "",
+      "search": "Effects/skill_hacker_sentrygun_2_waiting.seq",
+      "attack": "Effects/skill_hacker_sentrygun_2_attack.seq",
+      "destruction": "Effects/mapeffect_blast_glass.seq"
+    },
+    "sounds": {
+      "creation": "Sound/bsentrygun_loading.ogg",
+      "search": "",
+      "attack": "Sound/sentrygun_blast.ogg",
+      "destruction": "Sound/sentrygun_die.ogg"
+    },
+    "source": {
+      "path": "script/sentrygunattribindexer.lua",
+      "line": 145
+    }
+  },
+  "100": {
+    "attributeId": 8,
+    "hp": 90,
+    "attackMs": 2500,
+    "creationMs": 500,
+    "destructionMs": 3000,
+    "findTargetMs": 100,
+    "reloadMs": 500,
+    "attack": {
+      "style": 1,
+      "collisionStartMs": 500,
+      "collisionPeriodMs": 300,
+      "damageDelayMs": 0,
+      "damageOnce": 10,
+      "hitGeometryProducerEstablished": false
+    },
+    "sequences": {
+      "creation": "",
+      "search": "Effects/skill_hacker_sentrygun_2_waiting.seq",
+      "attack": "Effects/skill_hacker_sentrygun_2_attack.seq",
+      "destruction": "Effects/mapeffect_blast_glass.seq"
+    },
+    "sounds": {
+      "creation": "Sound/bsentrygun_loading.ogg",
+      "search": "",
+      "attack": "Sound/sentrygun_blast.ogg",
+      "destruction": "Sound/sentrygun_die.ogg"
+    },
+    "source": {
+      "path": "script/sentrygunattribindexer.lua",
+      "line": 168
+    }
+  },
+  "254": {
+    "attributeId": 5,
+    "hp": 30,
+    "attackMs": 5000,
+    "creationMs": 4000,
+    "destructionMs": 3000,
+    "findTargetMs": 400,
+    "reloadMs": 2000,
+    "attack": {
+      "style": 1,
+      "collisionStartMs": 1000,
+      "collisionPeriodMs": 2000,
+      "damageDelayMs": 0,
+      "damageOnce": 2,
+      "hitGeometryProducerEstablished": false
+    },
+    "sequences": {
+      "creation": "",
+      "search": "Effects/skill_hacker_sentrygun_2_waiting.seq",
+      "attack": "Effects/skill_hacker_sentrygun_2_attack.seq",
+      "destruction": "Effects/mapeffect_blast_glass.seq"
+    },
+    "sounds": {
+      "creation": "Sound/bsentrygun_loading.ogg",
+      "search": "",
+      "attack": "Sound/sentrygun_blast.ogg",
+      "destruction": "Sound/sentrygun_die.ogg"
+    },
+    "source": {
+      "path": "script/sentrygunattribindexer.lua",
+      "line": 99
+    }
+  }
+}

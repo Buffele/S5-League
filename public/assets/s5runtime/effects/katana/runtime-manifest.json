@@ -1,0 +1,33 @@
+{
+  "format": "s5-katana-effects-runtime-v1",
+  "status": "partial-main-game-runtime",
+  "activeSequences": [
+    "katanaa_atk01",
+    "katanaa_atk02",
+    "katanaa_atk03",
+    "katana_damege",
+    "katana_damege_obj",
+    "katanaa_s_atk",
+    "katanaa_strong",
+    "katanaa_jump"
+  ],
+  "runtimeAdapter": "src/combat-effects.js",
+  "stateCues": "src/weapon-cues.js",
+  "contactCues": "src/melee-contact.js",
+  "limitations": [
+    "Two attack sequence particle nodes have no authored textures and are omitted by the textured renderer.",
+    "Native timing, follow mode and renderer fidelity remain unverified against S5Runtime.",
+    "Secondary line mesh and charge sequence/sound are not yet active. Native follow/socket fidelity remains unverified.",
+    "Secondary screen-space CActNodeLoader_IF/CActParticle_IF rendering remains unsupported; model and textures are now staged and archive-verified.",
+    "Aerial effect includes three emitters and two slash03 meshes; four spin meshes omitted because slash06_1.dds is absent from verified extraction and archive index."
+  ],
+  "stateDurationsSeconds": {
+    "katanaa_atk01": 0.5,
+    "katanaa_atk02": 3,
+    "katanaa_atk03": 2,
+    "katanaa_s_atk": 1.5,
+    "katanaa_strong": 2,
+    "katanaa_jump": 0.4
+  },
+  "extraManifest": "/assets/s5runtime/effects/katana/extra-manifest.json"
+}

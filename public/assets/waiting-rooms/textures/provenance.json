@@ -1,0 +1,77 @@
+[
+  {
+    "material": "oak",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "runtimeSize": [
+      1024,
+      1024
+    ],
+    "sha256": "0cc5a2e961561c926bed7b3248cea1a29efd1cb3e82558621f9cf37e419d6f09",
+    "normal": "luminance finite difference; artistic approximation",
+    "roughness": "base plus low-amplitude luminance variation",
+    "edgePolicy": "32px periodic feather on derivative; identical opposite border texels"
+  },
+  {
+    "material": "ceramic",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "runtimeSize": [
+      1024,
+      1024
+    ],
+    "sha256": "e3620cf11fed947bc9b8d522db1e9f829a8cedee00dadf573abd266b6ccaa91e",
+    "normal": "luminance finite difference; artistic approximation",
+    "roughness": "base plus low-amplitude luminance variation",
+    "edgePolicy": "32px periodic feather on derivative; identical opposite border texels"
+  },
+  {
+    "material": "plaster",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "runtimeSize": [
+      1024,
+      1024
+    ],
+    "sha256": "a66e12fc978f7540e6b553421848301e56ba0d26025bbe43d94f9f36b2cb2387",
+    "normal": "luminance finite difference; artistic approximation",
+    "roughness": "base plus low-amplitude luminance variation",
+    "edgePolicy": "32px periodic feather on derivative; identical opposite border texels"
+  },
+  {
+    "material": "graphite",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "runtimeSize": [
+      1024,
+      1024
+    ],
+    "sha256": "5f626df670ae302870e1d9c80407142426ba15b4bd11ebdb0a24dc4752a23ad2",
+    "normal": "luminance finite difference; artistic approximation",
+    "roughness": "base plus low-amplitude luminance variation",
+    "edgePolicy": "32px periodic feather on derivative; identical opposite border texels"
+  },
+  {
+    "material": "fabric",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "runtimeSize": [
+      1024,
+      1024
+    ],
+    "sha256": "e6dd1ea7a1ac24f3b39cff2961bc9ebe276ac156a84c4cca879be7e35807211c",
+    "normal": "luminance finite difference; artistic approximation",
+    "roughness": "base plus low-amplitude luminance variation",
+    "edgePolicy": "32px periodic feather on derivative; identical opposite border texels"
+  }
+]

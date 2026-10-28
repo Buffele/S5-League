@@ -1,0 +1,93 @@
+{
+  "schema": "room-result-ui-v1",
+  "layout": {
+    "path": "gui/new/result.xui",
+    "archive": "package/40.xs",
+    "crc32": "cf0894ff",
+    "sha256": "088383ed28f155d4c62df254c1a0b2e09aaa0d09038ba62a5eba13d7ed48e8ab",
+    "decodeMethod": "known-header-crc32",
+    "file": "work/waiting-room-result-ui-20261017/source/result.xui"
+  },
+  "operation": "Exact RGBA conversion and rounded source UV crop; no repainting or resampling",
+  "presentation": "Original SCN result illustration/title with source-positioned team tables; S5 recorded rankings, event timing and responsive layout remain explicit adaptations",
+  "assets": {
+    "panel": {
+      "file": "score-panel.png",
+      "sha256": "757227cb7e6f34e366901ec51897c9195a7974aefb36b35e89b2080a4463a09e",
+      "source": {
+        "path": "gui/new/scoreboard_back.dds",
+        "archive": "package/62.xs",
+        "crc32": "5d57f3c0",
+        "sha256": "425625543e4b32410716f6e90b97fcd7d798966cb9e124fee2d2b4a1b00e0c35",
+        "decodeMethod": "known-header-crc32",
+        "file": "work/waiting-room-result-ui-20261017/source/scoreboard_back.dds"
+      },
+      "node": "bg_basic_GroupBox/Image_result_betateam_bg_Image",
+      "uv": [
+        0,
+        0.503906,
+        1,
+        0.855469
+      ],
+      "crop": [
+        0,
+        258,
+        512,
+        438
+      ],
+      "size": [
+        512,
+        180
+      ]
+    },
+    "row": {
+      "file": "score-row.png",
+      "sha256": "464e779517c0c2ea5d4b710e894d46c0511b5328ba627e4703e6e406a565f911",
+      "source": {
+        "path": "gui/new/score_gray_bar.dds",
+        "archive": "package/53.xs",
+        "crc32": "841cb58a",
+        "sha256": "ee50abd0832a52672b293dbd9b82782b5a6b430e07be99f86f272462b99bebe6",
+        "decodeMethod": "known-header-crc32",
+        "file": "work/waiting-room-result-ui-20261017/source/score_gray_bar.dds"
+      },
+      "node": "NameTag1_Image",
+      "size": [
+        720,
+        45
+      ]
+    }
+  },
+  "outcomeEmblems": {
+    "published": false,
+    "reason": "Legacy locale/magenta atlas remains unverified; original English titles are supplied by the separately authenticated SCN result scenes"
+  },
+  "composition": {
+    "coordinateSpace": [
+      1024,
+      768
+    ],
+    "nativeObservation": "work/waiting-room-result-ui-20261017/native-followup/native-after-result-1.png",
+    "sequenceCertified": false,
+    "drawSceneSelected": false,
+    "newRasterAssets": false,
+    "scenes": [
+      {
+        "source": "uieffect/inter_winner_result.scn",
+        "sourceSha256": "7cb3f80c8a9fde2666a6cd6c533e7c8db26d37606fdaeb5c876eada0bb904fca",
+        "file": "public/assets/s5runtime/chaser/ui/effects/inter_winner_result.json",
+        "sha256": "1b29e4baf135a3c0be943dff4fb97e36cb00d2a9f830b993061ecb4e19919f49",
+        "durationSeconds": 5,
+        "models": 22
+      },
+      {
+        "source": "uieffect/inter_lose_result.scn",
+        "sourceSha256": "0c6b15f883accb5a5e8b57ae0722ae88f794bc1b391c90b6d2d3ed5e6d293bae",
+        "file": "public/assets/s5runtime/chaser/ui/effects/inter_lose_result.json",
+        "sha256": "eeb154aa1378bcc78e65d2c91bd118f0c1f0d1f72c6163626ca81fa8f22d3a70",
+        "durationSeconds": 5,
+        "models": 22
+      }
+    ]
+  }
+}

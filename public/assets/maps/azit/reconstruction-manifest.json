@@ -1,0 +1,1425 @@
+{
+  "schema": "azit-blender-reconstruction-runtime-v1",
+  "nativeMapId": 15,
+  "sourceSha256": "10145a6ec060f1a911a094ba754f1429ac3b98ea1711fa8f5c714d50836dd665",
+  "coordinatePolicy": "Evaluated Blender world geometry exported Y-up; identity map root. Dynamic modules receive exact inverse owner world affine matrix once.",
+  "assets": [
+    {
+      "id": "architecture",
+      "url": "/assets/maps/azit/reconstruction/architecture-runtime.glb",
+      "sha256": "f3b6a6813bb40195c5ff84167c5c317bcce7070a1ba95ab33a599b386f087f55",
+      "replacements": [
+        {
+          "moduleId": "azit.architecture.s01_m002.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 2,
+          "faceRanges": [
+            [
+              0,
+              36
+            ],
+            [
+              82,
+              385
+            ],
+            [
+              548,
+              266
+            ],
+            [
+              1504,
+              544
+            ],
+            [
+              2682,
+              46
+            ],
+            [
+              2936,
+              46
+            ],
+            [
+              4959,
+              2
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m002_c0000",
+            "s01_m002_c0001",
+            "s01_m002_c0002",
+            "s01_m002_c0007",
+            "s01_m002_c0008",
+            "s01_m002_c0009",
+            "s01_m002_c0010",
+            "s01_m002_c0011",
+            "s01_m002_c0012",
+            "s01_m002_c0013",
+            "s01_m002_c0014",
+            "s01_m002_c0015",
+            "s01_m002_c0016",
+            "s01_m002_c0017",
+            "s01_m002_c0018",
+            "s01_m002_c0019",
+            "s01_m002_c0020",
+            "s01_m002_c0021",
+            "s01_m002_c0022",
+            "s01_m002_c0023",
+            "s01_m002_c0024",
+            "s01_m002_c0025",
+            "s01_m002_c0026",
+            "s01_m002_c0027",
+            "s01_m002_c0028",
+            "s01_m002_c0029",
+            "s01_m002_c0030",
+            "s01_m002_c0031",
+            "s01_m002_c0032",
+            "s01_m002_c0033",
+            "s01_m002_c0034",
+            "s01_m002_c0035",
+            "s01_m002_c0036",
+            "s01_m002_c0037",
+            "s01_m002_c0038",
+            "s01_m002_c0039",
+            "s01_m002_c0040",
+            "s01_m002_c0041",
+            "s01_m002_c0042",
+            "s01_m002_c0061",
+            "s01_m002_c0062",
+            "s01_m002_c0063"
+          ]
+        },
+        {
+          "moduleId": "azit.architecture.s01_m003.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 3,
+          "faceRanges": [
+            [
+              0,
+              28
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m003_c0000",
+            "s01_m003_c0001"
+          ]
+        },
+        {
+          "moduleId": "azit.architecture.s01_m004.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 4,
+          "faceRanges": [
+            [
+              0,
+              2256
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m004_c0000",
+            "s01_m004_c0001",
+            "s01_m004_c0002",
+            "s01_m004_c0003",
+            "s01_m004_c0004",
+            "s01_m004_c0005",
+            "s01_m004_c0006",
+            "s01_m004_c0007",
+            "s01_m004_c0008",
+            "s01_m004_c0009",
+            "s01_m004_c0010",
+            "s01_m004_c0011",
+            "s01_m004_c0012",
+            "s01_m004_c0013",
+            "s01_m004_c0014",
+            "s01_m004_c0015",
+            "s01_m004_c0016",
+            "s01_m004_c0017",
+            "s01_m004_c0018",
+            "s01_m004_c0019",
+            "s01_m004_c0020",
+            "s01_m004_c0021",
+            "s01_m004_c0022",
+            "s01_m004_c0023",
+            "s01_m004_c0024",
+            "s01_m004_c0025",
+            "s01_m004_c0026",
+            "s01_m004_c0027",
+            "s01_m004_c0028",
+            "s01_m004_c0029",
+            "s01_m004_c0030",
+            "s01_m004_c0031",
+            "s01_m004_c0032",
+            "s01_m004_c0033",
+            "s01_m004_c0034",
+            "s01_m004_c0035",
+            "s01_m004_c0036",
+            "s01_m004_c0037",
+            "s01_m004_c0038",
+            "s01_m004_c0039",
+            "s01_m004_c0040",
+            "s01_m004_c0041",
+            "s01_m004_c0042",
+            "s01_m004_c0043",
+            "s01_m004_c0044",
+            "s01_m004_c0045",
+            "s01_m004_c0046",
+            "s01_m004_c0047",
+            "s01_m004_c0048",
+            "s01_m004_c0049",
+            "s01_m004_c0050",
+            "s01_m004_c0051",
+            "s01_m004_c0052",
+            "s01_m004_c0053",
+            "s01_m004_c0054",
+            "s01_m004_c0055",
+            "s01_m004_c0056",
+            "s01_m004_c0057",
+            "s01_m004_c0058",
+            "s01_m004_c0059",
+            "s01_m004_c0060",
+            "s01_m004_c0061",
+            "s01_m004_c0062",
+            "s01_m004_c0063",
+            "s01_m004_c0064",
+            "s01_m004_c0065",
+            "s01_m004_c0066",
+            "s01_m004_c0067",
+            "s01_m004_c0068",
+            "s01_m004_c0069",
+            "s01_m004_c0070",
+            "s01_m004_c0071",
+            "s01_m004_c0072",
+            "s01_m004_c0073",
+            "s01_m004_c0074",
+            "s01_m004_c0075",
+            "s01_m004_c0076",
+            "s01_m004_c0077",
+            "s01_m004_c0078",
+            "s01_m004_c0079",
+            "s01_m004_c0080"
+          ]
+        },
+        {
+          "moduleId": "azit.architecture.s01_m011.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 11,
+          "faceRanges": [
+            [
+              0,
+              432
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m011_c0000",
+            "s01_m011_c0001"
+          ]
+        },
+        {
+          "moduleId": "azit.architecture.s01_m026.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 26,
+          "faceRanges": [
+            [
+              0,
+              154
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m026_c0000",
+            "s01_m026_c0001",
+            "s01_m026_c0002",
+            "s01_m026_c0003",
+            "s01_m026_c0004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "props",
+      "url": "/assets/maps/azit/reconstruction/props-runtime.glb",
+      "sha256": "f3e14496cfaafebbf539850f06a64a015192a065b20a3217bcad3d3cbec306d1",
+      "replacements": [
+        {
+          "moduleId": "azit.props.s01_m002.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 2,
+          "faceRanges": [
+            [
+              36,
+              46
+            ],
+            [
+              467,
+              81
+            ],
+            [
+              814,
+              690
+            ],
+            [
+              2048,
+              634
+            ],
+            [
+              2728,
+              208
+            ],
+            [
+              2982,
+              1422
+            ],
+            [
+              4864,
+              63
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m002_c0003",
+            "s01_m002_c0004",
+            "s01_m002_c0005",
+            "s01_m002_c0006",
+            "s01_m002_c0044",
+            "s01_m002_c0045",
+            "s01_m002_c0047",
+            "s01_m002_c0048",
+            "s01_m002_c0050",
+            "s01_m002_c0051",
+            "s01_m002_c0052",
+            "s01_m002_c0054",
+            "s01_m002_c0055",
+            "s01_m002_c0057",
+            "s01_m002_c0058",
+            "s01_m002_c0060",
+            "s01_m002_c0064",
+            "s01_m002_c0068",
+            "s01_m002_c0069",
+            "s01_m002_c0070",
+            "s01_m002_c0071",
+            "s01_m002_c0072",
+            "s01_m002_c0073",
+            "s01_m002_c0074",
+            "s01_m002_c0075",
+            "s01_m002_c0076",
+            "s01_m002_c0077",
+            "s01_m002_c0078",
+            "s01_m002_c0079",
+            "s01_m002_c0080",
+            "s01_m002_c0081",
+            "s01_m002_c0082",
+            "s01_m002_c0083",
+            "s01_m002_c0084",
+            "s01_m002_c0085",
+            "s01_m002_c0086",
+            "s01_m002_c0087",
+            "s01_m002_c0088",
+            "s01_m002_c0089",
+            "s01_m002_c0090",
+            "s01_m002_c0091",
+            "s01_m002_c0092",
+            "s01_m002_c0093",
+            "s01_m002_c0094",
+            "s01_m002_c0095",
+            "s01_m002_c0096",
+            "s01_m002_c0097",
+            "s01_m002_c0098",
+            "s01_m002_c0099",
+            "s01_m002_c0100",
+            "s01_m002_c0101",
+            "s01_m002_c0102",
+            "s01_m002_c0103",
+            "s01_m002_c0104",
+            "s01_m002_c0105",
+            "s01_m002_c0106",
+            "s01_m002_c0107",
+            "s01_m002_c0108",
+            "s01_m002_c0109",
+            "s01_m002_c0110",
+            "s01_m002_c0111",
+            "s01_m002_c0112",
+            "s01_m002_c0113",
+            "s01_m002_c0114",
+            "s01_m002_c0115",
+            "s01_m002_c0116",
+            "s01_m002_c0117",
+            "s01_m002_c0118",
+            "s01_m002_c0119",
+            "s01_m002_c0120",
+            "s01_m002_c0121",
+            "s01_m002_c0124",
+            "s01_m002_c0125",
+            "s01_m002_c0126",
+            "s01_m002_c0127",
+            "s01_m002_c0128",
+            "s01_m002_c0129",
+            "s01_m002_c0130",
+            "s01_m002_c0131",
+            "s01_m002_c0132",
+            "s01_m002_c0133",
+            "s01_m002_c0134",
+            "s01_m002_c0135",
+            "s01_m002_c0139",
+            "s01_m002_c0156",
+            "s01_m002_c0157",
+            "s01_m002_c0158",
+            "s01_m002_c0159",
+            "s01_m002_c0160",
+            "s01_m002_c0043",
+            "s01_m002_c0046",
+            "s01_m002_c0049",
+            "s01_m002_c0053",
+            "s01_m002_c0056",
+            "s01_m002_c0059",
+            "s01_m002_c0065",
+            "s01_m002_c0066",
+            "s01_m002_c0067",
+            "s01_m002_c0122",
+            "s01_m002_c0123",
+            "s01_m002_c0136",
+            "s01_m002_c0142",
+            "s01_m002_c0143",
+            "s01_m002_c0144",
+            "s01_m002_c0145",
+            "s01_m002_c0146",
+            "s01_m002_c0147",
+            "s01_m002_c0148",
+            "s01_m002_c0149",
+            "s01_m002_c0150",
+            "s01_m002_c0151",
+            "s01_m002_c0152",
+            "s01_m002_c0137",
+            "s01_m002_c0138",
+            "s01_m002_c0140",
+            "s01_m002_c0141",
+            "s01_m002_c0153"
+          ]
+        },
+        {
+          "moduleId": "azit.props.s01_m012.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 12,
+          "faceRanges": [
+            [
+              0,
+              10
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m012_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.props.s01_m014.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 14,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m014_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.props.s01_m016.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 16,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m016_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.props.s01_m018.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 18,
+          "faceRanges": [
+            [
+              0,
+              10
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m018_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.props.s01_m020.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 20,
+          "faceRanges": [
+            [
+              0,
+              14
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m020_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.props.s01_m022.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 22,
+          "faceRanges": [
+            [
+              0,
+              10
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m022_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.props.s01_m024.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 24,
+          "faceRanges": [
+            [
+              0,
+              56
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m024_c0000",
+            "s01_m024_c0001",
+            "s01_m024_c0002"
+          ]
+        },
+        {
+          "moduleId": "azit.props.s01_m010.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 10,
+          "faceRanges": [
+            [
+              0,
+              12
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m010_c0000",
+            "s01_m010_c0001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "url": "/assets/maps/azit/reconstruction/tech-runtime.glb",
+      "sha256": "bf4573139f3baeb6bd64c483ef7dec90c6de72400695af5aec502c59721658f4",
+      "replacements": [
+        {
+          "moduleId": "azit.tech.s01_m000.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 0,
+          "faceRanges": [
+            [
+              0,
+              116
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m000_c0000",
+            "s01_m000_c0001",
+            "s01_m000_c0002",
+            "s01_m000_c0003",
+            "s01_m000_c0004",
+            "s01_m000_c0005",
+            "s01_m000_c0006",
+            "s01_m000_c0007",
+            "s01_m000_c0008",
+            "s01_m000_c0009",
+            "s01_m000_c0010",
+            "s01_m000_c0011",
+            "s01_m000_c0012",
+            "s01_m000_c0013",
+            "s01_m000_c0014",
+            "s01_m000_c0015",
+            "s01_m000_c0016",
+            "s01_m000_c0017",
+            "s01_m000_c0018",
+            "s01_m000_c0019",
+            "s01_m000_c0020"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s01_m002.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 2,
+          "faceRanges": [
+            [
+              4404,
+              460
+            ],
+            [
+              4927,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m002_c0154",
+            "s01_m002_c0155",
+            "s01_m002_c0161",
+            "s01_m002_c0162"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s01_m007.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 7,
+          "faceRanges": [
+            [
+              0,
+              332
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m007_c0000",
+            "s01_m007_c0001",
+            "s01_m007_c0002",
+            "s01_m007_c0003",
+            "s01_m007_c0004",
+            "s01_m007_c0005",
+            "s01_m007_c0006",
+            "s01_m007_c0007",
+            "s01_m007_c0008",
+            "s01_m007_c0009",
+            "s01_m007_c0010",
+            "s01_m007_c0011",
+            "s01_m007_c0012",
+            "s01_m007_c0013",
+            "s01_m007_c0014",
+            "s01_m007_c0015",
+            "s01_m007_c0016",
+            "s01_m007_c0017",
+            "s01_m007_c0018",
+            "s01_m007_c0019",
+            "s01_m007_c0020",
+            "s01_m007_c0021",
+            "s01_m007_c0022",
+            "s01_m007_c0023",
+            "s01_m007_c0024",
+            "s01_m007_c0025",
+            "s01_m007_c0026",
+            "s01_m007_c0027",
+            "s01_m007_c0028",
+            "s01_m007_c0029",
+            "s01_m007_c0030",
+            "s01_m007_c0031",
+            "s01_m007_c0032",
+            "s01_m007_c0033",
+            "s01_m007_c0034",
+            "s01_m007_c0035",
+            "s01_m007_c0036",
+            "s01_m007_c0037",
+            "s01_m007_c0038",
+            "s01_m007_c0039",
+            "s01_m007_c0040",
+            "s01_m007_c0041",
+            "s01_m007_c0042",
+            "s01_m007_c0043",
+            "s01_m007_c0044",
+            "s01_m007_c0045",
+            "s01_m007_c0046",
+            "s01_m007_c0047",
+            "s01_m007_c0048",
+            "s01_m007_c0049",
+            "s01_m007_c0050",
+            "s01_m007_c0051",
+            "s01_m007_c0052",
+            "s01_m007_c0053",
+            "s01_m007_c0054",
+            "s01_m007_c0055",
+            "s01_m007_c0056",
+            "s01_m007_c0057",
+            "s01_m007_c0058",
+            "s01_m007_c0059",
+            "s01_m007_c0060",
+            "s01_m007_c0061",
+            "s01_m007_c0062",
+            "s01_m007_c0063",
+            "s01_m007_c0064",
+            "s01_m007_c0065",
+            "s01_m007_c0066",
+            "s01_m007_c0067",
+            "s01_m007_c0068",
+            "s01_m007_c0069",
+            "s01_m007_c0070",
+            "s01_m007_c0071",
+            "s01_m007_c0072",
+            "s01_m007_c0073",
+            "s01_m007_c0074",
+            "s01_m007_c0075",
+            "s01_m007_c0076",
+            "s01_m007_c0077",
+            "s01_m007_c0078",
+            "s01_m007_c0079",
+            "s01_m007_c0080",
+            "s01_m007_c0081",
+            "s01_m007_c0082",
+            "s01_m007_c0083",
+            "s01_m007_c0084",
+            "s01_m007_c0085",
+            "s01_m007_c0086",
+            "s01_m007_c0087",
+            "s01_m007_c0088",
+            "s01_m007_c0089",
+            "s01_m007_c0090",
+            "s01_m007_c0091",
+            "s01_m007_c0092",
+            "s01_m007_c0093"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s01_m009.main",
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 9,
+          "faceRanges": [
+            [
+              0,
+              101
+            ]
+          ],
+          "sourceComponentIds": [
+            "s01_m009_c0000",
+            "s01_m009_c0001",
+            "s01_m009_c0002",
+            "s01_m009_c0003",
+            "s01_m009_c0004",
+            "s01_m009_c0005",
+            "s01_m009_c0006",
+            "s01_m009_c0007",
+            "s01_m009_c0008",
+            "s01_m009_c0009",
+            "s01_m009_c0010",
+            "s01_m009_c0011",
+            "s01_m009_c0012",
+            "s01_m009_c0013",
+            "s01_m009_c0014",
+            "s01_m009_c0015",
+            "s01_m009_c0016",
+            "s01_m009_c0017",
+            "s01_m009_c0018",
+            "s01_m009_c0019",
+            "s01_m009_c0020",
+            "s01_m009_c0021",
+            "s01_m009_c0022",
+            "s01_m009_c0023",
+            "s01_m009_c0024",
+            "s01_m009_c0025",
+            "s01_m009_c0026"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m000.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 0,
+          "faceRanges": [
+            [
+              0,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m000_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m001.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 1,
+          "faceRanges": [
+            [
+              0,
+              4
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m001_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m002.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 2,
+          "faceRanges": [
+            [
+              0,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m002_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m003.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 3,
+          "faceRanges": [
+            [
+              0,
+              4
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m003_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m004.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 4,
+          "faceRanges": [
+            [
+              0,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m004_c0000",
+            "s03_m004_c0001"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m005.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 5,
+          "faceRanges": [
+            [
+              0,
+              4
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m005_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m006.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 6,
+          "faceRanges": [
+            [
+              0,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m006_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m007.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 7,
+          "faceRanges": [
+            [
+              0,
+              4
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m007_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m008.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 8,
+          "faceRanges": [
+            [
+              0,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m008_c0000",
+            "s03_m008_c0001"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m009.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 9,
+          "faceRanges": [
+            [
+              0,
+              4
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m009_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m010.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 10,
+          "faceRanges": [
+            [
+              0,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m010_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m011.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 11,
+          "faceRanges": [
+            [
+              0,
+              4
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m011_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m012.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 12,
+          "faceRanges": [
+            [
+              0,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m012_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m013.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 13,
+          "faceRanges": [
+            [
+              0,
+              4
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m013_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m014.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 14,
+          "faceRanges": [
+            [
+              0,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m014_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m015.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 15,
+          "faceRanges": [
+            [
+              0,
+              4
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m015_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m016.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 16,
+          "faceRanges": [
+            [
+              0,
+              4
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m016_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s03_m017.main",
+          "sourceSceneIndex": 3,
+          "sourceModelIndex": 17,
+          "faceRanges": [
+            [
+              0,
+              32
+            ]
+          ],
+          "sourceComponentIds": [
+            "s03_m017_c0000"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m000.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 0,
+          "faceRanges": [
+            [
+              0,
+              16
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m000_c0000",
+            "s04_m000_c0001",
+            "s04_m000_c0002",
+            "s04_m000_c0003",
+            "s04_m000_c0004",
+            "s04_m000_c0005",
+            "s04_m000_c0006",
+            "s04_m000_c0007"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m001.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 1,
+          "faceRanges": [
+            [
+              0,
+              567
+            ],
+            [
+              623,
+              86
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m001_c0000",
+            "s04_m001_c0001",
+            "s04_m001_c0002",
+            "s04_m001_c0003"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m001.detached-base",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 1,
+          "faceRanges": [
+            [
+              567,
+              56
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m001_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m002.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 2,
+          "faceRanges": [
+            [
+              0,
+              50
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m002_c0000",
+            "s04_m002_c0001",
+            "s04_m002_c0002",
+            "s04_m002_c0003",
+            "s04_m002_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m003.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 3,
+          "faceRanges": [
+            [
+              0,
+              50
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m003_c0000",
+            "s04_m003_c0001",
+            "s04_m003_c0002",
+            "s04_m003_c0003",
+            "s04_m003_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m004.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 4,
+          "faceRanges": [
+            [
+              0,
+              50
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m004_c0000",
+            "s04_m004_c0001",
+            "s04_m004_c0002",
+            "s04_m004_c0003",
+            "s04_m004_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m005.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 5,
+          "faceRanges": [
+            [
+              0,
+              50
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m005_c0000",
+            "s04_m005_c0001",
+            "s04_m005_c0002",
+            "s04_m005_c0003",
+            "s04_m005_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m006.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 6,
+          "faceRanges": [
+            [
+              0,
+              50
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m006_c0000",
+            "s04_m006_c0001",
+            "s04_m006_c0002",
+            "s04_m006_c0003",
+            "s04_m006_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m007.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 7,
+          "faceRanges": [
+            [
+              0,
+              50
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m007_c0000",
+            "s04_m007_c0001",
+            "s04_m007_c0002",
+            "s04_m007_c0003",
+            "s04_m007_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m008.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 8,
+          "faceRanges": [
+            [
+              0,
+              50
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m008_c0000",
+            "s04_m008_c0001",
+            "s04_m008_c0002",
+            "s04_m008_c0003",
+            "s04_m008_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m009.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 9,
+          "faceRanges": [
+            [
+              0,
+              50
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m009_c0000",
+            "s04_m009_c0001",
+            "s04_m009_c0002",
+            "s04_m009_c0003",
+            "s04_m009_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m010.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 10,
+          "faceRanges": [
+            [
+              0,
+              567
+            ],
+            [
+              623,
+              86
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m010_c0000",
+            "s04_m010_c0001",
+            "s04_m010_c0002",
+            "s04_m010_c0003"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m010.detached-base",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 10,
+          "faceRanges": [
+            [
+              567,
+              56
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m010_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m011.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 11,
+          "faceRanges": [
+            [
+              0,
+              567
+            ],
+            [
+              623,
+              86
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m011_c0000",
+            "s04_m011_c0001",
+            "s04_m011_c0002",
+            "s04_m011_c0003"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m011.detached-base",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 11,
+          "faceRanges": [
+            [
+              567,
+              56
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m011_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m012.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 12,
+          "faceRanges": [
+            [
+              0,
+              567
+            ],
+            [
+              623,
+              86
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m012_c0000",
+            "s04_m012_c0001",
+            "s04_m012_c0002",
+            "s04_m012_c0003"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m012.detached-base",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 12,
+          "faceRanges": [
+            [
+              567,
+              56
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m012_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m013.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 13,
+          "faceRanges": [
+            [
+              0,
+              567
+            ],
+            [
+              623,
+              86
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m013_c0000",
+            "s04_m013_c0001",
+            "s04_m013_c0002",
+            "s04_m013_c0003"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m013.detached-base",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 13,
+          "faceRanges": [
+            [
+              567,
+              56
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m013_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m014.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 14,
+          "faceRanges": [
+            [
+              0,
+              567
+            ],
+            [
+              623,
+              86
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m014_c0000",
+            "s04_m014_c0001",
+            "s04_m014_c0002",
+            "s04_m014_c0003"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m014.detached-base",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 14,
+          "faceRanges": [
+            [
+              567,
+              56
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m014_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m015.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 15,
+          "faceRanges": [
+            [
+              0,
+              567
+            ],
+            [
+              623,
+              86
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m015_c0000",
+            "s04_m015_c0001",
+            "s04_m015_c0002",
+            "s04_m015_c0003"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m015.detached-base",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 15,
+          "faceRanges": [
+            [
+              567,
+              56
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m015_c0004"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m016.main",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 16,
+          "faceRanges": [
+            [
+              0,
+              567
+            ],
+            [
+              623,
+              86
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m016_c0000",
+            "s04_m016_c0001",
+            "s04_m016_c0002",
+            "s04_m016_c0003"
+          ]
+        },
+        {
+          "moduleId": "azit.tech.s04_m016.detached-base",
+          "sourceSceneIndex": 4,
+          "sourceModelIndex": 16,
+          "faceRanges": [
+            [
+              567,
+              56
+            ]
+          ],
+          "sourceComponentIds": [
+            "s04_m016_c0004"
+          ]
+        }
+      ]
+    }
+  ],
+  "complete": false,
+  "nativeReady": false,
+  "gameplayReady": false,
+  "remainingSourceComponentIds": [],
+  "distributionSourceSha256": "c9a499a11b97dd270034dbda94babc79a4a17fbf83689aa341afc54bd046e0aa"
+}

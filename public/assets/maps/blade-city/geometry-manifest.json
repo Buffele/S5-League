@@ -1,0 +1,42 @@
+{
+  "schema": "s5runtime-native-map-source-runtime-v1",
+  "key": "MAPNAME_BLADE_CITY",
+  "name": "Blade City",
+  "nativeMapId": 158,
+  "scene": "source.json",
+  "contract": "runtime-contract.json",
+  "artistConfig": "artist-config.json",
+  "authorities": [
+    {
+      "kind": "bundle",
+      "file": "source.json",
+      "sha256": "9c2d36bfea601eb6ed928b1c8621f61c9fcd122cd163281a87fa399136d3bf34",
+      "source": "C:\\Users\\newpc\\Desktop\\S5 league\\work\\s5runtime-map-native-adaptation\\blender-pipeline\\static-authoring\\blade-city\\native-158\\native.bundle.source.json"
+    },
+    {
+      "kind": "collisions",
+      "file": "collisions.source.json",
+      "sha256": "74ee22d68d8bebd91dd67abbd41d34eb94dbefd70ce2693e7260706a11f3c465",
+      "source": "C:\\Users\\newpc\\Desktop\\S5 league\\work\\s5runtime-map-native-adaptation\\blender-pipeline\\static-authoring\\blade-city\\native-158\\native.collisions.source.json"
+    },
+    {
+      "kind": "markers",
+      "file": "markers.source.json",
+      "sha256": "2c2446d27f595d95306de5a09121313539bd79bfa789a9a6143c45999d9d8686",
+      "source": "C:\\Users\\newpc\\Desktop\\S5 league\\work\\s5runtime-map-native-adaptation\\blender-pipeline\\static-authoring\\blade-city\\native-158\\native.markers.source.json"
+    },
+    {
+      "kind": "all-collision-categories",
+      "file": "collisions-all-categories.json",
+      "sha256": "8647a02f50f5a0f9bb1129932eb38179fe705f15261103b3463766dbbd124f66",
+      "source": "C:\\Users\\newpc\\Desktop\\S5 league\\work\\s5runtime-map-native-adaptation\\blender-pipeline\\static-authoring\\blade-city\\native-158\\native.all-collision-categories.source.json"
+    }
+  ],
+  "contractSha256": "0f7c010d0e4d24225a16ef21019d165346b469b05b3d1c0b6bd200f54c2d6b8a",
+  "sourceQualification": "source-qualification.json",
+  "sourceQualificationSha256": "2c2fa5c0c60e17de5c6aa76cbb285dc91b992faac6338eba2453c8e5f39a7191",
+  "nativeReady": false,
+  "gameplayReady": false,
+  "stage": "Free exploration: source geometry, saved Blender art, normal UI and keyboard movement/jump checked; complete native gameplay pending",
+  "artistConfigSha256": "67044e4cf667a59fbc93ad8ca11e8cbd2c6798aaba15a0dae4127630971afede"
+}

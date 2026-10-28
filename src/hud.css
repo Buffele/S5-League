@@ -1,0 +1,191 @@
+/* Play HUD — compact glass, warm HP / electric cyan SP. */
+#input-settings{margin:14px 0;border:1px solid #b9c9d6;border-radius:12px;overflow:hidden}
+#input-settings>summary{padding:13px 15px;color:#243d52;background:#f8fbfc;cursor:pointer;font-weight:700}
+#input-settings>#input-controls-hint,#input-settings>.input-settings-note{margin:12px 16px;color:#d4e4f0;font-size:12px;line-height:1.5}
+#input-settings .s5-input-settings{max-width:none}
+:root{--hud-ink:#eef8ff;--hud-muted:#8fa9ba;--hud-sp:#66f0e7;--hud-hp:#ff7d82;--hud-panel:linear-gradient(135deg,#102534ed,#091521e8);--hud-scale:1}
+#fps-counter{position:fixed;top:14px;right:18px;z-index:20;padding:5px 8px;border:1px solid #ffffff20;border-radius:5px;background:#102534b3;color:#c5d6e1;font:600 10px/1.2 Segoe UI,Arial,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:.4px;pointer-events:none;user-select:none}
+#fps-value{display:inline-block;min-width:3ch;text-align:right;color:#eef8ff}
+/* Keep diagnostics in the top gutter, outside the native Chaser clock and
+   source score frame. The 10px gutter precedes the narrow HUD panels. */
+@media(max-width:700px){body.in-game #fps-counter{top:0;left:0;right:auto;height:10px;padding:0 3px;border:0;border-radius:0;font-size:9px;line-height:10px;background:#102534b3;letter-spacing:0}}
+#telemetry,#position-readout{display:none}
+body.camera-mode #crosshair{display:none}
+body.hide-weapon-picker #weapon-picker{display:none!important}
+#hud,#weapon,#weapon-picker{font-family:Segoe UI,Arial,sans-serif;user-select:none;pointer-events:none}
+#hud,.in-game #hud{left:32px;bottom:30px;width:286px;padding:18px 20px 20px;border:1px solid #b6e4ff24;border-radius:4px 18px 4px 18px;background:var(--hud-panel);color:var(--hud-ink);box-shadow:0 14px 36px #0003,inset 0 1px #ffffff09;backdrop-filter:blur(18px)}
+#hud:before{content:'';position:absolute;left:-1px;top:20px;width:2px;height:30px;background:var(--hud-hp);box-shadow:0 0 12px #ff7d8260}
+#hud:after{content:'';position:absolute;left:-1px;bottom:20px;width:2px;height:30px;background:var(--hud-sp);box-shadow:0 0 12px #66f0e760}
+#hud .health,#hud .stamina{font-size:10px;letter-spacing:1.5px}
+#hud .stamina{margin-top:17px}
+.resource-label{display:flex;align-items:center;gap:8px;height:21px;color:#c8d9e4;font-weight:700}
+#hud .resource-icon{width:16px;font-size:19px;line-height:1;color:var(--hud-hp);text-align:center;font-weight:400}
+#hud .stamina .resource-icon{color:var(--hud-sp);font-size:22px}
+#hud b{float:none;margin-left:auto;font-size:22px;font-weight:650;line-height:1;letter-spacing:-.6px;font-variant-numeric:tabular-nums}
+#hud b small{margin-left:5px;color:var(--hud-muted);font-size:10px;letter-spacing:.2px;font-weight:500}
+#hud .bar{height:7px;margin-top:10px;background:#ffffff0d;transform:none;border-radius:2px;overflow:hidden;position:relative}
+#hud .bar:after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0,transparent calc(20% - 1px),#07172277 calc(20% - 1px),#07172277 20%)}
+#hud .bar i{border-radius:2px;background:linear-gradient(90deg,#ef546c,var(--hud-hp));box-shadow:0 0 12px #ff7d824d;transition:width 80ms linear}
+#hud .stamina .bar i{background:linear-gradient(90deg,#29bfc4,var(--hud-sp));box-shadow:0 0 12px #66f0e755}
+#hud.low-sp .stamina .resource-label,#hud.low-sp .stamina .resource-icon{color:#ffc17a}
+#hud.low-sp .stamina .bar i{background:linear-gradient(90deg,#f09346,#ffd293)}
+#weapon,.in-game #weapon{right:32px;bottom:30px;min-height:112px;width:310px;padding:18px 112px 18px 22px;display:block;border:1px solid #b6e4ff24;border-radius:18px 4px 18px 4px;background:var(--hud-panel);color:var(--hud-ink);box-shadow:0 14px 36px #0003,inset 0 1px #ffffff09;backdrop-filter:blur(18px)}
+#weapon:after{content:'';position:absolute;bottom:-1px;left:23px;width:52px;height:2px;background:var(--hud-sp);box-shadow:0 0 14px #66f0e770}
+#weapon>span,.in-game #weapon>span{display:inline-grid;place-items:center;position:absolute;right:14px;top:12px;min-width:24px;height:21px;border:1px solid #b6e4ff33;border-radius:4px;color:#a8c5d5;font-size:10px;font-weight:700;z-index:1}
+#weapon div{font-size:15px;letter-spacing:.25px;font-weight:700}
+#weapon .equipped-label{display:block;margin:0 0 10px;font-size:8px;color:var(--hud-sp);letter-spacing:2.2px;font-style:normal;font-weight:650}
+#weapon small{margin-top:7px;color:var(--hud-muted);font-size:10px;letter-spacing:.3px}
+#weapon img{position:absolute;right:17px;top:25px;width:86px;height:80px;object-fit:contain;filter:drop-shadow(0 8px 8px #0008);transform:rotate(-9deg)}
+#weapon-picker{left:50%;top:64px;bottom:auto;transform:translateX(-50%);display:flex;align-items:flex-end;gap:9px;padding:10px;border:1px solid #bad9ee18;border-radius:18px;background:#06121ba8;backdrop-filter:blur(20px);box-shadow:0 16px 44px #0003;animation:picker-in .16s ease-out;color:var(--hud-ink)}
+#weapon-picker[hidden],body:not(.in-game) #weapon-picker{display:none}
+#weapon-picker>div{position:relative;display:grid;grid-template-columns:1fr;grid-template-rows:80px 25px;width:132px;gap:3px;padding:15px 8px 9px;opacity:1;border:1px solid transparent;border-radius:10px;background:#ffffff03;transition:background .16s,border-color .16s,transform .16s;overflow:hidden}
+#weapon-picker>div>span{position:absolute;left:10px;top:10px;display:grid;place-items:center;width:21px;height:21px;color:#c5d6e1;border:1px solid #c5d6e134;border-radius:4px;font-size:10px;font-weight:700}
+#weapon-picker img{width:84px;height:78px;object-fit:contain;justify-self:center;filter:drop-shadow(0 5px 7px #0008);opacity:.5;transition:opacity .16s,transform .16s}
+#weapon-picker b{font-size:10px;font-weight:600;letter-spacing:.2px;text-align:center;align-self:end;color:#a2b7c6}
+#weapon-picker .selected{border-color:#6eefe77a;background:linear-gradient(150deg,#57e2d925,#32a4bc0a);box-shadow:inset 0 -2px var(--hud-sp);transform:translateY(-3px)}
+#weapon-picker .selected img{opacity:1;transform:translateY(-2px) scale(1.1)}
+#weapon-picker .selected b{color:#efffff}#weapon-picker .selected>span{color:#071b22;background:var(--hud-sp);border-color:transparent}
+#weapon-picker .pending{border-color:#ffc17a;background:#ffc17a13;border-style:dashed}
+#weapon-picker .pending:after{content:'EN ATTENTE';position:absolute;right:8px;top:15px;font-size:7px;letter-spacing:.7px;color:#ffd293}
+#toast{top:30px;font-size:10px;letter-spacing:1px;border:1px solid #c0e7ff20;background:#0b1c2bdd;border-radius:8px;backdrop-filter:blur(12px)}
+@keyframes picker-in{from{opacity:0;translate:0 8px}to{opacity:1;translate:0 0}}
+@media(max-width:700px){#hud,.in-game #hud{left:14px;bottom:18px;width:190px;padding:13px 15px}#hud b{font-size:18px}#weapon,.in-game #weapon{right:14px;bottom:18px;width:205px;min-height:107px;padding:15px 65px 15px 14px}#weapon div{font-size:11px}#weapon img{right:5px;width:58px;height:65px;top:36px}#weapon>span{right:9px}#weapon-picker{top:22px;bottom:auto;gap:4px;padding:6px}#weapon-picker>div{width:100px;grid-template-rows:65px 22px}#weapon-picker img{width:67px;height:65px}#weapon-picker b{font-size:9px}}
+@media(prefers-reduced-motion:reduce){#weapon-picker{animation:none}#weapon-picker *{transition:none}}
+.enemy-health{position:fixed;left:0;top:0;z-index:12;width:126px;padding:7px 9px;background:#071c29d9;border:1px solid #ffffff24;border-radius:7px;pointer-events:none;font:600 10px system-ui;color:#e4f3ff;box-shadow:0 3px 12px #0003;will-change:transform}
+.enemy-health[hidden]{display:none}.enemy-health>span{font-size:8px;letter-spacing:.14em;color:#ffaaa7}.enemy-health>b{float:right;font-size:9px}.enemy-health>div{margin-top:6px;height:4px;background:#ffffff20;overflow:hidden;border-radius:3px}.enemy-health i{display:block;width:100%;height:100%;background:#ff6e7a;transform-origin:left}
+#hp-fill{transform-origin:left}
+
+/* S5 anime HUD: only the two player resources remain permanently visible. */
+#hud,.in-game #hud{left:24px;bottom:24px;width:216px;padding:0;border:0;border-radius:0;background:none;color:#fff;box-shadow:none;backdrop-filter:none;transform:scale(var(--hud-scale));transform-origin:left bottom}
+#hud:before,#hud:after,#hud .bar:after{display:none}
+#hud .health,#hud .stamina{display:grid;grid-template-columns:22px 1fr;align-items:center;gap:6px;letter-spacing:.5px}
+#hud .stamina{margin-top:5px}
+#hud .resource-label{height:auto;font-size:9px;line-height:1;color:#fff;text-shadow:0 1px 3px #162434;gap:0}
+#hud .resource-icon,#hud b{display:none}
+#hud .bar{height:12px;margin:0;background:#233142aa;border:2px solid #263441;border-radius:0;overflow:hidden}
+#hud .stamina .bar{height:9px}
+#hud .bar i{border-radius:0;background:#f36873;box-shadow:none}
+#hud .stamina .bar i{background:#43ccea;box-shadow:none}
+#hud.low-sp .stamina .bar i{background:#43ccea}
+#weapon,.in-game #weapon{display:none}
+.enemy-health>b{display:none}
+#graphics-settings{margin:16px 0 14px;border:1px solid #b9c9d6;border-radius:14px;background:linear-gradient(155deg,#fff,#edf4f8);overflow:hidden;box-shadow:0 12px 28px #29425a14}
+#graphics-settings summary{display:flex;align-items:center;gap:10px;padding:13px 15px;cursor:pointer;color:#243d52;list-style:none;background:#f8fbfc}
+#graphics-settings summary::-webkit-details-marker{display:none}
+#graphics-settings summary:before{content:'✦';display:grid;place-items:center;width:25px;height:25px;border-radius:8px;background:#203d56;color:#6ff4ea;font-size:12px}
+#graphics-settings summary:after{content:'⌄';margin-left:auto;color:#607b8e;font-size:18px;transition:transform .2s}
+#graphics-settings[open] summary:after{transform:rotate(180deg)}
+#graphics-settings summary span{font-size:12px;font-weight:800;letter-spacing:.2px}
+#graphics-settings summary small{font-size:9px;color:#718493;letter-spacing:.3px}
+.graphics-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:'outline camera' 'outline-range hud-range' 'dash picker';gap:14px;padding:15px;border-top:1px solid #d5e0e7}
+.settings-group{min-width:0;margin:0;padding:0;border:0}
+.character-appearance-settings{min-width:0;margin:0 0 18px;padding:14px;border:1px solid #6285a1;background:#152b40;color:#d9e0ea}
+.character-appearance-settings legend{padding:0 6px;font-size:13px;font-weight:700;color:#e9f4ff}
+.character-appearance-fields{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr) minmax(0,1fr);gap:12px}
+.character-appearance-fields>div{display:flex;min-width:0;flex-direction:column;gap:6px;font-size:11px;color:#c0d1e1}
+.character-appearance-fields select{box-sizing:border-box;width:100%;min-width:0;padding:9px 8px;border:1px solid #6285a1;border-radius:0;background:#102338;color:#eef5ff;font:inherit}
+.character-appearance-fields select:focus-visible{outline:2px solid #6ff4ea;outline-offset:2px}
+.character-appearance-fields select:disabled{opacity:.5}
+.character-appearance-settings>small{display:block;margin-top:10px;font-size:10px;color:#a9c0d4}
+@media(max-width:700px){.character-appearance-fields{grid-template-columns:1fr}.character-appearance-settings{padding:12px}}
+.settings-group--outline-mode{grid-area:outline}.settings-group--camera-mode{grid-area:camera}.settings-group--dash-effect-style{grid-area:dash}.settings-group--weapon-picker-visibility{grid-area:picker}
+.settings-range--outline{grid-area:outline-range}.settings-range--hud{grid-area:hud-range}
+.settings-group legend,.settings-range>span{padding:0;color:#2d4559;font-size:11px;font-weight:800;letter-spacing:.25px}
+.settings-group-note{display:block;margin:3px 0 8px!important;color:#718391!important;font-size:9px!important}
+.settings-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+.settings-choices--4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.settings-choices--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.settings-choice{position:relative;display:flex;flex-direction:column;min-width:0!important;margin:0;padding:6px!important;border:1px solid #c6d3dc!important;border-radius:10px;background:#f8fbfc!important;color:#405668!important;text-align:left;letter-spacing:0;box-shadow:none;transition:border-color .15s,background .15s,transform .15s}
+.settings-choice:hover{background:#fff!important;border-color:#7da9bc!important;transform:translateY(-1px)}
+.settings-choice:focus-visible{outline:2px solid #2ab9c8;outline-offset:2px}
+.settings-choice.is-selected{border-color:#1e8097!important;background:#e9fbfc!important;box-shadow:inset 0 0 0 1px #1e8097,0 5px 13px #276c8014}
+.settings-choice b{margin:7px 2px 0;color:#294255;font-size:9px;line-height:1.2;letter-spacing:0}
+.settings-choice small{margin:2px!important;color:#778c9a!important;font-size:8px!important;line-height:1.15}
+.settings-preview{position:relative;display:block!important;float:none!important;width:100%;height:43px;border-radius:6px;overflow:hidden;background:#dbe7ed}
+.settings-choice.is-selected:after{content:'✓';position:absolute;top:10px;right:10px;display:grid;place-items:center;width:15px;height:15px;border-radius:50%;background:#173d4e;color:#71f5e8;font-size:9px;font-weight:900;z-index:3}
+/* Contours : petit personnage et décor, avec le niveau de trait réellement choisi. */
+.settings-preview--outline-mode{background:linear-gradient(#95d8f4 0 62%,#d9c8a7 62%)}
+.settings-preview--outline-mode:before{content:'';position:absolute;left:calc(50% - 7px);top:9px;width:14px;height:25px;border-radius:8px 8px 5px 5px;background:radial-gradient(circle at 50% 5px,#f2c3a1 0 4px,transparent 4.5px),linear-gradient(90deg,#263f76,#d84f74);filter:drop-shadow(0 3px 2px #28415344)}
+.settings-preview--outline-mode.settings-preview--character:before,.settings-preview--outline-mode.settings-preview--objects:before{filter:drop-shadow(1px 0 #111) drop-shadow(-1px 0 #111) drop-shadow(0 1px #111) drop-shadow(0 -1px #111)}
+.settings-preview--outline-mode.settings-preview--objects{box-shadow:inset 0 -2px #111,inset 2px 0 #111,inset -2px 0 #111}
+.settings-preview--outline-mode.settings-preview--objects:after{content:'';position:absolute;left:8px;bottom:8px;width:18px;height:12px;border:2px solid #111;background:#ef7d60}
+/* Caméra : horizon, sujet et trajectoire donnent immédiatement le comportement. */
+.settings-preview--camera-mode{background:linear-gradient(165deg,#172b3c 0 55%,#365566 56% 58%,#223744 59%)}
+.settings-preview--camera-mode:before{content:'';position:absolute;left:50%;bottom:8px;width:6px;height:16px;border-radius:4px 4px 2px 2px;background:#ff786b;box-shadow:0 0 0 2px #fff2}
+.settings-preview--camera-mode:after{content:'';position:absolute;left:8px;top:9px;width:25px;height:15px;border:1px dashed #71f1e5;border-color:#71f1e5 transparent transparent #71f1e5;border-radius:20px 0 0 0}
+.settings-preview--camera-mode.settings-preview--normal:after{border-style:solid;width:16px}
+.settings-preview--camera-mode.settings-preview--cinema:after{width:40px;border-radius:50% 0 0}
+.settings-preview--camera-mode.settings-preview--free:before,.settings-preview--camera-mode.settings-preview--free-cinema:before{left:70%;background:#ffb65d}
+.settings-preview--camera-mode.settings-preview--free:after{left:18px;top:16px;width:29px;transform:rotate(-13deg)}
+.settings-preview--camera-mode.settings-preview--free-cinema:after{left:9px;top:18px;width:48px;border-radius:50%}
+/* Dodge : les trois signatures utilisent la même palette que les effets en jeu. */
+.settings-preview--dash-effect-style{background:#101827}
+.settings-preview--dash-effect-style:before{content:'';position:absolute;inset:8px 15%;transform:skewX(-18deg);background:linear-gradient(90deg,transparent,#fff 48% 55%,transparent);filter:drop-shadow(-7px 0 #33e8ff) drop-shadow(7px 0 #ff36bc)}
+.settings-preview--dash-effect-style.settings-preview--temporal{background:repeating-linear-gradient(0deg,#101827 0 5px,#182339 5px 7px)}
+.settings-preview--dash-effect-style.settings-preview--plasma:before{border-radius:50%;background:#b9ffff;filter:blur(1px) drop-shadow(0 0 5px #21dfff) drop-shadow(0 0 9px #637dff)}
+.settings-preview--dash-effect-style.settings-preview--smoke:before{border-radius:50%;background:radial-gradient(circle,#c1b5ef 0 18%,#6a6198 20% 48%,transparent 52%);filter:blur(3px);transform:scale(1.55)}
+/* Sélecteur : trois cartes d’armes, visibles ou volontairement rayées. */
+.settings-preview--weapon-picker-visibility{background:linear-gradient(135deg,#102534,#07141e)}
+.settings-preview--shadows{background:linear-gradient(160deg,#dfeaf0,#9cb5c5)}
+.settings-preview--shadows:before{content:'';position:absolute;width:22px;height:22px;left:calc(50% - 11px);top:9px;border-radius:4px;background:#f6fcff;z-index:1}
+.settings-preview--shadows.settings-preview--on:after{content:'';position:absolute;width:32px;height:12px;left:50%;top:25px;border-radius:50%;background:#20364766;filter:blur(2px);transform:rotate(-15deg)}
+.settings-preview--weapon-picker-visibility:before{content:'1   2   3';position:absolute;inset:9px 10px;display:grid;place-items:center;border:1px solid #62ede060;border-radius:5px;color:#c9fffb;font:700 9px monospace;word-spacing:7px;background:#69eee516}
+.settings-preview--weapon-picker-visibility.settings-preview--hide:after{content:'';position:absolute;left:13%;right:13%;top:50%;height:2px;background:#ff7676;transform:rotate(-18deg);box-shadow:0 0 5px #ff7676}
+.settings-range{display:grid;grid-template-columns:1fr auto;gap:5px 12px;padding:11px 12px;border:1px solid #d3dee5;border-radius:10px;background:#f8fbfc;color:#43566c;font-size:11px}
+.settings-range input{grid-column:1/-1;width:100%;margin:2px 0 0;accent-color:#238ba1}
+.settings-range output{color:#173d53;font-weight:800;font-variant-numeric:tabular-nums}
+.settings-range.is-disabled{opacity:.45}
+.camera-help{display:block;margin:0 15px 15px;line-height:1.45;color:#607185}
+#welcome{top:50%;transform:translateY(-50%);width:min(1160px,calc(100vw - 64px));max-width:1160px;max-height:calc(100vh - 32px);padding:27px 32px;overflow-y:auto;border-left-width:5px}
+#welcome h1{margin:8px 0 5px;font-size:34px}#welcome>p{max-width:620px;margin:0 0 15px;font-size:12px}
+.menu-staging{display:none!important}
+.menu-shell{border:1px solid #b8c8d3;border-radius:16px;background:#f5f9fb;overflow:hidden;box-shadow:0 18px 45px #1d385218}
+.menu-tabs{display:flex;gap:4px;padding:5px;background:#dfe9ef;border-bottom:1px solid #c2d0d9}
+.menu-tabs button{position:relative;min-width:0;padding:11px 20px;border-radius:11px;background:transparent;color:#5c7180;font-size:10px;text-align:center;letter-spacing:.5px}
+.menu-tabs button:hover{background:#edf4f7;color:#243e50}.menu-tabs button.is-selected{background:#fff;color:#17394d;box-shadow:0 3px 10px #21405714}
+.menu-tabs button.is-selected:after{content:'';position:absolute;left:22px;right:22px;bottom:4px;height:2px;border-radius:2px;background:#29b8c2}
+.menu-panels{padding:17px 19px 19px}.menu-panel[hidden],.menu-field[hidden]{display:none}
+.menu-panel-heading{display:flex;align-items:center;gap:10px;margin-bottom:13px}.menu-panel-heading>span{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#173a4e;color:#72f3e8;font:800 10px monospace}.menu-panel-heading h2{margin:0;color:#233e52;font-size:14px;letter-spacing:0}.menu-panel-heading p{margin:2px 0 0;color:#718491;font-size:9px}
+.menu-primary{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:13px}.menu-secondary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px 13px;margin-top:13px;padding-top:13px;border-top:1px solid #d2dee5}
+.menu-motion-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.menu-field{display:block;min-width:0;color:#344f62;font-size:10px;font-weight:800;letter-spacing:.2px}.menu-native-select{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important}
+.menu-choice-list{display:grid;gap:6px;margin-top:6px}.menu-choice-list--primary{grid-template-columns:repeat(2,minmax(0,1fr))}.menu-choice-list--compact{display:flex;flex-wrap:wrap;gap:5px}
+.menu-choice{position:relative;display:flex;align-items:center;gap:7px;min-width:0;padding:6px;border:1px solid #c5d2db;border-radius:9px;background:#fff;color:#445d6e;text-align:left;letter-spacing:0;box-shadow:none}
+.menu-choice:hover{background:#f5ffff;border-color:#6eabb8}.menu-choice.is-selected{border-color:#1c8497;background:#e9fbfb;box-shadow:inset 0 0 0 1px #1c8497}
+.menu-choice.is-selected:after{content:'✓';position:absolute;right:5px;top:5px;display:grid;place-items:center;width:14px;height:14px;border-radius:50%;background:#173d4e;color:#70f4e8;font-size:8px}
+.menu-choice b{min-width:0;font-size:8px;line-height:1.15;letter-spacing:0}.menu-choice-preview{position:relative;flex:0 0 52px;height:40px;border-radius:6px;background:linear-gradient(155deg,#8bd5ef 0 55%,#dccaa5 56%);overflow:hidden}
+.menu-choice-list--compact .menu-choice{flex:1 1 90px;padding:7px 8px}.menu-choice-list--compact .menu-choice-preview{flex-basis:20px;width:20px;height:20px;border-radius:5px;background:#dce8ed}.menu-choice-list--compact .menu-choice b{font-size:8px}
+/* Terrains */
+.menu-choice--scene-select .menu-choice-preview:before{content:'';position:absolute;left:7px;right:7px;bottom:6px;height:9px;background:#637d94;box-shadow:9px -8px 0 #fff2;transform:skewX(-18deg)}
+.menu-choice--scene-select.menu-choice--station2 .menu-choice-preview{background:linear-gradient(#6ca9d4 0 50%,#748798 51%)}.menu-choice--scene-select.menu-choice--station2 .menu-choice-preview:before{height:17px;background:#334452;box-shadow:14px -8px 0 #e0e5df,-11px -4px 0 #49677d}
+.menu-choice--scene-select.menu-choice--station2-modular .menu-choice-preview{background:linear-gradient(#8bcdf1 0 58%,#e8dcc0 59%)}.menu-choice--scene-select.menu-choice--station2-modular .menu-choice-preview:before{height:18px;background:#315d9c;box-shadow:14px -9px 0 #f17672,-13px -4px 0 #f1ead5;filter:drop-shadow(0 0 3px #fff)}
+.menu-choice--scene-select.menu-choice--circle2 .menu-choice-preview:before{left:14px;right:14px;bottom:5px;height:26px;border:4px solid #f8f3df;border-radius:50%;background:transparent;box-shadow:none;transform:none}
+/* Personnages */
+.menu-choice--appearance-select .menu-choice-preview{background:radial-gradient(circle at 50% 12px,#f0c6a7 0 7px,transparent 7.5px),linear-gradient(140deg,#c9e8f4,#6aa8c5)}.menu-choice--appearance-select .menu-choice-preview:before{content:'';position:absolute;left:17px;bottom:3px;width:18px;height:23px;border-radius:8px 8px 4px 4px;background:linear-gradient(90deg,#253c6b,#d95276)}
+.menu-choice--appearance-select.menu-choice--reference .menu-choice-preview:before{background:linear-gradient(90deg,#454b58,#8b2d38)}.menu-choice--appearance-select.menu-choice--anime .menu-choice-preview:before{background:linear-gradient(90deg,#1f315e,#ff668b);box-shadow:0 0 7px #fff}
+/* Armes */
+.menu-choice--weapon-select .menu-choice-preview{background:linear-gradient(145deg,#122737,#07141e)}.menu-choice--weapon-select .menu-choice-preview:before{content:'';position:absolute;left:11px;top:19px;width:34px;height:4px;border-radius:5px;background:#dcefff;box-shadow:0 0 6px #fff;transform:rotate(-26deg)}
+.menu-choice--weapon-select.menu-choice--dagger .menu-choice-preview:before{width:25px;background:#ffd15f}.menu-choice--weapon-select.menu-choice--plasma .menu-choice-preview:before{background:#66f5ef;box-shadow:0 0 7px #35e9ef}.menu-choice--weapon-select.menu-choice--counter .menu-choice-preview:before{height:7px;background:#ff7085;box-shadow:0 0 6px #ff506f}
+/* Petits contrôles */
+.menu-choice-list--compact .menu-choice-preview:before{content:'';position:absolute;inset:5px;border:2px solid #6c8797;border-radius:50%}.menu-choice-list--compact .is-selected .menu-choice-preview{background:#c9f3f0}.menu-choice-list--compact .is-selected .menu-choice-preview:before{border-color:#197f91;background:#38c6c3}
+.menu-field:has(#audio-volume){grid-column:span 2;padding:11px;border:1px solid #d1dde4;border-radius:10px;background:#fff}.menu-field:has(#audio-volume) input{display:block;width:100%;margin-top:12px;accent-color:#259cad}
+.menu-settings-slot #graphics-settings{margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;overflow:visible}.menu-settings-slot #graphics-settings>summary{display:none}.menu-settings-slot .graphics-grid{padding:0;border:0}
+.menu-footer{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:5px 14px;margin-top:12px}.menu-footer #weapon-controls{grid-column:1;grid-row:1/3;margin:0;max-width:460px}.menu-footer #play{grid-column:2;grid-row:1/3;min-width:245px}.menu-footer #load-status{grid-column:1;margin:0}.menu-footer .refresh-build{grid-column:3;grid-row:1;margin:0;padding:8px}.menu-footer a{grid-column:3;color:#466274;font-size:9px}.menu-footer #character-preview{margin:0}
+@media(max-width:900px){#welcome{width:calc(100vw - 32px)}.menu-primary{grid-template-columns:1fr}.menu-secondary,.menu-motion-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.graphics-grid{grid-template-columns:1fr;grid-template-areas:'outline' 'outline-range' 'camera' 'dash' 'picker' 'hud-range'}.menu-footer{grid-template-columns:1fr}.menu-footer>*{grid-column:1!important;grid-row:auto!important}}
+@media(max-width:700px){#hud,.in-game #hud{left:14px;bottom:18px;width:180px}.settings-choices--4{grid-template-columns:repeat(2,minmax(0,1fr))}.settings-choice b{font-size:8px}#welcome{width:auto}.graphics-grid{padding:11px}}
+
+.restored-inventory{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}.restored-inventory button{min-width:0;padding:14px;letter-spacing:0}.restored-inventory small{display:block;margin-top:6px;color:inherit!important}.restored-inventory button:disabled{opacity:.4;cursor:default}.restored-inventory button[aria-pressed=true]{outline:3px solid #ff9147}
+.inventory-weapon-thumbnail{display:block;width:100%;height:80px;object-fit:contain;margin:0 auto 8px}
+.menu-choice--weapon-select .menu-choice-preview.has-weapon-thumbnail:before{content:none}
+.menu-choice-preview.has-weapon-thumbnail img{display:block;width:100%;height:100%;object-fit:contain;padding:3px;box-sizing:border-box}
+#fireball-hud{position:fixed;left:28px;bottom:145px;display:none;align-items:center;gap:10px;padding:10px 14px;background:#171e2be6;border-left:3px solid #966240;color:#fff;font:12px system-ui;pointer-events:none;z-index:5}
+.in-game #fireball-hud{display:flex}
+#fireball-hud.ready{border-color:#ffad45}
+#fireball-hud kbd{font:700 23px system-ui;color:#ffc577}
+#fireball-hud b{font-size:11px;letter-spacing:.07em}
+#fireball-hud small{display:block;margin-top:3px;color:#ffb970;font-size:10px}
+#fireball-hud>span{margin-left:6px;opacity:.65;font-size:10px}
+/* Five menu sections must remain readable in the narrow app panel. */
+#welcome .menu-tabs{flex-wrap:wrap}
+#welcome .menu-tabs button{flex:1 1 auto;padding-left:10px;padding-right:10px}
+body:not(.in-game) #hud,body:not(.in-game) #weapon,body:not(.in-game) #fireball-hud{display:none}

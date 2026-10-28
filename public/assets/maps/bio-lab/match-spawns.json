@@ -1,0 +1,5355 @@
+{
+  "schema": "bio-lab-source-behavior-compact-v1",
+  "sourceSha256": "74c3e4875f32df813dcdb799aa8a8c1a10d210c5b6a0fbcf9c66a885f2da09cc",
+  "destruction": {
+    "global": {
+      "name": "BLASTINFO",
+      "line": 172,
+      "fields": {
+        "HPRecoveryTime": {
+          "value": "10000",
+          "line": 173
+        },
+        "RebirthTexture": {
+          "value": "noise.bmp",
+          "line": 174
+        },
+        "RebirthSound": {
+          "value": "teleport.ogg",
+          "line": 175
+        }
+      },
+      "orphanLines": []
+    },
+    "profiles": [
+      {
+        "name": "BLASTINFO_01",
+        "line": 177,
+        "fields": {
+          "name": {
+            "value": "blast2_box",
+            "line": 178
+          },
+          "sequence": {
+            "value": "",
+            "line": 179
+          },
+          "sound": {
+            "value": "wall_destroy_wooden.ogg",
+            "line": 180
+          },
+          "hp": {
+            "value": "150",
+            "line": 181
+          },
+          "rebirthtime": {
+            "value": "10000",
+            "line": 182
+          },
+          "material": {
+            "value": "4",
+            "line": 183
+          }
+        },
+        "orphanLines": []
+      },
+      {
+        "name": "BLASTINFO_02",
+        "line": 185,
+        "fields": {
+          "name": {
+            "value": "blast2_cross",
+            "line": 186
+          },
+          "sequence": {
+            "value": "mapeffect_blast_glass.seq",
+            "line": 187
+          },
+          "sound": {
+            "value": "wall_destroy_steel.ogg",
+            "line": 188
+          },
+          "hp": {
+            "value": "200",
+            "line": 189
+          },
+          "rebirthtime": {
+            "value": "3000",
+            "line": 190
+          },
+          "material": {
+            "value": "3",
+            "line": 191
+          }
+        },
+        "orphanLines": []
+      },
+      {
+        "name": "BLASTINFO_03",
+        "line": 193,
+        "fields": {
+          "name": {
+            "value": "blast2_win",
+            "line": 194
+          },
+          "sequence": {
+            "value": "",
+            "line": 195
+          },
+          "sound": {
+            "value": "wall_destroy_wooden.ogg",
+            "line": 196
+          },
+          "hp": {
+            "value": "100",
+            "line": 197
+          },
+          "rebirthtime": {
+            "value": "3000",
+            "line": 198
+          },
+          "material": {
+            "value": "6",
+            "line": 199
+          }
+        },
+        "orphanLines": []
+      }
+    ],
+    "instances": [
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-39/node-41",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 39,
+        "sourceNodeIndex": 41,
+        "name": "Object11895",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 40,
+            "sourceNodeIndex": 42,
+            "name": "oct_Object11922",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-41/node-43",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 41,
+        "sourceNodeIndex": 43,
+        "name": "Object11901",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 42,
+            "sourceNodeIndex": 44,
+            "name": "oct_Object11928",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-43/node-45",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 43,
+        "sourceNodeIndex": 45,
+        "name": "Object11902",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 44,
+            "sourceNodeIndex": 46,
+            "name": "oct_Object11929",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-45/node-47",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 45,
+        "sourceNodeIndex": 47,
+        "name": "Object11896",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 46,
+            "sourceNodeIndex": 48,
+            "name": "oct_Object11923",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-47/node-49",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 47,
+        "sourceNodeIndex": 49,
+        "name": "Object11898",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 48,
+            "sourceNodeIndex": 50,
+            "name": "oct_Object11925",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-49/node-51",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 49,
+        "sourceNodeIndex": 51,
+        "name": "Object11897",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 50,
+            "sourceNodeIndex": 52,
+            "name": "oct_Object11924",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-51/node-53",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 51,
+        "sourceNodeIndex": 53,
+        "name": "Object11903",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 52,
+            "sourceNodeIndex": 54,
+            "name": "oct_Object11930",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-53/node-55",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 53,
+        "sourceNodeIndex": 55,
+        "name": "Object11893",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 54,
+            "sourceNodeIndex": 56,
+            "name": "oct_Object11920",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-55/node-57",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 55,
+        "sourceNodeIndex": 57,
+        "name": "Object11900",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 56,
+            "sourceNodeIndex": 58,
+            "name": "oct_Object11927",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-57/node-59",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 57,
+        "sourceNodeIndex": 59,
+        "name": "Object11904",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 58,
+            "sourceNodeIndex": 60,
+            "name": "oct_Object11931",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-59/node-61",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 59,
+        "sourceNodeIndex": 61,
+        "name": "Object11905",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 60,
+            "sourceNodeIndex": 62,
+            "name": "oct_Object11932",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-61/node-63",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 61,
+        "sourceNodeIndex": 63,
+        "name": "Object11899",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 62,
+            "sourceNodeIndex": 64,
+            "name": "oct_Object11926",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-63/node-65",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 63,
+        "sourceNodeIndex": 65,
+        "name": "Object11906",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 64,
+            "sourceNodeIndex": 66,
+            "name": "oct_Object11933",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-65/node-67",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 65,
+        "sourceNodeIndex": 67,
+        "name": "Object11892",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 66,
+            "sourceNodeIndex": 68,
+            "name": "oct_Object11919",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-67/node-69",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 67,
+        "sourceNodeIndex": 69,
+        "name": "Object11908",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 68,
+            "sourceNodeIndex": 70,
+            "name": "oct_Object11935",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-69/node-71",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 69,
+        "sourceNodeIndex": 71,
+        "name": "Object11907",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 70,
+            "sourceNodeIndex": 72,
+            "name": "oct_Object11934",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-71/node-73",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 71,
+        "sourceNodeIndex": 73,
+        "name": "Object11910",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 72,
+            "sourceNodeIndex": 74,
+            "name": "oct_Object11937",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-73/node-75",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 73,
+        "sourceNodeIndex": 75,
+        "name": "Object11909",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 74,
+            "sourceNodeIndex": 76,
+            "name": "oct_Object11936",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-75/node-77",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 75,
+        "sourceNodeIndex": 77,
+        "name": "Object11911",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 76,
+            "sourceNodeIndex": 78,
+            "name": "oct_Object11938",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-77/node-79",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 77,
+        "sourceNodeIndex": 79,
+        "name": "Object11890",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 78,
+            "sourceNodeIndex": 80,
+            "name": "oct_Object11917",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-79/node-81",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 79,
+        "sourceNodeIndex": 81,
+        "name": "Object11912",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 80,
+            "sourceNodeIndex": 82,
+            "name": "oct_Object11939",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-81/node-83",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 81,
+        "sourceNodeIndex": 83,
+        "name": "Object11913",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 82,
+            "sourceNodeIndex": 84,
+            "name": "oct_Object11940",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-83/node-85",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 83,
+        "sourceNodeIndex": 85,
+        "name": "Object11922",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 84,
+            "sourceNodeIndex": 86,
+            "name": "oct_Object11923",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-85/node-87",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 85,
+        "sourceNodeIndex": 87,
+        "name": "Object11924",
+        "visualTriangles": 12,
+        "groupName": "blast2_box",
+        "groupNodeIndex": 40,
+        "profile": {
+          "name": "BLASTINFO_01",
+          "line": 177,
+          "fields": {
+            "name": {
+              "value": "blast2_box",
+              "line": 178
+            },
+            "sequence": {
+              "value": "",
+              "line": 179
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 180
+            },
+            "hp": {
+              "value": "150",
+              "line": 181
+            },
+            "rebirthtime": {
+              "value": "10000",
+              "line": 182
+            },
+            "material": {
+              "value": "4",
+              "line": 183
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 86,
+            "sourceNodeIndex": 88,
+            "name": "oct_Object11944",
+            "triangles": 12
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-31/node-32",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 31,
+        "sourceNodeIndex": 32,
+        "name": "Object11915_shadowsurface",
+        "visualTriangles": 20,
+        "groupName": "blast2_cross",
+        "groupNodeIndex": 31,
+        "profile": {
+          "name": "BLASTINFO_02",
+          "line": 185,
+          "fields": {
+            "name": {
+              "value": "blast2_cross",
+              "line": 186
+            },
+            "sequence": {
+              "value": "mapeffect_blast_glass.seq",
+              "line": 187
+            },
+            "sound": {
+              "value": "wall_destroy_steel.ogg",
+              "line": 188
+            },
+            "hp": {
+              "value": "200",
+              "line": 189
+            },
+            "rebirthtime": {
+              "value": "3000",
+              "line": 190
+            },
+            "material": {
+              "value": "3",
+              "line": 191
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 32,
+            "sourceNodeIndex": 33,
+            "name": "oct_Object11942",
+            "triangles": 20
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-33/node-34",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 33,
+        "sourceNodeIndex": 34,
+        "name": "Object11916_shadowsurface",
+        "visualTriangles": 20,
+        "groupName": "blast2_cross",
+        "groupNodeIndex": 31,
+        "profile": {
+          "name": "BLASTINFO_02",
+          "line": 185,
+          "fields": {
+            "name": {
+              "value": "blast2_cross",
+              "line": 186
+            },
+            "sequence": {
+              "value": "mapeffect_blast_glass.seq",
+              "line": 187
+            },
+            "sound": {
+              "value": "wall_destroy_steel.ogg",
+              "line": 188
+            },
+            "hp": {
+              "value": "200",
+              "line": 189
+            },
+            "rebirthtime": {
+              "value": "3000",
+              "line": 190
+            },
+            "material": {
+              "value": "3",
+              "line": 191
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 34,
+            "sourceNodeIndex": 35,
+            "name": "oct_Object11943",
+            "triangles": 20
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-35/node-36",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 35,
+        "sourceNodeIndex": 36,
+        "name": "Object11914_shadowsurface",
+        "visualTriangles": 20,
+        "groupName": "blast2_cross",
+        "groupNodeIndex": 31,
+        "profile": {
+          "name": "BLASTINFO_02",
+          "line": 185,
+          "fields": {
+            "name": {
+              "value": "blast2_cross",
+              "line": 186
+            },
+            "sequence": {
+              "value": "mapeffect_blast_glass.seq",
+              "line": 187
+            },
+            "sound": {
+              "value": "wall_destroy_steel.ogg",
+              "line": 188
+            },
+            "hp": {
+              "value": "200",
+              "line": 189
+            },
+            "rebirthtime": {
+              "value": "3000",
+              "line": 190
+            },
+            "material": {
+              "value": "3",
+              "line": 191
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 36,
+            "sourceNodeIndex": 37,
+            "name": "oct_Object11941",
+            "triangles": 20
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-37/node-38",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 37,
+        "sourceNodeIndex": 38,
+        "name": "Object11894_shadowsurface",
+        "visualTriangles": 20,
+        "groupName": "blast2_cross",
+        "groupNodeIndex": 31,
+        "profile": {
+          "name": "BLASTINFO_02",
+          "line": 185,
+          "fields": {
+            "name": {
+              "value": "blast2_cross",
+              "line": 186
+            },
+            "sequence": {
+              "value": "mapeffect_blast_glass.seq",
+              "line": 187
+            },
+            "sound": {
+              "value": "wall_destroy_steel.ogg",
+              "line": 188
+            },
+            "hp": {
+              "value": "200",
+              "line": 189
+            },
+            "rebirthtime": {
+              "value": "3000",
+              "line": 190
+            },
+            "material": {
+              "value": "3",
+              "line": 191
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 38,
+            "sourceNodeIndex": 39,
+            "name": "oct_Object11921",
+            "triangles": 20
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-87/node-90",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 87,
+        "sourceNodeIndex": 90,
+        "name": "Object11886_alphablend2_nolight",
+        "visualTriangles": 18,
+        "groupName": "blast2_win",
+        "groupNodeIndex": 89,
+        "profile": {
+          "name": "BLASTINFO_03",
+          "line": 193,
+          "fields": {
+            "name": {
+              "value": "blast2_win",
+              "line": 194
+            },
+            "sequence": {
+              "value": "",
+              "line": 195
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 196
+            },
+            "hp": {
+              "value": "100",
+              "line": 197
+            },
+            "rebirthtime": {
+              "value": "3000",
+              "line": 198
+            },
+            "material": {
+              "value": "6",
+              "line": 199
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 88,
+            "sourceNodeIndex": 91,
+            "name": "oct_Object11886",
+            "triangles": 18
+          }
+        ]
+      },
+      {
+        "instanceKey": "19/model/background/biolab.scn/model-89/node-92",
+        "source": "model/background/biolab.scn",
+        "sourceModelIndex": 89,
+        "sourceNodeIndex": 92,
+        "name": "Plane01_nolight_alphablend1",
+        "visualTriangles": 10,
+        "groupName": "blast2_win",
+        "groupNodeIndex": 89,
+        "profile": {
+          "name": "BLASTINFO_03",
+          "line": 193,
+          "fields": {
+            "name": {
+              "value": "blast2_win",
+              "line": 194
+            },
+            "sequence": {
+              "value": "",
+              "line": 195
+            },
+            "sound": {
+              "value": "wall_destroy_wooden.ogg",
+              "line": 196
+            },
+            "hp": {
+              "value": "100",
+              "line": 197
+            },
+            "rebirthtime": {
+              "value": "3000",
+              "line": 198
+            },
+            "material": {
+              "value": "6",
+              "line": 199
+            }
+          },
+          "orphanLines": []
+        },
+        "colliders": [
+          {
+            "sourceModelIndex": 90,
+            "sourceNodeIndex": 93,
+            "name": "oct_Plane01",
+            "triangles": 10
+          }
+        ]
+      }
+    ]
+  },
+  "poison": {
+    "sourceSceneIndex": 4,
+    "sourceNodeIndex": 0,
+    "source": "model/background/biolab_oct.scn",
+    "name": "dot_limited_area01_10_500_!dead_eff",
+    "sourceRecord": {
+      "name": "dot_limited_area01_10_500_!dead_eff",
+      "parent": "",
+      "type": "Box",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -2984.927490234375,
+        -876.2662353515625,
+        4451.3251953125,
+        1
+      ],
+      "baseUnknown": 0.10000000149011612,
+      "serializedScalars": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0,
+        294.517578125,
+        0
+      ],
+      "serializedVectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          6820.2109375,
+          294.517578125,
+          8000.6630859375
+        ]
+      ],
+      "sourceNodeIndex": 0,
+      "serializedByteRange": {
+        "start": 101,
+        "end": 278
+      },
+      "parentResolution": {
+        "serializedName": "",
+        "candidateIndices": [],
+        "status": "unresolved-name"
+      }
+    },
+    "worldRuntimeMatrix": [
+      0.006,
+      0,
+      0,
+      0,
+      0,
+      0.006,
+      0,
+      0,
+      0,
+      0,
+      0.006,
+      0,
+      -17.909564941406252,
+      -5.257597412109375,
+      26.707951171875,
+      1
+    ],
+    "staticSourceBox": {
+      "center": [
+        -17.909564941406252,
+        -5.257597412109375,
+        26.707951171875
+      ],
+      "axes": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "halfExtents": [
+        40.921265625000004,
+        1.76710546875,
+        48.003978515625
+      ],
+      "qualification": "Static Box convention follows previously recovered11C1990consumer used by compileAzitLimitedAreas; no live BioLabDOT native trial."
+    },
+    "bginfo": {
+      "name": "DOT_STATIC",
+      "line": 164,
+      "fields": {
+        "object_1_node": {
+          "value": "dot_limited_area01_10_500_!dead_eff",
+          "line": 165
+        },
+        "object_1_team": {
+          "value": "all",
+          "line": 166
+        },
+        "object_1_damage": {
+          "value": "10",
+          "line": 167
+        },
+        "object_1_timer": {
+          "value": "500",
+          "line": 168
+        },
+        "object_1_effect": {
+          "value": "dot_eff",
+          "line": 169
+        },
+        "object_1_hud": {
+          "value": "dot_eff_hud",
+          "line": 170
+        }
+      },
+      "orphanLines": []
+    },
+    "damage": 10,
+    "intervalMs": 500,
+    "team": "all",
+    "timerQualification": "BGINFO numeric interval is verified. First-tick phase,strict/equal boundary,leave/reenter resets,catch-up and per-actor/native state gating are not proven by this asset audit; host choices must remain explicit approximations."
+  },
+  "sequences": [
+    {
+      "order": 1,
+      "sequence": "bg_biolab_poison_eff_02.seq",
+      "sequenceLine": 134,
+      "dummy": "biolab_poison_Dummy_01",
+      "dummyLine": 135,
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 0,
+      "worldRuntimeMatrix": [
+        -0.005908846378326416,
+        0,
+        -0.001041889786720276,
+        0,
+        -1.242029412651391e-10,
+        0.006,
+        7.043893788249988e-10,
+        0,
+        0.001041889786720276,
+        7.152557373046875e-10,
+        -0.005908846378326416,
+        0,
+        -20.14427783203125,
+        2.7790338134765626,
+        55.288664062500004,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_poison_Dummy_01",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          -0.9848077297210693,
+          0,
+          -0.17364829778671265,
+          0,
+          -2.0700490210856515e-08,
+          1,
+          1.1739822980416648e-07,
+          0,
+          0.17364829778671265,
+          1.1920928955078125e-07,
+          -0.9848077297210693,
+          0,
+          -3357.379638671875,
+          463.17230224609375,
+          9214.77734375,
+          1
+        ],
+        "sourceNodeIndex": 0,
+        "serializedByteRange": {
+          "start": 107,
+          "end": 308
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      },
+      "qualification": "Anchor pose and BGINFO binding proven;SEQ particle/emitter space,resource bytes and native timing must be read separately."
+    },
+    {
+      "order": 2,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "sequenceLine": 136,
+      "dummy": "biolab_poison_Dummy_02",
+      "dummyLine": 137,
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 5,
+      "worldRuntimeMatrix": [
+        -0.004914913058280945,
+        0,
+        0.0034414572715759277,
+        0,
+        0.0034414572715759277,
+        -9.775241096576792e-10,
+        0.004914913058280945,
+        0,
+        5.606845547845296e-10,
+        0.006,
+        8.007410201571474e-10,
+        0,
+        -21.1083486328125,
+        -2.6005074462890625,
+        44.920810546875,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_poison_Dummy_02",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          -0.8191521763801575,
+          0,
+          0.5735762119293213,
+          0,
+          0.5735762119293213,
+          -1.6292068494294654e-07,
+          0.8191521763801575,
+          0,
+          9.34474257974216e-08,
+          1,
+          1.334568366928579e-07,
+          0,
+          -3518.05810546875,
+          -433.41790771484375,
+          7486.8017578125,
+          1
+        ],
+        "sourceNodeIndex": 5,
+        "serializedByteRange": {
+          "start": 1108,
+          "end": 1309
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      },
+      "qualification": "Anchor pose and BGINFO binding proven;SEQ particle/emitter space,resource bytes and native timing must be read separately."
+    },
+    {
+      "order": 3,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "sequenceLine": 138,
+      "dummy": "biolab_poison_Dummy_03",
+      "dummyLine": 139,
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 6,
+      "worldRuntimeMatrix": [
+        -0.003441460132598877,
+        0,
+        0.004914910912513733,
+        0,
+        0.004914910912513733,
+        -9.775241096576792e-10,
+        0.003441460132598877,
+        0,
+        8.007406790966343e-10,
+        0.006,
+        5.606850237427352e-10,
+        0,
+        -30.606820312500002,
+        -2.600507080078125,
+        16.317755859375,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_poison_Dummy_03",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          -0.5735766887664795,
+          0,
+          0.8191518187522888,
+          0,
+          0.8191518187522888,
+          -1.6292068494294654e-07,
+          0.5735766887664795,
+          0,
+          1.3345677984943904e-07,
+          1,
+          9.344750395712254e-08,
+          0,
+          -5101.13671875,
+          -433.4178466796875,
+          2719.6259765625,
+          1
+        ],
+        "sourceNodeIndex": 6,
+        "serializedByteRange": {
+          "start": 1309,
+          "end": 1510
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      },
+      "qualification": "Anchor pose and BGINFO binding proven;SEQ particle/emitter space,resource bytes and native timing must be read separately."
+    },
+    {
+      "order": 4,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "sequenceLine": 140,
+      "dummy": "biolab_poison_Dummy_04",
+      "dummyLine": 141,
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 7,
+      "worldRuntimeMatrix": [
+        -0.003856725811958313,
+        0,
+        -0.004596266627311707,
+        0,
+        -0.004596266627311707,
+        -9.775241096576792e-10,
+        0.003856725811958313,
+        0,
+        -7.488269204714016e-10,
+        0.006,
+        6.283404303530915e-10,
+        0,
+        -1.2526466674804688,
+        -2.600507080078125,
+        23.445663574218752,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_poison_Dummy_04",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          -0.6427876353263855,
+          0,
+          -0.7660444378852844,
+          0,
+          -0.7660444378852844,
+          -1.6292068494294654e-07,
+          0.6427876353263855,
+          0,
+          -1.248044867452336e-07,
+          1,
+          1.0472340505884858e-07,
+          0,
+          -208.77444458007812,
+          -433.4178466796875,
+          3907.610595703125,
+          1
+        ],
+        "sourceNodeIndex": 7,
+        "serializedByteRange": {
+          "start": 1510,
+          "end": 1711
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      },
+      "qualification": "Anchor pose and BGINFO binding proven;SEQ particle/emitter space,resource bytes and native timing must be read separately."
+    },
+    {
+      "order": 5,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "sequenceLine": 142,
+      "dummy": "biolab_poison_Dummy_05",
+      "dummyLine": 143,
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 9,
+      "worldRuntimeMatrix": [
+        -0.005437847256660461,
+        0,
+        0.0025357081890106203,
+        0,
+        0.0025357081890106203,
+        -9.775241096576792e-10,
+        0.005437847256660461,
+        0,
+        4.131193094281116e-10,
+        0.006,
+        8.859377658154699e-10,
+        0,
+        -27.2370205078125,
+        -2.600507080078125,
+        -7.43602294921875,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_poison_Dummy_05",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          -0.9063078761100769,
+          0,
+          0.42261803150177,
+          0,
+          0.42261803150177,
+          -1.6292068494294654e-07,
+          0.9063078761100769,
+          0,
+          6.88532182380186e-08,
+          1,
+          1.4765629430257832e-07,
+          0,
+          -4539.50341796875,
+          -433.4178466796875,
+          -1239.337158203125,
+          1
+        ],
+        "sourceNodeIndex": 9,
+        "serializedByteRange": {
+          "start": 1912,
+          "end": 2113
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      },
+      "qualification": "Anchor pose and BGINFO binding proven;SEQ particle/emitter space,resource bytes and native timing must be read separately."
+    },
+    {
+      "order": 6,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "sequenceLine": 144,
+      "dummy": "biolab_poison_Dummy_06",
+      "dummyLine": 145,
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 8,
+      "worldRuntimeMatrix": [
+        -0.005437847256660461,
+        0,
+        0.0025357081890106203,
+        0,
+        0.0025357081890106203,
+        -9.775241096576792e-10,
+        0.005437847256660461,
+        0,
+        4.131193094281116e-10,
+        0.006,
+        8.859377658154699e-10,
+        0,
+        -6.113615112304688,
+        -2.600507080078125,
+        -10.349646240234375,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_poison_Dummy_06",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          -0.9063078761100769,
+          0,
+          0.42261803150177,
+          0,
+          0.42261803150177,
+          -1.6292068494294654e-07,
+          0.9063078761100769,
+          0,
+          6.88532182380186e-08,
+          1,
+          1.4765629430257832e-07,
+          0,
+          -1018.9358520507812,
+          -433.4178466796875,
+          -1724.9410400390625,
+          1
+        ],
+        "sourceNodeIndex": 8,
+        "serializedByteRange": {
+          "start": 1711,
+          "end": 1912
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      },
+      "qualification": "Anchor pose and BGINFO binding proven;SEQ particle/emitter space,resource bytes and native timing must be read separately."
+    },
+    {
+      "order": 7,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "sequenceLine": 146,
+      "dummy": "biolab_poison_Dummy_08",
+      "dummyLine": 147,
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 11,
+      "worldRuntimeMatrix": [
+        -0.006,
+        0,
+        -9.059748151685199e-10,
+        0,
+        -9.059748151685199e-10,
+        -9.775241096576792e-10,
+        0.006,
+        0,
+        -1.4760203354154644e-16,
+        0.006,
+        9.775241096576792e-10,
+        0,
+        -19.42352490234375,
+        3.17077001953125,
+        54.468181640625,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_poison_Dummy_08",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          -1,
+          0,
+          -1.5099580252808664e-07,
+          0,
+          -1.5099580252808664e-07,
+          -1.6292068494294654e-07,
+          1,
+          0,
+          -2.460033892359107e-14,
+          1,
+          1.6292068494294654e-07,
+          0,
+          -3237.254150390625,
+          528.461669921875,
+          9078.0302734375,
+          1
+        ],
+        "sourceNodeIndex": 11,
+        "serializedByteRange": {
+          "start": 2314,
+          "end": 2515
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      },
+      "qualification": "Anchor pose and BGINFO binding proven;SEQ particle/emitter space,resource bytes and native timing must be read separately."
+    },
+    {
+      "order": 8,
+      "sequence": "bg_biolab_poison_eff_02.seq",
+      "sequenceLine": 148,
+      "dummy": "biolab_poison_Dummy_07",
+      "dummyLine": 149,
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 10,
+      "worldRuntimeMatrix": [
+        -0.005437847256660461,
+        0,
+        0.0025357081890106203,
+        0,
+        3.022799717200542e-10,
+        0.006,
+        6.482419081521584e-10,
+        0,
+        -0.0025357081890106203,
+        7.152557373046875e-10,
+        -0.005437847256660461,
+        0,
+        -18.54814013671875,
+        2.8244132080078126,
+        55.279828125,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_poison_Dummy_07",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          -0.9063078761100769,
+          0,
+          0.42261803150177,
+          0,
+          5.0379995286675694e-08,
+          1,
+          1.0804031802535974e-07,
+          0,
+          -0.42261803150177,
+          1.1920928955078125e-07,
+          -0.9063078761100769,
+          0,
+          -3091.356689453125,
+          470.73553466796875,
+          9213.3046875,
+          1
+        ],
+        "sourceNodeIndex": 10,
+        "serializedByteRange": {
+          "start": 2113,
+          "end": 2314
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      },
+      "qualification": "Anchor pose and BGINFO binding proven;SEQ particle/emitter space,resource bytes and native timing must be read separately."
+    }
+  ],
+  "sirens": [
+    {
+      "id": "s03_n001",
+      "sceneIndex": 3,
+      "nodeIndex": 1,
+      "parentIndex": -1,
+      "name": "biolab_siren_Dummy_03",
+      "type": "Bone",
+      "worldRuntimeMatrix": [
+        4.5298740758425996e-10,
+        0,
+        0.006,
+        0,
+        0,
+        0.006,
+        0,
+        0,
+        -0.006,
+        0,
+        4.5298740758425996e-10,
+        0,
+        -51.9750234375,
+        18.88543212890625,
+        47.3385263671875,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_siren_Dummy_03",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          7.549790126404332e-08,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          7.549790126404332e-08,
+          0,
+          -8662.50390625,
+          3147.572021484375,
+          7889.75439453125,
+          1
+        ],
+        "sourceNodeIndex": 1,
+        "serializedByteRange": {
+          "start": 308,
+          "end": 508
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      }
+    },
+    {
+      "id": "s03_n002",
+      "sceneIndex": 3,
+      "nodeIndex": 2,
+      "parentIndex": -1,
+      "name": "biolab_siren_Dummy_02",
+      "type": "Bone",
+      "worldRuntimeMatrix": [
+        4.5298740758425996e-10,
+        0,
+        0.006,
+        0,
+        0,
+        0.006,
+        0,
+        0,
+        -0.006,
+        0,
+        4.5298740758425996e-10,
+        0,
+        -31.525763671875,
+        18.88627001953125,
+        47.3109111328125,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_siren_Dummy_02",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          7.549790126404332e-08,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          7.549790126404332e-08,
+          0,
+          -5254.2939453125,
+          3147.711669921875,
+          7885.15185546875,
+          1
+        ],
+        "sourceNodeIndex": 2,
+        "serializedByteRange": {
+          "start": 508,
+          "end": 708
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      }
+    },
+    {
+      "id": "s03_n003",
+      "sceneIndex": 3,
+      "nodeIndex": 3,
+      "parentIndex": -1,
+      "name": "biolab_siren_Dummy_01",
+      "type": "Bone",
+      "worldRuntimeMatrix": [
+        0.0005229348242282867,
+        0,
+        0.005977168321609497,
+        0,
+        0,
+        0.006,
+        0,
+        0,
+        -0.005977168321609497,
+        0,
+        0.0005229348242282867,
+        0,
+        -18.16256103515625,
+        18.90685693359375,
+        59.322263671875,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_siren_Dummy_01",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          0.08715580403804779,
+          0,
+          0.9961947202682495,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -0.9961947202682495,
+          0,
+          0.08715580403804779,
+          0,
+          -3027.093505859375,
+          3151.142822265625,
+          9887.0439453125,
+          1
+        ],
+        "sourceNodeIndex": 3,
+        "serializedByteRange": {
+          "start": 708,
+          "end": 908
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      }
+    },
+    {
+      "id": "s03_n004",
+      "sceneIndex": 3,
+      "nodeIndex": 4,
+      "parentIndex": -1,
+      "name": "biolab_siren_Dummy_04",
+      "type": "Bone",
+      "worldRuntimeMatrix": [
+        4.5298740758425996e-10,
+        0,
+        0.006,
+        0,
+        0,
+        0.006,
+        0,
+        0,
+        -0.006,
+        0,
+        4.5298740758425996e-10,
+        0,
+        -61.741857421875004,
+        16.5468046875,
+        15.5748134765625,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_siren_Dummy_04",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          7.549790126404332e-08,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          7.549790126404332e-08,
+          0,
+          -10290.3095703125,
+          2757.80078125,
+          2595.80224609375,
+          1
+        ],
+        "sourceNodeIndex": 4,
+        "serializedByteRange": {
+          "start": 908,
+          "end": 1108
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      }
+    },
+    {
+      "id": "s03_n012",
+      "sceneIndex": 3,
+      "nodeIndex": 12,
+      "parentIndex": -1,
+      "name": "biolab_siren_Dummy_05",
+      "type": "Bone",
+      "worldRuntimeMatrix": [
+        0.006,
+        0,
+        -7.152557373046875e-10,
+        0,
+        0,
+        0.006,
+        0,
+        0,
+        7.152557373046875e-10,
+        0,
+        0.006,
+        0,
+        -68.792384765625,
+        14.828696777343751,
+        7.4354707031250005,
+        1
+      ],
+      "sourceRecord": {
+        "name": "biolab_siren_Dummy_05",
+        "parent": "biolab_eff_dummy.scn",
+        "type": "Bone",
+        "matrix": [
+          1,
+          0,
+          -1.1920928955078125e-07,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1.1920928955078125e-07,
+          0,
+          1,
+          0,
+          -11465.3974609375,
+          2471.449462890625,
+          1239.2451171875,
+          1
+        ],
+        "sourceNodeIndex": 12,
+        "serializedByteRange": {
+          "start": 2515,
+          "end": 2715
+        },
+        "parentResolution": {
+          "serializedName": "biolab_eff_dummy.scn",
+          "candidateIndices": [],
+          "status": "root"
+        }
+      }
+    }
+  ],
+  "spawnsByVariant": [
+    {
+      "nativeId": 19,
+      "modes": "Deathmatch, Snowball Fight, Duel",
+      "spawns": [
+        {
+          "source": "model/background/biolab_spawn.scn",
+          "sourceNodeIndex": 0,
+          "name": "beta_spawn_pos_01",
+          "rawLocalMatrix": [
+            -0.04457758367061615,
+            0,
+            0.809918224811554,
+            0,
+            0,
+            0.8111441135406494,
+            0,
+            0,
+            -0.809918224811554,
+            0,
+            -0.04457758367061615,
+            0,
+            -417.9278869628906,
+            630.4476928710938,
+            -5310.70263671875,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -2.5075673217773438,
+            "y": 3.7826861572265624,
+            "z": -31.864215820312502
+          },
+          "rawWorldDirection": [
+            0.9984887533509625,
+            0,
+            0.05495643212254925
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -2.5075673217773438,
+              "y": 2.274101806640625,
+              "z": -31.864215820312502
+            },
+            "gap": 1.5085843505859375,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 897,
+              "sourceVertexIndices": [
+                592,
+                1402,
+                589
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.1563176856731019,
+              0.3523498725921161,
+              0.491332441734782
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.2626666889704565,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 818,
+              "sourceVertexIndices": [
+                528,
+                5340,
+                5341
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.2626666889704565,
+            "minimumCapsuleSurfaceGap": 0.8148038663876803,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -2.5075673217773438,
+            "y": 2.274101806640625,
+            "z": -31.864215820312502
+          },
+          "settledFloor": {
+            "point": {
+              "x": -2.5075673217773438,
+              "y": 2.274101806640625,
+              "z": -31.864215820312502
+            },
+            "gap": 0.04999999999999982,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 897,
+              "sourceVertexIndices": [
+                592,
+                1402,
+                589
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.1563176856731019,
+              0.3523498725921161,
+              0.491332441734782
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 897,
+              "sourceVertexIndices": [
+                592,
+                1402,
+                589
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1,
+            "minimumCapsuleSurfaceGap": 1.1102230246251565e-16,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn.scn",
+          "sourceNodeIndex": 1,
+          "name": "alpha_spawn_pos_01",
+          "rawLocalMatrix": [
+            -0.5598653554916382,
+            0,
+            0.5869459509849548,
+            0,
+            0,
+            0.8111441135406494,
+            0,
+            0,
+            -0.5869459509849548,
+            0,
+            -0.5598653554916382,
+            0,
+            1107.0621337890625,
+            1501.868408203125,
+            9789.978515625,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": 6.642372802734375,
+            "y": 9.01121044921875,
+            "z": 58.739871093750004
+          },
+          "rawWorldDirection": [
+            0.7236025564773176,
+            0,
+            0.6902168791470478
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": 6.642372802734375,
+              "y": 5.652313056574799,
+              "z": 58.739871093750004
+            },
+            "gap": 3.35889739264395,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2196,
+              "sourceVertexIndices": [
+                7775,
+                1530,
+                7776
+              ]
+            },
+            "normalY": 0.9999999999955141,
+            "barycentric": [
+              0.32991346325242626,
+              0.3449068585875193,
+              0.3251796781600544
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 4.31812220825095,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab.scn",
+              "sourceModelIndex": 42,
+              "sourceNodeIndex": 44,
+              "triangleIndex": 1,
+              "sourceVertexIndices": [
+                0,
+                3,
+                2
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 4.31812220825095,
+            "minimumCapsuleSurfaceGap": 2.1744882384760125,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": 6.642372802734375,
+            "y": 5.6523130565764825,
+            "z": 58.73987109375
+          },
+          "settledFloor": {
+            "point": {
+              "x": 6.642372802734375,
+              "y": 5.652313056574799,
+              "z": 58.73987109375
+            },
+            "gap": 0.05000000000168292,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2196,
+              "sourceVertexIndices": [
+                7775,
+                1530,
+                7776
+              ]
+            },
+            "normalY": 0.9999999999955141,
+            "barycentric": [
+              0.32991346325242626,
+              0.3449068585875188,
+              0.3251796781600549
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999999,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2196,
+              "sourceVertexIndices": [
+                7775,
+                1530,
+                7776
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999999,
+            "minimumCapsuleSurfaceGap": -1.0090817070818048e-12,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn.scn",
+          "sourceNodeIndex": 2,
+          "name": "alpha_spawn_pos_04",
+          "rawLocalMatrix": [
+            0.012581370770931244,
+            0,
+            -0.8110465407371521,
+            0,
+            0,
+            0.8111441135406494,
+            0,
+            0,
+            0.8110465407371521,
+            0,
+            0.012581370770931244,
+            0,
+            -10211.2587890625,
+            2037.7889404296875,
+            8202.189453125,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -61.267552734375,
+            "y": 12.226733642578125,
+            "z": 49.21313671875
+          },
+          "rawWorldDirection": [
+            -0.9998797026662521,
+            0,
+            -0.015510647828099853
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -61.267552734375,
+              "y": 9.293853753180374,
+              "z": 49.21313671875
+            },
+            "gap": 2.9328798893977517,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2135,
+              "sourceVertexIndices": [
+                7660,
+                1526,
+                7659
+              ]
+            },
+            "normalY": 0.9999999148239755,
+            "barycentric": [
+              0.5730840979382144,
+              0.3609370507309507,
+              0.06597885133083492
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.994545898437508,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2379,
+              "sourceVertexIndices": [
+                12989,
+                8078,
+                1721
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.994545898437508,
+            "minimumCapsuleSurfaceGap": 1.1967275390625018,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -61.267552734375,
+            "y": 9.293853785121385,
+            "z": 49.21313671875
+          },
+          "settledFloor": {
+            "point": {
+              "x": -61.267552734375,
+              "y": 9.293853753180374,
+              "z": 49.21313671875
+            },
+            "gap": 0.050000031941012324,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2135,
+              "sourceVertexIndices": [
+                7660,
+                1526,
+                7659
+              ]
+            },
+            "normalY": 0.9999999148239755,
+            "barycentric": [
+              0.5730840979382144,
+              0.3609370507309507,
+              0.06597885133083492
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1.0000000000000004,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2135,
+              "sourceVertexIndices": [
+                7660,
+                1526,
+                7659
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1.0000000000000004,
+            "minimumCapsuleSurfaceGap": -1.9164605458144024e-08,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn.scn",
+          "sourceNodeIndex": 3,
+          "name": "alpha_spawn_pos_03",
+          "rawLocalMatrix": [
+            -0.01376784685999155,
+            0,
+            0.8110272288322449,
+            0,
+            0,
+            0.8111441135406494,
+            0,
+            0,
+            -0.8110272288322449,
+            0,
+            -0.01376784685999155,
+            0,
+            -2157.13916015625,
+            1505.568603515625,
+            10194.8046875,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -12.9428349609375,
+            "y": 9.03341162109375,
+            "z": 61.168828125000005
+          },
+          "rawWorldDirection": [
+            0.9998559420155547,
+            0,
+            0.016973367850477088
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -12.9428349609375,
+              "y": 5.652301127999891,
+              "z": 61.168828125000005
+            },
+            "gap": 3.3811104930938587,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2137,
+              "sourceVertexIndices": [
+                7662,
+                1574,
+                1575
+              ]
+            },
+            "normalY": 0.9999999999692983,
+            "barycentric": [
+              0.2474718516105831,
+              0.06504570603672552,
+              0.6874824423526913
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 3.344063524936511,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2201,
+              "sourceVertexIndices": [
+                7782,
+                1578,
+                7783
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 3.344063524936511,
+            "minimumCapsuleSurfaceGap": 1.475107369776973,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -12.9428349609375,
+            "y": 5.6523011280114055,
+            "z": 61.168828125000005
+          },
+          "settledFloor": {
+            "point": {
+              "x": -12.9428349609375,
+              "y": 5.652301127999891,
+              "z": 61.168828125000005
+            },
+            "gap": 0.05000000001151417,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2137,
+              "sourceVertexIndices": [
+                7662,
+                1574,
+                1575
+              ]
+            },
+            "normalY": 0.9999999999692983,
+            "barycentric": [
+              0.2474718516105831,
+              0.06504570603672552,
+              0.6874824423526913
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999998,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2137,
+              "sourceVertexIndices": [
+                7662,
+                1574,
+                1575
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999998,
+            "minimumCapsuleSurfaceGap": -6.9074745923103364e-12,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn.scn",
+          "sourceNodeIndex": 4,
+          "name": "beta_spawn_pos_13",
+          "rawLocalMatrix": [
+            0.5580365061759949,
+            0,
+            0.5886850357055664,
+            0,
+            0,
+            0.8111441135406494,
+            0,
+            0,
+            -0.5886850357055664,
+            0,
+            0.5580365061759949,
+            0,
+            706.1871948242188,
+            1172.6483154296875,
+            -5320.646484375,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": 4.237123168945312,
+            "y": 7.035889892578125,
+            "z": -31.92387890625
+          },
+          "rawWorldDirection": [
+            0.725746519927666,
+            0,
+            -0.6879622001337588
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": 4.237123168945312,
+              "y": 5.303752825445985,
+              "z": -31.92387890625
+            },
+            "gap": 1.7321370671321406,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 823,
+              "sourceVertexIndices": [
+                5349,
+                5350,
+                5351
+              ]
+            },
+            "normalY": 0.9999993224563575,
+            "barycentric": [
+              0.19943509419665012,
+              0.3614538978528227,
+              0.4391110079505272
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.8043087027249314,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 823,
+              "sourceVertexIndices": [
+                5349,
+                5350,
+                5351
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.8043087027249314,
+            "minimumCapsuleSurfaceGap": 1.732135487007497,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": 4.237123168945312,
+            "y": 5.303753079525075,
+            "z": -31.923878906249996
+          },
+          "settledFloor": {
+            "point": {
+              "x": 4.237123168945312,
+              "y": 5.303752825445985,
+              "z": -31.923878906249996
+            },
+            "gap": 0.050000254079090034,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 823,
+              "sourceVertexIndices": [
+                5349,
+                5350,
+                5351
+              ]
+            },
+            "normalY": 0.9999993224563575,
+            "barycentric": [
+              0.19943509419665087,
+              0.36145389785282206,
+              0.4391110079505271
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999999,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 823,
+              "sourceVertexIndices": [
+                5349,
+                5350,
+                5351
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999999,
+            "minimumCapsuleSurfaceGap": -1.5244726747631887e-07,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn.scn",
+          "sourceNodeIndex": 5,
+          "name": "beta_spawn_pos_14",
+          "rawLocalMatrix": [
+            0.23511908948421478,
+            0,
+            0.7763206958770752,
+            0,
+            0,
+            0.8111441135406494,
+            0,
+            0,
+            -0.7763206958770752,
+            0,
+            0.23511908948421478,
+            0,
+            -6914.37841796875,
+            1701.401123046875,
+            -4819.5927734375,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -41.4862705078125,
+            "y": 10.20840673828125,
+            "z": -28.917556640625
+          },
+          "rawWorldDirection": [
+            0.9570687398058182,
+            0,
+            -0.2898610482395022
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -41.4862705078125,
+              "y": 8.148705847363615,
+              "z": -28.917556640625
+            },
+            "gap": 2.059700890917634,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 910,
+              "sourceVertexIndices": [
+                12788,
+                12789,
+                608
+              ]
+            },
+            "normalY": 0.9999942159732412,
+            "barycentric": [
+              0.5192031018134882,
+              0.010470015866538897,
+              0.47032688231997294
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 3.1455146543888506,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 910,
+              "sourceVertexIndices": [
+                12788,
+                12789,
+                608
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 3.1455146543888506,
+            "minimumCapsuleSurfaceGap": 2.059685507136509,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -41.4862705078125,
+            "y": 8.148708016390021,
+            "z": -28.917556640625
+          },
+          "settledFloor": {
+            "point": {
+              "x": -41.4862705078125,
+              "y": 8.148705847363615,
+              "z": -28.917556640625
+            },
+            "gap": 0.05000216902640631,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 910,
+              "sourceVertexIndices": [
+                12788,
+                12789,
+                608
+              ]
+            },
+            "normalY": 0.9999942159732412,
+            "barycentric": [
+              0.5192031018134882,
+              0.010470015866538897,
+              0.47032688231997294
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1.0000000000000036,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 910,
+              "sourceVertexIndices": [
+                12788,
+                12789,
+                608
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1.0000000000000036,
+            "minimumCapsuleSurfaceGap": -1.3014021967849843e-06,
+            "passed": false,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        }
+      ]
+    },
+    {
+      "nativeId": 155,
+      "modes": "Battle Royal, Gungame",
+      "spawns": [
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 0,
+          "name": "alpha_spawn_pos_02",
+          "rawLocalMatrix": [
+            -0.007865794003009796,
+            0,
+            -0.8111017942428589,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            0.8111017942428589,
+            0,
+            -0.007865794003009796,
+            0,
+            -3227.378662109375,
+            544.155517578125,
+            -6071.96240234375,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -19.36427197265625,
+            "y": 3.2649331054687503,
+            "z": -36.4317744140625
+          },
+          "rawWorldDirection": [
+            -0.9999529809569317,
+            0,
+            0.009697209668047841
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -19.36427197265625,
+              "y": 2.274101806640625,
+              "z": -36.4317744140625
+            },
+            "gap": 0.9908312988281254,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 896,
+              "sourceVertexIndices": [
+                591,
+                590,
+                589
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.721062680236978,
+              0.20657843230359763,
+              0.07235888745942443
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.0321159362792973,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 896,
+              "sourceVertexIndices": [
+                591,
+                590,
+                589
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.0321159362792973,
+            "minimumCapsuleSurfaceGap": 0.9908312988281255,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -19.36427197265625,
+            "y": 2.274101806640625,
+            "z": -36.4317744140625
+          },
+          "settledFloor": {
+            "point": {
+              "x": -19.36427197265625,
+              "y": 2.274101806640625,
+              "z": -36.4317744140625
+            },
+            "gap": 0.04999999999999982,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 896,
+              "sourceVertexIndices": [
+                591,
+                590,
+                589
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.721062680236978,
+              0.20657843230359763,
+              0.07235888745942443
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 896,
+              "sourceVertexIndices": [
+                591,
+                590,
+                589
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1,
+            "minimumCapsuleSurfaceGap": 1.1102230246251565e-16,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 1,
+          "name": "alpha_spawn_pos_01",
+          "rawLocalMatrix": [
+            -0.5735623240470886,
+            0,
+            0.5735620856285095,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            -0.5735620856285095,
+            0,
+            -0.5735623240470886,
+            0,
+            1838.466064453125,
+            1150.1917724609375,
+            10704.013671875,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": 11.03079638671875,
+            "y": 6.901150634765625,
+            "z": 64.22408203125
+          },
+          "rawWorldDirection": [
+            0.7071066342213099,
+            0,
+            0.7071069281517548
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": 11.03079638671875,
+              "y": 5.652326200240476,
+              "z": 64.22408203125
+            },
+            "gap": 1.2488244345251491,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2196,
+              "sourceVertexIndices": [
+                7775,
+                1530,
+                7776
+              ]
+            },
+            "normalY": 0.9999999999955141,
+            "barycentric": [
+              0.09378866233564143,
+              0.8274722094621934,
+              0.07873912820216522
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.300858785959665,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2196,
+              "sourceVertexIndices": [
+                7775,
+                1530,
+                7776
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.300858785959665,
+            "minimumCapsuleSurfaceGap": 1.0895041973837452,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": 11.03079638671875,
+            "y": 5.652326200242158,
+            "z": 64.22408203125
+          },
+          "settledFloor": {
+            "point": {
+              "x": 11.03079638671875,
+              "y": 5.652326200240476,
+              "z": 64.22408203125
+            },
+            "gap": 0.05000000000168203,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2196,
+              "sourceVertexIndices": [
+                7775,
+                1530,
+                7776
+              ]
+            },
+            "normalY": 0.9999999999955141,
+            "barycentric": [
+              0.09378866233564143,
+              0.8274722094621934,
+              0.07873912820216522
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999999,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2196,
+              "sourceVertexIndices": [
+                7775,
+                1530,
+                7776
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999999,
+            "minimumCapsuleSurfaceGap": -1.009969885501505e-12,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 2,
+          "name": "alpha_spawn_pos_04",
+          "rawLocalMatrix": [
+            -0.010400792583823204,
+            0,
+            -0.8110731840133667,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            0.8110731840133667,
+            0,
+            -0.010400792583823204,
+            0,
+            -10196.982421875,
+            1826.2415771484375,
+            8205.576171875,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -61.18189453125,
+            "y": 10.957449462890626,
+            "z": 49.23345703125
+          },
+          "rawWorldDirection": [
+            -0.9999177891323564,
+            0,
+            0.012822440355110192
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -61.18189453125,
+              "y": 9.293862140131086,
+              "z": 49.23345703125
+            },
+            "gap": 1.6635873227595397,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2135,
+              "sourceVertexIndices": [
+                7660,
+                1526,
+                7659
+              ]
+            },
+            "normalY": 0.9999999148239755,
+            "barycentric": [
+              0.5693173270915874,
+              0.3617053282850758,
+              0.06897734462333677
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.7329033702789993,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2135,
+              "sourceVertexIndices": [
+                7660,
+                1526,
+                7659
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.7329033702789993,
+            "minimumCapsuleSurfaceGap": 1.2823857421875018,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -61.18189453125,
+            "y": 9.2938621720721,
+            "z": 49.233457031250005
+          },
+          "settledFloor": {
+            "point": {
+              "x": -61.18189453125,
+              "y": 9.293862140131086,
+              "z": 49.233457031250005
+            },
+            "gap": 0.0500000319410141,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2135,
+              "sourceVertexIndices": [
+                7660,
+                1526,
+                7659
+              ]
+            },
+            "normalY": 0.9999999148239755,
+            "barycentric": [
+              0.5693173270915862,
+              0.36170532828507707,
+              0.06897734462333671
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1.0000000000000004,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2135,
+              "sourceVertexIndices": [
+                7660,
+                1526,
+                7659
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1.0000000000000004,
+            "minimumCapsuleSurfaceGap": -1.9164603570764882e-08,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 3,
+          "name": "alpha_spawn_pos_03",
+          "rawLocalMatrix": [
+            -0.81092369556427,
+            0,
+            -0.01869064010679722,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            0.01869064010679722,
+            0,
+            -0.81092369556427,
+            0,
+            -9985.166015625,
+            199.7325897216797,
+            7183.310546875,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -59.91099609375,
+            "y": 1.1983955383300782,
+            "z": 43.09986328125
+          },
+          "rawWorldDirection": [
+            -0.023042460845285818,
+            0,
+            0.9997344872505867
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -59.91099609375,
+              "y": -0.10092224121093762,
+              "z": 43.09986328125
+            },
+            "gap": 1.2993177795410158,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 28,
+              "sourceVertexIndices": [
+                58,
+                24,
+                22
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.023694879323894563,
+              0.2052913685062957,
+              0.7710137521698097
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.3534560203552246,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 28,
+              "sourceVertexIndices": [
+                58,
+                24,
+                22
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.3534560203552246,
+            "minimumCapsuleSurfaceGap": 1.2993177795410156,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -59.91099609375,
+            "y": -0.10092224121093762,
+            "z": 43.09986328125
+          },
+          "settledFloor": {
+            "point": {
+              "x": -59.91099609375,
+              "y": -0.10092224121093762,
+              "z": 43.09986328125
+            },
+            "gap": 0.05,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 28,
+              "sourceVertexIndices": [
+                58,
+                24,
+                22
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.023694879323894563,
+              0.2052913685062957,
+              0.7710137521698097
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 28,
+              "sourceVertexIndices": [
+                58,
+                24,
+                22
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1,
+            "minimumCapsuleSurfaceGap": 0,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 4,
+          "name": "alpha_spawn_pos_05",
+          "rawLocalMatrix": [
+            6.123932649870767e-08,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            -0.8111394643783569,
+            0,
+            6.123932649870767e-08,
+            0,
+            1558.7298583984375,
+            341.91552734375,
+            6864.365234375,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": 9.352379150390625,
+            "y": 2.0514931640625003,
+            "z": 41.18619140625
+          },
+          "rawWorldDirection": [
+            0.9999999999999971,
+            0,
+            -7.549790040808856e-08
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": 9.352379150390625,
+              "y": -0.10092224121093762,
+              "z": 41.18619140625
+            },
+            "gap": 2.152415405273438,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 15,
+              "sourceVertexIndices": [
+                53,
+                227,
+                14
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.39234784966757197,
+              0.14269619276266393,
+              0.4649559575697641
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 3.2420993804931646,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 15,
+              "sourceVertexIndices": [
+                53,
+                227,
+                14
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 3.2420993804931646,
+            "minimumCapsuleSurfaceGap": 2.152415405273438,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": 9.352379150390625,
+            "y": -0.10092224121093774,
+            "z": 41.18619140625
+          },
+          "settledFloor": {
+            "point": {
+              "x": 9.352379150390625,
+              "y": -0.10092224121093762,
+              "z": 41.18619140625
+            },
+            "gap": 0.04999999999999989,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 15,
+              "sourceVertexIndices": [
+                53,
+                227,
+                14
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.39234784966757197,
+              0.14269619276266393,
+              0.4649559575697641
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999999,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 15,
+              "sourceVertexIndices": [
+                53,
+                227,
+                14
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999999,
+            "minimumCapsuleSurfaceGap": -1.1102230246251565e-16,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 5,
+          "name": "alpha_spawn_pos_06",
+          "rawLocalMatrix": [
+            0.7523744702339172,
+            0,
+            -0.303117573261261,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            0.303117573261261,
+            0,
+            0.7523744702339172,
+            0,
+            -5450.9384765625,
+            209.487548828125,
+            -5622.74365234375,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -32.705630859375,
+            "y": 1.25692529296875,
+            "z": -33.7364619140625
+          },
+          "rawWorldDirection": [
+            -0.3736934275290065,
+            0,
+            -0.9275522746571339
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -32.705630859375,
+              "y": -0.10092224121093762,
+              "z": -33.7364619140625
+            },
+            "gap": 1.3578475341796876,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 3,
+              "sourceVertexIndices": [
+                3,
+                1,
+                205
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.8094956868193335,
+              0.10767013521964329,
+              0.08283417796102323
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.414424514770508,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 3,
+              "sourceVertexIndices": [
+                3,
+                1,
+                205
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.414424514770508,
+            "minimumCapsuleSurfaceGap": 1.3578475341796876,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -32.705630859375,
+            "y": -0.10092224121093762,
+            "z": -33.7364619140625
+          },
+          "settledFloor": {
+            "point": {
+              "x": -32.705630859375,
+              "y": -0.10092224121093762,
+              "z": -33.7364619140625
+            },
+            "gap": 0.05,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 3,
+              "sourceVertexIndices": [
+                3,
+                1,
+                205
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.8094956868193335,
+              0.10767013521964329,
+              0.08283417796102323
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 3,
+              "sourceVertexIndices": [
+                3,
+                1,
+                205
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1,
+            "minimumCapsuleSurfaceGap": 0,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 6,
+          "name": "alpha_spawn_pos_07",
+          "rawLocalMatrix": [
+            -0.573562502861023,
+            0,
+            -0.5735622048377991,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            0.5735622048377991,
+            0,
+            -0.573562502861023,
+            0,
+            -7623.6923828125,
+            1813.3509521484375,
+            6941.806640625,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -45.742154296875,
+            "y": 10.880105712890625,
+            "z": 41.65083984375
+          },
+          "rawWorldDirection": [
+            -0.7071065974800432,
+            0,
+            0.707106964893004
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -45.742154296875,
+              "y": 9.189511596679688,
+              "z": 41.65083984375
+            },
+            "gap": 1.6905941162109368,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 3425,
+              "sourceVertexIndices": [
+                9496,
+                2435,
+                9497
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.32749294949323493,
+              0.5654814304791693,
+              0.10702562002759575
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.761035537719726,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 3425,
+              "sourceVertexIndices": [
+                9496,
+                2435,
+                9497
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.761035537719726,
+            "minimumCapsuleSurfaceGap": 1.1923066406250071,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -45.742154296875,
+            "y": 9.189511596679687,
+            "z": 41.65083984375
+          },
+          "settledFloor": {
+            "point": {
+              "x": -45.742154296875,
+              "y": 9.189511596679688,
+              "z": 41.65083984375
+            },
+            "gap": 0.049999999999998934,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 3425,
+              "sourceVertexIndices": [
+                9496,
+                2435,
+                9497
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.32749294949323493,
+              0.5654814304791693,
+              0.10702562002759575
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 3425,
+              "sourceVertexIndices": [
+                9496,
+                2435,
+                9497
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1,
+            "minimumCapsuleSurfaceGap": -2.1094237467877974e-15,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 7,
+          "name": "alpha_spawn_pos_08",
+          "rawLocalMatrix": [
+            0.5735623836517334,
+            0,
+            0.5735623836517334,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            -0.5735623836517334,
+            0,
+            0.5735623836517334,
+            0,
+            1716.273681640625,
+            170.5394744873047,
+            3400.376220703125,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": 10.29764208984375,
+            "y": 1.0232368469238282,
+            "z": 20.402257324218752
+          },
+          "rawWorldDirection": [
+            0.7071067811865475,
+            0,
+            -0.7071067811865475
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": 10.29764208984375,
+              "y": -0.10092224121093762,
+              "z": 20.402257324218752
+            },
+            "gap": 1.1241590881347658,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 49,
+              "sourceVertexIndices": [
+                200,
+                196,
+                17
+              ]
+            },
+            "normalY": 0.9999999999999999,
+            "barycentric": [
+              0.5375951880586092,
+              0.05266220869336015,
+              0.4097426032480307
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.170999050140381,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 49,
+              "sourceVertexIndices": [
+                200,
+                196,
+                17
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.170999050140381,
+            "minimumCapsuleSurfaceGap": 1.1241590881347658,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": 10.29764208984375,
+            "y": -0.10092224121093762,
+            "z": 20.402257324218755
+          },
+          "settledFloor": {
+            "point": {
+              "x": 10.29764208984375,
+              "y": -0.10092224121093762,
+              "z": 20.402257324218755
+            },
+            "gap": 0.05,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 49,
+              "sourceVertexIndices": [
+                200,
+                196,
+                17
+              ]
+            },
+            "normalY": 0.9999999999999999,
+            "barycentric": [
+              0.5375951880586086,
+              0.05266220869336086,
+              0.4097426032480305
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 49,
+              "sourceVertexIndices": [
+                200,
+                196,
+                17
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1,
+            "minimumCapsuleSurfaceGap": 0,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 8,
+          "name": "alpha_spawn_pos_09",
+          "rawLocalMatrix": [
+            6.123934781498974e-08,
+            0,
+            0.8111397624015808,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            -0.8111397624015808,
+            0,
+            6.123934781498974e-08,
+            0,
+            -2112.241455078125,
+            1939.5472412109375,
+            1197.214599609375,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -12.67344873046875,
+            "y": 11.637283447265625,
+            "z": 7.18328759765625
+          },
+          "rawWorldDirection": [
+            0.9999999999999971,
+            0,
+            -7.549789894860443e-08
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -12.67344873046875,
+              "y": 10.281592895507814,
+              "z": 7.18328759765625
+            },
+            "gap": 1.355690551757812,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2041,
+              "sourceVertexIndices": [
+                7498,
+                7499,
+                7500
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.5330145295959992,
+              0.006234754718752505,
+              0.46075071568524834
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 1.538150602565558,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 5578,
+              "sourceVertexIndices": [
+                12404,
+                12405,
+                12406
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1.538150602565558,
+            "minimumCapsuleSurfaceGap": 0.5166245280953424,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -12.67344873046875,
+            "y": 10.281592895507814,
+            "z": 7.183287597656251
+          },
+          "settledFloor": {
+            "point": {
+              "x": -12.67344873046875,
+              "y": 10.281592895507814,
+              "z": 7.183287597656251
+            },
+            "gap": 0.05000000000000071,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2041,
+              "sourceVertexIndices": [
+                7498,
+                7499,
+                7500
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.5330145295959995,
+              0.006234754718751918,
+              0.4607507156852486
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1.0000000000000018,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2041,
+              "sourceVertexIndices": [
+                7498,
+                7499,
+                7500
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1.0000000000000018,
+            "minimumCapsuleSurfaceGap": -3.3306690738754696e-16,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 9,
+          "name": "alpha_spawn_pos_10",
+          "rawLocalMatrix": [
+            -0.8111394643783569,
+            0,
+            1.2247865299741534e-07,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            -1.2247865299741534e-07,
+            0,
+            -0.8111394643783569,
+            0,
+            -10856.162109375,
+            2651.7177734375,
+            8806.845703125,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -65.13697265625,
+            "y": 15.910306640625,
+            "z": 52.84107421875
+          },
+          "rawWorldDirection": [
+            1.5099580081617583e-07,
+            0,
+            0.9999999999999886
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -65.13697265625,
+              "y": 15.391737259086845,
+              "z": 52.84107421875
+            },
+            "gap": 0.5185693815381551,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2145,
+              "sourceVertexIndices": [
+                7672,
+                7673,
+                7674
+              ]
+            },
+            "normalY": 0.9999999998527823,
+            "barycentric": [
+              0.16288445238203814,
+              0.3141659084843242,
+              0.5229496391336377
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 1.5401764390136756,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2145,
+              "sourceVertexIndices": [
+                7672,
+                7673,
+                7674
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1.5401764390136756,
+            "minimumCapsuleSurfaceGap": 0.5185693813734825,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -65.13697265625,
+            "y": 15.391737259142051,
+            "z": 52.84107421875
+          },
+          "settledFloor": {
+            "point": {
+              "x": -65.13697265625,
+              "y": 15.391737259086845,
+              "z": 52.84107421875
+            },
+            "gap": 0.05000000005520633,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2145,
+              "sourceVertexIndices": [
+                7672,
+                7673,
+                7674
+              ]
+            },
+            "normalY": 0.9999999998527823,
+            "barycentric": [
+              0.16288445238203814,
+              0.3141659084843242,
+              0.5229496391336377
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999991,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2145,
+              "sourceVertexIndices": [
+                7672,
+                7673,
+                7674
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 0.9999999999999991,
+            "minimumCapsuleSurfaceGap": -3.312461416271617e-11,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 10,
+          "name": "alpha_spawn_pos_11",
+          "rawLocalMatrix": [
+            6.123936202584446e-08,
+            0,
+            0.8111398816108704,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            -0.8111398816108704,
+            0,
+            6.123936202584446e-08,
+            0,
+            -4655.6259765625,
+            221.7815399169922,
+            8264.169921875,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -27.933755859375,
+            "y": 1.3306892395019532,
+            "z": 49.58501953125
+          },
+          "rawWorldDirection": [
+            0.9999999999999971,
+            0,
+            -7.549790537265527e-08
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -27.933755859375,
+              "y": -0.12415411376953145,
+              "z": 49.58501953125
+            },
+            "gap": 1.4548433532714846,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2128,
+              "sourceVertexIndices": [
+                7648,
+                1520,
+                7649
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.8378130368397125,
+              0.012692582838213536,
+              0.14949438032207393
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 2.5154618263244632,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2128,
+              "sourceVertexIndices": [
+                7648,
+                1520,
+                7649
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 2.5154618263244632,
+            "minimumCapsuleSurfaceGap": 1.4548433532714844,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -27.933755859375,
+            "y": -0.12415411376953145,
+            "z": 49.585019531250005
+          },
+          "settledFloor": {
+            "point": {
+              "x": -27.933755859375,
+              "y": -0.12415411376953145,
+              "z": 49.585019531250005
+            },
+            "gap": 0.05,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2128,
+              "sourceVertexIndices": [
+                7648,
+                1520,
+                7649
+              ]
+            },
+            "normalY": 1,
+            "barycentric": [
+              0.8378130368397125,
+              0.012692582838213083,
+              0.14949438032207438
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 2128,
+              "sourceVertexIndices": [
+                7648,
+                1520,
+                7649
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1,
+            "minimumCapsuleSurfaceGap": 0,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        },
+        {
+          "source": "model/background/biolab_spawn_br.scn",
+          "sourceNodeIndex": 11,
+          "name": "alpha_spawn_pos_12",
+          "rawLocalMatrix": [
+            6.123934781498974e-08,
+            0,
+            0.8111397624015808,
+            0,
+            0,
+            0.8111394643783569,
+            0,
+            0,
+            -0.8111397624015808,
+            0,
+            6.123934781498974e-08,
+            0,
+            -669.2989501953125,
+            1145.7117919921875,
+            -3842.568115234375,
+            1
+          ],
+          "parentNodeIndex": -1,
+          "rawWorldPosition": {
+            "x": -4.015793701171875,
+            "y": 6.874270751953125,
+            "z": -23.05540869140625
+          },
+          "rawWorldDirection": [
+            0.9999999999999971,
+            0,
+            -7.549789894860443e-08
+          ],
+          "sourceFloor": {
+            "point": {
+              "x": -4.015793701171875,
+              "y": 6.125108411958059,
+              "z": -23.05540869140625
+            },
+            "gap": 0.749162339995066,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 4748,
+              "sourceVertexIndices": [
+                11301,
+                3474,
+                11302
+              ]
+            },
+            "normalY": 0.9999999619611946,
+            "barycentric": [
+              0.49578632372034726,
+              0.046254633234132446,
+              0.4579590430455203
+            ]
+          },
+          "sourceClearance": {
+            "minimumEllipsoidNormalizedDistance": 1.7803774110403956,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 4748,
+              "sourceVertexIndices": [
+                11301,
+                3474,
+                11302
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSourceClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1.7803774110403956,
+            "minimumCapsuleSurfaceGap": 0.7491622886745423,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "settledPosition": {
+            "x": -4.015793701171875,
+            "y": 6.125108426222611,
+            "z": -23.05540869140625
+          },
+          "settledFloor": {
+            "point": {
+              "x": -4.015793701171875,
+              "y": 6.125108411958059,
+              "z": -23.05540869140625
+            },
+            "gap": 0.05000001426455203,
+            "sourceFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 4748,
+              "sourceVertexIndices": [
+                11301,
+                3474,
+                11302
+              ]
+            },
+            "normalY": 0.9999999619611946,
+            "barycentric": [
+              0.49578632372034726,
+              0.046254633234132446,
+              0.4579590430455203
+            ]
+          },
+          "settledClearance": {
+            "minimumEllipsoidNormalizedDistance": 1,
+            "nonPenetrating": true,
+            "nearestFace": {
+              "source": "model/background/biolab_oct.scn",
+              "sourceModelIndex": 0,
+              "sourceNodeIndex": 1,
+              "triangleIndex": 4748,
+              "sourceVertexIndices": [
+                11301,
+                3474,
+                11302
+              ]
+            },
+            "qualification": "Current S5 Controller ellipsoid only; not native spawn-volume certification"
+          },
+          "sharedSettledClearance": {
+            "radii": {
+              "x": 0.6,
+              "y": 0.96,
+              "z": 0.6
+            },
+            "capsuleRadius": 0.6,
+            "capsuleHeight": 1.92,
+            "minimumEllipsoidNormalizedDistance": 1,
+            "minimumCapsuleSurfaceGap": -8.55873172334043e-09,
+            "passed": true,
+            "qualification": "Current S5 Controller ellipsoid plus conservative capsule check; not a recovered native spawn-volume rule."
+          },
+          "grounded": true,
+          "respawns": 0,
+          "stable": true,
+          "simulation": {
+            "ticks": 480,
+            "delta": 0.008333333333333333,
+            "noInputs": true,
+            "geometry": "intact source categories, exact local matrices, S5 solver-compatible triangles only"
+          }
+        }
+      ]
+    }
+  ],
+  "nativeReady": false,
+  "distributionSourceSha256": "68c1e9553e590bef236c71b3fbac1a092807c884c49df6a41bc3fba05fc8a37d"
+}

@@ -1,0 +1,590 @@
+{
+  "schema": "s5-sigma-blade-current-stage-v1",
+  "date": "2026-10-03",
+  "status": "staged-not-main-game-verified",
+  "assets": [
+    {
+      "path": "/assets/s5runtime/sigma-blade/model.json",
+      "bytes": 163930,
+      "sha256": "3fa1bbf342f3b227742620517e42143d07fe959e3ac7a4ea42b52b0ef81dd280"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/model-transformed.json",
+      "bytes": 2158205,
+      "sha256": "9f9cb2924f02274e64960379fba0e7c044906b7e0313f2b92dd4ae73b5f3e0ff"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/animations/male.json",
+      "bytes": 3269624,
+      "sha256": "a60890d7eebe02d40c98a910209f53b4f2f51f64368c68aaa138d1eeb7ed060b"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/animations/female.json",
+      "bytes": 3472192,
+      "sha256": "6a7b47b24bfeb4c55c7c8b385f0976f0cdfa2a7ecf6a1e843cab1078070c6871"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/sigmablade_atex.png",
+      "bytes": 36769,
+      "sha256": "c9d9c439ecaf67bf26dab52eddfe22ad4d64189caffa26d1ae67916769221ba7"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/sigmablade_glow.png",
+      "bytes": 10394,
+      "sha256": "693a306b2e602a4dd23080929fd6fde62dbc720d73a943c319ef01cef2cef624"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/sigma_line.png",
+      "bytes": 1126,
+      "sha256": "4de9a87cd0b3b7f1bcd56eac2afc6d9ef9d6f4be4cbb937a535154a177b770dc"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/mapeffect_light2.png",
+      "bytes": 1117,
+      "sha256": "969f180a74bd8243f1d63303d6a44613b603c195b60805fb736e061fcc27af4f"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sounds/bsword_attack.ogg",
+      "bytes": 26474,
+      "sha256": "059f92c98d765df076b83ef7a7725caace62b9befd6718d8ad64bbfc3f6ebbaf"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sounds/sigmablade_cut.ogg",
+      "bytes": 10943,
+      "sha256": "140ab87e5faf2d603661b28a4b0bdb39e2c89be7a11b26e99deeead4d907b24c"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sounds/sigmablade_cut_air.ogg",
+      "bytes": 30655,
+      "sha256": "88c1d78cd7cf191e89619128e10a1aa0e1098270ebcc89db66f8ba3ac8a1ef93"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sounds/sigmablade_cut_finish.ogg",
+      "bytes": 11778,
+      "sha256": "820eb6032409ce428b019541d375397271f3f470b67fd0f686b058c7371e4aef"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sounds/sigmablade_cut_power.ogg",
+      "bytes": 16308,
+      "sha256": "1cce3800de7cb73c532251cffa24b3cdecdac7cbf554de313abcffc25e85b4b2"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sounds/sigmablade_hit.ogg",
+      "bytes": 11366,
+      "sha256": "2277393a5687f4bd9a6b772160a52110b80a5d2097f71497f7b7261ef69c5f5d"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sounds/sigmablade_hit_slash.ogg",
+      "bytes": 17097,
+      "sha256": "f9336e82dfe552998bd70e42df0d45c4cd5c1be31993a2ee67721f0bec239c2c"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sounds/sigmablade_hit_wall_change.ogg",
+      "bytes": 11906,
+      "sha256": "cc006dc2d7a7e524d8cc4ee869b5771e17666d5b75541bd1bb750f52417b9b92"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sounds/sword_power.ogg",
+      "bytes": 51978,
+      "sha256": "d09d4b4469cc967639bc84eaf30b26c569eab73e3a25a71aaaf3802b0125d11d"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sequences/backattack_sword_s.json",
+      "bytes": 12602,
+      "sha256": "78b053e34c6f3c08653f89c2dbb3c5f85b8394a2ca06464327daf32faee1cbba"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/attack4_nomipmap.png",
+      "bytes": 33865,
+      "sha256": "c6723ff5604204aba59b1fbcefbd821e49be776331fe12892f95bf8ec1265b52"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/tick.png",
+      "bytes": 1831,
+      "sha256": "b193c5abe53662185c26abee065200c4f4878846a96c75ee34f2afb9751eefca"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sequences/sigmablade_leg_eff.json",
+      "bytes": 3062,
+      "sha256": "3eec971904f64c01aecfb7cf108a5e6186b81a3b0984f8837926b2d0f026554c"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/sigmablade_leg_att.png",
+      "bytes": 4941,
+      "sha256": "1af82985285701321d1f6b24e9d871a49151bc25cf323c8be10beb3f54418c0a"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/models/sigmablade_leg_eff.json",
+      "bytes": 5142,
+      "sha256": "67b0f381d01ab72250ef56f7ff3d73a319282bcb65d2ab6bae46a376a72b1ae8"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/sequences/sigmablade_power_att.json",
+      "bytes": 29379,
+      "sha256": "66881a043571d00b9a01a31862033feae98ab872e7872cc7618360db71bbb27f"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/sigma_gfire.png",
+      "bytes": 4284,
+      "sha256": "f9979e9e6c355bff3054358a83acd36ccd3f3e3b3a2f7403553c033a7cbe8aef"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/models/sigma_power_att.json",
+      "bytes": 41869,
+      "sha256": "f2a3ca5c3e76aae1a9bb91e4e1723d51835f04442398e58cfee8d187c109c03d"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/fire2.png",
+      "bytes": 6925,
+      "sha256": "ad354fb10e5ba95ad9f4f43cceff56130578285ef1fc2dbb75fbebfd955a5395"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/models/skill_swordman_gager_dummy01.json",
+      "bytes": 2948,
+      "sha256": "d45b7476a7c92fbb23136b0915b5610defe346f1351a38d5719eebad3c61ceee"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/lightning1.png",
+      "bytes": 2383,
+      "sha256": "3b011bd1e74e8cd527237f3efc608b533fbfb5463d557f19f9528c1749ceb777"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/sigma_digt.png",
+      "bytes": 4643,
+      "sha256": "dcd5ea9384d534157a7c1f4306373c1d0d2fc4849e78ea257ee268612c3e6258"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/textures/smog_black2.png",
+      "bytes": 4122,
+      "sha256": "13cded19175300ede9f3d83ccef9c319b5a72a3e3ccd339cde4036eb2d49e7f9"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/icon.png",
+      "bytes": 10473,
+      "sha256": "9445e3c3b550d4961ec9284933cdfa76f2f5c7ceccc67ddcb3bda3974ec3c763"
+    },
+    {
+      "path": "/assets/s5runtime/sigma-blade/effects-runtime.json",
+      "bytes": 6198,
+      "sha256": "05d0cb2d86b4120a30f1932a0da7cb384fd9229fc4a24aae6e88f90a964ad414"
+    }
+  ],
+  "sources": [
+    {
+      "path": "script/actorstates_normalstates.lua",
+      "checksum": "0edda9cc",
+      "plainLength": 26466,
+      "storedLength": 5155,
+      "dataOffset": 89879533,
+      "archive": "package/67.xs",
+      "sha256": "f143f916491aa1a6b4afc8b41f82924d05a979de43cf6d5ca1d78a8e302b8c29",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/actorstates_runstates.lua",
+      "checksum": "d3c7d263",
+      "plainLength": 163991,
+      "storedLength": 23531,
+      "dataOffset": 77922521,
+      "archive": "package/60.xs",
+      "sha256": "d9e6f2e1918d98073fe75699ce9f329b427667ea1059461038b76e481de848cb",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/actorstates_sigmablade.lua",
+      "checksum": "e0ed8d79",
+      "plainLength": 37648,
+      "storedLength": 9653,
+      "dataOffset": 73802954,
+      "archive": "package/60.xs",
+      "sha256": "1758f2bc00eb864d8d9421e97c1d2ecf9219bf52808c7f5d1ded21a2025ab4e0",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/weapon_sigmablade.lua",
+      "checksum": "a3e32873",
+      "plainLength": 72635,
+      "storedLength": 25384,
+      "dataOffset": 99344597,
+      "archive": "package/50.xs",
+      "sha256": "3325f695459f1b7392f203ccc60b55fb9821766b98b1d7e7afb283e0a0a54109",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "script/attackattribindexer.lua",
+      "checksum": "f3adc6f2",
+      "plainLength": 638240,
+      "storedLength": 144403,
+      "dataOffset": 32489011,
+      "archive": "package/50.xs",
+      "sha256": "f714b31691b87c020c5618d96f51876bab361445b689709b8a20880882048c65",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "xml/weapon_attach.x7",
+      "checksum": "76389134",
+      "plainLength": 7030,
+      "storedLength": 2234,
+      "dataOffset": 31609413,
+      "archive": "package/67.xs",
+      "sha256": "099e2f5fcb6acdb33583e1eab6ef0637ee81f08fb1ec9fbb020fe00889fdee54",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "xml/ghost_trail.x7",
+      "checksum": "f9edae20",
+      "plainLength": 72047,
+      "storedLength": 15645,
+      "dataOffset": 6417187,
+      "archive": "package/60.xs",
+      "sha256": "ad2999b1e8ab8d38637cab57bfc937f0ff27556cbbe7f06ee990dc44a0175131",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/weapon/sigmablade.scn",
+      "checksum": "bd5935d4",
+      "plainLength": 55615,
+      "storedLength": 29692,
+      "dataOffset": 73307715,
+      "archive": "package/22.xs",
+      "sha256": "80f4f24fb571d384718fd9c85efc7fe9cea93f532ed2b5266dd74ff3935896cf",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/weapon/sigmablade_change.scn",
+      "checksum": "c96c2fe6",
+      "plainLength": 618264,
+      "storedLength": 168841,
+      "dataOffset": 66891768,
+      "archive": "package/50.xs",
+      "sha256": "71d3452625edcee11680196e4eb52424df259d06b3a5cdf85854354f7739cda0",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/character/male_bip.scn",
+      "checksum": "7a744796",
+      "plainLength": 33060253,
+      "storedLength": 33061772,
+      "dataOffset": 12367745,
+      "archive": "package/60.xs",
+      "sha256": "d9953bde346c6b242e8d45d4ea885a581203c3999a78ab13d60aa7ea3997dba5",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/character/female_bip.scn",
+      "checksum": "d3a71175",
+      "plainLength": 30705783,
+      "storedLength": 30707194,
+      "dataOffset": 22125266,
+      "archive": "package/47.xs",
+      "sha256": "98caac4c4f8ee8900a9b28b050e7900fbb8c4c1b65a5f968a20110ae7653d465",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/backattack_sword_s.seq",
+      "checksum": "3b398956",
+      "plainLength": 776,
+      "storedLength": 477,
+      "dataOffset": 95535980,
+      "archive": "package/3.xs",
+      "sha256": "60a7b4d5cc897e0a188d22e4b4889c95bbb12533016df547491f5b99118c11d0",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/sigmablade_leg_eff.seq",
+      "checksum": "a79c9278",
+      "plainLength": 144,
+      "storedLength": 140,
+      "dataOffset": 16678710,
+      "archive": "package/72.xs",
+      "sha256": "e611ae703803e161a1b9550a1bfb495f27ecb094ed4cb100fdea36cc734b3136",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/sigmablade_power_att.seq",
+      "checksum": "dd6f3192",
+      "plainLength": 1837,
+      "storedLength": 1226,
+      "dataOffset": 42283205,
+      "archive": "package/3.xs",
+      "sha256": "1c7e1dcb721e672c5305fe18fb89376289bb9eefcd095a21362779447821529b",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/bsword_attack.ogg",
+      "checksum": "09d3bdaf",
+      "plainLength": 26474,
+      "storedLength": 26455,
+      "dataOffset": 10420432,
+      "archive": "package/23.xs",
+      "sha256": "059f92c98d765df076b83ef7a7725caace62b9befd6718d8ad64bbfc3f6ebbaf",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/sigmablade_cut.ogg",
+      "checksum": "bda1277e",
+      "plainLength": 10943,
+      "storedLength": 10773,
+      "dataOffset": 46358923,
+      "archive": "package/77.xs",
+      "sha256": "140ab87e5faf2d603661b28a4b0bdb39e2c89be7a11b26e99deeead4d907b24c",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/sigmablade_cut_air.ogg",
+      "checksum": "8225bf01",
+      "plainLength": 30655,
+      "storedLength": 30486,
+      "dataOffset": 89901354,
+      "archive": "package/23.xs",
+      "sha256": "88c1d78cd7cf191e89619128e10a1aa0e1098270ebcc89db66f8ba3ac8a1ef93",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/sigmablade_cut_finish.ogg",
+      "checksum": "7e934640",
+      "plainLength": 11778,
+      "storedLength": 11607,
+      "dataOffset": 74990290,
+      "archive": "package/71.xs",
+      "sha256": "820eb6032409ce428b019541d375397271f3f470b67fd0f686b058c7371e4aef",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/sigmablade_cut_power.ogg",
+      "checksum": "502125ac",
+      "plainLength": 16308,
+      "storedLength": 16251,
+      "dataOffset": 41863316,
+      "archive": "package/67.xs",
+      "sha256": "1cce3800de7cb73c532251cffa24b3cdecdac7cbf554de313abcffc25e85b4b2",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/sigmablade_hit.ogg",
+      "checksum": "5c5cc5be",
+      "plainLength": 11366,
+      "storedLength": 11196,
+      "dataOffset": 96977081,
+      "archive": "package/23.xs",
+      "sha256": "2277393a5687f4bd9a6b772160a52110b80a5d2097f71497f7b7261ef69c5f5d",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/sigmablade_hit_slash.ogg",
+      "checksum": "64583c20",
+      "plainLength": 17097,
+      "storedLength": 16926,
+      "dataOffset": 71748832,
+      "archive": "package/71.xs",
+      "sha256": "f9336e82dfe552998bd70e42df0d45c4cd5c1be31993a2ee67721f0bec239c2c",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/sigmablade_hit_wall_change.ogg",
+      "checksum": "1af1cec0",
+      "plainLength": 11906,
+      "storedLength": 11896,
+      "dataOffset": 19913251,
+      "archive": "package/74.xs",
+      "sha256": "cc006dc2d7a7e524d8cc4ee869b5771e17666d5b75541bd1bb750f52417b9b92",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "sound/sword_power.ogg",
+      "checksum": "abb8bb93",
+      "plainLength": 51978,
+      "storedLength": 51959,
+      "dataOffset": 39471943,
+      "archive": "package/67.xs",
+      "sha256": "d09d4b4469cc967639bc84eaf30b26c569eab73e3a25a71aaaf3802b0125d11d",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "image/weapon/icon_sword_sigmablade.png",
+      "checksum": "e2bd8bc1",
+      "plainLength": 10473,
+      "storedLength": 10478,
+      "dataOffset": 87380905,
+      "archive": "package/68.xs",
+      "sha256": "9445e3c3b550d4961ec9284933cdfa76f2f5c7ceccc67ddcb3bda3974ec3c763",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/weapon/sigmablade_atex.dds",
+      "checksum": "1843957c",
+      "plainLength": 43832,
+      "storedLength": 31790,
+      "dataOffset": 41018820,
+      "archive": "package/59.xs",
+      "sha256": "21d959350642994f546031aff268302b1768cf83e2847e9899371e27bf7eca88",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/weapon/sigmablade_glow.dds",
+      "checksum": "c090500a",
+      "plainLength": 87536,
+      "storedLength": 12373,
+      "dataOffset": 14486111,
+      "archive": "package/66.xs",
+      "sha256": "02ee4c31386514db3ac1c370954f5e03f9189a65c51e30669bb3f4d6452bce43",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/weapon/sigma_line.dds",
+      "checksum": "cb3fad7b",
+      "plainLength": 1512,
+      "storedLength": 1119,
+      "dataOffset": 46357767,
+      "archive": "package/77.xs",
+      "sha256": "be291a596ed23f7963f8c7bd940daeb8dacda0a7ac13eaefc2fa3fc5a550a2ec",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/mapeffect_light2.dds",
+      "checksum": "4644d972",
+      "plainLength": 2872,
+      "storedLength": 2024,
+      "dataOffset": 95170245,
+      "archive": "package/28.xs",
+      "sha256": "ebf6448089fe7cdba8514b23cbe56a6bdcd9750593fc4bd7393f68083fd782d2",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/attack4_nomipmap.dds",
+      "checksum": "3fd0ba4c",
+      "plainLength": 43832,
+      "storedLength": 28106,
+      "dataOffset": 92457479,
+      "archive": "package/28.xs",
+      "sha256": "299fda1e366c7c5884af8e45dd66f8bebe59d3fd14440fab1a6d21eeb17c6f52",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/tick.dds",
+      "checksum": "874b5583",
+      "plainLength": 2872,
+      "storedLength": 2299,
+      "dataOffset": 45761478,
+      "archive": "package/4.xs",
+      "sha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/sigmablade_leg_eff.scn",
+      "checksum": "e0e08829",
+      "plainLength": 2975,
+      "storedLength": 800,
+      "dataOffset": 94211597,
+      "archive": "package/54.xs",
+      "sha256": "4b7c5811337a96df74b56267391203c07886a269d246820a8947936f4f85b612",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/sigma_power_att.scn",
+      "checksum": "dea6c6cd",
+      "plainLength": 32417,
+      "storedLength": 6109,
+      "dataOffset": 1484847,
+      "archive": "package/4.xs",
+      "sha256": "170db054991847d7f67aeb35f687029fe8283db07f136039ce881250c4ff8ff6",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/skill_swordman_gager_dummy01.scn",
+      "checksum": "f18757dd",
+      "plainLength": 2220,
+      "storedLength": 620,
+      "dataOffset": 26260323,
+      "archive": "package/68.xs",
+      "sha256": "a7717c0afee67305ce04a520837c681621fde5328dcaebcde4015351d4869b87",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/lightning1.dds",
+      "checksum": "bd60b79c",
+      "plainLength": 2872,
+      "storedLength": 2188,
+      "dataOffset": 35030307,
+      "archive": "package/54.xs",
+      "sha256": "44c44b17903008b0229b49b55d49f831451b270ec05b31d67a9d82c8ef8291ba",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/sigma_digt.dds",
+      "checksum": "1c9407c0",
+      "plainLength": 22000,
+      "storedLength": 5477,
+      "dataOffset": 57721639,
+      "archive": "package/3.xs",
+      "sha256": "0d0e73c6c2218e57b3e34209f4920ebc6ed8b6ef37b743de996ab0e391bcc1bb",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/smog_black2.dds",
+      "checksum": "50032007",
+      "plainLength": 22000,
+      "storedLength": 8314,
+      "dataOffset": 82857478,
+      "archive": "package/40.xs",
+      "sha256": "5768e272586217a4a9e698a8fd568bb0f3a584cad4baf80160e02a2685acbb26",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/sigmablade_leg_att.dds",
+      "checksum": "1a13e8b7",
+      "plainLength": 11064,
+      "storedLength": 4794,
+      "dataOffset": 104151211,
+      "archive": "package/29.xs",
+      "sha256": "17fa2412ad37485c02215c65b4ebbb3be9dd7c37360d96758db1343dab8537e9",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/sigma_gfire.dds",
+      "checksum": "df8f4f6f",
+      "plainLength": 11088,
+      "storedLength": 5271,
+      "dataOffset": 99414334,
+      "archive": "package/40.xs",
+      "sha256": "4018ef432ff33760a7a0c21c16568275d74e0272f2aae5126e11b60d05551ce5",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "effects/fire2.dds",
+      "checksum": "5c52614b",
+      "plainLength": 11088,
+      "storedLength": 5658,
+      "dataOffset": 92392726,
+      "archive": "package/28.xs",
+      "sha256": "ef4aac8ff59e2467b4731c5cf7b37dc75f822ba46198fab602fa64600515ab7a",
+      "method": "current-authenticated-source"
+    },
+    {
+      "path": "model/character/bip_male/male_bip_0000.scn",
+      "checksum": "fb07f65c",
+      "plainLength": 7991633,
+      "storedLength": 5725946,
+      "dataOffset": 23563894,
+      "archive": "package/9.xs",
+      "sha256": "48588d1bf3da193db6bff0868fe625b843eb3d3e5e239b98fdda49c194bc7270",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "model/character/bip_female/female_bip_0000.scn",
+      "checksum": "333bfa1c",
+      "plainLength": 7816537,
+      "storedLength": 5849720,
+      "dataOffset": 9175058,
+      "archive": "package/7.xs",
+      "sha256": "ea045af8ed88b9af88e2a17934e9fa245fe8165488af2ea5af96313bd366eaa7",
+      "method": "known-header-crc32"
+    }
+  ],
+  "missing": [],
+  "limitations": [
+    "Resource closure does not prove rendered effects, attachment or native timing.",
+    "Form switching, native mode contact gating, animation fitting and critical chance need integration validation.",
+    "Separate model files avoid rendering both equipment forms simultaneously; native link2/visibility still unverified."
+  ]
+}

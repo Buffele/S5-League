@@ -1,0 +1,181 @@
+{
+  "schema": "azit-source-destructibles-v1",
+  "key": "MAPNAME_AZIT",
+  "nativeMapId": 15,
+  "profiles": [
+    {
+      "key": "BLASTINFO_01",
+      "hp": 20,
+      "hpRecoveryMs": 10000,
+      "rebirthMs": 10000,
+      "material": 4,
+      "effect": "",
+      "sound": "wall_destroy_steel.ogg",
+      "sourceEffects": {
+        "sequence": {
+          "value": "",
+          "line": 145
+        },
+        "sound": {
+          "value": "wall_destroy_steel.ogg",
+          "line": 146
+        },
+        "material": 4,
+        "rebirthTexture": {
+          "value": "noise.bmp",
+          "line": 139
+        },
+        "rebirthSound": {
+          "value": "wall_create.ogg",
+          "line": 140
+        }
+      }
+    }
+  ],
+  "instances": [
+    {
+      "key": "model/background/azit.scn#node-15",
+      "source": "model/background/azit.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 12,
+      "sourceNodeIndex": 15,
+      "name": "Object10",
+      "ownerId": 3957598618,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 13,
+          "sourceNodeIndex": 16,
+          "name": "oct_Box130",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/azit.scn#node-17",
+      "source": "model/background/azit.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 14,
+      "sourceNodeIndex": 17,
+      "name": "Object09",
+      "ownerId": 2334367871,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 15,
+          "sourceNodeIndex": 18,
+          "name": "oct_Box125",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/azit.scn#node-19",
+      "source": "model/background/azit.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 16,
+      "sourceNodeIndex": 19,
+      "name": "Object08",
+      "ownerId": 4230254825,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 17,
+          "sourceNodeIndex": 20,
+          "name": "oct_Box133",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/azit.scn#node-21",
+      "source": "model/background/azit.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 18,
+      "sourceNodeIndex": 21,
+      "name": "Object07",
+      "ownerId": 1822133624,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 19,
+          "sourceNodeIndex": 22,
+          "name": "oct_Box129",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/azit.scn#node-23",
+      "source": "model/background/azit.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 20,
+      "sourceNodeIndex": 23,
+      "name": "Object06",
+      "ownerId": 463257070,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 21,
+          "sourceNodeIndex": 24,
+          "name": "oct_Box131",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/azit.scn#node-25",
+      "source": "model/background/azit.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 22,
+      "sourceNodeIndex": 25,
+      "name": "Object04",
+      "ownerId": 4120042690,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 23,
+          "sourceNodeIndex": 26,
+          "name": "oct_Box127",
+          "triangles": 12
+        }
+      ]
+    },
+    {
+      "key": "model/background/azit.scn#node-27",
+      "source": "model/background/azit.scn",
+      "sourceSceneIndex": 1,
+      "sourceModelIndex": 24,
+      "sourceNodeIndex": 27,
+      "name": "Object03_alphatest",
+      "ownerId": 3469666449,
+      "profileKey": "BLASTINFO_01",
+      "colliders": [
+        {
+          "sourceSceneIndex": 1,
+          "sourceModelIndex": 25,
+          "sourceNodeIndex": 28,
+          "name": "oct_Box132",
+          "triangles": 12
+        }
+      ]
+    }
+  ],
+  "colliderTriangles": 84,
+  "qualification": {
+    "nativeOwnerBindings": true,
+    "sourceReaderValues": true,
+    "localS5Authority": true,
+    "nativeRuntimeParity": false,
+    "gameplayReady": false,
+    "jumpStationBehaviorImplemented": false,
+    "effectsRendererImplemented": false,
+    "audioPlaybackImplemented": false
+  }
+}

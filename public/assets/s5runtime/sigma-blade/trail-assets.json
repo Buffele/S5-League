@@ -1,0 +1,27 @@
+{
+  "schema": "sigma-actor-trail-textures-v1",
+  "assets": [
+    {
+      "source": "image/sigma.dds",
+      "sourceBytes": 87536,
+      "sourceSha256": "f732e590ed0af328bcf46541fa72fd29f76d8be1cf2217255278ad67aab80c7e",
+      "path": "/assets/s5runtime/sigma-blade/textures/sigma.png",
+      "bytes": 31326,
+      "sha256": "42368398f495ae1f20c6d2bb3b025f24dfef5a64bb8f48657cbd170822ac7781",
+      "width": 256,
+      "height": 256,
+      "format": "DXT5"
+    },
+    {
+      "source": "image/sigma_change.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "25ebe7ba7dd1dd1a44d71d87cfafff9627829573ef7714fa0428a8aeaed67171",
+      "path": "/assets/s5runtime/sigma-blade/textures/sigma_change.png",
+      "bytes": 30915,
+      "sha256": "350278fa303cb5972b9140660752c0a72326c80185c4b3b2eaafd0df4a8afe5d",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    }
+  ]
+}

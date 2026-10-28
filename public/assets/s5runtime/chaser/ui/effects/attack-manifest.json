@@ -1,0 +1,58 @@
+[
+    {
+        "source": "model/interface/bs_score_hit.scn",
+        "sha256": "d57871a4ece78d42ae2536e7e11844780ebc331027af7608b8ca6cbb740369ea",
+        "output": "/assets/s5runtime/chaser/ui/effects/bs_score_hit.json",
+        "outputSha256": "e34c01326daaa62dab9a8d5461bebe0304ee861efa4475d2d01702bee0e58fc4",
+        "clip": "BS_SCORE_HIT",
+        "duration": 0.16666666666666666,
+        "models": 1,
+        "textures": [
+            {
+                "authoredReference": "bs_score.tga",
+                "source": "model/interface/bs_score.dds",
+                "sha256": "4ff7a5af47606a1a8863304ae3da549a7ca8163df3ffed75baf7c58a7a39e084",
+                "output": "/assets/s5runtime/chaser/ui/bs_score.png"
+            }
+        ],
+        "control": "ProgressBar_bs_damage",
+        "loop": true,
+        "xuiSha256": "13cec91e2a42057de0a2ad56e8ced877bb993e657757f7edcd98361cc5be4708",
+        "verifiedLiveS5Runtime": false,
+        "gameTriggerConnected": false
+    },
+    {
+        "source": "model/interface/bs_score.scn",
+        "sha256": "14a67fee7b3e7fa9c0ec1a68942f30b99f2d7d14d739e20617bfe1e2f4db6b61",
+        "output": "/assets/s5runtime/chaser/ui/effects/bs_score.json",
+        "outputSha256": "27cf9ef9adcd9778a083580c3a2c0fad916374f0bef0359ecb437d74eb5f5cae",
+        "clip": "BS_SCORE",
+        "duration": 1,
+        "models": 3,
+        "textures": [
+            {
+                "authoredReference": "bs_score.tga",
+                "source": "model/interface/bs_score.dds",
+                "sha256": "4ff7a5af47606a1a8863304ae3da549a7ca8163df3ffed75baf7c58a7a39e084",
+                "output": "/assets/s5runtime/chaser/ui/bs_score.png"
+            },
+            {
+                "authoredReference": "bs_score_1.tga",
+                "source": "model/interface/bs_score_1.dds",
+                "sha256": "7cc21f98390f88bc9c19d1e2f17918ad19bea3fe97c74b56a1d3e2f4f39b2546",
+                "output": "/assets/s5runtime/chaser/ui/bs_score_1.png"
+            },
+            {
+                "authoredReference": "attack3_nomipmap_blue.bmp",
+                "source": "model/interface/attack3_nomipmap_blue.dds",
+                "sha256": "94e81d53ad8ff4d253a8c69af896843ae8d32be09ffb709b8a35fbaedf289374",
+                "output": "/assets/s5runtime/chaser/ui/attack3_nomipmap_blue.png"
+            }
+        ],
+        "control": "Label_bs_1",
+        "loop": false,
+        "xuiSha256": "13cec91e2a42057de0a2ad56e8ced877bb993e657757f7edcd98361cc5be4708",
+        "verifiedLiveS5Runtime": false,
+        "gameTriggerConnected": false
+    }
+]

@@ -1,0 +1,53 @@
+#welcome.s5-entry-host{position:fixed;inset:0;top:0;left:0;transform:none;width:100%;height:100%;max-width:none;max-height:none;padding:0;border:0;border-radius:0;overflow-y:auto;background:none;box-shadow:none;backdrop-filter:none;z-index:40}
+#welcome.s5-entry-host[hidden],#welcome.s5-entry-host>.s5-entry-legacy{display:none!important}
+#welcome.s5-entry-host .menu-tabs{display:none}
+#welcome.s5-entry-host .menu-shell{border:0;border-radius:0;background:transparent;box-shadow:none}
+#welcome.s5-entry-host .menu-panels{padding:0}
+#welcome.s5-entry-host .menu-panel-heading{display:none}
+#welcome.s5-entry-host .menu-footer{display:none}
+#welcome.s5-entry-host .s5-lobby-status{max-width:none}
+#welcome.s5-entry-host .s5-lobby-avatar-slot canvas{display:block;width:100%;height:100%}
+#welcome.s5-entry-host[data-entry-transition]{overflow:hidden}
+#welcome.s5-entry-host[data-entry-transition] .s5-lobby{min-height:100dvh;position:relative}
+#welcome.s5-entry-host .s5-entry-transition{position:fixed;inset:0;z-index:45;display:grid;place-items:center;padding:24px;background:linear-gradient(180deg,#07111c55,#07111ca3);color:#dbe7ee;font:14px/1.5 'Segoe UI',Arial,sans-serif}
+#welcome.s5-entry-host .s5-entry-transition[hidden]{display:none!important}
+#welcome.s5-entry-host .s5-entry-transition-card{width:min(440px,100%);max-height:calc(100dvh - 48px);overflow:auto;padding:30px;border:1px solid #496b80;border-top:2px solid #70e4ec;background:#0e2132f5;box-shadow:0 18px 60px #0006;text-align:center}
+#welcome.s5-entry-host .s5-entry-transition-title{margin:12px 0;font:600 24px/1.25 'Segoe UI',Arial,sans-serif;font-style:normal;color:#e8f4f8;overflow-wrap:anywhere}
+#welcome.s5-entry-host .s5-entry-transition-title:focus{outline:none}
+#welcome.s5-entry-host .s5-entry-transition-message{margin:10px 0 0;max-width:none;font-size:13px;line-height:1.6;color:#b6cedc;white-space:pre-wrap;overflow-wrap:anywhere}
+#welcome.s5-entry-host .s5-entry-transition-indicator{width:36px;height:36px;margin:0 auto;border:3px solid #385566;border-top-color:#70e4ec;border-radius:50%;animation:s5-entry-wait 1s linear infinite}
+#welcome.s5-entry-host .s5-entry-transition-indicator[hidden],#welcome.s5-entry-host .s5-entry-transition-actions[hidden]{display:none}
+#welcome.s5-entry-host .s5-entry-transition-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:22px}
+#welcome.s5-entry-host .s5-entry-transition-actions button{box-sizing:border-box;min-width:120px;min-height:44px;max-width:100%;margin:0;padding:10px 14px;border:1px solid #54778c;border-radius:3px;background:linear-gradient(180deg,#294c61,#1a354a);color:#e1eff5;font:13px/1.4 'Segoe UI',Arial,sans-serif;text-align:center;letter-spacing:normal;text-transform:none;cursor:pointer}
+#welcome.s5-entry-host .s5-entry-transition-actions button[hidden]{display:none}
+#welcome.s5-entry-host .s5-entry-transition-actions button:hover{border-color:#70e4ec;background:#315f75}
+#welcome.s5-entry-host .s5-entry-transition-actions button:focus-visible{outline:2px solid #70e4ec;outline-offset:3px}
+#welcome.s5-entry-host .s5-entry-transition-actions button:disabled{opacity:.45;cursor:default}
+@keyframes s5-entry-wait{to{transform:rotate(360deg)}}
+#welcome.s5-entry-host .s5-match-loading-art[hidden]{display:none!important}
+#welcome.s5-entry-host .s5-match-loading-art{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(100vw,calc(100dvh * 16 / 9));aspect-ratio:16/9;pointer-events:none}
+#welcome.s5-entry-host .s5-match-loading-panel{display:block;width:100%;height:100%;object-fit:contain}
+#welcome.s5-entry-host .s5-match-loading-map{position:absolute;left:36.8%;top:56.9%;width:26.4%;height:23.1%;object-fit:cover}
+#welcome.s5-entry-host .s5-match-loading-map[hidden]{display:none!important}
+#welcome.s5-entry-host .s5-match-loading-map-label{position:absolute;left:25%;top:82.1%;width:50%;color:#e0ebfa;font-size:clamp(10px,1.3vw,18px);line-height:1.25;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#welcome.s5-entry-host .s5-entry-transition[data-art='true']{background:#090e16}
+#welcome.s5-entry-host .s5-entry-transition[data-art='true'] .s5-entry-transition-card{position:absolute;left:50%;bottom:calc((100dvh - min(100dvh,56.25vw))/2 + 14px);transform:translateX(-50%);box-sizing:border-box;width:min(600px,calc(100% - 32px));padding:6px 14px;display:grid;grid-template-columns:24px minmax(0,1fr);gap:2px 12px;text-align:left;border-top-width:1px}
+#welcome.s5-entry-host .s5-entry-transition[data-art='true'] .s5-entry-transition-indicator{grid-column:1;grid-row:1/span 2;width:20px;height:20px;border-width:2px;align-self:center}
+#welcome.s5-entry-host .s5-entry-transition[data-art='true'] .s5-entry-transition-title{grid-column:2;margin:0;font-size:16px;line-height:20px}
+#welcome.s5-entry-host .s5-entry-transition[data-art='true'] .s5-entry-transition-message{grid-column:2;margin:0;font-size:12px;line-height:18px}
+@media(max-width:800px){#welcome.s5-entry-host .s5-entry-transition[data-art='true'] .s5-entry-transition-card{bottom:max(12px,calc((100dvh - 56.25vw)/2 - 76px))}}
+@media(max-height:420px){#welcome.s5-entry-host .s5-entry-transition[data-art='true'] .s5-entry-transition-card{bottom:4px}#welcome.s5-entry-host .s5-match-loading-map-label{display:none}}
+@media(prefers-reduced-motion:reduce){#welcome.s5-entry-host .s5-entry-transition-indicator{animation:none;border-top-color:#ffbc8b}}
+@media(max-width:500px){#welcome.s5-entry-host .s5-entry-transition{padding:16px}#welcome.s5-entry-host .s5-entry-transition-card{padding:22px 18px}#welcome.s5-entry-host .s5-entry-transition-title{font-size:22px}#welcome.s5-entry-host .s5-entry-transition-actions button{flex:1 1 120px}}
+@media(min-width:1200px){
+ #welcome.s5-entry-host .menu-settings-slot{display:grid;grid-template-columns:minmax(0,1fr) 540px;gap:20px;align-items:start}
+ #welcome.s5-entry-host #input-settings{margin:0;border:0;border-radius:0;overflow:visible}
+ #welcome.s5-entry-host .menu-settings-slot #graphics-settings{min-width:0}
+}
+
+/* Stable loading/error overlays share the lobby's visual language. */
+#welcome.s5-entry-host .s5-entry-transition-card{background:var(--s5-panel);border-color:#ffffff35;border-top-color:#d38e69;border-radius:6px}
+#welcome.s5-entry-host .s5-entry-transition-message{font-size:var(--s5-small);color:#c1ccd4}
+#welcome.s5-entry-host .s5-entry-transition-indicator{border-color:#77838c55;border-top-color:#edab84}
+#welcome.s5-entry-host .s5-entry-transition-actions button{font-size:var(--s5-small);background:linear-gradient(#3a4249,#283039);border-color:#ffffff35;color:#f0f3f5}
+#welcome.s5-entry-host .s5-entry-transition-actions button:hover{background:#42494e;border-color:#e6a47b}

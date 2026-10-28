@@ -1,0 +1,3044 @@
+{
+  "hud": [
+    {
+      "name": "GroupBox_bsmode",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "0",
+        "top": "0",
+        "right": "1024",
+        "bottom": "768"
+      },
+      "skin": {
+        "texture": "",
+        "blend_type": "0",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": ""
+    },
+    {
+      "name": "GroupBox_bs_respawn",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "410",
+        "top": "520",
+        "right": "610",
+        "bottom": "670"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode"
+    },
+    {
+      "name": "Label_2",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "500",
+        "top": "640",
+        "right": "520",
+        "bottom": "660"
+      },
+      "skin": {},
+      "text": "5 winning points",
+      "font": "2002_12",
+      "color": "4294967295",
+      "parent": "GroupBox_bsmode/GroupBox_bs_respawn"
+    },
+    {
+      "name": "Label_1",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "500",
+        "top": "620",
+        "right": "520",
+        "bottom": "640"
+      },
+      "skin": {},
+      "text": "10 survival points",
+      "font": "2002_12",
+      "color": "4294967295",
+      "parent": "GroupBox_bsmode/GroupBox_bs_respawn"
+    },
+    {
+      "name": "GroupBox_bs_respawn_score",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "420",
+        "top": "520",
+        "right": "600",
+        "bottom": "600"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_respawn"
+    },
+    {
+      "name": "Image_score_plus",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "570",
+        "top": "550",
+        "right": "610",
+        "bottom": "590"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_respawn/GroupBox_bs_respawn_score"
+    },
+    {
+      "name": "GroupBox_score_plus_2",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "420",
+        "top": "530",
+        "right": "568",
+        "bottom": "586"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_respawn/GroupBox_bs_respawn_score"
+    },
+    {
+      "name": "GroupBox_score_plus_1",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "494",
+        "top": "530",
+        "right": "568",
+        "bottom": "586"
+      },
+      "skin": {
+        "texture": "ingame_score_number_green_0.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_respawn/GroupBox_bs_respawn_score",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-7.png"
+    },
+    {
+      "name": "Label_chaser_name",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "256",
+        "top": "80",
+        "right": "768",
+        "bottom": "95"
+      },
+      "skin": {},
+      "text": "",
+      "font": "2002_15",
+      "color": "4294967295",
+      "parent": "GroupBox_bsmode"
+    },
+    {
+      "name": "GroupBox_bs_time",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "410",
+        "top": "0",
+        "right": "615",
+        "bottom": "80"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode"
+    },
+    {
+      "name": "GroupBox_bs_time_3",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "550",
+        "top": "0",
+        "right": "615",
+        "bottom": "76"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_time"
+    },
+    {
+      "name": "GroupBox_bs_time_2",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "480",
+        "top": "0",
+        "right": "545",
+        "bottom": "76"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_time"
+    },
+    {
+      "name": "GroupBox_bs_time_1",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "410",
+        "top": "0",
+        "right": "475",
+        "bottom": "76"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_time"
+    },
+    {
+      "name": "Label_bs_chaser",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "500",
+        "top": "300",
+        "right": "520",
+        "bottom": "320"
+      },
+      "skin": {},
+      "text": "12345",
+      "font": "2002_20",
+      "color": "4294967040",
+      "parent": "GroupBox_bsmode"
+    },
+    {
+      "name": "GroupBox_Score",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "405",
+        "top": "120",
+        "right": "805",
+        "bottom": "150"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode"
+    },
+    {
+      "name": "Label_bs_username",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "375",
+        "top": "124",
+        "right": "395",
+        "bottom": "144"
+      },
+      "skin": {},
+      "text": "Chaser",
+      "font": "2002_12",
+      "color": "4294901760",
+      "parent": "GroupBox_bsmode/GroupBox_Score"
+    },
+    {
+      "name": "GroupBox_score_box_bonus",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "405",
+        "top": "120",
+        "right": "805",
+        "bottom": "147"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score"
+    },
+    {
+      "name": "Image_score_20",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "785",
+        "top": "120",
+        "right": "807",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-17.png"
+    },
+    {
+      "name": "Image_score_19",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "765",
+        "top": "120",
+        "right": "787",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-18.png"
+    },
+    {
+      "name": "Image_score_18",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "745",
+        "top": "120",
+        "right": "767",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-19.png"
+    },
+    {
+      "name": "Image_score_17",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "725",
+        "top": "120",
+        "right": "747",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-20.png"
+    },
+    {
+      "name": "Image_score_16",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "705",
+        "top": "120",
+        "right": "727",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-21.png"
+    },
+    {
+      "name": "Image_score_15",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "685",
+        "top": "120",
+        "right": "707",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-22.png"
+    },
+    {
+      "name": "Image_score_14",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "665",
+        "top": "120",
+        "right": "687",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-23.png"
+    },
+    {
+      "name": "Image_score_13",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "645",
+        "top": "120",
+        "right": "667",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-24.png"
+    },
+    {
+      "name": "Image_score_12",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "625",
+        "top": "120",
+        "right": "647",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-25.png"
+    },
+    {
+      "name": "Image_score_11",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "605",
+        "top": "120",
+        "right": "627",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-26.png"
+    },
+    {
+      "name": "Image_score_10",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "584",
+        "top": "120",
+        "right": "606",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-27.png"
+    },
+    {
+      "name": "Image_score_09",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "564",
+        "top": "120",
+        "right": "586",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-28.png"
+    },
+    {
+      "name": "Image_score_08",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "544",
+        "top": "120",
+        "right": "566",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-29.png"
+    },
+    {
+      "name": "Image_score_07",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "524",
+        "top": "120",
+        "right": "546",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-30.png"
+    },
+    {
+      "name": "Image_score_06",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "504",
+        "top": "120",
+        "right": "526",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-31.png"
+    },
+    {
+      "name": "Image_score_05",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "484",
+        "top": "120",
+        "right": "506",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-32.png"
+    },
+    {
+      "name": "Image_score_04",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "464",
+        "top": "120",
+        "right": "486",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-33.png"
+    },
+    {
+      "name": "Image_score_03",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "444",
+        "top": "120",
+        "right": "466",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-34.png"
+    },
+    {
+      "name": "Image_score_02",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "424",
+        "top": "120",
+        "right": "446",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-35.png"
+    },
+    {
+      "name": "Image_score_01",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "405",
+        "top": "120",
+        "right": "427",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.769531",
+        "top": "0.648438",
+        "right": "0.812500",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box_bonus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-36.png"
+    },
+    {
+      "name": "GroupBox_score_box",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "405",
+        "top": "120",
+        "right": "805",
+        "bottom": "147"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score"
+    },
+    {
+      "name": "Image_score_20",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "785",
+        "top": "120",
+        "right": "807",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-38.png"
+    },
+    {
+      "name": "Image_score_19",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "765",
+        "top": "120",
+        "right": "787",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-39.png"
+    },
+    {
+      "name": "Image_score_18",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "745",
+        "top": "120",
+        "right": "767",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-40.png"
+    },
+    {
+      "name": "Image_score_17",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "725",
+        "top": "120",
+        "right": "747",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-41.png"
+    },
+    {
+      "name": "Image_score_16",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "705",
+        "top": "120",
+        "right": "727",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-42.png"
+    },
+    {
+      "name": "Image_score_15",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "685",
+        "top": "120",
+        "right": "707",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-43.png"
+    },
+    {
+      "name": "Image_score_14",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "665",
+        "top": "120",
+        "right": "687",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-44.png"
+    },
+    {
+      "name": "Image_score_13",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "645",
+        "top": "120",
+        "right": "667",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-45.png"
+    },
+    {
+      "name": "Image_score_12",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "625",
+        "top": "120",
+        "right": "647",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-46.png"
+    },
+    {
+      "name": "Image_score_11",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "605",
+        "top": "120",
+        "right": "627",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-47.png"
+    },
+    {
+      "name": "Image_score_10",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "584",
+        "top": "120",
+        "right": "606",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-48.png"
+    },
+    {
+      "name": "Image_score_09",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "564",
+        "top": "120",
+        "right": "586",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-49.png"
+    },
+    {
+      "name": "Image_score_08",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "544",
+        "top": "120",
+        "right": "566",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-50.png"
+    },
+    {
+      "name": "Image_score_07",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "524",
+        "top": "120",
+        "right": "546",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-51.png"
+    },
+    {
+      "name": "Image_score_06",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "504",
+        "top": "120",
+        "right": "526",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-52.png"
+    },
+    {
+      "name": "Image_score_05",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "484",
+        "top": "120",
+        "right": "506",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-53.png"
+    },
+    {
+      "name": "Image_score_04",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "464",
+        "top": "120",
+        "right": "486",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-54.png"
+    },
+    {
+      "name": "Image_score_03",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "444",
+        "top": "120",
+        "right": "466",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-55.png"
+    },
+    {
+      "name": "Image_score_02",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "424",
+        "top": "120",
+        "right": "446",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-56.png"
+    },
+    {
+      "name": "Image_score_01",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "405",
+        "top": "120",
+        "right": "427",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.720703",
+        "top": "0.648438",
+        "right": "0.763672",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_box",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-57.png"
+    },
+    {
+      "name": "GroupBox_score_back",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "405",
+        "top": "120",
+        "right": "805",
+        "bottom": "147"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score"
+    },
+    {
+      "name": "Image_score_20",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "785",
+        "top": "120",
+        "right": "807",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-59.png"
+    },
+    {
+      "name": "Image_score_19",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "765",
+        "top": "120",
+        "right": "787",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-60.png"
+    },
+    {
+      "name": "Image_score_18",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "745",
+        "top": "120",
+        "right": "767",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-61.png"
+    },
+    {
+      "name": "Image_score_17",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "725",
+        "top": "120",
+        "right": "747",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-62.png"
+    },
+    {
+      "name": "Image_score_16",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "705",
+        "top": "120",
+        "right": "727",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-63.png"
+    },
+    {
+      "name": "Image_score_15",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "685",
+        "top": "120",
+        "right": "707",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-64.png"
+    },
+    {
+      "name": "Image_score_14",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "665",
+        "top": "120",
+        "right": "687",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-65.png"
+    },
+    {
+      "name": "Image_score_13",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "645",
+        "top": "120",
+        "right": "667",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-66.png"
+    },
+    {
+      "name": "Image_score_12",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "625",
+        "top": "120",
+        "right": "647",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-67.png"
+    },
+    {
+      "name": "Image_score_11",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "605",
+        "top": "120",
+        "right": "627",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-68.png"
+    },
+    {
+      "name": "Image_score_10",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "584",
+        "top": "120",
+        "right": "606",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-69.png"
+    },
+    {
+      "name": "Image_score_09",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "564",
+        "top": "120",
+        "right": "586",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-70.png"
+    },
+    {
+      "name": "Image_score_08",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "544",
+        "top": "120",
+        "right": "566",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-71.png"
+    },
+    {
+      "name": "Image_score_07",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "524",
+        "top": "120",
+        "right": "546",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-72.png"
+    },
+    {
+      "name": "Image_score_06",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "504",
+        "top": "120",
+        "right": "526",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-73.png"
+    },
+    {
+      "name": "Image_score_05",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "484",
+        "top": "120",
+        "right": "506",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-74.png"
+    },
+    {
+      "name": "Image_score_04",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "464",
+        "top": "120",
+        "right": "486",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-75.png"
+    },
+    {
+      "name": "Image_score_03",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "444",
+        "top": "120",
+        "right": "466",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-76.png"
+    },
+    {
+      "name": "Image_score_02",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "424",
+        "top": "120",
+        "right": "446",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-77.png"
+    },
+    {
+      "name": "Image_score_01",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "405",
+        "top": "120",
+        "right": "427",
+        "bottom": "147"
+      },
+      "skin": {
+        "texture": "ingame2.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.818359",
+        "top": "0.648438",
+        "right": "0.861328",
+        "bottom": "0.703125"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_Score/GroupBox_score_back",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-78.png"
+    },
+    {
+      "name": "GroupBox_bs_damage",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "345",
+        "top": "150",
+        "right": "695",
+        "bottom": "195"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode"
+    },
+    {
+      "name": "Label_bs_1",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "734",
+        "top": "165",
+        "right": "754",
+        "bottom": "195"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "4294967295",
+      "parent": "GroupBox_bsmode/GroupBox_bs_damage"
+    },
+    {
+      "name": "ProgressBar_bs_damage",
+      "type": "CGUI_ProgressBar",
+      "rect": {
+        "left": "345",
+        "top": "150",
+        "right": "686",
+        "bottom": "194"
+      },
+      "skin": {
+        "texture": "arcade_hpgauge.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.003906",
+        "top": "0.175781",
+        "right": "0.669922",
+        "bottom": "0.261719"
+      },
+      "text": "",
+      "font": "2002_10",
+      "color": "4294967295",
+      "parent": "GroupBox_bsmode/GroupBox_bs_damage",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-81.png"
+    },
+    {
+      "name": "Label_bs_2",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "365",
+        "top": "163",
+        "right": "415",
+        "bottom": "178"
+      },
+      "skin": {},
+      "text": "Win score",
+      "font": "2002_12",
+      "color": "4286611584",
+      "parent": "GroupBox_bsmode/GroupBox_bs_damage"
+    },
+    {
+      "name": "GroupBox_bs_myscore",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "0",
+        "top": "0",
+        "right": "250",
+        "bottom": "200"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode"
+    },
+    {
+      "name": "GroupBox_score_plus",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "150",
+        "top": "110",
+        "right": "261",
+        "bottom": "138"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "Image_score_plus",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "150",
+        "top": "110",
+        "right": "178",
+        "bottom": "138"
+      },
+      "skin": {
+        "texture": "ingame_etc_exp_plus.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.640625",
+        "top": "0.250000",
+        "right": "0.890625",
+        "bottom": "0.781250"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore/GroupBox_score_plus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-85.png"
+    },
+    {
+      "name": "GroupBox_score_plus_2",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "180",
+        "top": "110",
+        "right": "254",
+        "bottom": "138"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore/GroupBox_score_plus"
+    },
+    {
+      "name": "GroupBox_score_plus_1",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "180",
+        "top": "110",
+        "right": "217",
+        "bottom": "138"
+      },
+      "skin": {
+        "texture": "ingame_score_number_green_0.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore/GroupBox_score_plus",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-87.png"
+    },
+    {
+      "name": "GroupBox_score_2",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "10",
+        "top": "110",
+        "right": "121",
+        "bottom": "138"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "GroupBox_score_2_3",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "10",
+        "top": "110",
+        "right": "121",
+        "bottom": "138"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore/GroupBox_score_2"
+    },
+    {
+      "name": "GroupBox_score_2_2",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "10",
+        "top": "110",
+        "right": "84",
+        "bottom": "138"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore/GroupBox_score_2"
+    },
+    {
+      "name": "GroupBox_score_2_1",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "10",
+        "top": "110",
+        "right": "47",
+        "bottom": "138"
+      },
+      "skin": {
+        "texture": "ingame_score_number_green_0.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore/GroupBox_score_2",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-91.png"
+    },
+    {
+      "name": "GroupBox_score_1",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "10",
+        "top": "50",
+        "right": "121",
+        "bottom": "78"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "GroupBox_score_1_3",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "10",
+        "top": "50",
+        "right": "121",
+        "bottom": "78"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore/GroupBox_score_1"
+    },
+    {
+      "name": "GroupBox_score_1_1",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "10",
+        "top": "50",
+        "right": "47",
+        "bottom": "78"
+      },
+      "skin": {
+        "texture": "ingame_score_number_red_0.dds",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore/GroupBox_score_1",
+      "sprite": "/assets/s5runtime/chaser/ui/hud-94.png"
+    },
+    {
+      "name": "GroupBox_score_1_2",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "10",
+        "top": "50",
+        "right": "84",
+        "bottom": "78"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore/GroupBox_score_1"
+    },
+    {
+      "name": "Label_bs_myscore",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "10",
+        "top": "90",
+        "right": "60",
+        "bottom": "105"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "My Points",
+      "font": "2002_12",
+      "color": "4294967295",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "Label_bs_1st",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "10",
+        "top": "30",
+        "right": "60",
+        "bottom": "45"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "1st",
+      "font": "2002_12",
+      "color": "4294967295",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "Label_bs_score_proceed",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "40",
+        "top": "5",
+        "right": "90",
+        "bottom": "20"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "Total score",
+      "font": "2002_15",
+      "color": "4292927712",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "Image_bs_icon_1",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "120",
+        "top": "40",
+        "right": "160",
+        "bottom": "80"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "Image_bs_icon_2",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "170",
+        "top": "40",
+        "right": "210",
+        "bottom": "80"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "Image_bs_icon_3",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "120",
+        "top": "100",
+        "right": "160",
+        "bottom": "140"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "Image_bs_icon_4",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "170",
+        "top": "100",
+        "right": "210",
+        "bottom": "140"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_myscore"
+    },
+    {
+      "name": "GroupBox_bs_time_out",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "410",
+        "top": "0",
+        "right": "615",
+        "bottom": "80"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode"
+    },
+    {
+      "name": "GroupBox_bs_time_3",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "550",
+        "top": "0",
+        "right": "615",
+        "bottom": "76"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_time_out"
+    },
+    {
+      "name": "GroupBox_bs_time_2",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "480",
+        "top": "0",
+        "right": "545",
+        "bottom": "76"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_time_out"
+    },
+    {
+      "name": "GroupBox_bs_time_1",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "410",
+        "top": "0",
+        "right": "475",
+        "bottom": "76"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_bsmode/GroupBox_bs_time_out"
+    }
+  ],
+  "roster": [
+    {
+      "name": "GroupBox_scoreboard_bs",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "0",
+        "top": "96",
+        "right": "1024",
+        "bottom": "666"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": ""
+    },
+    {
+      "name": "GroupBox_scoreboard_bs_betateam",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "500",
+        "top": "256",
+        "right": "1011",
+        "bottom": "586"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs"
+    },
+    {
+      "name": "ListBox_scoreboard_bs_betateam",
+      "type": "CGUI_ListBox",
+      "rect": {
+        "left": "500",
+        "top": "286",
+        "right": "1012",
+        "bottom": "586"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam"
+    },
+    {
+      "name": "GroupBox_scoreboard_bs_betateamlist",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "500",
+        "top": "256",
+        "right": "1011",
+        "bottom": "286"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam"
+    },
+    {
+      "name": "Label_scoreboard_bs_betateamlist_damage",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "860",
+        "top": "256",
+        "right": "930",
+        "bottom": "286"
+      },
+      "skin": {},
+      "text": "Damage",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam/GroupBox_scoreboard_bs_betateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_betateamlist_ping",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "930",
+        "top": "256",
+        "right": "1010",
+        "bottom": "286"
+      },
+      "skin": {},
+      "text": "Ping",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam/GroupBox_scoreboard_bs_betateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_betateamlist_status",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "795",
+        "top": "256",
+        "right": "860",
+        "bottom": "286"
+      },
+      "skin": {},
+      "text": "State",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam/GroupBox_scoreboard_bs_betateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_betateamlist_kill",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "715",
+        "top": "256",
+        "right": "795",
+        "bottom": "286"
+      },
+      "skin": {},
+      "text": "Points",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam/GroupBox_scoreboard_bs_betateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_betateamlist_score",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "675",
+        "top": "256",
+        "right": "715",
+        "bottom": "286"
+      },
+      "skin": {},
+      "text": "Chaser",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam/GroupBox_scoreboard_bs_betateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_betateamlist_username",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "500",
+        "top": "256",
+        "right": "675",
+        "bottom": "286"
+      },
+      "skin": {},
+      "text": "                     Name",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam/GroupBox_scoreboard_bs_betateamlist"
+    },
+    {
+      "name": "GroupBox_scoreboard_bs_betateambar",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "500",
+        "top": "256",
+        "right": "1011",
+        "bottom": "286"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam"
+    },
+    {
+      "name": "GRAY_BAR_Image",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "500",
+        "top": "256",
+        "right": "1011",
+        "bottom": "286"
+      },
+      "skin": {
+        "texture": "score_gray_bar.tga",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam/GroupBox_scoreboard_bs_betateambar",
+      "sprite": "/assets/s5runtime/chaser/ui/roster-11.png"
+    },
+    {
+      "name": "GREEN_BAR_Image",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "500",
+        "top": "256",
+        "right": "1011",
+        "bottom": "286"
+      },
+      "skin": {
+        "texture": "score_green_bar.tga",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam/GroupBox_scoreboard_bs_betateambar",
+      "sprite": "/assets/s5runtime/chaser/ui/roster-12.png"
+    },
+    {
+      "name": "RED_BAR_Image",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "500",
+        "top": "256",
+        "right": "1011",
+        "bottom": "286"
+      },
+      "skin": {
+        "texture": "score_red_bar.tga",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam/GroupBox_scoreboard_bs_betateambar",
+      "sprite": "/assets/s5runtime/chaser/ui/roster-13.png"
+    },
+    {
+      "name": "Image_2",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "500",
+        "top": "436",
+        "right": "1012",
+        "bottom": "586"
+      },
+      "skin": {
+        "texture": "scoreboard_back.tga",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "0.308594",
+        "bottom": "0.292969"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam",
+      "sprite": "/assets/s5runtime/chaser/ui/roster-14.png"
+    },
+    {
+      "name": "Image_1",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "500",
+        "top": "286",
+        "right": "1012",
+        "bottom": "436"
+      },
+      "skin": {
+        "texture": "scoreboard_back.tga",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "0.308594",
+        "bottom": "0.292969"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_betateam",
+      "sprite": "/assets/s5runtime/chaser/ui/roster-15.png"
+    },
+    {
+      "name": "GroupBox_scoreboard_bs_alphateam",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "500",
+        "top": "166",
+        "right": "1011",
+        "bottom": "221"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs"
+    },
+    {
+      "name": "ListBox_scoreboard_bs_alphateam",
+      "type": "CGUI_ListBox",
+      "rect": {
+        "left": "500",
+        "top": "196",
+        "right": "1012",
+        "bottom": "221"
+      },
+      "skin": {
+        "texture": "scoreboard_back.tga",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "0.308594",
+        "bottom": "0.048828"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam",
+      "sprite": "/assets/s5runtime/chaser/ui/roster-17.png"
+    },
+    {
+      "name": "GroupBox_scoreboard_bs_alphateamlist",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "500",
+        "top": "166",
+        "right": "1011",
+        "bottom": "196"
+      },
+      "skin": {
+        "texture": "back.dds",
+        "blend_type": "2",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam"
+    },
+    {
+      "name": "Label_scoreboard_bs_alphateamlist_damage",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "860",
+        "top": "166",
+        "right": "930",
+        "bottom": "196"
+      },
+      "skin": {},
+      "text": "Damage",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam/GroupBox_scoreboard_bs_alphateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_alphateamlist_ping",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "930",
+        "top": "166",
+        "right": "1010",
+        "bottom": "196"
+      },
+      "skin": {},
+      "text": "Ping",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam/GroupBox_scoreboard_bs_alphateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_alphateamlist_status",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "795",
+        "top": "166",
+        "right": "860",
+        "bottom": "196"
+      },
+      "skin": {},
+      "text": "State",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam/GroupBox_scoreboard_bs_alphateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_alphateamlist_kill",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "715",
+        "top": "166",
+        "right": "795",
+        "bottom": "196"
+      },
+      "skin": {},
+      "text": "Points",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam/GroupBox_scoreboard_bs_alphateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_alphateamlist_score",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "675",
+        "top": "166",
+        "right": "715",
+        "bottom": "196"
+      },
+      "skin": {},
+      "text": "Chaser",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam/GroupBox_scoreboard_bs_alphateamlist"
+    },
+    {
+      "name": "Label_scoreboard_bs_alphateamlist_username",
+      "type": "CGUI_Label",
+      "rect": {
+        "left": "500",
+        "top": "166",
+        "right": "675",
+        "bottom": "196"
+      },
+      "skin": {},
+      "text": "                     Name",
+      "font": "2002_12",
+      "color": "4290822336",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam/GroupBox_scoreboard_bs_alphateamlist"
+    },
+    {
+      "name": "GroupBox_scoreboard_bs_alphateambar",
+      "type": "CGUI_GroupBox",
+      "rect": {
+        "left": "500",
+        "top": "166",
+        "right": "1011",
+        "bottom": "196"
+      },
+      "skin": {},
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam"
+    },
+    {
+      "name": "GRAY_BAR_Image",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "500",
+        "top": "166",
+        "right": "1011",
+        "bottom": "196"
+      },
+      "skin": {
+        "texture": "score_gray_bar.tga",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam/GroupBox_scoreboard_bs_alphateambar",
+      "sprite": "/assets/s5runtime/chaser/ui/roster-26.png"
+    },
+    {
+      "name": "GREEN_BAR_Image",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "500",
+        "top": "166",
+        "right": "1011",
+        "bottom": "196"
+      },
+      "skin": {
+        "texture": "score_green_bar.tga",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam/GroupBox_scoreboard_bs_alphateambar",
+      "sprite": "/assets/s5runtime/chaser/ui/roster-27.png"
+    },
+    {
+      "name": "RED_BAR_Image",
+      "type": "CGUI_Image",
+      "rect": {
+        "left": "500",
+        "top": "166",
+        "right": "1011",
+        "bottom": "196"
+      },
+      "skin": {
+        "texture": "score_red_bar.tga",
+        "blend_type": "1",
+        "flip_type": "0",
+        "texture_filter": "true",
+        "left": "0.0",
+        "top": "0.0",
+        "right": "1.0",
+        "bottom": "1.0"
+      },
+      "text": "",
+      "font": "",
+      "color": "",
+      "parent": "GroupBox_scoreboard_bs/GroupBox_scoreboard_bs_alphateam/GroupBox_scoreboard_bs_alphateambar",
+      "sprite": "/assets/s5runtime/chaser/ui/roster-28.png"
+    }
+  ],
+  "textures": {
+    "ingame_score_number_green_6.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_6.png",
+    "ingame_score_number_white_8.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_8.png",
+    "ingame_score_number_green_7.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_7.png",
+    "ingame_score_number_white_0.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_0.png",
+    "bs_short_2.dds": "/assets/s5runtime/chaser/ui/bs_short_2.png",
+    "ingame_score_number_white_6.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_6.png",
+    "ingame_etc_exp_plus.dds": "/assets/s5runtime/chaser/ui/ingame_etc_exp_plus.png",
+    "score_green_bar.tga": "/assets/s5runtime/chaser/ui/score_green_bar.png",
+    "ingame_score_number_white_7.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_7.png",
+    "ingame_score_number_white_1.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_1.png",
+    "bs_long_1.dds": "/assets/s5runtime/chaser/ui/bs_long_1.png",
+    "bs_short_3.dds": "/assets/s5runtime/chaser/ui/bs_short_3.png",
+    "ingame_score_number_green_1.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_1.png",
+    "ingame_score_number_green_9.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_9.png",
+    "ingame_score_number_green_0.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_0.png",
+    "arcade_hpgauge.dds": "/assets/s5runtime/chaser/ui/arcade_hpgauge.png",
+    "ingame_score_number_white_3.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_3.png",
+    "ingame_score_number_white_9.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_9.png",
+    "ingame_score_number_green_3.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_3.png",
+    "ingame_score_number_white_2.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_2.png",
+    "ingame_score_number_red_0.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_red_0.png",
+    "ingame2.dds": "/assets/s5runtime/chaser/ui/ingame2.png",
+    "ingame_score_number_green_8.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_8.png",
+    "ingame_score_number_green_2.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_2.png",
+    "score_red_bar.tga": "/assets/s5runtime/chaser/ui/score_red_bar.png",
+    "ingame_score_number_white_4.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_4.png",
+    "ingame_score_number_white_5.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_white_5.png",
+    "ingame_score_number_green_4.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_4.png",
+    "scoreboard_back.tga": "/assets/s5runtime/chaser/ui/scoreboard_back.png",
+    "ingame_score_number_green_5.dds": "/assets/s5runtime/chaser/ui/ingame_score_number_green_5.png",
+    "bs_long_2.dds": "/assets/s5runtime/chaser/ui/bs_long_2.png",
+    "score_gray_bar.tga": "/assets/s5runtime/chaser/ui/score_gray_bar.png",
+    "bs_long_3.dds": "/assets/s5runtime/chaser/ui/bs_long_3.png",
+    "bs_short_1.dds": "/assets/s5runtime/chaser/ui/bs_short_1.png"
+  },
+  "source": "gui/new/maingame_ingame.xui + score_board_ingame.xui",
+  "referenceSize": [
+    1024,
+    768
+  ]
+}

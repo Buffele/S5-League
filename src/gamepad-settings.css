@@ -1,0 +1,14 @@
+#welcome .gamepad-settings.gamepad-settings .character-appearance-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.gamepad-settings .character-appearance-fields>label{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:6px 10px;min-width:0;font-size:12px;color:#d9e7f0}
+.gamepad-settings .character-appearance-fields>label>span{grid-column:1/-1}
+.gamepad-settings .character-appearance-fields>label:has(input[type=checkbox])>span{grid-column:1}
+.gamepad-settings input[type=range]{grid-column:1;grid-row:2;width:100%;accent-color:#6ff4ea;margin:2px 0}
+.gamepad-settings input[type=checkbox]{width:18px;height:18px;accent-color:#6ff4ea}
+.gamepad-settings output{grid-column:2;grid-row:2;font-size:11px;font-variant-numeric:tabular-nums;color:#9fe9e9}
+.gamepad-settings input[type=checkbox]+output{display:none}
+.gamepad-settings p{font-size:12px;line-height:1.65;color:#bbd0df;margin:12px 0 0}
+.gamepad-settings [data-gamepad-status]{color:#9fe9e9;margin:0 0 12px}
+.gamepad-settings details{margin-top:12px;font-size:12px}
+.gamepad-settings summary{cursor:pointer;color:#9fe9e9;padding:6px 0}
+.gamepad-settings input:focus-visible{outline:2px solid #6ff4ea;outline-offset:3px}
+@media(max-width:600px){#welcome .gamepad-settings.gamepad-settings .character-appearance-fields{grid-template-columns:1fr}}

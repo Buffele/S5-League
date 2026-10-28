@@ -1,0 +1,363 @@
+/* S4 League source artwork and fonts, adapted to S5's existing mode state.
+   Provenance: docs/UI-S5RUNTIME-S5.md and public/assets/s5runtime/{ui,modes-ui}/ manifests.
+   These declarations are scoped to in-game roots; lobby/preparation stay S5. */
+@font-face{
+ font-family:'S4 Secondary UI';
+ src:url('/assets/s5runtime/modes-ui/webfonts/netsphimere.woff2') format('woff2');
+ font-style:normal;font-weight:400;font-display:swap;
+}
+@font-face{
+ font-family:'S4 Secondary Score';
+ src:url('/assets/s5runtime/modes-ui/webfonts/netsphimere-static.woff2') format('woff2');
+ font-style:normal;font-weight:400;font-display:swap;
+}
+@font-face{
+ font-family:'S4 Secondary Legacy';
+ src:url('/assets/s5runtime/ui/2002.ttf') format('truetype');
+ font-style:normal;font-weight:400;font-display:swap;
+}
+@font-face{
+ font-family:'S4 Secondary Header';
+ src:url('/assets/s5runtime/modes-ui/webfonts/netsphimere-semiboldcondenseditalic.woff2') format('woff2');
+ font-style:normal;font-weight:400;font-display:swap;
+}
+:where(.s4-secondary-mode-ui,.s4-chaser-ui){
+ --s4-secondary-font:'S4 Secondary UI',Arial,sans-serif;
+ --s4-secondary-score-font:'S4 Secondary Score','S4 Secondary UI',Arial,sans-serif;
+}
+#match-ui.s4-secondary-mode-ui,#practice-session.s4-secondary-mode-ui{
+ font-family:var(--s4-secondary-font);font-variant-numeric:tabular-nums;
+ color:#d9e0ea;pointer-events:none;
+}
+.s4-secondary-mode-ui[hidden],.s4-secondary-mode-ui [hidden]{display:none!important}
+.s4-secondary-mode-ui :is(button,summary,a){pointer-events:auto}
+.s4-secondary-mode-ui :is(button,summary,a):focus-visible{
+ outline:2px solid #d9e0ea;outline-offset:3px;
+}
+.s4-secondary-mode-ui button{
+ min-height:44px;box-sizing:border-box;border:0;border-radius:0;
+ padding:10px 24px;color:#d9e0ea;cursor:pointer;
+ font-family:var(--s4-secondary-font);
+ background:transparent url('/assets/s5runtime/ui/escape-button.png') center/100% 100% no-repeat;
+}
+.s4-secondary-mode-ui button:hover{
+ background-image:url('/assets/s5runtime/ui/escape-button_hover_blue.png');
+}
+.s4-secondary-mode-ui button:disabled{cursor:default;opacity:.55}
+#match-ui.s4-secondary-mode-ui .td-announcement{
+ box-sizing:border-box;min-width:0;width:min(520px,calc(100vw - 24px));
+ max-height:72vh;overflow:auto;border:0;border-radius:0;box-shadow:none;
+ padding:24px 28px;color:#d9e0ea;
+ background:transparent url('/assets/s5runtime/ui/escape-bg.png') center/cover no-repeat;
+ font-family:var(--s4-secondary-font);
+}
+#match-ui.s4-secondary-mode-ui .td-announcement button{
+ font-family:var(--s4-secondary-font);color:#d9e0ea;
+ background:transparent url('/assets/s5runtime/ui/escape-button.png') center/100% 100% no-repeat;
+}
+#match-ui.s4-secondary-mode-ui .td-announcement button:hover{
+ background-image:url('/assets/s5runtime/ui/escape-button_hover_blue.png');
+}
+@media(max-width:650px){
+ #match-ui.s4-secondary-mode-ui .td-announcement{padding:18px 16px}
+}
+@media(prefers-reduced-motion:reduce){
+ .s4-secondary-mode-ui .td-announcement{animation:none!important}
+}
+
+
+/* secondary-mode-ui.css */
+/* Authenticated native assets, S5 layout/state adaptation. No native timing claim. */
+.s4-secondary-mode-ui[data-s4-mode-ui="captain"],.s4-secondary-mode-ui[data-s4-mode-ui="siege"]{font-family:var(--s4-secondary-font,sans-serif)}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .td-clock b,.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .td-team strong{font-family:var(--s4-secondary-score-font,sans-serif)}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .td-objective,.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .td-announcement{background:transparent url('/assets/s5runtime/ui/escape-bg.png') center/100% 100% no-repeat;border:0;border-radius:0;box-shadow:none;font-family:var(--s4-secondary-font,sans-serif)}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .td-announcement{animation:none}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .td-announcement button{background:transparent url('/assets/s5runtime/ui/escape-button.png') center/100% 100% no-repeat;border:0;border-radius:0;font-family:var(--s4-secondary-font,sans-serif)}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .td-announcement button:hover{background-image:url('/assets/s5runtime/ui/escape-button_hover_blue.png')}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .td-progress{background:transparent url('/assets/s5runtime/ui/scoreboard_timebar.png') center/100% 100% no-repeat}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .td-progress i{background:transparent url('/assets/s5runtime/ui/scoreboard_timebar.png') center/100% 100% no-repeat}
+.s4-secondary-mode-ui[data-s4-mode-ui="captain"] .td-diamond{display:block;background:transparent url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/captainmark.png') center/contain no-repeat;transform:none;width:32px;height:32px;border:0}
+.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-diamond{display:none}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .match-feed p{background:transparent url('/assets/s5runtime/modes-ui/gui/new/score_gray_bar.png') center/100% 100% no-repeat;border:0;border-radius:0;font-family:var(--s4-secondary-font,sans-serif)}
+
+
+/* battle-royal.css.fragment */
+/* Merge into root-owned s4-secondary-mode-ui.css. Asset placement is an S5 adaptation. */
+.s4-secondary-mode-ui[data-s4-mode-ui=battleroyal]{font-family:var(--s4-secondary-font,Arial,sans-serif)}
+/* No BR-specific outer panel mapping is established. Reuse the authenticated
+   common panel; the ranking's children already draw the source atlas crops. */
+.s4-secondary-mode-ui[data-s4-mode-ui=battleroyal] .td-objective,.s4-secondary-mode-ui[data-s4-mode-ui=battleroyal] .td-announcement{background:transparent url('/assets/s5runtime/ui/escape-bg.png') center/100% 100% no-repeat}
+.s4-secondary-mode-ui[data-s4-mode-ui=battleroyal] .match-roster{background:none}
+/* The legacy Chaser notice also needs a panel, not the uncropped atlas. */
+#match-ui.s4-chaser-ui .ch-notice{background:transparent url('/assets/s5runtime/ui/escape-bg.png') center/100% 100% no-repeat}
+.s4-br-clock-icon{width:18px;height:18px;object-fit:contain}.s4-br-result-art{display:block;width:min(300px,70vw);max-height:110px;object-fit:contain;margin:auto}
+.s4-secondary-mode-ui[data-s4-mode-ui=battleroyal] button{background:url('/assets/s5runtime/ui/escape-button.png') center/100% 100% no-repeat}
+.s4-secondary-mode-ui[data-s4-mode-ui=battleroyal] .td-progress{background:url('/assets/s5runtime/ui/scoreboard_timebar.png') center/100% 100% no-repeat}
+
+
+/* practice.css */
+/* Common authenticated S4 artwork; placement adapts partial S5 Practice.
+   Preserve the source frame's 598:238 ratio, including on narrow viewports. */
+#practice-session.s4-secondary-mode-ui{position:fixed;inset:0;z-index:25}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="practice"],[data-s4-mode-ui="practice-session"]) .s4-practice-board{
+ position:absolute;top:8px;left:50%;transform:translateX(-50%);box-sizing:border-box;
+ width:min(390px,calc(100vw - 24px));aspect-ratio:598/238;height:auto;min-height:0;
+ display:flex;align-items:flex-start;justify-content:center;gap:18px;padding:20px 20px 46px;
+ background:none;border:0;border-radius:0;box-shadow:none;
+}
+.s4-secondary-mode-ui .s4-practice-frame{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;z-index:-1}
+#match-ui[data-s4-mode-ui="practice"] :is(.td-team,.td-clock){min-width:0;background:none;border:0;box-shadow:none;padding:0;text-align:center}
+#match-ui[data-s4-mode-ui="practice"] .td-team{width:90px}
+#match-ui[data-s4-mode-ui="practice"] .td-clock{flex:1}
+.s4-practice-session-clock{text-align:center;width:100%}
+.s4-practice-session-clock :is(small,b,span){display:block}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="practice"],[data-s4-mode-ui="practice-session"]) :is(.td-clock b,.td-team strong,.s4-practice-session-clock b){font:34px var(--s4-secondary-score-font);line-height:1.1;color:#fff}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="practice"],[data-s4-mode-ui="practice-session"]) :is(.td-team span,.td-clock small,.s4-practice-session-clock small){font:12px var(--s4-secondary-font);color:#d9e0ea}
+.s4-secondary-mode-ui:is([data-s4-mode-ui="practice"],[data-s4-mode-ui="practice-session"]) :is(.td-clock>span,.s4-practice-session-clock>span){font-size:11px}
+#match-ui[data-s4-mode-ui="practice"] .td-objective,.s4-practice-session-objective{
+ position:absolute;top:145px;left:16px;box-sizing:border-box;width:330px;max-width:calc(100vw - 32px);
+ display:flex;align-items:center;gap:10px;padding:12px 18px;border:0;border-radius:0;box-shadow:none;
+ background:transparent url('/assets/s5runtime/modes-ui/xui2/sprites/ingame/hud/scoreboard/backdrop_blue.png') center/100% 100% no-repeat;
+}
+.s4-practice-objective-icon{width:20px;height:26px;object-fit:contain;flex:none}
+.s4-practice-session-objective p{margin:0;font-size:13px;color:#d9e0ea;text-shadow:0 1px 3px #000;line-height:1.35}
+.s4-practice-session-status{position:absolute;top:112px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:6px;white-space:nowrap;font-size:12px}
+.s4-practice-session-status img{width:20px;height:20px;object-fit:contain}
+.s4-practice-session-status p{margin:0;color:#d9e0ea;text-shadow:0 1px 3px #000;line-height:1.35}
+.s4-practice-limits{position:absolute;bottom:140px;left:16px;box-sizing:border-box;max-width:min(420px,calc(100vw - 32px));padding:12px 18px;pointer-events:auto;font-size:12px;background:transparent url('/assets/s5runtime/ui/escape-bg.png') center/cover no-repeat}
+.s4-practice-limits summary{cursor:pointer}
+.s4-practice-limits p{max-height:180px;overflow:auto;margin-bottom:0;color:#d9e0ea}
+.s4-practice-actions{position:absolute;right:16px;top:155px;display:flex;flex-direction:column;gap:5px}
+#match-ui[data-s4-mode-ui="practice"] .td-progress{height:4px;background:none}
+#match-ui[data-s4-mode-ui="practice"] .td-progress i{height:4px;transform-origin:left;background:transparent url('/assets/s5runtime/ui/scoreboard_timebar.png') left/100% 100% no-repeat}
+#match-ui[data-s4-mode-ui="practice"] .match-roster{background:transparent url('/assets/s5runtime/ui/escape-bg.png') center/cover no-repeat;border:0;border-radius:0;font-family:var(--s4-secondary-font)}
+@media(max-width:600px){
+ .s4-secondary-mode-ui:is([data-s4-mode-ui="practice"],[data-s4-mode-ui="practice-session"]) .s4-practice-board{width:min(350px,calc(100vw - 20px));padding-top:15px;gap:12px}
+ #match-ui[data-s4-mode-ui="practice"] .td-objective,.s4-practice-session-objective{top:140px;left:12px;max-width:calc(100vw - 24px)}
+ .s4-practice-session-status{top:105px;font-size:11px}
+ .s4-practice-actions{top:230px;bottom:auto;right:12px;min-width:140px}
+ .s4-practice-limits{bottom:240px;left:12px;max-width:calc(100vw - 24px)}
+}
+
+/* score.xui's 598x238 image is the COMPLETE board, not one image per team.
+   Source alpha=(70,18,81,140), beta=(446,18,81,140), time=(198,96,201,138).
+   S5 adds accessible mode/period labels and scales this one frame for readability. */
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]){
+ --s4-score-unit:min(.7px,calc((100vw - 24px) / 598));
+ --s4-score-width:calc(var(--s4-score-unit) * 598);
+ --s4-score-height:calc(var(--s4-score-unit) * 238);
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-scoreboard{
+ position:absolute;top:8px;left:50%;transform:translateX(-50%);
+ display:block;width:var(--s4-score-width);height:var(--s4-score-height);
+ padding:0;border:0;box-shadow:none;filter:none;container-type:inline-size;
+ background:transparent url('/assets/s5runtime/ui/scoreboard_bg_alphablue.png') center/contain no-repeat;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) :is(.td-team,.td-clock){
+ position:absolute;margin:0;padding:0;min-width:0;min-height:0;border:0;
+ border-radius:0;box-shadow:none;background:none;aspect-ratio:auto;
+ text-align:center;gap:0;color:#d9e0ea;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-team{
+ top:7.563%;width:13.545%;height:58.824%;
+ display:flex;flex-direction:column;align-items:center;justify-content:center;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-alpha{left:11.706%}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-beta{left:74.582%}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-team strong{
+ font-family:var(--s4-secondary-score-font);font-size:clamp(22px,9cqw,38px);
+ font-weight:400;line-height:1;font-style:italic;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-team span{
+ order:-1;max-width:100%;font-size:clamp(8px,2.5cqw,11px);
+ line-height:1.2;letter-spacing:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-clock{
+ left:33.11%;top:8.403%;width:33.612%;height:89%;display:block;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-clock small{
+ position:absolute;inset:0 0 auto;display:block;margin:0;
+ font-family:var(--s4-secondary-font);font-size:clamp(9px,2.6cqw,12px);
+ line-height:1.2;letter-spacing:0;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-clock b{
+ position:absolute;left:0;right:0;top:58%;display:block;
+ font-family:var(--s4-secondary-score-font);font-size:clamp(22px,8cqw,34px);
+ line-height:1;font-weight:400;letter-spacing:0;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-clock>span{
+ position:absolute;top:98%;left:-40%;width:180%;display:block;
+ font-family:var(--s4-secondary-font);font-size:10px;line-height:1.2;letter-spacing:0;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"],[data-s4-mode-ui="battleroyal"]) .td-objective{
+ top:calc(24px + var(--s4-score-height));min-width:0;max-width:calc(100vw - 24px);
+ box-sizing:border-box;overflow-wrap:anywhere;
+}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="battleroyal"] .s4-br-clock-icon{
+ position:absolute;left:calc(50% - 9px);top:28%;
+}
+.s4-chaser-ui .ch-replay{min-height:44px}
+
+/* Common recovered result glyphs, not a claim of a Captain/Siege-specific scene.
+   The live text remains in the DOM for assistive technology; draws stay textual. */
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"])[data-phase="result"]:is([data-result="win"],[data-result="defeat"]) .td-announcement [data-title]{
+ width:min(360px,72vw);height:110px;margin:0 auto;overflow:hidden;
+ color:transparent;text-shadow:none;letter-spacing:0;
+ background:transparent url('/assets/s5runtime/ui/win.png') center/contain no-repeat;
+}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"])[data-phase="result"][data-result="defeat"] .td-announcement [data-title]{
+ background-image:url('/assets/s5runtime/ui/defeat.png');
+}
+
+/* The global FPS readout occupies the upper-right corner at narrow widths. */
+@media(max-width:365px){
+ .s4-chaser-ui .ch-round-panel{top:40px}
+}
+
+/* Source-specific UI completion; authenticated layouts, explicit S5 mounting. */
+
+/* native-layout.css */
+/* Source XUI2 scoreboard header: team_panel left/mid/right,62-unit caps.
+   Source logical widths1287; current table scales that layout for S5 viewport.
+   Keep root's final single whole score board. No per-team wholeboard override. */
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .s4-source-mode-roster .native-mode-table th{background:none;isolation:isolate}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .s4-source-header-art{position:absolute;inset:0;z-index:-1;display:block;pointer-events:none}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .s4-source-header-art i{position:absolute;top:0;bottom:0;display:block;background-repeat:no-repeat;background-size:100% 100%;pointer-events:none}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .s4-source-header-left{left:0;width:4.8174cqw}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .s4-source-header-mid{left:4.8174cqw;right:4.8174cqw}
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .s4-source-header-right{right:0;width:4.8174cqw}
+/* Source flags66px at107Y. Existing state has only1point; do not fabricate3.
+   Retain owner labels and accessibility under the source image. */
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .native-siege-point[data-source-ui-slot]{grid-template-columns:66px auto}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .native-siege-point[data-source-ui-slot] .native-siege-point-icon{width:66px;height:66px;background-size:256px 128px!important}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .native-siege-point[data-source-ui-slot] .native-siege-point-icon[data-owner=alpha]{background-position:-2px -2px!important}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .native-siege-point[data-source-ui-slot] .native-siege-point-icon[data-owner=neutral]{background-position:-70px -2px!important}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .native-siege-point[data-source-ui-slot] .native-siege-point-icon[data-owner=beta]{background-position:-138px -2px!important}
+
+/* SCN round art is central; keep status/countdown readable to the side.
+   No text is removed from the accessibility tree; no scene => normal fallback. */
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"]:is([data-native-scene="captain_win"],[data-native-scene="captain_rose"]) .td-announcement{left:16px;top:auto;bottom:100px;transform:none;width:min(280px,calc(100vw - 32px));padding:12px 16px}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"]:is([data-native-scene="captain_win"],[data-native-scene="captain_rose"]) .td-announcement strong{font-size:18px;line-height:1.2}
+
+#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .s4-source-mode-roster .native-mode-table thead tr,#match-ui.s4-secondary-mode-ui:is([data-s4-mode-ui="captain"],[data-s4-mode-ui="siege"]) .s4-source-mode-roster .native-mode-table th{height:4.8174cqw;line-height:4.8174cqw}
+
+/* secondary.css.fragment */
+/* Root-owned shared stylesheet fragment; no unscoped selectors. */
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-board-host{max-width:100%;overflow:auto}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-board{position:relative;width:512px;min-height:55px;color:#e0e0e0;font:12px S4Chaser,Arial,sans-serif;background:url('/assets/s5runtime/chaser/ui/roster-15.png') 0 30px/512px 150px no-repeat,url('/assets/s5runtime/chaser/ui/roster-14.png') 0 180px/512px 150px no-repeat}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-board.s4-board-result{min-height:230px;background:url('/assets/s5runtime/chaser/ui/result-alpha-background-0.png') 0 0/512px 180px no-repeat,url('/assets/s5runtime/chaser/ui/result-alpha-background-1.png') 0 180px/512px 50px no-repeat}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table{display:block;width:512px;border-collapse:collapse;text-shadow:none}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table thead,:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table tbody{display:block}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table tr{position:relative;display:block;height:25px}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table thead tr{height:30px;background:url('/assets/s5runtime/chaser/ui/score_gray_bar.png') left top/511px 30px no-repeat}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table th,:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table td{position:absolute;display:flex;align-items:center;justify-content:center;top:0;bottom:0;box-sizing:border-box;padding:0;border:0;font:12px S4Chaser,Arial,sans-serif;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table th{color:#c0c0c0}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table td[data-field=name],:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table th[data-field=name]{justify-content:flex-start;padding-left:2px}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table tr[data-local=true]{background:url('/assets/s5runtime/chaser/ui/result-local-highlight.png') left center/512px 25px no-repeat;color:#ffff00}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-source-table tr[data-alive=false]{opacity:.55}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-board-details{font:12px S4Chaser,Arial,sans-serif;text-align:left;color:#e0e0e0;padding:8px 0}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-board-details p{font:inherit;white-space:normal}
+:is(#match-ui[data-s4-mode-ui=battleroyal],#match-ui[data-s4-mode-ui=practice],#practice-session[data-s4-mode-ui=practice-session]) .s4-board-details summary{cursor:pointer}
+
+#practice-session.s4-secondary-mode-ui[data-s4-mode-ui="practice-session"] .s4-practice-result{max-width:min(540px,94vw);pointer-events:auto}#practice-session.s4-secondary-mode-ui[data-s4-mode-ui="practice-session"] .s4-practice-result h4{font-size:12px}#practice-session.s4-secondary-mode-ui[data-s4-mode-ui="practice-session"] .s4-practice-health{font-family:var(--s4-secondary-font,S4Chaser,Arial,sans-serif)}
+
+/* Siege source score.xui projection, also observed in the native 1440x1080
+   frame: 598x238 on canvas2880x2160, top66. Desktop uses uniform contain-fit;
+   other aspect ratios and the enlarged narrow reading size are S5 policies.
+   Captain's native projection is not established by this Siege observation. */
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"]{
+ --s4-score-unit:min(calc(100vw/2880),calc(100vh/2160));
+ --s4-score-top:calc(var(--s4-score-unit)*66);
+ --s4-score-width:calc(var(--s4-score-unit)*598);
+ --s4-score-height:calc(var(--s4-score-unit)*238);
+}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-scoreboard{top:var(--s4-score-top);background-size:100% 100%}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-team{
+ top:calc(var(--s4-score-unit)*18);width:calc(var(--s4-score-unit)*81);height:calc(var(--s4-score-unit)*140);display:block;color:#00c5ff;
+}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-alpha{left:calc(var(--s4-score-unit)*70)}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-beta{left:calc(var(--s4-score-unit)*446);color:#ff2c66}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-team strong{
+ display:grid;place-items:center;height:100%;padding-top:calc(var(--s4-score-unit)*6);
+ font:calc(var(--s4-score-unit)*48) 'S4 Secondary Header',Arial,sans-serif;color:inherit;text-shadow:0 0 6px currentColor;
+}
+/* Names and configured limits are accessible data, not extra source labels. */
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-team span,
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-clock>span{
+ position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;
+}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-clock{
+ left:calc(var(--s4-score-unit)*198);top:0;width:calc(var(--s4-score-unit)*201);height:calc(var(--s4-score-unit)*238);
+}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-clock small{
+ top:calc(var(--s4-score-unit)*20);left:calc(var(--s4-score-unit)*2);width:100%;height:calc(var(--s4-score-unit)*66);
+ display:grid;place-items:center;font:calc(var(--s4-score-unit)*24) 'S4 Secondary Header',Arial,sans-serif;color:#d9e0ea;
+}
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"] .td-clock b{
+ top:calc(var(--s4-score-unit)*96);left:0;width:100%;height:calc(var(--s4-score-unit)*138);
+ display:grid;place-items:center;font:calc(var(--s4-score-unit)*46) var(--s4-secondary-score-font,sans-serif);
+}
+@media(max-width:650px){
+ #match-ui.s4-secondary-mode-ui[data-s4-mode-ui="siege"]{--s4-score-unit:min(.5px,calc((100vw - 16px)/598));--s4-score-top:10px}
+}
+
+/* Narrow Captain: four feed entries share two rows in the 58px gap between
+   recovered equipment and HP/SP, including the equipment's status text.
+   The resource panel is (vw - 24) * 267/1276 high, with 40px footer clearance.
+   The objective uses the useful width; result position and text are unchanged. */
+@media(max-width:500px){
+ #match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"] .td-objective{
+  left:12px;right:12px;width:calc(100vw - 24px);transform:none;gap:8px;padding:6px 10px;
+ }
+ #match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"] .td-objective>div{min-width:0;gap:3px}
+ #match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"] .td-objective small,
+ #match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"] .td-objective div>span{font-size:11px;line-height:14px}
+ #match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"] .td-objective b{font-size:14px;line-height:16px}
+ #match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"] .match-feed{
+  top:auto;bottom:calc(44px + (100vw - 24px) * 267 / 1276);
+  left:12px;right:12px;max-height:34px;
+  grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:16px;gap:2px 6px;
+ }
+ #match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"] .match-feed p{
+  box-sizing:border-box;min-width:0;margin:0;padding:1px 6px;
+  font-size:11px;line-height:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+ }
+}
+
+/* Partial Practice keeps actions above one vertical diagnostics scroller.
+   Equipment begins 98 + HUD-height + 108px above the bottom; its name rises
+   another 14px. Reserve 12px before that name. Native tables scroll sideways. */
+@media(max-width:600px){
+ #practice-session.s4-secondary-mode-ui[data-s4-mode-ui="practice-session"] .s4-practice-session-objective{
+  left:12px;right:12px;width:calc(100vw - 24px);max-width:none;padding:8px 12px;gap:8px;
+ }
+ #practice-session.s4-secondary-mode-ui[data-s4-mode-ui="practice-session"] .s4-practice-session-objective p{font-size:12px;line-height:16px}
+ #practice-session.s4-secondary-mode-ui[data-s4-mode-ui="practice-session"] .s4-practice-actions{
+  top:212px;bottom:auto;left:12px;right:12px;min-width:0;
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;
+ }
+ #practice-session.s4-secondary-mode-ui[data-s4-mode-ui="practice-session"] .s4-practice-actions button{
+  width:100%;min-width:0;height:44px;min-height:44px;padding:8px 12px;
+ }
+ #practice-session.s4-secondary-mode-ui[data-s4-mode-ui="practice-session"] .s4-practice-limits{
+  top:268px;bottom:auto;left:12px;right:12px;width:calc(100vw - 24px);max-width:none;
+  max-height:calc(100vh - 504px - (100vw - 24px) * 267 / 1276);
+  overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;
+ }
+ #practice-session.s4-secondary-mode-ui[data-s4-mode-ui="practice-session"] .s4-practice-limits [data-limits]{max-height:none;overflow:visible}
+}
+
+/* During a real Captain round scene, keep the caption above the central art
+   and recovered equipment. Desktop retains its existing lower-left caption. */
+@media(max-width:500px){
+ #match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"]:is([data-native-scene="captain_win"],[data-native-scene="captain_rose"]) .td-announcement{
+  top:calc(94px + var(--s4-score-height));bottom:auto;left:12px;right:12px;width:calc(100vw - 24px);
+ }
+}
+
+/* Captain role/count details belong to the existing Tab roster, with the
+   same live state and source fonts, rather than the center of the play view. */
+#match-ui.s4-secondary-mode-ui[data-s4-mode-ui="captain"] .match-roster>.td-objective{
+ position:static;inset:auto;transform:none;width:auto;max-width:none;margin:0 0 12px;
+ padding:8px 0;background:none;text-align:left;justify-content:flex-start;
+}

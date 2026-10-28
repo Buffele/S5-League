@@ -1,0 +1,800 @@
+{
+  "schema": "bio-lab-native-effects-presentation-v1",
+  "nativeMapId": 19,
+  "sourceSha256": "74c3e4875f32df813dcdb799aa8a8c1a10d210c5b6a0fbcf9c66a885f2da09cc",
+  "bindings": [
+    {
+      "order": 1,
+      "sequence": "bg_biolab_poison_eff_02.seq",
+      "dummy": "biolab_poison_Dummy_01",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 0,
+      "worldRuntimeMatrix": [
+        -0.005908846378326416,
+        0,
+        -0.001041889786720276,
+        0,
+        -1.242029412651391e-10,
+        0.006,
+        7.043893788249988e-10,
+        0,
+        0.001041889786720276,
+        7.152557373046875e-10,
+        -0.005908846378326416,
+        0,
+        -20.14427783203125,
+        2.7790338134765626,
+        55.288664062500004,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 134,
+        "dummy": 135
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 2,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_02",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 5,
+      "worldRuntimeMatrix": [
+        -0.004914913058280945,
+        0,
+        0.0034414572715759277,
+        0,
+        0.0034414572715759277,
+        -9.775241096576792e-10,
+        0.004914913058280945,
+        0,
+        5.606845547845296e-10,
+        0.006,
+        8.007410201571474e-10,
+        0,
+        -21.1083486328125,
+        -2.6005074462890625,
+        44.920810546875,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 136,
+        "dummy": 137
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 3,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_03",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 6,
+      "worldRuntimeMatrix": [
+        -0.003441460132598877,
+        0,
+        0.004914910912513733,
+        0,
+        0.004914910912513733,
+        -9.775241096576792e-10,
+        0.003441460132598877,
+        0,
+        8.007406790966343e-10,
+        0.006,
+        5.606850237427352e-10,
+        0,
+        -30.606820312500002,
+        -2.600507080078125,
+        16.317755859375,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 138,
+        "dummy": 139
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 4,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_04",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 7,
+      "worldRuntimeMatrix": [
+        -0.003856725811958313,
+        0,
+        -0.004596266627311707,
+        0,
+        -0.004596266627311707,
+        -9.775241096576792e-10,
+        0.003856725811958313,
+        0,
+        -7.488269204714016e-10,
+        0.006,
+        6.283404303530915e-10,
+        0,
+        -1.2526466674804688,
+        -2.600507080078125,
+        23.445663574218752,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 140,
+        "dummy": 141
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 5,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_05",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 9,
+      "worldRuntimeMatrix": [
+        -0.005437847256660461,
+        0,
+        0.0025357081890106203,
+        0,
+        0.0025357081890106203,
+        -9.775241096576792e-10,
+        0.005437847256660461,
+        0,
+        4.131193094281116e-10,
+        0.006,
+        8.859377658154699e-10,
+        0,
+        -27.2370205078125,
+        -2.600507080078125,
+        -7.43602294921875,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 142,
+        "dummy": 143
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 6,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_06",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 8,
+      "worldRuntimeMatrix": [
+        -0.005437847256660461,
+        0,
+        0.0025357081890106203,
+        0,
+        0.0025357081890106203,
+        -9.775241096576792e-10,
+        0.005437847256660461,
+        0,
+        4.131193094281116e-10,
+        0.006,
+        8.859377658154699e-10,
+        0,
+        -6.113615112304688,
+        -2.600507080078125,
+        -10.349646240234375,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 144,
+        "dummy": 145
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 7,
+      "sequence": "bg_biolab_poison_eff_01.seq",
+      "dummy": "biolab_poison_Dummy_08",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 11,
+      "worldRuntimeMatrix": [
+        -0.006,
+        0,
+        -9.059748151685199e-10,
+        0,
+        -9.059748151685199e-10,
+        -9.775241096576792e-10,
+        0.006,
+        0,
+        -1.4760203354154644e-16,
+        0.006,
+        9.775241096576792e-10,
+        0,
+        -19.42352490234375,
+        3.17077001953125,
+        54.468181640625,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 146,
+        "dummy": 147
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    },
+    {
+      "order": 8,
+      "sequence": "bg_biolab_poison_eff_02.seq",
+      "dummy": "biolab_poison_Dummy_07",
+      "sourceSceneIndex": 3,
+      "sourceNodeIndex": 10,
+      "worldRuntimeMatrix": [
+        -0.005437847256660461,
+        0,
+        0.0025357081890106203,
+        0,
+        3.022799717200542e-10,
+        0.006,
+        6.482419081521584e-10,
+        0,
+        -0.0025357081890106203,
+        7.152557373046875e-10,
+        -0.005437847256660461,
+        0,
+        -18.54814013671875,
+        2.8244132080078126,
+        55.279828125,
+        1
+      ],
+      "sourceLines": {
+        "sequence": 148,
+        "dummy": 149
+      },
+      "nativeParticleEmitterSpacesVerified": false,
+      "nativeSequencePlaybackImplemented": false
+    }
+  ],
+  "definitions": {
+    "bg_biolab_poison_eff_01.seq": {
+      "duration": 3,
+      "nodes": [
+        {
+          "id": 0,
+          "type": "CActParticle",
+          "parentType": 0,
+          "parent": 0,
+          "bone": "",
+          "start": 0,
+          "end": 3,
+          "capacity": 30,
+          "rate": 18,
+          "lifeMs": 3000,
+          "lifeVariationMs": 1200,
+          "speed": 0,
+          "speedVariation": 0,
+          "widthVariation": 0,
+          "heightVariation": 0,
+          "acceleration": [
+            0,
+            0,
+            0
+          ],
+          "angularRange": 360,
+          "appearance": [
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0.501960813999176,
+              0,
+              0
+            ],
+            [
+              0.5,
+              300,
+              300,
+              0,
+              1,
+              0,
+              0.15000000596046448,
+              0
+            ],
+            [
+              1,
+              500,
+              500,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "native": {
+            "18": 0,
+            "20": 0,
+            "54": 1,
+            "58": 30,
+            "60": 200,
+            "64": 0,
+            "1c": 0,
+            "5c": 0,
+            "6c": 0
+          },
+          "emitterKeys": [
+            {
+              "object+0c": 0,
+              "object+10": 1,
+              "object+14": 0,
+              "object+18": 200,
+              "object+1c": 0,
+              "object+20": 0,
+              "object+24": 1,
+              "object+28": 0,
+              "object+2c": 50,
+              "object+30": 10,
+              "object+34": 0,
+              "object+38": 0,
+              "object+3c": 200,
+              "object+40": 0,
+              "object+44": 200,
+              "object+48": 0,
+              "object+4c": 200,
+              "object+50": 0,
+              "object+54": 0,
+              "object+58": 3000,
+              "object+5c": 18,
+              "object+60": 0
+            }
+          ],
+          "emitterDurationMs": 3000,
+          "emitterLoop": 1,
+          "textures": [
+            "/assets/maps/bio-lab/native-effects/textures/d100_st_boss_fog01.png"
+          ],
+          "uv": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "textureUVs": [
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "source": "effects/bg_biolab_poison_eff_01.seq",
+      "sourceSha256": "d8a95aa959e142aca50817f6ae5e271c8ab9a98c8a148fccf61106a1c4ea9fab",
+      "sourceBytes": 438,
+      "sourceHeaderByte": 1,
+      "sourceEmitterLoopFlags": [
+        true
+      ],
+      "unportedControlFields": [
+        {
+          "nodeId": 0,
+          "controlVersion": 0.5,
+          "versioned": {
+            "field30": {
+              "offset": 119,
+              "rawHex": "0000c842",
+              "int32": 1120403456,
+              "float32": 100
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              true
+            ],
+            "field68": {
+              "offset": 127,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": true
+          },
+          "qualification": "Preserved raw values; shared S5 renderer does not claim all versioned control semantics."
+        }
+      ]
+    },
+    "bg_biolab_poison_eff_02.seq": {
+      "duration": 1,
+      "nodes": [
+        {
+          "id": 0,
+          "type": "CActParticle",
+          "parentType": 0,
+          "parent": 0,
+          "bone": "",
+          "start": 0,
+          "end": 1,
+          "capacity": 60,
+          "rate": 20,
+          "lifeMs": 1500,
+          "lifeVariationMs": 100,
+          "speed": 50,
+          "speedVariation": 0,
+          "widthVariation": 0,
+          "heightVariation": 0,
+          "acceleration": [
+            0,
+            0,
+            0
+          ],
+          "angularRange": 30,
+          "appearance": [
+            [
+              0,
+              20,
+              20,
+              0.501960813999176,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0.5,
+              40,
+              40,
+              0.501960813999176,
+              0.501960813999176,
+              0,
+              0.30000001192092896,
+              0
+            ],
+            [
+              1,
+              80,
+              80,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "native": {
+            "18": 0,
+            "20": 1,
+            "54": 1,
+            "58": 60,
+            "60": 200,
+            "64": 0,
+            "1c": 0,
+            "5c": 0,
+            "6c": 0
+          },
+          "emitterKeys": [
+            {
+              "object+0c": 0,
+              "object+10": 1,
+              "object+14": 0,
+              "object+18": 15,
+              "object+1c": 0,
+              "object+20": 0,
+              "object+24": 1,
+              "object+28": 0,
+              "object+2c": 30,
+              "object+30": 100,
+              "object+34": 0,
+              "object+38": 0,
+              "object+3c": 0,
+              "object+40": 0,
+              "object+44": 0,
+              "object+48": 0,
+              "object+4c": 10,
+              "object+50": 0,
+              "object+54": 0,
+              "object+58": 1500,
+              "object+5c": 20,
+              "object+60": 0
+            }
+          ],
+          "emitterDurationMs": 1000,
+          "emitterLoop": 1,
+          "textures": [
+            "/assets/maps/bio-lab/native-effects/textures/swing_blue_02.png"
+          ],
+          "uv": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "textureUVs": [
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "id": 1,
+          "type": "CActParticle",
+          "parentType": 0,
+          "parent": 0,
+          "bone": "",
+          "start": 0,
+          "end": 1,
+          "capacity": 30,
+          "rate": 20,
+          "lifeMs": 1500,
+          "lifeVariationMs": 100,
+          "speed": 50,
+          "speedVariation": 0,
+          "widthVariation": 0,
+          "heightVariation": 0,
+          "acceleration": [
+            0,
+            0,
+            0
+          ],
+          "angularRange": 30,
+          "appearance": [
+            [
+              0,
+              20,
+              20,
+              0.501960813999176,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0.5,
+              40,
+              40,
+              0.501960813999176,
+              0.501960813999176,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              80,
+              80,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "native": {
+            "18": 0,
+            "20": 1,
+            "54": 1,
+            "58": 30,
+            "60": 200,
+            "64": 0,
+            "1c": 0,
+            "5c": 0,
+            "6c": 0
+          },
+          "emitterKeys": [
+            {
+              "object+0c": 0,
+              "object+10": 1,
+              "object+14": 0,
+              "object+18": 15,
+              "object+1c": 0,
+              "object+20": 0,
+              "object+24": 1,
+              "object+28": 0,
+              "object+2c": 30,
+              "object+30": 0,
+              "object+34": 0,
+              "object+38": 0,
+              "object+3c": 0,
+              "object+40": 0,
+              "object+44": 0,
+              "object+48": 0,
+              "object+4c": 10,
+              "object+50": 0,
+              "object+54": 0,
+              "object+58": 1500,
+              "object+5c": 20,
+              "object+60": 0
+            }
+          ],
+          "emitterDurationMs": 1000,
+          "emitterLoop": 1,
+          "textures": [
+            "/assets/maps/bio-lab/native-effects/textures/swing_blue_02.png"
+          ],
+          "uv": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "textureUVs": [
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "source": "effects/bg_biolab_poison_eff_02.seq",
+      "sourceSha256": "76ce8200e346b0f3f7c21dc103f3f47336cb21d7b86777ab65f054d78d6452c2",
+      "sourceBytes": 852,
+      "sourceHeaderByte": 1,
+      "sourceEmitterLoopFlags": [
+        true,
+        true
+      ],
+      "unportedControlFields": [
+        {
+          "nodeId": 0,
+          "controlVersion": 0.5,
+          "versioned": {
+            "field30": {
+              "offset": 119,
+              "rawHex": "0000f041",
+              "int32": 1106247680,
+              "float32": 30
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 127,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          },
+          "qualification": "Preserved raw values; shared S5 renderer does not claim all versioned control semantics."
+        },
+        {
+          "nodeId": 1,
+          "controlVersion": 0.5,
+          "versioned": {
+            "field30": {
+              "offset": 538,
+              "rawHex": "0000f041",
+              "int32": 1106247680,
+              "float32": 30
+            },
+            "flags50to53": [
+              false,
+              false,
+              false,
+              false
+            ],
+            "field68": {
+              "offset": 546,
+              "rawHex": "00000000",
+              "int32": 0,
+              "float32": 0
+            },
+            "flag24": false,
+            "flag25": false
+          },
+          "qualification": "Preserved raw values; shared S5 renderer does not claim all versioned control semantics."
+        }
+      ]
+    }
+  },
+  "textures": [
+    {
+      "source": "effects/d100_st_boss_fog01.dds",
+      "sourceSha256": "4135e246ef563ee857580741dd1ad71ce894a9a4291f1afed8f5b3ea2544342d",
+      "url": "/assets/maps/bio-lab/native-effects/textures/d100_st_boss_fog01.png",
+      "sha256": "60e5354c020d766c330b5b524b90879fe79d3b1aec81273d4cb0e65b764ef706",
+      "bytes": 14394,
+      "width": 128,
+      "height": 128,
+      "sourceFormat": "DXT5",
+      "rgbaSha256": "c88af7f018bdbd0ab9b8c2340a5daf15d72cc357453fe3d88f0637c2b6cfdc19",
+      "rgbaAndAlphaPreserved": true
+    },
+    {
+      "source": "effects/swing_blue_02.dds",
+      "sourceSha256": "21e28260bc31f657a23d17a8cbaba037dc88477fb048764b84227108c71298f8",
+      "url": "/assets/maps/bio-lab/native-effects/textures/swing_blue_02.png",
+      "sha256": "68c4b5fa1ab8b5428bcbeeb0b8469afa9e16f5a8aa37756ee72a14813127ecb9",
+      "bytes": 37046,
+      "width": 256,
+      "height": 256,
+      "sourceFormat": "DXT5",
+      "rgbaSha256": "ffc4a09dfe5077fe5925c9659dd28b436087ca38247bcd36233f6011d0905f16",
+      "rgbaAndAlphaPreserved": true
+    }
+  ],
+  "sounds": [
+    {
+      "literal": "wall_destroy_wooden.ogg",
+      "source": "sound/wall_destroy_wooden.ogg",
+      "url": "/assets/maps/bio-lab/native-effects/sounds/wall_destroy_wooden.ogg",
+      "sha256": "e4059d132b6e4f12bab0cdb4a95cfcf008b3267eaea7398b3e4ce2e6c2ae9f79",
+      "bytes": 30541,
+      "sourceBytesUnchanged": true
+    },
+    {
+      "literal": "wall_destroy_steel.ogg",
+      "source": "sound/wall_destroy_steel.ogg",
+      "url": "/assets/maps/bio-lab/native-effects/sounds/wall_destroy_steel.ogg",
+      "sha256": "77d7c2cdcb6cd2e5cc6b30c48582ffcd0a12e05fab8fc696d06a4216110c41c4",
+      "bytes": 29423,
+      "sourceBytesUnchanged": true
+    }
+  ],
+  "missingResources": [
+    {
+      "literal": "teleport.ogg",
+      "source": "BLASTINFO.RebirthSound",
+      "reason": "No matching indexed current resource; no replacement sound is invented."
+    },
+    {
+      "source": "ADDON_SOUND",
+      "reason": "Source section empty. Five siren-named dummies have no sound binding; names alone do not authorize playback."
+    }
+  ],
+  "policy": {
+    "name": "bio-lab-source-particle-presentation-partial-v1",
+    "maxInstances": 8,
+    "maxEmitters": 10,
+    "maxParticles": 360,
+    "performanceMaxParticles": 60,
+    "particleEngine": "Existing combat-effects Particles",
+    "clock": "Existing native-sequence-clock, rate1/integer<=250ms domain. Continuous ambient looping while map presentation is active is an explicit S5 host policy.",
+    "coordinates": "Particles integrate in source-local S5scaled units; draw positions undo0.006 once then apply exact full Dummy worldRuntimeMatrix composed with current map root. No actor-origin fallback.",
+    "billboards": "Shared S5 camera billboard size uses source size*0.006. Native billboard sizing, versioned controls, RNG and complete render-state parity unverified.",
+    "lifecycle": "Explicit resume on map presentation; clear on leave/reset/simulation gaps, dispose owned resources. Performance retains reduced source fog/sparks as hazard cue."
+  },
+  "qualification": {
+    "sourceBytesAndBindingsVerified": true,
+    "nativeParticleSemanticsVerified": false,
+    "nativeSequenceLoopOwnershipVerified": false,
+    "nativeParticleEmitterSpacesFullyVerified": false,
+    "nativeAudioSpatialMixVerified": false,
+    "nativeReady": false
+  },
+  "distributionSourceSha256": "68c1e9553e590bef236c71b3fbac1a092807c884c49df6a41bc3fba05fc8a37d"
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "alice-house-main-source-runtime-v1",
+  "source": "model/background/alicehouse.scn",
+  "sourceSceneIndexInOriginalPackage": 2,
+  "name": "Alice House",
+  "nativeMapId": 225,
+  "modes": [
+    "Chaser"
+  ],
+  "alphaBetaWayfindingRequired": false,
+  "scene": "source.json",
+  "markers": "markers.json",
+  "collisions": "collisions-all-categories.json",
+  "artistConfig": "artist-config.json",
+  "staticAuthoringContract": "static-authoring-contract.json",
+  "sourceAuthority": {
+    "path": "model/background/alicehouse.scn",
+    "archive": "5.xs",
+    "checksum": "657d2ccb",
+    "actualCrc32": "657d2ccb",
+    "plainLength": 3079486,
+    "actualPlainLength": 3079486,
+    "archivePlaintextSha256": "4a1ad099c465b728f73e6bda479fa68e043b8647983da6f47ae101e53f68f188",
+    "method": "known-header-crc32"
+  },
+  "sourceJsonSha256": "0bcd779d8e38e86165fe4a8f4425b358d1744108f62d55a9e93125d628e341eb",
+  "sourceContractSha256": "5ad39386d9e594631da97a756cdca48addbc23f615d4eba8b003b6a303065c84",
+  "statistics": {
+    "models": 89,
+    "nodes": 106,
+    "vertices": 65077,
+    "triangles": 30084,
+    "movementCandidateModels": 29,
+    "movementCandidateTriangles": 1515,
+    "weaponCandidateModels": 1,
+    "weaponCandidateTriangles": 1047
+  },
+  "policy": {
+    "matrix": "raw-local parentWorld×local, native case-sensitive DFS among inserted nodes, root retained",
+    "units": "sourceMapScale(false), .006 Y-up, no mirror or recenter",
+    "visibleScenes": [
+      "model/background/alicehouse.scn"
+    ],
+    "excludedOriginalPackageScenes": [
+      "model/background/sky_sunset.scn",
+      "model/background/standbyroom.scn",
+      "model/background/alicehouse_occlusion.scn"
+    ],
+    "nativeRuntimePlacementCertified": false,
+    "nativeChaserSpawnSelectorCertified": false,
+    "nativeCollisionMasksCertified": false,
+    "weaponCandidateConsumptionByControllerVerified": false,
+    "previewSpawn": "Authenticated marker, downward source-floor projection and current-controller ellipsoid/capsule clearance; explicit S5 preview policy, not native selector.",
+    "nativeActorMaskQualified": true,
+    "nativeRoleSpawnGroupsQualified": true
+  },
+  "destructibles": "destructibles.json"
+}

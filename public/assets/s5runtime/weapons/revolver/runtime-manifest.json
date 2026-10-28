@@ -1,0 +1,40 @@
+{
+  "runtimeReady": true,
+  "playable": true,
+  "rendered": true,
+  "behaviorVerified": "main-game-experimental",
+  "nativeReady": false,
+  "rendering": {
+    "antialiasRequired": true,
+    "diagnosticMaterial": false
+  },
+  "effects": {
+    "active": true,
+    "runtime": "/assets/s5runtime/effects/revolver/runtime.json"
+  },
+  "sourceTests": [
+    "tests/revolver-gameplay.test.mjs",
+    "tests/revolver-assets-restored.test.mjs"
+  ],
+  "remaining": [
+    "native equip/stow/relink timing",
+    "native aerial-state coverage",
+    "push-condition semantics",
+    "native quantitative attachment reference"
+  ],
+  "bulletTracer": {
+    "status": "integrated-user-requested",
+    "module": "src/bullet-tracers.js",
+    "source": "procedural presentation; not native certified",
+    "trajectory": "post-mixer muzzle to the same resolved contact as damage",
+    "validation": "tests/bullet-tracers.test.mjs and main-game trajectory screenshots"
+  },
+  "muzzleSmoke": {
+    "status": "follow-corrected",
+    "source": "weapon_revolver_fire.seq node 1",
+    "emitterFollowsMuzzle": true,
+    "particlesRemainInWorld": true,
+    "tests": "tests/revolver-smoke.test.mjs",
+    "nativeComparison": "pending"
+  }
+}

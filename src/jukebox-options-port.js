@@ -1,0 +1,16 @@
+import {JUKEBOX_DATA} from './options-jukebox-data.js';import {JUKEBOX_DEFAULTS,validPlaylist} from './jukebox-playlist.js';
+const copy=value=>({...value,slots:[...value.slots]});
+export function createJukeboxOptionsPort({settings}={}){
+ if(!settings?.writeCurrent||!settings?.snapshot)throw TypeError('Actual BGM session-backed jukebox settings required');let tx=null,draft=copy(settings.snapshot().current),selectedTrack='OP_0030',selectedSlot=0,disposed=false;const listeners=new Set();const notify=()=>{for(const fn of [...listeners])fn();};const off=settings.subscribe(notify);
+ const stage=value=>disposed?{accepted:false,reason:'disposed'}:!tx?{accepted:false,reason:'unattached'}:tx.stage('jukebox',value);
+ const port={id:'jukebox',source:{open:'D6FE40',reset:'D6FAC0',cancel:'D6FC90',commit:'D6FCA0'},policy:{preview:'none',reset:'draft-only',cancel:'no-op',persistence:'none'},readCurrent:()=>copy(settings.snapshot().current),defaults:()=>copy(JUKEBOX_DEFAULTS),validate:value=>validPlaylist(value)?{accepted:true}:{accepted:false,reason:'invalid-playlist'},writeCurrent:value=>settings.writeCurrent(value),refreshDraft(value){draft=copy(value);notify();}};
+ const view={get:()=>({...settings.snapshot(),draft:copy(draft),catalog:JUKEBOX_DATA.catalog,selectedTrack,selectedSlot,sourceMaps:JUKEBOX_DATA.maps,editableMapIds:[66],fileSystemAvailable:false}),subscribe(fn){listeners.add(fn);return()=>listeners.delete(fn);},
+  selectTrack(key){if(!JUKEBOX_DATA.catalog.some(row=>row.key===key))return {accepted:false,reason:'unknown-source-track'};selectedTrack=key;notify();return {accepted:true};},selectSlot(index){if(!Number.isInteger(index)||index<0||index>2)return {accepted:false,reason:'invalid-slot'};selectedSlot=index;notify();return {accepted:true};},
+  add(){if(!JUKEBOX_DATA.catalog.find(row=>row.key===selectedTrack)?.published)return {accepted:false,reason:'track-not-published'};const index=draft.slots.findIndex(key=>key===''),slots=[...draft.slots];slots[index<0?selectedSlot:index]=selectedTrack;return stage({...draft,slots});},
+  remove(index){if(!Number.isInteger(index)||index<0||index>2||!draft.slots[index])return {accepted:false,reason:'invalid-slot'};const slots=[...draft.slots];slots.splice(index,1);slots.push('');return stage({...draft,slots});},
+  move(index,direction){const target=index+direction;if(!Number.isInteger(index)||![-1,1].includes(direction)||target<0||target>2||!draft.slots[index]||!draft.slots[target])return {accepted:false,reason:'move-unavailable'};const slots=[...draft.slots];[slots[index],slots[target]]=[slots[target],slots[index]];return stage({...draft,slots});},
+  setRandom(value){if(typeof value!=='boolean')return {accepted:false,reason:'invalid-random'};if(value&&!settings.snapshot().randomAvailable)return {accepted:false,reason:'rng-unavailable'};return stage({...draft,random:value});},
+  preview(key=selectedTrack){if(tx?.snapshot().phase!=='open')return Promise.resolve({accepted:false,reason:'closed'});return settings.preview(key);},stop:()=>settings.stop(),
+ };
+ return {port,view:Object.freeze(view),attach(transaction){if(tx)throw Error('Jukebox port already attached');tx=transaction;},dispose(){disposed=true;off();listeners.clear();}};
+}

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<panel name="score">
+	<rect left="1141" top="66" right="{ 1141 + 598 }" bottom="{ 66 + 238 }" />
+	<placement value="absolute" />
+	<path trigger="framecount">
+		<keyframe time="0.00">
+			<opacity value="0.00" animation="linear" />
+		</keyframe>
+		<keyframe time="0.20">
+			<opacity value="1.00" animation="linear" />
+		</keyframe>
+	</path>
+	<elements>
+		<panel name="time_bar">
+			<rect left="164" top="6" right="{ 164 + 272 }" bottom="{ 6 + 4 }" />
+			<clip_region>
+				<anchor value="true" />
+			</clip_region>
+			<states>
+				<normal>
+					<reference path="sprites/ingame/hud/scoreboard_timebar.dds" filter="linear" />
+				</normal>
+			</states>
+		</panel>
+		<label name="time_left">
+			<rect left="200" top="20" right="{ 200 + 201 }" bottom="{ 20 + 66 }" />
+			<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="24" />
+			<transform uppercase="true" />
+			<align horizontal="center" vertical="center" />
+			<text>
+				<english value="{}" />
+			</text>
+			<states>
+				<normal>
+					<color>
+						<tl value="rgb(217, 224, 234)" />
+						<tr value="rgb(217, 224, 234)" />
+						<bl value="rgb(171, 185, 209)" />
+						<br value="rgb(171, 185, 209)" />
+					</color>
+					<glow>
+						<color value="rgba(0, 0, 0, 204)" />
+						<radius value="4" />
+					</glow>
+				</normal>
+			</states>
+		</label>
+		<panel name="time">
+			<rect left="198" top="96" right="{ 198 + 201 }" bottom="{ 96 + 138 }" />
+			<elements>
+				<label name="minutes">
+					<anchor top="true" bottom="true" />
+					<rect left="12" right="92" />
+					<font path="fonts/netsphimere-static.otf" size="46" />
+					<transform uppercase="true" />
+					<align horizontal="right" vertical="center" />
+					<text>
+						<english value="{:02d}" />
+					</text>
+					<states>
+						<normal>
+							<color>
+								<tl value="rgb(217, 224, 234)" />
+								<tr value="rgb(217, 224, 234)" />
+								<bl value="rgb(171, 185, 209)" />
+								<br value="rgb(171, 185, 209)" />
+							</color>
+							<glow>
+								<color value="rgba(0, 0, 0, 204)" />
+								<radius value="4" />
+							</glow>
+						</normal>
+					</states>
+				</label>
+				<label name="seconds">
+					<anchor top="true" bottom="true" />
+					<rect left="109" right="188" />
+					<font path="fonts/netsphimere-static.otf" size="46" />
+					<transform uppercase="true" />
+					<align horizontal="left" vertical="center" />
+					<text>
+						<english value="{:02d}" />
+					</text>
+					<states>
+						<normal>
+							<color>
+								<tl value="rgb(217, 224, 234)" />
+								<tr value="rgb(217, 224, 234)" />
+								<bl value="rgb(171, 185, 209)" />
+								<br value="rgb(171, 185, 209)" />
+							</color>
+							<glow>
+								<color value="rgba(0, 0, 0, 204)" />
+								<radius value="4" />
+							</glow>
+						</normal>
+					</states>
+				</label>
+				<label name="colon">
+					<anchor value="true" />
+					<font path="fonts/netsphimere-static.otf" size="44" />
+					<transform uppercase="true" />
+					<align horizontal="center" vertical="center" />
+					<text>
+						<english value=":" />
+					</text>
+					<states>
+						<normal>
+							<color>
+								<tl value="rgb(217, 224, 234)" />
+								<tr value="rgb(217, 224, 234)" />
+								<bl value="rgb(171, 185, 209)" />
+								<br value="rgb(171, 185, 209)" />
+							</color>
+							<glow>
+								<color value="rgba(0, 0, 0, 204)" />
+								<radius value="4" />
+							</glow>
+						</normal>
+					</states>
+				</label>
+			</elements>
+		</panel>
+		<label name="alpha">
+			<rect left="70" top="18" right="{ 70 + 81 }" bottom="{ 18 + 140 }" />
+			<margin top="6" />
+			<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="48" />
+			<align horizontal="center" vertical="center" />
+			<text>
+				<english value="{}" />
+			</text>
+			<path trigger="manual">
+				<keyframe time="0.00">
+					<opacity value="0.40" animation="linear" />
+				</keyframe>
+				<keyframe time="0.20">
+					<opacity value="1.00" animation="linear" />
+				</keyframe>
+			</path>
+			<states>
+				<normal>
+					<glow>
+						<color value="rgba(0, 197, 255, 155)" />
+						<radius value="6" />
+					</glow>
+				</normal>
+			</states>
+		</label>
+		<label name="beta">
+			<rect left="446" top="18" right="{ 446 + 81 }" bottom="{ 18 + 140 }" />
+			<margin top="6" />
+			<font path="fonts/netsphimere-semiboldcondenseditalic.otf" size="48" />
+			<align horizontal="center" vertical="center" />
+			<text>
+				<english value="{}" />
+			</text>
+			<path trigger="manual">
+				<keyframe time="0.00">
+					<opacity value="0.40" animation="linear" />
+				</keyframe>
+				<keyframe time="0.20">
+					<opacity value="1.00" animation="linear" />
+				</keyframe>
+			</path>
+			<states>
+				<normal>
+					<color value="rgb(255, 44, 102)" />
+					<glow>
+						<color value="rgba(255, 44, 102, 155)" />
+						<radius value="6" />
+					</glow>
+				</normal>
+			</states>
+		</label>
+	</elements>
+	<states>
+		<normal>
+			<reference path="sprites/ingame/hud/scoreboard_bg_alphablue.dds" filter="box" />
+			<opacity value="1.00" transition="0.20" />
+		</normal>
+		<dormant>
+			<reference path="sprites/ingame/hud/scoreboard_bg_alphablue.dds" filter="box" />
+			<opacity value="0.00" transition="0.20" />
+		</dormant>
+	</states>
+</panel>

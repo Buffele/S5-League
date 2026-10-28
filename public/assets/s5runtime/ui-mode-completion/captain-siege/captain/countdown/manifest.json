@@ -1,0 +1,113 @@
+{
+  "format": "captain-source-countdown-v1",
+  "scenes": [
+    {
+      "digit": 1,
+      "file": "inter_count_1.json",
+      "source": "uieffect/inter_count_1.scn",
+      "sourceSha256": "9eb99b391f1a6e81ffc39ddb8f449aca639b0e94d934a4cd58170cc5d454347e",
+      "sequenceSource": "uieffect/inter_count_1.seq",
+      "sequenceSha256": "3d9cac006712ff2d4b8e496180d66a6e92d0599d216b5427c5fc9deb6124ccf6",
+      "screenPosition": [
+        0,
+        0,
+        1000
+      ],
+      "startMs": 0,
+      "endMs": 1000,
+      "fadeInMs": 0,
+      "fadeOutMs": 0,
+      "clip": "COUNT",
+      "durationTicks": 19200,
+      "sha256": "8bccf3ca58a694806ca82f0e73f6f10f9f555876131f5c1e8ca8d08efc6a7713"
+    },
+    {
+      "digit": 2,
+      "file": "inter_count_2.json",
+      "source": "uieffect/inter_count_2.scn",
+      "sourceSha256": "4a6553967f470fb31de6f2d0b0ebef7d06048f9bcce50490841e31756a5435ce",
+      "sequenceSource": "uieffect/inter_count_2.seq",
+      "sequenceSha256": "fc175531cc8b30a25c67136b426639fefb5a0be09c65b6b1dbff8ea05970bddd",
+      "screenPosition": [
+        0,
+        0,
+        1000
+      ],
+      "startMs": 0,
+      "endMs": 1000,
+      "fadeInMs": 0,
+      "fadeOutMs": 0,
+      "clip": "COUNT",
+      "durationTicks": 19200,
+      "sha256": "bfeff338dd95c13dbfa934c04ee0b3baba3b1b7647fb4af3218917a80770a02a"
+    },
+    {
+      "digit": 3,
+      "file": "inter_count_3.json",
+      "source": "uieffect/inter_count_3.scn",
+      "sourceSha256": "5e27f15dcc3ab6d2f0b560875e6d28a95112c1953e2418c40a001ad82217f245",
+      "sequenceSource": "uieffect/inter_count_3.seq",
+      "sequenceSha256": "e3e21433b521479c0bd986325615e82d95950e02967f445672ee6c394f6c4377",
+      "screenPosition": [
+        0,
+        0,
+        1000
+      ],
+      "startMs": 0,
+      "endMs": 1000,
+      "fadeInMs": 0,
+      "fadeOutMs": 0,
+      "clip": "COUNT",
+      "durationTicks": 19200,
+      "sha256": "c2e11cb9338327948d0e8ea0107d687790e1b5851594980239ba644240206844"
+    },
+    {
+      "digit": 4,
+      "file": "inter_count_4.json",
+      "source": "uieffect/inter_count_4.scn",
+      "sourceSha256": "afb31dc91575f0a8dca31271a36ec22028c7856a86a7d744325da70aa55f5ca4",
+      "sequenceSource": "uieffect/inter_count_4.seq",
+      "sequenceSha256": "1c6e6f170a17f9d76db2aaca7a157d847639233bb799e9c1b2d5257aca6fb38e",
+      "screenPosition": [
+        0,
+        0,
+        1000
+      ],
+      "startMs": 0,
+      "endMs": 1000,
+      "fadeInMs": 0,
+      "fadeOutMs": 0,
+      "clip": "COUNT",
+      "durationTicks": 19200,
+      "sha256": "75277d511d86d8becb1beda58b8e31350f66931cd946b1aaa4caaa23b005e584"
+    },
+    {
+      "digit": 5,
+      "file": "inter_count_5.json",
+      "source": "uieffect/inter_count_5.scn",
+      "sourceSha256": "e59bae86c385b00878472f41756517b4343146d4eb876e9802ec01bf1192ab25",
+      "sequenceSource": "uieffect/inter_count_5.seq",
+      "sequenceSha256": "44fc2871e5b8be8d79407890405daa129239ef8544de3f906817dbe4dd7a7ddc",
+      "screenPosition": [
+        0,
+        0,
+        1000
+      ],
+      "startMs": 0,
+      "endMs": 1000,
+      "fadeInMs": 0,
+      "fadeOutMs": 0,
+      "clip": "COUNT",
+      "durationTicks": 19200,
+      "sha256": "b4182b87b7265cf3578d6354d99752d1ebb687c92509ebdc9b1f24a080f49c0c"
+    }
+  ],
+  "texture": {
+    "file": "interface_effect.png",
+    "source": "uieffect/_eu_interface_effect.dds",
+    "sha256": "2192af7db589cc96271cd22bd9fe0042431acdfe22143ff2d957ad0eacb4f464",
+    "sourceLiteral": "_rc_interface_effect.tga",
+    "resolution": "Conditional native region1/eu, observed on the pinned copied client; DDS candidate contains original PNG bytes"
+  },
+  "nativeReady": false
+}

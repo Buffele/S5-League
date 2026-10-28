@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" data-game-bootstrap="loading">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>S5 League</title>
+<style id="s5-bootstrap-guard">
+html:not([data-game-bootstrap="ready"]) body{margin:0;background:#06131f!important}
+html:not([data-game-bootstrap="ready"]) body>:not(.s5-loading-view):not(#s5-boot-placeholder):not(script){opacity:0!important;visibility:hidden!important;pointer-events:none!important}
+#s5-boot-placeholder{position:fixed;inset:0;z-index:9999;display:grid;place-content:center;gap:24px;margin:0;background:#06131f;color:#d9f8ff;text-align:center;font:18px 'Segoe UI',Arial,sans-serif;letter-spacing:.12em}
+#s5-boot-placeholder b{font-size:32px;letter-spacing:.18em}
+#s5-boot-placeholder small{max-width:min(640px,calc(100vw - 32px));font-size:14px;line-height:1.5;letter-spacing:normal;overflow-wrap:anywhere;white-space:pre-wrap}
+#s5-boot-placeholder button{justify-self:center;min-height:44px;padding:10px 24px;border:1px solid #70e4ec;border-radius:3px;background:#173447;color:#e8f8ff;font:16px 'Segoe UI',Arial,sans-serif;cursor:pointer}
+#s5-boot-placeholder button:focus-visible{outline:3px solid #70e4ec;outline-offset:3px}
+</style></head>
+<body>
+<div id="s5-boot-placeholder" role="status" aria-live="polite" aria-busy="true"><b>S5 LEAGUE</b><span id="s5-boot-fallback-label">Initializing</span><small id="s5-boot-fallback-detail" hidden></small><button id="s5-boot-fallback-retry" type="button" hidden>Reload game</button></div>
+<script id="s5-boot-fallback">
+(()=>{
+ const root=document.getElementById('s5-boot-placeholder'),label=document.getElementById('s5-boot-fallback-label'),detail=document.getElementById('s5-boot-fallback-detail'),retry=document.getElementById('s5-boot-fallback-retry');
+ let retired=false;
+ function retire(){
+  retired=true;window.removeEventListener('error',onError,true);window.removeEventListener('unhandledrejection',onRejection);document.removeEventListener('s5:loading-view-mounted',retire);retry.removeEventListener('click',reload);
+ }
+ function fail(reason){
+  if(retired)return;
+  if(!root.isConnected||document.documentElement.dataset.gameBootstrap==='ready'){retire();return;}
+  document.documentElement.dataset.gameBootstrap='error';root.setAttribute('role','alert');root.setAttribute('aria-busy','false');label.textContent='Unable to prepare game';
+  detail.textContent=String(reason?.message||reason||'The game files could not be loaded. Reload to try again.');detail.hidden=false;retry.hidden=false;retry.focus({preventScroll:true});
+ }
+ function onError(event){if(event.target!==window&&event.target?.tagName!=='SCRIPT')return;fail(event.error||event.message);}
+ function onRejection(event){fail(event.reason);}
+ function reload(){if(retired||retry.disabled)return;retry.disabled=true;location.reload();}
+ window.addEventListener('error',onError,true);window.addEventListener('unhandledrejection',onRejection);document.addEventListener('s5:loading-view-mounted',retire,{once:true});retry.addEventListener('click',reload);
+})();
+</script>
+<canvas id="game" tabindex="0" inert aria-hidden="true"></canvas>
+<div id="fps-counter" aria-label="Frames per second"><span id="fps-value">—</span> FPS</div>
+<div id="crosshair" aria-hidden="true"></div>
+<section id="welcome" inert aria-hidden="true"><div class="eyebrow">PREPARATION</div><h1>Equipment</h1><p>Explore the arena. Chain jumps and dashes.<br>Choose your character and melee weapon.</p><div class="setup"><label for="scene-select">Map<select id="scene-select"><option value="arena">Movement arena</option><option value="station2">Station 2 · Classic</option><option value="station2-modular">Station 2 · Modular 3D anime</option><option value="circle2">Circle 2 · Azure Atrium</option><option value="circle2-classic">Circle 2 · Classic</option><option value="alice-house">Alice House · Porcelain Palace (test)</option><option value="azit">Azit · Refuge solaire (exploration)</option><option value="bio-lab">Bio Lab · Laboratoire abyssal (exploration)</option><option value="blade-city">Blade City · Manufacture électrique (exploration)</option></select></label><label for="appearance-select">Character<select id="appearance-select"><option value="s5runtime">Classic outfit</option><option value="reference">Legacy outfit</option><option value="anime">Anime work in progress</option><option value="urban">Urbain · prototype</option><option value="meshy">Meshy · nouveau skin (essai)</option></select></label><label>Body<select id="sex-select"><option value="male">Male</option><option value="female">Female</option></select></label><label>Outfit<select id="outfit-select"><option value="01">Collection 01</option><option value="02">Collection 02</option></select></label><label>Weapon<select id="weapon-select"><option value="dagger">Spy Dagger</option><option value="plasma">Plasma Sword</option><option value="counter">Counter Sword</option><option value="breaker">Breaker · training</option></select></label><label>Weapon skin<select id="weapon-skin-select"></select></label><label>Sound<input id="audio-volume" aria-label="Sound volume" type="range" min="0" max="100" value="35"></label></div><small id="weapon-controls"></small><button id="play">ENTER THE ARENA <span>↗</span></button><small id="load-status">Loading animations…</small><button id="refresh-build" class="refresh-build" title="Reload the latest saved files and reset the character.">↻ Refresh build</button><a id="character-preview" href="?character=anime">Try the anime character — work in progress</a><small>Escape to return here · saved changes may reload automatically.</small></section>
+<div id="hud" aria-label="Character status">
+  <div class="health"><div class="resource-label"><span class="resource-icon">+</span><span>HP</span><b><span id="hp-value">100</span><span class="s4-health-separator" aria-hidden="true">/</span><small>100</small></b></div><div class="bar"><i id="hp-fill"></i></div></div>
+  <div class="stamina"><div class="resource-label"><span class="resource-icon">ϟ</span><span>SP</span><b><span id="energy-label">140</span><small id="sp-max">/ 140</small></b></div><div class="bar"><i id="energy"></i></div></div>
+</div>
+<div id="position-readout" aria-label="Character position">X 0.00 · Y 0.00 · Z 0.00</div>
+<div id="telemetry"><b id="movement">READY</b><span id="speed">0.0 m/s</span><small id="clip">SN002</small></div>
+<div id="weapon" aria-label="Equipped weapon"><span>01</span><div><em class="equipped-label">EQUIPPED</em><b id="weapon-name">SPY DAGGER</b><small id="weapon-description">Melee</small></div></div>
+<aside id="weapon-picker" aria-label="Weapon selection" hidden><div data-weapon="counter"><span>1</span><b>Counter Sword</b></div><div data-weapon="dagger"><span>2</span><b>Spy Dagger</b></div><div data-weapon="plasma"><span>3</span><b>Plasma Sword</b></div><div data-weapon="breaker"><span>4</span><b>Breaker</b></div></aside>
+<aside id="lab" hidden><h2>Animation workshop</h2><p>Animations for the selected character</p><label>Clip<select id="clip-select"></select></label><label>Speed <input id="anim-speed" type="range" min="0" max="2" step="0.05" value="1"></label><label>Angle <input id="view-angle" type="range" min="-180" max="180" step="15" value="0"></label><label><input id="skeleton" type="checkbox"> Skeleton</label><button id="lab-close">Return to game</button><small>Browse the available animations for the selected character.</small></aside>
+<div id="qa-readout" hidden style="position:absolute;top:95px;left:25px;background:#ffffffdf;padding:10px;font:11px monospace"></div>
+<div id="toast"></div>
+<script type="module" src="/src/bootstrap.js"></script>
+</body></html>
+

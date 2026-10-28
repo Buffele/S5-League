@@ -1,0 +1,62 @@
+[
+  {
+    "source": "sound/spydagger_cut.ogg",
+    "output": "sound/spydagger_cut.ogg",
+    "sha256": "4e5c0e98e8683e96b922b4d4ffcfa77f8fc2358091a568b1258618a7617136c6"
+  },
+  {
+    "source": "sound/spydagger_cut_hit.ogg",
+    "output": "sound/spydagger_cut_hit.ogg",
+    "sha256": "89fc324ca24fd04af1f20b953375e07f0aa97ff22bd9fa80f4a140ff0799655a"
+  },
+  {
+    "source": "sound/spydagger_poke.ogg",
+    "output": "sound/spydagger_poke.ogg",
+    "sha256": "8f5e6a368c061dbd0fff8796c4479dfa8e106ef7c8a011816e2adc493d45eb5a"
+  },
+  {
+    "source": "sound/spydagger_poke_hit.ogg",
+    "output": "sound/spydagger_poke_hit.ogg",
+    "sha256": "c6f3badba85375f75e16901e6493b3384a180c0149cf6a84f28260cabff9c142"
+  },
+  {
+    "source": "sound/jump_up.ogg",
+    "output": "sound/jump_up.ogg",
+    "sha256": "7eb7ef6df068ad66830fe83f68cb8cb21edb29a3e5ed712662ef266c5bdd4bf2"
+  },
+  {
+    "source": "sound/dodge.ogg",
+    "output": "sound/dodge.ogg",
+    "sha256": "575fb1c480732808a225f2f81832ac337ff8f1f73d1cd9ccf7045b3f11c2d204"
+  },
+  {
+    "source": "sound/dash.ogg",
+    "output": "sound/dash.ogg",
+    "sha256": "11a08e410e731adc193deeaf3c2e4b9fcf835c8f575b41938d653755d1f16010"
+  },
+  {
+    "source": "sound/land_ground.ogg",
+    "output": "sound/land_ground.ogg",
+    "sha256": "475ef0eec27c451e771fcae8527550fa5e93c51305e5dff4c02fa19e4e94f42e"
+  },
+  {
+    "source": "sound/land_steel.ogg",
+    "output": "sound/land_steel.ogg",
+    "sha256": "5314a24cf873114782e8445a47c0b537f40b0882d88ef1d4a15503211391e2a4"
+  },
+  {
+    "source": "image/weapon/xhair_spydagger_1.png",
+    "output": "hud/crosshair.png",
+    "sha256": "b3f0e3e940169434dcd6f2de5db48adb4a232d01a5216adea525d6eb0bcee3f4"
+  },
+  {
+    "source": "image/weapon/spydagger_knife.png",
+    "output": "hud/dagger.png",
+    "sha256": "276c8b0459a2bcba6d3110d18c68e6a0fa64b429c5a5a40347edc8dda2dc912b"
+  },
+  {
+    "source": "image/gi.dds",
+    "output": "effects/trail.png",
+    "sha256": "924e912a7c62973b0bc11834ff008eb5a2f90bec834be9301ec0accbea461367"
+  }
+]

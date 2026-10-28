@@ -1,0 +1,34 @@
+{
+  "schema": "native-map-static-authoring-qualification-v1",
+  "sourceBuffersVerified": true,
+  "sourceUnitsAndAxesPreserved": true,
+  "staticAuthoringAllowed": true,
+  "worldPlacementNativeRuntimeVerified": false,
+  "nativeTrsBitsVerified": false,
+  "nativeRenderedParityVerified": false,
+  "parentGraphRule": "Case-sensitive depth-first lookup among already inserted nodes, checking the root/self before descendants; first match; absent name uses scene root; insert before reading child body.",
+  "ordinaryMatrixBranch": "Local times parent in native D3DX row-vector convention; the corresponding Three/Blender column-matrix product is parentWorld times local. Root transform must be retained, including non-identity roots.",
+  "typedLocalDestinations": {
+    "ModelData": "D4 initialized identity; typed transform sampler binding and ordinary branch source are established, loaded flags/runtime clip choice are not.",
+    "Bone": "BC initialized identity; typed transform sampler binding and ordinary branch source are established, loaded flags/runtime clip choice are not.",
+    "SceneGroup": "Base-node ordinary TRS plus parent rule with A2/A3 exceptions; no replacement by identity if the root has a transform.",
+    "SkyDirect1": "Not qualified for native transform/render parity.",
+    "BoneSystem": "Not qualified for native typed transform parity."
+  },
+  "rawAffineWarning": "Raw affine preservation is an authoring/source fidelity guarantee, not certification of D3DX decomposition/recomposition, reflection/shear handling, sampler timing or final rendered world placement.",
+  "pilotSpecificContract": "STATIC-PILOT-CONTRACT.md",
+  "pilotNumericEvidence": "pilot/alice-house/static-transform-qualification.json",
+  "parentEvidence": "pilot/alice-house/parent-graph.json",
+  "nativeEvidence": [
+    "../transform-audit/README.md",
+    "native-transform/export-provenance.json",
+    "native-transform-decomposition/export-provenance.json",
+    "work/parallel-gameplay-reference/competences/anchoring/model-binding/scene-graph/parent-space-source/HANDOFF.md"
+  ],
+  "limits": [
+    "Authoring scenes may use a declared raw-local static pose while preserving the exact original source buffers and collision sidecars.",
+    "Do not claim automatic native clip selection or loaded-node flags from constructors alone.",
+    "Do not emulate AC modifiers, CD camera branches, A2/A3 overrides or dynamic destruction by replacing them with the ordinary branch without qualification.",
+    "Native collision categories and query masks remain separate; all oct candidates are retained in version-2 sidecars, without automatic Box/Shape/Sphere solid conversion."
+  ]
+}

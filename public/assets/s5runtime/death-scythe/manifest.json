@@ -1,0 +1,953 @@
+{
+  "schema": "s5-death-scythe-current-stage-v1",
+  "date": "2026-10-03",
+  "itemKey": 2000031,
+  "status": "staged-not-main-game-verified",
+  "assets": [
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/deathscythe_unique.png",
+      "bytes": 61446,
+      "sha256": "1b2ca2980cf9aa76800410e2556c86b438d31f097657bb05d8b4b8737a3139a5"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/deathscythe.png",
+      "bytes": 54829,
+      "sha256": "9432d23ab6c3c8784a97c60da068772185f2efe3bb611fc95986f2ee8c97fe5a"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/model.json",
+      "bytes": 443594,
+      "sha256": "417c6e4c6d37deaae542550e312be49eb9c4a6527642f482ed81637f17a831db"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/death_scythe.png",
+      "bytes": 29596,
+      "sha256": "67debf3f934cb9c414cb06a74cdefe01aee1a34b9fd72107346468e26a48cde1"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/animations/male.json",
+      "bytes": 2910754,
+      "sha256": "0c57fafea03e05e7f7ec1dc31a7afa9bb25b7635afd2e1709674c59e7b185fcf"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/animations/female.json",
+      "bytes": 2918575,
+      "sha256": "b6483d5e18dafdb7e121e241010d0d3e7eab2a825d006ec6fd9ca40904f3f4f2"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/sword_attack.ogg",
+      "bytes": 38355,
+      "sha256": "02bd89fcb70f72d06c6354fd3aafd3c1fe934bc3cc8518938414846142a1bda6"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/sword_s.ogg",
+      "bytes": 38561,
+      "sha256": "08993e4517038124714933dc2675cc4db32741e702acb1aca6623513f7fac047"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/deathside_cut01.ogg",
+      "bytes": 8744,
+      "sha256": "59e2826a09cf4a490229a1bca4fea26e07e5757940e078245be8ad1fbdbcfcb3"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/deathside_cut02.ogg",
+      "bytes": 11148,
+      "sha256": "180829f8d7e1340b77c9936d3e753eaf905513b40b5730e36c2336700ec45ed6"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/deathside_smash.ogg",
+      "bytes": 12711,
+      "sha256": "b6d8d537d8115e37675f849567d79ff68f1c1fa5b81cb3da5b55c2630dea205b"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/deathside_jump.ogg",
+      "bytes": 16978,
+      "sha256": "d893fa605a864ebb6e96da296df49e2efe2ceee36508d745a22602542cd6c8fa"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/deathside_special_laughing.ogg",
+      "bytes": 46143,
+      "sha256": "c12d5216222ae9ff7ea5c6018ff293e8b077db592b2c96a4f9a1fd611bb0b58d"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/voice_man_attack_5.ogg",
+      "bytes": 17177,
+      "sha256": "22cc62e10056fa18af9a30f6b59bb53f9adae03cfd76734f70bd37f7723745d5"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/voice_girl_attack_5.ogg",
+      "bytes": 12618,
+      "sha256": "2acf67270d3778d66caab0ccb08d4a22cbbda2881cda1c4da16955611afb3b6e"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/voice_man_attack_2.ogg",
+      "bytes": 9429,
+      "sha256": "1d5256ac3399b9b6b18993f6ec006b34bbfbc340a51b714429a91ae89332cae7"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/voice_girl_attack_2.ogg",
+      "bytes": 9079,
+      "sha256": "79d4aca8dd65f47d80815c09ca850feb26aa70e0e1c9a3ee8316e08c0f1b67b7"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/voice_man_attack_4.ogg",
+      "bytes": 22682,
+      "sha256": "eec8f629cced1112948eb4b6099daaba2fc1771c7adea3c4bd11d690bcee6ed1"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sounds/voice_girl_attack_3.ogg",
+      "bytes": 11918,
+      "sha256": "a9e104224e72f8b6306dd6ee221b3135c014706398b3b6009c51222314187b5e"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/icon.png",
+      "bytes": 12269,
+      "sha256": "f9a4bac50295b298f310a297babb51a33444f8eff80b4415920cf4f28593e041"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sequences/blank_1sec.json",
+      "bytes": 5458,
+      "sha256": "6905fed011808a1f66017b1b3b700c67ff70696fd4df0ec0b97b42cd474eba34"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sequences/deathscythe_hit.json",
+      "bytes": 35221,
+      "sha256": "f2299ac4d56f5ecce88be4fab2da4b50948299dc9f863fa87a6df0280395671f"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/flash_p3.png",
+      "bytes": 2800,
+      "sha256": "33e3e348fc2d442bc9aabc4606082eb125bf62c0469ce6768ba295efe6865f6e"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/tick3.png",
+      "bytes": 1820,
+      "sha256": "5edbe05dfd80048421991ea875aeb9a7de96dadd84c753cb2f0e1f6c9996d00a"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/lightning1_1.png",
+      "bytes": 2527,
+      "sha256": "69483b92fced48dbb3619308a7168237e7d2843677d560270b02168fac78aaff"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/lightning2_1.png",
+      "bytes": 2051,
+      "sha256": "ae0d433a8497e2f980e8972676b02d4b173b13d40619b9d546a331c65170c65a"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/lightning3_1.png",
+      "bytes": 2440,
+      "sha256": "25bf48db664d992bf63de8c0bf81fea679f26af5329392885b29b13e6c11883d"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/lightning4_1.png",
+      "bytes": 2274,
+      "sha256": "be3b3288a34a444aae79eb122a15bb12a18286d62b9ca91fae1f061eeda168a9"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/pve_boss_eff02.png",
+      "bytes": 24181,
+      "sha256": "23f5b4cadd3fd212060b74c3762141214f1affbb5e1f66e027bb40288a0debab"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/smog_black2.png",
+      "bytes": 4122,
+      "sha256": "13cded19175300ede9f3d83ccef9c319b5a72a3e3ccd339cde4036eb2d49e7f9"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sequences/deathscythe_1_att.json",
+      "bytes": 3048,
+      "sha256": "a4c5837e309fb437c515642350fe22db6af5a173c6ace65e3a0e2f45a45fa6be"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/slash_deathscythe.png",
+      "bytes": 9748,
+      "sha256": "3a636d11895c9939b2d80ee95f321032929b71aeda09fb2c02075226e6787f3b"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/models/deathscythe_1_att.json",
+      "bytes": 25465,
+      "sha256": "c80681acda2e7c2c6c8b1d900d92fe2610156c4e6e6160c549dda25d6e6944f7"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sequences/deathscythe_2_att.json",
+      "bytes": 3048,
+      "sha256": "25fad2719521adc97c820787c53404e5cfac2fd790e0e6751725adbf75bb0c98"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/models/deathscythe_2_att.json",
+      "bytes": 39073,
+      "sha256": "d3a356397d73cb8a735ccb5bfbc7ed022bc6d154401522a02c00811ae28ca49d"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sequences/deathscythe_3_att.json",
+      "bytes": 3047,
+      "sha256": "8a95448ca2acf90f72cedf086b4f7425dfc633ba3b4175196d23e9c88e3e7e66"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/shock01_4.png",
+      "bytes": 11465,
+      "sha256": "78679fe1ce80c9a0fcee5e9a9c68f829b050fb390a9b69afe393ed0d59b76f24"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/models/deathscythe_3_att.json",
+      "bytes": 199364,
+      "sha256": "bc8abe47e88a4ae173df3df14fead6b251399f5a7bfa888fd400c114e1269db3"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sequences/deathscythe_4_att.json",
+      "bytes": 36840,
+      "sha256": "1008fe93eeddae6bd228a3ada4d26cb8107558994d95ae1dcc06fba989526be4"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/slash_viola.png",
+      "bytes": 2589,
+      "sha256": "267117829b933720282df7e7f0da80170749a1c93856bdd233820a10f90ba414"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/models/deathscythe_4_att.json",
+      "bytes": 88271,
+      "sha256": "fd38601aa1cee82018c83f118bf87511fdc0529dd2b6289d5a3c669121850488"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/flash_blue.png",
+      "bytes": 9926,
+      "sha256": "3c1c557d5cbcdfe8fff07a217bf6de47bdd7daa20a29090619672258682b6d95"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/wave2.png",
+      "bytes": 2013,
+      "sha256": "b9e8ed3941f38e1de948551f2701e6ef9cfeef2c3ca63efffd0fe3d2dd622be9"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/d100_st_boss_fog01.png",
+      "bytes": 14394,
+      "sha256": "60e5354c020d766c330b5b524b90879fe79d3b1aec81273d4cb0e65b764ef706"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/ex_bottom.png",
+      "bytes": 34916,
+      "sha256": "71951b11649f7e1d4822d18e3b978e4fc9e5d17b1a414110e1ddd7869261aee4"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sequences/weapon_deathscythe_strong_att.json",
+      "bytes": 41758,
+      "sha256": "36fba9548331b676db207d89c793445b4d53186bdf28827d96a54c1038da4389"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/deathscythe_unique_eff.png",
+      "bytes": 2847,
+      "sha256": "fb5a260455f7e2fcb4c74645e4ba9b07ecddd0c89039b83cb1d3191e5b4d9510"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/models/deathscythe_strong_att.json",
+      "bytes": 660002,
+      "sha256": "1ac789c654164eff2f1f88854507337da961e03e09cacfb857f0d7272c378e94"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/fire2.png",
+      "bytes": 6925,
+      "sha256": "ad354fb10e5ba95ad9f4f43cceff56130578285ef1fc2dbb75fbebfd955a5395"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/models/skill_swordman_gager_dummy01.json",
+      "bytes": 2949,
+      "sha256": "25def8baaf360dc4c886bd104876ca92d961858c8a17c4f6a8b0636a11ce3b00"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/skill_mage_meteor1.png",
+      "bytes": 20748,
+      "sha256": "742ca11cd244eebd6a7f73e999c3f27b48c6bc171c91bc9c9a66093a0b477e3d"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/effect_forcefield2.png",
+      "bytes": 11619,
+      "sha256": "1480689b25ce9949bae43c6e6999474189ee656c33fff407864faaea6ac6df2c"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/enemy_res1_nomipmap.png",
+      "bytes": 6940,
+      "sha256": "49100f4800adc3a1cbd393c5a7554280833ec270a60e0c4e2e4bd35cf76930f1"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/bash1_2.png",
+      "bytes": 24465,
+      "sha256": "43aa987112c5e344732c4897c875ebc6db5feed76cd7d0802f551659bbd32ae5"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sequences/deathscythe_ex_att_eff.json",
+      "bytes": 41932,
+      "sha256": "ee210f7c506f62f3177f649c01eacc39fe062b271bf75ca08276e6e0e79d0d27"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/models/deathscythe_ex_att.json",
+      "bytes": 9783,
+      "sha256": "2d6bb7f4e5bed21018a8c1d742df59b57e449e0c02bd752d9d21f1a966e6f8d8"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/smoke_purple.png",
+      "bytes": 15609,
+      "sha256": "cea599ebbf37732a3187ac78927443bb4eee575654797671913185e8c5da18b9"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/sequences/deathscythe_ex2_att_eff.json",
+      "bytes": 50146,
+      "sha256": "060b666670b928c53e2ac68fe6ad530293861e1667bb2a1fd6eae7899d5184d5"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/models/deathscythe_ex2_att.json",
+      "bytes": 202556,
+      "sha256": "7b165333df6ba8e3287f42b72cd5044b5a45885720e3fe2bdd66b2098f1c8196"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/textures/deathscythe_skull_eff.png",
+      "bytes": 2869,
+      "sha256": "09abfed0b627fbab7a6752c6b4f07c4ed59c468ce706b96bacb0c138465d4551"
+    },
+    {
+      "path": "/assets/s5runtime/death-scythe/effects-runtime.json",
+      "bytes": 29835,
+      "sha256": "85854a26823c8eff7503c3914dfad5e59304c5206b874c661daf41847d8939dd"
+    }
+  ],
+  "sources": [
+    {
+      "path": "model/weapon/deathscythe_normal.scn",
+      "checksum": "bc5abcdd",
+      "plainLength": 103055,
+      "storedLength": 79820,
+      "dataOffset": 39388201,
+      "archive": "package/74.xs",
+      "sha256": "bb0f0243c89e33fcf8b4064aba3a66fc9a8ecbe25f6133b1e9b6b3b65b647d04",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/weapon/deathscythe.dds",
+      "checksum": "b02d2523",
+      "plainLength": 87536,
+      "storedLength": 45480,
+      "dataOffset": 99906447,
+      "archive": "package/49.xs",
+      "sha256": "99ea58d078120526997821d54267dd79f21e3e3bc9748e1e578a6979807f5e9f",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/character/male_bip.scn",
+      "checksum": "7a744796",
+      "plainLength": 33060253,
+      "storedLength": 33061772,
+      "dataOffset": 12367745,
+      "archive": "package/60.xs",
+      "sha256": "d9953bde346c6b242e8d45d4ea885a581203c3999a78ab13d60aa7ea3997dba5",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/character/female_bip.scn",
+      "checksum": "d3a71175",
+      "plainLength": 30705783,
+      "storedLength": 30707194,
+      "dataOffset": 22125266,
+      "archive": "package/47.xs",
+      "sha256": "98caac4c4f8ee8900a9b28b050e7900fbb8c4c1b65a5f968a20110ae7653d465",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_hit.seq",
+      "checksum": "51e76429",
+      "plainLength": 2233,
+      "storedLength": 1203,
+      "dataOffset": 80404543,
+      "archive": "package/40.xs",
+      "sha256": "7bb308bebdbed72847f25dc854fb5e5c534d321d6a049b25b3c8f5f0e17027c3",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/blank_1sec.seq",
+      "checksum": "98533987",
+      "plainLength": 311,
+      "storedLength": 159,
+      "dataOffset": 67623867,
+      "archive": "package/29.xs",
+      "sha256": "c35774dbbd81a011e40c6da38c0e60e89a24a33485890fb1d12c3f7b020876da",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/sword_attack.ogg",
+      "checksum": "51610329",
+      "plainLength": 38355,
+      "storedLength": 38333,
+      "dataOffset": 92123298,
+      "archive": "package/77.xs",
+      "sha256": "02bd89fcb70f72d06c6354fd3aafd3c1fe934bc3cc8518938414846142a1bda6",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/deathside_cut01.ogg",
+      "checksum": "b413ed6a",
+      "plainLength": 8744,
+      "storedLength": 8710,
+      "dataOffset": 48529841,
+      "archive": "package/23.xs",
+      "sha256": "59e2826a09cf4a490229a1bca4fea26e07e5757940e078245be8ad1fbdbcfcb3",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "image/death_scythe.dds",
+      "checksum": "16afec8b",
+      "plainLength": 87536,
+      "storedLength": 34765,
+      "dataOffset": 41897304,
+      "archive": "package/71.xs",
+      "sha256": "3ae2bb83a449720471b69b2f610ace11996c171b3d68f626817b2f0b5d00908d",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "image/weapon/slot_sword_counter.png",
+      "checksum": "3509f57f",
+      "plainLength": 12269,
+      "storedLength": 12274,
+      "dataOffset": 32655904,
+      "archive": "package/53.xs",
+      "sha256": "f9a4bac50295b298f310a297babb51a33444f8eff80b4415920cf4f28593e041",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/voice_man_attack_5.ogg",
+      "checksum": "75f22a75",
+      "plainLength": 17177,
+      "storedLength": 17104,
+      "dataOffset": 59535206,
+      "archive": "package/78.xs",
+      "sha256": "22cc62e10056fa18af9a30f6b59bb53f9adae03cfd76734f70bd37f7723745d5",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/voice_girl_attack_5.ogg",
+      "checksum": "b4d14a80",
+      "plainLength": 12618,
+      "storedLength": 12544,
+      "dataOffset": 2744830,
+      "archive": "package/23.xs",
+      "sha256": "2acf67270d3778d66caab0ccb08d4a22cbbda2881cda1c4da16955611afb3b6e",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/voice_man_attack_2.ogg",
+      "checksum": "e6808128",
+      "plainLength": 9429,
+      "storedLength": 9355,
+      "dataOffset": 61841876,
+      "archive": "package/67.xs",
+      "sha256": "1d5256ac3399b9b6b18993f6ec006b34bbfbc340a51b714429a91ae89332cae7",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/voice_girl_attack_2.ogg",
+      "checksum": "846dbbaa",
+      "plainLength": 9079,
+      "storedLength": 9005,
+      "dataOffset": 46495707,
+      "archive": "package/23.xs",
+      "sha256": "79d4aca8dd65f47d80815c09ca850feb26aa70e0e1c9a3ee8316e08c0f1b67b7",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/voice_man_attack_4.ogg",
+      "checksum": "f8e93708",
+      "plainLength": 22682,
+      "storedLength": 22609,
+      "dataOffset": 94154833,
+      "archive": "package/23.xs",
+      "sha256": "eec8f629cced1112948eb4b6099daaba2fc1771c7adea3c4bd11d690bcee6ed1",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "sound/voice_girl_attack_3.ogg",
+      "checksum": "c074e656",
+      "plainLength": 11918,
+      "storedLength": 11844,
+      "dataOffset": 67072779,
+      "archive": "package/67.xs",
+      "sha256": "a9e104224e72f8b6306dd6ee221b3135c014706398b3b6009c51222314187b5e",
+      "method": "known-header-crc32"
+    },
+    {
+      "path": "effects/deathscythe_1_att.scn",
+      "checksum": "7629f0cb",
+      "plainLength": 14542,
+      "storedLength": 3709,
+      "dataOffset": 71385360,
+      "archive": "package/3.xs",
+      "sha256": "d5a4f4603f38e94298d8c48a6af9ac6d148579d040c21d3ddf022c2def46c8d9",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_2_att.scn",
+      "checksum": "e0242aab",
+      "plainLength": 11574,
+      "storedLength": 5470,
+      "dataOffset": 60417648,
+      "archive": "package/3.xs",
+      "sha256": "dd3ddc3e2c2aa76046d3ad4780e361de5e33ac985ff6ce2029d17e992a3c50ec",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_3_att.scn",
+      "checksum": "bbe7176a",
+      "plainLength": 111889,
+      "storedLength": 18411,
+      "dataOffset": 89391836,
+      "archive": "package/3.xs",
+      "sha256": "1482acaf89f82f07b27c6d273cb3ea027c0db920f43b30f47c6c52b4ff872992",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_4_att.scn",
+      "checksum": "058723d4",
+      "plainLength": 23874,
+      "storedLength": 9851,
+      "dataOffset": 28477198,
+      "archive": "package/79.xs",
+      "sha256": "9b34bb4d39a4e07fa4a0ee4cf4d1eb14dc08f9bc7e862df1d6668083fca826b8",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/smog_black2.dds",
+      "checksum": "50032007",
+      "plainLength": 22000,
+      "storedLength": 8314,
+      "dataOffset": 82857478,
+      "archive": "package/40.xs",
+      "sha256": "5768e272586217a4a9e698a8fd568bb0f3a584cad4baf80160e02a2685acbb26",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/flash_blue.dds",
+      "checksum": "db6ff55d",
+      "plainLength": 11064,
+      "storedLength": 8220,
+      "dataOffset": 100923082,
+      "archive": "package/2.xs",
+      "sha256": "4f2f29ba96e9ddbd873eafb0af9ac7a595725f98592e0160a8f52dbea39af3ee",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/wave2.dds",
+      "checksum": "dfa68a6d",
+      "plainLength": 2872,
+      "storedLength": 2052,
+      "dataOffset": 33366192,
+      "archive": "package/53.xs",
+      "sha256": "7e6476b35707b3ed64dafef8f17f9ae53c5c2a1e54900412944d3d9302553561",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/d100_st_boss_fog01.dds",
+      "checksum": "a7d531b5",
+      "plainLength": 22000,
+      "storedLength": 13322,
+      "dataOffset": 39615612,
+      "archive": "package/40.xs",
+      "sha256": "4135e246ef563ee857580741dd1ad71ce894a9a4291f1afed8f5b3ea2544342d",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/ex_bottom.dds",
+      "checksum": "9ea11084",
+      "plainLength": 87536,
+      "storedLength": 42171,
+      "dataOffset": 43831359,
+      "archive": "package/41.xs",
+      "sha256": "33c56a9937972a5b1b79d989e3a30b6590b8e9efd97d42428faafe5e954418aa",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/flash_p3.dds",
+      "checksum": "58a89f52",
+      "plainLength": 2872,
+      "storedLength": 2187,
+      "dataOffset": 89562772,
+      "archive": "package/29.xs",
+      "sha256": "7c1ae04df785a8cea54fc868e648e659f70ebc6022143579ee5f3ce109abc482",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_ex2_att.scn",
+      "checksum": "2ee5b914",
+      "plainLength": 113879,
+      "storedLength": 22974,
+      "dataOffset": 75523216,
+      "archive": "package/29.xs",
+      "sha256": "e5a94bc344d5f0380feb84151098277ecdc4a28f6bebcab3be13fa4726bc6bef",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_skull_eff.dds",
+      "checksum": "fbe7459b",
+      "plainLength": 5616,
+      "storedLength": 2291,
+      "dataOffset": 8477909,
+      "archive": "package/41.xs",
+      "sha256": "509b367b0142400162a2824ed789a2fe3199253feda15c80c2876e1d5605e91b",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_ex_att.scn",
+      "checksum": "195de1f6",
+      "plainLength": 8121,
+      "storedLength": 1678,
+      "dataOffset": 21411683,
+      "archive": "package/53.xs",
+      "sha256": "bbd5f73ba5155715804e7c9d6f3c5be4d6e36fa2562e78d96939fa2a938813c9",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/smoke_purple.dds",
+      "checksum": "e6c2f178",
+      "plainLength": 22000,
+      "storedLength": 14486,
+      "dataOffset": 105127939,
+      "archive": "package/29.xs",
+      "sha256": "8af56f2779666425be2e95d3eb5ac1e5feb20e6d841a8568bd2e07de182b0dce",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/tick3.dds",
+      "checksum": "2c99ebab",
+      "plainLength": 2872,
+      "storedLength": 2328,
+      "dataOffset": 35179484,
+      "archive": "package/40.xs",
+      "sha256": "51981ada47ced4529963901d57482ceb91197cc8ee120eb7be03c3b0bd7619e4",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/lightning1_1.dds",
+      "checksum": "1cd0ea95",
+      "plainLength": 5616,
+      "storedLength": 3355,
+      "dataOffset": 71101566,
+      "archive": "package/3.xs",
+      "sha256": "045f3e9fa2035bd3b842d304fd17f8371f2b9b0370bdc11082219b1dc52c2123",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/lightning2_1.dds",
+      "checksum": "875b013e",
+      "plainLength": 5616,
+      "storedLength": 2850,
+      "dataOffset": 19586243,
+      "archive": "package/62.xs",
+      "sha256": "7d32d095629a890ef4c3744a787bdbeb4cb5e9d2ef6319ae9bdb42a8d6b2c7ac",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/lightning3_1.dds",
+      "checksum": "35195451",
+      "plainLength": 5616,
+      "storedLength": 3117,
+      "dataOffset": 14332251,
+      "archive": "package/29.xs",
+      "sha256": "279a350a9484173a19fbb09fd2cceeef7a30a656b24473b260503a2d063af392",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/lightning4_1.dds",
+      "checksum": "bb863ee8",
+      "plainLength": 5616,
+      "storedLength": 3589,
+      "dataOffset": 1427,
+      "archive": "package/75.xs",
+      "sha256": "f2fa57b95575d8c4cac156be83c837c1a04d1bc147df0144d60f8fa4f2b18784",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/pve_boss_eff02.dds",
+      "checksum": "8d4483ca",
+      "plainLength": 349652,
+      "storedLength": 78271,
+      "dataOffset": 66223682,
+      "archive": "package/68.xs",
+      "sha256": "e3d8083555151203974cbb218a66caf16fd774235d419e87eb6bf7d2cb3a1182",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_strong_att.scn",
+      "checksum": "974b6651",
+      "plainLength": 372224,
+      "storedLength": 124063,
+      "dataOffset": 21153322,
+      "archive": "package/54.xs",
+      "sha256": "6bf5de30e67b3e3e2228fb286c86a36d5de332278d74c787260be9377e28480a",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/skill_swordman_gager_dummy01.scn",
+      "checksum": "f18757dd",
+      "plainLength": 2220,
+      "storedLength": 620,
+      "dataOffset": 26260323,
+      "archive": "package/68.xs",
+      "sha256": "a7717c0afee67305ce04a520837c681621fde5328dcaebcde4015351d4869b87",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/skill_mage_meteor1.dds",
+      "checksum": "0f627486",
+      "plainLength": 43832,
+      "storedLength": 20347,
+      "dataOffset": 74387746,
+      "archive": "package/28.xs",
+      "sha256": "da3bca2a1588706a427bd51cbdfd254aa2082c397184a036df3e04d15c6fd35d",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/effect_forcefield2.dds",
+      "checksum": "a73d3f84",
+      "plainLength": 11064,
+      "storedLength": 9451,
+      "dataOffset": 71710787,
+      "archive": "package/54.xs",
+      "sha256": "d37b8bbf956c6f5860d6c3d4979329d09a8507908b801c5d8e19fa0480adc814",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/enemy_res1_nomipmap.dds",
+      "checksum": "6120b66e",
+      "plainLength": 11064,
+      "storedLength": 6403,
+      "dataOffset": 80163337,
+      "archive": "package/3.xs",
+      "sha256": "76953593830b6a3c5972d24a23ea94f9ecbafc856ec19718f0cef6e33eb25d33",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/bash1_2.dds",
+      "checksum": "cfb2c65d",
+      "plainLength": 87536,
+      "storedLength": 22232,
+      "dataOffset": 8889172,
+      "archive": "package/29.xs",
+      "sha256": "62dd88effc91d555f7f4fd2b2caf093ce0b4253365c5167ff84fb102cc3bce31",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/weapon/deathscythe_unique.dds",
+      "checksum": "04b3cb35",
+      "plainLength": 87536,
+      "storedLength": 49297,
+      "dataOffset": 99407628,
+      "archive": "package/60.xs",
+      "sha256": "6d8f1893ad1ea3dd6036bf0a8fa51a34b4beccbed676794a3697df224dce13b2",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/slash_deathscythe.dds",
+      "checksum": "9c38a7ca",
+      "plainLength": 22000,
+      "storedLength": 8347,
+      "dataOffset": 20305881,
+      "archive": "package/40.xs",
+      "sha256": "f616a301471245ecb45b99c2f7b6093e9ddb4a8d0e7e8d789ba48f16dd39dd6d",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/shock01_4.dds",
+      "checksum": "86c37767",
+      "plainLength": 16512,
+      "storedLength": 8988,
+      "dataOffset": 10332777,
+      "archive": "package/3.xs",
+      "sha256": "04c82768a26c87d2eac54a86c0ca436f86f36dffac578a00798554a274716e7e",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/slash_viola.dds",
+      "checksum": "bbf2f6aa",
+      "plainLength": 8320,
+      "storedLength": 2457,
+      "dataOffset": 78272519,
+      "archive": "package/40.xs",
+      "sha256": "1872310ee3dc13a44fdb84fe9f0676009c17454659b175b32dfc83c3d89c3031",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_unique_eff.dds",
+      "checksum": "d550f4d4",
+      "plainLength": 5616,
+      "storedLength": 2601,
+      "dataOffset": 104301931,
+      "archive": "package/40.xs",
+      "sha256": "4ba43951b6f54d301a81919b29627b471036b3afe4bd3af5cb43e031cf6995fe",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/fire2.dds",
+      "checksum": "5c52614b",
+      "plainLength": 11088,
+      "storedLength": 5658,
+      "dataOffset": 92392726,
+      "archive": "package/28.xs",
+      "sha256": "ef4aac8ff59e2467b4731c5cf7b37dc75f822ba46198fab602fa64600515ab7a",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/character/bip_male/male_bip_0000.scn",
+      "checksum": "fb07f65c",
+      "plainLength": 7991633,
+      "storedLength": 5725946,
+      "dataOffset": 23563894,
+      "archive": "package/9.xs",
+      "sha256": "48588d1bf3da193db6bff0868fe625b843eb3d3e5e239b98fdda49c194bc7270",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "model/character/bip_female/female_bip_0000.scn",
+      "checksum": "333bfa1c",
+      "plainLength": 7816537,
+      "storedLength": 5849720,
+      "dataOffset": 9175058,
+      "archive": "package/7.xs",
+      "sha256": "ea045af8ed88b9af88e2a17934e9fa245fe8165488af2ea5af96313bd366eaa7",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_1_att.seq",
+      "checksum": "a00cd7f0",
+      "plainLength": 143,
+      "storedLength": 138,
+      "dataOffset": 68935643,
+      "archive": "package/3.xs",
+      "sha256": "8149179864d8f132eda6e0d1c7d541a850b9f3640150c149507e95be423593fe",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_2_att.seq",
+      "checksum": "52122501",
+      "plainLength": 143,
+      "storedLength": 138,
+      "dataOffset": 61831814,
+      "archive": "package/28.xs",
+      "sha256": "a5442fc026bde1acdc188de5727b8e72f8671b2336bfd5abc8799acb667d44e8",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_3_att.seq",
+      "checksum": "255301f5",
+      "plainLength": 143,
+      "storedLength": 143,
+      "dataOffset": 42404182,
+      "archive": "package/40.xs",
+      "sha256": "0e16b1bcee6f4c684e384f7c266ce7d0cd591e2c271e7f73a09603e712a75c03",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/weapon_deathscythe_strong_att.seq",
+      "checksum": "dbb5fb61",
+      "plainLength": 2636,
+      "storedLength": 1514,
+      "dataOffset": 100954487,
+      "archive": "package/40.xs",
+      "sha256": "03ec1eb8dd4e842aab1b5b3330eb8b8066e7204ab4f9392434ded7dc806906f1",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_4_att.seq",
+      "checksum": "9ccea0da",
+      "plainLength": 2300,
+      "storedLength": 1315,
+      "dataOffset": 26136748,
+      "archive": "package/3.xs",
+      "sha256": "18c2004099a4e7854a49c7aeb40b4b464c6937ad0c696006db77ba49104efa84",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_ex_att_eff.seq",
+      "checksum": "fd7266ff",
+      "plainLength": 2610,
+      "storedLength": 1340,
+      "dataOffset": 83736502,
+      "archive": "package/54.xs",
+      "sha256": "ef3fa9c46a504685afe07fc0be72246f01128730cd97a5ab6c750111f047badc",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "effects/deathscythe_ex2_att_eff.seq",
+      "checksum": "f80788b1",
+      "plainLength": 3156,
+      "storedLength": 1751,
+      "dataOffset": 96774292,
+      "archive": "package/40.xs",
+      "sha256": "e269b7f51393d26ef04f407de442b6f8bca39ea69e9fbb1528a2da38f5c6b58d",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/deathside_cut02.ogg",
+      "checksum": "bbb45298",
+      "plainLength": 11148,
+      "storedLength": 11142,
+      "dataOffset": 24275014,
+      "archive": "package/50.xs",
+      "sha256": "180829f8d7e1340b77c9936d3e753eaf905513b40b5730e36c2336700ec45ed6",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/deathside_smash.ogg",
+      "checksum": "4a840bd0",
+      "plainLength": 12711,
+      "storedLength": 12677,
+      "dataOffset": 76364272,
+      "archive": "package/67.xs",
+      "sha256": "b6d8d537d8115e37675f849567d79ff68f1c1fa5b81cb3da5b55c2630dea205b",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/deathside_jump.ogg",
+      "checksum": "8ecf7e71",
+      "plainLength": 16978,
+      "storedLength": 16973,
+      "dataOffset": 64054491,
+      "archive": "package/23.xs",
+      "sha256": "d893fa605a864ebb6e96da296df49e2efe2ceee36508d745a22602542cd6c8fa",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/deathside_special_laughing.ogg",
+      "checksum": "858a85ec",
+      "plainLength": 46143,
+      "storedLength": 45282,
+      "dataOffset": 24286209,
+      "archive": "package/50.xs",
+      "sha256": "c12d5216222ae9ff7ea5c6018ff293e8b077db592b2c96a4f9a1fd611bb0b58d",
+      "method": "reused-current-crc-authenticated"
+    },
+    {
+      "path": "sound/sword_s.ogg",
+      "checksum": "17135a32",
+      "plainLength": 38561,
+      "storedLength": 38542,
+      "dataOffset": 57743415,
+      "archive": "package/23.xs",
+      "sha256": "08993e4517038124714933dc2675cc4db32741e702acb1aca6623513f7fac047",
+      "method": "reused-current-crc-authenticated"
+    }
+  ],
+  "missing": [
+    {
+      "sequence": "blank_1sec",
+      "node": 0,
+      "reason": "No particle textures"
+    }
+  ],
+  "requested": [],
+  "limitations": [
+    "Native state routing/critical ray and special callback remain unresolved.",
+    "Resources do not certify main-game timing, attachment, effects follow or contact physics."
+  ],
+  "uppercutClip": {
+    "date": "2026-10-17",
+    "source": "script/actorstates_gameplay.lua:ActorState_UpperCut",
+    "clip": "GR005",
+    "proof": "work/parallel-gameplay-reference/heavy-primary-transitions/scythe-uppercut-clip-proof.json"
+  }
+}

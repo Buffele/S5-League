@@ -1,0 +1,142 @@
+/* Common in-game HUD only. Source: ui/metabolism.xui, legacy/health_stamina:
+   panel 1276x267; HP (16,66,1244,97), SP (79,13,1118,103).
+   Complete decoded sprites are used, without atlas crops or generated artwork.
+   Values use the exact Netsphimere face named by metabolism/equipment.xui.
+   The existing runtime owns all values, visibility, selection and fill ratios.
+   Desktop source canvas2880x2160: HP/SP panel802,1820 (bottom73), equipment
+   right246/bottom168. Half-scale matches the actual1440x1080 native capture;
+   contain-fit at other aspect ratios and compact/mobile lanes are adaptations. */
+@font-face{font-family:'S4 HUD Condensed';src:url('/assets/s5runtime/modes-ui/webfonts/netsphimere-semiboldcondenseditalic.woff2') format('woff2');font-style:italic;font-weight:600;font-display:swap}
+@font-face{font-family:'S4 HUD Text';src:url('/assets/s5runtime/modes-ui/webfonts/netsphimere.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+
+body.in-game :is(#hud,#weapon,#weapon-picker,#toast,#fireball-hud){font-family:'S4 HUD Text','Segoe UI',sans-serif;color:#d9e0ea;text-shadow:1px 1px 2px #000,0 0 3px #000;font-synthesis:none;pointer-events:none;user-select:none}
+/* User scaling is capped by the available lane, not applied as an overflowing
+   transform. Default native4:3 placement is unchanged by these safety bounds. */
+body.in-game{--s4-ui-unit:min(calc(100vw / 2880),calc(100vh / 2160));--s4-resource-width:min(calc(100vw - 24px),calc(var(--s4-ui-unit)*1276*var(--hud-scale,1)),calc(100vw - 2*(var(--s4-ui-unit)*762 + 12px)));--s4-resource-height:calc(var(--s4-resource-width)*267/1276);--s4-equipment-width:calc(var(--s4-ui-unit)*516);--s4-equipment-bottom:calc(var(--s4-ui-unit)*168)}
+body.in-game #hud{position:fixed;left:50%;right:auto;bottom:calc(var(--s4-ui-unit)*73);top:auto;width:var(--s4-resource-width);height:auto;aspect-ratio:1276/267;min-height:0;padding:0;border:0;border-radius:0;background:url('/assets/s5runtime/ui/legacy-bg.png') center/100% 100% no-repeat;box-shadow:none;backdrop-filter:none;transform:translateX(-50%);transform-origin:center bottom;overflow:visible;z-index:10}
+body.in-game #hud::before,body.in-game #hud::after,body.in-game #hud .bar::after{display:none}
+body.in-game #hud :is(.health,.stamina){display:block;position:static;margin:0;padding:0;letter-spacing:0}
+body.in-game #hud .bar{position:absolute;margin:0;padding:0;border:0;border-radius:0;overflow:hidden;transform:none;box-shadow:none;background-position:center;background-size:100% 100%;background-repeat:no-repeat}
+body.in-game #hud .health .bar{left:calc(16 / 1276 * 100%);top:calc(66 / 267 * 100%);width:calc(1244 / 1276 * 100%);height:calc(97 / 267 * 100%);background-image:url('/assets/s5runtime/ui/legacy-health_bg.png')}
+body.in-game #hud .stamina .bar{left:calc(79 / 1276 * 100%);top:calc(13 / 267 * 100%);width:calc(1118 / 1276 * 100%);height:calc(103 / 267 * 100%);background-image:url('/assets/s5runtime/ui/legacy-stamina_bg.png')}
+body.in-game #hud .bar i{display:block;height:100%;margin:0;border:0;border-radius:0;box-shadow:none;background-color:transparent;background-position:left top;background-size:100% 100%;background-repeat:no-repeat;transform-origin:left;transition:none}
+body.in-game #hud .health .bar i{background-image:url('/assets/s5runtime/ui/legacy-health.png')}
+body.in-game #hud .stamina .bar i,body.in-game #hud.low-sp .stamina .bar i{background-image:url('/assets/s5runtime/ui/legacy-stamina.png');background-color:transparent}
+/* The host supplies --s4-fill from the same authoritative ratio as its existing
+   transform/width port. Clip the full source arc instead of distorting its label. */
+body.in-game #hud .bar i[style*="--s4-fill"]{width:100%!important;transform:none!important;clip-path:inset(0 calc((1 - clamp(0,var(--s4-fill),1)) * 100%) 0 0)}
+body.in-game #hud .resource-label{display:block;position:static;height:auto;margin:0;padding:0;color:#d9e0ea;font-weight:400;letter-spacing:0}
+body.in-game #hud .resource-icon{display:none}
+/* Keep the English resource names accessible; the source sprites already label HP/SP. */
+body.in-game #hud .resource-label>span:not(.resource-icon){position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+body.in-game #hud b{display:block;position:absolute;z-index:1;float:none;margin:0;font:600 italic clamp(16px,2.1vw,23px)/1 'S4 HUD Condensed','Segoe UI',sans-serif;letter-spacing:0;font-variant-numeric:tabular-nums;color:#d9e0ea;text-align:center;white-space:nowrap}
+/* metabolism text box 518x60: current ends at92, slash starts100,
+   maximum starts131.5. Preserve41:35 and the measured4/3 browser font factor.
+   The12px floor is an explicit small-screen readability adaptation. */
+body.in-game #hud .health b{left:calc(528 / 1276 * 100%);top:calc(137 / 267 * 100%);width:calc(518 / 1276 * 100%);height:calc(60 / 267 * 100%);font-size:max(12px,calc(var(--s4-resource-width)*41/1276*4/3));text-align:left}
+/* Legacy has no numeric SP label. Keep the real runtime value accessible;
+   the original arc remains the visible resource indicator. */
+body.in-game #hud .stamina b{position:absolute;left:0;top:0;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+body.in-game #hud b small{display:inline;margin:0 0 0 4px;font:inherit;font-size:.72em;color:#abb9d1;letter-spacing:0}
+body.in-game #hud .health b :is(#hp-value,.s4-health-separator,small){position:absolute;display:flex;align-items:center;height:100%;margin:0;padding:0;line-height:1;white-space:nowrap}
+body.in-game #hud .health b #hp-value{left:0;top:0;width:calc(92 / 518 * 100%);justify-content:flex-end}
+body.in-game #hud .health b .s4-health-separator{left:calc(100 / 518 * 100%);top:calc(5 / 60 * 100%);width:calc(31.5 / 518 * 100%);font-size:85.365854%;color:#abb9d1}
+body.in-game #hud .health b small{left:calc(131.5 / 518 * 100%);top:calc(5 / 60 * 100%);width:calc(386.5 / 518 * 100%);font-size:85.365854%;justify-content:flex-start}
+body.in-game #hud .health b:has(small:empty) .s4-health-separator{display:none}
+body.in-game #hud.low-sp .stamina b{color:#ffd4a1}
+
+/* equipment.xui: panel 516x216, weapon (326,46,128,128), ammo
+   (68,110,190,89). Full recovered lowright_bg at source screen anchors.
+   Real runtime current/reserve are separate labels; capacity/phase and the
+   experimental qualification remain in the existing description below. */
+body.in-game #weapon{display:block;position:fixed;right:calc(var(--s4-ui-unit)*246);left:auto;bottom:var(--s4-equipment-bottom);top:auto;width:var(--s4-equipment-width);min-height:0;height:calc(var(--s4-equipment-width)*216/516);padding:0;border:0;border-radius:0;background:url('/assets/s5runtime/ui/equipment-recovered/lowright_bg.png') center/100% 100% no-repeat;box-shadow:none;backdrop-filter:none;z-index:10}
+body.in-game #weapon::before{display:none}
+body.in-game #weapon::after{display:none}
+body.in-game #weapon>span{position:absolute;left:8px;right:auto;top:28px;display:block;min-width:0;width:28px;height:auto;padding:0;border:0;border-radius:0;background:none;color:#a8bad3;font:600 italic 16px/1 'S4 HUD Condensed','Segoe UI',sans-serif;text-align:center}
+body.in-game #weapon .equipped-label{display:none}
+body.in-game #weapon div{margin:0;font:400 13px/1.35 'S4 HUD Text','Segoe UI',sans-serif;letter-spacing:0;overflow-wrap:anywhere}
+body.in-game #weapon-name{display:block;position:absolute;left:8px;top:-14px;right:0;font:600 italic 19px/1.1 'S4 HUD Condensed','Segoe UI',sans-serif;color:#d9e0ea}
+body.in-game #weapon-description{display:block;position:absolute;left:8px;right:0;top:100%;margin:0;min-height:38px;font:600 italic 15px/1.25 'S4 HUD Condensed','Segoe UI',sans-serif;letter-spacing:0;color:#d9e0ea;overflow-wrap:anywhere}
+body.in-game #weapon img.s4-equipment-icon{position:absolute;left:calc(326 / 516 * 100%);top:calc(46 / 216 * 100%);width:calc(128 / 516 * 100%);height:calc(128 / 216 * 100%);object-fit:contain;transform:none;filter:none;opacity:1}
+body.in-game #weapon .s4-equipment-ammo{display:block;position:absolute;left:calc(68 / 516 * 100%);top:calc(110 / 216 * 100%);width:calc(190 / 516 * 100%);height:calc(89 / 216 * 100%);margin:0;padding:0;font:600 italic max(16px,calc(var(--s4-equipment-width)*41/516*4/3))/1 'S4 HUD Condensed','Segoe UI',sans-serif;overflow:visible;white-space:nowrap}
+body.in-game #weapon .s4-equipment-ammo>*{display:flex;position:absolute;align-items:center;top:calc(var(--s4-equipment-width)*6/516);height:100%;margin:0;padding:0;background:none;border:0;letter-spacing:0;font:inherit}
+body.in-game #weapon .s4-equipment-current{left:0;width:calc(92 / 190 * 100%);justify-content:flex-end;color:#d9e0ea}
+body.in-game #weapon .s4-equipment-separator{left:calc(100 / 190 * 100%);top:calc(var(--s4-equipment-width)*11/516);font-size:85.365854%;color:#abb9d1}
+body.in-game #weapon .s4-equipment-reserve{left:calc(131.5 / 190 * 100%);top:calc(var(--s4-equipment-width)*11/516);font-size:85.365854%;color:#abb9d1}
+body.in-game #weapon :is(.s4-equipment-ammo,.s4-equipment-icon)[hidden]{display:none}
+/* Preserve detailed capacity/reserve/qualification text for assistive tools,
+   while the native current/reserve readout and short action remain visible. */
+body.in-game #weapon[data-s4-ammo-active="true"] #weapon-description{width:1px;height:1px;min-height:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+body.in-game #weapon>span.s4-equipment-status{position:absolute;left:8px;right:0;top:100%;width:auto;min-width:0;margin:0;padding:0;text-align:left;font:600 italic 15px/1.25 'S4 HUD Condensed','Segoe UI',sans-serif;color:#d9e0ea}
+body.in-game #weapon>span.s4-equipment-status[hidden]{display:none}
+
+body.in-game #weapon-picker{position:fixed;left:18px;right:auto;top:auto;bottom:28px;display:flex;align-items:stretch;gap:4px;margin:0;padding:0;border:0;border-radius:0;background:none;box-shadow:none;backdrop-filter:none;transform:none;animation:none;z-index:10}
+body.in-game #weapon-picker[hidden]{display:none}
+body.in-game #weapon-picker>div{display:flex;flex-direction:column;justify-content:flex-end;position:relative;width:82px;min-height:82px;height:auto;grid-template-rows:none;gap:4px;padding:24px 6px 8px;border:0;border-radius:0;background-position:center;background-size:100% 100%;background-repeat:no-repeat;box-shadow:none;transform:none;opacity:.72;overflow:visible;transition:opacity .15s}
+/* Legacy quick_slot_GroupBox uses the complete slot1/2/3 on/off textures. */
+body.in-game #weapon-picker>div:nth-child(1){background-image:url('/assets/s5runtime/ui/equipment-recovered/weapon_slot1_off.png')}
+body.in-game #weapon-picker>div:nth-child(2){background-image:url('/assets/s5runtime/ui/equipment-recovered/weapon_slot2_off.png')}
+body.in-game #weapon-picker>div:nth-child(3){background-image:url('/assets/s5runtime/ui/equipment-recovered/weapon_slot3_off.png')}
+body.in-game #weapon-picker>div.selected:nth-child(1){background-image:url('/assets/s5runtime/ui/equipment-recovered/weapon_slot1_on.png')}
+body.in-game #weapon-picker>div.selected:nth-child(2){background-image:url('/assets/s5runtime/ui/equipment-recovered/weapon_slot2_on.png')}
+body.in-game #weapon-picker>div.selected:nth-child(3){background-image:url('/assets/s5runtime/ui/equipment-recovered/weapon_slot3_on.png')}
+body.in-game #weapon-picker>div>span{position:absolute;left:7px;top:5px;display:block;min-width:0;width:auto;height:auto;padding:0;border:0;border-radius:0;background:none;color:#d9e0ea;font:600 italic 20px/1 'S4 HUD Condensed','Segoe UI',sans-serif}
+body.in-game #weapon-picker b{position:absolute;top:100%;left:0;right:0;margin-top:2px;font:400 11px/1.2 'S4 HUD Text','Segoe UI',sans-serif;letter-spacing:0;color:#b9c8da;text-align:left;overflow-wrap:anywhere}
+body.in-game #weapon-picker .selected{background-color:transparent;box-shadow:none;transform:none;opacity:1}
+body.in-game #weapon-picker .selected b,body.in-game #weapon-picker .selected>span{color:#fff;background:none}
+body.in-game #weapon-picker .pending{outline:1px dashed #ffd28a;background-color:transparent}
+body.in-game #weapon-picker .pending::after{content:'Pending';position:absolute;right:4px;top:7px;font:400 9px/1 'S4 HUD Text','Segoe UI',sans-serif;letter-spacing:0;color:#ffd28a}
+body.in-game #weapon-picker img{position:absolute;left:12%;top:12%;width:76%;height:76%;object-fit:contain;transform:none;opacity:1;filter:none}
+body.in-game #weapon-picker img[hidden]{display:none}
+
+/* Small common notices retain the host's real message and opacity lifecycle. */
+body.in-game #toast{position:fixed;left:50%;right:auto;top:clamp(230px,32vh,320px);bottom:auto;width:min(620px,90vw);max-width:calc(100vw - 24px);margin:0;padding:10px 20px;border:0;border-radius:0;background:url('/assets/s5runtime/ui/legacy-bg.png') center/100% 100% no-repeat;box-shadow:none;backdrop-filter:none;transform:translateX(-50%);font:400 16px/1.4 'S4 HUD Text','Segoe UI',sans-serif;letter-spacing:0;text-align:center;white-space:normal;overflow-wrap:anywhere;z-index:30}
+body.in-game #fireball-hud{border:0;border-radius:0;background:none;box-shadow:none;font:400 12px/1.3 'S4 HUD Text','Segoe UI',sans-serif}
+
+/* The recovered equipment frame keeps its authored aspect ratio. Narrow
+   screens use a left ability/skill lane beside it; transient weapon slots have
+   their own row only while visible, never a permanent lift above the reticle. */
+@media(max-width:850px){
+ body.in-game{--s4-resource-width:min(calc(100vw - 24px),calc(58vw*var(--hud-scale,1)),calc(420px*var(--hud-scale,1)));--s4-equipment-width:258px;--s4-equipment-bottom:max(160px,calc(78px + var(--s4-resource-height)))}
+ body.in-game #hud{bottom:40px}
+ body.in-game #weapon{right:10px;bottom:var(--s4-equipment-bottom);width:258px;height:108px;min-height:108px;padding:0}
+ body.in-game #weapon-picker{left:10px;bottom:calc(var(--s4-equipment-bottom) + 122px)}
+ body.in-game #weapon-picker>div{width:72px;min-height:72px}
+ body.in-game #fireball-hud{left:10px;bottom:var(--s4-equipment-bottom);width:110px;padding:0;gap:6px;flex-wrap:wrap}
+}
+@media(max-width:500px){
+ body.in-game{--s4-resource-width:min(calc(100vw - 24px),calc((100vw - 24px)*var(--hud-scale,1)));--s4-equipment-width:min(258px,calc(100vw - 124px))}
+ body.in-game #weapon{width:min(258px,calc(100vw - 124px));height:calc(min(258px,100vw - 124px) * 216 / 516);aspect-ratio:516/216;min-height:0;bottom:calc(102px + var(--s4-resource-height))}
+ body.in-game #weapon-name{font-size:15px}
+ body.in-game #weapon-description,body.in-game #weapon>span.s4-equipment-status{top:calc(100% + 4px);margin:0;min-height:0;font-size:13px}
+ body.in-game #weapon-picker{left:12px;bottom:calc(220px + var(--s4-resource-height));width:calc(100vw - 24px);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;align-items:start}
+ body.in-game #weapon-picker[hidden]{display:none}
+ body.in-game #weapon-picker>div{width:auto;min-height:92px;height:auto;padding:76px 4px 6px;background-size:100% 72px;background-position:center top}
+ body.in-game #weapon-picker b{position:static;margin:0;font-size:10px;line-height:12px}
+ body.in-game #weapon-picker img{left:12%;top:8px;width:76%;height:56px}
+ body.in-game #fireball-hud{left:12px;bottom:calc(150px + var(--s4-resource-height));width:90px;display:grid;grid-template-columns:16px minmax(0,1fr);gap:4px;padding:0;font-size:11px}
+ body.in-game #fireball-hud kbd{margin:0;font-size:20px}
+ body.in-game #fireball-hud>div{min-width:0}
+ body.in-game #fireball-hud>span{grid-column:2;margin:0;font-size:10px;white-space:nowrap}
+ body.in-game #fireball-hud small{white-space:normal;overflow-wrap:anywhere}
+ body.in-game #hud b{font-size:20px}
+ body.in-game #hud .health b{font-size:max(20px,calc(var(--s4-resource-width)*41/1276*4/3))}
+ body.in-game #toast{font-size:14px}
+}
+/* A short landscape viewport needs three horizontal bottom lanes, rather
+   than the portrait stack. Complete native sprites are scaled uniformly. */
+@media(max-height:500px) and (min-width:501px){
+ body.in-game{--s4-resource-width:min(calc(34vw*var(--hud-scale,1)),calc(300px*var(--hud-scale,1)),calc(100vw - 2*min(28vw,216px) - 48px));--s4-equipment-width:min(28vw,216px)}
+ body.in-game #hud{bottom:40px}
+ body.in-game #weapon{right:10px;bottom:40px;width:min(28vw,216px);height:calc(min(28vw,216px) * 216 / 516);aspect-ratio:516/216;min-height:0;padding:0}
+ body.in-game #weapon-name{font-size:12px}
+ body.in-game #weapon-description,body.in-game #weapon>span.s4-equipment-status{font-size:11px;top:100%}
+ body.in-game #weapon-picker{left:12px;bottom:40px;width:min(28vw,216px);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;align-items:start}
+ body.in-game #weapon-picker[hidden]{display:none}
+ body.in-game #weapon-picker>div{width:auto;min-height:76px;height:auto;padding:56px 2px 4px;background-size:100% 52px;background-position:center top}
+ body.in-game #weapon-picker b{position:static;margin:0;font-size:10px;line-height:12px}
+ body.in-game #weapon-picker img{left:10%;top:5px;width:80%;height:42px}
+ body.in-game #fireball-hud{left:80px;bottom:148px;width:130px;padding:0;gap:4px;font-size:11px}
+ body.in-game #fireball-hud kbd{font-size:20px}
+}
+@media(prefers-reduced-motion:reduce){body.in-game #weapon-picker *{transition:none}}

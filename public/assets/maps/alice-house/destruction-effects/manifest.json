@@ -1,0 +1,414 @@
+{
+  "schema": "alice-native-map-destruction-effects-v1",
+  "source": "effects/mapeffect_blast_glass.seq",
+  "sourceResources": [
+    {
+      "path": "sound/wall_destroy_steel.ogg",
+      "checksum": "68cbf85e",
+      "plainLength": 29423,
+      "storedLength": 29404,
+      "dataOffset": 13230248,
+      "archive": "50.xs",
+      "method": "known-header-crc32",
+      "sha256": "77d7c2cdcb6cd2e5cc6b30c48582ffcd0a12e05fab8fc696d06a4216110c41c4",
+      "contentStatus": "archive-plaintext"
+    },
+    {
+      "path": "effects/mapeffect_blast_glass.seq",
+      "checksum": "cb183cc5",
+      "plainLength": 1704,
+      "storedLength": 1027,
+      "dataOffset": 84102275,
+      "archive": "53.xs",
+      "method": "repeated-zero-block+signature+crc32",
+      "sha256": "2ecaadedcbe0e21a852160bbf0762db42ca4d58b2e7744d6d6438458d9a20e9c",
+      "contentStatus": "archive-plaintext"
+    },
+    {
+      "path": "effects/smoke4.dds",
+      "checksum": "85d82313",
+      "plainLength": 87508,
+      "storedLength": 18662,
+      "dataOffset": 13232220,
+      "archive": "3.xs",
+      "method": "known-header-crc32",
+      "sha256": "9df942208ecfca2f6d6f28d10cfe813007d660f8493e567c8a2d5c7b948721c8",
+      "contentStatus": "archive-plaintext"
+    },
+    {
+      "path": "effects/glass_chunks2.dds",
+      "checksum": "90925ab3",
+      "plainLength": 1520,
+      "storedLength": 956,
+      "dataOffset": 4598147,
+      "archive": "40.xs",
+      "method": "known-header-crc32",
+      "sha256": "22261e5934c758d8c6b37c7a2096fbb5fd1a7cacd249cb2b5e587862dc35d134",
+      "contentStatus": "archive-plaintext"
+    },
+    {
+      "path": "effects/smoke2.dds",
+      "checksum": "ad0ca1ed",
+      "plainLength": 43856,
+      "storedLength": 15482,
+      "dataOffset": 52438663,
+      "archive": "40.xs",
+      "method": "known-header-crc32",
+      "sha256": "851c326c59b7262c7030fa981e102847a4d2d84b0ff422ffa81678a8ce651c57",
+      "contentStatus": "archive-plaintext"
+    },
+    {
+      "path": "effects/specs.dds",
+      "checksum": "da35a901",
+      "plainLength": 22000,
+      "storedLength": 2796,
+      "dataOffset": 70087655,
+      "archive": "54.xs",
+      "method": "known-header-crc32",
+      "sha256": "0439e8679794c96eaac697bf12078ca930028f1864e2eb3e847e50274efc7717",
+      "contentStatus": "archive-plaintext"
+    }
+  ],
+  "indexSha256": "430b265d2bf47d283803f2bfb850dee60da432fb5ce9cb5710ca94704998b29b",
+  "parser": {
+    "path": "work/arsenal-integration/convert-seq.mjs",
+    "sha256": "f79bc4f37cd3a6199adab2458ac2d4fedf6d666c27c426ba5e6edc09da367f30"
+  },
+  "coverage": {
+    "envelopeBytesAccountedFor": 1704,
+    "reachesExactEof": true,
+    "structuredNodeCount": 4,
+    "fullyStructured": true,
+    "fieldMeaningFullyValidated": false,
+    "rendered": false,
+    "qualification": "Header, base, Particle, Particle_IF, GhostTrail, Lightning, NodeControl, NodeLoader and NodeLoader_IF are consumed sequentially along statically traced native reader branches. Unvalidated four-byte fields retain raw/int/float views. No runtime rendering has been verified."
+  },
+  "nodeByteRanges": [
+    {
+      "index": 0,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 14,
+        "end": 451,
+        "length": 437
+      }
+    },
+    {
+      "index": 1,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 451,
+        "end": 888,
+        "length": 437
+      }
+    },
+    {
+      "index": 2,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 888,
+        "end": 1292,
+        "length": 404
+      }
+    },
+    {
+      "index": 3,
+      "type": "CActParticle",
+      "byteRange": {
+        "start": 1292,
+        "end": 1704,
+        "length": 412
+      }
+    }
+  ],
+  "sourceDurationMs": 3000,
+  "runtimeDurationSeconds": 3,
+  "nodeCount": 4,
+  "textureResolution": [
+    {
+      "node": 0,
+      "sourceLiteral": "c:\\documents and settings\\쩜100\\바탕 화면\\client\\resources\\effects\\smoke4.tga",
+      "rebasedPath": "effects/smoke4.tga",
+      "preferredDdsPath": "effects/smoke4.dds",
+      "selectedPath": "effects/smoke4.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/smoke4.dds",
+          "checksum": "85d82313",
+          "plainLength": 87508,
+          "storedLength": 18662,
+          "dataOffset": 13232220,
+          "archive": "3.xs"
+        }
+      ]
+    },
+    {
+      "node": 1,
+      "sourceLiteral": "c:\\documents and settings\\쩜100\\바탕 화면\\client\\resources\\effects\\smoke2.tga",
+      "rebasedPath": "effects/smoke2.tga",
+      "preferredDdsPath": "effects/smoke2.dds",
+      "selectedPath": "effects/smoke2.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/smoke2.dds",
+          "checksum": "ad0ca1ed",
+          "plainLength": 43856,
+          "storedLength": 15482,
+          "dataOffset": 52438663,
+          "archive": "40.xs"
+        }
+      ]
+    },
+    {
+      "node": 2,
+      "sourceLiteral": "c:\\documents and settings\\쩜100\\바탕 화면\\client\\resources\\effects\\specs.tga",
+      "rebasedPath": "effects/specs.tga",
+      "preferredDdsPath": "effects/specs.dds",
+      "selectedPath": "effects/specs.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/specs.dds",
+          "checksum": "da35a901",
+          "plainLength": 22000,
+          "storedLength": 2796,
+          "dataOffset": 70087655,
+          "archive": "54.xs"
+        }
+      ]
+    },
+    {
+      "node": 3,
+      "sourceLiteral": "c:\\documents and settings\\쩜100\\바탕 화면\\client\\resources\\effects\\glass_chunks2.tga",
+      "rebasedPath": "effects/glass_chunks2.tga",
+      "preferredDdsPath": "effects/glass_chunks2.dds",
+      "selectedPath": "effects/glass_chunks2.dds",
+      "status": "native-selected-indexed",
+      "rule": "CParticleTexture -> D3D manager slot 0x28: prefer same-directory DDS when it exists; otherwise original extension",
+      "evidence": [
+        "0x123e850",
+        "0x123ddc0",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "entries": [
+        {
+          "path": "effects/glass_chunks2.dds",
+          "checksum": "90925ab3",
+          "plainLength": 1520,
+          "storedLength": 956,
+          "dataOffset": 4598147,
+          "archive": "40.xs"
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": "effects/smoke4.dds",
+      "sourceBytes": 87508,
+      "sourceSha256": "9df942208ecfca2f6d6f28d10cfe813007d660f8493e567c8a2d5c7b948721c8",
+      "path": "/assets/maps/alice-house/destruction-effects/textures/smoke4.png",
+      "bytes": 5008,
+      "sha256": "05a32cf0c60153f7725f47e43b89919946100c44f11eae921499ea890cf9423a",
+      "width": 128,
+      "height": 128,
+      "format": "RGBA32"
+    },
+    {
+      "source": "effects/glass_chunks2.dds",
+      "sourceBytes": 1520,
+      "sourceSha256": "22261e5934c758d8c6b37c7a2096fbb5fd1a7cacd249cb2b5e587862dc35d134",
+      "path": "/assets/maps/alice-house/destruction-effects/textures/glass_chunks2.png",
+      "bytes": 820,
+      "sha256": "c6c6386ec4e0c0ed31558307492377f624b4c954f9c8b2523d3151b01ea1338b",
+      "width": 32,
+      "height": 32,
+      "format": "DXT3"
+    },
+    {
+      "source": "effects/smoke2.dds",
+      "sourceBytes": 43856,
+      "sourceSha256": "851c326c59b7262c7030fa981e102847a4d2d84b0ff422ffa81678a8ce651c57",
+      "path": "/assets/maps/alice-house/destruction-effects/textures/smoke2.png",
+      "bytes": 13115,
+      "sha256": "e7b7afd3e86b8eadb63e65cca97815cd40f5cce1c301be2fa132b93c5aa9ec41",
+      "width": 128,
+      "height": 256,
+      "format": "DXT3"
+    },
+    {
+      "source": "effects/specs.dds",
+      "sourceBytes": 22000,
+      "sourceSha256": "0439e8679794c96eaac697bf12078ca930028f1864e2eb3e847e50274efc7717",
+      "path": "/assets/maps/alice-house/destruction-effects/textures/specs.png",
+      "bytes": 678,
+      "sha256": "f9a93ad1658f383f59cecb7beafd09c56c3155820194a67f35c2f131cb8652c1",
+      "width": 128,
+      "height": 128,
+      "format": "DXT3"
+    }
+  ],
+  "files": [
+    {
+      "path": "/assets/maps/alice-house/destruction-effects/runtime.json",
+      "bytes": 3944,
+      "sha256": "3579e15ea6914edc766bbfecee9e0af47287f8b96152ff4b61f926742482a21e"
+    },
+    {
+      "path": "/assets/maps/alice-house/destruction-effects/sequences/mapeffect_blast_glass.json",
+      "bytes": 27051,
+      "sha256": "bc277b3138049d3c0526517c0fd8f67c20a75922f200df703427ae3e284e0c1e"
+    },
+    {
+      "path": "/assets/maps/alice-house/destruction-effects/sequences/mapeffect_blast_glass.seq",
+      "bytes": 1704,
+      "sha256": "2ecaadedcbe0e21a852160bbf0762db42ca4d58b2e7744d6d6438458d9a20e9c"
+    },
+    {
+      "path": "/assets/maps/alice-house/destruction-effects/sound/wall_destroy_steel.ogg",
+      "bytes": 29423,
+      "sha256": "77d7c2cdcb6cd2e5cc6b30c48582ffcd0a12e05fab8fc696d06a4216110c41c4"
+    }
+  ],
+  "missingResources": [
+    "wall_destroy_steel.ogg1",
+    "noise.bmp",
+    "teleport.ogg"
+  ],
+  "substitutionsMade": false,
+  "rendererStatus": "Four original CActParticle nodes are structurally replayable through existing Sequence/Particles; incomplete field semantics remain explicit.",
+  "unsupportedNonzeroRendererFields": [
+    {
+      "node": 0,
+      "field": "object+30",
+      "value": 1,
+      "scope": "Emitter field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 0,
+      "field": "control+5c",
+      "value": 1,
+      "scope": "Control field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 0,
+      "field": "control+6c",
+      "value": 300,
+      "scope": "Control field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 1,
+      "field": "object+54",
+      "value": 200,
+      "scope": "Emitter field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 1,
+      "field": "control+5c",
+      "value": 1,
+      "scope": "Control field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 1,
+      "field": "control+6c",
+      "value": 500,
+      "scope": "Control field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 2,
+      "field": "object+30",
+      "value": 500,
+      "scope": "Emitter field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 2,
+      "field": "object+4c",
+      "value": -500,
+      "scope": "Emitter field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 2,
+      "field": "control+5c",
+      "value": 1,
+      "scope": "Control field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 2,
+      "field": "control+6c",
+      "value": 300,
+      "scope": "Control field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 3,
+      "field": "object+30",
+      "value": 1000,
+      "scope": "Emitter field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 3,
+      "field": "object+4c",
+      "value": -1000,
+      "scope": "Emitter field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 3,
+      "field": "control+5c",
+      "value": 1,
+      "scope": "Control field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 3,
+      "field": "control+64",
+      "value": 1,
+      "scope": "Control field retained but not consumed by existing Particles renderer"
+    },
+    {
+      "node": 3,
+      "field": "control+6c",
+      "value": 1200,
+      "scope": "Control field retained but not consumed by existing Particles renderer"
+    }
+  ],
+  "rendererLimits": [
+    "Emitter/control fields listed above are preserved, not implemented by this adapter.",
+    "Existing Particles simulation is an S5 adaptation with no native visual/RNG/numeric parity certification.",
+    "Effect world transform/event position must be supplied from committed map lifecycle; source placement not inferred here.",
+    "No replacement sound for window/door .ogg1 and no noise/teleport substitute."
+  ],
+  "nativeReady": false,
+  "nativeCompared": false,
+  "visualReviewPerformed": false,
+  "activeGameplayWired": false
+}

@@ -1,0 +1,32 @@
+import {ConquestMonsterAnimationAdapter} from './conquest-monster-animation.js';
+import {ConquestMonsterStateManager,ConquestMonsterNormalState,ConquestMonsterRunState,ConquestMonsterDamageState,ConquestMonsterBlowState,ConquestMonsterDeathState} from './conquest-monster-state-manager.js';
+import {assertConquestKnightActor} from './conquest-knight-ai.js';
+import {createConquestKnightAttackStates,readConquestKnightAttackOwner} from './conquest-knight-attack.js';
+import {assertConquestKnightBaseLifecycle} from './conquest-knight-base-lifecycle.js';
+import {assertConquestKnightReactions} from './conquest-knight-reactions.js';
+import {assertConquestKnightMoveBox} from './conquest-knight-movebox.js';
+const owners=new WeakMap(),uint=n=>Number.isInteger(n)&&n>=0&&n<=0xffffffff;
+export function assertConquestKnightRuntime(runtime,{actor}={}){const r=owners.get(runtime);if(!r||r.actor!==actor)throw Error('Typed actual Knight1203 runtime required');r.live();return runtime;}
+// CMonster's inherited states retain their original consumers. The two
+//source attack states own distinct groups; no Pawn1003 state/670ms or DeathBomb.
+export class ConquestKnightRuntime{
+ constructor({actor,readCurrentActor,baseLifecycle,reactions,attackOwner,moveBoxOwner,isFastRun,runMovement,beforeStateTick,animationOptions}={}){
+  assertConquestKnightActor(actor);assertConquestKnightBaseLifecycle(baseLifecycle,{actor});assertConquestKnightReactions(reactions,{actor});assertConquestKnightMoveBox(moveBoxOwner,{actor});
+  if(attackOwner!==readConquestKnightAttackOwner(actor)||!attackOwner||![readCurrentActor,isFastRun,runMovement,beforeStateTick].every(f=>typeof f==='function'))throw Error('Actual Knight identity/group/Run/prefix consumers required');
+  const model=actor.model;let disposed=false,fault=null,busy=false,pendingPose=false;this.actor=actor;this.disposed=false;this.manager=new ConquestMonsterStateManager();this.animation=new ConquestMonsterAnimationAdapter(model,animationOptions);this.lastAnimation=null;this.lastMovementResult=null;this.lastActorPrefix=null;this.lastPresentation=null;
+  const live=()=>{if(disposed||fault||readCurrentActor()!==actor||actor.model!==model||readConquestKnightAttackOwner(actor)!==attackOwner)throw Error('Current owned Knight runtime required'+(fault?': '+fault:''));assertConquestKnightActor(actor);assertConquestKnightBaseLifecycle(baseLifecycle,{actor});assertConquestKnightReactions(reactions,{actor});assertConquestKnightMoveBox(moveBoxOwner,{actor});};
+  const ports={...reactions.ports,baseEnter:state=>baseLifecycle.enter(state),baseExit:state=>baseLifecycle.exit(state),baseTick:(state,delta)=>{const r=baseLifecycle.tick(state,delta);this.lastMovementResult=r.motion.solverResult;return r;},
+   animationEnter:(state,context)=>{live();const ctx={...context,playbackRate:baseLifecycle.readPlaybackRate(state),animationAdapter:this.animation};this.lastAnimation=state.stateId===4&&state.requestedClip!=='00001'?reactions.ports.applyDeathAnimation(state,ctx):this.animation.enter(state.stateId,ctx);if(this.lastAnimation?.accepted!==true)throw Error('Actual authored Knight animation clip required');},
+   readMoveDirection:()=>actor.moveDirectionNative,isFastRun,applyRunMotion:(state,delta,direction)=>{this.lastMovementResult=runMovement(actor,state,delta,direction);if(this.lastMovementResult?.qualified!==true)throw Error('Knight Run collision consumer refused');}};
+  this.normal=new ConquestMonsterNormalState({actor,ports});this.run=new ConquestMonsterRunState({actor,ports});this.damage=new ConquestMonsterDamageState({actor,ports});this.blow=new ConquestMonsterBlowState({actor,ports});this.death=new ConquestMonsterDeathState({actor,ports});this.attacks=createConquestKnightAttackStates({actor,attackOwner,ports});
+  for(const state of [this.normal,this.run,this.damage,this.blow,this.death,...this.attacks])this.manager.registerState(state.stateId,state);
+  this.commandPorts=Object.freeze({requestNativeInput:(target,input)=>{live();if(target!==actor)throw Error('Actual Knight input actor required');this.manager.requestInput(input);},findNativeInputState:(target,input)=>{live();if(target!==actor)throw Error('Actual Knight state lookup actor required');return this.manager.findInputState(input);},acceptsAttackDirection:state=>!disposed&&!fault&&this.attacks.includes(state),writeAttackDirection:(state,direction)=>{live();if(!this.attacks.includes(state))throw Error('Authored Knight attack state required');state.setAttackDirection(direction);}});
+  this.assertActor=target=>{live();if(target!==actor)throw Error('Actual Knight runtime actor required');};
+  this.tick=delta=>{live();if(busy||!uint(delta))throw Error('Nonreentrant source uint32 Knight tick required');busy=true;try{this.lastActorPrefix=beforeStateTick(delta);if(this.lastActorPrefix?.qualified!==true)throw Error('Knight actor physical prefix refused: '+(this.lastActorPrefix.reason??'unqualified prefix'));live();this.manager.tick(delta);pendingPose=true;return this.snapshot();}catch(error){fault=error.message;throw error;}finally{busy=false;}};
+  // Caller evaluates the actual mixer once before this post-pose phase.
+  this.updatePresentation=delta=>{live();if(busy||!uint(delta))throw Error('Actual post-pose uint32 Knight phase required');this.lastPresentation=moveBoxOwner.retainPostPose(this.animation);pendingPose=false;return this.lastPresentation;};
+  this.snapshot=()=>({actorId:actor.id,monsterKey:1203,currentStateId:this.manager.current?.stateId??null,previousStateId:this.manager.previous?.stateId??null,pendingInputs:this.manager.pendingInputs,registeredStateIds:[0,1,2,3,4,5,6],unimplementedDefaultStateIds:[7,8,9],unqualifiedMoveBoxFallbackStateIds:[2,3],animation:this.lastAnimation,presentationPending:pendingPose,moveBox:moveBoxOwner.snapshot(),attackGroup:attackOwner.snapshot(),damageCounter:{...this.damage.counter},actorPrefix:this.lastActorPrefix,disposed,fault,nativeReady:false});
+  this.dispose=()=>{if(disposed)return;if(busy)throw Error('Cannot dispose Knight while ticking');const errors=[];try{const current=this.manager.current;if(current)current.exit(this.manager);}catch(e){errors.push(e);}try{this.animation.dispose();}catch(e){errors.push(e);}disposed=true;this.disposed=true;if(errors.length)throw new AggregateError(errors,'Knight runtime cleanup failed');};
+  owners.set(this,{actor,live});try{this.manager.switchState(0);}catch(error){this.dispose();throw error;}
+ }
+}

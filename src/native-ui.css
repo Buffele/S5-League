@@ -1,0 +1,65 @@
+:root{--native-blue:#71cfff;--native-text:#d9e0ea;--td-alpha:#75c9ff;--td-beta:#ff7a78}
+#welcome,#lab,#hud,#weapon,#weapon-picker,#touchdown-ui,#match-ui,.enemy-health,#fireball-hud{font-family:"Segoe UI",Arial,sans-serif}
+/* S5 League panels share an original CSS surface while retaining control IDs. */
+#hud,.in-game #hud{width:290px;left:18px;bottom:26px;background:linear-gradient(135deg,#0b293eed,#081826e8) center/100% 100% no-repeat;padding:12px 14px 14px;border:0;border-radius:0;box-shadow:none;backdrop-filter:none}
+#hud .health,#hud .stamina{grid-template-columns:22px 1fr;gap:4px}
+#hud .bar{height:20px;border:0;background:linear-gradient(#07151f,#132e3f) center/100% 100% no-repeat;overflow:hidden}
+#hud .bar i{background:linear-gradient(90deg,#269fcd,#8eeaff) left center/100% 100% no-repeat;box-shadow:none}
+#hud .stamina .bar{height:16px;background-image:linear-gradient(#07151f,#132e3f)}
+#hud .stamina .bar i,#hud.low-sp .stamina .bar i{background-image:linear-gradient(90deg,#27ad91,#93f7d2);background-color:transparent}
+#weapon,.in-game #weapon{display:block;right:18px;bottom:26px;background:linear-gradient(135deg,#17384ced,#071a28ed) center/100% 100% no-repeat;border:0;border-radius:0;box-shadow:none;backdrop-filter:none;width:240px;min-height:85px;padding:12px 82px 12px 15px}
+#weapon:after{display:none}#weapon .equipped-label{display:none}#weapon div{font-size:12px}#weapon small{font-size:10px}#weapon img{width:70px;height:65px;right:8px;top:14px;transform:none}#weapon>span{border:0;border-radius:0;top:4px}
+#weapon-picker{border-radius:0;background:linear-gradient(135deg,#102f44f5,#071a2af5) center/100% 100% no-repeat;backdrop-filter:none;box-shadow:none}
+#weapon-picker>div,#weapon-picker .selected{border-radius:0;background:#15344ba8;border:1px solid #91c9f277;box-shadow:none;transform:none}
+#weapon-picker .selected{background:#4a8fc077;border-color:#d1eaff}
+.td-scoreboard{gap:0;filter:none;top:8px;width:560px;height:114px;background:linear-gradient(90deg,#13405de8,#071725ed 45%,#071725ed 55%,#522d43e8) center/100% 100% no-repeat;justify-content:center}
+.td-team,.td-clock{background:none;border:0;border-radius:0;min-width:0;padding:10px 15px;color:#d9e0ea;box-shadow:none}.td-team{width:135px;gap:12px}.td-team strong{font-size:35px;font-style:italic}.td-clock{width:170px}.td-clock b{font-size:35px;font-style:italic}.td-team span{letter-spacing:0;font-size:12px}.td-clock small,.td-clock span{letter-spacing:0}
+.td-objective{background:none;border:0;border-radius:0;text-shadow:1px 1px 2px #000;padding:6px;top:125px;min-width:0}.td-diamond{display:none}.td-objective b{font-size:16px}.td-objective small,.td-objective div>span{font-size:12px}
+.td-announcement{background:none;border:0;border-radius:0;box-shadow:none;text-shadow:2px 2px 2px #000}.td-announcement strong{color:#f0f2f4;font-style:italic}.td-progress{background:#182a3c}.td-progress i{background:#82bfea}.td-announcement button,.native-replay{border:0;border-radius:0;background:linear-gradient(135deg,#1b4b64,#102b40) center/100% 100%;color:#d9e0ea;padding:12px 28px;pointer-events:auto;cursor:pointer}
+.td-local{background:none;border-radius:0;text-shadow:1px 1px 2px #000}
+.match-roster,.native-roster{background:linear-gradient(145deg,#0e3045f5,#061624f5) left top/100% 100%;border:0;border-radius:0;color:#d9e0ea;box-shadow:none}
+.match-feed p{background:none;border:0;border-radius:0;font-size:14px;text-shadow:1px 1px 2px #000;color:#fff}
+.enemy-health{border-radius:0;background:#0c1d29b0;border:0;box-shadow:none}.enemy-health i{background:#ef6a55}
+#fireball-hud{border:0;background:none;box-shadow:none;padding:0;text-shadow:1px 1px 2px #000}
+.native-stage{position:absolute;left:50%;top:0;width:1024px;height:768px;transform-origin:top center;font-family:"Segoe UI",Arial,sans-serif;color:#fff;text-shadow:1px 1px 2px #000}
+#weapon,#hud{text-shadow:1px 1px 2px #000,0 0 3px #000}
+[data-phase=result][data-result=win] .td-announcement strong,[data-phase=result][data-result=defeat] .td-announcement strong{height:90px;color:var(--native-result-color,#e6f8ff);text-shadow:0 2px 18px #061520;background:none;letter-spacing:.08em}
+[data-result=win]{--native-result-color:#a5f2d4}[data-result=defeat]{--native-result-color:#ffaaa3}
+.native-element{position:absolute;box-sizing:border-box}.native-digits{display:flex;justify-content:flex-end}.native-digits img{height:100%;max-width:100%;object-fit:fill;min-width:0}.native-feed{font-size:12px}.native-feed p{margin:4px 0}.native-summary{white-space:pre-line;text-align:center;font-size:15px}.native-roster{padding:25px}.native-roster table{width:100%;border-collapse:collapse;background:#051c2cd9}.native-roster th,.native-roster td{height:28px;padding:0 12px;text-align:left}.native-roster th{color:#c0d0c0;background:#4a627888}.native-roster tr:nth-child(2){color:#ff796d}
+.native-feed p{display:flex;align-items:center;height:35px;color:#65ff31;font-size:30px;animation:native-point-rise 1.8s ease-out both}.native-feed img{height:100%;object-fit:contain}
+.native-result-effect,.td-announcement:not([hidden]){animation:native-announcement .65s ease-out both}
+.native-time-warning .native-digits:nth-child(-n+3){animation:native-timer-glow .8s ease-in-out infinite alternate}
+@keyframes native-point-rise{0%{opacity:0;transform:translateY(12px) scale(1.4);filter:brightness(2)}15%{opacity:1;transform:translateY(0) scale(1)}75%{opacity:1}100%{opacity:0;transform:translateY(-30px)}}
+@keyframes native-announcement{0%{opacity:0;filter:brightness(3);scale:1.5}35%{opacity:1;filter:brightness(1.8)}100%{opacity:1;filter:brightness(1);scale:1}}
+@keyframes native-timer-glow{from{filter:brightness(1)}to{filter:brightness(1.6) drop-shadow(0 0 7px #ff4535)}}
+.native-chaser-life{padding:7px 10px}.native-chaser-life i{display:block;height:30px;background:linear-gradient(90deg,#b43350,#ff897c) left center/100% 100%;transform-origin:left}
+.native-result-details{background:#051c2ce8;padding:8px;font-size:12px;white-space:normal}.native-result-details p{margin:6px 0}.native-result-details table{width:100%;border-collapse:collapse}.native-result-details th,.native-result-details td{padding:3px 5px;text-align:right}.native-result-details th:first-child,.native-result-details td:first-child{text-align:left}
+.native-result-details p{color:#e5f4ff}
+.native-chaser-result-board{position:relative;width:1024px;height:768px;white-space:normal;background:linear-gradient(135deg,#10354bee,#061522f5);border:1px solid #6ab8d966}
+.native-result-background,.native-result-cell,.native-result-rows,.native-result-row{position:absolute;box-sizing:border-box}
+.native-result-cell{display:flex;align-items:center;justify-content:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;z-index:1}
+.native-result-row .native-result-cell:first-of-type{justify-content:flex-start;padding-left:4px}
+.native-result-rows{overflow:hidden}.native-result-background{pointer-events:none}.native-result-background:is(img){display:none}
+.native-result-footer{position:absolute;left:0;right:0;top:678px;display:flex;justify-content:center;align-items:flex-start;gap:24px;font-size:12px;pointer-events:auto}
+.native-result-footer details{position:relative;min-width:220px}.native-result-footer summary{cursor:pointer;padding:10px;color:#d9e0ea;background:#051c2ce8}
+.native-result-footer details>div{position:absolute;bottom:100%;left:0;width:484px;max-height:260px;overflow:auto;padding:12px;background:#051c2cf5;text-align:left;box-sizing:border-box}
+.native-result-footer p{margin:6px 0}
+.native-chaser-ui[data-phase=result] .native-stage>.native-element:not(.native-summary):not(.native-result-effect){visibility:hidden}
+body:has(.native-chaser-ui[data-phase=result]:not([hidden])) :is(#hud,#weapon,#weapon-picker,#fireball-hud,#crosshair,.enemy-health){display:none!important}
+.native-chaser-scores{position:absolute;left:8px;top:8px;width:290px;height:150px;transform-origin:top left;text-shadow:0 1px 3px #000}.native-chaser-scores .native-digits img{width:37px;flex:none}.native-score-name{font-size:14px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+/* S5 League configuration controls. */
+#welcome{background:linear-gradient(#0d1d2dee,#162e43ee);color:#d9e0ea;border:1px solid #6285a1;border-radius:0;box-shadow:none;backdrop-filter:none}
+#welcome h1,#welcome h2,#welcome h3{font-family:"Segoe UI",Arial,sans-serif;color:#eef4ff;font-style:italic}
+#welcome .menu-tabs,#welcome .menu-panel,#welcome .setup,#welcome .menu-card,#welcome .menu-choice,#welcome .restored-inventory button{border-radius:0;box-shadow:none;background-color:#142b40;color:#d9e0ea;border-color:#58748d}
+#welcome button,#welcome .menu-tabs button,#welcome #play{font-family:"Segoe UI",Arial,sans-serif;border-radius:0;box-shadow:none;background:linear-gradient(135deg,#1b4b64,#102b40) center/100% 100%;color:#d9e0ea;border:0}
+#welcome button:hover,#welcome .menu-tabs button[aria-selected=true],#welcome #play:hover{background-image:linear-gradient(135deg,#276b86,#173d57)}
+#welcome label,#welcome p,#welcome small,#welcome a,#welcome .eyebrow{color:#b8cbdc}#welcome select,#welcome input{background-color:#182f45;color:#e5ecf4;border:1px solid #66839c;border-radius:0}#welcome .menu-choice.selected{border-color:#a2d8ff;background:#275775}
+#welcome .menu-choice.is-selected{border-color:#b4ddff;background-color:#366280}#welcome .menu-choice-preview,#welcome .menu-panel-heading>span,#welcome .menu-choice.is-selected:after{border-radius:0;background-color:#244b6b;color:#d7edff}#welcome .menu-tabs button.is-active{background-image:linear-gradient(135deg,#276b86,#173d57);color:#eef5ff}#welcome #graphics-settings{background:#152b40;border-color:#6285a1;border-radius:0;color:#d9e0ea}#welcome .menu-panel-heading p,#welcome .menu-field{color:#c0d1e1}
+@media(max-width:650px){.td-scoreboard{width:96vw}.td-team{width:24vw;padding:8px}.td-clock{width:38vw}#hud,.in-game #hud{width:210px;left:10px;bottom:15px}#weapon,.in-game #weapon{width:190px;right:10px;bottom:15px}}
+#welcome .settings-group legend,#welcome .settings-range>span{color:#d9e0ea}
+#welcome .settings-group-note{color:#b8cbdc!important}
+#welcome .settings-choice{background:linear-gradient(135deg,#1b4b64,#102b40) center/100% 100%!important;color:#d9e0ea!important;border:1px solid #58748d!important;border-radius:0}
+#welcome .settings-choice.is-selected,#welcome .settings-choice:hover{background-image:linear-gradient(135deg,#276b86,#173d57)!important;border-color:#b4ddff!important;box-shadow:none}
+#welcome .settings-choice b{color:#eef4ff}#welcome .settings-choice small{color:#b8cbdc!important}
+#welcome .settings-range,#welcome .menu-field:has(#audio-volume){background:#142b40;border-radius:0;border-color:#58748d;color:#d9e0ea}
+#welcome .settings-range output{color:#eef4ff}#welcome .menu-shell{background:#142b40;border-radius:0;box-shadow:none;border-color:#58748d}

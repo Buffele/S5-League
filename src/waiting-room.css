@@ -1,0 +1,99 @@
+#waiting-room{position:fixed;inset:0;z-index:25;pointer-events:none;font:14px 'S4 HUD Text','Segoe UI',sans-serif;color:#eefaff}
+#waiting-room[hidden]{display:none!important}
+#waiting-room button{box-sizing:border-box;pointer-events:auto;min-width:0;width:auto;min-height:44px;padding:10px 20px;color:#e4f8ff;background:#0b2234e8;border:1px solid #3e758a;font:14px 'S4 HUD Text','Segoe UI',sans-serif;cursor:pointer}
+#waiting-room button:hover,#waiting-room button:focus-visible{background:#123e54;border-color:#59d8ed;outline-offset:3px}
+#waiting-room button:disabled{opacity:.5;cursor:wait}
+.waiting-room-menu{display:flex;align-items:center;gap:8px;padding:12px 18px;background:#061421cf;border-bottom:1px solid #286479}
+.waiting-room-menu>b{margin-right:auto;letter-spacing:.14em}
+.waiting-room-info{box-sizing:border-box;position:absolute;top:86px;left:16px;display:grid;grid-template-columns:minmax(0,1fr) 44px;align-items:end;gap:8px;width:300px;max-width:calc(100vw - 32px);min-height:112px;padding:12px;overflow:hidden;background:#071b2be8;border-left:2px solid #47d9f0}
+.waiting-room-info.has-map-preview{min-height:150px;background:#071b2b}.waiting-room-info>[data-room-preview]{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.78}.waiting-room-info>[data-room-preview][hidden]{display:none}
+.waiting-room-info.has-map-preview::after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#031222aa,transparent),linear-gradient(0deg,#031222ed,transparent 90%)}
+.waiting-room-info-body{position:relative;z-index:1;display:grid;gap:5px;min-width:0;text-shadow:0 1px 3px #000}.waiting-room-info-body>b{font-size:22px;font-weight:400;line-height:1.1;overflow-wrap:anywhere}.waiting-room-info-body>span{font-size:13px;line-height:17px}.waiting-room-info-body>small{font-size:12px;line-height:16px;color:#d3eaf4}
+#waiting-room .waiting-room-map-settings{position:relative;z-index:1;align-self:end;width:44px;height:44px;min-width:44px;padding:8px;border:0;background:transparent url('/assets/ui/waiting-room/room-settings-normal.png') center/100% 100% no-repeat}
+#waiting-room .waiting-room-map-settings:hover,#waiting-room .waiting-room-map-settings:focus-visible{background-image:url('/assets/ui/waiting-room/room-settings-hover.png');outline:2px solid #59d8ed}#waiting-room .waiting-room-map-settings:active{background-image:url('/assets/ui/waiting-room/room-settings-pressed.png')}.waiting-room-map-settings>img{width:28px;height:26px;object-fit:contain}
+.waiting-room-members{position:absolute;left:0;right:0;bottom:100px;display:flex;justify-content:space-between;gap:24px}
+/* Authenticated alpha_back_Image / beta_back_Image crops. These keep the
+   source team headers and empty roster lines over the live room scene. */
+.waiting-room-members>section{box-sizing:border-box;display:flex;flex-direction:column;min-height:0;width:min(334px,32vw);height:min(355px,32vh);padding:12px 18px;background:transparent url('/assets/ui/waiting-room/team-alpha.png') center/100% 100% no-repeat}
+.waiting-room-members>section[data-team=beta]{background-image:url('/assets/ui/waiting-room/team-beta.png')}.waiting-room-members b{display:block;flex-shrink:0;font-size:22px;font-weight:400;line-height:30px}.waiting-room-members>section[data-team=beta]>b{text-align:right}.waiting-room-members p{margin:12px 0 0;color:#e5f5ff;text-shadow:0 1px 3px #000;overflow-wrap:anywhere}
+.waiting-room-roster{min-height:0;overflow-y:auto;overscroll-behavior:contain;pointer-events:auto;scrollbar-width:thin;scrollbar-color:#548fa4 #09223566}.waiting-room-roster:focus-visible{outline:2px solid #59d8ed;outline-offset:2px}
+#waiting-room footer{box-sizing:border-box;position:absolute;left:50%;right:auto;bottom:12px;transform:translateX(-50%);display:grid;gap:8px;width:min(440px,calc(100vw - 24px));padding:0;background:none;font:inherit;text-align:center}
+.waiting-room-actions{display:grid;grid-template-columns:1fr 1fr;gap:2px;padding:6px 12px;background:transparent url('/assets/ui/waiting-room/actions-frame.png') center/100% 100% no-repeat}
+#waiting-room footer p{margin:0;font-size:12px;color:#ceebf7;text-shadow:0 1px 3px #000}
+#waiting-room footer button{border:0;background:transparent url('/assets/ui/waiting-room/change-items-normal.png') center/100% 100% no-repeat}
+#waiting-room footer button:hover,#waiting-room footer button:focus-visible{background-image:url('/assets/ui/waiting-room/change-items-hover.png');outline:2px solid #59d8ed}
+#waiting-room footer button:active{background-image:url('/assets/ui/waiting-room/change-items-pressed.png')}
+#waiting-room [data-room-start]{background-image:url('/assets/ui/waiting-room/start-normal.png')}
+#waiting-room [data-room-start]:hover,#waiting-room [data-room-start]:focus-visible{background-image:url('/assets/ui/waiting-room/start-hover.png')}
+#waiting-room [data-room-start]:active{background-image:url('/assets/ui/waiting-room/start-pressed.png')}
+body.in-waiting-room :is(#hud,#weapon,#weapon-picker,#s5-radar,#s5-skill,#skill-status,#fireball-hud,#crosshair,#toast,.s5-session-navigation,#match-ui,#touchdown-ui,#practice-session){visibility:hidden!important}
+body.in-waiting-room #game{cursor:default}body.in-waiting-room #game.waiting-room-camera-drag{cursor:grabbing}
+@media(max-width:600px){.waiting-room-menu{flex-wrap:wrap;gap:4px;padding:8px}.waiting-room-menu>b{flex-basis:100%;font-size:12px}.waiting-room-menu button{padding:8px;font-size:12px;flex:1}.waiting-room-info{top:100px;left:10px;width:300px;max-width:calc(100vw - 20px);padding:10px}.waiting-room-members{bottom:144px;gap:12px}.waiting-room-members>section{width:38vw;height:min(240px,30vh);padding:8px}.waiting-room-members b{font-size:18px;line-height:26px}}
+@media(max-width:600px){#waiting-room .waiting-room-menu button{padding:8px 4px;font-size:11px;overflow-wrap:anywhere}}
+@media(max-height:460px){
+ #waiting-room{display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;row-gap:8px}
+ .waiting-room-info{position:static;align-items:center;gap:8px;margin:0 10px;padding:6px 10px;width:auto;max-width:none;min-width:0;min-height:0;font-size:12px;line-height:16px}
+ .waiting-room-info.has-map-preview{grid-template-columns:80px minmax(0,1fr) 44px;min-height:0}.waiting-room-info.has-map-preview::after{display:none}.waiting-room-info>[data-room-preview]{position:static;width:80px;height:40px;opacity:1}
+ .waiting-room-info-body{gap:2px}.waiting-room-info-body>b{font-size:12px;line-height:16px}.waiting-room-info-body>span{font-size:11px;line-height:14px}.waiting-room-info-body>small{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .waiting-room-members{position:static;min-height:0}.waiting-room-members>section{height:100%;padding:6px 10px}.waiting-room-members b{font-size:18px;line-height:24px}.waiting-room-members p{margin:4px 0 0;font-size:12px;line-height:16px}
+ #waiting-room footer{position:static;justify-self:center;transform:none;margin-bottom:12px}#waiting-room footer p{font-size:11px}
+}
+/* Keep the control hint available to assistive readers without squeezing the
+   roster below a readable row in very short windows. */
+@media(max-height:360px){#waiting-room footer p{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}
+#room-results{position:fixed;inset:0;z-index:35;display:grid;place-items:center;box-sizing:border-box;background:linear-gradient(#323232,#000 60%);color:#eee;font:12px 'S4 HUD Text','Segoe UI',sans-serif;overflow:auto}
+#room-results:focus{outline:none}
+#room-results[hidden]{display:none!important}#room-results[data-art=ready]{background:transparent}
+.room-results-card{position:relative;box-sizing:border-box;container-type:inline-size;width:min(100vw,calc(100vh * 4 / 3));aspect-ratio:4/3;font-size:clamp(10px,1.171875cqw,16px)}
+.room-results-heading{position:absolute;inset:1.5% 2% auto;text-shadow:0 1px 3px #000}.room-results-heading>small{position:absolute;right:0;top:0;letter-spacing:.1em;color:#eee}.room-results-heading>h1{margin:0;font-size:clamp(24px,4cqw,44px);font-style:italic;color:#fff}.room-results-heading>[data-score]{position:absolute;top:66cqw;left:0;margin:0;color:inherit;font-size:clamp(12px,1.4cqw,18px)}
+#room-results[data-art=ready] .room-results-heading>h1,.room-results-metric{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.room-results-board{position:absolute;top:52.734375%;left:0;right:0;font-size:clamp(10px,1.171875cqw,16px);text-shadow:0 1px 3px #000}
+.room-results-teams,.room-results-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.room-results-teams>h2{box-sizing:border-box;height:2.44140625cqw;margin:0;padding:0 2cqw;font-size:clamp(14px,2cqw,24px);font-style:italic;font-weight:400;color:#fff;line-height:1.2}
+.room-results-columns>div,.room-results-board li{display:grid;grid-template-columns:30fr 175fr 95fr 80fr 80fr 52fr;align-items:center;min-width:0;box-sizing:border-box}.room-results-columns>div{height:2.9296875cqw;min-height:20px;text-align:center;background:transparent url('/assets/s5runtime/chaser/ui/score_green_bar.png') center/100% 100% no-repeat}.room-results-columns>[data-columns-beta]{background-image:url('/assets/s5runtime/chaser/ui/score_red_bar.png')}
+.room-results-board ol{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:minmax(2.44140625cqw,20px);max-height:19.53125cqw;min-height:19.53125cqw;overflow-y:auto;margin:0;padding:0;background:transparent url('/assets/ui/results/score-panel.png') center/100% 100% no-repeat;scrollbar-width:thin;scrollbar-color:#666 #111;overscroll-behavior:contain}
+.room-results-board ol:focus-visible{outline:1px solid #b2d4e9;outline-offset:-1px}
+.room-results-rewards{display:none}
+.room-results-board li{margin:0;padding:0;background:transparent url('/assets/ui/results/score-row.png') center/100% 100% no-repeat}.room-results-board li[data-local=true]{box-shadow:inset 0 0 0 1px #b2d4e966;background-color:#4e8b9b33}.room-results-board li>span,.room-results-board li>strong{text-align:center}.room-results-board li>b{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:400}.room-results-board li>strong{font-size:inherit;font-weight:400}.room-results-exp{grid-column:4}.room-results-pen{grid-column:5;color:#e8d863}.room-results-rewards{margin:8px 2cqw;color:#bbb;font-size:clamp(10px,1.1cqw,12px)}
+#room-results [hidden]{display:none!important}#room-results[data-teams=single] :is(.room-results-teams,.room-results-columns,.room-results-board ol){grid-template-columns:minmax(0,1fr)}#room-results[data-teams=single] [data-columns-alpha]{background-image:url('/assets/ui/results/score-row.png')}
+.room-results-scope{box-sizing:border-box;max-width:72%;margin:8px 0 0;padding:6px 10px;background:#061421d9;color:#dfedf6;font:12px/1.4 'Segoe UI',sans-serif}
+#room-results[data-art=ready] .room-results-scope{margin-top:5cqw}
+.room-results-return{position:absolute;right:4%;bottom:3%;margin:0;padding:8px 12px;background:#d4d9e6;color:#101c47;text-shadow:none;font-size:clamp(12px,1.4cqw,17px)}
+body.room-results-open :is(#hud,#weapon,#weapon-picker,#s5-radar,#s5-skill,#skill-status,#fireball-hud,#crosshair,#toast,.s5-session-navigation,#match-ui,#touchdown-ui){visibility:hidden!important}
+@media(max-width:640px),(max-height:480px){
+ #room-results{place-items:start center}.room-results-card{width:100%;min-height:100%;aspect-ratio:auto;padding:16px 12px;font-size:12px}
+ .room-results-heading{position:relative;inset:auto;min-height:52px;padding:4px;background:linear-gradient(#000e,#0009);border-radius:2px}.room-results-heading>small{position:static;display:block;margin-bottom:8px;font-size:12px}.room-results-heading>[data-score]{position:static;margin-top:10px;font-size:13px}
+ .room-results-scope,#room-results[data-art=ready] .room-results-scope{max-width:none;margin:8px 0 0;padding:6px 4px;font-size:11px}
+ #room-results[data-art=ready] .room-results-heading>h1{position:static;clip-path:none;width:auto;height:auto;white-space:normal;font-size:26px}
+ .room-results-board{position:relative;inset:auto;margin-top:min(26vh,160px);font-size:12px;background:#080b10e8}.room-results-teams>h2{height:auto;padding:10px 8px;font-size:16px}.room-results-columns>div{height:28px;min-height:28px;font-size:11px}
+ .room-results-board li{grid-template-columns:24px minmax(50px,1fr) 46px 30px 30px}.room-results-columns>div{grid-template-columns:24px minmax(50px,1fr) 46px 30px 30px}
+ .room-results-board ol{grid-auto-rows:30px;min-height:90px;max-height:240px}.room-results-board li>b{padding-left:3px}.room-results-rewards{padding-bottom:8px;font-size:11px}.room-results-return{position:static;display:block;margin:20px 0 0;text-align:center;font-size:13px}
+}
+@media(max-width:460px){
+ #room-results[data-teams=split] .room-results-card{min-width:0}.room-results-teams>h2{font-size:14px}.room-results-columns>div,.room-results-board li{grid-template-columns:18px minmax(30px,1fr) 36px;font-size:11px}.room-results-columns>div{font-size:10px}.room-results-columns span:nth-child(n+4),.room-results-exp,.room-results-pen{display:none}
+}
+
+/* S5 lobby continuity. Roster graphics and all real room actions are retained. */
+.waiting-room-design{display:flex;align-items:center;gap:8px;margin-left:auto;min-width:0;font-size:12px;color:#d9e1e6}
+.waiting-room-design select{max-width:200px;min-width:0;padding:8px;border:1px solid #ffffff40;border-radius:4px;background:#1d2933;color:#f2e7de;font:inherit;pointer-events:auto}
+.waiting-room-design select:focus-visible{outline:2px solid #9de5fa;outline-offset:2px}
+.waiting-room-design select:disabled{opacity:.55}
+@media(max-width:850px){.waiting-room-design{flex-basis:100%;justify-content:flex-end;margin:0}.waiting-room-menu{flex-wrap:wrap}.waiting-room-info{top:126px}}
+#waiting-room{font-family:'Segoe UI',Arial,sans-serif;font-size:clamp(14px,1vw,18px);color:#edf1f5}
+#waiting-room button{border-radius:4px;border-color:#ffffff35;background:linear-gradient(#303a43ee,#1c2730ee);font-family:inherit;transition:border-color 120ms,background 120ms,box-shadow 120ms}
+#waiting-room button:hover{border-color:#e8ac87;background:#3b444bed}
+#waiting-room button:focus-visible{outline:2px solid #9de5fa;outline-offset:3px}
+#waiting-room .waiting-room-menu{min-height:60px;padding:10px 2%;background:linear-gradient(110deg,#151d24f5,#222c34ed);border-bottom:1px solid #ffffff29;box-shadow:0 3px 16px #0003}
+#waiting-room .waiting-room-menu>b{font-weight:500;color:#f3e3d7}
+#waiting-room .waiting-room-info{width:360px;border:1px solid #ffffff30;border-left:2px solid #db9b72;border-radius:4px;box-shadow:0 10px 28px #0003}
+#waiting-room .waiting-room-info-body>small{font-family:inherit;color:#d0dbe3;font-size:clamp(12px,.85vw,16px);line-height:1.4}
+#waiting-room .waiting-room-info-body>span{font-size:clamp(13px,.9vw,17px);line-height:1.4}
+#waiting-room .waiting-room-actions{gap:12px;padding:10px;background:linear-gradient(120deg,#242e37f2,#161f27f2);border:1px solid #ffffff30;border-radius:5px;box-shadow:0 8px 26px #0004}
+#waiting-room footer button{background:linear-gradient(#36434e,#24303a);border:1px solid #ffffff32;font-family:inherit}
+#waiting-room footer button:hover,#waiting-room footer button:focus-visible{background:#43505b;border-color:#e8ac87}
+#waiting-room footer [data-room-start]{background:linear-gradient(#c27b55,#9b5738);border:1px solid #f2b08b;color:#fff;box-shadow:inset 0 1px #ffe3d640}
+#waiting-room footer [data-room-start]:hover,#waiting-room footer [data-room-start]:focus-visible{background:linear-gradient(#d18c64,#af6643)}
+#waiting-room footer p{font-size:clamp(12px,.85vw,16px);color:#e0e8ee;font-family:inherit}
+@media(prefers-reduced-motion:reduce){#waiting-room button{transition:none}}
+@media(max-width:600px){#waiting-room .waiting-room-menu{flex-wrap:wrap;padding:8px}#waiting-room .waiting-room-info{width:300px}}
+#waiting-room footer [data-room-start]{background:linear-gradient(#9f5d3a,#81462e)}
+#waiting-room footer [data-room-start]:hover,#waiting-room footer [data-room-start]:focus-visible{background:linear-gradient(#a5613d,#8b4b31)}

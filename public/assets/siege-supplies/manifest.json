@@ -1,0 +1,2215 @@
+{
+  "format": "mode-world-effects-assets-v1",
+  "assets": [
+    {
+      "source": "effects/item_ammo.dds",
+      "sourceSha256": "a685a22ce9e2645358d8e25343c157d050013fdfbbcd31a8bdc7ec9f92b94ce0",
+      "file": "effects/item_ammo.png",
+      "sha256": "0c4134baa34cdc0258c2b14aeb1d4dc321ef7509221b85ee7dc4218e302d2054",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_ammo.scn",
+      "sourceSha256": "f518e3d6cc387740187af935b7f3cbf7cafabb620fedbc43f149d3aea6b033ae",
+      "decodedSha256": "f518e3d6cc387740187af935b7f3cbf7cafabb620fedbc43f149d3aea6b033ae",
+      "file": "effects/item_ammo.scn.json",
+      "sha256": "abcff9eb75b973a06bde2abaf421eab4ae4930927dc2da9757598935882f05a9",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_AMMO",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_ammo.seq",
+      "sourceSha256": "61900b27b160833c11ab0259fca61426f1e0eae081b528964323a240878b8344",
+      "decodedSha256": "61900b27b160833c11ab0259fca61426f1e0eae081b528964323a240878b8344",
+      "file": "effects/item_ammo.seq.json",
+      "sha256": "100619c9808200193bcf6240ca0f253aa7efd8e19493d7cb6d0769f2835e0dea",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_black.dds",
+      "sourceSha256": "7aa5c306b9247fbddcdabeb7923e0e571a69f3e8b30d2f6aacabc3dcef07c49c",
+      "file": "effects/item_black.png",
+      "sha256": "70cb7a1c071ffe0df3cab521975c37a698360cceac653d279ffc86f6242e7af8",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "source": "effects/item_exp.dds",
+      "sourceSha256": "2e563b9821da79312e9334e63ae4f34189b6fb09c539a20d1e13942c9e4c940e",
+      "file": "effects/item_exp.png",
+      "sha256": "3125bb47668c0bb651045a7c4adb14295e22f57c022dbb17961d81919bb04182",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_exp.scn",
+      "sourceSha256": "e80d7c8c9f584dad57f300d91c465365ddd0cf68c45eda83a7efc451faeecc2b",
+      "decodedSha256": "e80d7c8c9f584dad57f300d91c465365ddd0cf68c45eda83a7efc451faeecc2b",
+      "file": "effects/item_exp.scn.json",
+      "sha256": "baf55a73970cac480a7edbdc8b981974253d3104c12803ce4367b1925cb2996d",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_exp.seq",
+      "sourceSha256": "486501ded06e62dd180cd34946172f123dea57961ae776af4f310890391798f9",
+      "decodedSha256": "486501ded06e62dd180cd34946172f123dea57961ae776af4f310890391798f9",
+      "file": "effects/item_exp.seq.json",
+      "sha256": "e97926374f335e1a4c464807f99f9746c6afc82ed8218fe9d2cd15c0750c8d4d",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_exp2.dds",
+      "sourceSha256": "7bc59fdfd25e1add03e9089636a8b247f7f793f0cd65917d3453ccfa0310f922",
+      "file": "effects/item_exp2.png",
+      "sha256": "f655ac4e439f5a107d62e1bcc399e56beaed46da8f3f47492095a04dbd4310be",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_exp_fast.scn",
+      "sourceSha256": "1c58d801a2f4efb4986e6d31d9872274aac8da55f461824c075544786943124e",
+      "decodedSha256": "1c58d801a2f4efb4986e6d31d9872274aac8da55f461824c075544786943124e",
+      "file": "effects/item_exp_fast.scn.json",
+      "sha256": "2bcafc1790121b685692b127cb9884a1e93cbe453ac049a2cebf3b5612331882",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_BASE",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_exp_fast.seq",
+      "sourceSha256": "974a921d63557883b85879221cb6fcb337078af5fd9d53a7b221a5bcc2d18247",
+      "decodedSha256": "974a921d63557883b85879221cb6fcb337078af5fd9d53a7b221a5bcc2d18247",
+      "file": "effects/item_exp_fast.seq.json",
+      "sha256": "683ad0c8c0cf1749a58026669b69dccfdd5b85e25c8bccc460f66e27fe5606f9",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_exp_slow.scn",
+      "sourceSha256": "fab0fffdbd182f25b5bcfcc2fff00c7edde61af46288bf68a6fe47ab3e3bc393",
+      "decodedSha256": "fab0fffdbd182f25b5bcfcc2fff00c7edde61af46288bf68a6fe47ab3e3bc393",
+      "file": "effects/item_exp_slow.scn.json",
+      "sha256": "e4dc2c06a1bc025fd4ed7f665bf05312a282e4fb4b030ad22b2c53bbbdfafec5",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_exp_slow.seq",
+      "sourceSha256": "1b797f097fdf75f49d6c2f512d370db854006f56c3081a6d3798ed80c91f25ed",
+      "decodedSha256": "1b797f097fdf75f49d6c2f512d370db854006f56c3081a6d3798ed80c91f25ed",
+      "file": "effects/item_exp_slow.seq.json",
+      "sha256": "eb1ee6538b7e81849c88e7298099f9a56278555994b0beac982224bf37cef7ab",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_hp.dds",
+      "sourceSha256": "83e2a4d6898d2f13c6d9dd0b8289bb9ec670627f5d6b0e09520bb7f7b1010796",
+      "file": "effects/item_hp.png",
+      "sha256": "90fa29cd3e1a9f063cb26d16d0cf1e9b276f7487da29b85640f98e8ee941d318",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_hp.scn",
+      "sourceSha256": "840adfdaa3971f33b8c2da00c396dcb6312629fbf7b735a5627097036c00540f",
+      "decodedSha256": "840adfdaa3971f33b8c2da00c396dcb6312629fbf7b735a5627097036c00540f",
+      "file": "effects/item_hp.scn.json",
+      "sha256": "e50076df495e70e4e7d0a9ba0081fe477fc571dd0f92c7a397e3f82dc45df346",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_hp.seq",
+      "sourceSha256": "d50ffbfebac5f3b610a30c08795623b348abe86b3516674acf1cc867d98a2040",
+      "decodedSha256": "d50ffbfebac5f3b610a30c08795623b348abe86b3516674acf1cc867d98a2040",
+      "file": "effects/item_hp.seq.json",
+      "sha256": "50957c17dc80e7d42e965725df17d6c66ee5ad91e4c62d52bd7107159b3e4df2",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_hp2.dds",
+      "sourceSha256": "538711658e0dd11b7dc56b5d1c92a450a87382568853a636833f1109dfa07dba",
+      "file": "effects/item_hp2.png",
+      "sha256": "ce97a91856b2b0ca297c9e27c6924f03510605308f9bdbfaefd9483f10f6e228",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_hp_fast.scn",
+      "sourceSha256": "c6d2eb232930754a15da9e13f20632c8d2cc9ab3b2a3e00a69533877110756b2",
+      "decodedSha256": "c6d2eb232930754a15da9e13f20632c8d2cc9ab3b2a3e00a69533877110756b2",
+      "file": "effects/item_hp_fast.scn.json",
+      "sha256": "091eacaab017493e9fca50776a0be7628c2d8b1385b1ec38b2910c32306ca6c0",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_BASE",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_hp_fast.seq",
+      "sourceSha256": "17bd7d4aa2305dc8061ee48761b2e20a94e66da1d35cddbea7b1161c93aab11a",
+      "decodedSha256": "17bd7d4aa2305dc8061ee48761b2e20a94e66da1d35cddbea7b1161c93aab11a",
+      "file": "effects/item_hp_fast.seq.json",
+      "sha256": "39ffdc69ded958cad0372a4edef250f34f50abab7df85dc58619b53cf2c4bc4d",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_hp_slow.scn",
+      "sourceSha256": "de52be9cf768099028e4968049099ee9c9a451488935f3eb0e4de75954069b61",
+      "decodedSha256": "de52be9cf768099028e4968049099ee9c9a451488935f3eb0e4de75954069b61",
+      "file": "effects/item_hp_slow.scn.json",
+      "sha256": "5cf119f52bdaeb0f81d0126cc6281b50997bde37c98fcfab4a39a0aad92132e4",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_hp_slow.seq",
+      "sourceSha256": "4dfa9082e632161d13cf22ea6f2408b4be75a30165f6cbe9dfd8f273394dbaae",
+      "decodedSha256": "4dfa9082e632161d13cf22ea6f2408b4be75a30165f6cbe9dfd8f273394dbaae",
+      "file": "effects/item_hp_slow.seq.json",
+      "sha256": "03e70f367717c4413013f2283504fbb3de0b443068a780e1276710ab7b0eb668",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_magazine.dds",
+      "sourceSha256": "ecad5edcbc0124b014a9823f5d2b875be4ae8d1c8c90a27bc4714f239bbf7e6a",
+      "file": "effects/item_magazine.png",
+      "sha256": "152ca37987ce2438f0fd88e2d36ae343e71a600df1ace99308c8eed09798f7cc",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_magazine.scn",
+      "sourceSha256": "7f19d6f1727a3854b2f4fb8410bccab1559d33a3acfc5d65877172a121e6d9c3",
+      "decodedSha256": "7f19d6f1727a3854b2f4fb8410bccab1559d33a3acfc5d65877172a121e6d9c3",
+      "file": "effects/item_magazine.scn.json",
+      "sha256": "5ecfbd77c9dad89fe027bd1104e16b13d111c15d763be06c4652f1eaabbbd0fc",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_magazine.seq",
+      "sourceSha256": "19125954f1c4b87d6c9e61234748670fd486a9c54e0439a0d7b6f2f388d24503",
+      "decodedSha256": "19125954f1c4b87d6c9e61234748670fd486a9c54e0439a0d7b6f2f388d24503",
+      "file": "effects/item_magazine.seq.json",
+      "sha256": "f8b7033a8a432e0eaa1dcf5706da48de38a83a9ddf5543c6ddf1bdef3922602b",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_magazine_fast.scn",
+      "sourceSha256": "53463caee2bc949be0fd0bdc6b3cd8acd2305c822fa6123a31b0e6d9ab53ec67",
+      "decodedSha256": "53463caee2bc949be0fd0bdc6b3cd8acd2305c822fa6123a31b0e6d9ab53ec67",
+      "file": "effects/item_magazine_fast.scn.json",
+      "sha256": "c69bcbf7ff8b52b2d2e796a08f352abe5c8c47c8e542ad920e4337b697786130",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_BASE",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_magazine_fast.seq",
+      "sourceSha256": "6e1adeaaa2f9743696193dde5bc19d26688c4f98169a4e0450aacc9f085d26b8",
+      "decodedSha256": "6e1adeaaa2f9743696193dde5bc19d26688c4f98169a4e0450aacc9f085d26b8",
+      "file": "effects/item_magazine_fast.seq.json",
+      "sha256": "4683ebe3e0805f0c36452037883972be60ce144f16405a5c9af141536c1811c6",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_magazine_slow.scn",
+      "sourceSha256": "00d75485dcc04ea44e4c0e3d0ec07f9723be0e46066abecec5a8ae03e4362a1b",
+      "decodedSha256": "00d75485dcc04ea44e4c0e3d0ec07f9723be0e46066abecec5a8ae03e4362a1b",
+      "file": "effects/item_magazine_slow.scn.json",
+      "sha256": "41f6f748024325db0387a1bf10901081be8b173ef757a01f2aa95151c33f6dc4",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_magazine_slow.seq",
+      "sourceSha256": "9db74839fec4e2a048d8b02222402c230bcc9bb074158df6bee71bc9ba569026",
+      "decodedSha256": "9db74839fec4e2a048d8b02222402c230bcc9bb074158df6bee71bc9ba569026",
+      "file": "effects/item_magazine_slow.seq.json",
+      "sha256": "b1133177a57234806421664ff8867b5145242eaebc19d9cb256827764e2d38e4",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_pen.dds",
+      "sourceSha256": "ad3dc0ba01b0e7388ba2d6ebad05359766845ae48eadc62b904e2727c54fc8f3",
+      "file": "effects/item_pen.png",
+      "sha256": "1a9f7e60a67449cfb5ea1906111b4ab924724a3c60eca5c2dd47fa8b60563190",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_pen.scn",
+      "sourceSha256": "1ed50e69ab032b179e6294caeadf1d6d29523c09573523da259a380764fd7a17",
+      "decodedSha256": "1ed50e69ab032b179e6294caeadf1d6d29523c09573523da259a380764fd7a17",
+      "file": "effects/item_pen.scn.json",
+      "sha256": "900ddda2e901f3e433e4469ab639dbf36ea9fc0a6f2cc73333c2607ff95ceede",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_pen.seq",
+      "sourceSha256": "2b1af43d251d73036d39527d649ce85a57524724e4d82ebef215ff7661fa7f50",
+      "decodedSha256": "2b1af43d251d73036d39527d649ce85a57524724e4d82ebef215ff7661fa7f50",
+      "file": "effects/item_pen.seq.json",
+      "sha256": "8fd9da5d91601f2315cf510050e19a2d961da651384348c30fe5787d6cbec163",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_pen2.dds",
+      "sourceSha256": "4b043422f9e90af1cd92f956bb3cba8ab5741d5314c7fad4c165ab0e6f1a2468",
+      "file": "effects/item_pen2.png",
+      "sha256": "5bf0f0927558cb620f6df0282840188722aee899a64534d1cb1a7f958e4b42da",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_pen_fast.scn",
+      "sourceSha256": "216abc8b86ed542147d7b2045e84480d68c08c5e5d21544bdc3d300ab4e7f980",
+      "decodedSha256": "216abc8b86ed542147d7b2045e84480d68c08c5e5d21544bdc3d300ab4e7f980",
+      "file": "effects/item_pen_fast.scn.json",
+      "sha256": "1f27c0dd3d16e3bd39e56ac89197eb57fd94510b32502e8c4bad385646ee84ed",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_BASE",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_pen_fast.seq",
+      "sourceSha256": "d235b241ad314b54d838828bb474f4848632e78f627ea2653bd2f6000a598ad2",
+      "decodedSha256": "d235b241ad314b54d838828bb474f4848632e78f627ea2653bd2f6000a598ad2",
+      "file": "effects/item_pen_fast.seq.json",
+      "sha256": "5ff1ae65fc25a2e75de440619ba08b104ad92e7bff20c8cf4337efb8882d8c89",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_pen_slow.scn",
+      "sourceSha256": "ef59e94bdab05448dc0f822d81f656a5c961a2b8c5b2fcb8c7ad2191f823c552",
+      "decodedSha256": "ef59e94bdab05448dc0f822d81f656a5c961a2b8c5b2fcb8c7ad2191f823c552",
+      "file": "effects/item_pen_slow.scn.json",
+      "sha256": "9826e35206887026d910cb14fcce6ba161f51f08192506c94cda87a3e7d9e2e3",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_pen_slow.seq",
+      "sourceSha256": "08111e7cdf7d6922ca0a32d93f4f87fc8e6a4289803268007cfe440fdc0599f6",
+      "decodedSha256": "08111e7cdf7d6922ca0a32d93f4f87fc8e6a4289803268007cfe440fdc0599f6",
+      "file": "effects/item_pen_slow.seq.json",
+      "sha256": "22a33bc4b3101b6397f3c948fb0825991139088bf3b547ca26a19c0b36c4e1ac",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_score.dds",
+      "sourceSha256": "d5af2fad37fe6d474f980517f071499cfc9fc772af5fe54c5ea2b24f309f9e94",
+      "file": "effects/item_score.png",
+      "sha256": "87bf6dfa12d9db07d7b89aa51e6db390d1bda73083ad7e3e1df25b8c12fd14b1",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_score.scn",
+      "sourceSha256": "71e7aa16f560160df4bee4858d081b1241943419b1f35606f7bc72df6cebd0c2",
+      "decodedSha256": "71e7aa16f560160df4bee4858d081b1241943419b1f35606f7bc72df6cebd0c2",
+      "file": "effects/item_score.scn.json",
+      "sha256": "b830bdcbbedc4e14dd8bba11fa9075563484fc1f13882864b933cc77f787d9c7",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_score.seq",
+      "sourceSha256": "ed28f354c703f886d967510206d88655734b4f1d7564409f024b45b72ffdf25b",
+      "decodedSha256": "ed28f354c703f886d967510206d88655734b4f1d7564409f024b45b72ffdf25b",
+      "file": "effects/item_score.seq.json",
+      "sha256": "74606bc017556065a3d8c4d0587aecf848ec46de55d9fe78638bb2abc80fb559",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_score2.dds",
+      "sourceSha256": "1e3964130adc51635d8cc9b57bd1c5d96f9f6313fadafc094d429d29964b203c",
+      "file": "effects/item_score2.png",
+      "sha256": "563f869a766103349e5ba9a847372dda8dea4189d5a9e3c50f11ac3dce1f7144",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_score_fast.scn",
+      "sourceSha256": "f05a737128855a01f2ddc83a5c553768719042e469bf70285a7235b30b4e3dd2",
+      "decodedSha256": "f05a737128855a01f2ddc83a5c553768719042e469bf70285a7235b30b4e3dd2",
+      "file": "effects/item_score_fast.scn.json",
+      "sha256": "6c9929f472df1f9cfb579ce241e27353602999c6a92ad0fb0802402a2d62e558",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_BASE",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_score_fast.seq",
+      "sourceSha256": "a708870823202cc970235183c26c0166e3bb0ae209cff0bef47eace99170ae23",
+      "decodedSha256": "a708870823202cc970235183c26c0166e3bb0ae209cff0bef47eace99170ae23",
+      "file": "effects/item_score_fast.seq.json",
+      "sha256": "7d309b554eaea23009ebaf34da4bf059a6dffbee1bf6d21134ca3394e4ede40f",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_score_slow.scn",
+      "sourceSha256": "040dc06fbed07f2859c5fd14d674353e0b0d0de606b2e19b4af0777ef1a2feaa",
+      "decodedSha256": "040dc06fbed07f2859c5fd14d674353e0b0d0de606b2e19b4af0777ef1a2feaa",
+      "file": "effects/item_score_slow.scn.json",
+      "sha256": "3bd2cf2ff7793006bb13e812ad0e1bfcc544a2577754ba0352bb3951b3cc4dc8",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_score_slow.seq",
+      "sourceSha256": "f6f3e727069a021bbead141fc4e4b1ecbc5396fa2f0a86dc9df9353d9a08abfb",
+      "decodedSha256": "f6f3e727069a021bbead141fc4e4b1ecbc5396fa2f0a86dc9df9353d9a08abfb",
+      "file": "effects/item_score_slow.seq.json",
+      "sha256": "78fbff638598776c83f6ec5b6f6eebf8049a3c19f751f41aa7ece9e47e07f98d",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_sp.dds",
+      "sourceSha256": "410d2ee76501f2c5bef381d2584771974ce62ae44dab0d83038579966c3d87ef",
+      "file": "effects/item_sp.png",
+      "sha256": "408023b56846659f1c9a5a5f52705c6814eba3575159d684146d2645f3dc598f",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_sp.scn",
+      "sourceSha256": "f426ed6ba77f2e3c6c28b0d18155e2002753380c6630632cb4688c7faec21f2a",
+      "decodedSha256": "f426ed6ba77f2e3c6c28b0d18155e2002753380c6630632cb4688c7faec21f2a",
+      "file": "effects/item_sp.scn.json",
+      "sha256": "194075321e3f38de14b033b7a7c92c7d17d18dbd909b06a953caa66d6aee1a4b",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_sp.seq",
+      "sourceSha256": "2d459eaea5f2f3d3a0e10457114e48ec6bcd93a26fbe4ba2b053b732694dd4c2",
+      "decodedSha256": "2d459eaea5f2f3d3a0e10457114e48ec6bcd93a26fbe4ba2b053b732694dd4c2",
+      "file": "effects/item_sp.seq.json",
+      "sha256": "8937c19e5ae68645c742a733be4b62b1f277e16f43bcd6e0cb8ab25767eeb25b",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_sp2.dds",
+      "sourceSha256": "e0a9430d076b8b68561e053d68b84a55d8221d2aca085b92b3772334f7496301",
+      "file": "effects/item_sp2.png",
+      "sha256": "324a5ca27a7513a962e99f403748545f562dd4f7208c45102223a66ae65618c9",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "effects/item_sp_fast.scn",
+      "sourceSha256": "9736416f28781d58d5c5ebf2acbd5eb9b9b22e2f69e095dbd6b60f327cbfc5fe",
+      "decodedSha256": "9736416f28781d58d5c5ebf2acbd5eb9b9b22e2f69e095dbd6b60f327cbfc5fe",
+      "file": "effects/item_sp_fast.scn.json",
+      "sha256": "4806b7c9fbdcafa3ff02790f61338f1cfce10f9fbf3a4ef7299b55df4e0f1d33",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_BASE",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_sp_fast.seq",
+      "sourceSha256": "4c433817dfbc21396bcbd5492abd04cf9651e9204789b7f6a731dfd02cbe3882",
+      "decodedSha256": "4c433817dfbc21396bcbd5492abd04cf9651e9204789b7f6a731dfd02cbe3882",
+      "file": "effects/item_sp_fast.seq.json",
+      "sha256": "01738f9cc85b79763081de61e0d92f278aedaff00680d1b9a7a564119ac6c561",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_sp_slow.scn",
+      "sourceSha256": "96c7ae1bc955be0e6b890c0ce6f01fedb0751d17ef755643e0875c779b35ff36",
+      "decodedSha256": "96c7ae1bc955be0e6b890c0ce6f01fedb0751d17ef755643e0875c779b35ff36",
+      "file": "effects/item_sp_slow.scn.json",
+      "sha256": "6a070b5b8475f166b874c2848e0890e209a56a463d8cdfe5be77886900b84274",
+      "models": 1,
+      "clips": [
+        {
+          "name": "ITEM_SP",
+          "tracks": 1,
+          "durationTicks": 16000
+        }
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_sp_slow.seq",
+      "sourceSha256": "a821d8e04d40de54983e0ec708cd168eda57a725cae47ba44a1ce00b7a1d83ae",
+      "decodedSha256": "a821d8e04d40de54983e0ec708cd168eda57a725cae47ba44a1ce00b7a1d83ae",
+      "file": "effects/item_sp_slow.seq.json",
+      "sha256": "838321dfd4078952295696ee3462ff6e94d79c279ef3e4fa6baa8af307ba9a85",
+      "nodeTypes": [
+        "CActNodeLoader"
+      ],
+      "exactEof": true
+    },
+    {
+      "source": "effects/item_white.dds",
+      "sourceSha256": "3a54a4aad319b9001751a6089e72cf138d08c296ab23c6de7b5a6e71ebbf2adb",
+      "file": "effects/item_white.png",
+      "sha256": "214481889a7aedc24c16a53761182fbfc57e6e6fa87ba3e471d083d497b0f2a9",
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "bindings": [
+    {
+      "owner": "effects/item_ammo.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.dds",
+      "rebasedPath": "effects/item_black.dds",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_ammo.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.dds",
+      "rebasedPath": "effects/item_white.dds",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_ammo.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_ammo.dds",
+      "rebasedPath": "effects/item_ammo.dds",
+      "preferredDdsPath": "effects/item_ammo.dds",
+      "selectedPath": "effects/item_ammo.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_ammo.seq",
+      "kind": "model",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\item_ammo.scn",
+      "rebasedPath": "effects/item_ammo.scn",
+      "selectedPath": "effects/item_ammo.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_exp.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_exp.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_exp.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_exp.tga",
+      "rebasedPath": "effects/item_exp.tga",
+      "preferredDdsPath": "effects/item_exp.dds",
+      "selectedPath": "effects/item_exp.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_exp.seq",
+      "kind": "model",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\item_exp.scn",
+      "rebasedPath": "effects/item_exp.scn",
+      "selectedPath": "effects/item_exp.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_exp_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_exp_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_exp_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_exp.tga",
+      "rebasedPath": "effects/item_exp.tga",
+      "preferredDdsPath": "effects/item_exp.dds",
+      "selectedPath": "effects/item_exp.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_exp_fast.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_exp_fast.scn",
+      "rebasedPath": "effects/item_exp_fast.scn",
+      "selectedPath": "effects/item_exp_fast.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_exp_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_exp_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_exp_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_exp.tga",
+      "rebasedPath": "effects/item_exp.tga",
+      "preferredDdsPath": "effects/item_exp.dds",
+      "selectedPath": "effects/item_exp.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_exp_slow.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_exp_slow.scn",
+      "rebasedPath": "effects/item_exp_slow.scn",
+      "selectedPath": "effects/item_exp_slow.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_hp.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_hp.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_hp.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_hp.tga",
+      "rebasedPath": "effects/item_hp.tga",
+      "preferredDdsPath": "effects/item_hp.dds",
+      "selectedPath": "effects/item_hp.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_hp.seq",
+      "kind": "model",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\item_hp.scn",
+      "rebasedPath": "effects/item_hp.scn",
+      "selectedPath": "effects/item_hp.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_hp_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_hp_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_hp_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_hp.tga",
+      "rebasedPath": "effects/item_hp.tga",
+      "preferredDdsPath": "effects/item_hp.dds",
+      "selectedPath": "effects/item_hp.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_hp_fast.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_hp_fast.scn",
+      "rebasedPath": "effects/item_hp_fast.scn",
+      "selectedPath": "effects/item_hp_fast.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_hp_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_hp_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_hp_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_hp.tga",
+      "rebasedPath": "effects/item_hp.tga",
+      "preferredDdsPath": "effects/item_hp.dds",
+      "selectedPath": "effects/item_hp.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_hp_slow.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_hp_slow.scn",
+      "rebasedPath": "effects/item_hp_slow.scn",
+      "selectedPath": "effects/item_hp_slow.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_magazine.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_magazine.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_magazine.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_magazine.tga",
+      "rebasedPath": "effects/item_magazine.tga",
+      "preferredDdsPath": "effects/item_magazine.dds",
+      "selectedPath": "effects/item_magazine.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_magazine.seq",
+      "kind": "model",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\item_magazine.scn",
+      "rebasedPath": "effects/item_magazine.scn",
+      "selectedPath": "effects/item_magazine.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_magazine_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_magazine_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_magazine_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_magazine.tga",
+      "rebasedPath": "effects/item_magazine.tga",
+      "preferredDdsPath": "effects/item_magazine.dds",
+      "selectedPath": "effects/item_magazine.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_magazine_fast.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_magazine_fast.scn",
+      "rebasedPath": "effects/item_magazine_fast.scn",
+      "selectedPath": "effects/item_magazine_fast.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_magazine_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_magazine_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_magazine_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_magazine.tga",
+      "rebasedPath": "effects/item_magazine.tga",
+      "preferredDdsPath": "effects/item_magazine.dds",
+      "selectedPath": "effects/item_magazine.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_magazine_slow.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_magazine_slow.scn",
+      "rebasedPath": "effects/item_magazine_slow.scn",
+      "selectedPath": "effects/item_magazine_slow.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_pen.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_pen.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_pen.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_pen.tga",
+      "rebasedPath": "effects/item_pen.tga",
+      "preferredDdsPath": "effects/item_pen.dds",
+      "selectedPath": "effects/item_pen.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_pen.seq",
+      "kind": "model",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\item_pen.scn",
+      "rebasedPath": "effects/item_pen.scn",
+      "selectedPath": "effects/item_pen.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_pen_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_pen_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_pen_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_pen.tga",
+      "rebasedPath": "effects/item_pen.tga",
+      "preferredDdsPath": "effects/item_pen.dds",
+      "selectedPath": "effects/item_pen.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_pen_fast.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_pen_fast.scn",
+      "rebasedPath": "effects/item_pen_fast.scn",
+      "selectedPath": "effects/item_pen_fast.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_pen_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_pen_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_pen_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_pen.tga",
+      "rebasedPath": "effects/item_pen.tga",
+      "preferredDdsPath": "effects/item_pen.dds",
+      "selectedPath": "effects/item_pen.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_pen_slow.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_pen_slow.scn",
+      "rebasedPath": "effects/item_pen_slow.scn",
+      "selectedPath": "effects/item_pen_slow.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_score.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_score.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_score.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_score.tga",
+      "rebasedPath": "effects/item_score.tga",
+      "preferredDdsPath": "effects/item_score.dds",
+      "selectedPath": "effects/item_score.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_score.seq",
+      "kind": "model",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\item_score.scn",
+      "rebasedPath": "effects/item_score.scn",
+      "selectedPath": "effects/item_score.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_score_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_score_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_score_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_score.tga",
+      "rebasedPath": "effects/item_score.tga",
+      "preferredDdsPath": "effects/item_score.dds",
+      "selectedPath": "effects/item_score.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_score_fast.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_score_fast.scn",
+      "rebasedPath": "effects/item_score_fast.scn",
+      "selectedPath": "effects/item_score_fast.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_score_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_score_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_score_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_score.tga",
+      "rebasedPath": "effects/item_score.tga",
+      "preferredDdsPath": "effects/item_score.dds",
+      "selectedPath": "effects/item_score.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_score_slow.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_score_slow.scn",
+      "rebasedPath": "effects/item_score_slow.scn",
+      "selectedPath": "effects/item_score_slow.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_sp.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_sp.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_sp.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_sp.tga",
+      "rebasedPath": "effects/item_sp.tga",
+      "preferredDdsPath": "effects/item_sp.dds",
+      "selectedPath": "effects/item_sp.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_sp.seq",
+      "kind": "model",
+      "sourceLiteral": "d:\\s4\\bin\\work\\client\\resources\\effects\\item_sp.scn",
+      "rebasedPath": "effects/item_sp.scn",
+      "selectedPath": "effects/item_sp.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_sp_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_sp_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_sp_fast.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_sp.tga",
+      "rebasedPath": "effects/item_sp.tga",
+      "preferredDdsPath": "effects/item_sp.dds",
+      "selectedPath": "effects/item_sp.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_sp_fast.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_sp_fast.scn",
+      "rebasedPath": "effects/item_sp_fast.scn",
+      "selectedPath": "effects/item_sp_fast.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    },
+    {
+      "owner": "effects/item_sp_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_black.tga",
+      "rebasedPath": "effects/item_black.tga",
+      "preferredDdsPath": "effects/item_black.dds",
+      "selectedPath": "effects/item_black.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_sp_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_white.tga",
+      "rebasedPath": "effects/item_white.tga",
+      "preferredDdsPath": "effects/item_white.dds",
+      "selectedPath": "effects/item_white.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_sp_slow.scn",
+      "kind": "texture",
+      "sourceLiteral": "item_sp.tga",
+      "rebasedPath": "effects/item_sp.tga",
+      "preferredDdsPath": "effects/item_sp.dds",
+      "selectedPath": "effects/item_sp.dds",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x1162e60",
+        "0xff55a0",
+        "0x1187c80",
+        "0xff5560",
+        "0x1202560",
+        "0x1191260",
+        "0xcb9c60",
+        "0x112de93",
+        "0x14a7094+0x28",
+        "0x1236620",
+        "0xff55f0"
+      ],
+      "nativeCompared": false
+    },
+    {
+      "owner": "effects/item_sp_slow.seq",
+      "kind": "model",
+      "sourceLiteral": "g:\\s4\\bin\\work\\client\\resources\\effects\\item_sp_slow.scn",
+      "rebasedPath": "effects/item_sp_slow.scn",
+      "selectedPath": "effects/item_sp_slow.scn",
+      "status": "native-selected-indexed",
+      "evidence": [
+        "0x115f9bd",
+        "0x115fa02",
+        "0x115fa19",
+        "0x115fa33"
+      ]
+    }
+  ],
+  "excluded": [],
+  "integrated": false,
+  "nativeStateDispatchVerified": false,
+  "nativePlacementVerified": false,
+  "browserObserved": false,
+  "note": "Original geometry, animation and decoded texture pixels. Source recovery does not establish event dispatch or game integration."
+}

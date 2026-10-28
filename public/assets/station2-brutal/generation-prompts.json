@@ -1,0 +1,39 @@
+{
+  "tool": "built-in image_gen",
+  "textures": [
+    [
+      "concrete",
+      "A production-ready seamless tileable PBR ALBEDO texture for cast charcoal grey architectural concrete used in a premium science-fiction brutalist building. Square texture full frame edge to edge. Flat orthographic material scan, diffuse neutral uniform illumination, medium dark grey fine mineral aggregate, subtle casting clouds, pinholes, microscopic scratches, very subtle weathering. Matte dry concrete. NO lighting or shadows, no specular highlights, no perspective, no building, no text, no logos, no borders, no large cracks, no panel joints. Seamless on all four edges. High resolution fine crisp detail, restrained real material, no blurry noise."
+    ],
+    [
+      "metal",
+      "A production-ready seamless tileable PBR ALBEDO material texture of dark graphite brushed titanium used for futuristic train undercarriages and transit station structural frames. Square full frame edge to edge. Uniform flat orthographic material scan. Fine subtle horizontal machining hairlines, extremely restrained micro scratches, smooth dark gunmetal coating, low contrast. NO lighting/shadows/reflections/highlights, no perspective, no object, no text, no markings, no panel grid, no borders. Seamless edges. Crisp premium high resolution."
+    ],
+    [
+      "sky",
+      "Create a seamless equirectangular 360 degree environment panorama, aspect ratio 2:1, for a game skybox. This is the BACKGROUND ONLY for S5 League's brutalist futuristic transit arena. Camera high above an immense sea of layered soft silver clouds, distant jagged mountain spires emerging from clouds and colossal charcoal concrete science fiction towers, a few giant vertical ring megastructures framing towers, subtle thin electric blue architectural lights. Bright atmospheric overcast sky, luminous breaks in clouds, muted blue-grey palette, premium realistic stylized game environment. Horizon at vertical center, important buildings in middle third of image vertically, natural sky zenith top and cloud nadir bottom. Architecture far away across a vast abyss. Leave broad open sky above. No foreground platforms, no train, no playable structures, no people, no text, no logos, no interface, no watermark. Left/right edges must connect naturally for spherical mapping. Detailed magnificent monumental scale, not cyberpunk neon clutter."
+    ]
+  ],
+  "atlases": [
+    [
+      "train-body",
+      "f4b9becf7221669b72d0",
+      "Train body atlas: redesign in premium ivory enamel, crimson angular graphic bands, graphite lower body and blue-black windshield. Crisp manufactured details, fine panel lines and micro scratches. Remove dated painted lighting; physical diffuse albedo. Keep every UV island, window, stripe boundary and metal band at EXACTLY the same pixel-relative positions and dimensions. No new text."
+    ],
+    [
+      "train-side",
+      "1d37cdcb9abe2f73532a",
+      "Train side atlas: redesign into premium ivory enamel, crimson instead of orange stripe, blue-black glazed windows, graphite titanium lower panels, clean modern mechanical panels. Keep every UV island, stripe, each of three window apertures, lower floor panel, and horizontal band at EXACTLY same normalized positions and dimensions. Flat diffuse albedo, no specular baked in. No text."
+    ],
+    [
+      "structure",
+      "a96e320e2eb782f6b04e",
+      "Architecture atlas: replace red beams with dark charcoal concrete cladding and thin acid-lime hazard accents; cream wall section becomes cast medium charcoal concrete with tiny pores and precise seams, black steel elements become dark titanium. Replace worn numbers/signs with simple clean architectural lines; tiny S5 if any text. All UV regions stay in EXACT pixel-relative positions and dimensions, keep borders, no rearrangement, no baked lighting."
+    ],
+    [
+      "facade",
+      "c7efe1f1a632a799d6f7",
+      "Brutalist facade atlas: entire design becomes charcoal cast concrete slab panels with refined joint seams and dark titanium structural ribs. Thin electric blue emissive channels along the existing horizontal top and lower divider lines, restrained acid-lime corner marks. Keep UV regions and major horizontal band positions exactly same as reference. New crisp material details at high resolution. No text or perspective. Do not simply upscale the old design; redesign its panels as high end architectural concrete."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "status": "visual-identification-only",
+  "sourceRoot": "C:\\Users\\newpc\\Documents\\Codex\\2026-09-23\\x20-c-users-newpc-downloads-chrome\\outputs\\extracteur-s5runtime\\S5Runtime-extrait\\model\\weapon",
+  "positionValidated": false,
+  "effectsImported": false,
+  "evidence": [
+    {
+      "skin": "jin",
+      "source": "katana_zin_case.scn",
+      "sha256": "259207d1dfa1e22df538d6fa4f3407e1b37067b21d8e39652f01896291794365",
+      "bytes": 175180,
+      "exactParse": true
+    },
+    {
+      "skin": "jin",
+      "source": "katana_zin.scn",
+      "sha256": "cacd582fb5a9115b278755a7008c3b385d3d901b017eafbb160999c5c80f54c5",
+      "bytes": 102401,
+      "exactParse": true
+    },
+    {
+      "skin": "viola",
+      "source": "katana_viola_case.scn",
+      "sha256": "bd5b8f092f7f2c0b03cea37fbbafaf6339081ff4f515b1ecedc9ddaece9f48b7",
+      "bytes": 183822,
+      "exactParse": true
+    },
+    {
+      "skin": "viola",
+      "source": "katana_viola.scn",
+      "sha256": "a9015f1807fe7058b32c0e64f9facaa0b35ad61832d403fa9dfadf2a3c17197c",
+      "bytes": 458048,
+      "exactParse": true
+    },
+    {
+      "skin": "vermilion",
+      "source": "katana_vermilion_case.scn",
+      "sha256": "91f51f3d171d78b70e95a0714f43a505d38db47d7eddb45e008bc7ed89ed802e",
+      "bytes": 203654,
+      "exactParse": true
+    },
+    {
+      "skin": "vermilion",
+      "source": "katana_vermilion.scn",
+      "sha256": "c9aeff715420b81a343741218922e1e3bb84100d11cf475d6547bb7c36acf623",
+      "bytes": 26936,
+      "exactParse": true
+    }
+  ]
+}

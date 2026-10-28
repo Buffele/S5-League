@@ -1,0 +1,114 @@
+/* Restored user-customized S5 HUD from the retained 17 October build.
+   Presentation only; original live HP/SP, skills, weapons and scores stay wired. */
+body.in-game{--s5-ink:#f4f8ff;--s5-cyan:#43d9ed;--s5-pink:#ff6589;--s5-panel:linear-gradient(145deg,#122336e8,#07121edf);--s5-hairline:#adcce72b;--s5-resources-height:calc(100px * var(--hud-scale,1))}
+body.in-game :is(#hud,#weapon,#weapon-picker,#s5-skill,.td-scoreboard){font-variant-numeric:tabular-nums;font-family:S4 HUD Condensed,Segoe UI,sans-serif}
+body.in-game :is(#hud,#weapon){text-shadow:0 1px 3px #0009}
+body.in-game #hud{left:max(24px,env(safe-area-inset-left));bottom:max(38px,env(safe-area-inset-bottom));width:min(340px,calc((100vw - 48px)/var(--hud-scale,1)));aspect-ratio:auto;height:100px;transform:scale(var(--hud-scale,1));transform-origin:0 100%;background:0 0}
+body.in-game #hud .health .bar,body.in-game #hud .stamina .bar{background:#05121fd4;border:1px solid #d4e8ff2b;border-radius:2px;width:calc(100% - 32px);height:9px;left:32px;overflow:visible;box-shadow:0 2px 8px #0003}
+body.in-game #hud .health .bar{top:52px}
+body.in-game #hud .stamina .bar{height:7px;top:80px}
+body.in-game #hud .bar:before{letter-spacing:.06em;color:#e0e9f5;width:25px;font:italic 600 12px/16px S4 HUD Condensed,sans-serif;position:absolute;top:-4px;left:-32px}
+body.in-game #hud .health .bar:before{content:"HP"}
+body.in-game #hud .stamina .bar:before{content:"SP";top:-5px}
+body.in-game #hud .bar:after{content:"";transform-origin:0;pointer-events:none;opacity:.65;transform:scaleX(var(--s5-hp-trail,0));background:#ff8b8e;border-radius:1px;display:block;position:absolute;inset:0}
+body.in-game #hud .stamina .bar:after{opacity:.35;transform:scaleX(var(--s5-sp-trail,0));background:#bcecf4}
+body.in-game #hud .bar i,body.in-game #hud .bar i[style*=--s4-fill]{z-index:1;height:100%;clip-path:inset(0 calc((1 - clamp(0,var(--s4-fill,0),1)) * 100%) 0 0);box-shadow:none;border-radius:1px;transition:clip-path 75ms linear;position:absolute;top:0;left:0;width:100%!important;transform:none!important}
+body.in-game #hud .health .bar i{background:linear-gradient(#f6faff,#cddbea)}
+body.in-game #hud .stamina .bar i,body.in-game #hud.low-sp .stamina .bar i{background:linear-gradient(90deg,#258eb6,#57e3ed)}
+body.in-game #hud .health b{text-align:left;width:100%;height:38px;color:var(--s5-ink);align-items:baseline;gap:7px;font-size:36px;display:flex;top:0;left:0}
+body.in-game #hud .health b :is(#hp-value,.s4-health-separator,small){width:auto;height:auto;margin:0;padding:0;line-height:1;display:inline;position:static}
+body.in-game #hud .health b :is(.s4-health-separator,small){color:#b6c5d9;font-size:21px}
+body.in-game #hud .stamina b{text-align:right;color:#c6e9ef;opacity:.85;width:auto;font-size:12px;top:99px;left:auto;right:0}
+body.in-game #hud.s5-low-hp .health .bar i{background:linear-gradient(90deg,#d54860,#ff8095)}
+body.in-game #hud.s5-low-hp #hp-value{color:#ff8d9d}
+body.in-game #hud.low-sp .stamina .bar i{background:linear-gradient(90deg,#b98a44,#ffd18a)}
+body.in-game #hud.s5-damaged .health .bar{border-color:#ffb2bf;transition:box-shadow .2s,border-color .2s;box-shadow:0 0 14px #ff536b80}
+body.in-game #weapon{right:max(26px,env(safe-area-inset-right));background:0 0;width:190px;height:130px;min-height:0;padding:0;bottom:58px}
+body.in-game #weapon img.s4-equipment-icon{object-fit:contain;width:130px;height:65px;top:0;left:52px}
+body.in-game #weapon .s4-equipment-ammo{justify-content:flex-end;align-items:baseline;gap:7px;width:145px;height:37px;font-size:34px;display:flex;top:67px;left:35px}
+body.in-game #weapon .s4-equipment-ammo>*{width:auto;height:auto;font:inherit;color:var(--s5-ink);line-height:1;display:inline;position:static}
+body.in-game #weapon .s4-equipment-ammo :is(.s4-equipment-separator,.s4-equipment-reserve){color:#bdcada;font-size:23px}
+body.in-game #weapon>span:first-child{opacity:.65;width:24px;font-size:13px;top:74px;left:0}
+body.in-game #weapon-name{text-align:right;opacity:.75;max-width:220px;font-size:12px;top:-18px;left:auto;right:0}
+body.in-game #weapon-description{min-height:0;font-size:13px;top:77px;left:auto;right:0}
+body.in-game #weapon>span.s4-equipment-status{text-align:right;color:#b8cfde;font-size:12px;top:133px;left:auto;right:0}
+#s5-ammo-pips{justify-content:flex-end;gap:5px;height:12px;display:flex;position:absolute;top:113px;right:4px}
+#s5-ammo-pips i{opacity:.24;background:#7893ac;border-radius:1px;width:4px;height:10px;transition:background .12s,opacity .12s,box-shadow .12s;display:block}
+#s5-ammo-pips i.is-loaded{opacity:1;background:#72d8e4;box-shadow:0 0 5px #43d9ed20}
+body.in-game #weapon.s5-low-ammo .s4-equipment-current{color:#ff7f94}
+body.in-game #weapon.s5-reloading .s4-equipment-current{opacity:.45}
+body.in-game #weapon .s4-equipment-status:before{content:"";background:#b9d5e733;width:90px;height:1px;display:block;position:absolute;top:-5px;right:0}
+body.in-game #weapon.s5-reloading .s4-equipment-status:before{background:linear-gradient(90deg,#0000,#78eaf3,#0000) 0 0/40% 100% no-repeat;height:2px;animation:1s ease-in-out infinite s5-reload-scan}
+@keyframes s5-reload-scan{0%{background-position:-70% 0}to{background-position:170% 0}}
+#s5-skill{left:24px;bottom:calc(58px + var(--s5-resources-height,100px));z-index:10;pointer-events:none;background:var(--s5-panel);border:1px solid var(--s5-hairline);border-radius:5px;width:52px;height:52px;transition:border-color .15s,box-shadow .15s;position:fixed;box-shadow:0 4px 18px #0003}
+#s5-skill img{object-fit:contain;filter:none;width:100%;height:100%}
+#s5-skill.is-active{border-color:#55e2ec99;box-shadow:0 0 18px #43d9ed30,inset 0 0 12px #43d9ed10}
+body.in-game #skill-status{max-width:260px;top:auto!important;left:84px!important;right:auto!important;bottom:calc(70px + var(--s5-resources-height))!important;background:0 0!important;border:0!important;padding:0!important;font-size:11px!important}
+#s5-radar{z-index:10;pointer-events:none;background:linear-gradient(145deg,#11263bd9,#071523cb);border:1px solid #b0d6ef38;border-radius:8px;width:164px;height:164px;position:fixed;top:30px;left:26px;overflow:visible;box-shadow:0 8px 28px #0003,inset 0 1px #ffffff0a}
+#s5-radar:before{content:"";clip-path:polygon(0 0,15% 0,15% 1%,1% 1%,1% 15%,0 15%,0 0,100% 0,100% 15%,99% 15%,99% 1%,85% 1%,85% 0,100% 0,100% 100%,85% 100%,85% 99%,99% 99%,99% 85%,100% 85%,100% 100%,0 100%,0 85%,1% 85%,1% 99%,15% 99%,15% 100%,0 100%);border:1px solid #e1f4ffad;border-radius:8px;position:absolute;inset:-1px}
+#s5-radar canvas{opacity:.95;width:100%;height:100%}
+#s5-radar>span{color:#fff;font:600 12px Segoe UI,sans-serif;position:absolute;top:-7px;left:48%}
+body:not(.in-game) :is(#s5-radar,#s5-skill){display:none}
+:is(#s5-ammo-pips,#s5-radar,#s5-skill)[hidden]{display:none!important}
+body.in-game #weapon-picker{gap:6px;bottom:32px;left:50%;transform:translate(-50%)}
+body.in-game #weapon-picker>div,body.in-game #weapon-picker>div.selected{border:1px solid #8aa3ba45;border-radius:6px;width:62px;height:54px;min-height:54px;padding:0;background:#081728c7!important}
+body.in-game #weapon-picker>div.selected{border-color:#03d7ed}
+body.in-game #weapon-picker>div>span{font-size:12px;top:3px;left:4px}
+body.in-game #weapon-picker b{font-size:10px}
+body.in-game #crosshair[data-s5runtime-crosshair-installed]:not([data-s5runtime-crosshair-zoom=true]){width:34px;height:34px;box-shadow:none;filter:drop-shadow(0 1px 1px #000c);background:linear-gradient(#fff,#fff) 50% 0/1px 7px no-repeat,linear-gradient(#fff,#fff) 50% 100%/1px 7px no-repeat,linear-gradient(#fff,#fff) 0/7px 1px no-repeat,linear-gradient(#fff,#fff) 100%/7px 1px no-repeat,radial-gradient(circle,#fff 1px,#0000 1.5px) 50%/100% 100%;border:0;padding:0}
+body.in-game #crosshair[data-s5runtime-crosshair-installed]:not([data-s5runtime-crosshair-zoom=true])>img{opacity:0}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-scoreboard{filter:none;text-shadow:0 1px 2px #0006;background:0 0;border:0;width:310px;height:60px;padding:0;display:block;position:absolute;top:40px;left:50%;transform:translate(-50%)}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-team{background:var(--s5-panel);border:1px solid var(--s5-hairline);border-radius:5px;width:22.5%;min-width:0;height:100%;padding:0;position:absolute;top:0;overflow:hidden;box-shadow:0 4px 16px #0003,inset 0 1px #ffffff08}
+body.in-game :is(#match-ui,#touchdown-ui) .td-team:before{content:"";background:currentColor;width:2px;position:absolute;top:12px;bottom:12px;left:0;box-shadow:0 0 12px}
+body.in-game :is(#match-ui,#touchdown-ui) .td-beta:before{left:auto;right:0}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-alpha{color:var(--s5-cyan);left:0}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-beta{color:var(--s5-pink);left:auto;right:0}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-team strong{width:100%;height:100%;text-shadow:none;place-items:center;padding:0;font:italic 600 30px/1 S4 HUD Condensed,sans-serif;display:grid}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-team span{clip-path:inset(50%);width:1px;height:1px;position:absolute;overflow:hidden}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-clock{background:var(--s5-panel);border:1px solid var(--s5-hairline);border-radius:5px;width:50%;min-width:0;height:100%;padding:0;display:block;position:absolute;top:0;left:25%;box-shadow:0 4px 16px #0003,inset 0 1px #ffffff08}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-clock small{text-align:center;letter-spacing:.05em;color:#f4f8ff;width:100%;height:16px;font:italic 600 12px/1.2 S4 HUD Condensed,sans-serif;display:block;position:absolute;top:-21px;left:0}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-clock b{letter-spacing:0;place-items:center;width:100%;height:100%;font:italic 600 29px/1 S4 HUD Condensed,sans-serif;display:grid;position:absolute;top:0;left:0}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-clock span{clip-path:inset(50%);width:1px;height:1px;position:absolute;overflow:hidden}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .s4-time-bar{display:none}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode)>.td-objective{box-shadow:none;background:0 0;border:0;top:112px}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode)>.td-objective .td-diamond{display:none}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode)>.td-objective b{font:600 14px Segoe UI,sans-serif}
+body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode)>.td-objective :is(small,div>span){font:11px Segoe UI,sans-serif}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-native-hud{background:0 0;width:310px;height:60px;padding:0;font-family:S4 HUD Condensed,sans-serif;top:40px;left:50%;transform:translate(-50%)}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-first-place{width:23%;height:60px;color:var(--s5-cyan);background:0 0;place-items:center;padding:0;font:italic 600 27px/1 S4 HUD Condensed,sans-serif;display:grid;position:absolute;top:0;left:0;overflow:visible}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-first-place>[data-br-leader-name],body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-first-place>span[aria-hidden]{display:none}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-first-place:after{content:"LEADER";color:#b6c5d9;text-align:center;width:100%;font:10px S4 HUD Condensed,sans-serif;position:absolute;top:64px;left:0}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-local-points{width:23%;height:60px;color:var(--s5-pink);background:0 0;place-items:center;padding:0;font:italic 600 27px/1 S4 HUD Condensed,sans-serif;display:grid;position:absolute;top:0;left:auto;right:0}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-local-points>span{white-space:nowrap;font-size:10px;position:absolute;top:64px;right:0}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-local-points>b{font-size:27px}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-session-rule{clip-path:none;text-align:center;width:100%;height:auto;margin:0;padding:0;font-size:11px;top:-21px;left:0;overflow:visible}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-native-clock{background:0 0;place-items:center;width:150px;height:60px;padding:0;font:italic 600 29px S4 HUD Condensed,sans-serif;display:grid;top:40px;left:50%;transform:translate(-50%)}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-score-panel{background:0 0;justify-content:space-between;width:310px;height:60px;display:flex;top:40px;left:50%;transform:translate(-50%)}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-score-row{background:0 0;place-items:center;width:23%;height:60px;min-height:0;padding:0;display:grid;position:relative}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-score-label{text-align:center;white-space:nowrap;width:100%;font-size:10px;position:absolute;top:64px;left:0}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-score-name{display:none}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-score-value{color:var(--s5-cyan)}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-score-mine .ch-score-value{color:var(--s5-pink)}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) :is(.ch-score-value,.ch-round-clock) .ch-native-digit,body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-round-clock>span:not(.ch-readable-number){display:none}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) :is(.ch-score-value,.ch-round-clock) .ch-readable-number{clip-path:none;width:auto;height:auto;font:italic 600 29px S4 HUD Condensed,sans-serif;position:static;overflow:visible}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-round-panel{width:150px;top:40px}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-round-panel>.ch-eyebrow{width:100%;font-size:12px;position:absolute;top:-21px}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-round-clock{align-items:center;height:60px}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-hunter{margin-top:22px;font-size:11px}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-survivors{margin-top:6px}
+body.in-game:has(:is(#match-ui,#touchdown-ui)[data-phase=result]) :is(#s5-radar,#s5-skill,#skill-status){visibility:hidden}
+@media (width<=850px){body.in-game #hud{width:min(280px,calc((100vw - 48px)/var(--hud-scale,1)))}#s5-radar{width:120px;height:120px;top:22px;left:16px}body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode)>.td-objective{max-width:400px;top:112px}body.in-game #weapon-picker{bottom:calc(190px + var(--s5-resources-height))}body.in-game #weapon{bottom:calc(60px + var(--s5-resources-height))}}
+@media (width<=600px){body.in-game{--s5-compact-score-width:min(230px,calc(100vw - 140px))}body.in-game #hud{width:calc((100vw - 32px)/var(--hud-scale,1));bottom:34px;left:16px}body.in-game #weapon{right:16px;bottom:calc(60px + var(--s5-resources-height));width:175px;height:125px;min-height:0;padding:0}#s5-skill{left:16px;bottom:calc(60px + var(--s5-resources-height))}body.in-game #skill-status{max-width:140px;left:16px!important;bottom:calc(118px + var(--s5-resources-height))!important}body.in-game #weapon-picker{left:16px;bottom:calc(190px + var(--s5-resources-height));transform:none}body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-scoreboard{width:var(--s5-compact-score-width);height:48px;top:34px;left:auto;right:12px;transform:none}body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-team strong{font-size:25px}body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode) .td-clock b{font-size:24px}body.in-game :is(#match-ui,#touchdown-ui):is(.s4-secondary-mode-ui,.s4-team-mode)>.td-objective{width:var(--s5-compact-score-width);text-align:center;top:100px;left:auto;right:12px;transform:none}#s5-radar{width:104px;height:104px;top:25px;left:12px}body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) :is(.br-native-hud,.ch-score-panel){width:var(--s5-compact-score-width);height:48px;top:34px;left:auto;right:12px;transform:none}body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-native-clock{top:34px;left:auto;right:calc(12px + (var(--s5-compact-score-width) - 120px)/2);width:120px;height:48px;font-size:24px;transform:none}body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) :is(.br-first-place,.br-local-points,.ch-score-row,.ch-round-clock){height:48px}body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .ch-round-panel{left:auto;right:calc(12px + (var(--s5-compact-score-width) - 120px)/2);width:120px;top:34px;transform:none}body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) :is(.ch-score-value,.ch-round-clock) .ch-readable-number{font-size:24px}}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) :is(.br-first-place,.br-local-points,.br-native-clock,.ch-score-row,.ch-round-clock){background:var(--s5-panel);border:1px solid var(--s5-hairline);text-shadow:0 1px 2px #0006;border-radius:5px;box-shadow:0 4px 16px #0003,inset 0 1px #ffffff08}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-first-place{border-left-color:#43d9ed99}
+body.in-game #match-ui:is(.s4-secondary-mode-ui,.s4-chaser-ui) .br-local-points{border-right-color:#ff658999}
+body.in-game :is(#match-ui,#touchdown-ui) .s5-clock-urgent{text-shadow:0 0 15px #ff68442e;color:#ff9b89!important}
+@media (prefers-reduced-motion:reduce){body.in-game #hud .bar i,#s5-ammo-pips i,#s5-skill{transition:none}body.in-game #weapon.s5-reloading .s4-equipment-status:before{background:#78eaf3;animation:none}}
+/* Clear presentation remnants introduced after this customized version. */
+body.in-game #hud .stamina b{height:auto;margin:0;overflow:visible;clip-path:none;white-space:nowrap}
+body.in-game #hud .bar:before{display:block}
+#s5-ammo-pips{left:auto}
+body.in-game #weapon .s4-equipment-ammo[hidden]{display:none}
+/* Preserve the customized score/clock lane above Siege's live objectives. */
+#match-ui[data-native-mode-ui=siege] .native-siege-hud-points{top:112px}
+@media(max-width:600px){#match-ui[data-native-mode-ui=siege] .native-siege-hud-points{top:94px;width:var(--s5-compact-score-width);left:auto;right:12px;transform:none}}

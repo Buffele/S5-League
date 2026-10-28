@@ -1,0 +1,51 @@
+{
+  "sources": {
+    "gui/new/score_board_ingame.xui": {
+      "path": "gui/new/score_board_ingame.xui",
+      "checksum": "e6c052e4",
+      "plainLength": 107448,
+      "storedLength": 26575,
+      "dataOffset": 50238268,
+      "archive": "package/2.xs",
+      "status": "authenticated",
+      "sha256": "240602af1aa01e325df6ffaa079c81d90b6b3a4219733a5d239a7d7ebd55ee3d",
+      "method": "known-header-crc32"
+    },
+    "gui/new/result.xui": {
+      "path": "gui/new/result.xui",
+      "checksum": "cf0894ff",
+      "plainLength": 153335,
+      "storedLength": 36558,
+      "dataOffset": 51993905,
+      "archive": "package/40.xs",
+      "status": "authenticated",
+      "sha256": "088383ed28f155d4c62df254c1a0b2e09aaa0d09038ba62a5eba13d7ed48e8ab",
+      "method": "known-header-crc32"
+    },
+    "gui/new/ingamelistbox.xui": {
+      "path": "gui/new/ingamelistbox.xui",
+      "checksum": "c47b3ef1",
+      "plainLength": 78890,
+      "storedLength": 22744,
+      "dataOffset": 78063220,
+      "archive": "package/2.xs",
+      "status": "authenticated",
+      "sha256": "209e67b6c9e53df14f153dc117afa9df3a07d96045b2811525fd8881fae5165b",
+      "method": "known-header-crc32"
+    }
+  },
+  "outputs": [
+    {
+      "file": "layouts.json",
+      "sha256": "295daa0060bf98e3edb80de9612caf2330a7aefc9289bb2196d8d8d66b54f624",
+      "mapping": "Selected original local rectangles/labels only; no pixels changed",
+      "bytes": 3025,
+      "crc32": "47f57588"
+    }
+  ],
+  "nativeReady": false,
+  "limits": [
+    "FFA single result pane is an explicit adaptation.",
+    "XUI field layouts do not prove native counter getters."
+  ]
+}

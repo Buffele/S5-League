@@ -1,0 +1,186 @@
+{
+  "format": "s5-revolver-static-contract-v1",
+  "family": "revolver",
+  "variant": "classic",
+  "itemKey": 2010002,
+  "weaponType": 1,
+  "status": "source-contract-not-runtime",
+  "playable": false,
+  "rendered": false,
+  "behaviorVerified": false,
+  "selectionGuard": {
+    "rule": "Select by exact item key, weapon type, scene and Lua handler; a matching name is insufficient.",
+    "selected": {
+      "itemKey": 2010002,
+      "weaponType": 1,
+      "scene": "model/weapon/revolver.scn",
+      "handler": "StandardRevolver"
+    },
+    "rejectedAliases": [
+      {
+        "name": "Revolver2 / Hand Gun",
+        "itemKey": 2010007,
+        "weaponType": 2,
+        "scene": "model/weapon/handgun.scn",
+        "handler": "StandardRevolver2",
+        "reason": "different weapon type and state family"
+      },
+      {
+        "name": "Revolver II scene",
+        "scene": "model/weapon/revolver_ii.scn",
+        "reason": "near-name variant not bound to classic item 2010002"
+      }
+    ]
+  },
+  "attachment": {
+    "attack": "R_Hand_Dummy",
+    "idle": "Gun_Dummy",
+    "dynamicRelinkImplemented": false,
+    "source": "xml/weapon_attach.x7 type=1 sceneIndex=0"
+  },
+  "animations": {
+    "idle": "Q0000",
+    "run": [
+      {
+        "direction": "front",
+        "upper": "Q0014",
+        "lower": "00008"
+      },
+      {
+        "direction": "rightFront",
+        "upper": "Q0017",
+        "lower": "00011"
+      },
+      {
+        "direction": "right",
+        "upper": "Q0018",
+        "lower": "00012"
+      },
+      {
+        "direction": "rightBack",
+        "upper": "Q0021",
+        "lower": "00015"
+      },
+      {
+        "direction": "back",
+        "upper": "Q0019",
+        "lower": "00013"
+      },
+      {
+        "direction": "leftBack",
+        "upper": "Q0020",
+        "lower": "00014"
+      },
+      {
+        "direction": "left",
+        "upper": "Q0016",
+        "lower": "00010"
+      },
+      {
+        "direction": "leftFront",
+        "upper": "Q0015",
+        "lower": "00009"
+      }
+    ],
+    "shot": {
+      "aim": {
+        "up": "Q0001",
+        "center": "Q0002",
+        "down": "Q0003"
+      },
+      "loop": false,
+      "lowerBody": "source state lists still to be integrated"
+    },
+    "reload": {
+      "clip": "Q0004",
+      "durationMs": 3000,
+      "loop": false
+    },
+    "sourceEvidence": [
+      "NormalState_Revolver",
+      "RunState_Revolver",
+      "UseWeapon1State_Revolver",
+      "ReloadState_Revolver"
+    ]
+  },
+  "profile": {
+    "power": 30,
+    "rateOfFire": 1.2,
+    "moveSpeedRate": 1,
+    "attackMoveSpeedRate": 0.9,
+    "magazineCapacity": 7,
+    "maxAmmo": 14,
+    "accuracy": 0.08,
+    "range": 1000,
+    "stateInit": [
+      260,
+      40,
+      -40,
+      250,
+      800,
+      650
+    ],
+    "frontOffset": 275,
+    "rays": 4,
+    "powerMultiplier": 0.25,
+    "linearDamageDropoff": {
+      "start": 4000,
+      "end": 8000,
+      "minimum": 0.2
+    },
+    "critical": 2.3
+  },
+  "bindings": {
+    "shotEffect": "effects/weapon_revolver_fire.seq",
+    "shotSound": "sound/revo_blast.ogg",
+    "reloadSound": "sound/revo_reload.ogg",
+    "fireNode": "Revolver_Fire_Dummy"
+  },
+  "scripts": [
+    {
+      "path": "script/actorstates_normalstates.lua",
+      "bytes": 26466,
+      "sha256": "f143f916491aa1a6b4afc8b41f82924d05a979de43cf6d5ca1d78a8e302b8c29"
+    },
+    {
+      "path": "script/actorstates_runstates.lua",
+      "bytes": 163991,
+      "sha256": "d9e6f2e1918d98073fe75699ce9f329b427667ea1059461038b76e481de848cb"
+    },
+    {
+      "path": "script/actorstates_etcweapon.lua",
+      "bytes": 310445,
+      "sha256": "8bcaf906f398223c0d5df4fcbdafd4af65dac78bb7ae5d5e7f43df12b2ddfc1b"
+    },
+    {
+      "path": "script/actorstates_reloadstates.lua",
+      "bytes": 31302,
+      "sha256": "01e98ab014aae28f2f8b8f51740ca9a6d9be03e7718a8c8e4a6fd6d936eec0b7"
+    },
+    {
+      "path": "script/weapon_revolver.lua",
+      "bytes": 46534,
+      "sha256": "ba0d2f2850572345f787dfbfe34478092cd278badb7edc2f586f680b84d52200"
+    },
+    {
+      "path": "script/attackattribindexer.lua",
+      "bytes": 638240,
+      "sha256": "f714b31691b87c020c5618d96f51876bab361445b689709b8a20880882048c65"
+    },
+    {
+      "path": "xml/weapon_attach.x7",
+      "bytes": 7030,
+      "sha256": "099e2f5fcb6acdb33583e1eab6ef0637ee81f08fb1ec9fbb020fe00889fdee54"
+    },
+    {
+      "path": "xml/weapon_lua.x7",
+      "bytes": 615875,
+      "sha256": "0ebdc08d6d524755a5c452004b9b952176384cd9c20d2e56e0d08b5d7bbe1a86"
+    },
+    {
+      "path": "xml/_eu_weapon.x7",
+      "bytes": 87234,
+      "sha256": "5e133a7cd2f8a4724f4066395a2b6ef2b2b0ec553c51acb7ffebffa98056b26c"
+    }
+  ]
+}

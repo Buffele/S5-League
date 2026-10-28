@@ -1,0 +1,73 @@
+/* Original S5 surfaces; historical class names remain renderer API hooks. */
+#welcome .s5runtime-options-view{max-width:100%;overflow-x:auto;margin:8px 0;color:#d8e7f2;font-family:system-ui,"Segoe UI",sans-serif}
+#welcome .s5runtime-options-plane{position:relative;isolation:isolate;overflow:hidden;font-family:inherit;background:linear-gradient(145deg,#142534,#101b29);border:1px solid #35536a;border-radius:12px;box-shadow:0 16px 40px #0005}
+#welcome .s5runtime-options-section{position:absolute;inset:0}
+#welcome .s5runtime-options-section[hidden]{display:none}
+#welcome .s5runtime-options-view .s5runtime-options-node{position:absolute;box-sizing:border-box;margin:0;padding:0;min-width:0;min-height:0;max-width:none;border:0;border-radius:0;background-color:transparent;color:#d8e7f2;line-height:normal;font:500 11px system-ui,"Segoe UI",sans-serif;white-space:nowrap}
+#welcome .s5runtime-options-image{pointer-events:none;visibility:hidden}
+#welcome .s5runtime-options-view button.s5runtime-options-node{cursor:pointer;border:1px solid #426079;border-radius:5px;background:#20374a;color:#e7f4ff;text-align:center!important;font-weight:600;transition:background-color .12s,border-color .12s}
+#welcome .s5runtime-options-view button.s5runtime-options-node:hover{background:#2c4a61;border-color:#64c6dc}
+#welcome .s5runtime-options-view button.s5runtime-options-node[data-native-interaction="1"]{background:#16303e;border-color:#91dce8}
+#welcome .s5runtime-options-view button.s5runtime-options-node[data-selected="true"]{background:#245568;border-color:#7fd0dc;color:#fff}
+#welcome .s5runtime-options-view button.s5runtime-options-node:disabled{cursor:default;background:#1a2835;border-color:#2d4052;color:#7f94a7;opacity:.65}
+#welcome .s5runtime-options-view button.s5runtime-options-node:focus-visible{outline:2px solid #92e1e8;outline-offset:2px}
+#welcome .s5runtime-options-plane>button,#welcome .s5runtime-options-plane>h3{z-index:2}
+#welcome .s5runtime-options-view h3.s5runtime-options-node{font-size:16px;font-weight:700;letter-spacing:.03em;color:#f1f8ff}
+#welcome .s5runtime-options-view .s5runtime-options-node[data-xui-path$="/x_Button"]{font-size:16px}
+#welcome .s5runtime-options-range{appearance:auto;accent-color:#78d0d8;cursor:pointer}
+#welcome .s5runtime-options-view .s5runtime-options-mute{appearance:none;cursor:pointer;border:1px solid #69859a;border-radius:4px;background:#152c3c}
+#welcome .s5runtime-options-view .s5runtime-options-mute:checked{background:#71ced6;box-shadow:inset 0 0 0 3px #183749}
+#welcome .s5runtime-options-view .s5runtime-options-mute:disabled{opacity:.45;cursor:default}
+#welcome .s5runtime-options-view .s5runtime-options-mute:focus-visible{outline:2px solid #92e1e8;outline-offset:2px}
+#welcome .s5runtime-options-view .s5runtime-options-bindings{overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:#52768c #142635;border:1px solid #35536a;border-radius:6px;background:#112333}
+#welcome .s5runtime-options-binding-row{width:100%}
+#welcome .s5runtime-options-binding-row>span{overflow:visible}
+#welcome .s5runtime-options-image[data-xui-path$="/Select_Image"]{visibility:visible;background:#29607466;border-left:2px solid #8be1e4}
+#welcome .s5runtime-options-view>p{margin:8px 0;font:12px/1.5 system-ui,"Segoe UI",sans-serif;color:#b7cbdc}
+#welcome .s5runtime-options-retry{width:auto;min-height:28px;margin:4px 0;padding:4px 10px;font:600 12px system-ui,"Segoe UI",sans-serif;background:#245568;border:1px solid #7fd0dc;border-radius:5px;color:#fff}
+#welcome .s5runtime-audio-hscroll{overflow:visible;cursor:pointer;touch-action:none}
+#welcome .s5runtime-audio-hscroll-part{display:block;box-sizing:border-box;border:0;margin:0;padding:0;color:#bcebf1;font:700 16px/12px system-ui,sans-serif;text-align:center}
+#welcome .s5runtime-audio-hscroll-part[data-part="track"]{background:#0a1823;border:1px solid #35576e;border-radius:8px}
+#welcome .s5runtime-audio-hscroll-part[data-part="left"],#welcome .s5runtime-audio-hscroll-part[data-part="right"]{background:#254458;border-radius:3px}
+#welcome .s5runtime-audio-hscroll-part[data-part="thumb"]{background:#8cdce3;border:1px solid #baf4f6;border-radius:3px;box-shadow:0 0 6px #52b9cf55}
+#welcome .s5runtime-audio-hscroll-part[data-skin-index="2"],#welcome .s5runtime-audio-hscroll-part[data-skin-index="5"]{filter:brightness(1.3)}
+#welcome .s5runtime-audio-hscroll-part[hidden]{display:none}
+#welcome .s5runtime-audio-hscroll:focus-within{outline:2px solid #92e1e8;outline-offset:2px}
+#welcome .s5runtime-audio-hscroll[data-disabled="true"]{cursor:default;opacity:.5}
+#welcome .s5runtime-options-view label[data-xui-path$="/Sound_GroupBox/Setting_GroupBox/1_Label"],
+#welcome .s5runtime-options-view label[data-xui-path$="/Sound_GroupBox/Setting_GroupBox/2_Label"]{left:30px!important;width:190px!important;text-align:right!important;padding-right:10px;white-space:nowrap}
+#welcome input.s5runtime-audio-hscroll-input{appearance:none;cursor:inherit}
+/* One settings window, with the existing visual controls inside Graphics.
+ * Their values still apply immediately, outside the audio/input transaction. */
+#welcome.s5-entry-host .menu-settings-slot:has(.s5-options-graphics-content){display:grid;grid-template-columns:minmax(0,540px);justify-content:center;gap:0}
+#welcome .s5runtime-options-view .s5-options-graphics-content{overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#52768c #142635;white-space:normal;padding:8px;border:1px solid #35536a;border-radius:5px;background:#112333}
+#welcome .s5-options-graphics-content:focus-visible{outline:2px solid #92e1e8;outline-offset:-2px}
+#welcome .s5-options-graphics-content .graphics-grid{grid-template-columns:minmax(0,1fr);grid-template-areas:none;gap:16px}
+#welcome .s5-options-graphics-content .graphics-grid>*{grid-area:auto}
+#welcome .s5-options-graphics-content .settings-choice{min-height:44px}
+#welcome .s5-options-graphics-content .character-appearance-settings{padding:8px;margin-bottom:12px}
+#welcome .s5-options-graphics-content .character-appearance-fields{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr) minmax(0,1fr);gap:8px}
+#welcome .s5-options-graphics-content .locomotion-settings .character-appearance-fields{grid-template-columns:repeat(2,minmax(0,1fr))}
+#welcome .s5-options-graphics-content .settings-choices--4{grid-template-columns:repeat(2,minmax(0,1fr))}
+#welcome .s5-options-graphics-content .settings-preview{display:none!important}
+#welcome .s5-options-graphics-content .settings-choice b{font-size:11px;margin:2px}
+#welcome .s5-options-graphics-content .settings-choice small{font-size:10px!important}
+#welcome .s5-options-responsive-stage{position:absolute;inset:0}
+@media(max-width:560px){
+ #welcome .s5-options-graphics-content .locomotion-settings .character-appearance-fields{grid-template-columns:minmax(0,1fr)}
+ #welcome .s5runtime-options-view{overflow-x:hidden}
+ #welcome .s5runtime-options-plane{box-sizing:border-box;width:100%!important}
+ #welcome .s5runtime-options-plane>h3.s5runtime-options-node{left:8px!important;width:calc(100% - 48px)!important}
+ #welcome .s5runtime-options-plane>button[role=tab]{top:58px!important;width:calc((100% - 16px)/4)!important;height:36px!important;font-size:11px}
+ #welcome .s5runtime-options-plane>button[data-xui-path$='/Graphic_TabButton']{left:8px!important}
+ #welcome .s5runtime-options-plane>button[data-xui-path$='/Sound_TabButton']{left:calc(8px + (100% - 16px)/4)!important}
+ #welcome .s5runtime-options-plane>button[data-xui-path$='/KeySetting_TabButton']{left:calc(8px + (100% - 16px)/2)!important}
+ #welcome .s5runtime-options-plane>button[data-xui-path$='/Community_TabButton']{left:calc(8px + (100% - 16px)*3/4)!important}
+ #welcome .s5runtime-options-plane>.s5runtime-options-section{inset:96px 8px 54px;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#52768c #142635}
+ #welcome .s5runtime-options-plane>.s5runtime-options-section>.s5-options-responsive-stage{position:relative;inset:auto;top:-96px;width:512px;height:400px}
+ #welcome .s5runtime-options-view .s5-options-graphics-content{left:0!important;top:0!important;width:100%!important;height:100%!important}
+ #welcome .s5runtime-options-plane>button[data-xui-path$='/Re_Button']{left:8px!important;top:auto!important;bottom:8px;width:80px!important}
+ #welcome .s5runtime-options-plane>button[data-xui-path$='/Ok_Button']{left:auto!important;right:96px;top:auto!important;bottom:8px;width:80px!important}
+ #welcome .s5runtime-options-plane>button[data-xui-path$='/Apply_Button']{left:auto!important;right:8px;top:auto!important;bottom:8px;width:80px!important}
+ #welcome .s5runtime-options-plane>button[data-xui-path$='/x_Button']{left:auto!important;right:8px;top:8px!important}
+}

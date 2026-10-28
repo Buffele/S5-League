@@ -1,0 +1,513 @@
+{
+  "format": "native-crosshair-runtime-assets-v1",
+  "sources": {
+    "xui2/sprites/ingame/hud/crosshairs/circle.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/circle.dds",
+      "archive": "24.xs",
+      "checksum": "1751da35",
+      "plainLength": 129728,
+      "sha256": "c361e151b45f18a85a8f21b5ea4309fc8ecc68254ade4db0b94501284fe9ca3a"
+    },
+    "xui2/sprites/ingame/hud/crosshairs/stationary.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/stationary.dds",
+      "archive": "24.xs",
+      "checksum": "10e7549e",
+      "plainLength": 129728,
+      "sha256": "2f8e83736066f997c3e633d2b63e06b13ffd2251658a953f78426e111a3358be"
+    },
+    "xui2/sprites/ingame/hud/crosshairs/circle1.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/circle1.dds",
+      "archive": "24.xs",
+      "checksum": "6e0c2064",
+      "plainLength": 129728,
+      "sha256": "4170d7c679b6cb0c7227a7cb71972179187435ec8dc857629bb3e928f2ec377c"
+    },
+    "xui2/sprites/ingame/hud/crosshairs/circle2.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/circle2.dds",
+      "archive": "24.xs",
+      "checksum": "06e0f66b",
+      "plainLength": 129728,
+      "sha256": "31b368b16334d971d460663279b19bd77209542e2ee2ff6e0b83f023748661cb"
+    },
+    "xui2/sprites/ingame/hud/crosshairs/melee.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/melee.dds",
+      "archive": "24.xs",
+      "checksum": "c5c30f8a",
+      "plainLength": 129728,
+      "sha256": "236bd68123640f4b215462baaf3563aa08f3875b2e43c564855625a8a45f5c3c"
+    },
+    "xui2/sprites/ingame/hud/crosshairs/zoom.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/zoom.dds",
+      "archive": "24.xs",
+      "checksum": "236e3e10",
+      "plainLength": 129728,
+      "sha256": "ecc26b6dce83dba616d0511cb2404f69acf396195abaaa481d23dc8223d0302a"
+    },
+    "xui2/sprites/ingame/hud/crosshairs/zoom1.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/zoom1.dds",
+      "archive": "24.xs",
+      "checksum": "d2d8ae9a",
+      "plainLength": 129728,
+      "sha256": "a47de61f47352d504f9e478f066517c6ac4a00626eae15647ff962885c9180c8"
+    },
+    "xui2/sprites/ingame/hud/crosshairs/cross.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/cross.dds",
+      "archive": "24.xs",
+      "checksum": "37f35d26",
+      "plainLength": 129728,
+      "sha256": "e9a2c2ad2ec88e390b5c707ad130d76ebe0a0a7315fbf50d02517462df541dd8"
+    },
+    "xui2/sprites/ingame/hud/crosshairs/projectile.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/projectile.dds",
+      "archive": "24.xs",
+      "checksum": "44135ff4",
+      "plainLength": 129728,
+      "sha256": "e2499e31878ddf415b2d70162c80a3321ef1fd6209851edee8c83b23664052ce"
+    },
+    "xui2/sprites/ingame/hud/crosshairs/circle3.dds": {
+      "path": "xui2/sprites/ingame/hud/crosshairs/circle3.dds",
+      "archive": "24.xs",
+      "checksum": "6d86d880",
+      "plainLength": 129728,
+      "sha256": "7e4172e7fce23408bc969404b47c21f387f5c075548ed36cb9e3a13e82d42e49"
+    },
+    "xui2/layout/ingame/hud/crosshair.xui": {
+      "path": "xui2/layout/ingame/hud/crosshair.xui",
+      "archive": "51.xs",
+      "checksum": "846ea15f",
+      "plainLength": 3021,
+      "sha256": "7dc846b5deb4a4958c93c19d5904c560e0e4c671a08fc64a585048a008bb0786"
+    },
+    "xml/crosshairs.xml": {
+      "path": "xml/crosshairs.xml",
+      "archive": "74.xs",
+      "checksum": "5a3690da",
+      "plainLength": 2866,
+      "sha256": "9e4f5afa3dc2d7e4b260bad394e64b1d07dddba3fa9f8ab9d677dd0fee781b64"
+    },
+    "xml/_eu_weapon.x7": {
+      "path": "xml/_eu_weapon.x7",
+      "archive": "60.xs",
+      "checksum": "7f594d19",
+      "plainLength": 87234,
+      "sha256": "5e133a7cd2f8a4724f4066395a2b6ef2b2b0ec553c51acb7ffebffa98056b26c"
+    }
+  },
+  "outputs": [
+    {
+      "file": "circle.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/circle.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "07fa39c936de7a31f1d34536c5d0c7ebf5c749bb9668a8de8e444e978836d143"
+    },
+    {
+      "file": "stationary.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/stationary.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "d6f2b01780ff52fdf834536f44b08cf0d7bb52a512f34ddcae60926b29837246"
+    },
+    {
+      "file": "circle1.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/circle1.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "6d0c02cf4b8476b179d25bfce3560161112bc0888259dcc16ddec36fab4abbeb"
+    },
+    {
+      "file": "circle2.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/circle2.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "dafa78121a08a9cb549ecc0e1c1f7087498e0c86ec5ab0eac9828df2214f63cc"
+    },
+    {
+      "file": "melee.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/melee.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "f070c4bf309b8e152803533dd787b7a4ae40b8eb3eb1b3a5fcd42529a6e19b4e"
+    },
+    {
+      "file": "zoom.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/zoom.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "8995dd2e94d03958697c7e13696a483706ddedf7d04a9d0f593a0f906ac09288"
+    },
+    {
+      "file": "zoom1.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/zoom1.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "b5d8cd89128612e2ded4859f6d86a2eedc6c92a2304b649fa28452a6fa78e6c5"
+    },
+    {
+      "file": "cross.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/cross.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "9d807813c08a194b68846203f3909a38981117e4538b311c85f137af544303cc"
+    },
+    {
+      "file": "projectile.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/projectile.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "f8e43a3821442e633bec1b1ee12591f46eb0c8d7c940337e02e4a54a14b36942"
+    },
+    {
+      "file": "circle3.png",
+      "source": "xui2/sprites/ingame/hud/crosshairs/circle3.dds",
+      "size": [
+        180,
+        180
+      ],
+      "sha256": "a1bd207bab1f4d133722f38e888a4bb77f60f0be67a255ae477e92b4b142aa95"
+    }
+  ],
+  "items": {
+    "2000001": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000002": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000003": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000006": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000010": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000013": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000017": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000018": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000029": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000030": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000036": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2000063": {
+      "primary": "melee.png",
+      "secondary": "melee.png"
+    },
+    "2010001": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2010002": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2010004": {
+      "primary": "cross.png",
+      "secondary": "zoom.png"
+    },
+    "2020001": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2030001": {
+      "primary": "circle2.png",
+      "secondary": "zoom.png"
+    },
+    "2030002": {
+      "primary": "circle3.png",
+      "secondary": "zoom1.png"
+    },
+    "2040001": {
+      "primary": "stationary.png",
+      "secondary": "stationary.png"
+    },
+    "2050001": {
+      "primary": "projectile.png",
+      "secondary": "projectile.png"
+    },
+    "2060001": {
+      "primary": "circle.png",
+      "secondary": "circle.png"
+    },
+    "2060002": {
+      "primary": "circle.png",
+      "secondary": "circle.png"
+    },
+    "2020002": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2040003": {
+      "primary": "stationary.png",
+      "secondary": "stationary.png"
+    },
+    "2010006": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2010007": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2010008": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2010016": {
+      "primary": "circle.png",
+      "secondary": "circle.png"
+    },
+    "2010015": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2051337": {
+      "primary": "circle.png",
+      "secondary": "circle.png"
+    },
+    "2020007": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2010018": {
+      "primary": "cross.png",
+      "secondary": "zoom.png"
+    },
+    "2010024": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2050004": {
+      "primary": "projectile.png",
+      "secondary": "projectile.png"
+    },
+    "2030006": {
+      "primary": "cross.png",
+      "secondary": "zoom.png"
+    },
+    "2010028": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2020005": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    },
+    "2011337": {
+      "primary": "cross.png",
+      "secondary": "cross.png"
+    }
+  },
+  "weaponItems": {
+    "demonic-knuckle": 2000036,
+    "demonicknuckle": 2000036,
+    "dagger": 2000006,
+    "plasma": 2000001,
+    "counter": 2000002,
+    "breaker": 2000013,
+    "katana": 2000018,
+    "twin-blade": 2000010,
+    "twinblade": 2000010,
+    "sigma-blade": 2000017,
+    "sigmablade": 2000017,
+    "death-scythe": 2000031,
+    "deathscythe": 2000031,
+    "iron-boots": 2000035,
+    "ironboots": 2000035,
+    "bat": 2000003,
+    "airgun": 2010016,
+    "cannonade": 2030002,
+    "semi-rifle": 2010004,
+    "semirifle": 2010004,
+    "rail-gun": 2030001,
+    "revolver": 2010002,
+    "smash-rifle": 2010006,
+    "smashrifle": 2010006,
+    "submachine-gun": 2010001,
+    "submachinegun": 2010001,
+    "hand-gun-revolver2": 2010007,
+    "handgun": 2010007,
+    "assault-rifle": 2010024,
+    "assaultrifle": 2010024,
+    "burst-shotgun": 2010008,
+    "burstshotgun": 2010008,
+    "heavy-machine-gun": 2020001,
+    "dual-magnum": 2010028,
+    "rocket-launcher": 2020010,
+    "rocketlauncher": 2020010,
+    "gauss-rifle-mk2": 2020039,
+    "sentry": 2040001,
+    "earth-bomber": 2050002,
+    "mind-energy": 2060001,
+    "lightning-bomber": 2050003,
+    "spark-rifle": 2010018
+  },
+  "unmappedWeapons": [
+    {
+      "id": "assassin-claw",
+      "aliases": [
+        "assassin-claw",
+        "assassinclaw"
+      ],
+      "itemKey": null,
+      "reason": "Current native identity not established in this UI registry"
+    },
+    {
+      "id": "vital-shock",
+      "aliases": [
+        "vital-shock",
+        "vitalshock"
+      ],
+      "itemKey": null,
+      "reason": "Current native identity not established in this UI registry"
+    },
+    {
+      "id": "death-scythe",
+      "aliases": [
+        "death-scythe",
+        "deathscythe"
+      ],
+      "itemKey": 2000031,
+      "reason": "No exact crosshairs.xml item entry"
+    },
+    {
+      "id": "iron-boots",
+      "aliases": [
+        "iron-boots",
+        "ironboots"
+      ],
+      "itemKey": 2000035,
+      "reason": "No exact crosshairs.xml item entry"
+    },
+    {
+      "id": "homing-rifle",
+      "aliases": [
+        "homing-rifle"
+      ],
+      "itemKey": null,
+      "reason": "Current native identity not established in this UI registry"
+    },
+    {
+      "id": "machine-gun-2",
+      "aliases": [
+        "machine-gun-2"
+      ],
+      "itemKey": null,
+      "reason": "Current native identity not established in this UI registry"
+    },
+    {
+      "id": "rocket-launcher",
+      "aliases": [
+        "rocket-launcher",
+        "rocketlauncher"
+      ],
+      "itemKey": 2020010,
+      "reason": "No exact crosshairs.xml item entry"
+    },
+    {
+      "id": "gauss-rifle-mk2",
+      "aliases": [
+        "gauss-rifle-mk2"
+      ],
+      "itemKey": 2020039,
+      "reason": "No exact crosshairs.xml item entry"
+    },
+    {
+      "id": "grenade",
+      "aliases": [
+        "grenade"
+      ],
+      "itemKey": null,
+      "reason": "Current native identity not established in this UI registry"
+    },
+    {
+      "id": "earth-bomber",
+      "aliases": [
+        "earth-bomber"
+      ],
+      "itemKey": 2050002,
+      "reason": "No exact crosshairs.xml item entry"
+    },
+    {
+      "id": "lightning-bomber",
+      "aliases": [
+        "lightning-bomber"
+      ],
+      "itemKey": 2050003,
+      "reason": "No exact crosshairs.xml item entry"
+    }
+  ],
+  "layout": {
+    "sourcePanelSize": 260,
+    "sourceImageSize": 180,
+    "sourceMargin": 40,
+    "sourcePanelOrigin": [
+      1310,
+      950
+    ],
+    "referenceSize": [
+      2880,
+      2160
+    ],
+    "appearanceMs": 200,
+    "appearanceScale": [
+      1.25,
+      1.0
+    ],
+    "appearanceOpacity": [
+      0.0,
+      1.0
+    ],
+    "easing": "linear",
+    "visibilityTransitionMs": 200,
+    "renderingQualification": "Viewport-height scaling from the inferred2880x2160 coordinate space is an S5 adaptation pending native comparison."
+  },
+  "nativeReady": false,
+  "limits": [
+    "Exact item lookup only: no parent/type/name inference for absent IDs, including Rocket2020010.",
+    "Source manual appearance trigger is applied once on reveal/item/texture change; native engine trigger semantics unverified.",
+    "Ammo/stamina gauges are outside this texture-switch hook; no false gauge rendering.",
+    "Viewport-height scaling from the inferred2880x2160 coordinate space is an S5 adaptation pending native comparison."
+  ]
+}

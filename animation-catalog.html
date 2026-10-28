@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>S5 · Catalogue S5Runtime</title></head>
+<body><header><a href="/animation-workshop.html">← Atelier</a><h1>Catalogue des animations S5Runtime</h1><a href="/">Jeu</a></header>
+<p class="intro">Pistes originales • cet atelier ne modifie pas le gameplay. « Usage confirmé » = association sourcée (script ou paramètres natifs), pas forcément observation synchronisée en session.</p>
+<main><aside>
+<label>Personnage<select id="sex"><option value="male">Masculin</option><option value="female">Féminin</option></select></label>
+<label>Rechercher<input id="search" placeholder="Numéro, geste, fonction S5Runtime…"></label>
+<label>Catégorie<select id="category"><option value="">Toutes</option><option selected>déplacements</option><option>combat</option><option>inconnu</option></select></label>
+<label>Statut du geste ou de l’usage<select id="status-filter"><option value="">Tous</option><option>confirmé</option><option>candidat</option><option>contesté</option><option>inconnu</option></select></label>
+<p id="count"></p><div id="library" aria-label="Liste des animations"></div>
+</aside><section class="content">
+<p id="status" role="status">Chargement de l’inventaire…</p>
+<div class="toolbar"><button id="play">Lire les deux</button><button id="first">Début</button><button id="last">Fin A / début B</button><button id="previous">−1/60 s</button><button id="next">+1/60 s</button><label>Vitesse<select id="rate"><option value=".25">¼×</option><option value=".5">½×</option><option value="1" selected>1×</option></select></label><label><input type="checkbox" id="loop"> Boucle</label><label><input type="checkbox" id="skeleton"> Squelette</label><button id="front">Face</button><button id="side">Profil</button></div>
+<div class="panels">
+<article><h2>A · <span id="title-a">—</span></h2><div class="viewport" id="view-a"></div><input id="time-a" type="range" min="0" step=".001" value="0" aria-label="Temps A"><output id="clock-a"></output><div id="details-a" class="details"></div></article>
+<article><h2>B · <span id="title-b">—</span></h2><div class="viewport" id="view-b"></div><input id="time-b" type="range" min="0" step=".001" value="0" aria-label="Temps B"><output id="clock-b"></output><div id="details-b" class="details"></div></article>
+</div><p class="hint">Glisser pour tourner la caméra • molette pour zoomer. Pas de 1/60 s : repère d’inspection, pas fréquence native présumée. La lecture simultanée avance en secondes, sans étirer les clips.</p>
+</section></main><script type="module" src="/src/animation-catalog.js"></script></body></html>

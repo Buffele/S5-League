@@ -1,0 +1,53 @@
+{
+  "weapon": "semirifle",
+  "status": "main-game-experimental",
+  "playable": true,
+  "nativeReady": false,
+  "inventoryEnabled": true,
+  "slot": 8,
+  "model": "/assets/s5runtime/weapon-semi-rifle-classic.json",
+  "animations": "/assets/s5runtime/animations/semi-rifle/{sex}.json",
+  "effects": "/assets/s5runtime/effects/semi-rifle/runtime.json",
+  "sharedDependencies": [
+    "Revolver gun_hit4/gun_hit models and textures"
+  ],
+  "validation": {
+    "tests": "work/semi-rifle-restoration/regressions.tap",
+    "build": "work/semi-rifle-restoration/build.log",
+    "visual": [
+      "male/female idle, walking, firing",
+      "female mobile reload, contact, zoom",
+      "inventory switch Revolver to Semi Rifle"
+    ],
+    "contactAt04s": {
+      "hp": 84.1,
+      "ammo": 26,
+      "shots": 4,
+      "reaction": null,
+      "enemyLocked": false
+    }
+  },
+  "remainingNativeWork": [
+    "Gun_Dummy stow/equip timing and aerial states",
+    "Quantitative native attachment and VFX timing comparison",
+    "Pattern regression interpolation and critical hit volumes",
+    "RayDistanceLimit unresolved: training cap 144 units chosen at final falloff distance",
+    "EU power 5.3 selected; XBN 5.5 precedence unresolved"
+  ],
+  "bulletTracer": {
+    "status": "integrated-user-requested",
+    "module": "src/bullet-tracers.js",
+    "source": "procedural presentation; not native certified",
+    "trajectory": "post-mixer muzzle to the same resolved contact as damage",
+    "validation": "tests/bullet-tracers.test.mjs and main-game trajectory screenshots"
+  },
+  "dispersion": {
+    "status": "native-pattern-integrated-recovery-provisional",
+    "points": 4,
+    "module": "src/rifle-dispersion.js",
+    "recoverySeconds": 0.5,
+    "nativeRegressionCertified": false,
+    "accuracySemanticsCertified": false,
+    "tests": "tests/rifle-dispersion.test.mjs"
+  }
+}

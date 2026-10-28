@@ -1,0 +1,5944 @@
+{
+  "format": "s5-rocket-launcher-restored-resources-v1",
+  "status": "main-game-experimental-native-comparison-pending",
+  "itemKey": 2020010,
+  "sourceContract": "work/rocket-launcher-recovery/source-contract.json",
+  "sourceContractSha256": "19629a327e308e9c8fed67bba2b5e46db5abbbb6ffa129c2e31e65c3b1e4e719",
+  "animations": [
+    {
+      "sex": "male",
+      "clips": [
+        {
+          "name": "RL014",
+          "tracks": 41,
+          "durationTicks": 8000
+        },
+        {
+          "name": "RL004",
+          "tracks": 44,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL005",
+          "tracks": 44,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL006",
+          "tracks": 44,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL007",
+          "tracks": 44,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL008",
+          "tracks": 44,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL009",
+          "tracks": 44,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL010",
+          "tracks": 44,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL011",
+          "tracks": 44,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL002",
+          "tracks": 44,
+          "durationTicks": 9600
+        },
+        {
+          "name": "RL000",
+          "tracks": 41,
+          "durationTicks": 8000
+        },
+        {
+          "name": "RL001",
+          "tracks": 41,
+          "durationTicks": 8000
+        },
+        {
+          "name": "RL003",
+          "tracks": 41,
+          "durationTicks": 8000
+        },
+        {
+          "name": "RL020",
+          "tracks": 41,
+          "durationTicks": 9600
+        },
+        {
+          "name": "RL021",
+          "tracks": 44,
+          "durationTicks": 9600
+        },
+        {
+          "name": "RL023",
+          "tracks": 41,
+          "durationTicks": 9600
+        },
+        {
+          "name": "RL030",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL031",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL033",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL040",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL041",
+          "tracks": 44,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL043",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL024",
+          "tracks": 43,
+          "durationTicks": 14400
+        }
+      ],
+      "sourceAliases": [
+        {
+          "bone": "Bip01",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Footsteps",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L ForeTwist",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R ForeTwist",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        }
+      ],
+      "runProof": {
+        "rootBone": "Bip01",
+        "calibration": {
+          "frontClip": "RL004",
+          "rightClip": "RL008",
+          "minimumAlignment": 0.7,
+          "handedness": -1
+        },
+        "directions": {
+          "front": {
+            "clip": "RL004",
+            "rootFacing": [
+              0.996707,
+              0.081089
+            ],
+            "relativeProjection": [
+              1,
+              0
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "rightFront": {
+            "clip": "RL007",
+            "rootFacing": [
+              0.762116,
+              -0.64744
+            ],
+            "relativeProjection": [
+              0.707107,
+              0.707107
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "right": {
+            "clip": "RL008",
+            "rootFacing": [
+              0.081089,
+              -0.996707
+            ],
+            "relativeProjection": [
+              0,
+              1
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "rightBack": {
+            "clip": "RL011",
+            "rootFacing": [
+              -0.64744,
+              -0.762116
+            ],
+            "relativeProjection": [
+              -0.707107,
+              0.707107
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "back": {
+            "clip": "RL009",
+            "rootFacing": [
+              -0.996707,
+              -0.081089
+            ],
+            "relativeProjection": [
+              -1,
+              0
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "leftBack": {
+            "clip": "RL010",
+            "rootFacing": [
+              -0.762117,
+              0.64744
+            ],
+            "relativeProjection": [
+              -0.707107,
+              -0.707107
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "left": {
+            "clip": "RL006",
+            "rootFacing": [
+              -0.081088,
+              0.996707
+            ],
+            "relativeProjection": [
+              0,
+              -1
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "leftFront": {
+            "clip": "RL005",
+            "rootFacing": [
+              0.64744,
+              0.762116
+            ],
+            "relativeProjection": [
+              0.707107,
+              -0.707106
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          }
+        }
+      }
+    },
+    {
+      "sex": "female",
+      "clips": [
+        {
+          "name": "RL014",
+          "tracks": 54,
+          "durationTicks": 8000
+        },
+        {
+          "name": "RL004",
+          "tracks": 43,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL005",
+          "tracks": 43,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL006",
+          "tracks": 43,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL007",
+          "tracks": 43,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL008",
+          "tracks": 43,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL009",
+          "tracks": 43,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL010",
+          "tracks": 43,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL011",
+          "tracks": 43,
+          "durationTicks": 3200
+        },
+        {
+          "name": "RL002",
+          "tracks": 44,
+          "durationTicks": 9600
+        },
+        {
+          "name": "RL000",
+          "tracks": 41,
+          "durationTicks": 8000
+        },
+        {
+          "name": "RL001",
+          "tracks": 41,
+          "durationTicks": 8000
+        },
+        {
+          "name": "RL003",
+          "tracks": 41,
+          "durationTicks": 8000
+        },
+        {
+          "name": "RL020",
+          "tracks": 41,
+          "durationTicks": 9600
+        },
+        {
+          "name": "RL021",
+          "tracks": 44,
+          "durationTicks": 9600
+        },
+        {
+          "name": "RL023",
+          "tracks": 41,
+          "durationTicks": 9600
+        },
+        {
+          "name": "RL030",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL031",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL033",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL040",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL041",
+          "tracks": 44,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL043",
+          "tracks": 41,
+          "durationTicks": 0
+        },
+        {
+          "name": "RL024",
+          "tracks": 43,
+          "durationTicks": 14400
+        }
+      ],
+      "sourceAliases": [
+        {
+          "bone": "Bip01",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Footsteps",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Pelvis",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Thigh",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Calf",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Foot",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Toe0",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Thigh",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Calf",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Foot",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Toe0",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine1",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Spine2",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Neck",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 Head",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Clavicle",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L UpperArm",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Forearm",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Hand",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger0",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger01",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger02",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger1",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger11",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger12",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger2",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger21",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L Finger22",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 L ForeTwist",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Clavicle",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R UpperArm",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Forearm",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Hand",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger0",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger01",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger02",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger1",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger11",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger12",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger2",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger21",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL030",
+          "chain": [
+            {
+              "clip": "RL030",
+              "target": "RL000"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL031",
+          "chain": [
+            {
+              "clip": "RL031",
+              "target": "RL001"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL033",
+          "chain": [
+            {
+              "clip": "RL033",
+              "target": "RL003"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL040",
+          "chain": [
+            {
+              "clip": "RL040",
+              "target": "RL020"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R Finger22",
+          "clip": "RL043",
+          "chain": [
+            {
+              "clip": "RL043",
+              "target": "RL023"
+            }
+          ]
+        },
+        {
+          "bone": "Bip01 R ForeTwist",
+          "clip": "RL041",
+          "chain": [
+            {
+              "clip": "RL041",
+              "target": "RL021"
+            }
+          ]
+        }
+      ],
+      "runProof": {
+        "rootBone": "Bip01",
+        "calibration": {
+          "frontClip": "RL004",
+          "rightClip": "RL008",
+          "minimumAlignment": 0.7,
+          "handedness": -1
+        },
+        "directions": {
+          "front": {
+            "clip": "RL004",
+            "rootFacing": [
+              0.996707,
+              0.081089
+            ],
+            "relativeProjection": [
+              1,
+              0
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "rightFront": {
+            "clip": "RL007",
+            "rootFacing": [
+              0.815645,
+              -0.578553
+            ],
+            "relativeProjection": [
+              0.766044,
+              0.642788
+            ],
+            "alignment": 0.996195,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "right": {
+            "clip": "RL008",
+            "rootFacing": [
+              0.081089,
+              -0.996707
+            ],
+            "relativeProjection": [
+              0,
+              1
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "rightBack": {
+            "clip": "RL011",
+            "rootFacing": [
+              -0.711399,
+              -0.702789
+            ],
+            "relativeProjection": [
+              -0.766044,
+              0.642788
+            ],
+            "alignment": 0.996195,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "back": {
+            "clip": "RL009",
+            "rootFacing": [
+              -0.996707,
+              -0.081089
+            ],
+            "relativeProjection": [
+              -1,
+              0
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "leftBack": {
+            "clip": "RL010",
+            "rootFacing": [
+              -0.815645,
+              0.578553
+            ],
+            "relativeProjection": [
+              -0.766044,
+              -0.642788
+            ],
+            "alignment": 0.996195,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "left": {
+            "clip": "RL006",
+            "rootFacing": [
+              -0.081089,
+              0.996707
+            ],
+            "relativeProjection": [
+              0,
+              -1
+            ],
+            "alignment": 1,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          },
+          "leftFront": {
+            "clip": "RL005",
+            "rootFacing": [
+              0.711399,
+              0.702789
+            ],
+            "relativeProjection": [
+              0.766045,
+              -0.642787
+            ],
+            "alignment": 0.996195,
+            "moveBoxDisplacement": null,
+            "moveBoxAlignment": null
+          }
+        }
+      }
+    }
+  ],
+  "storage": {
+    "existingBaseRig": [
+      "00008",
+      "00009",
+      "00010",
+      "00011",
+      "00012",
+      "00013",
+      "00014",
+      "00015"
+    ],
+    "proofs": [
+      {
+        "sex": "male",
+        "source": "model/character/male_bip.scn",
+        "sourceSha256": "d9953bde346c6b242e8d45d4ea885a581203c3999a78ab13d60aa7ea3997dba5",
+        "rigSha256": "6a036085f82022f3d3da3a93d65be05338d45d784ebf9ec7e9e00ed500be612a",
+        "clips": [
+          "00008",
+          "00009",
+          "00010",
+          "00011",
+          "00012",
+          "00013",
+          "00014",
+          "00015"
+        ],
+        "tracks": 472,
+        "maxTrackDelta": 0.000007080078120225153,
+        "tolerance": 0.00002
+      },
+      {
+        "sex": "female",
+        "source": "model/character/female_bip.scn",
+        "sourceSha256": "98caac4c4f8ee8900a9b28b050e7900fbb8c4c1b65a5f968a20110ae7653d465",
+        "rigSha256": "222a2f065fbdfcb8c333ed96e281b4e37ac3d631851224ee7914096e432cd4a5",
+        "clips": [
+          "00008",
+          "00009",
+          "00010",
+          "00011",
+          "00012",
+          "00013",
+          "00014",
+          "00015"
+        ],
+        "tracks": 512,
+        "maxTrackDelta": 0.000007543945315546807,
+        "tolerance": 0.00002
+      }
+    ]
+  },
+  "resources": [
+    {
+      "source": "effects/eff_bat_wind2.dds",
+      "sourceBytes": 22000,
+      "sourceSha256": "aa2f977f00d52ea606b1d909104b822561b98ca786fc58741815a605f5c39264",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/eff_bat_wind2.png",
+      "bytes": 12658,
+      "sha256": "db44e41aad74a9196975dc9a28c7c701ed3299f0031eba0d91fa222cf2730d8e",
+      "width": 128,
+      "height": 128,
+      "format": "DXT3"
+    },
+    {
+      "source": "effects/levelup5_nomipmap.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "d0db22c760c30a2610c8a9812cdef72e88cf9d24c32a0bdde916394a96602ef4",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/levelup5_nomipmap.png",
+      "bytes": 26244,
+      "sha256": "45a1ea9b5eabbd360b40c8f7b163af1b3032a81132dda25baffd6339a98120e8",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/smoke4.dds",
+      "sourceBytes": 87508,
+      "sourceSha256": "9df942208ecfca2f6d6f28d10cfe813007d660f8493e567c8a2d5c7b948721c8",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/smoke4.png",
+      "bytes": 5008,
+      "sha256": "05a32cf0c60153f7725f47e43b89919946100c44f11eae921499ea890cf9423a",
+      "width": 128,
+      "height": 128,
+      "format": "RGBA32"
+    },
+    {
+      "source": "effects/wave1.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "d325712d0ca00e5ceb19f509e3db76c065e5d44eade7383b85cd708eded4c86e",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/wave1.png",
+      "bytes": 42929,
+      "sha256": "7caed1e3dc1fd8f036bd42e9559bed535c603d78869b792ca122db7ee4695f96",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/rocket launcher_u.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "48a12b6e109ee7a8c88873dc1e5a3c4b53b0afb7efdfdfcdb72951ee15a3bf3e",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/rocket launcher_u.png",
+      "bytes": 43881,
+      "sha256": "099ee7106cbc8283742ed5d68acc9625b8c0ca747915b2820ad647c811113fbc",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/flash2.dds",
+      "sourceBytes": 11064,
+      "sourceSha256": "1fcb656be6c673a88a30dab37329a7f1226326b753242cabe1a72813a368925e",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/flash2.png",
+      "bytes": 10101,
+      "sha256": "0de8afb30016a281e23113462317a20993390862d3b60acdf8538a4ce7bf2fc0",
+      "width": 128,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/flame.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "d8dcade6ba78170fb844f0db16a129518850efd50ccc41b27ab7a02ded85ae3b",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/flame.png",
+      "bytes": 32442,
+      "sha256": "8dbf71c51fbff8a9a2ff8cbac6843c9ba1f6902ec2d8a1475ae77538bf57e151",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/pve_splinter.dds",
+      "sourceBytes": 1520,
+      "sourceSha256": "f3d6ef0d01c35e903c34767fb8734c2a008e32642a31f9ea176e30f3654f3e74",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/pve_splinter.png",
+      "bytes": 831,
+      "sha256": "3d02a66aabd69f0a26c324cb2da4ad5f88a2729e67f978ab462611f067f62c02",
+      "width": 32,
+      "height": 32,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/line1.dds",
+      "sourceBytes": 1512,
+      "sourceSha256": "2d2ea10de9288ed91ed81df0550a4e953337f7af71d7367be367099afcbb1266",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/line1.png",
+      "bytes": 1212,
+      "sha256": "45e2bdc28b37957d3599fbf3ed50089501d790707c48363b888c971a78cdc6c1",
+      "width": 64,
+      "height": 32,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/pve_splinter_03.dds",
+      "sourceBytes": 1520,
+      "sourceSha256": "e6693fdb6779ada1ce7dc03c80bf5faf01a9c503044906b8004a721443a08891",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/pve_splinter_03.png",
+      "bytes": 718,
+      "sha256": "ca463bc4528e17da78a7ecd58a3deaa04642aa082273a5d08e0b5760f9fb49dd",
+      "width": 32,
+      "height": 32,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/tick.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "1a4c478aab88bf3ccfd47e4e513bfa25fe6978a456705f78d76b4957163aca1f",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/tick.png",
+      "bytes": 1831,
+      "sha256": "b193c5abe53662185c26abee065200c4f4878846a96c75ee34f2afb9751eefca",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/skill_templar_scheaven1r_nomipmap.dds",
+      "sourceBytes": 21992,
+      "sourceSha256": "3353803aa31490228ec972e45e8a5c67e267b6eb79f7a0a8a76a7b0056c69ea2",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/skill_templar_scheaven1r_nomipmap.png",
+      "bytes": 7723,
+      "sha256": "1097eb1c0e12b101ac194abd882d868dda9e51b974fb1d6e7febc4aa6fe18e06",
+      "width": 128,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/gazer03_1.dds",
+      "sourceBytes": 11080,
+      "sourceSha256": "9c6b40579c0c3a6563c45aa32c98ad6d89ca0457ed2f759c706151e58c6d2580",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/gazer03_1.png",
+      "bytes": 4508,
+      "sha256": "a291b9d5dfd01f030f186d2a40f8b8fe8dbe0ba89abb5257ad8eaf55da499d9e",
+      "width": 64,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/tick3.dds",
+      "sourceBytes": 2872,
+      "sourceSha256": "51981ada47ced4529963901d57482ceb91197cc8ee120eb7be03c3b0bd7619e4",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/tick3.png",
+      "bytes": 1820,
+      "sha256": "5edbe05dfd80048421991ea875aeb9a7de96dadd84c753cb2f0e1f6c9996d00a",
+      "width": 64,
+      "height": 64,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/d100_st_boss_fog01.dds",
+      "sourceBytes": 22000,
+      "sourceSha256": "4135e246ef563ee857580741dd1ad71ce894a9a4291f1afed8f5b3ea2544342d",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/d100_st_boss_fog01.png",
+      "bytes": 14394,
+      "sha256": "60e5354c020d766c330b5b524b90879fe79d3b1aec81273d4cb0e65b764ef706",
+      "width": 128,
+      "height": 128,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/envmaprail.dds",
+      "sourceBytes": 5616,
+      "sourceSha256": "cd639e9ba72c49981642ec4417d71718116be8a81b8ee3a73fd28f23aa1f5609",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/envmaprail.png",
+      "bytes": 5055,
+      "sha256": "ed5b96c1e0419c2f20f08a6e6d3e9dd7ee9dfb459ddc08d5dd5092019e0e5509",
+      "width": 64,
+      "height": 64,
+      "format": "DXT3"
+    },
+    {
+      "source": "effects/ringing_d100.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "4bd6993be389c92a6a6e1332888552a671de494a5518fca6c24c228585344746",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/ringing_d100.png",
+      "bytes": 13850,
+      "sha256": "7d1d0a80eb3b2f6a602e4446e3e39679aa0a7dbd44305028a788cbfc298e0556",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "model/weapon/rocket launcher.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "92e95d423f03aeb2c25245f7140feabba8b352c80d4cb9113000f6abcf346cac",
+      "path": "/assets/s5runtime/weapons/rocket-launcher/rocket launcher.png",
+      "bytes": 36154,
+      "sha256": "057d309d093b9cf308061bdcbea4d520b8dbaba53693941768398cb01d30120d",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/blaster1.dds",
+      "sourceBytes": 21992,
+      "sourceSha256": "30b7656ff0253aa57c0387038c02b455b8cb40ae6eafbd189c90a1c5cf7ce86b",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/blaster1.png",
+      "bytes": 16299,
+      "sha256": "b6d33b562814f9ee521c3be5c24df024194da9320ec38cdc7a828d4caf1d6aca",
+      "width": 256,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/enemy_res4_nomipmap.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "276cbcd1966da1b7b9eb900a1392e8607625af0912f15a46506936077fed15ac",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/enemy_res4_nomipmap.png",
+      "bytes": 26989,
+      "sha256": "e5024e57e1ab1467d2c787df7ab5417f1a1a68a7a751a2a94594443cd0cc026d",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/particle1a.dds",
+      "sourceBytes": 43832,
+      "sourceSha256": "bb744328ddab94b9998acee375d5c51badcf9c85b475fd459efc28058b97ec24",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/particle1a.png",
+      "bytes": 20326,
+      "sha256": "dc2b076c462a2b9e9f2556b05a17899e6c791fce48d968c5f6f2d3b22970c461",
+      "width": 256,
+      "height": 256,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/smoke.dds",
+      "sourceBytes": 22000,
+      "sourceSha256": "6c7ba56fbc44dbd4fd19564579ef2e71d5716c312f8f3b0d58b34edd1f9f8837",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/smoke.png",
+      "bytes": 13183,
+      "sha256": "e68e85714a027e58f48660e716f520b19b7d5d293f045e87a713e100ac0cd8ab",
+      "width": 128,
+      "height": 128,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/launch_flash3a_red.dds",
+      "sourceBytes": 11064,
+      "sourceSha256": "fe3adcb8c0316103cd7beb88e552647abc2b05af60fbd55c3630144f841a7dc0",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/launch_flash3a_red.png",
+      "bytes": 8306,
+      "sha256": "bb5eff78c9e2114ef17317cb8932dea2aa3421fd78156ac40a98b1f0e64fb044",
+      "width": 128,
+      "height": 128,
+      "format": "DXT1"
+    },
+    {
+      "source": "effects/pve_splinter_02.dds",
+      "sourceBytes": 1520,
+      "sourceSha256": "1175e7b3adba80f8b410be7bc83ce8fdd20d342ca52abd444563def0c488c481",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/pve_splinter_02.png",
+      "bytes": 476,
+      "sha256": "7d5a98f17fcf1218ac38deae3048693b717b39a03240ebcaa0a52f43e59b831c",
+      "width": 32,
+      "height": 32,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/pve_splinter01.dds",
+      "sourceBytes": 1520,
+      "sourceSha256": "dce8e7cbfdd5158ac031f35945211dd4d8887294b258c6cd39e040176d1dd965",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/pve_splinter01.png",
+      "bytes": 1135,
+      "sha256": "abe7cc48d1348173ca1b63fa1ba22e0fd513d2d41fb7e917657ce46dc9fd8cb9",
+      "width": 32,
+      "height": 32,
+      "format": "DXT5"
+    },
+    {
+      "source": "effects/pve_splinter_04.dds",
+      "sourceBytes": 1520,
+      "sourceSha256": "9a484ba97ba64ab36d3ed5b9f5c0df16670783ac21cc86c1831c15828afadfa5",
+      "path": "/assets/s5runtime/effects/rocket-launcher/textures/pve_splinter_04.png",
+      "bytes": 1050,
+      "sha256": "00cc868d0ee696fdb41b39e0c6c8d8e1450bea187a91a630257dce3d28418754",
+      "width": 32,
+      "height": 32,
+      "format": "DXT5"
+    },
+    {
+      "path": "/assets/s5runtime/weapon-rocket-launcher-classic.json",
+      "sha256": "0b0a2174adec84afd094c64880fbf0dfdf840525cb19c7455065fa1264ea6f5d",
+      "bytes": 824147
+    },
+    {
+      "path": "/assets/s5runtime/sound/rocket-launcher/rocket_load.ogg",
+      "sha256": "e2d61a99507a7d4a38b1f20ffab7789d0603d6fb9afb7dd11ea89f2a32c28035",
+      "bytes": 31308
+    },
+    {
+      "path": "/assets/s5runtime/sound/rocket-launcher/rocket_bomb.ogg",
+      "sha256": "1d34014dc3a72913e528630e8c9cd7b3f5ebb34a7a85ae663cdce2e89ba392f0",
+      "bytes": 28453
+    },
+    {
+      "path": "/assets/s5runtime/sound/rocket-launcher/rocket_charge.ogg",
+      "sha256": "74f1a0dbec235f7f83a30737b1dc00ec3b316cf78a71c290c154eb1caa320ab4",
+      "bytes": 56407
+    },
+    {
+      "path": "/assets/s5runtime/sound/rocket-launcher/rocket_launch.ogg",
+      "sha256": "976a41000938da800f6cf3956138236c901dd5dec230c959d42ebc5c5d6bed0e",
+      "bytes": 47971
+    },
+    {
+      "path": "/assets/s5runtime/sound/rocket-launcher/airgun_charge_complete.ogg",
+      "sha256": "a67ef94d3443e8455941f06d80f7b4c28f787cc259e82af4e6d4396f6cb409c1",
+      "bytes": 30827
+    },
+    {
+      "path": "/assets/s5runtime/sound/rocket-launcher/rocket_flying.ogg",
+      "sha256": "3beabe0a3868947555e684205d8a1d4c98cb89e443b95af60bd52576afcce95e",
+      "bytes": 49838
+    },
+    {
+      "path": "/assets/s5runtime/sound/rocket-launcher/rocket_reload_normal.ogg",
+      "sha256": "a9489ab77a6f752007f7954164689b1b82f839963cefc20bc1bd6a6dec21ab98",
+      "bytes": 18931
+    },
+    {
+      "path": "/assets/s5runtime/animations/rocket-launcher/male.json",
+      "sha256": "36b48d75cd00ed5f6a8626e5c92bc30de33bc2227d7d09fe24178c90c163be51",
+      "bytes": 5354762
+    },
+    {
+      "path": "/assets/s5runtime/animations/rocket-launcher/female.json",
+      "sha256": "a06630d7700996b177f5e53b684c640c36a89905f8191f6b0af5df1894105fa0",
+      "bytes": 5360504
+    },
+    {
+      "path": "/assets/s5runtime/effects/rocket-launcher/models/skill_gunner_elecbomb_part3.json",
+      "sha256": "477098314f7f015075a6d3ee02a0c1ba60546d5be8b9634a09db1c3ac22041a3",
+      "bytes": 368995
+    },
+    {
+      "path": "/assets/s5runtime/effects/rocket-launcher/models/weapon_rocket_l_u_head_01.json",
+      "sha256": "0a57816fce9250ef9e8311b84278621f28f62c3a83b817c4264797b0e0b2df21",
+      "bytes": 128208
+    },
+    {
+      "path": "/assets/s5runtime/effects/rocket-launcher/sequences/weapon_rl_rail.json",
+      "sha256": "cbb0e98032695f8991ffff87a5e9bbdee7b1695c632603b5e8a13b0e1509bd1c",
+      "bytes": 38308
+    },
+    {
+      "path": "/assets/s5runtime/effects/rocket-launcher/sequences/weapon_rl_smog.json",
+      "sha256": "850d2ab1c7e37a46e4c1eaf91cd11ecf45484e500c2d676efdf71a6232464fea",
+      "bytes": 6872
+    },
+    {
+      "path": "/assets/s5runtime/effects/rocket-launcher/sequences/weapon_rocket_l_u_head_01.json",
+      "sha256": "d8c5add3e3b00855e56c2c1e27ea1c706b05666d0fe1befce2c734777ad20bde",
+      "bytes": 23008
+    },
+    {
+      "path": "/assets/s5runtime/effects/rocket-launcher/sequences/weapon_rl_ex.json",
+      "sha256": "0a987737858ca300a73d02b9cdc911c70a2b4b44d02e29a4650954d9a626505b",
+      "bytes": 73964
+    },
+    {
+      "path": "/assets/s5runtime/effects/rocket-launcher/runtime.json",
+      "sha256": "98e72a834225c80217f08a92110b2944c7f810a7bd8b0aed905e95bd7fbe0949",
+      "bytes": 21585
+    }
+  ],
+  "unresolved": [],
+  "nativeGameplayVerified": false,
+  "runtime": {
+    "weapon": "rocketlauncher",
+    "adapter": "src/rocket-launcher-runtime.js",
+    "projectiles": "src/rocket-launcher-projectiles.js",
+    "effects": "src/rocket-launcher-effects.js",
+    "tests": "tests/rocket-launcher-gameplay.test.mjs",
+    "inventoryEnabled": true,
+    "shortcut": "K",
+    "parameters": {
+      "primarySpeed": 45,
+      "secondarySpeed": 27,
+      "lifetimeMs": 5000,
+      "boundRadius": 0.096,
+      "explosionRadius": 3,
+      "whirlRate": 4,
+      "whirlRadius": 1.8,
+      "spreadMs": 500
+    },
+    "reconstruction": {
+      "trajectory": "Native F61210 float32 center/phase/spread update and camera-up offsets; launch-center and terrain/actor collision fidelity pending",
+      "damage": "Native573B60 probability gate and mean-uniform bonus rolled once per explosion, before distance tiers; catalogue power48 retained. Native logical power/equipment/critical/armor/HP and global CRT seed/interleaving remain pending",
+      "collision": "Source16-unit bound radius and native free-travel margin with S5 swept sphere; arena target boxes and center occlusion; native sensing100/actor geometry pending",
+      "push": "Native float32 Push integrator; actor gates/direction policy pending"
+    },
+    "remainingNativeWork": [
+      "Native probability/mean-uniform bonus is ported and48 isolated machine-code cases compare. Full logical source power/equipment/critical/armor/HP and global CRT seed/interleaving remain unverified; catalogue power48 is still assumed.",
+      "Native initial projectile center, full spread/lifetime, sensing100 and terrain/actor contacts remain unverified;22 early free-flight steps and84 DLL rotations are compared in native-motion-comparison.json.",
+      "CActGhostTrail is routed through source Shape, animated hierarchy and native sampling formulas. Native constructors prove identity local pose and zero history; evaluated matrix, reset/external controller, sequence clock and full GPU comparison remain pending. Other recovered head/muzzle/charge/impact nodes are routed; native VFX/audio dimensions, timing and listening remain pending.",
+      "Both-sex actual native body clip selections, eight directions, mobile reload and input interruptions need comparison.",
+      "Partial root-to-hand matrix comparison does not certify all visible vertices or complete attachment states."
+    ],
+    "motion": "src/native-rocket-motion.js",
+    "motionEvidence": "work/rocket-launcher-recovery/native-motion-comparison.json",
+    "randomDamage": "src/native-attack-random.js",
+    "randomEvidence": "work/rocket-launcher-recovery/native-damage/random-comparison.json",
+    "trail": "src/rocket-launcher-trail.js",
+    "trailEvidence": "work/rocket-launcher-recovery/trail-agent/native-initialization/audit.json"
+  }
+}
