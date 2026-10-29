@@ -92,6 +92,7 @@ import {PoseBuffer} from './pose-buffer.js';
 import {presentationFacing,setAvatarFacing} from './view-orientation.js';
 import {ThirdPersonCamera,CAMERA_FRAMING,FOLLOW_CAMERA,clampCameraPitch} from './camera-rig.js';
 import {setNormalFov} from './camera-fov.js';
+import {createFollowShadow} from './follow-shadow.js';
 import {updateSprintFov} from './sprint-camera.js';
 import {WallContactEffect} from './wall-contact-effect.js';
 import {DashEffect} from './dash-effect.js';
@@ -242,6 +243,7 @@ const cannonadeCamera=createCannonadeCameraState();
 scene.add(new THREE.HemisphereLight(0xe5f5ff,0x7183a2,1.35));
 const sun=new THREE.DirectionalLight(0xfff0d4,2.1);sun.position.set(-15,30,20);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);
 Object.assign(sun.shadow.camera,{left:-28,right:28,top:30,bottom:-28,near:1,far:90});sun.shadow.normalBias=.025;scene.add(sun);
+const followShadow=createFollowShadow(sun);
 const qaParams=new URLSearchParams(location.search),qaScenario=qaParams.get('qa');
 let effectStorage=null;try{effectStorage=localStorage;}catch{}
 const weaponEffectSettings=createWeaponEffectSettings({storage:effectStorage,overrides:qaParams.get('vfx')??''});
@@ -430,6 +432,8 @@ function activatePresentation(key){
   entry.lighting=captureLighting();entry.surface=captureMapSurface(scene);
  }else world.resumePresentation?.();
  restoreLighting(entry.lighting);graphicsPresentation=entry.presentation;
+ // Station 2 bakes its scenery shadow for one fixed sun box; others follow the view.
+ followShadow.enabled=key!=='station2-modular';
  applyShadowBudget(renderer,sun,renderQuality,shadowsEnabled);graphicsPresentation.setQuality?.(renderQuality);
  graphicsPresentation.resize(innerWidth,innerHeight);camera.far=world.cameraFar||200;camera.updateProjectionMatrix();
 }
@@ -1807,6 +1811,7 @@ function frame(now){
   // Continue simulation/pose evaluation above so returning to play is immediate.
   // In-game Settings sits over the live match: keep drawing it (FOV preview).
   if($('welcome').hidden||!$('welcome').classList.contains('s5-entry-host')||document.body.classList.contains('ingame-settings')){
+   followShadow.update(avatar?.group.position??controller.position,cameraDirector.free?null:yaw);
    world.renderMapObjects?.(camera);graphicsPresentation.render();
    if(!escapeMenu.opened&&!roomResults?.opened){katanaScreenEffects?.render(renderer);chaserHudEffects?.render(renderer);s4TeamModeEffects?.render(renderer);if(gameMode==='captain')match?.ui.render(renderer);}
    roomResults?.render(renderer);
