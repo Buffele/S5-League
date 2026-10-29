@@ -520,7 +520,7 @@ if(world.name){document.querySelector('.eyebrow').textContent=world.name+' / TRA
 const motionGraph=new MotionGraph();
 let locomotionSettings=null;
 {
- let saved='anime';try{saved=localStorage.getItem('air-dagger-sprint-style')||saved;}catch{}
+ let saved='classic';try{saved=localStorage.getItem('air-dagger-sprint-style')||saved;}catch{}
  motionGraph.sprintStyle=sprintStyle(qaParams.get('sprintStyle')||saved);
  const label=document.createElement('label');label.textContent='Sprint animation · F3';
  const select=document.createElement('select');select.id='sprint-style';select.setAttribute('aria-label','Sprint animation');

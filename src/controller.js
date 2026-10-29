@@ -386,6 +386,9 @@ export class Controller {
   }
   setS5RuntimeSkillDiagnosticContext(context=null){this.s5runtimeSkillDiagnosticContext=context?{...context}:null;}
   setNativeJumpDiagnosticContext(context=null){if(context?.enabled===true&&this.s5runtimeAnchoringBodyState)throw Error('Anchoring and Jump body routes require separate scenarios');this.nativeJumpDiagnosticContext=context?{...context}:null;this.nativeJumpDiagnosticFrame=null;this.nativeFrameTailDiagnosticFrame=null;}
+  // CActor::GetMoveSpeedMax: actor speed with weapon/mode rates, before any
+  // direction, landing or attack rate.
+  get moveSpeedMax(){return TUNING.walk*(this.modeModifiers?.moveFactor??1)*(this.weaponMoveRate/WEAPON_MOVE_RATES.dagger);}
   get weaponMoveRate(){return this.rifle?.profile?.moveSpeedRate??this.support?.profile?.moveSpeedRate??this.throwable?.profile?.moveSpeedRate??WEAPON_MOVE_RATES[this.weapon];}
   // Explicit S5 host policy: a non-idle weapon runtime owns an action.
   // Native body eligibility and independently transferred projectiles differ.
