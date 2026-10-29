@@ -753,6 +753,9 @@ async function startWaitingRoomMatch(){
  }catch(error){roomLifecycle.startFailed(request.token);waitingRoom.show();waitingRoom.setMenuOpen(!$('welcome').hidden);throw error;}
  finally{roomStartRequest=false;}
 }
+// Lobby screen to return to when Settings closes.
+const SETTINGS_RETURN_ROUTES=['ready-lobby','equipment','preparation','room','motion'];
+let settingsReturnRoute='ready-lobby';
 const entryShell=installS5EntryShell({host:$('welcome'),menuLayout,onPlay:()=>$('play').click(),
  onSound:phase=>{void interfaceAudio.notify({kind:'s5-lobby-presentation',phase});},
  getLobbyContext:()=>({rosterKind:gameMode==='battleroyal'&&world.nativeMapId!==46?'individual':'teams',mode:world.nativeMapId===46?'Conquest · 8 waves':gameMode,sceneKey:$('scene-select').value,map:$('scene-select').selectedOptions[0]?.textContent||world.name||'Map',nativeMapId:world.nativeMapId??null,rules:($('practice-option').closest('label').hidden?$('match-option'):$('practice-option')).selectedOptions[0]?.textContent||'Default rules',team:$('team-select').selectedOptions[0]?.textContent||'—',controlLabels:[1,2,3].map(slot=>inputBindings.get('weapon'+slot).bindingLabel)}),
@@ -760,6 +763,7 @@ const entryShell=installS5EntryShell({host:$('welcome'),menuLayout,onPlay:()=>$(
  onRetry:retryEntryPlay,
  beforeNavigate({from,to}){
   inputSettings?.cancel();
+  if(to==='settings'&&SETTINGS_RETURN_ROUTES.includes(from))settingsReturnRoute=from;
   if(from==='equipment'&&to!=='equipment')cancelPendingWeapon('inventory-closed');
   if(from==='settings'&&to!=='settings'&&optionsTransaction?.snapshot().phase==='open')return optionsTransaction.cancel('s5-route-change');
   return {accepted:true};
@@ -999,8 +1003,9 @@ window.addEventListener('pagehide',event=>{
  const jukeboxOptions=createJukeboxOptionsPort({settings:jukeboxSettings});
  optionsTransaction=createOptionsTransaction({ports:[audioOptions.port,inputOptions.port,mouseOptions.port,jukeboxOptions.port],onClose(event){
   inputSettings?.cancel();
-  // S5 routing: explicit Confirm/Cancel returns to equipment; route departures keep their destination.
-  if(!event.reason?.startsWith('s5-'))menuLayout.show('loadout');
+  // Explicit Confirm/Close returns to the screen Settings was opened from
+  // ('loadout' was the legacy Prepare match panel); route departures keep theirs.
+  if(!event.reason?.startsWith('s5-'))menuLayout.show(settingsReturnRoute);
  }});
  inputOptions.attach(optionsTransaction);mouseOptions.attach(optionsTransaction);jukeboxOptions.attach(optionsTransaction);
  const nativeHost=document.createElement('div');nativeHost.id='input-settings';slot.append(nativeHost);
@@ -1019,7 +1024,7 @@ window.addEventListener('pagehide',event=>{
  const refresh=()=>{hint.textContent=gameInputHint(inputBindings);updateWeaponHud();inputSettings.sync();};
  inputBindings.subscribe(refresh);refresh();
  optionsPanelLifecycle=installOptionsPanelLifecycle({panel:document.querySelector('[data-panel="settings"]'),menuLayout,transaction:optionsTransaction,
-  observeRoot:$('welcome'),beforeClose:()=>inputSettings.cancel(),onBlocked(){menuLayout.show('loadout');toast('Settings unavailable.');}});
+  observeRoot:$('welcome'),beforeClose:()=>inputSettings.cancel(),returnRoute:()=>settingsReturnRoute,onBlocked(){menuLayout.show(settingsReturnRoute);toast('Settings unavailable.');}});
  document.querySelector('.menu-tabs').addEventListener('click',event=>{
   if(!event.target.closest('[data-tab]'))return;
   if(event.target.closest('[data-tab]').dataset.tab!=='settings')inputSettings.cancel();
